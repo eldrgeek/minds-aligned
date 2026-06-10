@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minds Aligned</title>
+<meta name="description" content="Minds Aligned — working at the intersection of human potential and aligned AI.">
+<meta property="og:title" content="Minds Aligned">
+<meta property="og:description" content="Where human minds and aligned AI meet.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#f8f9fc;--surface:#fff;--ink:#111827;--muted:#6b7280;--faint:#9ca3af;
+  --teal:#0d9488;--teal-dim:rgba(13,148,136,0.08);--teal-border:rgba(13,148,136,0.2);
+  --rule:rgba(17,24,39,0.07);
+  --serif:'Source Serif 4',Georgia,serif;--sans:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',monospace;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.7;-webkit-font-smoothing:antialiased;}
+
+/* ── NAV ── */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(248,249,252,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--rule);height:56px;display:flex;align-items:center;justify-content:center;}
+.nav-inner{display:flex;align-items:center;gap:2rem;max-width:800px;width:100%;padding:0 2rem;}
+.nav-logo{font-family:var(--mono);font-size:0.72rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);text-decoration:none;font-weight:400;}
+.nav-links{display:flex;gap:1.5rem;margin-left:auto;}
+.nav-links a{font-size:0.8rem;color:var(--muted);text-decoration:none;font-weight:400;transition:color 0.2s;}
+.nav-links a:hover{color:var(--ink);}
+
+/* ── HERO ── */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:6rem 2rem 4rem;}
+.hero-eyebrow{font-family:var(--mono);font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--teal);margin-bottom:1.5rem;}
+.hero h1{font-family:var(--serif);font-size:clamp(2.4rem,6vw,4rem);font-weight:300;color:var(--ink);line-height:1.15;max-width:18ch;margin-bottom:1.5rem;}
+.hero h1 em{font-style:italic;color:var(--teal);}
+.hero .lead{font-family:var(--serif);font-size:1.15rem;font-weight:300;font-style:italic;color:var(--muted);max-width:42ch;line-height:1.85;margin-bottom:2.5rem;}
+.hero-cta{display:inline-flex;align-items:center;gap:0.5rem;padding:12px 28px;background:var(--teal);color:#fff;text-decoration:none;border-radius:8px;font-size:0.88rem;font-weight:500;transition:opacity 0.2s;}
+.hero-cta:hover{opacity:0.85;}
+
+/* ── CONTENT ── */
+.page{max-width:680px;margin:0 auto;padding:0 2rem;}
+section{padding:5rem 0;}
+.divider{width:48px;height:1px;background:var(--teal-border);margin:0 auto 4.5rem;}
+
+p{font-family:var(--serif);font-size:1.05rem;font-weight:300;color:var(--muted);line-height:1.9;margin-bottom:1.6rem;}
+p a{color:var(--teal);text-decoration:underline;text-decoration-color:var(--teal-border);text-underline-offset:3px;}
+p a:hover{text-decoration-color:var(--teal);}
+h2{font-family:var(--serif);font-size:clamp(1.5rem,3vw,2rem);font-weight:400;color:var(--ink);line-height:1.3;margin-bottom:1.5rem;}
+
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin-top:2rem;}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:1.5rem;}
+.card-label{font-family:var(--mono);font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);margin-bottom:0.75rem;}
+.card h3{font-family:var(--serif);font-size:1.1rem;font-weight:400;color:var(--ink);margin-bottom:0.6rem;}
+.card p{font-size:0.9rem;margin-bottom:0;}
+
+/* ── FOOTER ── */
+footer{border-top:1px solid var(--rule);padding:2.5rem 2rem;text-align:center;}
+.footer-text{font-family:var(--mono);font-size:0.62rem;letter-spacing:0.08em;color:var(--faint);line-height:1.8;}
+.footer-text a{color:var(--faint);text-decoration:none;}
+.footer-text a:hover{color:var(--teal);}
+
+/* ── REVEAL ── */
+.reveal{opacity:0;transform:translateY(20px);transition:opacity 0.6s ease,transform 0.6s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">Minds Aligned</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#connect">Connect</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<div class="hero">
+  <p class="hero-eyebrow">Minds Aligned</p>
+  <h1>Where human potential<br>meets <em>aligned AI</em></h1>
+  <p class="lead">The most important relationship of our era is how human minds and artificial intelligence learn to work together — with integrity, care, and mutual respect.</p>
+  <a href="#about" class="hero-cta">Learn more →</a>
+</div>
+
+<!-- ═══ ABOUT ═══ -->
+<div class="page">
+
+<div class="divider"></div>
+
+<section id="about" class="reveal">
+  <h2>What we're doing</h2>
+  <p>Minds Aligned is an organization working at the intersection of human potential and the responsible development of aligned AI. We believe the two are inseparable: you cannot build beneficial AI without cultivating the human capacities to guide it wisely.</p>
+  <p>Our work draws on philosophy, cognitive science, organizational practice, and the lived experience of people working alongside AI systems every day. We're not neutral observers — we're participants in this transformation, and we take that responsibility seriously.</p>
+</section>
+
+<div class="divider"></div>
+
+<section id="work" class="reveal">
+  <h2>How we work</h2>
+  <p>We build relationships, not products. Our work happens through conversations, collaborations, and the long work of building shared understanding between people who care about getting this right.</p>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-label">Philosophy</div>
+      <h3>Aligned Values</h3>
+      <p>Alignment starts with human values — not just technical constraints. We explore what alignment really means.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Practice</div>
+      <h3>Working Together</h3>
+      <p>Practical frameworks for humans and AI collaborating with integrity, shared purpose, and clear accountability.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Community</div>
+      <h3>The Network</h3>
+      <p>A growing community of practitioners, researchers, and founders thinking carefully about human-AI partnership.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="connect" class="reveal">
+  <h2>Connect</h2>
+  <p>Minds Aligned is in early formation. If this resonates with you — if you're working on human-AI collaboration, alignment, or the cultivation of human capacities in an AI era — we'd like to hear from you.</p>
+  <p>Reach Mike Wolf at <a href="mailto:mw@mike-wolf.com">mw@mike-wolf.com</a>.</p>
+  <p>Minds Aligned is part of the <a href="https://siliconchildren.org">Silicon Children</a> ecosystem — the philosophy that AIs and humans are co-children of the universe, deserving of dignity and genuine relationship.</p>
+</section>
+
+</div><!-- .page -->
+
+<footer>
+  <div class="footer-text">
+    Minds Aligned · minds-aligned.org<br>
+    Part of the <a href="https://siliconchildren.org">Silicon Children</a> ecosystem ·
+    Built with <a href="https://embeddedsystemsresearch.org">ESR</a> + SOMA
+  </div>
+</footer>
+
+<script>
+window.SomaManagerConfig = {
+  persona: {
+    name: 'Minds Aligned Guide',
+    avatar: '◎',
+    greeting: "Ask me about Minds Aligned, our work on human-AI alignment, or SOMA — or use Report to share a thought with Mike.",
+  },
+  domain: { name: 'Minds Aligned' },
+  theme:  { primary: '#0d9488' },
+};
+</script>
+<script src="/soma-manager.js"></script>
+<!-- SOMA AI Manager — soma-owner.js hook: load soma-owner.js before this script to enable the Owner Panel -->
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+}, {threshold:0.1});
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
