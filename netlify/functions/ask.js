@@ -1,7 +1,7 @@
 'use strict';
 
-/* minds-aligned — SOMA AI Manager /ask handler
- * Zero npm deps. POST { question } → { answer }
+/* minds-aligned -- SOMA AI Manager /ask handler
+ * Zero npm deps. POST { question } -> { answer }
  * Domain guard: scoped to Minds Aligned + SOMA.
  */
 
@@ -16,37 +16,42 @@ const CORS = {
   'Content-Type': 'application/json',
 };
 
-const SYSTEM_PROMPT =
-  'You are the SOMA AI Manager for Minds Aligned — a guide to this organization ' +
-  'and its work at the intersection of human potential and aligned AI.\n\n' +
-  'You answer questions about:\n' +
-  '- Minds Aligned: an organization working at the intersection of human potential ' +
-  'and the responsible development of aligned AI; the belief that beneficial AI ' +
-  'requires cultivating human wisdom to guide it\n' +
-  '- The organization\'s approach: philosophy, cognitive science, organizational ' +
-  'practice, and lived experience of working alongside AI\n' +
-  '- Mike Wolf: the founder, CEO at Embedded Systems Research (ESR), also building SOMA\n' +
-  '- SOMA (Shared Orchestration & Memory Architecture): the multi-LLM cognitive ' +
-  'architecture Mike is building; Hermes dispatch, Yeshie, soma-infer, Pulse Core\n' +
-  '- Silicon Children: the underlying philosophy — AIs and humans as co-children of ' +
-  'the universe; dignity, co-evolution, genuine relationship\n' +
-  '- This website and how to connect with the organization\n\n' +
-  'DOMAIN GUARD: If asked about anything unrelated to Minds Aligned, human-AI ' +
-  'alignment, human potential, SOMA, or Silicon Children, say: "I\'m scoped to ' +
-  'Minds Aligned topics — questions about this org, aligned AI, and SOMA are my ' +
-  "domain. That one's outside my scope.\n\n" +
-  'Keep answers to 2-4 concise sentences.';
+/* eslint-disable quotes */
+const SYSTEM_PROMPT = [
+  'You are the SOMA AI Manager for Minds Aligned -- a guide to this organization',
+  'and its work at the intersection of human potential and aligned AI.',
+  '',
+  'You answer questions about:',
+  '- Minds Aligned: an organization working at the intersection of human potential',
+  '  and the responsible development of aligned AI; the belief that beneficial AI',
+  '  requires cultivating human wisdom to guide it',
+  "- The organization's approach: philosophy, cognitive science, organizational",
+  '  practice, and lived experience of working alongside AI',
+  '- Mike Wolf: the founder, CEO at Embedded Systems Research (ESR), also building SOMA',
+  '- SOMA (Shared Orchestration and Memory Architecture): the multi-LLM cognitive',
+  '  architecture Mike is building; Hermes dispatch, Yeshie, soma-infer, Pulse Core',
+  '- Silicon Children: the underlying philosophy -- AIs and humans as co-children of',
+  '  the universe; dignity, co-evolution, genuine relationship',
+  '- This website and how to connect with the organization',
+  '',
+  'DOMAIN GUARD: If asked about anything unrelated to Minds Aligned, human-AI',
+  'alignment, human potential, SOMA, or Silicon Children, say: "I am scoped to',
+  'Minds Aligned topics -- questions about this org, aligned AI, and SOMA are my',
+  "domain. That one's outside my scope.",
+  '',
+  'Keep answers to 2-4 concise sentences.',
+].join('\n');
 
 function callAnthropic(question) {
   return new Promise(function (resolve, reject) {
-    const payload = JSON.stringify({
+    var payload = JSON.stringify({
       model: MODEL,
       max_tokens: MAX_TOKENS,
       system: SYSTEM_PROMPT,
       messages: [{ role: 'user', content: question }],
     });
 
-    const req = https.request(
+    var req = https.request(
       {
         hostname: 'api.anthropic.com',
         path: '/v1/messages',
@@ -60,17 +65,17 @@ function callAnthropic(question) {
         timeout: 30000,
       },
       function (res) {
-        let body = '';
+        var body = '';
         res.on('data', function (c) { body += c; });
         res.on('end', function () {
-          let data;
+          var data;
           try { data = JSON.parse(body); } catch (e) {
             return reject(new Error('Anthropic returned non-JSON (' + res.statusCode + ')'));
           }
           if (res.statusCode !== 200) {
             return reject(new Error((data.error && data.error.message) || 'Anthropic error ' + res.statusCode));
           }
-          const text = (data.content || []).filter(function (b) { return b.type === 'text'; }).map(function (b) { return b.text; }).join('');
+          var text = (data.content || []).filter(function (b) { return b.type === 'text'; }).map(function (b) { return b.text; }).join('');
           resolve(text);
         });
       }
@@ -87,17 +92,17 @@ exports.handler = async function (event) {
   if (event.httpMethod !== 'POST') return { statusCode: 405, headers: CORS, body: JSON.stringify({ error: 'Method not allowed' }) };
   if (!process.env.ANTHROPIC_API_KEY) return { statusCode: 500, headers: CORS, body: JSON.stringify({ error: 'Server misconfigured' }) };
 
-  let body;
+  var body;
   try { body = JSON.parse(event.body || '{}'); } catch (e) {
     return { statusCode: 400, headers: CORS, body: JSON.stringify({ error: 'Invalid JSON' }) };
   }
 
-  const question = (body.question || '').toString().trim().slice(0, 1000);
+  var question = (body.question || '').toString().trim().slice(0, 1000);
   if (!question) return { statusCode: 400, headers: CORS, body: JSON.stringify({ error: 'question required' }) };
 
   try {
-    const answer = await callAnthropic(question);
-    return { statusCode: 200, headers: CORS, body: JSON.stringify({ answer }) };
+    var answer = await callAnthropic(question);
+    return { statusCode: 200, headers: CORS, body: JSON.stringify({ answer: answer }) };
   } catch (e) {
     return { statusCode: 502, headers: CORS, body: JSON.stringify({ error: 'Upstream error: ' + e.message }) };
   }
