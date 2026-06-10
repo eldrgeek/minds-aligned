@@ -34,7 +34,7 @@ const SYSTEM_PROMPT =
   'DOMAIN GUARD: If asked about anything unrelated to Minds Aligned, human-AI ' +
   'alignment, human potential, SOMA, or Silicon Children, say: "I\'m scoped to ' +
   'Minds Aligned topics — questions about this org, aligned AI, and SOMA are my ' +
-  "domain. That one's outside my scope."\n\n" +
+  "domain. That one's outside my scope.\n\n" +
   'Keep answers to 2-4 concise sentences.';
 
 function callAnthropic(question) {
