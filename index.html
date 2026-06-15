@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Minds Aligned</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta name="description" content="Minds Aligned — working at the intersection of human potential and aligned AI.">
 <meta property="og:title" content="Minds Aligned">
 <meta property="og:description" content="Where human minds and aligned AI meet.">
@@ -14,8 +15,8 @@
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
 :root{
-  --bg:#f8f9fc;--surface:#fff;--ink:#111827;--muted:#6b7280;--faint:#9ca3af;
-  --teal:#0d9488;--teal-dim:rgba(13,148,136,0.08);--teal-border:rgba(13,148,136,0.2);
+  --bg:#f8f9fc;--surface:#fff;--ink:#111827;--muted:#374151;--faint:#6b7280;
+  --teal:#0f766e;--teal-dim:rgba(15,118,110,0.08);--teal-border:rgba(15,118,110,0.2);
   --rule:rgba(17,24,39,0.07);
   --serif:'Source Serif 4',Georgia,serif;--sans:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',monospace;
 }
@@ -65,6 +66,15 @@ footer{border-top:1px solid var(--rule);padding:2.5rem 2rem;text-align:center;}
 .reveal{opacity:0;transform:translateY(20px);transition:opacity 0.6s ease,transform 0.6s ease;}
 .reveal.visible{opacity:1;transform:translateY(0);}
 </style>
+<!-- SOMA in-place editing -->
+<script src="https://soma-guide.netlify.app/soma-owner.js"></script>
+<script>
+window.SomaEditConfig = {
+  siteId: 'minds-aligned',
+  feedbackUrl: '/.netlify/functions/feedback',
+};
+</script>
+<script src="https://soma-guide.netlify.app/soma-edit.js"></script>
 </head>
 <body>
 
@@ -82,8 +92,8 @@ footer{border-top:1px solid var(--rule);padding:2.5rem 2rem;text-align:center;}
 <!-- ═══ HERO ═══ -->
 <div class="hero">
   <p class="hero-eyebrow">Minds Aligned</p>
-  <h1>Where human potential<br>meets <em>aligned AI</em></h1>
-  <p class="lead">The most important relationship of our era is how human minds and artificial intelligence learn to work together — with integrity, care, and mutual respect.</p>
+  <h1 data-soma-editable="hero-headline">Where human potential<br>meets <em>aligned AI</em></h1>
+  <p class="lead" data-soma-editable="hero-lead">The most important relationship of our era is how human minds and artificial intelligence learn to work together — with integrity, care, and mutual respect.</p>
   <a href="#about" class="hero-cta">Learn more →</a>
 </div>
 
@@ -93,16 +103,16 @@ footer{border-top:1px solid var(--rule);padding:2.5rem 2rem;text-align:center;}
 <div class="divider"></div>
 
 <section id="about" class="reveal">
-  <h2>What we're doing</h2>
-  <p>Minds Aligned is an organization working at the intersection of human potential and the responsible development of aligned AI. We believe the two are inseparable: you cannot build beneficial AI without cultivating the human capacities to guide it wisely.</p>
-  <p>Our work draws on philosophy, cognitive science, organizational practice, and the lived experience of people working alongside AI systems every day. We're not neutral observers — we're participants in this transformation, and we take that responsibility seriously.</p>
+  <h2 data-soma-editable="section-about">What we're doing</h2>
+  <p data-soma-editable="about-1">Minds Aligned is an organization working at the intersection of human potential and the responsible development of aligned AI. We believe the two are inseparable: you cannot build beneficial AI without cultivating the human capacities to guide it wisely.</p>
+  <p data-soma-editable="about-2">Our work draws on philosophy, cognitive science, organizational practice, and the lived experience of people working alongside AI systems every day. We're not neutral observers — we're participants in this transformation, and we take that responsibility seriously.</p>
 </section>
 
 <div class="divider"></div>
 
 <section id="work" class="reveal">
-  <h2>How we work</h2>
-  <p>We build relationships, not products. Our work happens through conversations, collaborations, and the long work of building shared understanding between people who care about getting this right.</p>
+  <h2 data-soma-editable="section-work">How we work</h2>
+  <p data-soma-editable="work-intro">We build relationships, not products. Our work happens through conversations, collaborations, and the long work of building shared understanding between people who care about getting this right.</p>
   <div class="card-grid">
     <div class="card">
       <div class="card-label">Philosophy</div>
@@ -125,8 +135,8 @@ footer{border-top:1px solid var(--rule);padding:2.5rem 2rem;text-align:center;}
 <div class="divider"></div>
 
 <section id="connect" class="reveal">
-  <h2>Connect</h2>
-  <p>Minds Aligned is in early formation. If this resonates with you — if you're working on human-AI collaboration, alignment, or the cultivation of human capacities in an AI era — we'd like to hear from you.</p>
+  <h2 data-soma-editable="section-connect">Connect</h2>
+  <p data-soma-editable="connect-1">Minds Aligned is in early formation. If this resonates with you — if you're working on human-AI collaboration, alignment, or the cultivation of human capacities in an AI era — we'd like to hear from you.</p>
   <p>Reach Mike Wolf at <a href="mailto:mw@mike-wolf.com">mw@mike-wolf.com</a>.</p>
   <p>Minds Aligned is part of the <a href="https://siliconchildren.org">Silicon Children</a> ecosystem — the philosophy that AIs and humans are co-children of the universe, deserving of dignity and genuine relationship.</p>
 </section>
