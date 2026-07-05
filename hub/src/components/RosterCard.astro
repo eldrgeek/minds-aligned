@@ -30,10 +30,8 @@ const isAnchor = thinker.tier === 'anchor';
   )}
 
   {thinker.subsiteUrl ? (
-    <a 
-      href={thinker.subsiteUrl} 
-      target={thinker.subsiteUrl.startsWith('http') ? '_blank' : '_self'}
-      rel={thinker.subsiteUrl.startsWith('http') ? 'noopener' : ''}
+    <a
+      href={thinker.subsiteUrl}
       class="mt-auto inline-flex items-center text-xs font-mono uppercase tracking-label font-medium text-accent hover:text-accent-hover transition-colors"
     >
       Visit {thinker.name.split(' ')[0]}'s space →

@@ -17,7 +17,7 @@ export const roster: Thinker[] = [
     tier: "anchor",
     accent: "teal",
     glyph: "ML",
-    subsiteUrl: "https://michael-levin.agi-2026.netlify.app",
+    subsiteUrl: "https://levinese-preview.netlify.app",
     bio: "Developmental and synthetic biologist exploring cognition as a property of matter and collective intelligence across scales.",
   },
   {
@@ -27,7 +27,7 @@ export const roster: Thinker[] = [
     tier: "anchor",
     accent: "teal",
     glyph: "JB",
-    subsiteUrl: "https://joscha-bach.agi-2026.netlify.app",
+    subsiteUrl: "https://joschese.netlify.app",
     bio: "Computational philosophy of mind; consciousness as simulation, cyber-animism, and the nature of agency.",
   },
   {
@@ -37,7 +37,7 @@ export const roster: Thinker[] = [
     tier: "anchor",
     accent: "teal",
     glyph: "KF",
-    subsiteUrl: "https://karl-friston.agi-2026.netlify.app",
+    subsiteUrl: "https://agi26-karl-friston.netlify.app",
     bio: "Pioneer of active inference and the free energy principle; theoretical neuroscientist modeling mind as prediction.",
   },
   {
@@ -47,7 +47,7 @@ export const roster: Thinker[] = [
     tier: "anchor",
     accent: "teal",
     glyph: "BG",
-    subsiteUrl: "https://ben-goertzel.agi-2026.netlify.app",
+    subsiteUrl: "https://agi26-ben-goertzel.netlify.app",
     bio: "AGI researcher and builder of decentralized, symbolic-neural cognitive architectures for beneficial general intelligence.",
   },
   {
