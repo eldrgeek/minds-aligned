@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "The effect of structure and rate variation on key-finding",
+  "year": 2010,
+  "journal": null,
+  "authors": [
+    "Morwaread Farbood",
+    "Gary Marcus",
+    "Panayotis Mavromatis",
+    "David Poeppel"
+  ],
+  "abstract": "While substantial evidence suggests that key perception depends in part on the statistical distribution of pitch classes in a given piece, it has also been suggested that structural factors may play an important role. To further the understanding of what such structural factors might be, we conducted two experiments using statistically ambiguous yet structurally unambiguous stimuli that consisted of a uniform distribution of diatonic pitches drawn from the union of two neighboring keys, sequenced to clearly imply one particular key. In Experiment 1, subjects with substantial music theory training were asked to listen to melodic sequences and identify the key. The results indicate that purely structural factors can greatly influence key perception when statistical information about overall key profile is highly ambiguous. In Experiment 2, we examined the temporal psychophysics of structurally-based key induction by systematically varying the tempo of a subset of the statistically ambiguous/structurally unambiguous materials presented in Experiment 1 at rates ranging from 7 BPM to 3400 BPM. Twenty-two musically trained subjects were asked to indicate whether each sequence sounded resolved (ending on an implied tonic) or unresolved (ending on an implied dominant). The results agree strongly with those from Experiment 1 and show a preferred range of tempi in which participants provide robust key judgments (30 BPM 400 BPM). This suggests that structurally-based key-finding can be accurately computed by trained listeners in as little as 150ms per note or 1.2s for an entire sequence of eight notes.",
+  "link": "https://nyuscholars.nyu.edu/en/publications/the-effect-of-structure-and-rate-variation-on-key-finding"
+}

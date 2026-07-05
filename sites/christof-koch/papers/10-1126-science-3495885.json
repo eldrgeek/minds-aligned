@@ -1,0 +1,13 @@
+{
+  "doi": "10.1126/science.3495885",
+  "doi_url": "https://doi.org/10.1126/science.3495885",
+  "title": "The Dynamics of Free Calcium in Dendritic Spines in Response to Repetitive Synaptic Input",
+  "year": 1987,
+  "journal": "Science",
+  "authors": [
+    "Edward B. Gamble",
+    "Christof Koch"
+  ],
+  "abstract": "Increased levels of intracellular calcium at either pre- or postsynaptic sites are thought to precede changes in synaptic strength. Thus, to induce long-term potentiation in the hippocampus, periods of intense synaptic stimulation would have to transiently raise the levels of cytosolic calcium at postsynaptic sites--dendritic spines in the majority of cases. Since direct experimental verification of this hypothesis is not possible at present, calcium levels have been studied by numerically solving the appropriate electro-diffusion equations for two different postsynaptic structures. Under the assumption that voltage-dependent calcium channels are present on dendritic spines, free intracellular calcium in spines can reach micromolar levels after as few as seven spikes in 20 milliseconds. Moreover, a short, but high-frequency, burst of presynaptic activity is more effective in raising levels of calcium and especially of the calcium-calmodulin complex than sustained low-frequency activity. This behavior is different from that seen at the soma of a typical vertebrate neuron.",
+  "link": "https://doi.org/10.1126/science.3495885"
+}

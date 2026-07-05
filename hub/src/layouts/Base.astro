@@ -1,0 +1,64 @@
+---
+import { FeedbackWidget } from '@soma/feedback/components'
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "Society of Minds Aligned — a living, queryable weave of the thought-streams of the thinkers building toward AGI." } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} · AGI-26 · Minds Aligned</title>
+  <meta name="description" content={description} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    body { font-family: var(--font-sans); }
+    h1, h2, h3, h4, .display { font-family: var(--font-display); }
+  </style>
+</head>
+<body class="bg-navy text-body min-h-screen flex flex-col antialiased">
+  <!-- Nav -->
+  <nav class="sticky top-0 z-50 bg-navy/95 backdrop-blur-sm border-b border-border">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
+      <a href="/" class="font-display font-bold text-lg text-cream hover:text-accent transition-colors tracking-wide">
+        AGI-26 · Minds Aligned
+      </a>
+      <div class="flex items-center gap-6 text-xs font-mono uppercase tracking-label text-muted">
+        <a href="/" class="hover:text-cream transition-colors">Home</a>
+        <a href="/about/" class="hover:text-cream transition-colors">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="flex-1">
+    <slot />
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-border mt-16 bg-navy-deep">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-muted text-sm text-center sm:text-left">
+        AGI-26 · San Francisco · 27–30 July 2026 — a Minds Aligned project · minds-aligned.com
+      </p>
+      <p class="text-muted text-xs font-mono uppercase tracking-label opacity-70">
+        Co-owned by the thinkers. Built for alignment.
+      </p>
+    </div>
+  </footer>
+
+  <FeedbackWidget site="minds-aligned-hub" />
+</body>
+</html>

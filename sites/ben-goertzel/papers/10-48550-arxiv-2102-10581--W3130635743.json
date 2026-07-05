@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2102.10581",
+  "doi_url": "https://doi.org/10.48550/arxiv.2102.10581",
+  "title": "Patterns of Cognition: Cognitive Algorithms as Galois Connections Fulfilled by Chronomorphisms On Probabilistically Typed Metagraphs",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "It is argued that a broad class of AGI-relevant algorithms can be expressed in a common formal framework, via specifying Galois connections linking search and optimization processes on directed metagraphs whose edge targets are labeled with probabilistic dependent types, and then showing these connections are fulfilled by processes involving metagraph chronomorphisms. Examples are drawn from the core cognitive algorithms used in the OpenCog AGI framework: Probabilistic logical inference, evolutionary program learning, pattern mining, agglomerative clustering, pattern mining and nonlinear-dynamical attention allocation. The analysis presented involves representing these cognitive algorithms as recursive discrete decision processes involving optimizing functions defined over metagraphs, in which the key decisions involve sampling from probability distributions over metagraphs and enacting sets of combinatory operations on selected sub-metagraphs. The mutual associativity of the combinatory operations involved in a cognitive process is shown to often play a key role in enabling the decomposition of the process into folding and unfolding operations; a conclusion that has some practical implications for the particulars of cognitive processes, e.g. militating toward use of reversible logic and reversible program execution. It is also observed that where this mutual associativity holds, there is an alignment between the hierarchy of subgoals used in recursive decision process execution and a hierarchy of subpatterns definable in terms of formal pattern theory.",
+  "link": "https://doi.org/10.48550/arxiv.2102.10581"
+}

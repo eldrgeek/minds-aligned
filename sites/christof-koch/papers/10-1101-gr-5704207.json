@@ -1,0 +1,33 @@
+{
+  "doi": "10.1101/gr.5704207",
+  "doi_url": "https://doi.org/10.1101/gr.5704207",
+  "title": "The landscape of histone modifications across 1% of the human genome in five human cell lines",
+  "year": 2007,
+  "journal": "Genome Research",
+  "authors": [
+    "Christof Koch",
+    "Robert Andrews",
+    "Paul Flicek",
+    "Shane C. Dillon",
+    "Ulaş Karaöz",
+    "Gayle K. Clelland",
+    "Sarah Wilcox",
+    "David Beare",
+    "Joanna C. Fowler",
+    "Philippe Couttet",
+    "Keith James",
+    "Grégory Lefebvre",
+    "Alexander W. Bruce",
+    "Oliver M. Dovey",
+    "Peter Ellis",
+    "Pawandeep Dhami",
+    "Cordelia F. Langford",
+    "Zhiping Weng",
+    "Ewan Birney",
+    "Nigel P. Carter",
+    "David Vetrie",
+    "Ian Dunham"
+  ],
+  "abstract": "We generated high-resolution maps of histone H3 lysine 9/14 acetylation (H3ac), histone H4 lysine 5/8/12/16 acetylation (H4ac), and histone H3 at lysine 4 mono-, di-, and trimethylation (H3K4me1, H3K4me2, H3K4me3, respectively) across the ENCODE regions. Studying each modification in five human cell lines including the ENCODE Consortium common cell lines GM06990 (lymphoblastoid) and HeLa-S3, as well as K562, HFL-1, and MOLT4, we identified clear patterns of histone modification profiles with respect to genomic features. H3K4me3, H3K4me2, and H3ac modifications are tightly associated with the transcriptional start sites (TSSs) of genes, while H3K4me1 and H4ac have more widespread distributions. TSSs reveal characteristic patterns of both types of modification present and the position relative to TSSs. These patterns differ between active and inactive genes and in particular the state of H3K4me3 and H3ac modifications is highly predictive of gene activity. Away from TSSs, modification sites are enriched in H3K4me1 and relatively depleted in H3K4me3 and H3ac. Comparison between cell lines identified differences in the histone modification profiles associated with transcriptional differences between the cell lines. These results provide an overview of the functional relationship among histone modifications and gene expression in human cells.",
+  "link": "https://doi.org/10.1101/gr.5704207"
+}

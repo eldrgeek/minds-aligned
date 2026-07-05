@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2305.06715",
+  "doi_url": "https://doi.org/10.48550/arxiv.2305.06715",
+  "title": "Backpropagation-Free 4D Continuous Ant-Based Neural Topology Search",
+  "year": 2023,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "AbdElRahman ElSaid",
+    "Karl Ricanek",
+    "Zeming Lyu",
+    "Alexander G. Ororbia",
+    "Travis Desell"
+  ],
+  "abstract": "Continuous Ant-based Topology Search (CANTS) is a previously introduced novel nature-inspired neural architecture search (NAS) algorithm that is based on ant colony optimization (ACO). CANTS utilizes a continuous search space to indirectly-encode a neural architecture search space. Synthetic ant agents explore CANTS' continuous search space based on the density and distribution of pheromones, strongly inspired by how ants move in the real world. This continuous search space allows CANTS to automate the design of artificial neural networks (ANNs) of any size, removing a key limitation inherent to many current NAS algorithms that must operate within structures of a size that is predetermined by the user. This work expands CANTS by adding a fourth dimension to its search space representing potential neural synaptic weights. Adding this extra dimension allows CANTS agents to optimize both the architecture as well as the weights of an ANN without applying backpropagation (BP), which leads to a significant reduction in the time consumed in the optimization process: at least an average of 96% less time consumption with very competitive optimization performance, if not better. The experiments of this study - using real-world data - demonstrate that the BP-Free CANTS algorithm exhibits highly competitive performance compared to both CANTS and ANTS while requiring significantly less operation time.",
+  "link": "http://arxiv.org/abs/2305.06715"
+}

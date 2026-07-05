@@ -1,0 +1,16 @@
+{
+  "doi": "10.1145/3638530.3664145",
+  "doi_url": "https://doi.org/10.1145/3638530.3664145",
+  "title": "Enabling An Informed Contextual Multi-Armed Bandit Framework For Stock Trading With Neuroevolution",
+  "year": 2024,
+  "journal": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+  "authors": [
+    "Devroop Kar",
+    "Zimeng Lyu",
+    "Alexander G. Ororbia",
+    "Travis Desell",
+    "Daniel E. Krutz"
+  ],
+  "abstract": "Multi-armed bandits and contextual multi-armed bandits have demonstrated their proficiency in a variety of application areas. However, these models are highly susceptible to volatility and often exhibit knowledge gaps due to a limited understanding of future states. In this paper, we propose a new bandit framework for what we refer to as informed contextual multi armed bandits (iCMABs) to mitigate these gaps, facilitating \"informed\" decisions based on predicted future contexts. The performance of an iCMAB is thus highly dependent on the accuracy of the forecast it uses. We examine the use of recurrent neural networks (RNNs) evolved through the EX-AMM neuroevolution algorithm as compared to other time series forecasting (TSF) methods and evaluate our iCMAB framework's ability to make stock market trading decisions for the Dow-Jones Index (DJI) in comparison to other decision making strategies using these forecasts. Our results demonstrate that an iCMAB, driven by evolved RNN architectures, performs better than statistical TSF methods, fixed architecture RNNs for TSF, and other CMAB methods. Using evolved RNNs, iCMAB is able to achieve the highest return of over 21%, a ~7% improvement over not incorporating forecasted values, and a ~5% improvement over DJI's return for that time period.",
+  "link": "https://doi.org/10.1145/3638530.3664145"
+}

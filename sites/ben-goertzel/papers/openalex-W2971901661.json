@@ -1,0 +1,16 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Reputation System for Online Communities",
+  "year": "2018",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Anton Kolonin",
+    "Ben Goertzel",
+    "Deborah Duong",
+    "Matthew Iklé",
+    "Nejc Znidar"
+  ],
+  "abstract": "Understanding the principles of consensus in communities and finding ways to optimal solutions beneficial for entire community becomes crucial as the speeds and scales of interaction in modern distributed systems increase. Such systems can be both social and information computer networks that unite the masses of people as well as multi-agent computing platforms based on peer-to-peer interactions including those operating on the basis of distributed ledgers. It is now becoming possible for hybrid ecosystems to emerge, having such systems including both humans and computer systems using artificial intelligence. We propose a new form of consensus for all of the listed systems, based on the reputation of the participants, calculated according to the principle of liquid democracy. We believe that such a system will be more resistant to social engineering and reputation manipulation than the existing systems. In this article, we discuss the basic principles and options for implementing such a system, and also present preliminary practical results.",
+  "link": "https://openalex.org/W2971901661"
+}

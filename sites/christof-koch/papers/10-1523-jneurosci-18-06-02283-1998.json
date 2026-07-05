@@ -1,0 +1,15 @@
+{
+  "doi": "10.1523/jneurosci.18-06-02283.1998",
+  "doi_url": "https://doi.org/10.1523/jneurosci.18-06-02283.1998",
+  "title": "Feature Extraction by Burst-Like Spike Patterns in Multiple Sensory Maps",
+  "year": 1998,
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Walter Metzner",
+    "Christof Koch",
+    "R. Wessel",
+    "Fabrizio Gabbiani"
+  ],
+  "abstract": "In most sensory systems, higher order central neurons extract those stimulus features from the sensory periphery that are behaviorally relevant (e.g.,Marr, 1982; Heiligenberg, 1991). Recent studies have quantified the time-varying information carried by spike trains of sensory neurons in various systems using stimulus estimation methods (Bialek et al., 1991; Wessel et al., 1996). Here, we address the question of how this information is transferred from the sensory neuron level to higher order neurons across multiple sensory maps by using the electrosensory system in weakly electric fish as a model. To determine how electric field amplitude modulations are temporally encoded and processed at two subsequent stages of the amplitude coding pathway, we recorded the responses of P-type afferents and E- and I-type pyramidal cells in the electrosensory lateral line lobe (ELL) to random distortions of a mimic of the fish's own electric field. Cells in two of the three somatotopically organized ELL maps were studied (centromedial and lateral) (Maler, 1979; Carr and Maler, 1986). Linear and second order nonlinear stimulus estimation methods indicated that in contrast to P-receptor afferents, pyramidal cells did not reliably encode time-varying information about any function of the stimulus obtained by linear filtering and half-wave rectification. Two pattern classifiers were applied to discriminate stimulus waveforms preceding the occurrence or nonoccurrence of pyramidal cell spikes in response to the stimulus. These signal-detection methods revealed that pyramidal cells reliably encoded the presence of upstrokes and downstrokes in random amplitude modulations by short bursts of spikes. Furthermore, among the different cell types in the ELL, I-type pyramidal cells in the centromedial map performed a better pattern-recognition task than those in the lateral map and than E-type pyramidal cells in either map.",
+  "link": "https://doi.org/10.1523/jneurosci.18-06-02283.1998"
+}

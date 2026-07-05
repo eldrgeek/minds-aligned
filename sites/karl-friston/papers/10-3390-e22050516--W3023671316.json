@@ -1,0 +1,14 @@
+{
+  "doi": "10.3390/e22050516",
+  "doi_url": "https://doi.org/10.3390/e22050516",
+  "title": "Sentience and the Origins of Consciousness: From Cartesian Duality to Markovian Monism",
+  "year": "2020",
+  "journal": "Entropy",
+  "authors": [
+    "Karl Friston",
+    "Wanja Wiese",
+    "J. Allan Hobson"
+  ],
+  "abstract": "This essay addresses Cartesian duality and how its implicit dialectic might be repaired using physics and information theory. Our agenda is to describe a key distinction in the physical sciences that may provide a foundation for the distinction between mind and matter, and between sentient and intentional systems. From this perspective, it becomes tenable to talk about the physics of sentience and ‘forces’ that underwrite our beliefs (in the sense of probability distributions represented by our internal states), which may ground our mental states and consciousness. We will refer to this view as Markovian monism, which entails two claims: (1) fundamentally, there is only one type of thing and only one type of irreducible property (hence monism). (2) All systems possessing a Markov blanket have properties that are relevant for understanding the mind and consciousness: if such systems have mental properties, then they have them partly by virtue of possessing a Markov blanket (hence Markovian). Markovian monism rests upon the information geometry of random dynamic systems. In brief, the information geometry induced in any system—whose internal states can be distinguished from external states—must acquire a dual aspect. This dual aspect concerns the (intrinsic) information geometry of the probabilistic evolution of internal states and a separate (extrinsic) information geometry of probabilistic beliefs about external states that are parameterised by internal states. We call these intrinsic (i.e., mechanical, or state-based) and extrinsic (i.e., Markovian, or belief-based) information geometries, respectively. Although these mathematical notions may sound complicated, they are fairly straightforward to handle, and may offer a means through which to frame the origins of consciousness.",
+  "link": "https://doi.org/10.3390/e22050516"
+}

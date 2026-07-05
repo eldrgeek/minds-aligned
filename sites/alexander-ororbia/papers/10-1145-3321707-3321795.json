@@ -1,0 +1,14 @@
+{
+  "doi": "10.1145/3321707.3321795",
+  "doi_url": "https://doi.org/10.1145/3321707.3321795",
+  "title": "Investigating recurrent neural network memory structures using neuro-evolution",
+  "year": 2019,
+  "journal": "Proceedings of the Genetic and Evolutionary Computation Conference",
+  "authors": [
+    "Alexander G. Ororbia",
+    "AbdElRahman ElSaid",
+    "Travis Desell"
+  ],
+  "abstract": "This paper presents a new algorithm, Evolutionary eXploration of Augmenting Memory Models (EXAMM), which is capable of evolving recurrent neural networks (RNNs) using a wide variety of memory structures, such as Δ-RNN, GRU, LSTM, MGU and UGRNN cells. EXAMM evolved RNNs to perform prediction of large-scale, real world time series data from the aviation and power industries. These data sets consist of very long time series (thousands of readings), each with a large number of potentially correlated and dependent parameters. Four different parameters were selected for prediction and EXAMM runs were performed using each memory cell type alone, each cell type and simple neurons, and with all possible memory cell types and simple neurons. Evolved RNN performance was measured using repeated k-fold cross validation, resulting in 2420 EXAMM runs which evolved 4, 840, 000 RNNs in ~24,200 CPU hours on a high performance computing cluster. Generalization of the evolved RNNs was examined statistically, providing findings that can help refine the design of RNN memory cells as well as inform future neuro-evolution algorithms.",
+  "link": "https://doi.org/10.1145/3321707.3321795"
+}

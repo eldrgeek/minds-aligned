@@ -1,0 +1,14 @@
+{
+  "doi": "10.1073/pnas.83.12.4263",
+  "doi_url": "https://doi.org/10.1073/pnas.83.12.4263",
+  "title": "Analog \"neuronal\" networks in early vision.",
+  "year": 1986,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Christof Koch",
+    "José L. Marroquín",
+    "Alan Yuille"
+  ],
+  "abstract": "Many problems in early vision can be formulated in terms of minimizing a cost function. Examples are shape from shading, edge detection, motion analysis, structure from motion, and surface interpolation. As shown by Poggio and Koch [Poggio, T. & Koch, C. (1985) Proc. R. Soc. London, Ser. B 226, 303-323], quadratic variational problems, an important subset of early vision tasks, can be \"solved\" by linear, analog electrical, or chemical networks. However, in the presence of discontinuities, the cost function is nonquadratic, raising the question of designing efficient algorithms for computing the optimal solution. Recently, Hopfield and Tank [Hopfield, J. J. & Tank, D. W. (1985) Biol. Cybern. 52, 141-152] have shown that networks of nonlinear analog \"neurons\" can be effective in computing the solution of optimization problems. We show how these networks can be generalized to solve the nonconvex energy functionals of early vision. We illustrate this approach by implementing a specific analog network, solving the problem of reconstructing a smooth surface from sparse data while preserving its discontinuities. These results suggest a novel computational strategy for solving early vision problems in both biological and real-time artificial vision systems.",
+  "link": "https://doi.org/10.1073/pnas.83.12.4263"
+}

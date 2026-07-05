@@ -1,0 +1,15 @@
+{
+  "doi": "10.1093/cercor/bhi123",
+  "doi_url": "https://doi.org/10.1093/cercor/bhi123",
+  "title": "Two Distinct Neural Mechanisms for Category-selective Responses",
+  "year": "2005",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Uta Noppeney",
+    "Cathy J. Price",
+    "W.D. Penny",
+    "Karl Friston"
+  ],
+  "abstract": "The cognitive and neural mechanisms mediating category-selective responses in the human brain remain controversial. Using functional magnetic resonance imaging and effective connectivity analyses (Dynamic Causal Modelling), we investigated animal- and tool-selective responses by manipulating stimulus modality (pictures versus words) and task (implicit versus explicit semantic). We dissociated two distinct mechanisms that engender category selectivity: in the ventral occipito-temporal cortex, tool-selective responses were observed irrespective of task, greater for pictures and mediated by bottom-up effects. In a left temporo-parietal action system, tool-selective responses were observed irrespective of modality, greater for explicit semantic tasks and mediated by top-down modulation from the left prefrontal cortex. These distinct activation and connectivity patterns suggest that the two systems support different cognitive operations, with the ventral occipito-temporal regions engaged in structural processing and the dorsal visuo-motor system in strategic semantic processing. Consistent with current semantic theories, explicit semantic processing of tools might thus rely on reactivating their associated action representations via top-down modulation. In terms of neuronal mechanisms, the category selectivity may be mediated by distinct top-down (task-dependent) and bottom-up (stimulus-dependent) mechanisms.",
+  "link": "https://doi.org/10.1093/cercor/bhi123"
+}

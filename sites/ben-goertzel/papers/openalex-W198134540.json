@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Four Contemporary AGI Designs: a Comparative Treatment",
+  "year": "2007",
+  "journal": "Artificial General Intelligence",
+  "authors": [
+    "Stan Franklin",
+    "Ben Goertzel",
+    "Alexei V. Samsonovich",
+    "Pei Wang"
+  ],
+  "abstract": "During his talk at the 2006 AGI Workshop, Stan Franklin suggested that his LIDA architecture might fruitfully be considered not only as a specific AGI design, but also as a general framework within which to discuss and compare various AGI designs and approaches. With this in mind, following the workshop itself, Ben Goertzel formulated a list of simple questions intended to be pertinent to any AGI software design, mostly based on the conceptual framework presented in Stan Franklin's workshop presentation, with a couple additions and variations. Four individuals (Goertzel, Franklin, Pei Wang and Alexei Samsonovich) took up this offer, and their answers are reported here, without modification. The result is an interesting and novel perspective of a significant slice of contemporary AGI research.",
+  "link": "https://openalex.org/W198134540"
+}

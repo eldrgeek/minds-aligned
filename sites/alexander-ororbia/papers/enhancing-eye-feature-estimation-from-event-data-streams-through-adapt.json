@@ -1,0 +1,19 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Enhancing Eye Feature Estimation from Event Data Streams through Adaptive Inference State Space Modeling",
+  "year": 2026,
+  "journal": "ArXiv.org",
+  "authors": [
+    "Viet Dung Nguyen",
+    "Mobina Ghorbaninejad",
+    "Chengyi Ma",
+    "Reynold Bailey",
+    "Gabriel J. Diaz",
+    "Alexander Fix",
+    "Ryan J. Suess",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "Eye feature extraction from event-based data streams can be performed efficiently and with low energy consumption, offering great utility to real-world eye tracking pipelines. However, few eye feature extractors are designed to handle sudden changes in event density caused by the changes between gaze behaviors that vary in their kinematics, leading to degraded prediction performance. In this work, we address this problem by introducing the \\emph{adaptive inference state space model} (AISSM), a novel architecture for feature extraction that is capable of dynamically adjusting the relative weight placed on current versus recent information. This relative weighting is determined via estimates of the signal-to-noise ratio and event density produced by a complementary \\emph{dynamic confidence network}. Lastly, we craft and evaluate a novel learning technique that improves training efficiency. Experimental results demonstrate that the AISSM system outperforms state-of-the-art models for event-based eye feature extraction.",
+  "link": "http://arxiv.org/abs/2603.14077"
+}

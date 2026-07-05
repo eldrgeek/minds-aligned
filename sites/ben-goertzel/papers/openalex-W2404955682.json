@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Mixing Cognitive Science Concepts with Computer Science Algorithms and Data Structures: An Integrative Approach to Strong AI.",
+  "year": "2006",
+  "journal": null,
+  "authors": [
+    "Moshe Looks",
+    "Ben Goertzel"
+  ],
+  "abstract": "We posit that, given the current state of development of cognitive science, the greatest synergies between this field and artificial intelligence arise when one adopts a high level of abstraction. On the one hand, we suggest, cognitive science embodies some interesting, potentially general principles regarding cognition under limited resources, and AI systems that violate these principles should be treated with skepticism. But on the other hand, attempts to precisely emulate human cognition in silicon are hampered by both their ineffectiveness at exploiting the power of digital computers, and the current paucity of algorithm-level knowledge as to how human cognition takes place. We advocate a focus on artificial general intelligence design. This",
+  "link": "https://openalex.org/W2404955682"
+}

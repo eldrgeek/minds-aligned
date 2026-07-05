@@ -1,0 +1,14 @@
+{
+  "doi": "10.1037/a0031087",
+  "doi_url": "https://doi.org/10.1037/a0031087",
+  "title": "Temporal dynamics and the identification of musical key.",
+  "year": 2013,
+  "journal": "Journal of Experimental Psychology Human Perception & Performance",
+  "authors": [
+    "Morwaread Farbood",
+    "Gary Marcus",
+    "David Poeppel"
+  ],
+  "abstract": "A central process in music cognition involves the identification of key; however, little is known about how listeners accomplish this task in real time. This study derives from work that suggests overlap between the neural and cognitive resources underlying the analyses of both music and speech and is the first, to our knowledge, to explore the timescales at which the brain infers musical key. We investigated the temporal psychophysics of key-finding over a wide range of tempi using melodic sequences with strong structural cues, where statistical information about overall key profile was ambiguous. Listeners were able to provide robust judgments within specific limits, at rates as high as 400 beats per minute (bpm; ∼7 Hz) and as low as 30 bpm (0.5 Hz), but not outside those bounds. These boundaries on reliable performance show that the process of key-finding is restricted to timescales that are closely aligned with beat induction and speech processing.",
+  "link": "https://doi.org/10.1037/a0031087"
+}

@@ -1,0 +1,16 @@
+{
+  "doi": "10.1126/science.7638624",
+  "doi_url": "https://doi.org/10.1126/science.7638624",
+  "title": "Recurrent Excitation in Neocortical Circuits",
+  "year": 1995,
+  "journal": "Science",
+  "authors": [
+    "Rodney J. Douglas",
+    "Christof Koch",
+    "Misha Mahowald",
+    "Kevan A Martin",
+    "Humbert H. Suarez"
+  ],
+  "abstract": "The majority of synapses in the mammalian cortex originate from cortical neurons. Indeed, the largest input to cortical cells comes from neighboring excitatory cells. However, most models of cortical development and processing do not reflect the anatomy and physiology of feedback excitation and are restricted to serial feedforward excitation. This report describes how populations of neurons in cat visual cortex can use excitatory feedback, characterized as an effective \"network conductance\", to amplify their feedforward input signals and demonstrates how neuronal discharge can be kept proportional to stimulus strength despite strong, recurrent connections that threaten to cause runaway excitation. These principles are incorporated into models of cortical direction and orientation selectivity that emphasize the basic design principles of cortical architectures.",
+  "link": "https://doi.org/10.1126/science.7638624"
+}

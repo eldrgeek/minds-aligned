@@ -1,0 +1,14 @@
+{
+  "doi": "10.1002/(sici)1097-0193(200004)9:4<212::aid-hbm3>3.0.co;2-#",
+  "doi_url": "https://doi.org/10.1002/(sici)1097-0193(200004)9:4<212::aid-hbm3>3.0.co;2-#",
+  "title": "Image registration using a symmetric prior—in three dimensions",
+  "year": "2000",
+  "journal": "Human Brain Mapping",
+  "authors": [
+    "John Ashburner",
+    "Jesper Andersson",
+    "Karl Friston"
+  ],
+  "abstract": "This paper describes a Bayesian method for three-dimensional registration of brain images. A finite element approach is used to obtain a maximum a posteriori estimate of the deformation field at every voxel of a template volume. The priors used by the MAP estimate penalize unlikely deformations and enforce a continuous one-to-one mapping. The deformations are assumed to have some form of symmetry, in that priors describing the probability distribution of the deformations should be identical to those for the inverses (i.e., warping brain A to brain B should not be different probablistically from warping B to A). A gradient descent algorithm is presented for estimating the optimum deformations.",
+  "link": "https://doi.org/10.1002/(sici)1097-0193(200004)9:4<212::aid-hbm3>3.0.co;2-#"
+}

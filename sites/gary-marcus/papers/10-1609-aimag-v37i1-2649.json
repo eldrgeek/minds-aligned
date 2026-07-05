@@ -1,0 +1,13 @@
+{
+  "doi": "10.1609/aimag.v37i1.2649",
+  "doi_url": "https://doi.org/10.1609/aimag.v37i1.2649",
+  "title": "Toward a Comprehension Challenge, Using Crowdsourcing as a Tool",
+  "year": 2016,
+  "journal": "AI Magazine",
+  "authors": [
+    "Praveen Paritosh",
+    "Gary Marcus"
+  ],
+  "abstract": "Human readers comprehend vastly more, and in vastly different ways, than any existing comprehension test would suggest. An ideal comprehension test for a story should cover the full range of questions and answers that humans would expect other humans to reasonably learn or infer from a given story. As a step toward these goals we propose a novel test, the crowdsourced comprehension challenge (C 3 ), which is constructed by repeated runs of a three‐person game, the Iterative Crowdsourced Comprehension Game (ICCG). ICCG uses structured crowdsourcing to comprehensively generate relevant questions and supported answers for arbitrary stories, whether fiction or nonfiction, presented across a variety of media such as videos, podcasts, and still images.",
+  "link": "https://doi.org/10.1609/aimag.v37i1.2649"
+}

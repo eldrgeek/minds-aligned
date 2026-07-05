@@ -1,0 +1,18 @@
+{
+  "doi": "10.2307/1166115",
+  "doi_url": "https://doi.org/10.2307/1166115",
+  "title": "Overregularization in Language Acquisition",
+  "year": 1992,
+  "journal": "Monographs of the Society for Research in Child Development",
+  "authors": [
+    "Gary Marcus",
+    "Steven Pinker",
+    "Michael T. Ullman",
+    "Michelle Hollander",
+    "Tarina Rosen",
+    "Fei Xu",
+    "Harald Clahsen"
+  ],
+  "abstract": "Children extend regular grammatical patterns to irregular words, resulting in overregularizations like comed, often after a period of correct performance (\"U-shaped development\"). The errors seem paradigmatic of rule use, hence bear on central issues in the psychology of rules: how creative rule application interacts with memorized exceptions in development, how overgeneral rules are unlearned in the absence of parental feedback, and whether cognitive processes involve explicit rules or parallel distributed processing (connectionist) networks. We remedy the lack of quantitative data on overregularization by analyzing 11,521 irregular past tense utterances in the spontaneous speech of 83 children. Our findings are as follows. (1) Overregularization errors are relatively rare (median 2.5% of irregular past tense forms), suggesting that there is no qualitative defect in children's grammars that must be unlearned. (2) Overregularization occurs at a roughly constant low rate from the 2s into the school-age years, affecting most irregular verbs. (3) Although overregularization errors never predominate, one aspect of their purported U-shaped development was confirmed quantitatively: an extended period of correct performance precedes the first error. (4) Overregularization does not correlate with increases in the number or proportion of regular verbs in parental speech, children's speech, or children's vocabularies. Thus, the traditional account in which memory operates before rules cannot be replaced by a connectionist alternative in which a single network displays rotelike or rulelike behavior in response to changes in input statistics. (5) Overregularizations first appear when children begin to mark regular verbs for tense reliably (i.e., when they stop saying Yesterday I walk). (6) The more often a parent uses an irregular form, the less often the child overregularizes it. (7) Verbs are protected from overregularization by similar-sounding irregulars, but they are not attracted to overregularization by similar-sounding regulars, suggesting that irregular patterns are stored in an associative memory with connectionist properties, but that regulars are not. We propose a simple explanation. Children, like adults, mark tense using memory (for irregulars) and an affixation rule that can generate a regular past tense form for any verb. Retrieval of an irregular blocks the rule, but children's memory traces are not strong enough to guarantee perfect retrieval. When retrieval fails, the rule is applied, and overregularization results.",
+  "link": "https://doi.org/10.2307/1166115"
+}

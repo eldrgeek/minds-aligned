@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2301.01452",
+  "doi_url": "https://doi.org/10.48550/arxiv.2301.01452",
+  "title": "The Predictive Forward-Forward Algorithm",
+  "year": 2023,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Ankur Mali"
+  ],
+  "abstract": "We propose the predictive forward-forward (PFF) algorithm for conducting credit assignment in neural systems. Specifically, we design a novel, dynamic recurrent neural system that learns a directed generative circuit jointly and simultaneously with a representation circuit. Notably, the system integrates learnable lateral competition, noise injection, and elements of predictive coding, an emerging and viable neurobiological process theory of cortical function, with the forward-forward (FF) adaptation scheme. Furthermore, PFF efficiently learns to propagate learning signals and updates synapses with forward passes only, eliminating key structural and computational constraints imposed by backpropagation-based schemes. Besides computational advantages, the PFF process could prove useful for understanding the learning mechanisms behind biological neurons that use local signals despite missing feedback connections. We run experiments on image data and demonstrate that the PFF procedure works as well as backpropagation, offering a promising brain-inspired algorithm for classifying, reconstructing, and synthesizing data patterns.",
+  "link": "http://arxiv.org/abs/2301.01452"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.7551/mitpress/9322.003.0005",
+  "doi_url": "https://doi.org/10.7551/mitpress/9322.003.0005",
+  "title": "Evolution, Memory, and the Nature of Syntactic Representation",
+  "year": 2013,
+  "journal": "The MIT Press eBooks",
+  "authors": [
+    "Gary Marcus"
+  ],
+  "abstract": "Natural language expressions are communicated in sequences of articulations, either sounds or gestures. Where sequence is known to matter, language clearly demands some sort of sequence-sensitive structure. The dog bit the man is not equivalent to The man bit the dog, and any system that represented sentences as unordered lists of words simply could not capture that fact. A standard (though not universal) assumption in most theories of linguistics and psycholinguistics is that phrase structure is represented as a tree (Partee, ter Meulen, &amp;amp; Wall, 1990), as in Figure 2.1. Trees are widespread, and their formal properties are well understood (Knuth, 1973). They play a central role not only in linguistics, but also in disciplines such as mathematics, computer science, taxonomy, and even genealogy. For example, computer programmers use trees to represent the nested directory (or folder) structures in which files are stored. In linguistics, tree-theoretic concepts, such as path and distance, often seem to provide important purchase on syntactic phenomena (Kayne, 1984; Pesetsky, 1982). It is an open question, however, whether human beings can actually use trees as a data structure for representing sentences in a stable and reliable fashion. Although it is clear that educated humans can understand at an abstract level what trees are, implement them in computers, and use them as external representational devices, the evidence for their existence qua mental representation has been remarkably indirect, and there has not thus far been any fully satisfying account for how trees as such could be neurally realized. The goal of this chapter is to suggest an alternative: in the course of ordinary linguistic processing, mental representations of sentences may be incomplete, inconsistent, or partial—realized via a system of overlapping but incompletely",
+  "link": "https://doi.org/10.7551/mitpress/9322.003.0005"
+}

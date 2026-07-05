@@ -1,0 +1,15 @@
+{
+  "doi": "10.1162/ling_a_00075",
+  "doi_url": "https://doi.org/10.1162/ling_a_00075",
+  "title": "On the Role of Variables in Phonology: Remarks on Hayes and Wilson 2008",
+  "year": 2012,
+  "journal": "Linguistic Inquiry",
+  "authors": [
+    "Iris Berent",
+    "Colin Wilson",
+    "Gary Marcus",
+    "Douglas K. Bemis"
+  ],
+  "abstract": "A recent computational model by Hayes and Wilson (2008) seemingly captures a diverse range of phonotactic phenomena without variables, contrasting with the presumptions of many formal theories. Here, we examine the plausibility of this approach by comparing generalizations of identity restrictions by this architecture and human learners. Whereas humans generalize identity restrictions broadly, to both native and non-native phonemes, the original model and several related variants failed to generalize to non-native phonemes. In contrast, a revised model equipped with variables more closely matches human behavior. These findings suggest that, like syntax, phonological grammars are endowed with algebraic relations among variables that support across-the-board generalizations.",
+  "link": "https://doi.org/10.1162/ling_a_00075"
+}

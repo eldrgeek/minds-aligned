@@ -1,0 +1,13 @@
+{
+  "doi": "10.1523/jneurosci.13-01-00334.1993",
+  "doi_url": "https://doi.org/10.1523/jneurosci.13-01-00334.1993",
+  "title": "The highly irregular firing of cortical cells is inconsistent with temporal integration of random EPSPs",
+  "year": 1993,
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "W. R. Softky",
+    "Christof Koch"
+  ],
+  "abstract": "How random is the discharge pattern of cortical neurons? We examined recordings from primary visual cortex (V1; Knierim and Van Essen, 1992) and extrastriate cortex (MT; Newsome et al., 1989a) of awake, behaving macaque monkey and compared them to analytical predictions. For nonbursting cells firing at sustained rates up to 300 Hz, we evaluated two indices of firing variability: the ratio of the variance to the mean for the number of action potentials evoked by a constant stimulus, and the rate-normalized coefficient of variation (Cv) of the interspike interval distribution. Firing in virtually all V1 and MT neurons was nearly consistent with a completely random process (e.g., Cv approximately 1). We tried to model this high variability by small, independent, and random EPSPs converging onto a leaky integrate-and-fire neuron (Knight, 1972). Both this and related models predicted very low firing variability (Cv << 1) for realistic EPSP depolarizations and membrane time constants. We also simulated a biophysically very detailed compartmental model of an anatomically reconstructed and physiologically characterized layer V cat pyramidal cell (Douglas et al., 1991) with passive dendrites and active soma. If independent, excitatory synaptic input fired the model cell at the high rates observed in monkey, the Cv and the variability in the number of spikes were both very low, in agreement with the integrate-and-fire models but in strong disagreement with the majority of our monkey data. The simulated cell only produced highly variable firing when Hodgkin-Huxley-like currents (INa and very strong IDR) were placed on distal dendrites. Now the simulated neuron acted more as a millisecond-resolution detector of dendritic spike coincidences than as a temporal integrator. We argue that neurons that act as temporal integrators over many synaptic inputs must fire very regularly. Only in the presence of either fast and strong dendritic nonlinearities or strong synchronization among individual synaptic events will the degree of predicted variability approach that of real cortical neurons.",
+  "link": "https://doi.org/10.1523/jneurosci.13-01-00334.1993"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.1093/cercor/bhu323",
+  "doi_url": "https://doi.org/10.1093/cercor/bhu323",
+  "title": "Attentional Enhancement of Auditory Mismatch Responses: a DCM/MEG Study",
+  "year": "2015",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Ryszard Auksztulewicz",
+    "Karl Friston"
+  ],
+  "abstract": "Despite similar behavioral effects, attention and expectation influence evoked responses differently: Attention typically enhances event-related responses, whereas expectation reduces them. This dissociation has been reconciled under predictive coding, where prediction errors are weighted by precision associated with attentional modulation. Here, we tested the predictive coding account of attention and expectation using magnetoencephalography and modeling. Temporal attention and sensory expectation were orthogonally manipulated in an auditory mismatch paradigm, revealing opposing effects on evoked response amplitude. Mismatch negativity (MMN) was enhanced by attention, speaking against its supposedly pre-attentive nature. This interaction effect was modeled in a canonical microcircuit using dynamic causal modeling, comparing models with modulation of extrinsic and intrinsic connectivity at different levels of the auditory hierarchy. While MMN was explained by recursive interplay of sensory predictions and prediction errors, attention was linked to the gain of inhibitory interneurons, consistent with its modulation of sensory precision.",
+  "link": "https://doi.org/10.1093/cercor/bhu323"
+}

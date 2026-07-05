@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/ijcnn.2006.246831",
+  "doi_url": "https://doi.org/10.1109/ijcnn.2006.246831",
+  "title": "Support Vector Machines to Weight Voters in a Voting System of Entity Extractors",
+  "year": "2006",
+  "journal": "The 2006 IEEE International Joint Conference on Neural Network Proceedings",
+  "authors": [
+    "Dang Huynh Khanh Duong",
+    "Ben Goertzel",
+    "J. Venuto",
+    "Ryan Richardson",
+    "Shawn Bohner",
+    "Edward A. Fox"
+  ],
+  "abstract": "Support Vector Machines are used to combine the outputs of multiple entity extractors, thus creating a composite entity extraction system. The composite system has a significantly higher f-measure than any of the component systems. Compared to a standard voting technique for combining the results of multiple entity extractors, the SVM approach produces comparable precision and recall statistics but tends to utilize fewer of the component entity extractors, thus providing superior computational efficiency, which is critical in practical applications. In this paper, we present our experimental results of comparing a standard voting technique with SVM that each aggregate four entity extractors. We also describe our future plans of integrating agent-based technology into our experimental testbed where we examine the evolution of composite techniques as part of the analysis stream. Given that much of the improvement comes from tuning the algorithms to the data stream with a human-in-the-loop, we are considering the merits of employing cognitive agents that are strategically embedded in the workflow for processing data. As we tune the algorithms for better performance on the data streams, we envision agents learning the patterns of data streams and apply the appropriate tuning to ensure optimality.",
+  "link": "https://doi.org/10.1109/ijcnn.2006.246831"
+}

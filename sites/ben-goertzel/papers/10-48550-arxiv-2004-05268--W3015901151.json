@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2004.05268",
+  "doi_url": "https://doi.org/10.48550/arxiv.2004.05268",
+  "title": "Combinatorial Decision Dags: A Natural Computational Model for General Intelligence",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "A novel computational model (CoDD) utilizing combinatory logic to create higher-order decision trees is presented. A theoretical analysis of general intelligence in terms of the formal theory of pattern recognition and pattern formation is outlined, and shown to take especially natural form in the case where patterns are expressed in CoDD language. Relationships between logical entropy and algorithmic information, and Shannon entropy and runtime complexity, are shown to be elucidated by this approach. Extension to the quantum computing case is also briefly discussed.",
+  "link": "https://doi.org/10.48550/arxiv.2004.05268"
+}

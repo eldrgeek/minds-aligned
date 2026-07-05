@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/cihli.2013.6613267",
+  "doi_url": "https://doi.org/10.1109/cihli.2013.6613267",
+  "title": "A Mind-World Correspondence Principle",
+  "year": "2013",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "A novel “Mind-World Correspondence Principle” is proposed - which, given an environment and goal-set, heavily constrains the structure of any intelligent system capable of efficiently achieving those goals in that environment. This is proposed as a potential step toward a “general theory of general intelligence.” An approximate gloss of the proposed principle is: “For a mind to work intelligently toward certain goals in a certain world, there should be a nice mapping from goal-directed sequences of world-states into sequences of mind-states, where “nice” means that a world-state-sequence W composed of two parts W <sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sub> and W <sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sub> , gets mapped into a mind-state-sequence M composed of two corresponding parts M <sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sub> and M <sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sub> .” The principle is formulated using the mathematical language of category theory, but refinement of the principle into a precise theorem is left for later works. Discussion is given regarding the use of the principle to explain common properties of realworld intelligences such as the presence of hierarchical structure. Declarative, procedural and episodic memory systems, as present in human minds and human-like cognitive architectures, are formalized using category theory in a manner consistent with the Mind-World Correspondence principle. The notion of development of minds is similarly formulated, using the category-theoretic notion of natural transformations. It is suggested that this approach to cognitive analysis and modeling may eventually be useful for deriving and refining practical designs for Artificial General Intelligence.",
+  "link": "https://doi.org/10.1109/cihli.2013.6613267"
+}

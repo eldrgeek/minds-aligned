@@ -1,0 +1,13 @@
+{
+  "doi": "10.2991/agi.2010.9",
+  "doi_url": "https://doi.org/10.2991/agi.2010.9",
+  "title": "Grounding Possible Worlds Semantics in Experiential Semantics",
+  "year": "2010",
+  "journal": null,
+  "authors": [
+    "Matthew Iklé",
+    "Ben Goertzel"
+  ],
+  "abstract": "Probabilistic Logic Networks (PLN), a comprehensive framework for uncertain inference currently in use in the OpenCog and Novamente Cognition Engine AGI software architectures, has previously been described in terms of the \"experiential semantics\" of an intelligent agent embodied in a world. However, several aspects of PLN are more easily interpreted and formulated in terms of \"possible worlds semantics\"; here we use a formal model of intelligent agents to show how a form of possible worlds semantics can be derived from experiential semantics, and use this to provide new interpretations of several aspects of PLN (including uncertain quantifiers, intensional inheritance, and indefinite probabilities.) These new interpretations have practical as well as conceptual benefits, as they give a unified way of specifying parameters that in the previous interpretations of PLN were viewed as unrelated.",
+  "link": "https://doi.org/10.2991/agi.2010.9"
+}

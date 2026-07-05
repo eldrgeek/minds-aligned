@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2105.07308",
+  "doi_url": "https://doi.org/10.48550/arxiv.2105.07308",
+  "title": "Towards a Predictive Processing Implementation of the Common Model of Cognition",
+  "year": 2021,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Matthew A. Kelly"
+  ],
+  "abstract": "In this article, we present a cognitive architecture that is built from powerful yet simple neural models. Specifically, we describe an implementation of the common model of cognition grounded in neural generative coding and holographic associative memory. The proposed system creates the groundwork for developing agents that learn continually from diverse tasks as well as model human performance at larger scales than what is possible with existant cognitive architectures.",
+  "link": "http://arxiv.org/abs/2105.07308"
+}

@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4_6",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4_6",
+  "title": "Representing and Reasoning On Spatial Knowledge",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "A large percentage of real-world knowledge pertains to space as well as time. Humans possess a great deal of evolved and learned common sense regarding representing and reasoning about space, but, this is not innate to software programs so we need to explicitly think about how to make our software systems space-friendly. From a logic point of view, space and time can in principle be treated just like any other sorts of relationships – but this turns out not to be an optimal point of view in terms of either human-friendliness or computational efficiency of logic systems. Rather, with space as with time, it is worthwhile to invest the effort to develop specialized techniques for handling spatial and spatiotemporal knowledge.",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4_6"
+}

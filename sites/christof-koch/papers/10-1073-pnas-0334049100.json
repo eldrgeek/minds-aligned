@@ -1,0 +1,15 @@
+{
+  "doi": "10.1073/pnas.0334049100",
+  "doi_url": "https://doi.org/10.1073/pnas.0334049100",
+  "title": "Working memory and fear conditioning",
+  "year": 2003,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Ronald Carter",
+    "Constanze Hofstötter",
+    "Naotsugu Tsuchiya",
+    "Christof Koch"
+  ],
+  "abstract": "Previous studies of associative learning implicate higher-level cognitive processes in some forms of classical conditioning. An ongoing debate is concerned with the extent to which attention and awareness are necessary for trace but not delay eye-blink conditioning [Clark, R. E. & Squire, L. R. (1998) Science 280, 77-81; Lovibond, P. F. & Shanks, D. (2002) J. Exp. Psychol. Anim. Behav. Processes 28, 38-42]. In trace conditioning, a short interval is interposed between the termination of the conditioned stimulus (CS) and the onset of the unconditioned stimulus (US). In delay conditioning, the CS and US overlap. We here investigate the extent to which human classical fear conditioning depends on working memory. Subjects had to carry out an n-back task, requiring tracking an item 1 or 2 back in a sequentially presented list of numbers, while simultaneously being tested for their ability to associate auditory cues with shocks under a variety of conditions (single-cue versus differential; delay versus trace; no task versus 0-, 1-, and 2-back). Differential delay conditioning proved to be more resilient than differential trace conditioning but does show a reduction due to task interference similar in slope to that found in trace conditioning. Explicit knowledge of the stimulus contingency facilitates but does not guarantee trace conditioning. Only the single-cue delay protocol shows conditioning during the more difficult working memory task. Our findings suggest that the larger the cognitive demands on the system, the less likely conditioning occurs. A postexperimental questionnaire showed a positive correlation between conditioning and awareness for differential trace conditioning extinction.",
+  "link": "https://doi.org/10.1073/pnas.0334049100"
+}

@@ -1,0 +1,23 @@
+{
+  "doi": "10.2991/agi.2009.37",
+  "doi_url": "https://doi.org/10.2991/agi.2009.37",
+  "title": "The China-Brain Project: Report on the First Six Months",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Hugo de Garis",
+    "Ying Chen",
+    "Xiaodong Shi",
+    "Ben Goertzel",
+    "Wei Pan",
+    "Kehua Miao",
+    "Jianyang Zhou",
+    "Min Jiang",
+    "Lingxiang Zhen",
+    "Qinfang Wu",
+    "Minghui Shi",
+    "Ruiting Lian"
+  ],
+  "abstract": "The \"China Brain Project\" is a 4 year (2008)(2009)(2010)(2011), 10.5 million RMB research project to build China's first artificial brain, which will consist of 10,000-50,000 neural net modules which are evolved rapidly in special FPGA hardware, downloaded one by one into a PC or supercomputer, and then connected according to the designs of human \"BAs\" (brain architects) to build an artificial brain with thousands of pattern detectors to control the hundreds of behaviors of a two legged robot.",
+  "link": "https://doi.org/10.2991/agi.2009.37"
+}

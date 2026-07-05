@@ -1,0 +1,15 @@
+{
+  "doi": "10.1152/jn.1996.75.5.1806",
+  "doi_url": "https://doi.org/10.1152/jn.1996.75.5.1806",
+  "title": "Comparison of discharge variability in vitro and in vivo in cat visual cortex neurons",
+  "year": 1996,
+  "journal": "Journal of Neurophysiology",
+  "authors": [
+    "G. Richard Holt",
+    "W. R. Softky",
+    "Christof Koch",
+    "Rodney J. Douglas"
+  ],
+  "abstract": "1. In neocortical slices, the majority of neurons fire quite regularly in response to constant current injections. But neurons in the intact animal fire irregularly in response to constant current injection as well as to visual stimuli. 2. To quantify this observation, we developed a new measure of variability, which compares only adjacent interspike intervals and is therefore less sensitive to rate variations than existing measures such as the coefficient of variation of interspike intervals. 3. We find that the variability of firing is much higher in cells of primary visual cortex in the anesthetized cat than in slice. The response to current injected from an intracellular electrode in vivo is also variable, but slightly more regular and less bursty than in response to visual stimuli. 4. Using a new technique for analyzing the variability of integrate-and-fire neurons, we prove that this behavior is consistent with a simple integrate-and-fire model receiving a large amount of synaptic background activity, but not with a noisy spiking mechanism.",
+  "link": "https://doi.org/10.1152/jn.1996.75.5.1806"
+}

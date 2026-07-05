@@ -1,0 +1,14 @@
+{
+  "doi": "10.3389/fncom.2012.00044",
+  "doi_url": "https://doi.org/10.3389/fncom.2012.00044",
+  "title": "Perception and self-organized instability",
+  "year": "2012",
+  "journal": "Frontiers in Computational Neuroscience",
+  "authors": [
+    "Karl Friston",
+    "Michael Breakspear",
+    "Gustavo Deco"
+  ],
+  "abstract": "This paper considers state-dependent dynamics that mediate perception in the brain. In particular, it considers the formal basis of self-organized instabilities that enable perceptual transitions during Bayes-optimal perception. The basic phenomena we consider are perceptual transitions that lead to conscious ignition (Dehaene and Changeux, 2011) and how they depend on dynamical instabilities that underlie chaotic itinerancy (Breakspear, 2001; Tsuda, 2001) and self-organized criticality (Beggs and Plenz, 2003; Plenz and Thiagarajan, 2007; Shew et al., 2011). Our approach is based on a dynamical formulation of perception as approximate Bayesian inference, in terms of variational free energy minimization. This formulation suggests that perception has an inherent tendency to induce dynamical instabilities (critical slowing) that enable the brain to respond sensitively to sensory perturbations. We briefly review the dynamics of perception, in terms of generalized Bayesian filtering and free energy minimization, present a formal conjecture about self-organized instability and then test this conjecture, using neuronal (numerical) simulations of perceptual categorization.",
+  "link": "https://doi.org/10.3389/fncom.2012.00044"
+}

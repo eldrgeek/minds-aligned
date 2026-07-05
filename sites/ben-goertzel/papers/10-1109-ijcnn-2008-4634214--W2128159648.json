@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/ijcnn.2008.4634214",
+  "doi_url": "https://doi.org/10.1109/ijcnn.2008.4634214",
+  "title": "A pragmatic path toward endowing virtually-embodied AIs with human-level linguistic capability",
+  "year": "2008",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "Current work is described wherein simplified versions of the Novamente cognition engine (NCE) are being used to control virtual agents in virtual worlds such as game engines and second life. In this context, an IRC (imitation-reinforcement-correction) methodology is being used to teach the agents various behaviors, including simple tricks and communicative acts. Here we describe how this work may potentially be exploited and extended to yield a pathway toward giving the NCE robust, ultimately human level natural language conversation capability. The pathway starts via using the current system to instruct NCE-controlled agents in semiosis and gestural communication; and then continues via integration of a particular sort of hybrid rule-based/statistical NLP system (which is currently partially complete) into the NCE-based virtual agent system, in such a way as to allow experiential adaptation of the rules underlying the NLP system, in a manner that builds on the agentpsilas knowledge of semiosis and gesture.",
+  "link": "https://doi.org/10.1109/ijcnn.2008.4634214"
+}

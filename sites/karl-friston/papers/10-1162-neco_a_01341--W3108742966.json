@@ -1,0 +1,17 @@
+{
+  "doi": "10.1162/neco_a_01341",
+  "doi_url": "https://doi.org/10.1162/neco_a_01341",
+  "title": "Deeply Felt Affect: The Emergence of Valence in Deep Active Inference",
+  "year": "2020",
+  "journal": "Neural Computation",
+  "authors": [
+    "Casper Hesp",
+    "Ryan Smith",
+    "Thomas Parr",
+    "Micah Allen",
+    "Karl Friston",
+    "Maxwell J. D. Ramstead"
+  ],
+  "abstract": "The positive-negative axis of emotional valence has long been recognized as fundamental to adaptive behavior, but its origin and underlying function have largely eluded formal theorizing and computational modeling. Using deep active inference, a hierarchical inference scheme that rests on inverting a model of how sensory data are generated, we develop a principled Bayesian model of emotional valence. This formulation asserts that agents infer their valence state based on the expected precision of their action model-an internal estimate of overall model fitness (\"subjective fitness\"). This index of subjective fitness can be estimated within any environment and exploits the domain generality of second-order beliefs (beliefs about beliefs). We show how maintaining internal valence representations allows the ensuing affective agent to optimize confidence in action selection preemptively. Valence representations can in turn be optimized by leveraging the (Bayes-optimal) updating term for subjective fitness, which we label affective charge (AC). AC tracks changes in fitness estimates and lends a sign to otherwise unsigned divergences between predictions and outcomes. We simulate the resulting affective inference by subjecting an in silico affective agent to a T-maze paradigm requiring context learning, followed by context reversal. This formulation of affective inference offers a principled account of the link between affect, (mental) action, and implicit metacognition. It characterizes how a deep biological system can infer its affective state and reduce uncertainty about such inferences through internal action (i.e., top-down modulation of priors that underwrite confidence). Thus, we demonstrate the potential of active inference to provide a formal and computationally tractable account of affect. Our demonstration of the face validity and potential utility of this formulation represents the first step within a larger research program. Next, this model can be leveraged to test the hypothesized role of valence by fitting the model to behavioral and neuronal responses.",
+  "link": "https://doi.org/10.1162/neco_a_01341"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.4018/9781599040639.ch004",
+  "doi_url": "https://doi.org/10.4018/9781599040639.ch004",
+  "title": "Toward a Pragmatic Understanding of the Cognitive Underpinnings of Symbol Grounding",
+  "year": "2011",
+  "journal": "IGI Global eBooks",
+  "authors": [
+    "Ben Goertzel",
+    "Moshe Looks",
+    "Ari Heljakka",
+    "Cassino Pennachin"
+  ],
+  "abstract": "We describe a research project investigating “symbol grounding” – the dynamics by which psychological connections are made between abstract symbols and concrete physical phenomena observed via sense perception and motor action. The project involves the use of a 3D simulated environment (AGI-SIM) as a medium for training, teaching and developing an integrative, general-intelligence-oriented AI software system (the Novamente AI Engine). Via acting in AGI-SIM, Novamente forms concrete sensorimotor groundings for abstract relationships, such as those expressed in English by prepositions and subject-argument relationships. We describe results obtained using probabilistic-evolutionary learning within Novamente to learn groundings for the concept “near”, the use of these groundings in practical procedure learning (e.g. learning to play “fetch” in a simulated world), and we then discuss the correlation of these groundings with linguistic usage of related words, and the use of these groundings within analogical and other sorts of inference.",
+  "link": "https://doi.org/10.4018/9781599040639.ch004"
+}

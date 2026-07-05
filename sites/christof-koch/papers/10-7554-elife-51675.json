@@ -1,0 +1,23 @@
+{
+  "doi": "10.7554/elife.51675",
+  "doi_url": "https://doi.org/10.7554/elife.51675",
+  "title": "Relationship between simultaneously recorded spiking activity and fluorescence signal in GCaMP6 transgenic mice",
+  "year": 2021,
+  "journal": "eLife",
+  "authors": [
+    "Lawrence Huang",
+    "Peter Ledochowitsch",
+    "Ulf Knoblich",
+    "Jérôme Lecoq",
+    "Gabe J. Murphy",
+    "R. Clay Reid",
+    "Saskia de Vries",
+    "Christof Koch",
+    "Hongkui Zeng",
+    "Michael A. Buice",
+    "Jack Waters",
+    "Lu Li"
+  ],
+  "abstract": "Fluorescent calcium indicators are often used to investigate neural dynamics, but the relationship between fluorescence and action potentials (APs) remains unclear. Most APs can be detected when the soma almost fills the microscope's field of view, but calcium indicators are used to image populations of neurons, necessitating a large field of view, generating fewer photons per neuron, and compromising AP detection. Here, we characterized the AP-fluorescence transfer function in vivo for 48 layer 2/3 pyramidal neurons in primary visual cortex, with simultaneous calcium imaging and cell-attached recordings from transgenic mice expressing GCaMP6s or GCaMP6f. While most APs were detected under optimal conditions, under conditions typical of population imaging studies, only a minority of 1 AP and 2 AP events were detected (often <10% and ~20-30%, respectively), emphasizing the limits of AP detection under more realistic imaging conditions.",
+  "link": "https://doi.org/10.7554/elife.51675"
+}

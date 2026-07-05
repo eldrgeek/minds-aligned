@@ -1,0 +1,13 @@
+{
+  "doi": "10.1073/pnas.97.13.7591",
+  "doi_url": "https://doi.org/10.1073/pnas.97.13.7591",
+  "title": "Attentional modulation of effective connectivity from V2 to V5/MT in humans",
+  "year": "2000",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Karl Friston",
+    "Christian Büchel"
+  ],
+  "abstract": "The nonlinear nature of integration among cortical brain areas renders the effective connectivity between them inherently dynamic and context-sensitive. One emerging architectural principle of functional brain organization, which rests explicitly on these nonlinear interactions, is that neuronal responses expressed at any level in a sensory hierarchy reflect an interaction between (i) bottom up \"driving\" afferents from lower cortical areas and (ii) backwards \"modulatory\" inputs from higher areas that mediate top-down contextual effects. A compelling example is attentional modulation of responses in functionally specialized sensory areas. The aim of this work was to demonstrate that parietal regions may mediate selective attention to motion by modulating the effective connectivity from early visual cortex to the motion-sensitive area V5/MT. Using functional magnetic resonance imaging, and an analysis of effective connectivity based on nonlinear system identification, we found that backwards modulatory influences from the posterior parietal cortex are sufficient to account for a significant component of attentional modulation of V5/MT responses to \"driving\" inputs from V2. By explicitly modeling interactions among inputs to V5/MT, we were able to make inferences about the influences of V2 inputs and their concomitant activity-dependent modulation by parietal afferents. The latter effects embody dynamic changes in effective connectivity that may underlie attentional mechanisms. These results speak to the context-sensitive nature of functional integration in the brain and provide empirical evidence that attentional effects may be mediated by backwards connections, of a modulatory sort, in humans.",
+  "link": "https://doi.org/10.1073/pnas.97.13.7591"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Indefinite Probabilities for General Intelligence",
+  "year": "2007",
+  "journal": "Artificial General Intelligence",
+  "authors": [
+    "Matthew Iklé",
+    "Ben Goertzel",
+    "Izabela Freire Goertzel"
+  ],
+  "abstract": "The creation of robust mechanisms for uncertain inference is central to the development of Artificial General Intelligence systems. While probability theory provides a principled foundation for uncertain inference, the mathematics of probability theory has not yet been developed to the point where it is possible to handle every aspect of the uncertain inference process in practical situations using rigorous probabilistic calculations. Due to the need to operate within realistic computational resources, probability theory presently requires augmentation with heuristics in order to be pragmatic for general intelligence (as well as for other purposes such as large-scale data analysis).\r\n\r\nThe authors have been involved with the creation of a novel, general framework for pragmatic probabilistic inference in an AGI context, called Probabilistic Logic Networks (PLN). PLN integrates probability theory with a variety of heuristic inference mechanisms; it encompasses a rich set of first-order and higher-order inference rules, and it is highly flexible and adaptive, and easily configurable. This paper describes a single, critical aspect of the PLN framework, which has to with the quantification of uncertainty. In short, it addresses the question: What should an uncertain truth value be, so that a general intelligence may use it for pragmatic reasoning?\r\n\r\nWe propose a new approach to quantifying uncertainty via a hybridization of Walley's theory of imprecise probabilities and Bayesian credible intervals. This “indefinite probability” approach provides a general method for calculating the “weight-of-evidence” underlying the conclusions of uncertain inferences. Moreover, both Walley's imprecise beta-binomial model and standard Bayesian inference can be viewed mathematically as special cases of the more general indefinite probability model. Via exemplifying the use of indefinite probabilities in a variety of PLN inference rules (including exact and heuristic ones), we argue that this mode of quantifying uncertainty may be adequate to serve as an ingredient of powerful artificial general intelligence.",
+  "link": "https://openalex.org/W67386499"
+}

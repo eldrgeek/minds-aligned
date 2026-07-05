@@ -1,0 +1,26 @@
+{
+  "name": "society-of-minds-aligned",
+  "version": "0.1.0",
+  "description": "Society of Minds Aligned — hub and per-thinker subsites for AGI-26 conference",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "hub",
+    "sites/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=hub",
+    "build": "npm run build --workspace=hub",
+    "preview": "npm run preview --workspace=hub",
+    "build:all": "npm run build --workspace=hub && npm run build --workspace=@soma/michael-levin && npm run build --workspace=@soma/joscha-bach && npm run build --workspace=@soma/karl-friston && npm run build --workspace=@soma/ben-goertzel",
+    "dev:site": "npm run dev --workspace",
+    "lint": "npm run lint -ws",
+    "type-check": "npm run type-check -ws"
+  },
+  "devDependencies": {
+    "astro": "^4.16.0",
+    "@astrojs/tailwind": "^5.1.3",
+    "tailwindcss": "^3.4.14"
+  }
+}

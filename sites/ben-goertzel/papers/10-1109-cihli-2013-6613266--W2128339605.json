@@ -1,0 +1,19 @@
+{
+  "doi": "10.1109/cihli.2013.6613266",
+  "doi_url": "https://doi.org/10.1109/cihli.2013.6613266",
+  "title": "The cogprime architecture for embodied Artificial General Intelligence",
+  "year": "2013",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Shujing Ke",
+    "Ruiting Lian",
+    "Jade O’Neill",
+    "Keyvan Sadeghi",
+    "Dingjie Wang",
+    "Oliver C. Watkins",
+    "Gino Yu"
+  ],
+  "abstract": "CogPrime, a comprehensive architecture for embodied Artificial General Intelligence, is reviewed, covering the core architecture and algorithms, the underlying conceptual motivations, and the emergent structures, dynamics and functionalities expected to arise in a completely implemented CogPrime system once it has undergone appropriate experience and education. A qualitative argument is sketched, in favor of the assertion that a completed CogPrime system, given a modest amount of experience in an embodiment enabling it to experience a reasonably rich human-like world, will give rise to human-level general intelligence (with significant difference from humans, and with potential for progress beyond this level).",
+  "link": "https://doi.org/10.1109/cihli.2013.6613266"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": "10.1080/17588928.2015.1020053",
+  "doi_url": "https://doi.org/10.1080/17588928.2015.1020053",
+  "title": "Active inference and epistemic value",
+  "year": "2015",
+  "journal": "Cognitive Neuroscience",
+  "authors": [
+    "Karl Friston",
+    "Francesco Rigoli",
+    "Dimitri Ognibene",
+    "Christoph Mathys",
+    "Thomas H. B. FitzGerald",
+    "Giovanni Pezzulo"
+  ],
+  "abstract": "We offer a formal treatment of choice behavior based on the premise that agents minimize the expected free energy of future outcomes. Crucially, the negative free energy or quality of a policy can be decomposed into extrinsic and epistemic (or intrinsic) value. Minimizing expected free energy is therefore equivalent to maximizing extrinsic value or expected utility (defined in terms of prior preferences or goals), while maximizing information gain or intrinsic value (or reducing uncertainty about the causes of valuable outcomes). The resulting scheme resolves the exploration-exploitation dilemma: Epistemic value is maximized until there is no further information gain, after which exploitation is assured through maximization of extrinsic value. This is formally consistent with the Infomax principle, generalizing formulations of active vision based upon salience (Bayesian surprise) and optimal decisions based on expected utility and risk-sensitive (Kullback-Leibler) control. Furthermore, as with previous active inference formulations of discrete (Markovian) problems, ad hoc softmax parameters become the expected (Bayes-optimal) precision of beliefs about, or confidence in, policies. This article focuses on the basic theory, illustrating the ideas with simulations. A key aspect of these simulations is the similarity between precision updates and dopaminergic discharges observed in conditioning paradigms.",
+  "link": "https://doi.org/10.1080/17588928.2015.1020053"
+}

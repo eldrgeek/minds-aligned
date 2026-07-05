@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.1703.04368",
+  "doi_url": "https://doi.org/10.48550/arxiv.1703.04368",
+  "title": "Symbol Grounding via Chaining of Morphisms",
+  "year": "2017",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ruiting Lian",
+    "Ben Goertzel",
+    "Linas Vepštas",
+    "David Hanson",
+    "Changle Zhou"
+  ],
+  "abstract": "A new model of symbol grounding is presented, in which the structures of natural language, logical semantics, perception and action are represented categorically, and symbol grounding is modeled via the composition of morphisms between the relevant categories. This model gives conceptual insight into the fundamentally systematic nature of symbol grounding, and also connects naturally to practical real-world AI systems in current research and commercial use. Specifically, it is argued that the structure of linguistic syntax can be modeled as a certain asymmetric monoidal category, as e.g. implicit in the link grammar formalism; the structure of spatiotemporal relationships and action plans can be modeled similarly using \"image grammars\" and \"action grammars\"; and common-sense logical semantic structure can be modeled using dependently-typed lambda calculus with uncertain truth values. Given these formalisms, the grounding of linguistic descriptions in spatiotemporal perceptions and coordinated actions consists of following morphisms from language to logic through to spacetime and body (for comprehension), and vice versa (for generation). The mapping is indicated between the spatial relationships in the Region Connection Calculus and Allen Interval Algebra and corresponding entries in the link grammar syntax parsing dictionary. Further, the abstractions introduced here are shown to naturally model the structures and systems currently being deployed in the context of using the OpenCog cognitive architecture to control Hanson Robotics humanoid robots.",
+  "link": "https://doi.org/10.48550/arxiv.1703.04368"
+}

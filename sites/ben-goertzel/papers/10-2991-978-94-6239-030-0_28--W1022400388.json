@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_28",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_28",
+  "title": "Natural Language Generation",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "Language generation, unsurprisingly, shares most of the key features of language comprehension discussed in Chap. 26 —after all, the division between generation and comprehension is to some extent an artificial convention, and the two functions are intimately bound up both in the human mind and in the CogPrime architecture.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_28"
+}

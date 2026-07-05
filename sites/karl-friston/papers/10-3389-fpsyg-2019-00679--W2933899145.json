@@ -1,0 +1,15 @@
+{
+  "doi": "10.3389/fpsyg.2019.00679",
+  "doi_url": "https://doi.org/10.3389/fpsyg.2019.00679",
+  "title": "Regimes of Expectations: An Active Inference Model of Social Conformity and Human Decision Making",
+  "year": "2019",
+  "journal": "Frontiers in Psychology",
+  "authors": [
+    "Axel Constant",
+    "Maxwell J. D. Ramstead",
+    "Samuel P. L. Veissière",
+    "Karl Friston"
+  ],
+  "abstract": "How do humans come to acquire shared expectations about how they ought to behave in distinct normalized social settings? This paper offers a normative framework to answer this question. We introduce the computational construct of 'deontic value' - based on active inference and Markov decision processes - to formalize conceptions of social conformity and human decision-making. Deontic value is an attribute of choices, behaviors, or action sequences that inherit directly from deontic cues in our econiche (e.g., red traffic lights); namely, cues that denote an obligatory social rule. Crucially, the prosocial aspect of deontic value rests upon a particular form of circular causality: deontic cues exist in the environment in virtue of the environment being modified by repeated actions, while action itself is contingent upon the deontic value of environmental cues. We argue that this construction of deontic cues enables the epistemic (i.e., information-seeking) and pragmatic (i.e., goal- seeking) values of any behavior to be 'cached' or 'outsourced' to the environment, where the environment effectively 'learns' about the behavior of its denizens. We describe the process whereby this particular aspect of value enables learning of habitual behavior over neurodevelopmental and transgenerational timescales.",
+  "link": "https://doi.org/10.3389/fpsyg.2019.00679"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Learned Iterative Decoding for Lossy Image Compression Systems.",
+  "year": 2018,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Ankur Mali",
+    "Jian Wu",
+    "Scott O'Connell",
+    "David J. Miller",
+    "C. Lee Giles"
+  ],
+  "abstract": "For lossy image compression systems, we develop an algorithm called iterative refinement, to improve the decoder's reconstruction compared with standard decoding techniques. Specifically, we propose a recurrent neural network approach for nonlinear, iterative decoding. Our neural decoder, which can work with any encoder, employs self-connected memory units that make use of both causal and non-causal spatial context information to progressively reduce reconstruction error over a fixed number of steps. We experiment with variations of our proposed estimator and obtain as much as a 0.8921 decibel (dB) gain over the standard JPEG algorithm and a 0.5848 dB gain over a state-of-the-art neural compression model.",
+  "link": "https://arxiv.org/pdf/1803.05863.pdf"
+}

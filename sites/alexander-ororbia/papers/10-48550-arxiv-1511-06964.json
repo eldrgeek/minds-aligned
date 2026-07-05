@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1511.06964",
+  "doi_url": "https://doi.org/10.48550/arxiv.1511.06964",
+  "title": "Online Semi-Supervised Learning with Deep Hybrid Boltzmann Machines and Denoising Autoencoders",
+  "year": 2015,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "C. Lee Giles",
+    "David Reitter"
+  ],
+  "abstract": "Two novel deep hybrid architectures, the Deep Hybrid Boltzmann Machine and the Deep Hybrid Denoising Auto-encoder, are proposed for handling semi-supervised learning problems. The models combine experts that model relevant distributions at different levels of abstraction to improve overall predictive performance on discriminative tasks. Theoretical motivations and algorithms for joint learning for each are presented. We apply the new models to the domain of data-streams in work towards life-long learning. The proposed architectures show improved performance compared to a pseudo-labeled, drop-out rectifier network.",
+  "link": "http://arxiv.org/abs/1511.06964"
+}

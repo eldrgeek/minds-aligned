@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/coginf.2009.5250807",
+  "doi_url": "https://doi.org/10.1109/coginf.2009.5250807",
+  "title": "OpenCogPrime: A cognitive synergy based architecture for artificial general intelligence",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "OpenCogPrime (OCP), a comprehensive architecture for artificial general intelligence (AGI) is briefly overviewed. Aimed in the long term at AGI at the human level and beyond, the current partial implementation of OCP is being used for applications such as controlling virtual pets in virtual worlds and inferring novel conclusions from sets of semantic relations extracted from natural language. The key aspects of OCP are described here in the context of the theoretical foundation of \"cognitive synergy theory\"; and the current implementation status is briefly reviewed.",
+  "link": "https://doi.org/10.1109/coginf.2009.5250807"
+}

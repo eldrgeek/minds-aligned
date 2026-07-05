@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2504.21235",
+  "doi_url": "https://doi.org/10.48550/arxiv.2504.21235",
+  "title": "Efficient Quantum-Safe Homomorphic Encryption for Quantum Computer Programs",
+  "year": "2025",
+  "journal": "ArXiv.org",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "We present a lattice-based scheme for homomorphic evaluation of quantum programs and proofs that remains secure against quantum adversaries. Classical homomorphic encryption is lifted to the quantum setting by replacing composite-order groups with Module Learning-With-Errors (MLWE) lattices and by generalizing polynomial functors to bounded natural super functors (BNSFs). A secret depolarizing BNSF mask hides amplitudes, while each quantum state is stored as an MLWE ciphertext pair. We formalize security with the qIND-CPA game that allows coherent access to the encryption oracle and give a four-hybrid reduction to decisional MLWE. The design also covers practical issues usually left open. A typed QC-bridge keeps classical bits produced by measurements encrypted yet still usable as controls, with weak-measurement semantics for expectation-value workloads. Encrypted Pauli twirls add circuit privacy. If a fixed knowledge base is needed, its axioms are shipped as MLWE \"capsules\"; the evaluator can use them but cannot read them. A rho-calculus driver schedules encrypted tasks across several QPUs and records an auditable trace on an RChain-style ledger. Performance analysis shows that the extra lattice arithmetic fits inside today's QPU idle windows: a 100-qubit, depth-10^3 teleportation-based proof runs in about 10 ms, the public key (seed only) is 32 bytes, and even a CCA-level key stays below 300 kB. A photonic Dirac-3 prototype that executes homomorphic teleportation plus knowledge-base-relative amplitude checks appears feasible with current hardware. These results indicate that fully homomorphic, knowledge-base-aware quantum reasoning is compatible with near-term quantum clouds and standard post-quantum security assumptions.",
+  "link": "https://doi.org/10.48550/arxiv.2504.21235"
+}

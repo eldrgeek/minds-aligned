@@ -1,0 +1,19 @@
+{
+  "doi": "10.1038/s41467-017-02718-3",
+  "doi_url": "https://doi.org/10.1038/s41467-017-02718-3",
+  "title": "Systematic generation of biophysically detailed models for diverse cortical neuron types",
+  "year": 2018,
+  "journal": "Nature Communications",
+  "authors": [
+    "Nathan W. Gouwens",
+    "Jim Berg",
+    "David Feng",
+    "Staci A. Sorensen",
+    "Hongkui Zeng",
+    "Michael Hawrylycz",
+    "Christof Koch",
+    "Anton Arkhipov"
+  ],
+  "abstract": "The cellular components of mammalian neocortical circuits are diverse, and capturing this diversity in computational models is challenging. Here we report an approach for generating biophysically detailed models of 170 individual neurons in the Allen Cell Types Database to link the systematic experimental characterization of cell types to the construction of cortical models. We build models from 3D morphologies and somatic electrophysiological responses measured in the same cells. Densities of active somatic conductances and additional parameters are optimized with a genetic algorithm to match electrophysiological features. We evaluate the models by applying additional stimuli and comparing model responses to experimental data. Applying this technique across a diverse set of neurons from adult mouse primary visual cortex, we verify that models preserve the distinctiveness of intrinsic properties between subsets of cells observed in experiments. The optimized models are accessible online alongside the experimental data. Code for optimization and simulation is also openly distributed.",
+  "link": "https://doi.org/10.1038/s41467-017-02718-3"
+}

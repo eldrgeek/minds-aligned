@@ -1,0 +1,16 @@
+{
+  "doi": "10.1098/rsif.2017.0685",
+  "doi_url": "https://doi.org/10.1098/rsif.2017.0685",
+  "title": "A variational approach to niche construction",
+  "year": "2018",
+  "journal": "Journal of The Royal Society Interface",
+  "authors": [
+    "Axel Constant",
+    "Maxwell J. D. Ramstead",
+    "Samuel P. L. Veissière",
+    "John O. Campbell",
+    "Karl Friston"
+  ],
+  "abstract": "In evolutionary biology, niche construction is sometimes described as a genuine evolutionary process whereby organisms, through their activities and regulatory mechanisms, modify their environment such as to steer their own evolutionary trajectory, and that of other species. There is ongoing debate, however, on the extent to which niche construction ought to be considered a bona fide evolutionary force, on a par with natural selection. Recent formulations of the variational free-energy principle as applied to the life sciences describe the properties of living systems, and their selection in evolution, in terms of variational inference. We argue that niche construction can be described using a variational approach. We propose new arguments to support the niche construction perspective, and to extend the variational approach to niche construction to current perspectives in various scientific fields.",
+  "link": "https://doi.org/10.1098/rsif.2017.0685"
+}

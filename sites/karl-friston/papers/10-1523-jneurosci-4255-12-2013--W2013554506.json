@@ -1,0 +1,17 @@
+{
+  "doi": "10.1523/jneurosci.4255-12.2013",
+  "doi_url": "https://doi.org/10.1523/jneurosci.4255-12.2013",
+  "title": "Free Energy, Precision and Learning: The Role of Cholinergic Neuromodulation",
+  "year": "2013",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Rosalyn Moran",
+    "Pablo Campo",
+    "Mkael Symmonds",
+    "Klaas Ε. Stephan",
+    "Raymond J. Dolan",
+    "Karl Friston"
+  ],
+  "abstract": "Acetylcholine (ACh) is a neuromodulatory transmitter implicated in perception and learning under uncertainty. This study combined computational simulations and pharmaco-electroencephalography in humans, to test a formulation of perceptual inference based upon the free energy principle. This formulation suggests that ACh enhances the precision of bottom-up synaptic transmission in cortical hierarchies by optimizing the gain of supragranular pyramidal cells. Simulations of a mismatch negativity paradigm predicted a rapid trial-by-trial suppression of evoked sensory prediction error (PE) responses that is attenuated by cholinergic neuromodulation. We confirmed this prediction empirically with a placebo-controlled study of cholinesterase inhibition. Furthermore, using dynamic causal modeling, we found that drug-induced differences in PE responses could be explained by gain modulation in supragranular pyramidal cells in primary sensory cortex. This suggests that ACh adaptively enhances sensory precision by boosting bottom-up signaling when stimuli are predictable, enabling the brain to respond optimally under different levels of environmental uncertainty.",
+  "link": "https://doi.org/10.1523/jneurosci.4255-12.2013"
+}

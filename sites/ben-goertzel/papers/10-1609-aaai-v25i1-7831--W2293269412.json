@@ -1,0 +1,19 @@
+{
+  "doi": "10.1609/aaai.v25i1.7831",
+  "doi_url": "https://doi.org/10.1609/aaai.v25i1.7831",
+  "title": "Cognitive Synergy between Procedural and Declarative Learning in the Control of Animated and Robotic Agents Using the OpenCogPrime AGI Architecture",
+  "year": "2011",
+  "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "authors": [
+    "Ben Goertzel",
+    "Joel Pitt",
+    "Jared Wigmore",
+    "Nil Geisweiller",
+    "Zhenhua Cai",
+    "Ruiting Lian",
+    "Deheng Huang",
+    "Gino Yu"
+  ],
+  "abstract": "The hypothesis is presented that \"cognitive synergy\" -- proactive and mutually-assistive feedback between different cognitive processes associated with different types of memory -- may serve as a foundation for advanced artificial general intelligence. A specific AI architecture founded on this idea, OpenCogPrime, is described, in the context of its application to control virtual agents and robots. The manifestations of cognitive synergy in OpenCogPrime's procedural and declarative learning algorithms are discussed in some detail.",
+  "link": "https://doi.org/10.1609/aaai.v25i1.7831"
+}

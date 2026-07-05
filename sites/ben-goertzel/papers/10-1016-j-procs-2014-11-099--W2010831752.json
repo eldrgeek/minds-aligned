@@ -1,0 +1,14 @@
+{
+  "doi": "10.1016/j.procs.2014.11.099",
+  "doi_url": "https://doi.org/10.1016/j.procs.2014.11.099",
+  "title": "A Software Architecture for Generally Intelligent Humanoid Robotics",
+  "year": "2014",
+  "journal": "Procedia Computer Science",
+  "authors": [
+    "Ben Goertzel",
+    "David Hanson",
+    "Gino Yu"
+  ],
+  "abstract": "This paper summarizes the authors’ thinking regarding the design of a software framework for interfacing between general-intelligence-oriented software systems and complex mobile robots, including humanoid robots. The framework describes incorporates perception synthesis, action orchestration, and high level control, and is designed to effectively leverage existing relevant software frameworks such as ROS and Blender. An initial case study motivating this work is the use of the OpenCog AGI (Artificial General Intelligence) software framework to help control humanoid robots created by Hanson Robotics.",
+  "link": "https://doi.org/10.1016/j.procs.2014.11.099"
+}

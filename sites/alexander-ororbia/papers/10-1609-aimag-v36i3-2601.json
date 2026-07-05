@@ -1,0 +1,21 @@
+{
+  "doi": "10.1609/aimag.v36i3.2601",
+  "doi_url": "https://doi.org/10.1609/aimag.v36i3.2601",
+  "title": "CiteSeerX: AI in a Digital Library Search Engine",
+  "year": 2015,
+  "journal": "AI Magazine",
+  "authors": [
+    "Jian Wu",
+    "Kyle William",
+    "Hung‐Hsuan Chen",
+    "Madian Khabsa",
+    "Cornelia Caragea",
+    "Suppawong Tuarob",
+    "Alexander G. Ororbia",
+    "Douglas Jordan",
+    "Prasenjit Mitra",
+    "C. Lee Giles"
+  ],
+  "abstract": "CiteSeerX is a digital library search engine that provides access to more than 5 million scholarly documents with nearly a million users and millions of hits per day. We present key AI technologies used in the following components: document classification and deduplication, document and citation clustering, automatic metadata extraction and indexing, and author disambiguation. These AI technologies have been developed by CiteSeerX group members over the past 5–6 years. We show the usage status, payoff, development challenges, main design concepts, and deployment and maintenance requirements. We also present AI technologies, implemented in table and algorithm search, that are special search modes in CiteSeerX. While it is challenging to rebuild a system like CiteSeerX from scratch, many of these AI technologies are transferable to other digital libraries and search engines.",
+  "link": "https://doi.org/10.1609/aimag.v36i3.2601"
+}

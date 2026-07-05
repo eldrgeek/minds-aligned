@@ -1,0 +1,14 @@
+{
+  "doi": "10.1073/pnas.1304429110",
+  "doi_url": "https://doi.org/10.1073/pnas.1304429110",
+  "title": "Simultaneous modeling of visual saliency and value computation improves predictions of economic choice",
+  "year": 2013,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "R. Blythe Towal",
+    "Milica Mormann",
+    "Christof Koch"
+  ],
+  "abstract": "Many decisions we make require visually identifying and evaluating numerous alternatives quickly. These usually vary in reward, or value, and in low-level visual properties, such as saliency. Both saliency and value influence the final decision. In particular, saliency affects fixation locations and durations, which are predictive of choices. However, it is unknown how saliency propagates to the final decision. Moreover, the relative influence of saliency and value is unclear. Here we address these questions with an integrated model that combines a perceptual decision process about where and when to look with an economic decision process about what to choose. The perceptual decision process is modeled as a drift-diffusion model (DDM) process for each alternative. Using psychophysical data from a multiple-alternative, forced-choice task, in which subjects have to pick one food item from a crowded display via eye movements, we test four models where each DDM process is driven by (i) saliency or (ii) value alone or (iii) an additive or (iv) a multiplicative combination of both. We find that models including both saliency and value weighted in a one-third to two-thirds ratio (saliency-to-value) significantly outperform models based on either quantity alone. These eye fixation patterns modulate an economic decision process, also described as a DDM process driven by value. Our combined model quantitatively explains fixation patterns and choices with similar or better accuracy than previous models, suggesting that visual saliency has a smaller, but significant, influence than value and that saliency affects choices indirectly through perceptual decisions that modulate economic decisions.",
+  "link": "https://doi.org/10.1073/pnas.1304429110"
+}

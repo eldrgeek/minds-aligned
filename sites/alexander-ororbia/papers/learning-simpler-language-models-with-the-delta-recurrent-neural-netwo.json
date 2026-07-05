@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Learning Simpler Language Models with the Delta Recurrent Neural Network Framework.",
+  "year": 2017,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Tomáš Mikolov",
+    "David Reitter"
+  ],
+  "abstract": "Learning useful information across long time lags is a critical and difficult\nproblem for temporal neural models in tasks like language modeling. Existing\narchitectures that address the issue are often complex and costly to train. The\nDelta Recurrent Neural Network (Delta-RNN) framework is a simple and\nhigh-performing design that unifies previously proposed gated neural models.\nThe Delta-RNN models maintain longer-term memory by learning to interpolate\nbetween a fast-changing data-driven representation and a slowly changing,\nimplicitly stable state. This requires hardly any more parameters than a\nclassical simple recurrent network. The models outperform popular complex\narchitectures, such as the Long Short Term Memory (LSTM) and the Gated\nRecurrent Unit (GRU) and achieve state-of-the art performance in language\nmodeling at character and word levels and yield comparable performance at the\nsubword level.",
+  "link": "https://arxiv.org/abs/1703.08864"
+}

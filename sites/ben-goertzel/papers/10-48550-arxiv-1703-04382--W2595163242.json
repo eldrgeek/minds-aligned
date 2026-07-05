@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1703.04382",
+  "doi_url": "https://doi.org/10.48550/arxiv.1703.04382",
+  "title": "Cost-Based Intuitionist Probabilities on Spaces of Graphs, Hypergraphs and Theorems",
+  "year": "2017",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "A novel partial order is defined on the space of digraphs or hypergraphs, based on assessing the cost of producing a graph via a sequence of elementary transformations. Leveraging work by Knuth and Skilling on the foundations of inference, and the structure of Heyting algebras on graph space, this partial order is used to construct an intuitionistic probability measure that applies to either digraphs or hypergraphs. As logical inference steps can be represented as transformations on hypergraphs representing logical statements, this also yields an intuitionistic probability measure on spaces of theorems. The central result is also extended to yield intuitionistic probabilities based on more general weighted rule systems defined over bicartesian closed categories.",
+  "link": "https://doi.org/10.48550/arxiv.1703.04382"
+}

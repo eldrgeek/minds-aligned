@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import papersData from '../data/papers.json';
+
+const paperCount = papersData.length;
+---
+<Base title="Home" description="Talks archive and grounded AI guide for David Eagleman — neuroscience of perception, time, sensory substitution, and brain plasticity.">
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12">
+    <div class="max-w-2xl">
+      <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-4">AGI-26 keynote</p>
+      <h1 class="font-serif text-4xl sm:text-5xl font-medium text-ink leading-tight mb-6">
+        David Eagleman
+      </h1>
+      <p class="text-lg text-muted leading-relaxed mb-8">
+        David Eagleman is a neuroscientist at Stanford University and a writer and entrepreneur. His research addresses time perception, synesthesia, sensory substitution, and neuroplasticity ("livewiring"), and he is widely known for popularizing neuroscience through books and broadcasting and for building devices that feed new sensory streams to the brain.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href="/corpus/" class="inline-flex items-center gap-2 bg-accent text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-accent-mid transition-colors">
+          Browse Corpus
+        </a>
+        <a href="/dictionary/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Dictionary
+        </a>
+        <a href="/ask/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Ask
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-10 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-12 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">Public work</h2>
+        <p class="text-muted leading-relaxed mb-4">
+          This subsite indexes David Eagleman's published papers as a searchable corpus — the foundation for a grounded AI guide and cross-thinker synthesis in Society of Minds Aligned.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          <a href="https://eagleman.com/" target="_blank" rel="noopener" class="text-accent hover:text-accent-mid font-medium transition-colors">Personal site ↗</a>
+          <a href="https://en.wikipedia.org/wiki/David_Eagleman" target="_blank" rel="noopener" class="text-accent hover:text-accent-mid font-medium transition-colors">Wikipedia ↗</a>
+        </div>
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">Corpus</h2>
+        <a href="/corpus/" class="inline-flex items-baseline gap-2">
+          <span class="font-mono text-3xl font-medium text-accent">{paperCount}</span>
+          <span class="text-muted text-sm hover:text-accent transition-colors">papers →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</Base>

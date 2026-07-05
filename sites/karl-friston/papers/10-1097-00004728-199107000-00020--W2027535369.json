@@ -1,0 +1,15 @@
+{
+  "doi": "10.1097/00004728-199107000-00020",
+  "doi_url": "https://doi.org/10.1097/00004728-199107000-00020",
+  "title": "Plastic Transformation of PET Images",
+  "year": "1991",
+  "journal": "Journal of Computer Assisted Tomography",
+  "authors": [
+    "Karl Friston",
+    "Chris Frith",
+    "Peter F. Liddle",
+    "R. S. J. Frackowiak"
+  ],
+  "abstract": "A theory and technique are presented that allow nonlinear resampling of positron emission tomography data to remove nonlinear differences in brain shape. The resampling is determined empirically by a function relating the observed image and a desired template. The validity, reliability, and precision of the plastic transformation are compared with linear rescaling alone, within, and between subjects.",
+  "link": "https://doi.org/10.1097/00004728-199107000-00020"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": "10.1371/journal.pone.0015554",
+  "doi_url": "https://doi.org/10.1371/journal.pone.0015554",
+  "title": "Observing the Observer (I): Meta-Bayesian Models of Learning and Decision-Making",
+  "year": "2010",
+  "journal": "PLoS ONE",
+  "authors": [
+    "Jean Daunizeau",
+    "Hanneke E.M. den Ouden",
+    "Matthias Pessiglione",
+    "Stefan J. Kiebel",
+    "Klaas Ε. Stephan",
+    "Karl Friston"
+  ],
+  "abstract": "In this paper, we present a generic approach that can be used to infer how subjects make optimal decisions under uncertainty. This approach induces a distinction between a subject's perceptual model, which underlies the representation of a hidden \"state of affairs\" and a response model, which predicts the ensuing behavioural (or neurophysiological) responses to those inputs. We start with the premise that subjects continuously update a probabilistic representation of the causes of their sensory inputs to optimise their behaviour. In addition, subjects have preferences or goals that guide decisions about actions given the above uncertain representation of these hidden causes or state of affairs. From a Bayesian decision theoretic perspective, uncertain representations are so-called \"posterior\" beliefs, which are influenced by subjective \"prior\" beliefs. Preferences and goals are encoded through a \"loss\" (or \"utility\") function, which measures the cost incurred by making any admissible decision for any given (hidden) state of affair. By assuming that subjects make optimal decisions on the basis of updated (posterior) beliefs and utility (loss) functions, one can evaluate the likelihood of observed behaviour. Critically, this enables one to \"observe the observer\", i.e. identify (context- or subject-dependent) prior beliefs and utility-functions using psychophysical or neurophysiological measures. In this paper, we describe the main theoretical components of this meta-Bayesian approach (i.e. a Bayesian treatment of Bayesian decision theoretic predictions). In a companion paper ('Observing the observer (II): deciding when to decide'), we describe a concrete implementation of it and demonstrate its utility by applying it to simulated and real reaction time data from an associative learning task.",
+  "link": "https://doi.org/10.1371/journal.pone.0015554"
+}

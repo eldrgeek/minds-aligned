@@ -1,0 +1,17 @@
+{
+  "doi": "10.1093/cercor/bhx307",
+  "doi_url": "https://doi.org/10.1093/cercor/bhx307",
+  "title": "The Hierarchical Organization of the Default, Dorsal Attention and Salience Networks in Adolescents and Young Adults",
+  "year": "2017",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Yuan Zhou",
+    "Karl Friston",
+    "Peter Zeidman",
+    "Jie Chen",
+    "Shu Li",
+    "Adeel Razi"
+  ],
+  "abstract": "An important characteristic of spontaneous brain activity is the anticorrelation between the core default network (cDN) and the dorsal attention network (DAN) and the salience network (SN). This anticorrelation may constitute a key aspect of functional anatomy and is implicated in several brain disorders. We used dynamic causal modeling to assess the hypothesis that a causal hierarchy underlies this anticorrelation structure, using resting-state fMRI of healthy adolescent and young adults (N = 404). Our analysis revealed an asymmetric effective connectivity, such that the regions in the SN and DAN exerted an inhibitory influence on the cDN regions; whereas the cDN exerted an excitatory influence on the SN and DAN regions. The relative strength of efferent versus afferent connections places the SN at the apex of the hierarchy, suggesting that the SN modulates anticorrelated networks with descending hierarchical connections. In short, this study of directed neuronal coupling reveals a causal hierarchical architecture that generates or orchestrates anticorrelation of brain activity. These new findings shed light on functional integration of intrinsic brain networks at rest and speak to future dynamic causal modeling studies of large-scale networks.",
+  "link": "https://doi.org/10.1093/cercor/bhx307"
+}

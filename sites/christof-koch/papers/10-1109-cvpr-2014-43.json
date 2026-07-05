@@ -1,0 +1,16 @@
+{
+  "doi": "10.1109/cvpr.2014.43",
+  "doi_url": "https://doi.org/10.1109/cvpr.2014.43",
+  "title": "The Secrets of Salient Object Segmentation",
+  "year": 2014,
+  "journal": null,
+  "authors": [
+    "Yin Li",
+    "Xiaodi Hou",
+    "Christof Koch",
+    "James M. Rehg",
+    "Alan Yuille"
+  ],
+  "abstract": "In this paper we provide an extensive evaluation of fixation prediction and salient object segmentation algorithms as well as statistics of major datasets. Our analysis identifies serious design flaws of existing salient object benchmarks, called the dataset design bias, by over emphasising the stereotypical concepts of saliency. The dataset design bias does not only create the discomforting disconnection between fixations and salient object segmentation, but also misleads the algorithm designing. Based on our analysis, we propose a new high quality dataset that offers both fixation and salient object segmentation ground-truth. With fixations and salient object being presented simultaneously, we are able to bridge the gap between fixations and salient objects, and propose a novel method for salient object segmentation. Finally, we report significant benchmark progress on 3 existing datasets of segmenting salient objects.",
+  "link": "https://doi.org/10.1109/cvpr.2014.43"
+}

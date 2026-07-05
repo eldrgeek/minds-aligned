@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AGI-26 Review · Control Room</title>
+  <meta name="description" content="See, don't read — live artifact review dashboard for Society of Minds Aligned." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0F141F;
+      --navy-deep: #03122B;
+      --navy-card: #151B2B;
+      --cream: #F5F1EB;
+      --body: #E9EAED;
+      --muted: #9BA3B5;
+      --accent: #3C6CDD;
+      --accent-hover: #4D7AE8;
+      --border: rgba(255, 255, 255, 0.10);
+      --live: #3dd68c;
+      --placeholder: #f5a623;
+      --unreviewed: #ff6b4a;
+      --reviewed: #5a6275;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--navy);
+      color: var(--body);
+      min-height: 100vh;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(15, 20, 31, 0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0.875rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--cream);
+      letter-spacing: 0.02em;
+    }
+
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+    }
+
+    .stats {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+
+    .stat strong { color: var(--cream); font-weight: 500; }
+
+    .legend {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .dot--live { background: var(--live); box-shadow: 0 0 6px var(--live); }
+    .dot--placeholder { background: var(--placeholder); box-shadow: 0 0 6px var(--placeholder); }
+    .dot--unreviewed {
+      background: var(--unreviewed);
+      box-shadow: 0 0 8px var(--unreviewed);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    .dot--reviewed { background: var(--reviewed); }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.55; }
+    }
+
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .intro {
+      margin-bottom: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      max-width: 52ch;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .card {
+      background: var(--navy-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      position: relative;
+    }
+
+    .card:hover {
+      border-color: rgba(60, 108, 221, 0.35);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    .card.reviewed {
+      border-color: rgba(255, 255, 255, 0.06);
+    }
+
+    .card.reviewed .review-marker {
+      background: var(--reviewed);
+      box-shadow: none;
+      animation: none;
+    }
+
+    .card-header {
+      padding: 0.875rem 1rem 0.625rem;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+
+    .card-title-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      min-width: 0;
+    }
+
+    .card-title {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 1.15rem;
+      color: var(--cream);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 0.35rem;
+    }
+
+    .status-dot--live { background: var(--live); box-shadow: 0 0 5px var(--live); }
+    .status-dot--placeholder { background: var(--placeholder); box-shadow: 0 0 5px var(--placeholder); }
+
+    .review-marker {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--unreviewed);
+      box-shadow: 0 0 10px var(--unreviewed);
+      animation: pulse 2s ease-in-out infinite;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .card.reviewed .review-marker::after {
+      content: '';
+      position: absolute;
+      inset: 2px;
+      border-radius: 50%;
+      background: var(--navy-card);
+    }
+
+    .direction {
+      padding: 0 1rem 0.75rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    .preview {
+      position: relative;
+      aspect-ratio: 16 / 10;
+      background: var(--navy-deep);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    .preview iframe {
+      width: 200%;
+      height: 200%;
+      border: 0;
+      transform: scale(0.5);
+      transform-origin: top left;
+      pointer-events: none;
+    }
+
+    .preview-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--muted);
+      background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 8px,
+        rgba(255, 255, 255, 0.02) 8px,
+        rgba(255, 255, 255, 0.02) 16px
+      );
+    }
+
+    .preview-fallback {
+      position: absolute;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: rgba(3, 18, 43, 0.92);
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .preview.blocked .preview-fallback { display: flex; }
+    .preview.blocked iframe { opacity: 0.15; }
+
+    .card-footer {
+      padding: 0.625rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+
+    .review-hint {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      opacity: 0.7;
+    }
+
+    .card.reviewed .review-hint { color: var(--live); opacity: 1; }
+
+    .open-link {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      text-decoration: none;
+      padding: 0.35rem 0.65rem;
+      border: 1px solid rgba(60, 108, 221, 0.35);
+      border-radius: 4px;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .open-link:hover {
+      background: var(--accent);
+      color: var(--cream);
+    }
+
+    .open-link.disabled {
+      pointer-events: none;
+      opacity: 0.35;
+      border-color: var(--border);
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1.25rem 1.5rem 2rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-family: var(--font-mono);
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 480px) {
+      .grid { grid-template-columns: 1fr; }
+      .legend { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div>
+        <div class="eyebrow">AGI-26 · see, don't read</div>
+        <div class="brand">Review Control Room</div>
+      </div>
+      <div class="stats">
+        <span class="stat"><strong id="reviewed-count">0</strong> / <span id="total-count">0</span> reviewed</span>
+        <div class="legend">
+          <span class="legend-item"><span class="dot dot--unreviewed"></span> unreviewed</span>
+          <span class="legend-item"><span class="dot dot--reviewed"></span> reviewed</span>
+          <span class="legend-item"><span class="dot dot--live"></span> live</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <p class="intro">Click a card to mark reviewed. Direction lines are one sentence — the page is the review surface.</p>
+    <div class="grid" id="grid" role="list"></div>
+  </main>
+
+  <footer>Deploy target: agi26-review · Society of Minds Aligned</footer>
+
+  <script>
+    const STORAGE_KEY = 'agi26-review-state';
+
+    function loadReviewState() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      } catch {
+        return {};
+      }
+    }
+
+    function saveReviewState(state) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function isReviewed(id, state) {
+      return state[id] === true;
+    }
+
+    function toggleReview(id) {
+      const state = loadReviewState();
+      state[id] = !isReviewed(id, state);
+      saveReviewState(state);
+      updateCounts(state);
+      const card = document.querySelector(`[data-id="${id}"]`);
+      if (card) card.classList.toggle('reviewed', state[id]);
+    }
+
+    function updateCounts(state, total) {
+      const reviewed = Object.values(state).filter(Boolean).length;
+      document.getElementById('reviewed-count').textContent = reviewed;
+      document.getElementById('total-count').textContent = total;
+    }
+
+    function createCard(artifact, state) {
+      const reviewed = isReviewed(artifact.id, state);
+      const isLive = artifact.status === 'live' && artifact.url;
+      const card = document.createElement('article');
+      card.className = 'card' + (reviewed ? ' reviewed' : '');
+      card.dataset.id = artifact.id;
+      card.setAttribute('role', 'listitem');
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('aria-label', `${artifact.title} — ${reviewed ? 'reviewed' : 'unreviewed'}`);
+
+      const statusClass = artifact.status === 'live' ? 'status-dot--live' : 'status-dot--placeholder';
+
+      const previewHtml = isLive
+        ? `<div class="preview" data-url="${artifact.url}">
+             <iframe src="${artifact.url}" title="Preview: ${artifact.title}" loading="lazy" sandbox="allow-scripts allow-same-origin"></iframe>
+             <div class="preview-fallback">iframe blocked — open live site</div>
+           </div>`
+        : `<div class="preview"><div class="preview-placeholder">Not deployed</div></div>`;
+
+      const openHtml = isLive
+        ? `<a class="open-link" href="${artifact.url}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Open ↗</a>`
+        : `<span class="open-link disabled">Pending</span>`;
+
+      card.innerHTML = `
+        <span class="review-marker" title="${reviewed ? 'Reviewed' : 'Unreviewed — click card to mark'}"></span>
+        <div class="card-header">
+          <div class="card-title-row">
+            <span class="status-dot ${statusClass}" title="${artifact.status}"></span>
+            <h2 class="card-title">${artifact.title}</h2>
+          </div>
+        </div>
+        <p class="direction">${artifact.direction}</p>
+        ${previewHtml}
+        <div class="card-footer">
+          <span class="review-hint">${reviewed ? '✓ reviewed' : 'click to mark reviewed'}</span>
+          ${openHtml}
+        </div>
+      `;
+
+      card.addEventListener('click', () => toggleReview(artifact.id));
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggleReview(artifact.id);
+        }
+      });
+
+      if (isLive) {
+        const preview = card.querySelector('.preview');
+        const iframe = preview.querySelector('iframe');
+        iframe.addEventListener('error', () => preview.classList.add('blocked'));
+        setTimeout(() => {
+          try {
+            const doc = iframe.contentDocument;
+            if (!doc || !doc.body || doc.body.childNodes.length === 0) {
+              preview.classList.add('blocked');
+            }
+          } catch {
+            /* cross-origin — iframe loaded, assume OK */
+          }
+        }, 2500);
+      }
+
+      return card;
+    }
+
+    async function init() {
+      const res = await fetch('artifacts.json');
+      if (!res.ok) throw new Error('Failed to load artifacts.json');
+      const artifacts = await res.json();
+      const state = loadReviewState();
+      const grid = document.getElementById('grid');
+
+      artifacts.forEach((artifact) => {
+        grid.appendChild(createCard(artifact, state));
+      });
+
+      updateCounts(state, artifacts.length);
+    }
+
+    init().catch((err) => {
+      document.getElementById('grid').innerHTML =
+        `<p style="color:#ff6b4a;padding:1rem">Error: ${err.message}</p>`;
+    });
+  </script>
+</body>
+</html>

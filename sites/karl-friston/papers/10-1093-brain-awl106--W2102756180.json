@@ -1,0 +1,18 @@
+{
+  "doi": "10.1093/brain/awl106",
+  "doi_url": "https://doi.org/10.1093/brain/awl106",
+  "title": "Non-invasive mapping of corticofugal fibres from multiple motor areas—relevance to stroke recovery",
+  "year": "2006",
+  "journal": "Brain",
+  "authors": [
+    "Jennifer Newton",
+    "Nick Ward",
+    "Geoff J.M. Parker",
+    "Ralf Deichmann",
+    "Daniel C. Alexander",
+    "Karl Friston",
+    "R. S. J. Frackowiak"
+  ],
+  "abstract": "Recovery of motor function after subcortical stroke appears to be related to the integrity of descending connections from the ipsilesional cortical motor system, a view supported by the observation of greater than normal movement-related activation in ipsilesional motor regions in chronic subcortical stroke patients. This suggests that damage to the descending output fibres from one region of the cortical motor system may be compensated by activity in areas that retain corticofugal outputs. Though the trajectories of corticofugal fibres from each major component of the motor system through the corona radiata and internal capsule are well described in non-human primates, they have not been described fully in humans. Our study set out to map the trajectories of these connections in a group of healthy volunteers (8 male, 4 female; age range = 31-68 years, median = 48.5 years) and establish whether this knowledge can be used to assess stroke-induced disconnection of the cortical motor system and better interpret functional reorganization of the cortical motor system. We describe the trajectories of the connections from each major component of the motor system to the cerebral peduncle using diffusion-weighted imaging and probabilistic tractography in normal subjects. We observed good reproducibility of these connections over subjects. The comparative topography of these connections revealed many similarities between humans and other primates. We then inferred damage to corticofugal pathways in stroke patients (n = 3) by comparing the overlap between regions of subcortical white matter damage with the trajectories of the connections to each motor area. In a small series of case studies, we found that inferred disconnections could explain enhanced hand-grip-related responses, as assessed with functional MRI, in the ipsilesional motor system. These results confirm that selective disruption of motor corticofugal fibres influences functional reorganization and outcome in individual patients.",
+  "link": "https://doi.org/10.1093/brain/awl106"
+}

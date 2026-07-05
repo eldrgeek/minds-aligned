@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/coginf.2010.5599827",
+  "doi_url": "https://doi.org/10.1109/coginf.2010.5599827",
+  "title": "Object/gesture recognition software in the &amp;#x201C;China Brain Project&amp;#x201D;",
+  "year": "2010",
+  "journal": null,
+  "authors": [
+    "Hugo de Garis",
+    "Xiaoxi Chen",
+    "Ye Yang",
+    "Shuo Chen",
+    "Ben Goertzel",
+    "Ruiting Lian"
+  ],
+  "abstract": "This paper introduces a Partially Connected Neural Evolutionary (Parcone) model and its application to object and gesture recognition as part of the \"China Brain Project\", which aims to build China's first artificial brain, consisting of 10,000s of evolved interconnected neural net modules, each with its own little task, similar to Minsky's agents.",
+  "link": "https://doi.org/10.1109/coginf.2010.5599827"
+}

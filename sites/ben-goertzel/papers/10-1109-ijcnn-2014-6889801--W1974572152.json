@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/ijcnn.2014.6889801",
+  "doi_url": "https://doi.org/10.1109/ijcnn.2014.6889801",
+  "title": "From here to AGI: A roadmap to the realization of human-level artificial general intelligence",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Gino Yu"
+  ],
+  "abstract": "A practical roadmap to human-level artificial general intelligence is outlined, leading from the current situation in which complex AGI-oriented cognitive architectures remain partially implemented and inadequately tested, to a future in which AGI systems are deployed to carry out a variety of practical tasks currently only achievable via humans. The roadmap involves simultaneous development of proto-AGI applications in a number of different areas: videogame agent control, mobile robotics, genomics, natural language dialogue, theorem proving and program learning. The simultaneous pursuit of diverse application areas using a single AGI architecture is proposed as critical to maintaining generality of intelligence throughout the development process. While acknowledging the profound difficulty of time estimation for a project of this complexity, it is projected that the roadmap outlined could potentially be completed in a decade or less.",
+  "link": "https://doi.org/10.1109/ijcnn.2014.6889801"
+}

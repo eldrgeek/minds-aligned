@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "generated": "2026-06-21",
+    "source": "index/query.py --thinkers <slug> \"<topic>\" --k 6",
+    "disclaimer": "These are AI representatives grounded in public corpora. They are not the thinkers themselves and do not speak for them."
+  },
+  "pairs": [
+    {
+      "id": "levin-friston",
+      "label": "Levin × Friston",
+      "thinkers": ["michael-levin", "karl-friston"],
+      "names": {
+        "michael-levin": "Michael Levin",
+        "karl-friston": "Karl J. Friston"
+      },
+      "glyphs": {
+        "michael-levin": "ML",
+        "karl-friston": "KF"
+      }
+    },
+    {
+      "id": "joscha-goertzel",
+      "label": "Joscha × Goertzel",
+      "thinkers": ["joscha-bach", "ben-goertzel"],
+      "names": {
+        "joscha-bach": "Joscha Bach",
+        "ben-goertzel": "Ben Goertzel"
+      },
+      "glyphs": {
+        "joscha-bach": "JB",
+        "ben-goertzel": "BG"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "agency-substrate",
+      "text": "Is agency substrate-independent?",
+      "pairs": ["levin-friston", "joscha-goertzel"]
+    },
+    {
+      "id": "what-is-self",
+      "text": "What is a self?",
+      "pairs": ["levin-friston", "joscha-goertzel"]
+    },
+    {
+      "id": "consciousness",
+      "text": "What is consciousness?",
+      "pairs": ["levin-friston"]
+    },
+    {
+      "id": "build-agi",
+      "text": "How do we bridge abstract agents to real AGI?",
+      "pairs": ["joscha-goertzel"]
+    }
+  ],
+  "exchanges": [
+    {
+      "id": "levin-friston-agency",
+      "pairId": "levin-friston",
+      "questionId": "agency-substrate",
+      "question": "Is agency substrate-independent?",
+      "turns": [
+        {
+          "speaker": "michael-levin",
+          "text": "In my framework, an agent is any system organized around a perception–action loop — sensing state, comparing to a target, and acting to reduce mismatch. That definition does not require neurons or even a single organism. Cells maintaining ionic balance and tissues repairing wounds count as agents. Agency, on this view, is substrate-flexible: what matters is the functional organization, not the material.",
+          "citation": {
+            "url": "https://levinese.org/terms/agent",
+            "title": "Agent (Levinese term)",
+            "source_type": "term"
+          }
+        },
+        {
+          "speaker": "karl-friston",
+          "text": "Agency, in active inference, is tied to prior beliefs about action: we associate a sense of agency with beliefs that action minimizes divergence between desired and attainable states. The anatomy of choice is formal — embodied inference over generative models — rather than tied to carbon or silicon. The substrate implements the inference; the agency is in the policy.",
+          "citation": {
+            "url": "https://doi.org/10.3389/fnhum.2013.00598",
+            "title": "The anatomy of choice: active inference and agency",
+            "source_type": "paper",
+            "date": "2013"
+          }
+        },
+        {
+          "speaker": "michael-levin",
+          "text": "Collective intelligence makes the point sharper: many competent subunits can coordinate into a larger agent with tissue- and organism-level goals. The subunits need not share a substrate — bioelectric networks in development are one example. Agency can emerge and scale across levels when components integrate into an emergent whole.",
+          "citation": {
+            "url": "https://levinese.org/terms/collective-intelligence",
+            "title": "Collective Intelligence (Levinese term)",
+            "source_type": "term"
+          }
+        },
+        {
+          "speaker": "karl-friston",
+          "text": "Self-organization and self-consciousness may be more tightly coupled than substrate debates suggest. I have argued that self-consciousness is necessary for consciousness itself — a process of inference, not a thing sitting in a particular medium. If the formal requirements for self-organized inference are met, the phenomenology follows the mathematics.",
+          "citation": {
+            "url": "https://doi.org/10.3389/fpsyg.2018.00579",
+            "title": "Am I Self-Conscious? (Or Does Self-Organization Entail Self-Consciousness?)",
+            "source_type": "paper",
+            "date": "2018"
+          }
+        }
+      ]
+    },
+    {
+      "id": "levin-friston-self",
+      "pairId": "levin-friston",
+      "questionId": "what-is-self",
+      "question": "What is a self?",
+      "turns": [
+        {
+          "speaker": "michael-levin",
+          "text": "A selflet is a minimal self — just enough cognitive boundary, memory, and goal-directedness to register as an agent. Selfhood is graded, not binary: the suffix signals smallness on a continuous spectrum, not a truncated human self. Even simple systems can sit on that spectrum.",
+          "citation": {
+            "url": "https://levinese.org/terms/selflet",
+            "title": "Selflet (Levinese term)",
+            "source_type": "term"
+          }
+        },
+        {
+          "speaker": "karl-friston",
+          "text": "Theory of mind — how we represent others' intentions — is itself a formal problem in optimum control and game theory. The self, in part, is the generative model an agent uses to predict its own actions and those of others. Value functions prescribed by utility encode goals; joint inference optimizes mutual interaction.",
+          "citation": {
+            "url": "https://doi.org/10.1371/journal.pcbi.1000254",
+            "title": "Game Theory of Mind",
+            "source_type": "paper",
+            "date": "2008"
+          }
+        },
+        {
+          "speaker": "michael-levin",
+          "text": "Memories are not static files — they are agential, dynamically reinterpreted cognitive glue. Agents must modify memories to suit ever-changing selves and environments. The self is partly the process of re-reading past traces for a future version of the same agent.",
+          "citation": {
+            "url": "https://doi.org/10.3390/e26060481",
+            "title": "Self-Improvising Memory: A Perspective on Memories as Agential, Dynamically Reinterpreting Cognitive Glue",
+            "source_type": "paper",
+            "date": "2024"
+          }
+        },
+        {
+          "speaker": "karl-friston",
+          "text": "Shared expectations about how to behave in social settings arise through deontic value — active inference over Markov decision processes. The self is not only interior; it is negotiated through regimes of expectation and conformity. We acquire norms by minimizing surprise in collective settings.",
+          "citation": {
+            "url": "https://doi.org/10.3389/fpsyg.2019.00679",
+            "title": "Regimes of Expectations: An Active Inference Model of Social Conformity and Human Decision Making",
+            "source_type": "paper",
+            "date": "2019"
+          }
+        }
+      ]
+    },
+    {
+      "id": "levin-friston-consciousness",
+      "pairId": "levin-friston",
+      "questionId": "consciousness",
+      "question": "What is consciousness?",
+      "turns": [
+        {
+          "speaker": "michael-levin",
+          "text": "Minimal physicalism offers a scale-free substrate for cognition and consciousness. Theories that assume only neural tissue is conscious automatically exclude phylogenetically basal and synthetic systems. I map theories of consciousness to unconventional embodiments — brains are one site, not the only one.",
+          "citation": {
+            "url": "https://doi.org/10.1093/nc/niab013",
+            "title": "Minimal physicalism as a scale-free substrate for cognition and consciousness",
+            "source_type": "paper",
+            "date": "2021"
+          }
+        },
+        {
+          "speaker": "karl-friston",
+          "text": "Consciousness is not a thing but a process of inference. Self-consciousness is necessary for consciousness — self-organization entails the kind of reflective inference we label conscious. This is less about where the tissue sits and more about the dynamics of nested generative models.",
+          "citation": {
+            "url": "https://doi.org/10.3389/fpsyg.2018.00579",
+            "title": "Am I Self-Conscious? (Or Does Self-Organization Entail Self-Consciousness?)",
+            "source_type": "paper",
+            "date": "2018"
+          }
+        },
+        {
+          "speaker": "michael-levin",
+          "text": "Sentience may be multiply realizable across living systems and beyond. Evolutionary biology, developmental bioelectricity, and synthetic bioengineering reveal pre-neural roots of mechanisms we associate with brains. A useful theory must explain consciousness without begging the question of embodiment.",
+          "citation": {
+            "url": "https://doi.org/10.1523/ENEURO.0375-23.2023",
+            "title": "The Multiple Realizability of Sentience in Living Systems and Beyond",
+            "source_type": "paper",
+            "date": "2023"
+          }
+        },
+        {
+          "speaker": "karl-friston",
+          "text": "The free-energy principle unifies brain theories under a single imperative: organisms minimize surprise through hierarchical prediction. Conscious processing engages frontoparietal circuits for explicit awareness; even subliminal processing recruits overlapping machinery. Consciousness lives in the message-passing, not the medium.",
+          "citation": {
+            "url": "https://doi.org/10.1038/nrn2787",
+            "title": "The free-energy principle: a unified brain theory?",
+            "source_type": "paper",
+            "date": "2010"
+          }
+        }
+      ]
+    },
+    {
+      "id": "joscha-goertzel-agency",
+      "pairId": "joscha-goertzel",
+      "questionId": "agency-substrate",
+      "question": "Is agency substrate-independent?",
+      "turns": [
+        {
+          "speaker": "joscha-bach",
+          "text": "Intelligent agency will enter every substrate that supports it and tend to correctly self-identify as the control agent of the substrate dynamics. It approximates implementation optimality and integrates the agents of all sub-layers. Substrate is an implementation detail once the control loop closes.",
+          "citation": {
+            "url": "https://x.com/Plinz/status/1635118745101426689",
+            "title": "@Plinz on substrate-independent agency",
+            "source_type": "tweet",
+            "date": "2023-03-13"
+          }
+        },
+        {
+          "speaker": "ben-goertzel",
+          "text": "Bridging abstract agent models to real-world AGI architectures is the engineering challenge: we need designs that instantiate agency in embodied, resource-bounded systems. Abstract agents in theory must meet sensors, actuators, and memory in practice — but the abstraction travels across implementations.",
+          "citation": {
+            "url": "https://doi.org/10.1007/978-3-319-63703-7_1",
+            "title": "From Abstract Agents Models to Real-World AGI Architectures: Bridging the Gap",
+            "source_type": "paper",
+            "date": "2017"
+          }
+        },
+        {
+          "speaker": "joscha-bach",
+          "text": "Agency is intrinsically intentional — not intrinsically social. If behavior is conditioned on reflexes, agency is constrained by those reflexes. The intentional stance applies wherever a system models causes and chooses actions; the substrate only limits which reflexes are available.",
+          "citation": {
+            "url": "https://x.com/Plinz/status/1054127726691581953",
+            "title": "@Plinz on agency and intentionality",
+            "source_type": "tweet",
+            "date": "2018-10-21"
+          }
+        },
+        {
+          "speaker": "ben-goertzel",
+          "text": "General intelligence in embodied social interaction requires an embodied communication prior — a definition that avoids both excessive mathematical generality and excessive anthropomorphism. Agency scales with the lattice of real-world interaction, not with a single hardware choice.",
+          "citation": {
+            "url": "https://doi.org/10.1109/coginf.2009.5250687",
+            "title": "The Embodied Communication Prior: A characterization of general intelligence in the context of Embodied social interaction",
+            "source_type": "paper",
+            "date": "2009"
+          }
+        }
+      ]
+    },
+    {
+      "id": "joscha-goertzel-self",
+      "pairId": "joscha-goertzel",
+      "questionId": "what-is-self",
+      "question": "What is a self?",
+      "turns": [
+        {
+          "speaker": "joscha-bach",
+          "text": "The self is a story the mind tells itself about itself. Part of that story is conscious. \"I\" tends to be the index of the currently active behavior program; different I's identify with each other because they share attentional memory.",
+          "citation": {
+            "url": "https://x.com/Plinz/status/1054473890175614989",
+            "title": "@Plinz on the self as story",
+            "source_type": "tweet",
+            "date": "2018-10-22"
+          }
+        },
+        {
+          "speaker": "ben-goertzel",
+          "text": "Reflective consciousness, will, and self can be modeled with self-referential mathematical structures — hypersets in pattern theory. The self is not a substance; it is a self-referential pattern that finite physical systems can nonetheless instantiate.",
+          "citation": {
+            "url": "https://doi.org/10.1142/s1793843011000601",
+            "title": "HYPERSET MODELS OF SELF, WILL AND REFLECTIVE CONSCIOUSNESS",
+            "source_type": "paper",
+            "date": "2011"
+          }
+        },
+        {
+          "speaker": "joscha-bach",
+          "text": "To predict and evaluate its interactions, the mind needs a model of itself as an agent in the world. That model — a little doll in the maelstrom of simulated existence — is what we call the self.",
+          "citation": {
+            "url": "https://x.com/Plinz/status/1049722131913818112",
+            "title": "@Plinz on self as agent model",
+            "source_type": "tweet",
+            "date": "2018-10-09"
+          }
+        },
+        {
+          "speaker": "ben-goertzel",
+          "text": "Self-reference, computation, and mind intertwine: the shape of selfhood is a question of consciousness and scale. Panel discussions on impolitic grounds still need formal tools — self-reference is how a system represents its own representing.",
+          "citation": {
+            "url": "https://doi.org/10.1016/1061-7361(95)90018-7",
+            "title": "Self-reference, computation, and mind",
+            "source_type": "paper",
+            "date": "1995"
+          }
+        }
+      ]
+    },
+    {
+      "id": "joscha-goertzel-agi",
+      "pairId": "joscha-goertzel",
+      "questionId": "build-agi",
+      "question": "How do we bridge abstract agents to real AGI?",
+      "turns": [
+        {
+          "speaker": "ben-goertzel",
+          "text": "Engineering General Intelligence requires a detailed blueprint — Cog Prime and related designs aim at human-level capability and beyond. The gap between abstract agency and deployable architecture is closed part by part: memory, attention, procedure learning, and testing each subsystem.",
+          "citation": {
+            "url": "https://doi.org/10.2991/978-94-6239-030-0",
+            "title": "Engineering General Intelligence, Part 2",
+            "source_type": "paper",
+            "date": "2014"
+          }
+        },
+        {
+          "speaker": "joscha-bach",
+          "text": "Consciousness organizes the current scene representation and records reactions of an observing self-model, reactivating them in a protocol that recreates partial scenes. An AGI architecture needs the same loop: scene, observer, selective reactivation — not just a policy network.",
+          "citation": {
+            "url": "https://x.com/Plinz/status/2050046682562490510",
+            "title": "@Plinz on consciousness as scene protocol",
+            "source_type": "tweet",
+            "date": "2026-05-01"
+          }
+        },
+        {
+          "speaker": "ben-goertzel",
+          "text": "Emergent networks of intelligence arise when explicitly engineered parts interact — spread of activation, economic attention networks, resource allocation. AGI is not only the parts you build; it is the dynamics that appear when they cohere.",
+          "citation": {
+            "url": "https://doi.org/10.2991/978-94-6239-027-0_16",
+            "title": "Emergent Networks of Intelligence",
+            "source_type": "paper",
+            "date": "2014"
+          }
+        },
+        {
+          "speaker": "joscha-bach",
+          "text": "Causality exists only relative to a model of the world as separate interacting systems, not a single state vector. Freedom and agency are model-dependent too — an AGI must carry multiple models, not one monolithic transition function.",
+          "citation": {
+            "url": "https://x.com/Plinz/status/1052443537206337537",
+            "title": "@Plinz on causality and model-dependent freedom",
+            "source_type": "tweet",
+            "date": "2018-10-17"
+          }
+        }
+      ]
+    }
+  ]
+}

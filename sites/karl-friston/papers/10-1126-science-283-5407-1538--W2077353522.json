@@ -1,0 +1,14 @@
+{
+  "doi": "10.1126/science.283.5407.1538",
+  "doi_url": "https://doi.org/10.1126/science.283.5407.1538",
+  "title": "The Predictive Value of Changes in Effective Connectivity for Human Learning",
+  "year": "1999",
+  "journal": "Science",
+  "authors": [
+    "Christian Büchel",
+    "Jennifer T. Coull",
+    "Karl Friston"
+  ],
+  "abstract": "During learning, neural responses decrease over repeated exposure to identical stimuli. This repetition suppression is thought to reflect a progressive optimization of neuronal responses elicited by the task. Functional magnetic resonance imaging was used to study the neural basis of associative learning of visual objects and their locations. As expected, activation in specialized cortical areas decreased with time. However, with path analysis it was shown that, in parallel to this adaptation, increases in effective connectivity occurred between distinct cortical systems specialized for spatial and object processing. The time course of these plastic changes was highly correlated with individual learning performance, suggesting that interactions between brain areas underlie associative learning.",
+  "link": "https://doi.org/10.1126/science.283.5407.1538"
+}

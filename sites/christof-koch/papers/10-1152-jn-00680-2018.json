@@ -1,0 +1,18 @@
+{
+  "doi": "10.1152/jn.00680.2018",
+  "doi_url": "https://doi.org/10.1152/jn.00680.2018",
+  "title": "High-density extracellular probes reveal dendritic backpropagation and facilitate neuron classification",
+  "year": 2019,
+  "journal": "Journal of Neurophysiology",
+  "authors": [
+    "Xiaoxuan Jia",
+    "Joshua H. Siegle",
+    "Corbett Bennett",
+    "Samuel D. Gale",
+    "Daniel J. Denman",
+    "Christof Koch",
+    "Shawn R. Olsen"
+  ],
+  "abstract": "Different neuron types serve distinct roles in neural processing. Extracellular electrical recordings are extensively used to study brain function but are typically blind to cell identity. Morphoelectrical properties of neurons measured on spatially dense electrode arrays have the potential to distinguish neuron types. We used high-density silicon probes to record from cortical and subcortical regions of the mouse brain. Extracellular waveforms of each neuron were detected across many channels and showed distinct spatiotemporal profiles among brain regions. Classification of neurons by brain region was improved with multichannel compared with single-channel waveforms. In visual cortex, unsupervised clustering identified the canonical regular-spiking (RS) and fast-spiking (FS) classes but also indicated a subclass of RS units with unidirectional backpropagating action potentials (BAPs). Moreover, BAPs were observed in many hippocampal RS cells. Overall, waveform analysis of spikes from high-density probes aids neuron identification and can reveal dendritic backpropagation. NEW &amp; NOTEWORTHY It is challenging to identify neuron types with extracellular electrophysiology in vivo. We show that spatiotemporal action potentials measured on high-density electrode arrays can capture cell type-specific morphoelectrical properties, allowing classification of neurons across brain structures and within the cortex. Moreover, backpropagating action potentials are reliably detected in vivo from subpopulations of cortical and hippocampal neurons. Together, these results enhance the utility of dense extracellular electrophysiology for cell-type interrogation of brain network function.",
+  "link": "https://doi.org/10.1152/jn.00680.2018"
+}

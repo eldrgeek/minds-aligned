@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Nine Ways to Bias Open-Source AGI Toward Friendliness",
+  "year": "2012",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Joel Pitt",
+    "Novamente Llc"
+  ],
+  "abstract": "While it seems unlikely that any method of guaranteeing human-friendliness (“Friendliness”) on the part of advanced Artificial General Intelligence (AGI) systems will be possible, this doesn’t mean the only alternatives are throttling AGI development to safeguard humanity, or plunging recklessly into the complete unknown. Without denying the presence of a certain irreducible uncertainty in such matters, it is still sensible to explore ways of biasing the odds in a favorable way, such that newly created AI systems are significantly more likely than not to be Friendly. Several potential methods of effecting such biasing are explored here, with a particular but nonexclusive focus on those that are relevant to open-source AGI projects, and with illustrative examples drawn from the OpenCog open-source AGI project. Issues regarding the relative safety of open versus closed approaches to AGI are discussed and then nine techniques for biasing AGIs in favor of Friendliness are presented: 1. Engineer the capability to acquire integrated ethical knowledge. 2. Provide rich ethical interaction and instruction, respecting developmental stages. 3. Develop stable, hierarchical goal systems. 4. Ensure that the early stages of recursive self-improvement occur relatively slowly and with rich human involvement. 5. Tightly link AGI with the Global Brain. 6. Foster deep, consensus-building interactions between divergent viewpoints. 7. Create a mutually supportive community of AGIs. 8. Encourage measured co-advancement of AGI software and AGI ethics theory 9. Develop advanced AGI sooner not later. In conclusion, and related to the final point, we advise the serious co-evolution of functional AGI systems and AGI-related ethical theory as soon as possible, before we have so much technical infrastructure that parties relatively unconcerned with ethics are able to rush ahead with brute force approaches to AGI development.",
+  "link": "https://openalex.org/W2325164173"
+}

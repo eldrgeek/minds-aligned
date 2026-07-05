@@ -1,0 +1,13 @@
+{
+  "doi": "10.1038/s41598-017-15249-0",
+  "doi_url": "https://doi.org/10.1038/s41598-017-15249-0",
+  "title": "Working memory, attention, and salience in active inference",
+  "year": "2017",
+  "journal": "Scientific Reports",
+  "authors": [
+    "Thomas Parr",
+    "Karl Friston"
+  ],
+  "abstract": "The psychological concepts of working memory and attention are widely used in the cognitive and neuroscientific literatures. Perhaps because of the interdisciplinary appeal of these concepts, the same terms are often used to mean very different things. Drawing on recent advances in theoretical neurobiology, this paper tries to highlight the correspondence between these established psychological constructs and the formal processes implicit in mathematical descriptions of brain function. Here, we consider attention and salience from the perspective offered by active inference. Using variational principles and simulations, we use active inference to demonstrate how attention and salience can be disambiguated in terms of message passing between populations of neurons in cortical and subcortical structures. In brief, we suggest that salience is something that is afforded to actions that realise epistemic affordance, while attention per se is afforded to precise sensory evidence - or beliefs about the causes of sensations.",
+  "link": "https://doi.org/10.1038/s41598-017-15249-0"
+}

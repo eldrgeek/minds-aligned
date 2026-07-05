@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_17",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_17",
+  "title": "Spatio-temporal Inference",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "Spatiotemporal reasoning is an important skill that an AGI is expected to have, innately or not. Much work has already been done in defining reasoning systems for space, time and spacetime, such as the Region Connection Calculus for space, Allen’s Interval Algebra for time, or the Qualitative Trajectory Calculus for motion. However, these reasoning systems rarely take adequate account of uncertainty, which poses an obstacle to using them in an AGI system confronted with an uncertain reality. In this paper we show how to use PLN (Probabilistic Logic Networks) to represent spatiotemporal knowledge and reasoning, via incorporating existing spatiotemporal calculi, and considering a novel extension of standard PLN truth values inspired by $$\\mathcal {P}(\\mathcal {Z})$$ -logic. This “PLN-ization” of existing spatiotemporal calculi, we suggest, constitutes an approach to spatiotemporal inference suitable for use in AGI systems that incorporate logic-based components.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_17"
+}

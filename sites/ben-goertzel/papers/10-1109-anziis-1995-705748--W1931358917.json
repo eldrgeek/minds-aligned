@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/anziis.1995.705748",
+  "doi_url": "https://doi.org/10.1109/anziis.1995.705748",
+  "title": "The Markovian Language Network: steps toward a connectionist architecture for grammar induction",
+  "year": "2002",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "G. Goertzel"
+  ],
+  "abstract": "A novel, modular connectionist architecture for grammar induction is proposed, the \"Markovian Language Network\" (MLN). Based on Zellig Harris's (1989) theory of syntax, MLN would seem to be a plausible biological and psychological model. Modules for extraction of Markov information and for categorization are interlinked and are used for multiple purposes. MLN has not yet been fully implemented, but simple experiments have been conducted with a hybrid system. MLN is seen as a first step toward a complete connectionist implementation of Harrisian linguistics.",
+  "link": "https://doi.org/10.1109/anziis.1995.705748"
+}

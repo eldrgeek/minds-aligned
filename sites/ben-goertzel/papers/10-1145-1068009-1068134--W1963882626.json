@@ -1,0 +1,14 @@
+{
+  "doi": "10.1145/1068009.1068134",
+  "doi_url": "https://doi.org/10.1145/1068009.1068134",
+  "title": "Learning computer programs with the bayesian optimization algorithm",
+  "year": "2005",
+  "journal": null,
+  "authors": [
+    "Moshe Looks",
+    "Ben Goertzel",
+    "Cassio Pennachin"
+  ],
+  "abstract": "We describe an extension of the Bayesian Optimization Algorithm (BOA), a probabilistic model building genetic algorithm, to the domain of program tree evolution. The new system, BOA programming (BOAP), improves significantly on previous probabilistic model building genetic programming (PMBGP) systems in terms of the articulacy and open-ended flexibility of the models learned, and hence control over the distribution of instances generated. Innovations include a novel tree representation and a generalized program evaluation scheme.",
+  "link": "https://doi.org/10.1145/1068009.1068134"
+}

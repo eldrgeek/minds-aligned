@@ -1,0 +1,19 @@
+{
+  "doi": "10.1073/pnas.2132313100",
+  "doi_url": "https://doi.org/10.1073/pnas.2132313100",
+  "title": "Trace but not delay fear conditioning requires attention and the anterior cingulate cortex",
+  "year": 2003,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "C. J. Han",
+    "Colm O’Tuathaigh",
+    "Laurent van Trigt",
+    "Jennifer J. Quinn",
+    "Michael S. Fanselow",
+    "Raymond Mongeau",
+    "Christof Koch",
+    "David J. Anderson"
+  ],
+  "abstract": "Higher cognitive functions such as attention have been difficult to model in genetically tractable organisms. In humans, attention-distracting stimuli interfere with trace but not delay conditioning, two forms of associative learning. Attention has also been correlated with activation of anterior cingulate cortex (ACC), but its functional significance is unclear. Here we show that a visual distractor interferes selectively with trace but not delay auditory fear conditioning in mice. Trace conditioning is associated with increased neuronal activity in ACC, as assayed by relative levels of c-fos expression, and is selectively impaired by lesions of this structure. The effects of the ACC lesions are unlikely to be caused by indirect impairment of the hippocampus, which is required for mnemonic aspects of trace conditioning. These data suggest that trace conditioning may be useful for studying neural substrates of attention in mice, and implicate the ACC as one such substrate.",
+  "link": "https://doi.org/10.1073/pnas.2132313100"
+}

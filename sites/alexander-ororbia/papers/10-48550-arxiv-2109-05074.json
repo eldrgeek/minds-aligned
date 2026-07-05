@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2109.05074",
+  "doi_url": "https://doi.org/10.48550/arxiv.2109.05074",
+  "title": "FBERT: A Neural Transformer for Identifying Offensive Content",
+  "year": 2021,
+  "journal": "Lancaster EPrints (Lancaster University)",
+  "authors": [
+    "Diptanu Sarkar",
+    "Marcos Zampieri",
+    "Tharindu Ranasinghe",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "Transformer-based models such as BERT, XLNET, and XLM-R have achieved state-of-the-art performance across various NLP tasks including the identification of offensive language and hate speech, an important problem in social media. In this paper, we present fBERT, a BERT model retrained on SOLID, the largest English offensive language identification corpus available with over $1.4$ million offensive instances. We evaluate fBERT's performance on identifying offensive content on multiple English datasets and we test several thresholds for selecting instances from SOLID. The fBERT model will be made freely available to the community.",
+  "link": "https://doi.org/10.48550/arxiv.2109.05074"
+}

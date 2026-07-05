@@ -1,0 +1,16 @@
+{
+  "doi": "10.1073/pnas.96.7.4034",
+  "doi_url": "https://doi.org/10.1073/pnas.96.7.4034",
+  "title": "Segregating the functions of human hippocampus",
+  "year": "1999",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Bryan A. Strange",
+    "Paul C. Fletcher",
+    "Richard N. Henson",
+    "Karl Friston",
+    "Raymond J. Dolan"
+  ],
+  "abstract": "It is now accepted that hippocampal lesions impair episodic memory. However, the precise functional role of the hippocampus in episodic memory remains elusive. Recent functional imaging data implicate the hippocampus in processing novelty, a finding supported by human in vivo recordings and event-related potential studies. Here we measure hippocampal responses to novelty, using functional MRI (fMRI), during an item-learning paradigm generated from an artificial grammar system. During learning, two distinct types of novelty were periodically introduced: perceptual novelty, pertaining to the physical characteristics of stimuli (in this case visual characteristics), and exemplar novelty, reflecting semantic characteristics of stimuli (in this case grammatical status within a rule system). We demonstrate a left anterior hippocampal response to both types of novelty and adaptation of these responses with stimulus familiarity. By contrast to these novelty effects, we also show bilateral posterior hippocampal responses with increasing exemplar familiarity. These results suggest a functional dissociation within the hippocampus with respect to the relative familiarity of study items. Neural responses in anterior hippocampus index generic novelty, whereas posterior hippocampal responses index familiarity to stimuli that have behavioral relevance (i.e., only exemplar familiarity). These findings add to recent evidence for functional segregation within the human hippocampus during learning.",
+  "link": "https://doi.org/10.1073/pnas.96.7.4034"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2206.01820",
+  "doi_url": "https://doi.org/10.48550/arxiv.2206.01820",
+  "title": "A Robust Backpropagation-Free Framework for Images",
+  "year": 2022,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Timothy Zee",
+    "Alexander G. Ororbia",
+    "Ankur Mali",
+    "Ifeoma Nwogu"
+  ],
+  "abstract": "While current deep learning algorithms have been successful for a wide variety of artificial intelligence (AI) tasks, including those involving structured image data, they present deep neurophysiological conceptual issues due to their reliance on the gradients that are computed by backpropagation of errors (backprop). Gradients are required to obtain synaptic weight adjustments but require knowledge of feed-forward activities in order to conduct backward propagation, a biologically implausible process. This is known as the \"weight transport problem\". Therefore, in this work, we present a more biologically plausible approach towards solving the weight transport problem for image data. This approach, which we name the error kernel driven activation alignment (EKDAA) algorithm, accomplishes through the introduction of locally derived error transmission kernels and error maps. Like standard deep learning networks, EKDAA performs the standard forward process via weights and activation functions; however, its backward error computation involves adaptive error kernels that propagate local error signals through the network. The efficacy of EKDAA is demonstrated by performing visual-recognition tasks on the Fashion MNIST, CIFAR-10 and SVHN benchmarks, along with demonstrating its ability to extract visual features from natural color images. Furthermore, in order to demonstrate its non-reliance on gradient computations, results are presented for an EKDAA trained CNN that employs a non-differentiable activation function.",
+  "link": "http://arxiv.org/abs/2206.01820"
+}

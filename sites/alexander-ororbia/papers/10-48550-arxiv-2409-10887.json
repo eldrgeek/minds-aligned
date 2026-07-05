@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2409.10887",
+  "doi_url": "https://doi.org/10.48550/arxiv.2409.10887",
+  "title": "Contrastive Learning in Memristor-based Neuromorphic Systems",
+  "year": 2024,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Cory Merkel",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "Spiking neural networks, the third generation of artificial neural networks, have become an important family of neuron-based models that sidestep many of the key limitations facing modern-day backpropagation-trained deep networks, including their high energy inefficiency and long-criticized biological implausibility. In this work, we design and investigate a proof-of-concept instantiation of contrastive-signal-dependent plasticity (CSDP), a neuromorphic form of forward-forward-based, backpropagation-free learning. Our experimental simulations demonstrate that a hardware implementation of CSDP is capable of learning simple logic functions without the need to resort to complex gradient calculations.",
+  "link": "http://arxiv.org/abs/2409.10887"
+}

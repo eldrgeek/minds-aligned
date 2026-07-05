@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2508.21240",
+  "doi_url": "https://doi.org/10.48550/arxiv.2508.21240",
+  "title": "Class Incremental Continual Learning with Self-Organizing Maps and Variational Autoencoders Using Synthetic Replay",
+  "year": 2025,
+  "journal": "ArXiv.org",
+  "authors": [
+    "Pujan Thapa",
+    "Alexander G. Ororbia",
+    "Travis Desell"
+  ],
+  "abstract": "This work introduces a novel generative continual learning framework based on self-organizing maps (SOMs) and variational autoencoders (VAEs) to enable memory-efficient replay, eliminating the need to store raw data samples or task labels. For high-dimensional input spaces, such as of CIFAR-10 and CIFAR-100, we design a scheme where the SOM operates over the latent space learned by a VAE, whereas, for lower-dimensional inputs, such as those found in MNIST and FashionMNIST, the SOM operates in a standalone fashion. Our method stores a running mean, variance, and covariance for each SOM unit, from which synthetic samples are then generated during future learning iterations. For the VAE-based method, generated samples are then fed through the decoder to then be used in subsequent replay. Experimental results on standard class-incremental benchmarks show that our approach performs competitively with state-of-the-art memory-based methods and outperforms memory-free methods, notably improving over best state-of-the-art single class incremental performance on CIFAR-10 and CIFAR-100 by nearly $10$\\% and $7$\\%, respectively. Our methodology further facilitates easy visualization of the learning process and can also be utilized as a generative model post-training. Results show our method's capability as a scalable, task-label-free, and memory-efficient solution for continual learning.",
+  "link": "http://arxiv.org/abs/2508.21240"
+}

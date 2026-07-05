@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_21",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_21",
+  "title": "Dimensional Embedding",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "Among the many key features of the human brain omitted by typical formal neural network models, one of the foremost is the brain’s three-dimensionality. The brain is not just a network of neurons arranged as an abstract graph; it’s a network of neurons arranged in three-dimensional space, and making use of this three-dimensionality directly and indirectly in various ways and for various purposes.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_21"
+}

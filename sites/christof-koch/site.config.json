@@ -1,0 +1,22 @@
+{
+  "slug": "christof-koch",
+  "name": "Christof Koch",
+  "shortName": "Christof Koch",
+  "tagline": "Publication archive and grounded AI guide for Christof Koch — the neural correlates of consciousness and integrated information theory.",
+  "bio": "Christof Koch is a neuroscientist known for his work on the neural basis of consciousness. Former President and Chief Scientist of the Allen Institute for Brain Science and a long-time collaborator of Francis Crick, he has been a leading proponent of integrated information theory (IIT) and of the empirical search for the neural correlates of consciousness.",
+  "bioLinks": [
+    {
+      "label": "Allen Institute",
+      "url": "https://alleninstitute.org/person/christof-koch/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Christof_Koch"
+    }
+  ],
+  "personaId": "koch",
+  "personaName": "Koch Guide",
+  "personaAvatar": "💡",
+  "personaGreeting": "I'm an AI guide grounded in Christof Koch's published work — the neural correlates of consciousness and integrated information theory. I'm not Christof Koch myself, but I can help you navigate the corpus and the ideas this research introduced.",
+  "guideConfigFile": "christof-koch-guide-config.js"
+}

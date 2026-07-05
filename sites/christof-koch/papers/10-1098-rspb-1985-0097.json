@@ -1,0 +1,13 @@
+{
+  "doi": "10.1098/rspb.1985.0097",
+  "doi_url": "https://doi.org/10.1098/rspb.1985.0097",
+  "title": "III-Posed problems early vision: from computational theory to analogue networks",
+  "year": 1985,
+  "journal": "Proceedings of the Royal Society of London. Series B, Biological sciences",
+  "authors": [
+    "Tomaso Poggio",
+    "Christof Koch"
+  ],
+  "abstract": "Abstract We outline a theoretical framework that leads from the computational nature of early vision to algorithms for solving them and finally to a specific class of analogue and parallel hardware for the efficient solution of these algorithms. The common computational structure of many early vision problems is that they are mathematically ill-posed in the sense of Hadamard. Regularization analysis can be used to solve them in terms of variational principles of a specific type that enforce constraints derived from a physical analysis of the problem. Studies of human perception may reveal whether principles of a similar type are exploited by biological vision. We also show that the corresponding variational principles can be implemented in a natural way by analogue networks. Specific electrical and chemical networks for localizing edges and computing visual motion are derived. We suggest that local circuits of neurons may exploit this unconventional model of computation.",
+  "link": "https://doi.org/10.1098/rspb.1985.0097"
+}

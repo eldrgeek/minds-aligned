@@ -1,0 +1,16 @@
+{
+  "doi": "10.1145/2740908.2741736",
+  "doi_url": "https://doi.org/10.1145/2740908.2741736",
+  "title": "Big Scholarly Data in CiteSeerX",
+  "year": 2015,
+  "journal": null,
+  "authors": [
+    "Alexander G. Ororbia",
+    "Jian Wu",
+    "Madian Khabsa",
+    "Kyle Williams",
+    "C. Lee Giles"
+  ],
+  "abstract": "We examine CiteSeerX, an intelligent system designed with the goal of automatically acquiring and organizing large-scale collections of scholarly documents from the world wide web. From the perspective of automatic information extraction and modes of alternative search, we examine various functional aspects of this complex system with an eye towards ongoing and future research developments.",
+  "link": "https://doi.org/10.1145/2740908.2741736"
+}

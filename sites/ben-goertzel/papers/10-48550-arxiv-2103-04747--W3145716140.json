@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2103.04747",
+  "doi_url": "https://doi.org/10.48550/arxiv.2103.04747",
+  "title": "Info-Evo: Using Information Geometry to Guide Evolutionary Program Learning",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "A novel optimization strategy, Info-Evo, is described, in which natural gradient search using nonparametric Fisher information is used to provide ongoing guidance to an evolutionary learning algorithm, so that the evolutionary process preferentially moves in the directions identified as \"shortest paths\" according to the natural gradient. Some specifics regarding the application of this approach to automated program learning are reviewed, including a strategy for integrating Info-Evo into the MOSES program learning framework.",
+  "link": "https://doi.org/10.48550/arxiv.2103.04747"
+}

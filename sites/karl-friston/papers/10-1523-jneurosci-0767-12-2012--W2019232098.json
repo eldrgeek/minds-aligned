@@ -1,0 +1,22 @@
+{
+  "doi": "10.1523/jneurosci.0767-12.2012",
+  "doi_url": "https://doi.org/10.1523/jneurosci.0767-12.2012",
+  "title": "Movement-Related Changes in Local and Long-Range Synchronization in Parkinson's Disease Revealed by Simultaneous Magnetoencephalography and Intracranial Recordings",
+  "year": "2012",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Vladimir Litvak",
+    "Alexandre Eusébio",
+    "Ashwani Jha",
+    "Robert Oostenveld",
+    "Gareth R. Barnes",
+    "Thomas Foltynie",
+    "Patricia Limousin",
+    "Ludvic Zrinzo",
+    "Marwan Hariz",
+    "Karl Friston",
+    "Peter Brown"
+  ],
+  "abstract": "Functional neurosurgery has afforded the opportunity to assess interactions between populations of neurons in the human cerebral cortex and basal ganglia in patients with Parkinson's disease (PD). Interactions occur over a wide range of frequencies, and the functional significance of those >30 Hz is particularly unclear. Do they improve movement, and, if so, in what way? We acquired simultaneously magnetoencephalography and direct recordings from the subthalamic nucleus (STN) in 17 PD patients. We examined the effect of synchronous and sequential finger movements and of the dopamine prodrug levodopa on induced power in the contralateral primary motor cortex (M1) and STN and on the coherence between the two structures. We observed discrete peaks in M1 and STN power at 60-90 Hz and at 300-400 Hz. All these power peaks increased with movement and levodopa treatment. Only STN activity at 60-90 Hz was coherent with activity in M1. Directionality analysis showed that STN gamma activity at 60-90 Hz tended to drive gamma activity in M1. The effects of levodopa on both local and distant synchronization at 60-90 Hz correlated with the degree of improvement in bradykinesia-rigidity as did local STN activity at 300-400 Hz. Despite this, there were no effects of movement type, nor interactions between movement type and levodopa in the STN, nor in the coherence between STN and M1. We conclude that synchronization at 60-90 Hz in the basal ganglia cortical network is prokinetic but likely through a modulatory effect rather than any involvement in explicit motor processing.",
+  "link": "https://doi.org/10.1523/jneurosci.0767-12.2012"
+}

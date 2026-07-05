@@ -1,0 +1,15 @@
+{
+  "doi": "10.1089/rej.2007.0627",
+  "doi_url": "https://doi.org/10.1089/rej.2007.0627",
+  "title": "Identifying the Genes and Genetic Interrelationships Underlying the Impact of Calorie Restriction on Maximum Lifespan: An Artificial Intelligence-Based Approach",
+  "year": "2008",
+  "journal": "Rejuvenation Research",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Maurício de Alvarenga Mudado",
+    "Lúcio Coelho"
+  ],
+  "abstract": "Novel artificial intelligence methodologies were applied to analyze gene expression microarray data gathered from mice under a calorie restriction (CR) regimen. The data were gathered from three previously published mouse studies; these datasets were merged together into a single composite dataset for the purpose of conducting a broader-based analysis. The result was a list of genes that are important for the impact of CR on lifespan, not necessarily in terms of their individual actions but in terms of their interactions with other genes. Furthermore, a map of gene interrelationships was provided, suggesting which intergene interactions are most important for the effect of CR on life extension. In particular our analysis showed that the genes Mrpl12, Uqcrh, and Snip1 play central roles regarding the effects of CR on life extension, interacting with many other genes (which the analysis enumerates) in carrying out their roles. This is the first time that the genes Snip1 and Mrpl12 have been identified in the context of aging. In a follow-up analysis aimed at validating these results, the analytic process was rerun with a fourth dataset included, yielding largely comparable results. Broadly, the biological interpretation of these analytical results suggests that the effects of CR on life extension are due to multiple factors, including factors identified in prior theories of aging, such as the hormesis, development, cellular, and free radical theories.",
+  "link": "https://doi.org/10.1089/rej.2007.0627"
+}

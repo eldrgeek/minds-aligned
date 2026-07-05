@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_18",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_18",
+  "title": "Adaptive, Integrative Inference Control",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "The subtlest and most difficult aspect of logical inference is not the logical rule-set nor the management of uncertainty, but the control of inference: the choice of which inference steps to take, in what order, in which contexts. Without effective inference control control methods, logical inference is an unscalable and infeasible approach to learning declarative knowledge. One of the key ideas underlying the CogPrime design is that inference control cannot effectively be handled by looking at logic alone. Instead, effective inference control must arise from the intersection between logical methods and other cognitive processes. In this chapter we describe some of the general principles used for inference control in the CogPrime design.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_18"
+}

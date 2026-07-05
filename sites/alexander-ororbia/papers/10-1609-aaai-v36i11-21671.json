@@ -1,0 +1,14 @@
+{
+  "doi": "10.1609/aaai.v36i11.21671",
+  "doi_url": "https://doi.org/10.1609/aaai.v36i11.21671",
+  "title": "Reducing Catastrophic Forgetting in Self Organizing Maps with Internally-Induced Generative Replay (Student Abstract)",
+  "year": 2022,
+  "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "authors": [
+    "Hitesh Vaidya",
+    "Travis Desell",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "A lifelong learning agent is able to continually learn from potentially infinite streams of pattern sensory data. One major historic difficulty in building agents that adapt in this way is that neural systems struggle to retain previously-acquired knowledge when learning from new samples. This problem is known as catastrophic forgetting (interference) and remains an unsolved problem in the domain of machine learning to this day. While forgetting in the context of feedforward networks has been examined extensively over the decades, far less has been done in the context of alternative architectures such as the venerable self-organizing map (SOM), an unsupervised neural model that is often used in tasks such as clustering and dimensionality reduction. Although the competition among its internal neurons might carry the potential to improve memory retention, we observe that a fixed-sized SOM trained on task incremental data, i.e., it receives data points related to specific classes at certain temporal increments, it experiences severe interference. In this study, we propose the c-SOM, a model that is capable of reducing its own forgetting when processing information.",
+  "link": "https://doi.org/10.1609/aaai.v36i11.21671"
+}

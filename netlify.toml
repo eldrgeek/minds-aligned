@@ -1,6 +1,32 @@
-[build]
-  publish = "hub-public"
-  command = ""
+# AGI-26 Society of Minds Aligned — Multi-site Netlify configuration
+# Builds and deploys the hub and all per-thinker subsites from a single repository
 
-[functions]
-  directory = "netlify/functions"
+[build]
+  publish = "hub/dist"
+  command = "npm run build --workspace=hub"
+  functions = "netlify/functions"
+
+# Build contexts for individual subsites
+# These allow separate Netlify sites to build from this repo
+
+[context.michael-levin]
+  publish = "sites/michael-levin/dist"
+  command = "npm run build --workspace=@soma/michael-levin"
+
+[context.joscha-bach]
+  publish = "sites/joscha-bach/dist"
+  command = "npm run build --workspace=@soma/joscha-bach"
+
+[context.karl-friston]
+  publish = "sites/karl-friston/dist"
+  command = "npm run build --workspace=@soma/karl-friston"
+
+[context.ben-goertzel]
+  publish = "sites/ben-goertzel/dist"
+  command = "npm run build --workspace=@soma/ben-goertzel"
+
+# Shared redirects (optional — for future cross-site navigation)
+[[redirects]]
+  from = "/feedback-widget/*"
+  to = "/vendor/soma-feedback/:splat"
+  status = 200

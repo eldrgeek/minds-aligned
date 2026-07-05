@@ -1,0 +1,16 @@
+{
+  "doi": "10.1523/jneurosci.0414-12.2012",
+  "doi_url": "https://doi.org/10.1523/jneurosci.0414-12.2012",
+  "title": "Deconstructing the Architecture of Dorsal and Ventral Attention Systems with Dynamic Causal Modeling",
+  "year": "2012",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Simone Vossel",
+    "Ralph Weidner",
+    "Jon Driver",
+    "Karl Friston",
+    "Gereon R. Fink"
+  ],
+  "abstract": "Attentional orientation to a spatial cue and reorientation-after invalid cueing-are mediated by two distinct networks in the human brain. A bilateral dorsal frontoparietal network, comprising the intraparietal sulcus (IPS) and the frontal eye fields (FEF), controls the voluntary deployment of attention and may modulate visual cortex in preparation for upcoming stimulation. In contrast, reorienting attention to invalidly cued targets engages a right-lateralized ventral frontoparietal network comprising the temporoparietal junction (TPJ) and ventral frontal cortex. The present fMRI study investigated the functional architecture of these two attentional systems by characterizing effective connectivity during lateralized orienting and reorienting of attention, respectively. Subjects performed a modified version of Posner's location-cueing paradigm. Dynamic causal modeling (DCM) of regional responses in the dorsal and ventral network, identified in a conventional (SPM) whole-brain analysis, was used to compare different functional architectures. Bayesian model selection showed that top-down connections from left and right IPS to left and right visual cortex, respectively, were modulated by the direction of attention. Moreover, model evidence was highest for a model with directed influences from bilateral IPS to FEF, and reciprocal coupling between right and left FEF. Invalid cueing enhanced forward connections from visual areas to right TPJ, and directed influences from right TPJ to right IPS and IFG (inferior frontal gyrus). These findings shed further light on the functional organization of the dorsal and ventral attentional network and support a context-sensitive lateralization in the top-down (backward) mediation of attentional orienting and the bottom-up (forward) effects of invalid cueing.",
+  "link": "https://doi.org/10.1523/jneurosci.0414-12.2012"
+}

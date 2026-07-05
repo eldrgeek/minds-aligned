@@ -1,0 +1,16 @@
+{
+  "doi": "10.1002/hbm.20775",
+  "doi_url": "https://doi.org/10.1002/hbm.20775",
+  "title": "Dynamic causal modeling for EEG and MEG",
+  "year": "2009",
+  "journal": "Human Brain Mapping",
+  "authors": [
+    "Stefan J. Kiebel",
+    "Marta I. Garrido",
+    "Rosalyn Moran",
+    "Chun‐Chuan Chen",
+    "Karl Friston"
+  ],
+  "abstract": "We present a review of dynamic causal modeling (DCM) for magneto- and electroencephalography (M/EEG) data. DCM is based on a spatiotemporal model, where the temporal component is formulated in terms of neurobiologically plausible dynamics. Following an intuitive description of the model, we discuss six recent studies, which use DCM to analyze M/EEG and local field potentials. These studies illustrate how DCM can be used to analyze evoked responses (average response in time), induced responses (average response in time-frequency), and steady-state responses (average response in frequency). Bayesian model comparison plays a critical role in these analyses, by allowing one to compare equally plausible models in terms of their model evidence. This approach might be very useful in M/EEG research; where correlations among spatial and neuronal model parameter estimates can cause uncertainty about which model best explains the data. Bayesian model comparison resolves these uncertainties in a principled and formal way. We suggest that DCM and Bayesian model comparison provides a useful way to test hypotheses about distributed processing in the brain, using electromagnetic data.",
+  "link": "https://doi.org/10.1002/hbm.20775"
+}

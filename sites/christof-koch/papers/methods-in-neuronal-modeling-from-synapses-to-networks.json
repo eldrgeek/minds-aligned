@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Methods in neuronal modeling: From synapses to networks",
+  "year": 1989,
+  "journal": "MIT Press eBooks",
+  "authors": [
+    "Christof Koch",
+    "Idan Segev"
+  ],
+  "abstract": "Methods in Neuronal  is the first technical handbook on computational neuroscience. Written for researchers and theoreticians alike, it outlines methods and techniques used for simulating on digital computers the functional properties of single neurons from synapses, dendrites, single cells; and small invertebrate networks to large scale neural networks in the mammalian nervous system.The use of new experimental tools such as selective staining methods, membrane patch electrodes, voltage and calcium-dependent dyes, and multielectrode recordings, together with the, advent of universally available powerful computing, makes it possible to construct detailed and realistic models of neuronal systems. Methods in Neuronal Modeling addresses such questions as what can and should be simulated and what techniques should be used; what experimental parameters are crucial for such simulations, and whether these models may be verified experimentally.Chapters cover simulation of passive dendritic trees, compartmental models of single cells including neurons with a number of different ionic channels, calcium current dynamics, simulations of small invertebrate networks, simulations of the mammalian cortex, connectionists' models, and the use of parallel computers in modeling neural networks. Although the chapters were written by several authors, they are uniform in structure and notation. Detailed examples are given to clarify the different approaches. Each chapter concludes with a description of the model discussed and the details of its implementation on the computer.Christof Koch is an Assistant Professor of Computation and Neural Systems at the California Institute of Technology. Idan Segev is a Lecturer in Neurobiology at the Institute of Life Science, Hebrew University of Jerusalem. Methods in Neuronal Modeling inaugurates the new series in Computational Neuroscience, edited by Terrence J. Sejnowski and Tomaso Poggio. A Bradford Book.",
+  "link": "https://ci.nii.ac.jp/ncid/BA13365629"
+}

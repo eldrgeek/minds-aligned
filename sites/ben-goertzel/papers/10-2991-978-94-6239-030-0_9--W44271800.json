@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_9",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_9",
+  "title": "Integrating CogPrime with a Compositional Spatiotemporal Deep Learning Network",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "Many different approaches to “low-level” perception and action processing are possible within the overall CogPrime framework. We discussed several in the previous chapter, all elaborations of the general hierarchical pattern recognition approach.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_9"
+}

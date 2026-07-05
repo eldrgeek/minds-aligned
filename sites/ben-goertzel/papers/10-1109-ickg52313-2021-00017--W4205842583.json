@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/ickg52313.2021.00017",
+  "doi_url": "https://doi.org/10.1109/ickg52313.2021.00017",
+  "title": "Surprisingness - A Novel Objective Interestingness Measure in Hypergraph Pattern Mining from Knowledge Graphs for Common Sense Learning",
+  "year": "2021",
+  "journal": null,
+  "authors": [
+    "Shujing Ke",
+    "Pieter Spronck",
+    "Ben Goertzel",
+    "Alex van der Peet"
+  ],
+  "abstract": "Pattern mining usually results in huge amounts of patterns, among which only small percentages are interesting. In this paper, Surprisingness (including Surpringness_I and Surpringness_II) is proposed as an innovative objective multivariate interestingness measure for automatically identifying interesting patterns from a large quantity of patterns. Surprisingness is applicable in unstructured or semi-structured, multi-domain or mixed-domain data compared to existing measures. An experiment has been conducted enabling unsupervised learning of common sense, interesting patterns and exceptions from a knowledge graph database built from Wikipedia <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> extracted data (represented as directed labeled hypergraphs), using Surpringness.",
+  "link": "https://doi.org/10.1109/ickg52313.2021.00017"
+}

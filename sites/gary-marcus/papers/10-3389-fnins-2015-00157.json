@@ -1,0 +1,16 @@
+{
+  "doi": "10.3389/fnins.2015.00157",
+  "doi_url": "https://doi.org/10.3389/fnins.2015.00157",
+  "title": "The neural processing of hierarchical structure in music and speech at different timescales",
+  "year": 2015,
+  "journal": "Frontiers in Neuroscience",
+  "authors": [
+    "Morwaread Farbood",
+    "David J. Heeger",
+    "Gary Marcus",
+    "Uri Hasson",
+    "Yulia Lerner"
+  ],
+  "abstract": "Music, like speech, is a complex auditory signal that contains structures at multiple timescales, and as such is a potentially powerful entry point into the question of how the brain integrates complex streams of information. Using an experimental design modeled after previous studies that used scrambled versions of a spoken story (Lerner et al., 2011) and a silent movie (Hasson et al., 2008), we investigate whether listeners perceive hierarchical structure in music beyond short (~6 s) time windows and whether there is cortical overlap between music and language processing at multiple timescales. Experienced pianists were presented with an extended musical excerpt scrambled at multiple timescales-by measure, phrase, and section-while measuring brain activity with functional magnetic resonance imaging (fMRI). The reliability of evoked activity, as quantified by inter-subject correlation of the fMRI responses, was measured. We found that response reliability depended systematically on musical structure coherence, revealing a topographically organized hierarchy of processing timescales. Early auditory areas (at the bottom of the hierarchy) responded reliably in all conditions. For brain areas at the top of the hierarchy, the original (unscrambled) excerpt evoked more reliable responses than any of the scrambled excerpts, indicating that these brain areas process long-timescale musical structures, on the order of minutes. The topography of processing timescales was analogous with that reported previously for speech, but the timescale gradients for music and speech overlapped with one another only partially, suggesting that temporally analogous structures-words/measures, sentences/musical phrases, paragraph/sections-are processed separately.",
+  "link": "https://doi.org/10.3389/fnins.2015.00157"
+}

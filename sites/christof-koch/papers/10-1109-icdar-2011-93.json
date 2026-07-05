@@ -1,0 +1,16 @@
+{
+  "doi": "10.1109/icdar.2011.93",
+  "doi_url": "https://doi.org/10.1109/icdar.2011.93",
+  "title": "AdaBoost for Text Detection in Natural Scene",
+  "year": 2011,
+  "journal": null,
+  "authors": [
+    "Jung‐Jin Lee",
+    "Pyoung-Hean Lee",
+    "Seong–Whan Lee",
+    "Alan Yuille",
+    "Christof Koch"
+  ],
+  "abstract": "Detecting text regions in natural scenes is an important part of computer vision. We propose a novel text detection algorithm that extracts six different classes features of text, and uses Modest AdaBoost with multi-scale sequential search. Experiments show that our algorithm can detect text regions with a f= 0.70, from the ICDAR 2003 datasets which include images with text of various fonts, sizes, colors, alphabets and scripts.",
+  "link": "https://doi.org/10.1109/icdar.2011.93"
+}

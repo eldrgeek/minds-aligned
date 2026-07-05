@@ -1,0 +1,17 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Optimizing Neurorobot Policy under Limited Demonstration Data through Preference Regret",
+  "year": 2026,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Viet Dung Nguyen",
+    "Yuhang Song",
+    "Anh Thi Lan Nguyen",
+    "Jamison Heard",
+    "Reynold Bailey",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "Robot reinforcement learning from demonstrations (RLfD) assumes that expert data is abundant; this is usually unrealistic in the real world given data scarcity as well as high collection cost. Furthermore, imitation learning algorithms assume that the data is independently and identically distributed, which ultimately results in poorer performance as gradual errors emerge and compound within test-time trajectories. We address these issues by introducing the \"master your own expertise\" (MYOE) framework, a self-imitation framework that enables robotic agents to learn complex behaviors from limited demonstration data samples. Inspired by human perception and action, we propose and design what we call the queryable mixture-of-preferences state space model (QMoP-SSM), which estimates the desired goal at every time step. These desired goals are used in computing the \"preference regret\", which is used to optimize the robot control policy. Our experiments demonstrate the robustness, adaptability, and out-of-sample performance of our agent compared to other state-of-the-art RLfD schemes. The GitHub repository that supports this work can be found at: https://github.com/rxng8/neurorobot-preference-regret-learning.",
+  "link": "http://arxiv.org/abs/2604.03523"
+}

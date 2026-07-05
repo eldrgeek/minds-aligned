@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/ijcnn.2006.246716",
+  "doi_url": "https://doi.org/10.1109/ijcnn.2006.246716",
+  "title": "Patterns, Hypergraphs and Embodied General Intelligence",
+  "year": "2006",
+  "journal": "The 2006 IEEE International Joint Conference on Neural Network Proceedings",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "It is proposed that the creation of artificial general intelligence (AGI) at the human level and ultimately beyond is a problem addressable via integrating computer science algorithms and data structures within a cognitive architecture oriented toward experiential learning. A general conceptual framework for AGI is presented, beginning with a philosophy of mind based on the concept of pattern, then moving to a general mathematical and conceptual framework for modeling intelligent systems, self-modifying evolving probabilistic hypergraphs (SMEPH), and finally to an overview of a specific design for AGI, the Novamente AI engine. The problem of teaching an AGI system is discussed, in the context of Novamente's embodiment in the AGI-SIM simulation world. An educational program based loosely on Piaget's developmental stages is outlined, followed by more detailed consideration of the learning by Novamente in AGI-SIM of the Piagetan infant-level capability of \"object permanence\".",
+  "link": "https://doi.org/10.1109/ijcnn.2006.246716"
+}

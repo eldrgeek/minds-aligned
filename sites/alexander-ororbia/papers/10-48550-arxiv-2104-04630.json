@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2104.04630",
+  "doi_url": "https://doi.org/10.48550/arxiv.2104.04630",
+  "title": "WLV-RIT at SemEval-2021 Task 5: A Neural Transformer Framework for\\n Detecting Toxic Spans",
+  "year": 2021,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Tharindu Ranasinghe",
+    "Diptanu Sarkar",
+    "Marcos Zampieri",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "In recent years, the widespread use of social media has led to an increase in\\nthe generation of toxic and offensive content on online platforms. In response,\\nsocial media platforms have worked on developing automatic detection methods\\nand employing human moderators to cope with this deluge of offensive content.\\nWhile various state-of-the-art statistical models have been applied to detect\\ntoxic posts, there are only a few studies that focus on detecting the words or\\nexpressions that make a post offensive. This motivates the organization of the\\nSemEval-2021 Task 5: Toxic Spans Detection competition, which has provided\\nparticipants with a dataset containing toxic spans annotation in English posts.\\nIn this paper, we present the WLV-RIT entry for the SemEval-2021 Task 5. Our\\nbest performing neural transformer model achieves an $0.68$ F1-Score.\\nFurthermore, we develop an open-source framework for multilingual detection of\\noffensive spans, i.e., MUDES, based on neural transformers that detect toxic\\nspans in texts.\\n",
+  "link": "http://arxiv.org/abs/2104.04630"
+}

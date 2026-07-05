@@ -1,0 +1,13 @@
+{
+  "doi": "10.2991/agi.2009.3",
+  "doi_url": "https://doi.org/10.2991/agi.2009.3",
+  "title": "AGI Preschool: A Framework for Evaluating Early-Stage Human-like AGIs",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Vladimir Bugaj",
+    "Ben Goertzel"
+  ],
+  "abstract": "A class of environments for teaching and evaluating AGI systems is described, modeled loosely on preschools used for teaching human children and intended specifically for early-stage systems aimed at approaching human-level, human-inspired AGI through a process resembling human developmental psychology. Some particulars regarding implementation of environments in this class in online virtual worlds are presented, along with details on associated evaluation tasks, and discussion of environments potentially appropriate for \"AGI preschool graduates,\" based on more advanced human schooling.",
+  "link": "https://doi.org/10.2991/agi.2009.3"
+}

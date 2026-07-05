@@ -1,0 +1,20 @@
+{
+  "doi": "10.1162/netn_a_00015",
+  "doi_url": "https://doi.org/10.1162/netn_a_00015",
+  "title": "Large-scale DCMs for resting-state fMRI",
+  "year": "2017",
+  "journal": "Network Neuroscience",
+  "authors": [
+    "Adeel Razi",
+    "Mohamed L. Seghier",
+    "Yuan Zhou",
+    "Peter McColgan",
+    "Peter Zeidman",
+    "Hae‐Jeong Park",
+    "Olaf Sporns",
+    "Geraint Rees",
+    "Karl Friston"
+  ],
+  "abstract": "This paper considers the identification of large directed graphs for resting-state brain networks based on biophysical models of distributed neuronal activity, that is, effective connectivity. This identification can be contrasted with functional connectivity methods based on symmetric correlations that are ubiquitous in resting-state functional MRI (fMRI). We use spectral dynamic causal modeling (DCM) to invert large graphs comprising dozens of nodes or regions. The ensuing graphs are directed and weighted, hence providing a neurobiologically plausible characterization of connectivity in terms of excitatory and inhibitory coupling. Furthermore, we show that the use of Bayesian model reduction to discover the most likely sparse graph (or model) from a parent (e.g., fully connected) graph eschews the arbitrary thresholding often applied to large symmetric (functional connectivity) graphs. Using empirical fMRI data, we show that spectral DCM furnishes connectivity estimates on large graphs that correlate strongly with the estimates provided by stochastic DCM. Furthermore, we increase the efficiency of model inversion using functional connectivity modes to place prior constraints on effective connectivity. In other words, we use a small number of modes to finesse the potentially redundant parameterization of large DCMs. We show that spectral DCM—with functional connectivity priors—is ideally suited for directed graph theoretic analyses of resting-state fMRI. We envision that directed graphs will prove useful in understanding the psychopathology and pathophysiology of neurodegenerative and neurodevelopmental disorders. We will demonstrate the utility of large directed graphs in clinical populations in subsequent reports, using the procedures described in this paper.",
+  "link": "https://doi.org/10.1162/netn_a_00015"
+}

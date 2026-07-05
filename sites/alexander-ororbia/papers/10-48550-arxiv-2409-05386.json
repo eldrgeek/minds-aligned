@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2409.05386",
+  "doi_url": "https://doi.org/10.48550/arxiv.2409.05386",
+  "title": "Predictive Coding with Spiking Neural Networks: a Survey",
+  "year": 2024,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Antony W. N’dri",
+    "William Gebhardt",
+    "Céline Teulière",
+    "Fleur Zeldenrust",
+    "Rajesh P. N. Rao",
+    "Jochen Triesch",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "In this article, we review a class of neuro-mimetic computational models that we place under the label of spiking predictive coding. Specifically, we review the general framework of predictive processing in the context of neurons that emit discrete action potentials, i.e., spikes. Theoretically, we structure our survey around how prediction errors are represented, which results in an organization of historical neuromorphic generalizations that is centered around three broad classes of approaches: prediction errors in explicit groups of error neurons, in membrane potentials, and implicit prediction error encoding. Furthermore, we examine some applications of spiking predictive coding that utilize more energy-efficient, edge-computing hardware platforms. Finally, we highlight important future directions and challenges in this emerging line of inquiry in brain-inspired computing. Building on the prior results of work in computational cognitive neuroscience, machine intelligence, and neuromorphic engineering, we hope that this review of neuromorphic formulations and implementations of predictive coding will encourage and guide future research and development in this emerging research area.",
+  "link": "http://arxiv.org/abs/2409.05386"
+}

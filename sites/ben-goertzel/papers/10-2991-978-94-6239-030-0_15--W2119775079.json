@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_15",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_15",
+  "title": "Probabilistic Evolutionary Procedure Learning",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "A program evolution component is proposed for integrative artificial general intelligence. The system’s deployment is intended to be comparable, on Marr’s level of computational theory, to evolutionary mechanisms in human thought. The challenges of program evolution are described, along with the requirements for a program evolution system to be competent- solving hard problems quickly, accurately, and reliably. Meta-optimizing semantic evolutionary search (MOSES) is proposed to fulfill these requirements.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_15"
+}

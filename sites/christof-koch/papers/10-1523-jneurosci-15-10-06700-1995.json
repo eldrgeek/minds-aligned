@@ -1,0 +1,14 @@
+{
+  "doi": "10.1523/jneurosci.15-10-06700.1995",
+  "doi_url": "https://doi.org/10.1523/jneurosci.15-10-06700.1995",
+  "title": "Modeling direction selectivity of simple cells in striate visual cortex within the framework of the canonical microcircuit",
+  "year": 1995,
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Hamlet Suárez",
+    "Christof Koch",
+    "Rodney J. Douglas"
+  ],
+  "abstract": "Nearly all models of direction selectivity (DS) in visual cortex are based on feedforward connection schemes, where geniculate input provides all excitatory synaptic input to both pyramidal and inhibitory neurons. Feedforward inhibition then suppresses feedforward excitation for nonoptimal stimuli. Anatomically, however, the majority of asymmetric, excitatory, synaptic contacts onto cortical cells is provided by other cortical neurons, as embodied in the Canonical Microcircuit of Douglas and Martin (1991). In this view, weak geniculate input is strongly amplified in the preferred direction by the action of intracortical excitatory connections, while in the null direction inhibition reduces geniculate-induced excitation. We investigate analytically and through biologically realistic computer simulations the functioning of a cortical network based on massive excitatory, cortico-cortical feedback. The behavior of this network is compared to physiological data as well as to the behavior of a purely feedforward model of DS based on nonlagged input. Our model explains a number of puzzling features of direction selective simple cells, including the small somatic input conductance changes that have been measured experimentally during stimulation in the null direction, and the persistence of DS while fully blocking inhibition in a single cell. Although the operation at the heart of our network is amplification, the network passes the linearity test of (Jagadeesh et al., 1993). We make specific predictions concerning the effect of selective blockade of cortical inhibition on the velocity-response curve.",
+  "link": "https://doi.org/10.1523/jneurosci.15-10-06700.1995"
+}

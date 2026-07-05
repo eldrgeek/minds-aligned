@@ -1,0 +1,14 @@
+{
+  "doi": "10.1162/neco_a_00928",
+  "doi_url": "https://doi.org/10.1162/neco_a_00928",
+  "title": "Unifying Adversarial Training Algorithms with Data Gradient Regularization",
+  "year": 2017,
+  "journal": "Neural Computation",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Daniel Kifer",
+    "C. Lee Giles"
+  ],
+  "abstract": "Many previous proposals for adversarial training of deep neural nets have included directly modifying the gradient, training on a mix of original and adversarial examples, using contractive penalties, and approximately optimizing constrained adversarial objective functions. In this article, we show that these proposals are actually all instances of optimizing a general, regularized objective we call DataGrad. Our proposed DataGrad framework, which can be viewed as a deep extension of the layerwise contractive autoencoder penalty, cleanly simplifies prior work and easily allows extensions such as adversarial training with multitask cues. In our experiments, we find that the deep gradient regularization of DataGrad (which also has L1 and L2 flavors of regularization) outperforms alternative forms of regularization, including classical L1, L2, and multitask, on both the original data set and adversarial sets. Furthermore, we find that combining multitask optimization with DataGrad adversarial training results in the most robust performance.",
+  "link": "https://doi.org/10.1162/neco_a_00928"
+}

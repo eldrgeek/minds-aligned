@@ -1,0 +1,13 @@
+{
+  "doi": "10.2991/agi.2009.32",
+  "doi_url": "https://doi.org/10.2991/agi.2009.32",
+  "title": "Program Representation for General Intelligence",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Moshe Looks",
+    "Ben Goertzel"
+  ],
+  "abstract": "Traditional machine learning systems work with relatively flat, uniform data representations, such as feature vectors, time-series, and context-free grammars. However, reality often presents us with data which are best understood in terms of relations, types, hierarchies, and complex functional forms. One possible representational scheme for coping with this sort of complexity is computer programs. This immediately raises the question of how programs are to be best represented. We propose an answer in the context of ongoing work towards artificial general intelligence.",
+  "link": "https://doi.org/10.2991/agi.2009.32"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.4018/9781616927974.ch019",
+  "doi_url": "https://doi.org/10.4018/9781616927974.ch019",
+  "title": "The China Brain Project",
+  "year": "2011",
+  "journal": "IGI Global eBooks",
+  "authors": [
+    "Hugo de Garis",
+    "Xiaoxi Chen",
+    "Ben Goertzel"
+  ],
+  "abstract": "This chapter describes a 4 year research project (2008-2011) to build China’s first artificial brain. It takes an “evolutionary engineering” approach, by evolving 10,000s of neural net modules, (or “agents” in the sense of Minsky’s “Society of Mind” [Minsky 1988, 2007]), and connecting them to make artificial brains. These modules are evolved rapidly in seconds on a “Tesla” PC Supercomputer, and connected according to the artificial brain designs of human “BAs” (Brain Architects). The artificial brain will eventually contain thousands of pattern recognizer modules, and hundreds of decision modules that when suitably combined will control the hundreds of behaviors of a walking, talking robot.Request access from your librarian to read this chapter's full text.",
+  "link": "https://doi.org/10.4018/9781616927974.ch019"
+}

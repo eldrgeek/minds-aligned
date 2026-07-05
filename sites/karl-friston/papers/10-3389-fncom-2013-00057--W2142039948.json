@@ -1,0 +1,14 @@
+{
+  "doi": "10.3389/fncom.2013.00057",
+  "doi_url": "https://doi.org/10.3389/fncom.2013.00057",
+  "title": "Neural masses and fields in dynamic causal modeling",
+  "year": "2013",
+  "journal": "Frontiers in Computational Neuroscience",
+  "authors": [
+    "Rosalyn Moran",
+    "Dimitris A. Pinotsis",
+    "Karl Friston"
+  ],
+  "abstract": "Dynamic causal modeling (DCM) provides a framework for the analysis of effective connectivity among neuronal subpopulations that subtend invasive (electrocorticograms and local field potentials) and non-invasive (electroencephalography and magnetoencephalography) electrophysiological responses. This paper reviews the suite of neuronal population models including neural masses, fields and conductance-based models that are used in DCM. These models are expressed in terms of sets of differential equations that allow one to model the synaptic underpinnings of connectivity. We describe early developments using neural mass models, where convolution-based dynamics are used to generate responses in laminar-specific populations of excitatory and inhibitory cells. We show that these models, though resting on only two simple transforms, can recapitulate the characteristics of both evoked and spectral responses observed empirically. Using an identical neuronal architecture, we show that a set of conductance based models-that consider the dynamics of specific ion-channels-present a richer space of responses; owing to non-linear interactions between conductances and membrane potentials. We propose that conductance-based models may be more appropriate when spectra present with multiple resonances. Finally, we outline a third class of models, where each neuronal subpopulation is treated as a field; in other words, as a manifold on the cortical surface. By explicitly accounting for the spatial propagation of cortical activity through partial differential equations (PDEs), we show that the topology of connectivity-through local lateral interactions among cortical layers-may be inferred, even in the absence of spatially resolved data. We also show that these models allow for a detailed analysis of structure-function relationships in the cortex. Our review highlights the relationship among these models and how the hypothesis asked of empirical data suggests an appropriate model class.",
+  "link": "https://doi.org/10.3389/fncom.2013.00057"
+}

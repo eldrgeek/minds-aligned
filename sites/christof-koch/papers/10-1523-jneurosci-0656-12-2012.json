@@ -1,0 +1,15 @@
+{
+  "doi": "10.1523/jneurosci.0656-12.2012",
+  "doi_url": "https://doi.org/10.1523/jneurosci.0656-12.2012",
+  "title": "The Spiking Component of Oscillatory Extracellular Potentials in the Rat Hippocampus",
+  "year": 2012,
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Erik W. Schomburg",
+    "Costas A. Anastassiou",
+    "György Buzsáki",
+    "Christof Koch"
+  ],
+  "abstract": "When monitoring neural activity using intracranial electrical recordings, researchers typically consider the signals to have two primary components: fast action potentials (APs) from neurons near the electrode, and the slower local field potential (LFP), thought to be dominated by postsynaptic currents integrated over a larger volume of tissue. In general, a decrease in signal power with increasing frequency is observed for most brain rhythms. The 100-200 Hz oscillations in the rat hippocampus, including \"fast gamma\" or \"epsilon\" oscillations and sharp wave-ripples (SPW-Rs), are one exception, showing an increase in power with frequency within this band. We have used detailed biophysical modeling to investigate the composition of extracellular potentials during fast oscillations in rat CA1. We find that postsynaptic currents exhibit a decreasing ability to generate large-amplitude oscillatory signals at high frequencies, whereas phase-modulated spiking shows the opposite trend. Our estimates indicate that APs and postsynaptic currents contribute similar proportions of the power contained in 140-200 Hz ripples, and the two combined generate a signal that closely resembles in vivo SPW-Rs. Much of the AP-generated signal originates from neurons further than 100 μm from the recording site, consistent with ripples appearing similarly strong regardless of whether or not they contain recognizable APs. Additionally, substantial power can be generated in the 90-150 Hz epsilon band by the APs of rhythmically firing pyramidal neurons. Thus, high-frequency LFPs may generally contain signatures of local cell assembly activation.",
+  "link": "https://doi.org/10.1523/jneurosci.0656-12.2012"
+}

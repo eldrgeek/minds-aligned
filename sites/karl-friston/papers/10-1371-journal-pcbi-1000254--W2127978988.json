@@ -1,0 +1,14 @@
+{
+  "doi": "10.1371/journal.pcbi.1000254",
+  "doi_url": "https://doi.org/10.1371/journal.pcbi.1000254",
+  "title": "Game Theory of Mind",
+  "year": "2008",
+  "journal": "PLoS Computational Biology",
+  "authors": [
+    "Wako Yoshida",
+    "Raymond J. Dolan",
+    "Karl Friston"
+  ],
+  "abstract": "This paper introduces a model of 'theory of mind', namely, how we represent the intentions and goals of others to optimise our mutual interactions. We draw on ideas from optimum control and game theory to provide a 'game theory of mind'. First, we consider the representations of goals in terms of value functions that are prescribed by utility or rewards. Critically, the joint value functions and ensuing behaviour are optimised recursively, under the assumption that I represent your value function, your representation of mine, your representation of my representation of yours, and so on ad infinitum. However, if we assume that the degree of recursion is bounded, then players need to estimate the opponent's degree of recursion (i.e., sophistication) to respond optimally. This induces a problem of inferring the opponent's sophistication, given behavioural exchanges. We show it is possible to deduce whether players make inferences about each other and quantify their sophistication on the basis of choices in sequential games. This rests on comparing generative models of choices with, and without, inference. Model comparison is demonstrated using simulated and real data from a 'stag-hunt'. Finally, we note that exactly the same sophisticated behaviour can be achieved by optimising the utility function itself (through prosocial utility), producing unsophisticated but apparently altruistic agents. This may be relevant ethologically in hierarchal game theory and coevolution.",
+  "link": "https://doi.org/10.1371/journal.pcbi.1000254"
+}

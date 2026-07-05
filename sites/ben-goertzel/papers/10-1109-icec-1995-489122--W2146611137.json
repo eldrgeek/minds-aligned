@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/icec.1995.489122",
+  "doi_url": "https://doi.org/10.1109/icec.1995.489122",
+  "title": "A convergence theorem for the simple GA with population size tending to infinity",
+  "year": "2002",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "The IMGA (iterated mean genetic algorithm), a real nonlinear iteration which approximates the GA, is introduced. The IMGA approximates the GA arbitrarily closely as population size approaches infinity. The eigenvalues of the Jacobian of the IMGA are evaluated for the case of a globally optimal population. This computation shows that, in the case of no mutation, and a fitness function with a unique global maximum, a globally optimal population is an attractor for the IMGA. A bound on the asymptotic rate of convergence of the IMGA is given.",
+  "link": "https://doi.org/10.1109/icec.1995.489122"
+}

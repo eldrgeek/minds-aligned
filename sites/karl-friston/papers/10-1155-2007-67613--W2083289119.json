@@ -1,0 +1,14 @@
+{
+  "doi": "10.1155/2007/67613",
+  "doi_url": "https://doi.org/10.1155/2007/67613",
+  "title": "Canonical Source Reconstruction for MEG",
+  "year": "2007",
+  "journal": "Computational Intelligence and Neuroscience",
+  "authors": [
+    "Jérémie Mattout",
+    "Richard N. Henson",
+    "Karl Friston"
+  ],
+  "abstract": "We describe a simple and efficient solution to the problem of reconstructing electromagnetic sources into a canonical or standard anatomical space. Its simplicity rests upon incorporating subject-specific anatomy into the forward model in a way that eschews the need for cortical surface extraction. The forward model starts with a canonical cortical mesh, defined in a standard stereotactic space. The mesh is warped, in a nonlinear fashion, to match the subject's anatomy. This warping is the inverse of the transformation derived from spatial normalization of the subject's structural MRI image, using fully automated procedures that have been established for other imaging modalities. Electromagnetic lead fields are computed using the warped mesh, in conjunction with a spherical head model (which does not rely on individual anatomy). The ensuing forward model is inverted using an empirical Bayesian scheme that we have described previously in several publications. Critically, because anatomical information enters the forward model, there is no need to spatially normalize the reconstructed source activity. In other words, each source, comprising the mesh, has a predetermined and unique anatomical attribution within standard stereotactic space. This enables the pooling of data from multiple subjects and the reporting of results in stereotactic coordinates. Furthermore, it allows the graceful fusion of fMRI and MEG data within the same anatomical framework.",
+  "link": "https://doi.org/10.1155/2007/67613"
+}

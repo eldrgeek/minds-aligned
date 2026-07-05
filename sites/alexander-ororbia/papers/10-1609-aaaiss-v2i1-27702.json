@@ -1,0 +1,13 @@
+{
+  "doi": "10.1609/aaaiss.v2i1.27702",
+  "doi_url": "https://doi.org/10.1609/aaaiss.v2i1.27702",
+  "title": "A Neuro-Mimetic Realization of the Common Model of Cognition via Hebbian Learning and Free Energy Minimization",
+  "year": 2024,
+  "journal": "Proceedings of the AAAI Symposium Series",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Matthew A. Kelly"
+  ],
+  "abstract": "Over the last few years, large neural generative models, capable of synthesizing semantically rich passages of text or producing complex images, have recently emerged as a popular representation of what has come to be known as ``generative artificial intelligence'' (generative AI). Beyond opening the door to new opportunities as well as challenges for the domain of statistical machine learning, the rising popularity of generative AI brings with it interesting questions for Cognitive Science, which seeks to discover the nature of the processes that underpin minds and brains as well as to understand how such functionality might be acquired and instantianted in biological (or artificial) substrate. With this goal in mind, we argue that a promising research program lies in the crafting of cognitive architectures, a long-standing tradition of the field, cast fundamentally in terms of neuro-mimetic generative building blocks. Concretely, we discuss the COGnitive Neural GENerative system, such an architecture that casts the Common Model of Cognition in terms of Hebbian adaptation operating in service of optimizing a variational free energy.",
+  "link": "http://dx.doi.org/10.1609/aaaiss.v2i1.27702"
+}

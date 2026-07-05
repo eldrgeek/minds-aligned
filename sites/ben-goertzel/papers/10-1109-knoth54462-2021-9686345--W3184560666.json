@@ -1,0 +1,16 @@
+{
+  "doi": "10.1109/knoth54462.2021.9686345",
+  "doi_url": "https://doi.org/10.1109/knoth54462.2021.9686345",
+  "title": "Architecture of Automated Crypto-Finance Agent",
+  "year": "2021",
+  "journal": null,
+  "authors": [
+    "Ali Raheman",
+    "Anton Kolonin",
+    "Ben Goertzel",
+    "Gergely Hegykozi",
+    "Ikram Ansari"
+  ],
+  "abstract": "We present the cognitive architecture of an autonomous agent for active portfolio management in decentralized finance, involving activities such as asset selection, portfolio balancing, liquidity provision and trading. Partial implementation of the architecture is provided and supplied with preliminary results and conclusions.",
+  "link": "https://doi.org/10.1109/knoth54462.2021.9686345"
+}

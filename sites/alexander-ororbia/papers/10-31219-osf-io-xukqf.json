@@ -1,0 +1,12 @@
+{
+  "doi": "10.31219/osf.io/xukqf",
+  "doi_url": "https://doi.org/10.31219/osf.io/xukqf",
+  "title": "Brain-Inspired Machine Intelligence: A Survey of Neurobiologically-Plausible Credit Assignment",
+  "year": 2023,
+  "journal": null,
+  "authors": [
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "In this survey, we examine algorithms for conducting credit assignment in artificial neural networks that are inspired or motivated by neurobiology, unifying these various processes under one possible taxonomy. Our proposed taxonomy is constructed based on how a learning algorithm answers a central question underpinning the mechanisms of synaptic plasticity in complex adaptive neuronal systems: where do the signals that drive the learning in individual elements of a network come from and how are they produced? In this unified treatment, we organize the ever-growing set of brain-inspired learning processes into six general families and consider these in the context of backpropagation of errors and its known criticisms. The results of this review are meant to encourage future developments in neuro-mimetic systems and their constituent learning processes, wherein lies an important opportunity to build a strong bridge between machine learning, computational neuroscience, and cognitive science.",
+  "link": "https://doi.org/10.31219/osf.io/xukqf"
+}

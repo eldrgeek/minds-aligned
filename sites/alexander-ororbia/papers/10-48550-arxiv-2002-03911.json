@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2002.03911",
+  "doi_url": "https://doi.org/10.48550/arxiv.2002.03911",
+  "title": "Large-Scale Gradient-Free Deep Learning with Recursive Local Representation Alignment",
+  "year": 2020,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Ankur Mali",
+    "Daniel Kifer",
+    "C. Lee Giles"
+  ],
+  "abstract": "Training deep neural networks on large-scale datasets requires significant hardware resources whose costs (even on cloud platforms) put them out of reach of smaller organizations, groups, and individuals. Backpropagation, the workhorse for training these networks, is an inherently sequential process that is difficult to parallelize. Furthermore, it requires researchers to continually develop various tricks, such as specialized weight initializations and activation functions, in order to ensure a stable parameter optimization. Our goal is to seek an effective, neuro-biologically-plausible alternative to backprop that can be used to train deep networks. In this paper, we propose a gradient-free learning procedure, recursive local representation alignment, for training large-scale neural architectures. Experiments with residual networks on CIFAR-10 and the large benchmark, ImageNet, show that our algorithm generalizes as well as backprop while converging sooner due to weight updates that are parallelizable and computationally less demanding. This is empirical evidence that a backprop-free algorithm can scale up to larger datasets.",
+  "link": "http://arxiv.org/abs/2002.03911"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2302.10347",
+  "doi_url": "https://doi.org/10.48550/arxiv.2302.10347",
+  "title": "Online Evolutionary Neural Architecture Search for Multivariate Non-Stationary Time Series Forecasting",
+  "year": 2023,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Zimeng Lyu",
+    "Alexander G. Ororbia",
+    "Travis Desell"
+  ],
+  "abstract": "Time series forecasting (TSF) is one of the most important tasks in data science given the fact that accurate time series (TS) predictive models play a major role across a wide variety of domains including finance, transportation, health care, and power systems. Real-world utilization of machine learning (ML) typically involves (pre-)training models on collected, historical data and then applying them to unseen data points. However, in real-world applications, time series data streams are usually non-stationary and trained ML models usually, over time, face the problem of data or concept drift. To address this issue, models must be periodically retrained or redesigned, which takes significant human and computational resources. Additionally, historical data may not even exist to re-train or re-design model with. As a result, it is highly desirable that models are designed and trained in an online fashion. This work presents the Online NeuroEvolution-based Neural Architecture Search (ONE-NAS) algorithm, which is a novel neural architecture search method capable of automatically designing and dynamically training recurrent neural networks (RNNs) for online forecasting tasks. Without any pre-training, ONE-NAS utilizes populations of RNNs that are continuously updated with new network structures and weights in response to new multivariate input data. ONE-NAS is tested on real-world, large-scale multivariate wind turbine data as well as the univariate Dow Jones Industrial Average (DJIA) dataset. Results demonstrate that ONE-NAS outperforms traditional statistical time series forecasting methods, including online linear regression, fixed long short-term memory (LSTM) and gated recurrent unit (GRU) models trained online, as well as state-of-the-art, online ARIMA strategies.",
+  "link": "http://arxiv.org/abs/2302.10347"
+}

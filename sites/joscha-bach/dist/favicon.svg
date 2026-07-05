@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0f141f; }
+        .text { fill: #3c6cdd; }
+      }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #f5f1eb; }
+        .text { fill: #143d9f; }
+      }
+    </style>
+  </defs>
+  <rect class="bg" width="100" height="100" rx="8"/>
+  <text class="text" x="50" y="65" font-size="48" font-weight="bold" font-family="Georgia, serif" text-anchor="middle">JB</text>
+</svg>

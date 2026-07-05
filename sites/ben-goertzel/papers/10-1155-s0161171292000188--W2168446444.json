@@ -1,0 +1,12 @@
+{
+  "doi": "10.1155/s0161171292000188",
+  "doi_url": "https://doi.org/10.1155/s0161171292000188",
+  "title": "Measuring static complexity",
+  "year": "1991",
+  "journal": "International Journal of Mathematics and Mathematical Sciences",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "The concept of pattern is introduced, formally defined, and used to analyze various measures of the complexity of finite binary sequences and other objects. The standard Kolmogoroff‐Chaitin‐Solomonoff complexity measure is considered, along with Bennett′s logical depth, Koppel′s sophistication′, and Chaitin′s analysis of the complexity of geometric objects. The pattern‐theoretic point of view illuminates the shortcomings of these measures and leads to specific improvements, it gives rise to two novel mathematical concepts‐‐orders of complexity and levels of pattern, and it yields a new measure of complexity, the structural complexity, which measures the total amount of structure an entity possesses.",
+  "link": "https://doi.org/10.1155/s0161171292000188"
+}

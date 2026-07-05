@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2303.18187",
+  "doi_url": "https://doi.org/10.48550/arxiv.2303.18187",
+  "title": "Contrastive-Signal-Dependent Plasticity: Self-Supervised Learning in Spiking Neural Circuits",
+  "year": 2023,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "Brain-inspired machine intelligence research seeks to develop computational models that emulate the information processing and adaptability that distinguishes biological systems of neurons. This has led to the development of spiking neural networks, a class of models that promisingly addresses the biological implausibility and {the lack of energy efficiency} inherent to modern-day deep neural networks. In this work, we address the challenge of designing neurobiologically-motivated schemes for adjusting the synapses of spiking networks and propose contrastive-signal-dependent plasticity, a process which generalizes ideas behind self-supervised learning to facilitate local adaptation in architectures of event-based neuronal layers that operate in parallel. Our experimental simulations demonstrate a consistent advantage over other biologically-plausible approaches when training recurrent spiking networks, crucially side-stepping the need for extra structure such as feedback synapses.",
+  "link": "http://arxiv.org/abs/2303.18187"
+}

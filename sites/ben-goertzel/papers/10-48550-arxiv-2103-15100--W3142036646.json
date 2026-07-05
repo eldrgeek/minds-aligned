@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2103.15100",
+  "doi_url": "https://doi.org/10.48550/arxiv.2103.15100",
+  "title": "The General Theory of General Intelligence: A Pragmatic Patternist Perspective",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "A multi-decade exploration into the theoretical foundations of artificial and natural general intelligence, which has been expressed in a series of books and papers and used to guide a series of practical and research-prototype software systems, is reviewed at a moderate level of detail. The review covers underlying philosophies (patternist philosophy of mind, foundational phenomenological and logical ontology), formalizations of the concept of intelligence, and a proposed high level architecture for AGI systems partly driven by these formalizations and philosophies. The implementation of specific cognitive processes such as logical reasoning, program learning, clustering and attention allocation in the context and language of this high level architecture is considered, as is the importance of a common (e.g. typed metagraph based) knowledge representation for enabling \"cognitive synergy\" between the various processes. The specifics of human-like cognitive architecture are presented as manifestations of these general principles, and key aspects of machine consciousness and machine ethics are also treated in this context. Lessons for practical implementation of advanced AGI in frameworks such as OpenCog Hyperon are briefly considered.",
+  "link": "https://doi.org/10.48550/arxiv.2103.15100"
+}

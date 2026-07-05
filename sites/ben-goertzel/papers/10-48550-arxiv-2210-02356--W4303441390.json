@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2210.02356",
+  "doi_url": "https://doi.org/10.48550/arxiv.2210.02356",
+  "title": "A Liquid Democracy System for Human-Computer Societies",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Anton Kolonin",
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Deborah Duong",
+    "Marco Argentieri",
+    "Matthew Iklé",
+    "Nejc Znidar"
+  ],
+  "abstract": "Problem of reliable democratic governance is critical for survival of any community, and it will be critical for communities powered with Artificial Intelligence (AI) systems upon developments of the latter. Apparently, it will be getting more and more critical because of increasing speeds and scales of electronic communications and decreasing latencies in system responses. In order to address this need, we present design and implementation of a reputation system supporting \"liquid democracy\" principle. The system is based on \"weighted liquid rank\" algorithm employing different sorts of explicit and implicit ratings being exchanged by members of the society as well as implicit assessments of of the members based on measures of their activity in the society. The system is evaluated against live social network data with help of simulation modelling for an online marketplace case.",
+  "link": "https://doi.org/10.48550/arxiv.2210.02356"
+}

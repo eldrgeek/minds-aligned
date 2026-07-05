@@ -1,0 +1,14 @@
+{
+  "doi": "10.1523/jneurosci.4654-05.2006",
+  "doi_url": "https://doi.org/10.1523/jneurosci.4654-05.2006",
+  "title": "The Continuous Wagon Wheel Illusion Is Associated with Changes in Electroencephalogram Power at ∼13 Hz",
+  "year": 2006,
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Rufin VanRullen",
+    "Leila Reddy",
+    "Christof Koch"
+  ],
+  "abstract": "Continuously moving objects sometimes appear to spontaneously reverse their motion direction. The mechanisms underlying this bistable phenomenon (the \"continuous wagon wheel illusion\") are heavily debated, but one interpretation suggests that motion information is perceived in discrete episodes at a rate between 10 and 15 Hz. Here, we asked observers to report the perceived direction of a continuously rotating wheel while 32-channel electroencephalogram (EEG) was recorded. We then separated periods of perceived true from illusory (reversed) motion and compared the EEG power spectrum under these two perceptually distinct yet physically identical conditions. The only reliable difference was observed approximately 13 Hz over centroparietal electrodes, independent of the temporal frequency of the wheel. Thus, it is likely to reflect internal processes rather than purely stimulus-driven activity. EEG power (13 Hz) decreased before the onset of illusory motion and increased before transitions back to real motion. Using this relationship, it was possible to predict above chance, on a trial-by-trial basis, the direction of the upcoming perceptual transition. These data are compatible with the idea that motion perception occurs in snapshots <100 ms in duration.",
+  "link": "https://doi.org/10.1523/jneurosci.4654-05.2006"
+}

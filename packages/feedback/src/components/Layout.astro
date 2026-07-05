@@ -1,0 +1,52 @@
+---
+// Layout.astro
+// Base layout for all subsites that includes back-button and feedback widget
+
+import FeedbackWidget from './FeedbackWidget.astro'
+import BackToHub from './BackToHub.astro'
+
+interface Props {
+  title: string
+  site: string
+  hubUrl?: string
+  children?: any
+}
+
+const { title, site, hubUrl = 'https://minds-aligned.netlify.app' } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <slot name="head" />
+  </head>
+  <body>
+    <BackToHub fallbackHubUrl={hubUrl} />
+
+    <main>
+      <slot />
+    </main>
+
+    <FeedbackWidget site={site} />
+  </body>
+</html>
+
+<style>
+  :global(html) {
+    background: var(--color-bg, #0F141F);
+    color: var(--color-text, #E9EAED);
+    font-family: var(--font-family-sans, sans-serif);
+  }
+
+  :global(body) {
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    min-height: 100vh;
+  }
+</style>

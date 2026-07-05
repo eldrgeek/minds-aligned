@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/dcc52660.2022.00082",
+  "doi_url": "https://doi.org/10.1109/dcc52660.2022.00082",
+  "title": "Neural JPEG: End-to-End Image Compression Leveraging a Standard JPEG Encoder-Decoder",
+  "year": 2022,
+  "journal": null,
+  "authors": [
+    "Ankur Mali",
+    "Alexander G. Ororbia",
+    "Daniel Kifer",
+    "C. Lee Giles"
+  ],
+  "abstract": "Recent advances in deep learning have led to superhuman performance across a variety of applications. Recently, these methods have been successfully employed to improve the rate-distortion performance in the task of image compression. However, current methods either use additional post-processing blocks on the decoder end to improve compression or propose an end-to-end compression scheme based on heuris-tics. For the majority of these, the trained deep neural networks (DNNs) are not compatible with standard encoders and would be difficult to deploy on personal com-puters and cellphones. In light of this, we propose a system that learns to improve the encoding performance by enhancing its internal neural representations on both the encoder and decoder ends, an approach we call Neural JPEG. We propose frequency domain pre-editing and post-editing methods to optimize the distribution of the DCT coefficients at both encoder and decoder ends in order to improve the stan-dard compression (JPEG) method. Moreover, we design and integrate a scheme for jointly learning quantization tables within this hybrid neural compression framework. In summary, our contributions are as follows:",
+  "link": "https://doi.org/10.1109/dcc52660.2022.00082"
+}

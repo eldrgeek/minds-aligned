@@ -1,0 +1,14 @@
+{
+  "doi": "10.3389/fpsyg.2011.00218",
+  "doi_url": "https://doi.org/10.3389/fpsyg.2011.00218",
+  "title": "Active Inference, Attention, and Motor Preparation",
+  "year": "2011",
+  "journal": "Frontiers in Psychology",
+  "authors": [
+    "Harriet R. Brown",
+    "Karl Friston",
+    "Sven Bestmann"
+  ],
+  "abstract": "Perception is the foundation of cognition and is fundamental to our beliefs and consequent action planning. The Editorial (this issue) asks: \"what mechanisms, if any, mediate between perceptual and cognitive processes?\" It has recently been argued that attention might furnish such a mechanism. In this paper, we pursue the idea that action planning (motor preparation) is an attentional phenomenon directed toward kinesthetic signals. This rests on a view of motor control as active inference, where predictions of proprioceptive signals are fulfilled by peripheral motor reflexes. If valid, active inference suggests that attention should not be limited to the optimal biasing of perceptual signals in the exteroceptive (e.g., visual) domain but should also bias proprioceptive signals during movement. Here, we investigate this idea using a classical attention (Posner) paradigm cast in a motor setting. Specially, we looked for decreases in reaction times when movements were preceded by valid relative to invalid cues. Furthermore, we addressed the hierarchical level at which putative attentional effects were expressed by independently cueing the nature of the movement and the hand used to execute it. We found a significant interaction between the validity of movement and effector cues on reaction times. This suggests that attentional bias might be mediated at a low level in the motor hierarchy, in an intrinsic frame of reference. This finding is consistent with attentional enabling of top-down predictions of proprioceptive input and may rely upon the same synaptic mechanisms that mediate directed spatial attention in the visual system.",
+  "link": "https://doi.org/10.3389/fpsyg.2011.00218"
+}

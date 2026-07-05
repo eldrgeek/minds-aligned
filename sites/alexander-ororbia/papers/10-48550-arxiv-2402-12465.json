@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2402.12465",
+  "doi_url": "https://doi.org/10.48550/arxiv.2402.12465",
+  "title": "Neuro-mimetic Task-free Unsupervised Online Learning with Continual Self-Organizing Maps",
+  "year": 2024,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Hitesh Vaidya",
+    "Travis Desell",
+    "Ankur Mali",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "An intelligent system capable of continual learning is one that can process and extract knowledge from potentially infinitely long streams of pattern vectors. The major challenge that makes crafting such a system difficult is known as catastrophic forgetting - an agent, such as one based on artificial neural networks (ANNs), struggles to retain previously acquired knowledge when learning from new samples. Furthermore, ensuring that knowledge is preserved for previous tasks becomes more challenging when input is not supplemented with task boundary information. Although forgetting in the context of ANNs has been studied extensively, there still exists far less work investigating it in terms of unsupervised architectures such as the venerable self-organizing map (SOM), a neural model often used in clustering and dimensionality reduction. While the internal mechanisms of SOMs could, in principle, yield sparse representations that improve memory retention, we observe that, when a fixed-size SOM processes continuous data streams, it experiences concept drift. In light of this, we propose a generalization of the SOM, the continual SOM (CSOM), which is capable of online unsupervised learning under a low memory budget. Our results, on benchmarks including MNIST, Kuzushiji-MNIST, and Fashion-MNIST, show almost a two times increase in accuracy, and CIFAR-10 demonstrates a state-of-the-art result when tested on (online) unsupervised class incremental learning setting.",
+  "link": "http://arxiv.org/abs/2402.12465"
+}

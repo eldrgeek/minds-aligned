@@ -1,0 +1,13 @@
+{
+  "doi": "10.1080/02643290442000095",
+  "doi_url": "https://doi.org/10.1080/02643290442000095",
+  "title": "Functional ontologies for cognition: The systematic definition of structure and function",
+  "year": "2004",
+  "journal": "Cognitive Neuropsychology",
+  "authors": [
+    "Cathy J. Price",
+    "Karl Friston"
+  ],
+  "abstract": "Cognitive scientists have traditionally specified the functional components of cognitive skills on the basis of behavioural studies of normal and neurologically impaired subjects. The results of functional imaging studies are challenging these classical models because there is a high degree of overlap among the neural systems activated by tasks that share no cognitive components. This suggests that a given neuronal structure can perform multiple functions that depend on the areas with which it interacts. However, there will be a limited range of functions that an area can perform given that its anatomical (intrinsic and extrinsic) connectivity is fixed. Assigning labels that encompass the operations that each area performs should enable a task to be re-described in terms of the functions of the areas activated. In other words, function should predict the structure and conversely structure should predict function. These systematic descriptions are referred to as ontologies. We argue that a systematic ontology for cognition would facilitate the integration of cognitive and anatomical models and organise the cognitive components of diverse tasks into a single framework. These points are illustrated with cognitive and anatomical models of reading and object recognition.",
+  "link": "https://doi.org/10.1080/02643290442000095"
+}

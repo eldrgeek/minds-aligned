@@ -1,0 +1,12 @@
+{
+  "doi": "10.31219/osf.io/w2ztm",
+  "doi_url": "https://doi.org/10.31219/osf.io/w2ztm",
+  "title": "Contrastive-Signal-Dependent Plasticity: Forward-Forward Learning of Spiking Neural Systems",
+  "year": 2023,
+  "journal": null,
+  "authors": [
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "We develop a neuro-mimetic architecture, composed of spiking neuronal units, here individual layers of neurons operate in parallel and adapt their synaptic efficacies without the use of feedback pathways. Specifically, we propose an event-based generalization of forward-forward learning, which we call contrastive-signal-dependent plasticity (CSDP), for a spiking neural system that iteratively processes sensory input over a stimulus window. The dynamics that underwrite this recurrent circuit entail computing the membrane potential of each processing element, in each layer, as a function of local bottom-up, top-down, and lateral signals, facilitating a dynamic, layer-wise parallel form of neural computation. Unlike other models, such as spiking predictive coding, that rely on feedback synapses to adjust neural electrical activity, our model operates purely online and forward in time, offering a promising way to learn distributed representations of sensory data patterns, with and without labeled context information. Notably, our experimental results on several pattern datasets demonstrate that the CSDP process works well for training a dynamic recurrent spiking network capable of both classification and reconstruction.",
+  "link": "https://doi.org/10.31219/osf.io/w2ztm"
+}

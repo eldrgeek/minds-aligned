@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2101.07498",
+  "doi_url": "https://doi.org/10.48550/arxiv.2101.07498",
+  "title": "Paraconsistent Foundations for Quantum Probability",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "It is argued that a fuzzy version of 4-truth-valued paraconsistent logic (with truth values corresponding to True, False, Both and Neither) can be approximately isomorphically mapped into the complex-number algebra of quantum probabilities. I.e., p-bits (paraconsistent bits) can be transformed into close approximations of qubits. The approximation error can be made arbitrarily small, at least in a formal sense, and can be related to the degree of irreducible \"evidential error\" assumed to plague an observer's observations. This logical correspondence manifests itself in program space via an approximate mapping between probabilistic and quantum types in programming languages.",
+  "link": "https://doi.org/10.48550/arxiv.2101.07498"
+}

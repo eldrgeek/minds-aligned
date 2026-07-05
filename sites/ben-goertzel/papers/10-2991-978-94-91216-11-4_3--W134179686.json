@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4_3",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4_3",
+  "title": "Quantifying and Managing Uncertainty",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "Another major issue in formal logic systems is the quantification and incorporation of uncertainty. It is of course possible to represent uncertainty using theories within first-order logic, but many have argued that uncertainty is sufficiently basic to commonsense inference that it should be introduced into formal logic at a foundational level.",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4_3"
+}

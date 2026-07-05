@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4_10",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4_10",
+  "title": "Scalable Spatiotemporal Logical Knowledge Storage",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "Having dealt with the representation of logical knowledge of various sorts, and briefly discussed the problem of translating nonlogical knowledge into logical knowledge, we now turn to the question of how large amounts of logical knowledge can pragmatically be stored. This chapter presents a brief and relatively nonmathematical interlude before we plunge into the more technical topics of mining patterns in logical knowledge stores, and carrying out inferences regarding changes and other patterns in logical knowledge stores.",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4_10"
+}

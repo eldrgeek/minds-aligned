@@ -1,0 +1,13 @@
+{
+  "doi": "10.1167/11.3.9",
+  "doi_url": "https://doi.org/10.1167/11.3.9",
+  "title": "Learning a saliency map using fixated locations in natural scenes",
+  "year": 2011,
+  "journal": "Journal of Vision",
+  "authors": [
+    "Qianchuan Zhao",
+    "Christof Koch"
+  ],
+  "abstract": "Inspired by the primate visual system, computational saliency models decompose visual input into a set of feature maps across spatial scales in a number of pre-specified channels. The outputs of these feature maps are summed to yield the final saliency map. Here we use a least square technique to learn the weights associated with these maps from subjects freely fixating natural scenes drawn from four recent eye-tracking data sets. Depending on the data set, the weights can be quite different, with the face and orientation channels usually more important than color and intensity channels. Inter-subject differences are negligible. We also model a bias toward fixating at the center of images and consider both time-varying and constant factors that contribute to this bias. To compensate for the inadequacy of the standard method to judge performance (area under the ROC curve), we use two other metrics to comprehensively assess performance. Although our model retains the basic structure of the standard saliency model, it outperforms several state-of-the-art saliency algorithms. Furthermore, the simple structure makes the results applicable to numerous studies in psychophysics and physiology and leads to an extremely easy implementation for real-world applications.",
+  "link": "https://doi.org/10.1167/11.3.9"
+}

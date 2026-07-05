@@ -1,0 +1,26 @@
+{
+  "doi": "10.1093/brain/aww286",
+  "doi_url": "https://doi.org/10.1093/brain/aww286",
+  "title": "Stimulating at the right time: phase-specific deep brain stimulation",
+  "year": "2016",
+  "journal": "Brain",
+  "authors": [
+    "Hayriye Cagnan",
+    "David J. Pedrosa",
+    "Simon Little",
+    "Alek Pogosyan",
+    "Binith Cheeran",
+    "Tipu Z. Aziz",
+    "Alexander L. Green",
+    "James J. FitzGerald",
+    "Thomas Foltynie",
+    "Patricia Limousin",
+    "Ludvic Zrinzo",
+    "Marwan Hariz",
+    "Karl Friston",
+    "Timothy Denison",
+    "Peter Brown"
+  ],
+  "abstract": "SEE MOLL AND ENGEL DOI101093/AWW308 FOR A SCIENTIFIC COMMENTARY ON THIS ARTICLE: Brain regions dynamically engage and disengage with one another to execute everyday actions from movement to decision making. Pathologies such as Parkinson's disease and tremor emerge when brain regions controlling movement cannot readily decouple, compromising motor function. Here, we propose a novel stimulation strategy that selectively regulates neural synchrony through phase-specific stimulation. We demonstrate for the first time the therapeutic potential of such a stimulation strategy for the treatment of patients with pathological tremor. Symptom suppression is achieved by delivering stimulation to the ventrolateral thalamus, timed according to the patient's tremor rhythm. Sustained locking of deep brain stimulation to a particular phase of tremor afforded clinically significant tremor relief (up to 87% tremor suppression) in selected patients with essential tremor despite delivering less than half the energy of conventional high frequency stimulation. Phase-specific stimulation efficacy depended on the resonant characteristics of the underlying tremor network. Selective regulation of neural synchrony through phase-locked stimulation has the potential to both increase the efficiency of therapy and to minimize stimulation-induced side effects.",
+  "link": "https://doi.org/10.1093/brain/aww286"
+}

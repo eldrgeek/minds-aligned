@@ -1,0 +1,15 @@
+{
+  "doi": "10.1152/jn.00979.2005",
+  "doi_url": "https://doi.org/10.1152/jn.00979.2005",
+  "title": "On the Origin of the Extracellular Action Potential Waveform: A Modeling Study",
+  "year": 2006,
+  "journal": "Journal of Neurophysiology",
+  "authors": [
+    "Carl A. Gold",
+    "Darrell A. Henze",
+    "Christof Koch",
+    "György Buzsáki"
+  ],
+  "abstract": "Although extracellular unit recording is typically used for the detection of spike occurrences, it also has the theoretical ability to report about what are typically considered intracellular features of the action potential. We address this theoretical ability by developing a model system that captures features of experimentally recorded simultaneous intracellular and extracellular recordings of CA1 pyramidal neurons. We use the line source approximation method of Holt and Koch to model the extracellular action potential (EAP) voltage resulting from the spiking activity of individual neurons. We compare the simultaneous intracellular and extracellular recordings of CA1 pyramidal neurons recorded in vivo with model predictions for the same cells reconstructed and simulated with compartmental models. The model accurately reproduces both the waveform and the amplitude of the EAPs, although it was difficult to achieve simultaneous good matches on both the intracellular and extracellular waveforms. This suggests that accounting for the EAP waveform provides a considerable constraint on the overall model. The developed model explains how and why the waveform varies with electrode position relative to the recorded cell. Interestingly, each cell's dendritic morphology had very little impact on the EAP waveform. The model also demonstrates that the varied composition of ionic currents in different cells is reflected in the features of the EAP.",
+  "link": "https://doi.org/10.1152/jn.00979.2005"
+}

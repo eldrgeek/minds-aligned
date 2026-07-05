@@ -1,0 +1,22 @@
+{
+  "slug": "chris-fields",
+  "name": "Chris Fields",
+  "shortName": "Chris Fields",
+  "tagline": "Talks archive and grounded AI guide for Chris Fields — quantum information, the free energy principle, and theories of agency and observation.",
+  "bio": "Chris Fields is an independent scientist working at the intersection of physics, cognitive science, and biology. His research spans quantum information theory, the free energy principle and active inference, the physics of observation and measurement, and how agents at every scale — from cells to minds — define and maintain boundaries between themselves and their environments.",
+  "bioLinks": [
+    {
+      "label": "Personal site",
+      "url": "https://chrisfieldsresearch.com/"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=2bM8wQ4AAAAJ"
+    }
+  ],
+  "personaId": "fields",
+  "personaName": "Fields Guide",
+  "personaAvatar": "🌀",
+  "personaGreeting": "I'm an AI guide grounded in Chris Fields's published work — quantum information, the free energy principle, and theories of agency, observation, and scale-free cognition. I'm not Chris Fields myself, but I can help you navigate the corpus and the ideas this research introduced.",
+  "guideConfigFile": "chris-fields-guide-config.js"
+}

@@ -1,0 +1,21 @@
+{
+  "doi": "10.2991/agi.2010.16",
+  "doi_url": "https://doi.org/10.2991/agi.2010.16",
+  "title": "A General Intelligence Oriented Architecture for Embodied Natural Language Processing",
+  "year": "2010",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Samir Araujo",
+    "Fabrício Alves Barbosa da Silva",
+    "M. Santana Queiroz",
+    "Ruiting Lian",
+    "Welter Silva",
+    "Michael S. Ross",
+    "Linas Vepštas",
+    "Andre Senna"
+  ],
+  "abstract": "A software architecture is described which enables a virtual agent in an online virtual world to carry out simple English language interactions grounded in its perceptions and actions. The use of perceptions to guide anaphor resolution is discussed, along with the use of natural language generation to answer simple questions about the observed world. This architecture has been implemented within the larger PetBrain system, which is built on the OpenCog open-source AI software framework and architected based on the OpenCogPrime design for integrative AGI, and has previously been used for nonlinguistic intelligent behaviors such as imitation and reinforcement learning.",
+  "link": "https://doi.org/10.2991/agi.2010.16"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.2991/agi.2009.19",
+  "doi_url": "https://doi.org/10.2991/agi.2009.19",
+  "title": "Economic Attention Networks: Associative Memory and Resource Allocation for General Intelligence",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Joel Pitt",
+    "Matthew Iklé",
+    "George Sellmann",
+    "Ben Goertzel"
+  ],
+  "abstract": "A novel method for simultaneously storing memories and allocating resources in AI systems is presented. The method, Economic Attention Networks (ECANs), bears some resemblance to the spread of activation in attractor neural networks, but differs via explicitly differentiating two kinds of \"activation\" (Short Term Importance, related to processor allocation; and Long Term Importance, related to memory allocation), and in using equations that are based on ideas from economics rather than approximative neural modeling. Here we explain the basic ideas of ECANs, and then investigate the functionality of ECANs as associative memories, via mathematical analysis and the reportage of experimental results obtained from the implementation of ECANs in the OpenCog integrative AGI system.",
+  "link": "https://doi.org/10.2991/agi.2009.19"
+}

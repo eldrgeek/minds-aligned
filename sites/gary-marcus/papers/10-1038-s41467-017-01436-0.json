@@ -1,0 +1,17 @@
+{
+  "doi": "10.1038/s41467-017-01436-0",
+  "doi_url": "https://doi.org/10.1038/s41467-017-01436-0",
+  "title": "Songbirds work around computational complexity by learning song vocabulary independently of sequence",
+  "year": 2017,
+  "journal": "Nature Communications",
+  "authors": [
+    "Dina Lipkind",
+    "Anja T. Zai",
+    "Alexander Hanuschkin",
+    "Gary Marcus",
+    "Ofer Tchernichovski",
+    "Richard H. R. Hahnloser"
+  ],
+  "abstract": "While acquiring motor skills, animals transform their plastic motor sequences to match desired targets. However, because both the structure and temporal position of individual gestures are adjustable, the number of possible motor transformations increases exponentially with sequence length. Identifying the optimal transformation towards a given target is therefore a computationally intractable problem. Here we show an evolutionary workaround for reducing the computational complexity of song learning in zebra finches. We prompt juveniles to modify syllable phonology and sequence in a learned song to match a newly introduced target song. Surprisingly, juveniles match each syllable to the most spectrally similar sound in the target, regardless of its temporal position, resulting in unnecessary sequence errors, that they later try to correct. Thus, zebra finches prioritize efficient learning of syllable vocabulary, at the cost of inefficient syntax learning. This strategy provides a non-optimal but computationally manageable solution to the task of vocal sequence learning.",
+  "link": "https://doi.org/10.1038/s41467-017-01436-0"
+}

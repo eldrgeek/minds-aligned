@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2311.09589",
+  "doi_url": "https://doi.org/10.48550/arxiv.2311.09589",
+  "title": "Mortal Computation: A Foundation for Biomimetic Intelligence",
+  "year": 2023,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Karl Friston"
+  ],
+  "abstract": "This review motivates and synthesizes research efforts in neuroscience-inspired artificial intelligence and biomimetic computing in terms of mortal computation. Specifically, we characterize the notion of mortality by recasting ideas in biophysics, cybernetics, and cognitive science in terms of a theoretical foundation for sentient behavior. We frame the mortal computation thesis through the Markov blanket formalism and the circular causality entailed by inference, learning, and selection. The ensuing framework -- underwritten by the free energy principle -- could prove useful for guiding the construction of unconventional connectionist computational systems, neuromorphic intelligence, and chimeric agents, including sentient organoids, which stand to revolutionize the long-term future of embodied, enactive artificial intelligence and cognition research.",
+  "link": "http://arxiv.org/abs/2311.09589"
+}

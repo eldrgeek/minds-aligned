@@ -1,0 +1,14 @@
+{
+  "doi": "10.1016/j.tins.2013.09.004",
+  "doi_url": "https://doi.org/10.1016/j.tins.2013.09.004",
+  "title": "Reflections on agranular architecture: predictive coding in the motor cortex",
+  "year": "2013",
+  "journal": "Trends in Neurosciences",
+  "authors": [
+    "Stewart Shipp",
+    "Rick A. Adams",
+    "Karl Friston"
+  ],
+  "abstract": "The agranular architecture of motor cortex lacks a functional interpretation. Here, we consider a 'predictive coding' account of this unique feature based on asymmetries in hierarchical cortical connections. In sensory cortex, layer 4 (the granular layer) is the target of ascending pathways. We theorise that the operation of predictive coding in the motor system (a process termed 'active inference') provides a principled rationale for the apparent recession of the ascending pathway in motor cortex. The extension of this theory to interlaminar circuitry also accounts for a sub-class of 'mirror neuron' in motor cortex--whose activity is suppressed when observing an action--explaining how predictive coding can gate hierarchical processing to switch between perception and action.",
+  "link": "https://doi.org/10.1016/j.tins.2013.09.004"
+}

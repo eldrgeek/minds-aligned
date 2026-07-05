@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Privacy Protection for Natural Language Records: Neural Generative Models for Releasing Synthetic Twitter Data",
+  "year": 2016,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Fridolin Linder",
+    "Joshua Snoke"
+  ],
+  "abstract": "In this paper we consider methods for sharing free text Twitter data, with the goal of protecting the privacy of individuals in the data while still releasing data that carries research value, i.e. minimizes risk and maximizes utility. We propose three protection methods: simple redaction of hashtags and twitter handles, an epsilon-differentially private Multinomial-Dirichlet synthesizer, and novel synthesis models based on a neural generative model. We evaluate these three methods using empirical measures of risk and utility. We define risk based on possible identification of users in the Twitter data, and we define utility based on two general language measures and two model-based tasks. We find that redaction maintains high utility for simple tasks but at the cost of high risk, while some neural synthesis models are able to produce higher levels of utility, even for more complicated tasks, while maintaining lower levels of risk. In practice, utility and risk present a trade-off, with some methods offering lower risk or higher utility. This work presents possible methods to approach the problem of privacy for free text and which methods could be used to meet different utility and risk thresholds.",
+  "link": "https://arxiv.org/pdf/1606.01151.pdf"
+}

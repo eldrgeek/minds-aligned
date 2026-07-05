@@ -1,0 +1,14 @@
+{
+  "doi": "10.1152/jn.1996.75.6.2280",
+  "doi_url": "https://doi.org/10.1152/jn.1996.75.6.2280",
+  "title": "Coding of time-varying electric field amplitude modulations in a wave-type electric fish",
+  "year": 1996,
+  "journal": "Journal of Neurophysiology",
+  "authors": [
+    "R. Wessel",
+    "Christof Koch",
+    "Fabrizio Gabbiani"
+  ],
+  "abstract": "1. The coding of time-varying electric fields in the weakly electric fish, Eigenmannia, was investigated in a quantitative manner. The activity of single P-type electroreceptor afferents was recorded while the amplitude of an externally applied sinusoidal electric field was stochastically modulated. The amplitude modulation waveform (i.e., the stimulus) was reconstructed from the spike trains by mean square estimation. 2. From the stimulus and the reconstructions we calculated the following: 1) the signal-to-noise ratio and thus an effective temporal bandwidth of the units; 2) the coding fraction, i.e., a measure of the fraction of the time-varying stimulus encoded in single spike trains; and 3) the mutual information provided by the reconstructions about the stimulus. 3. Signal-to-noise ratios as high as 7:1 were observed and the bandwidth ranged from 0 up to 200 Hz, consistent with the limit imposed by the sampling theorem. Reducing the cutoff frequency of the stimulus increased the signal-to-noise ratio at low frequencies, indicating a nonlinearity in the receptors' response. 4. The coding fraction and the rate of mutual information transmission increased in parallel with the standard deviation (i.e., the contrast) of the stimulus as well as the mean firing rate of the units. Significant encoding occurred 20-40 Hz above the spontaneous discharge of a unit. 5. When the temporal cutoff frequency of the stimulus was increased between 80 and 400 Hz, 1) the coding fraction decreased, 2) the rate of mutual information transmission remained constant over the same frequency range, and 3) the reconstructed filter changed. This is in agreement with predictions obtained in a simplified neuronal model. 6. Our results suggest that 1) the information transmitted by single spike trains of primary electrosensory afferents to higherorder neurons in the fish brain depends on the contrast and the cutoff frequency of the stimulus as well as on the mean firing rate of the units; and 2) under optimal conditions, more than half of the information about a Gaussian stimulus that can in principle be encoded is carried in single spike trains of P-type afferents at rates up to 200 bits per second.",
+  "link": "https://doi.org/10.1152/jn.1996.75.6.2280"
+}

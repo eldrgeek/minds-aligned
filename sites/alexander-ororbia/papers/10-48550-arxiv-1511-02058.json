@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1511.02058",
+  "doi_url": "https://doi.org/10.48550/arxiv.1511.02058",
+  "title": "ExpertSeer: a Keyphrase Based Expert Recommender for Digital Libraries",
+  "year": 2015,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Hung‐Hsuan Chen",
+    "Alexander G. Ororbia",
+    "C. Lee Giles"
+  ],
+  "abstract": "We describe ExpertSeer, a generic framework for expert recommendation based on the contents of a digital library. Given a query term q, ExpertSeer recommends experts of q by retrieving authors who published relevant papers determined by related keyphrases and the quality of papers. The system is based on a simple yet effective keyphrase extractor and the Bayes' rule for expert recommendation. ExpertSeer is domain independent and can be applied to different disciplines and applications since the system is automated and not tailored to a specific discipline. Digital library providers can employ the system to enrich their services and organizations can discover experts of interest within an organization. To demonstrate the power of ExpertSeer, we apply the framework to build two expert recommender systems. The first, CSSeer, utilizes the CiteSeerX digital library to recommend experts primarily in computer science. The second, ChemSeer, uses publicly available documents from the Royal Society of Chemistry (RSC) to recommend experts in chemistry. Using one thousand computer science terms as benchmark queries, we compared the top-n experts (n=3, 5, 10) returned by CSSeer to two other expert recommenders -- Microsoft Academic Search and ArnetMiner -- and a simulator that imitates the ranking function of Google Scholar. Although CSSeer, Microsoft Academic Search, and ArnetMiner mostly return prestigious researchers who published several papers related to the query term, it was found that different expert recommenders return moderately different recommendations. To further study their performance, we obtained a widely used benchmark dataset as the ground truth for comparison. The results show that our system outperforms Microsoft Academic Search and ArnetMiner in terms of Precision-at-k (P@k) for k=3, 5, 10. We also conducted several case studies to validate the usefulness of our system.",
+  "link": "http://arxiv.org/abs/1511.02058"
+}

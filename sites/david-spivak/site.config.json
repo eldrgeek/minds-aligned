@@ -1,0 +1,22 @@
+{
+  "slug": "david-spivak",
+  "name": "David I. Spivak",
+  "shortName": "David Spivak",
+  "tagline": "Publication archive and grounded AI guide for David Spivak — applied category theory, operads, and the mathematics of compositional systems.",
+  "bio": "David I. Spivak is a mathematician known for advancing applied category theory. His work uses categorical structures — operads, sheaves, and polynomial functors — to model databases, dynamical systems, and the composition of interacting processes, building rigorous mathematical foundations for how complex systems are assembled from parts.",
+  "bioLinks": [
+    {
+      "label": "Personal site",
+      "url": "https://www.dspivak.net/"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=eVx0qBcAAAAJ"
+    }
+  ],
+  "personaId": "spivak",
+  "personaName": "Spivak Guide",
+  "personaAvatar": "🔗",
+  "personaGreeting": "I'm an AI guide grounded in David I. Spivak's published work — applied category theory, operads, and the mathematics of compositional systems. I'm not David Spivak myself, but I can help you navigate the corpus and the ideas this research introduced.",
+  "guideConfigFile": "david-spivak-guide-config.js"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Stages of Ethical Development in Artificial General Intelligence Systems",
+  "year": "2008",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Stephan Vladimir Bugaj"
+  ],
+  "abstract": "Abstract. A novel theory of the stages of ethical development in intelligent systems is proposed, incorporating prior related theories by Kohlberg and Gilligan, as well as Piaget’s theory of cognitive development. This theory is then applied to the ethical development of integrative AGI systems that contain components carrying out simulation and uncertain inference – the key hypothesis being that effective integration of these components is central to the ascent of the AGI system up the ethical-stage hierarchy.",
+  "link": "https://openalex.org/W1517407066"
+}

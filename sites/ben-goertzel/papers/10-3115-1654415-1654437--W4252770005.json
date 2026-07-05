@@ -1,0 +1,17 @@
+{
+  "doi": "10.3115/1654415.1654437",
+  "doi_url": "https://doi.org/10.3115/1654415.1654437",
+  "title": "Using dependency parsing and probabilistic inference to extract relationships between genes, proteins and malignancies implicit among multiple biomedical research abstracts",
+  "year": "2006",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Hugo Pinto",
+    "Ari Heljakka",
+    "Izabela Freire Goertzel",
+    "Mike Ross",
+    "Cassio Pennachin"
+  ],
+  "abstract": "We describe BioLiterate, a prototype software system which infers relationships involving relationships between genes, proteins and malignancies from research abstracts, and has initially been tested in the domain of the molecular genetics of oncology. The architecture uses a natural language processing module to extract entities, dependencies and simple semantic relationships from texts, and then feeds these features into a probabilistic reasoning module which combines the semantic relationships extracted by the NLP module to form new semantic relationships. One application of this system is the discovery of relationships that are not contained in any individual abstract but are implicit in the combined knowledge contained in two or more abstracts.",
+  "link": "https://doi.org/10.3115/1654415.1654437"
+}

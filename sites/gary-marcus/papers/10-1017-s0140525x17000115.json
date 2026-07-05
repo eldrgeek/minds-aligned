@@ -1,0 +1,13 @@
+{
+  "doi": "10.1017/s0140525x17000115",
+  "doi_url": "https://doi.org/10.1017/s0140525x17000115",
+  "title": "Causal generative models are just a start",
+  "year": 2017,
+  "journal": "Behavioral and Brain Sciences",
+  "authors": [
+    "Ernest Davis",
+    "Gary Marcus"
+  ],
+  "abstract": "Human reasoning is richer than Lake et al. acknowledge, and the emphasis on theories of how images and scenes are synthesized is misleading. For example, the world knowledge used in vision presumably involves a combination of geometric, physical, and other knowledge, rather than just a causal theory of how the image was produced. In physical reasoning, a model can be a set of constraints rather than a physics engine. In intuitive psychology, many inferences proceed without detailed causal generative models. How humans reliably perform such inferences, often in the face of radically incomplete information, remains a mystery.",
+  "link": "https://doi.org/10.1017/s0140525x17000115"
+}

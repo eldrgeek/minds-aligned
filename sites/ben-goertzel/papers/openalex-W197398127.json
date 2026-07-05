@@ -1,0 +1,17 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Probabilistic Logic Based Reinforcement Learning of Simple Embodied Behaviors in a 3D Simulation World",
+  "year": "2007",
+  "journal": null,
+  "authors": [
+    "Ari Heljakka",
+    "Ben Goertzel",
+    "Welter Silva",
+    "Cassio Pennachin",
+    "Andre Senna",
+    "Izabela Freire Goertzel"
+  ],
+  "abstract": "domains such as theorem-proving and linguistic semantics. In the Novamente AGI architecture, however, probabilistic logic is used for a wider variety of purposes, including simple reinforcement learning of infantile behaviors, which are primarily concerned with perception and action rather than abstract cognition. This paper reports some simple experiments designed to validate the viability of this approach, via using the PLN probabilistic logic framework, implemented within the Novamente AGI architecture, to carry out reinforcement learning of simple embodied behaviors in a 3D simulation world (AGISim). The specific experiment focused upon involves teaching Novamente to play the game of “fetch ” using reinforcement learning based on repeated partial rewards. Novamente is an integrative AGI architecture involving considerably more than just PLN; however, in this “fetch ” experiment, the only cognitive process PLN is coupled with is simple perceptual pattern mining; other Novamente cognitive processes such as evolutionary learning and economic attention allocation are not utilized, so as to",
+  "link": "https://openalex.org/W197398127"
+}

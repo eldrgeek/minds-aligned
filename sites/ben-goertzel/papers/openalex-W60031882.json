@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Multiboundary Algebra as Pregeometry",
+  "year": "2007",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "It is well known that the Clifford Algebras, and their quaternionic and octonionic subalgebras, are structures of fundamental importance in modern physics. Geoffrey Dixon has even used them as the centerpiece of a novel approach to Grand Unification. In the spirit of Wheeler's notion of pregeometry and more recent work on quantum set theory, the goal of the present investigation is to explore how these algebras may be seen to emerge from a simpler and more primitive order. In order to observe this emergence in the most natural way, a pregeometric domain is proposed that consists of two different kinds of boundaries, each imposing different properties on the combinatory operations occurring between elements they contain. It is shown that a very simple variant of this kind of multiboundary gives rise to Clifford Algebra, in much the same way as Spencer-Brown's simpler single-boundary algebra gives rise to Boolean algebra.",
+  "link": "https://openalex.org/W60031882"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.1155/s0161171294001109",
+  "doi_url": "https://doi.org/10.1155/s0161171294001109",
+  "title": "Simulated annealing on uncorrelated energy landscapes",
+  "year": "1993",
+  "journal": "International Journal of Mathematics and Mathematical Sciences",
+  "authors": [
+    "Ben Goertzel",
+    "Malwane M. A. Ananda"
+  ],
+  "abstract": "A function f : {0,1,2, L , a } n → R is said to be uncorrelated if Prob[f(x) ≤ u ] = G ( u ). This paper studies the effectiveness of simulated annealing as a strategy for optimizing uncorrelated functions. A recurrence relation expressing the effectiveness of the algorithm in terms of the function G is derived. Surprising numerical results are obtained, to the effect that for certain parametrized families of functions { G c , c ∈ R }, where c represents the steepness of the curve G ′ ( u ), the effectiveness of simulated annealing increases steadily with c These results suggest that on the average annealing is effective whenever most points have very small objective function values, but a few points have very large objective function values.",
+  "link": "https://doi.org/10.1155/s0161171294001109"
+}

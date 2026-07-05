@@ -1,0 +1,15 @@
+{
+  "doi": "10.1371/journal.pcbi.1004090",
+  "doi_url": "https://doi.org/10.1371/journal.pcbi.1004090",
+  "title": "Physiology of Layer 5 Pyramidal Neurons in Mouse Primary Visual Cortex: Coincidence Detection through Bursting",
+  "year": 2015,
+  "journal": "PLoS Computational Biology",
+  "authors": [
+    "Adam Shai",
+    "Costas A. Anastassiou",
+    "Matthew E. Larkum",
+    "Christof Koch"
+  ],
+  "abstract": "L5 pyramidal neurons are the only neocortical cell type with dendrites reaching all six layers of cortex, casting them as one of the main integrators in the cortical column. What is the nature and mode of computation performed in mouse primary visual cortex (V1) given the physiology of L5 pyramidal neurons? First, we experimentally establish active properties of the dendrites of L5 pyramidal neurons of mouse V1 using patch-clamp recordings. Using a detailed multi-compartmental model, we show this physiological setup to be well suited for coincidence detection between basal and apical tuft inputs by controlling the frequency of spike output. We further show how direct inhibition of calcium channels in the dendrites modulates such coincidence detection. To establish the singe-cell computation that this biophysics supports, we show that the combination of frequency-modulation of somatic output by tuft input and (simulated) calcium-channel blockage functionally acts as a composite sigmoidal function. Finally, we explore how this computation provides a mechanism whereby dendritic spiking contributes to orientation tuning in pyramidal neurons.",
+  "link": "https://doi.org/10.1371/journal.pcbi.1004090"
+}

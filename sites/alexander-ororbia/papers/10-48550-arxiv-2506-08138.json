@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2506.08138",
+  "doi_url": "https://doi.org/10.48550/arxiv.2506.08138",
+  "title": "A Practical Guide to Tuning Spiking Neuronal Dynamics",
+  "year": 2025,
+  "journal": "ArXiv.org",
+  "authors": [
+    "William Gebhardt",
+    "Alexander G. Ororbia",
+    "Nathan A. McDonald",
+    "Clare Thiem",
+    "Jack P. Lombardi"
+  ],
+  "abstract": "In this work, we examine fundamental elements of spiking neural networks (SNNs) as well as how to tune them. Concretely, we focus on two different foundational neuronal units utilized in SNNs -- the leaky integrate-and-fire (LIF) and the resonate-and-fire (RAF) neuron. We explore key equations and how hyperparameter values affect behavior. Beyond hyperparameters, we discuss other important design elements of SNNs -- the choice of input encoding and the setup for excitatory-inhibitory populations -- and how these impact LIF and RAF dynamics.",
+  "link": "http://arxiv.org/abs/2506.08138"
+}

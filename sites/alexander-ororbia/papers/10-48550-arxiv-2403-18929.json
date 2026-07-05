@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2403.18929",
+  "doi_url": "https://doi.org/10.48550/arxiv.2403.18929",
+  "title": "A Review of Neuroscience-Inspired Machine Learning",
+  "year": 2024,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Ankur Mali",
+    "Adam Kohan",
+    "Beren Millidge",
+    "Tommaso Salvatori"
+  ],
+  "abstract": "One major criticism of deep learning centers around the biological implausibility of the credit assignment schema used for learning -- backpropagation of errors. This implausibility translates into practical limitations, spanning scientific fields, including incompatibility with hardware and non-differentiable implementations, thus leading to expensive energy requirements. In contrast, biologically plausible credit assignment is compatible with practically any learning condition and is energy-efficient. As a result, it accommodates hardware and scientific modeling, e.g. learning with physical systems and non-differentiable behavior. Furthermore, it can lead to the development of real-time, adaptive neuromorphic processing systems. In addressing this problem, an interdisciplinary branch of artificial intelligence research that lies at the intersection of neuroscience, cognitive science, and machine learning has emerged. In this paper, we survey several vital algorithms that model bio-plausible rules of credit assignment in artificial neural networks, discussing the solutions they provide for different scientific fields as well as their advantages on CPUs, GPUs, and novel implementations of neuromorphic hardware. We conclude by discussing the future challenges that will need to be addressed in order to make such algorithms more useful in practical applications.",
+  "link": "http://arxiv.org/abs/2403.18929"
+}

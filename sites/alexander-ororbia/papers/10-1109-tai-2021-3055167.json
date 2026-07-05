@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/tai.2021.3055167",
+  "doi_url": "https://doi.org/10.1109/tai.2021.3055167",
+  "title": "A Neural State Pushdown Automata",
+  "year": 2020,
+  "journal": "IEEE Transactions on Artificial Intelligence",
+  "authors": [
+    "Ankur Mali",
+    "Alexander G. Ororbia",
+    "C. Lee Giles"
+  ],
+  "abstract": "To learn complex formal grammars, recurrent neural networks (RNNs) require sufficient computational resources to ensure correct grammar recognition. One approach to expand model capacity is to couple an RNN to an external stack memory. Here, we introduce a “neural state” pushdown automaton (NSPDA), which consists of a discrete stack instead of an continuous one and is coupled to a neural network state machine. We empirically show its effectiveness in recognizing various context-free grammars (CFGs). First, we develop the underlying mechanics of the proposed higher order recurrent network and its manipulation of a stack as well as how to stably program its underlying pushdown automaton (PDA). We also introduce a noise regularization scheme for higher-order (tensor) networks and design an algorithm for improved incremental learning. Finally, we design a method for inserting grammar rules into a NSPDA and empirically show that this prior knowledge improves its training convergence time by an order of magnitude and, in some cases, leads to better generalization. The NSPDA is also compared to a classical analog stack neural network pushdown automaton (NNPDA) as well as a wide array of first and second-order RNNs with and without external memory, trained using different learning algorithms. Our results show that for the Dyck languages, prior rule-based knowledge is critical for optimization convergence and for ensuring generalization to longer sequences at test time. We observe that many RNNs with and without memory, but no prior knowledge, struggle to converge and generalize on complex and longer CFGs.",
+  "link": "https://doi.org/10.1109/tai.2021.3055167"
+}

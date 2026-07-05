@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2401.06923",
+  "doi_url": "https://doi.org/10.48550/arxiv.2401.06923",
+  "title": "Minimally Supervised Learning using Topological Projections in Self-Organizing Maps",
+  "year": 2024,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Zimeng Lyu",
+    "Alexander G. Ororbia",
+    "Rui Li",
+    "Travis Desell"
+  ],
+  "abstract": "Parameter prediction is essential for many applications, facilitating insightful interpretation and decision-making. However, in many real life domains, such as power systems, medicine, and engineering, it can be very expensive to acquire ground truth labels for certain datasets as they may require extensive and expensive laboratory testing. In this work, we introduce a semi-supervised learning approach based on topological projections in self-organizing maps (SOMs), which significantly reduces the required number of labeled data points to perform parameter prediction, effectively exploiting information contained in large unlabeled datasets. Our proposed method first trains SOMs on unlabeled data and then a minimal number of available labeled data points are assigned to key best matching units (BMU). The values estimated for newly-encountered data points are computed utilizing the average of the $n$ closest labeled data points in the SOM's U-matrix in tandem with a topological shortest path distance calculation scheme. Our results indicate that the proposed minimally supervised model significantly outperforms traditional regression techniques, including linear and polynomial regression, Gaussian process regression, K-nearest neighbors, as well as deep neural network models and related clustering schemes.",
+  "link": "http://arxiv.org/abs/2401.06923"
+}

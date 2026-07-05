@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1703.04361",
+  "doi_url": "https://doi.org/10.48550/arxiv.1703.04361",
+  "title": "Toward a Formal Model of Cognitive Synergy",
+  "year": "2017",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "\"Cognitive synergy\" refers to a dynamic in which multiple cognitive processes, cooperating to control the same cognitive system, assist each other in overcoming bottlenecks encountered during their internal processing. Cognitive synergy has been posited as a key feature of real-world general intelligence, and has been used explicitly in the design of the OpenCog cognitive architecture. Here category theory and related concepts are used to give a formalization of the cognitive synergy concept. A series of formal models of intelligent agents is proposed, with increasing specificity and complexity: simple reinforcement learning agents; \"cognit\" agents with an abstract memory and processing model; hypergraph-based agents (in which \"cognit\" operations are carried out via hypergraphs); hypergraph agents with a rich language of nodes and hyperlinks (such as the OpenCog framework provides); \"PGMC\" agents whose rich hypergraphs are endowed with cognitive processes guided via Probabilistic Growth and Mining of Combinations; and finally variations of the PrimeAGI design, which is currently being built on top of OpenCog. A notion of cognitive synergy is developed for cognitive processes acting within PGMC agents, based on developing a formal notion of \"stuckness,\" and defining synergy as a relationship between cognitive processes in which they can help each other out when they get stuck. It is proposed that cognitive processes relating to each other synergetically, associate in a certain way with functors that map into each other via natural transformations. Cognitive synergy is proposed to correspond to a certain inequality regarding the relative costs of different paths through certain commutation diagrams. Applications of this notion of cognitive synergy to particular cognitive phenomena, and specific cognitive processes in the PrimeAGI design, are discussed.",
+  "link": "https://doi.org/10.48550/arxiv.1703.04361"
+}

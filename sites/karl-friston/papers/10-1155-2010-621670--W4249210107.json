@@ -1,0 +1,15 @@
+{
+  "doi": "10.1155/2010/621670",
+  "doi_url": "https://doi.org/10.1155/2010/621670",
+  "title": "Generalised Filtering",
+  "year": "2010",
+  "journal": "Mathematical Problems in Engineering",
+  "authors": [
+    "Karl Friston",
+    "Klaas Ε. Stephan",
+    "Baojuan Li",
+    "Jean Daunizeau"
+  ],
+  "abstract": "We describe a Bayesian filtering scheme for nonlinear state‐space models in continuous time. This scheme is called Generalised Filtering and furnishes posterior (conditional) densities on hidden states and unknown parameters generating observed data. Crucially, the scheme operates online, assimilating data to optimize the conditional density on time‐varying states and time‐invariant parameters. In contrast to Kalman and Particle smoothing, Generalised Filtering does not require a backwards pass. In contrast to variational schemes, it does not assume conditional independence between the states and parameters. Generalised Filtering optimises the conditional density with respect to a free‐energy bound on the model′s log‐evidence. This optimisation uses the generalised motion of hidden states and parameters, under the prior assumption that the motion of the parameters is small. We describe the scheme, present comparative evaluations with a fixed‐form variational version, and conclude with an illustrative application to a nonlinear state‐space model of brain imaging time‐series.",
+  "link": "https://doi.org/10.1155/2010/621670"
+}

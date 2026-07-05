@@ -1,0 +1,16 @@
+{
+  "doi": "10.1093/cercor/bhm091",
+  "doi_url": "https://doi.org/10.1093/cercor/bhm091",
+  "title": "The Effect of Prior Visual Information on Recognition of Speech and Sounds",
+  "year": "2007",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Uta Noppeney",
+    "Oliver Josephs",
+    "Julia Hocking",
+    "C.J. Price",
+    "Karl Friston"
+  ],
+  "abstract": "To identify and categorize complex stimuli such as familiar objects or speech, the human brain integrates information that is abstracted at multiple levels from its sensory inputs. Using cross-modal priming for spoken words and sounds, this functional magnetic resonance imaging study identified 3 distinct classes of visuoauditory incongruency effects: visuoauditory incongruency effects were selective for 1) spoken words in the left superior temporal sulcus (STS), 2) environmental sounds in the left angular gyrus (AG), and 3) both words and sounds in the lateral and medial prefrontal cortices (IFS/mPFC). From a cognitive perspective, these incongruency effects suggest that prior visual information influences the neural processes underlying speech and sound recognition at multiple levels, with the STS being involved in phonological, AG in semantic, and mPFC/IFS in higher conceptual processing. In terms of neural mechanisms, effective connectivity analyses (dynamic causal modeling) suggest that these incongruency effects may emerge via greater bottom-up effects from early auditory regions to intermediate multisensory integration areas (i.e., STS and AG). This is consistent with a predictive coding perspective on hierarchical Bayesian inference in the cortex where the domain of the prediction error (phonological vs. semantic) determines its regional expression (middle temporal gyrus/STS vs. AG/intraparietal sulcus).",
+  "link": "https://doi.org/10.1093/cercor/bhm091"
+}

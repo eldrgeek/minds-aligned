@@ -1,0 +1,17 @@
+{
+  "doi": "10.1126/science.1094285",
+  "doi_url": "https://doi.org/10.1126/science.1094285",
+  "title": "Dissociable Roles of Ventral and Dorsal Striatum in Instrumental Conditioning",
+  "year": "2004",
+  "journal": "Science",
+  "authors": [
+    "John P. O’Doherty",
+    "Peter Dayan",
+    "Johannes Schultz",
+    "Ralf Deichmann",
+    "Karl Friston",
+    "Raymond J. Dolan"
+  ],
+  "abstract": "Instrumental conditioning studies how animals and humans choose actions appropriate to the affective structure of an environment. According to recent reinforcement learning models, two distinct components are involved: a \"critic,\" which learns to predict future reward, and an \"actor,\" which maintains information about the rewarding outcomes of actions to enable better ones to be chosen more frequently. We scanned human participants with functional magnetic resonance imaging while they engaged in instrumental conditioning. Our results suggest partly dissociable contributions of the ventral and dorsal striatum, with the former corresponding to the critic and the latter corresponding to the actor.",
+  "link": "https://doi.org/10.1126/science.1094285"
+}

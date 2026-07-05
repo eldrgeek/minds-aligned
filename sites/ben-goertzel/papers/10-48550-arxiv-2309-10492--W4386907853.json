@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2309.10492",
+  "doi_url": "https://doi.org/10.48550/arxiv.2309.10492",
+  "title": "An Evaluation of GPT-4 on the ETHICS Dataset",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "S. A. Rodionov",
+    "Zarathustra Goertzel",
+    "Ben Goertzel"
+  ],
+  "abstract": "This report summarizes a short study of the performance of GPT-4 on the ETHICS dataset. The ETHICS dataset consists of five sub-datasets covering different fields of ethics: Justice, Deontology, Virtue Ethics, Utilitarianism, and Commonsense Ethics. The moral judgments were curated so as to have a high degree of agreement with the aim of representing shared human values rather than moral dilemmas. GPT-4's performance is much better than that of previous models and suggests that learning to work with common human values is not the hard problem for AI ethics.",
+  "link": "https://doi.org/10.48550/arxiv.2309.10492"
+}

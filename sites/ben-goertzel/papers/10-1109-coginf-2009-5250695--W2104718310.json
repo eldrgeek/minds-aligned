@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/coginf.2009.5250695",
+  "doi_url": "https://doi.org/10.1109/coginf.2009.5250695",
+  "title": "Classifier ensemble based analysis of a genome-wide SNP dataset concerning Late-Onset Alzheimer Disease",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Lúcio Coelho",
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Chris Heward"
+  ],
+  "abstract": "The OpenBiomind toolkit is used to apply GA, GP and local search methods to analyze a large SNP dataset concerning late-onset Alzheimer's disease (LOAD). Classification models identifying LOAD with statistically significant accuracy are identified, and ensemble-based important features analysis is used to identify brain genes related to LOAD, most notably the solute carrier gene SLC6A15. Ensemble analysis is used to identify potentially significant interactions between genes in the context of LOAD.",
+  "link": "https://doi.org/10.1109/coginf.2009.5250695"
+}

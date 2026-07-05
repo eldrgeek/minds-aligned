@@ -1,0 +1,19 @@
+{
+  "doi": "10.48550/arxiv.2005.12535",
+  "doi_url": "https://doi.org/10.48550/arxiv.2005.12535",
+  "title": "Embedding Vector Differences Can Be Aligned With Uncertain Intensional Logic Differences",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel",
+    "Mike Duncan",
+    "Debbie Duong",
+    "Nil Geisweiller",
+    "Hedra Seid",
+    "Abdulrahman Semrie",
+    "Man Hin Leung",
+    "Matthew Iklé"
+  ],
+  "abstract": "The DeepWalk algorithm is used to assign embedding vectors to nodes in the Atomspace weighted, labeled hypergraph that is used to represent knowledge in the OpenCog AGI system, in the context of an application to probabilistic inference regarding the causes of longevity based on data from biological ontologies and genomic analyses. It is shown that vector difference operations between embedding vectors are, in appropriate conditions, approximately alignable with \"intensional difference\" operations between the hypergraph nodes corresponding to the embedding vectors. This relationship hints at a broader functorial mapping between uncertain intensional logic and vector arithmetic, and opens the door for using embedding vector algebra to guide intensional inference control.",
+  "link": "https://doi.org/10.48550/arxiv.2005.12535"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.18653/v1/d15-1053",
+  "doi_url": "https://doi.org/10.18653/v1/d15-1053",
+  "title": "Learning a Deep Hybrid Model for Semi-Supervised Text Classification",
+  "year": 2015,
+  "journal": null,
+  "authors": [
+    "Alexander G. Ororbia",
+    "C. Lee Giles",
+    "David Reitter"
+  ],
+  "abstract": "We present a novel fine-tuning algorithm in a deep hybrid architecture for semisupervised text classification.",
+  "link": "https://doi.org/10.18653/v1/d15-1053"
+}

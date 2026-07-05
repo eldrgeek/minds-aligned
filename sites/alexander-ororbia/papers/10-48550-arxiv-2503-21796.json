@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2503.21796",
+  "doi_url": "https://doi.org/10.48550/arxiv.2503.21796",
+  "title": "Meta-Representational Predictive Coding: Biomimetic Self-Supervised Learning",
+  "year": 2025,
+  "journal": "ArXiv.org",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Karl Friston",
+    "Rajesh P. N. Rao"
+  ],
+  "abstract": "Self-supervised learning has become an increasingly important paradigm in the domain of machine intelligence. Furthermore, evidence for self-supervised adaptation, such as contrastive formulations, has emerged in recent computational neuroscience and brain-inspired research. Nevertheless, current work on self-supervised learning relies on biologically implausible credit assignment -- in the form of backpropagation of errors -- and feedforward inference, typically a forward-locked pass. Predictive coding, in its mechanistic form, offers a biologically plausible means to sidestep these backprop-specific limitations. However, unsupervised predictive coding rests on learning a generative model of raw pixel input (akin to ``generative AI'' approaches), which entails predicting a potentially high dimensional input; on the other hand, supervised predictive coding, which learns a mapping between inputs to target labels, requires human annotation, and thus incurs the drawbacks of supervised learning. In this work, we present a scheme for self-supervised learning within a neurobiologically plausible framework that appeals to the free energy principle, constructing a new form of predictive coding that we call meta-representational predictive coding (MPC). MPC sidesteps the need for learning a generative model of sensory input (e.g., pixel-level features) by learning to predict representations of sensory input across parallel streams, resulting in an encoder-only learning and inference scheme. This formulation rests on active inference (in the form of sensory glimpsing) to drive the learning of representations, i.e., the representational dynamics are driven by sequences of decisions made by the model to sample informative portions of its sensorium.",
+  "link": "http://arxiv.org/abs/2503.21796"
+}

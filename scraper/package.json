@@ -1,0 +1,13 @@
+{
+  "name": "soma-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": { "x-scrape": "x_scrape.mjs" },
+  "scripts": {
+    "scrape": "node x_scrape.mjs"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.33.2"
+  }
+}

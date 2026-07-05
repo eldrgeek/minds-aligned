@@ -1,0 +1,14 @@
+{
+  "doi": "10.1167/9.12.10",
+  "doi_url": "https://doi.org/10.1167/9.12.10",
+  "title": "Faces and text attract gaze independent of the task: Experimental data and computer model",
+  "year": 2009,
+  "journal": "Journal of Vision",
+  "authors": [
+    "Moran Cerf",
+    "E. Paxon Frady",
+    "Christof Koch"
+  ],
+  "abstract": "Previous studies of eye gaze have shown that when looking at images containing human faces, observers tend to rapidly focus on the facial regions. But is this true of other high-level image features as well? We here investigate the extent to which natural scenes containing faces, text elements, and cell phones-as a suitable control-attract attention by tracking the eye movements of subjects in two types of tasks-free viewing and search. We observed that subjects in free-viewing conditions look at faces and text 16.6 and 11.1 times more than similar regions normalized for size and position of the face and text. In terms of attracting gaze, text is almost as effective as faces. Furthermore, it is difficult to avoid looking at faces and text even when doing so imposes a cost. We also found that subjects took longer in making their initial saccade when they were told to avoid faces/text and their saccades landed on a non-face/non-text object. We refine a well-known bottom-up computer model of saliency-driven attention that includes conspicuity maps for color, orientation, and intensity by adding high-level semantic information (i.e., the location of faces or text) and demonstrate that this significantly improves the ability to predict eye fixations in natural images. Our enhanced model's predictions yield an area under the ROC curve over 84% for images that contain faces or text when compared against the actual fixation pattern of subjects. This suggests that the primate visual system allocates attention using such an enhanced saliency map.",
+  "link": "https://doi.org/10.1167/9.12.10"
+}

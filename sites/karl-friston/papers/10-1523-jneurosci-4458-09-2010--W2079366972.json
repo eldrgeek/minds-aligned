@@ -1,0 +1,16 @@
+{
+  "doi": "10.1523/jneurosci.4458-09.2010",
+  "doi_url": "https://doi.org/10.1523/jneurosci.4458-09.2010",
+  "title": "Striatal Prediction Error Modulates Cortical Coupling",
+  "year": "2010",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Hanneke E.M. den Ouden",
+    "Jean Daunizeau",
+    "Jonathan P. Roiser",
+    "Karl Friston",
+    "Klaas Ε. Stephan"
+  ],
+  "abstract": "Both perceptual inference and motor responses are shaped by learned probabilities. For example, stimulus-induced responses in sensory cortices and preparatory activity in premotor cortex reflect how (un)expected a stimulus is. This is in accordance with predictive coding accounts of brain function, which posit a fundamental role of prediction errors for learning and adaptive behavior. We used functional magnetic resonance imaging and recent advances in computational modeling to investigate how (failures of) learned predictions about visual stimuli influence subsequent motor responses. Healthy volunteers discriminated visual stimuli that were differentially predicted by auditory cues. Critically, the predictive strengths of cues varied over time, requiring subjects to continuously update estimates of stimulus probabilities. This online inference, modeled using a hierarchical Bayesian learner, was reflected behaviorally: speed and accuracy of motor responses increased significantly with predictability of the stimuli. We used nonlinear dynamic causal modeling to demonstrate that striatal prediction errors are used to tune functional coupling in cortical networks during learning. Specifically, the degree of striatal trial-by-trial prediction error activity controls the efficacy of visuomotor connections and thus the influence of surprising stimuli on premotor activity. This finding substantially advances our understanding of striatal function and provides direct empirical evidence for formal learning theories that posit a central role for prediction error-dependent plasticity.",
+  "link": "https://doi.org/10.1523/jneurosci.4458-09.2010"
+}

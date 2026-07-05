@@ -1,0 +1,16 @@
+{
+  "doi": "10.1017/s0305000900008710",
+  "doi_url": "https://doi.org/10.1017/s0305000900008710",
+  "title": "Sensitivity of children's inflection to grammatical structure",
+  "year": 1994,
+  "journal": "Journal of Child Language",
+  "authors": [
+    "John J. Kim",
+    "Gary Marcus",
+    "Steven Pinker",
+    "Michelle Hollander",
+    "Marie Coppola"
+  ],
+  "abstract": "What is the input to the mental system that computes inflected forms like walked, came, dogs, and men? Recent connectionist models feed a word's phonological features into a single network, allowing it to generalize both regular and irregular phonological patterns, like stop-stopped, step-stepped and fling-flung, cling-clung. But for adults, phonological input is insufficient: verbs derived from nouns like ring the city always have regular past tense forms (ringed), even if they are phonologically identical to irregular verbs (ring the bell). Similarly, nouns based on names, like two Mickey Mouses, and compounds based on possessing rather than being their root morpheme, such as two sabertooths, take regular plurals, even when they are homophonous with irregular nouns like mice and teeth. In four experiments, testing 70 three- to ten-year-old children, we found that children are sensitive to such nonphonological information: they were more likely to produce regular inflected forms for forms like to ring ('to put a ring on') and snaggletooth (a kind of animal doll with big teeth) than for their homophonous irregular counterparts, even when these counterparts were also extended in meaning. Children's inflectional systems thus seem to be like adults': irregular forms are tied to the lexicon but regular forms are computed by a default rule, and words are represented as morphological tree structures reflecting their derivation from basic word roots. Such structures, which determine how novel complex words are derived and interpreted, also govern whether words with irregular sound patterns will be regularized: a word can be irregular only if its structure contains an irregular root in 'head' position, allowing the lexically stored irregular information to percolate up to apply to the word as a whole. In all other cases, the inflected form is compouted by a default regular rule. This proposal fits the facts better than alternatives appealing to ambiguity reduction or semantic similarity to a word's central sense. The results, together with an analysis of adult speech to children, suggest that morphological structure and a distinction between mechanisms for regular and irregular inflection may be inherent to the design of children's language systems.",
+  "link": "https://doi.org/10.1017/s0305000900008710"
+}

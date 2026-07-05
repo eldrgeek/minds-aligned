@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2412.16559",
+  "doi_url": "https://doi.org/10.48550/arxiv.2412.16559",
+  "title": "Metagoals Endowing Self-Modifying AGI Systems with Goal Stability or Moderated Goal Evolution: Toward a Formally Sound and Practical Approach",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "We articulate here a series of specific metagoals designed to address the challenge of creating AGI systems that possess the ability to flexibly self-modify yet also have the propensity to maintain key invariant properties of their goal systems 1) a series of goal-stability metagoals aimed to guide a system to a condition in which goal-stability is compatible with reasonably flexible self-modification 2) a series of moderated-goal-evolution metagoals aimed to guide a system to a condition in which control of the pace of goal evolution is compatible with reasonably flexible self-modification The formulation of the metagoals is founded on fixed-point theorems from functional analysis, e.g. the Contraction Mapping Theorem and constructive approximations to Schauder's Theorem, applied to probabilistic models of system behavior We present an argument that the balancing of self-modification with maintenance of goal invariants will often have other interesting cognitive side-effects such as a high degree of self understanding Finally we argue for the practical value of a hybrid metagoal combining moderated-goal-evolution with pursuit of goal-stability -- along with potentially other metagoals relating to goal-satisfaction, survival and ongoing development -- in a flexible fashion depending on the situation",
+  "link": "https://doi.org/10.48550/arxiv.2412.16559"
+}

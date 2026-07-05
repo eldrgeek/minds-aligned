@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2012.01759",
+  "doi_url": "https://doi.org/10.48550/arxiv.2012.01759",
+  "title": "Folding and Unfolding on Metagraphs",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "Typed metagraphs are defined as hypergraphs with types assigned to hyperedges and their targets, and the potential to have targets of hyperedges connect to whole links as well as targets. Directed typed metagraphs (DTMGs) are introduced via partitioning the targets of each edge in a typed metagraph into input, output and lateral sets; one can then look at \"metapaths\" in which edges' output-sets are linked to other edges' input-sets. An initial algebra approach to DTMGs is presented, including introduction of constructors for building up DTMGs and laws regarding relationships among multiple ways of using these constructors. A menagerie of useful morphism types is then defined on DTMGs (catamorphisms, anamorphisms, histomorphisms, futumorphisms, hylomorphisms, chronomorphisms, metamorphisms and metachronomorphisms), providing a general abstract framework for formulating a broad variety of metagraph operations. Deterministic and stochastic processes on typed metagraphs are represented in terms of forests of DTMGs defined over a common TMG, where the various morphisms can be straightforwardly extended to these forests. A variation of the approach to undirected typed metagraphs is presented; and it is indicated how the framework outlined can applied to realistic metagraphs involving complexities like dependent and probabilistic types, multidimensional values and dynamic processing including insertion and deletion of edges.",
+  "link": "https://doi.org/10.48550/arxiv.2012.01759"
+}

@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4_2",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4_2",
+  "title": "Knowledge Representation Using Formal Logic",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "Now we begin to dig into the nitty-gritty of our subject matter. Before discussing querying and analysis of complex, heterogeneous spatiotemporal and contextual knowledge, we must discuss representation of temporal knowledge (as well as, to a certain extent, spatial knowledge) . . . and before that, we must address knowledge representation in general.",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4_2"
+}

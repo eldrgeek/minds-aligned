@@ -1,0 +1,15 @@
+{
+  "doi": "10.1073/pnas.0911972107",
+  "doi_url": "https://doi.org/10.1073/pnas.0911972107",
+  "title": "Optimal reward harvesting in complex perceptual environments",
+  "year": 2010,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Vidhya Navalpakkam",
+    "Christof Koch",
+    "Antonio Rangel",
+    "Pietro Perona"
+  ],
+  "abstract": "The ability to choose rapidly among multiple targets embedded in a complex perceptual environment is key to survival. Targets may differ in their reward value as well as in their low-level perceptual properties (e.g., visual saliency). Previous studies investigated separately the impact of either value or saliency on choice; thus, it is not known how the brain combines these two variables during decision making. We addressed this question with three experiments in which human subjects attempted to maximize their monetary earnings by rapidly choosing items from a brief display. Each display contained several worthless items (distractors) as well as two targets, whose value and saliency were varied systematically. We compared the behavioral data with the predictions of three computational models assuming that (i) subjects seek the most valuable item in the display, (ii) subjects seek the most easily detectable item, and (iii) subjects behave as an ideal Bayesian observer who combines both factors to maximize the expected reward within each trial. Regardless of the type of motor response used to express the choices, we find that decisions are influenced by both value and feature-contrast in a way that is consistent with the ideal Bayesian observer, even when the targets' feature-contrast is varied unpredictably between trials. This suggests that individuals are able to harvest rewards optimally and dynamically under time pressure while seeking multiple targets embedded in perceptual clutter.",
+  "link": "https://doi.org/10.1073/pnas.0911972107"
+}

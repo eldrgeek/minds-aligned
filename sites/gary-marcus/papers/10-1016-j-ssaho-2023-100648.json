@@ -1,0 +1,14 @@
+{
+  "doi": "10.1016/j.ssaho.2023.100648",
+  "doi_url": "https://doi.org/10.1016/j.ssaho.2023.100648",
+  "title": "DALL·E 2 fails to reliably capture common syntactic processes",
+  "year": 2023,
+  "journal": "Social Sciences & Humanities Open",
+  "authors": [
+    "Evelina Leivada",
+    "Elliot Murphy",
+    "Gary Marcus"
+  ],
+  "abstract": "Machine intelligence is increasingly being linked to claims about sentience, language processing, and an ability to comprehend and transform natural language into a range of stimuli. We analyze the ability of DALL·E 2 to translate natural language prompts into images, since it remains unclear whether it possesses the facility for accurately representing grammatical strategies. We target the performance of DALL·E 2 across 10 phenomena that are pervasive in human language: binding principles and coreference, passives, structural ambiguity, negation, compositionality and word order, quantification, double object constructions, sentence coordination, ellipsis, and comparatives. In contrast to young infants, who master these tasks, DALL·E 2 fails to accurately represent inferred meanings, performing at or near chance. While programs can be trained to recognize vast numbers of words and calculate probabilities of word sequences, these results challenge recent claims concerning artificial understanding of human language. The full set of tested materials and the outputs are made available as a benchmark for future testing.",
+  "link": "https://doi.org/10.1016/j.ssaho.2023.100648"
+}

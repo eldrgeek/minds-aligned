@@ -1,0 +1,12 @@
+{
+  "doi": "10.1098/rstb.2000.0560",
+  "doi_url": "https://doi.org/10.1098/rstb.2000.0560",
+  "title": "The labile brain. I. Neuronal transients and nonlinear coupling",
+  "year": "2000",
+  "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
+  "authors": [
+    "Karl Friston"
+  ],
+  "abstract": "In this, the first of three papers, the nature of, and motivation for, neuronal transients is described in relation to characterizing brain dynamics. This paper deals with some basic aspects of neuronal dynamics, interactions, coupling and implicit neuronal codes. The second paper develops neuronal transients and nonlinear coupling in the context of dynamic instability and complexity, and suggests that instability or lability is necessary for adaptive self-organization. The final paper addresses the role of neuronal transients through information theory and the emergence of spatio-temporal receptive fields and functional specialization. By considering the brain as an ensemble of connected dynamic systems one can show that a sufficient description of neuronal dynamics comprises neuronal activity at a particular time and its recent history This history constitutes a neuronal transient. As such, transients represent a fundamental metric of neuronal interactions and, implicitly, a code employed in the functional integration of brain systems. The nature of transients, expressed conjointly in distinct neuronal populations, reflects the underlying coupling among populations. This coupling may be synchronous (and possibly oscillatory) or asynchronous. A critical distinction between synchronous and asynchronous coupling is that the former is essentially linear and the latter is nonlinear. The nonlinear nature of asynchronous coupling enables the rich, context-sensitive interactions that characterize real brain dynamics, suggesting that it plays a role in functional integration that may be as important as synchronous interactions. The distinction between linear and nonlinear coupling has fundamental implications for the analysis and characterization of neuronal interactions, most of which are predicated on linear (synchronous) coupling (e.g. cross-correlograms and coherence). Using neuromagnetic data it is shown that nonlinear (asynchronous) coupling is, in fact, more abundant and can be more significant than synchronous coupling.",
+  "link": "https://doi.org/10.1098/rstb.2000.0560"
+}

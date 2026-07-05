@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2501.17393",
+  "doi_url": "https://doi.org/10.48550/arxiv.2501.17393",
+  "title": "Intensional Inheritance Between Concepts: An Information-Theoretic Interpretation",
+  "year": "2025",
+  "journal": "ArXiv.org",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "This paper addresses the problem of formalizing and quantifying the concept of \"intensional inheritance\" between two concepts. We begin by conceiving the intensional inheritance of $W$ from $F$ as the amount of information the proposition \"x is $F$ \" provides about the proposition \"x is $W$. To flesh this out, we consider concepts $F$ and $W$ defined by sets of properties $\\left\\{F_{1}, F_{2}, \\ldots, F_{n}\\right\\}$ and $\\left\\{W_{1}, W_{2}, \\ldots, W_{m}\\right\\}$ with associated degrees $\\left\\{d_{1}, d_{2}, \\ldots, d_{n}\\right\\}$ and $\\left\\{e_{1}, e_{2}, \\ldots, e_{m}\\right\\}$, respectively, where the properties may overlap. We then derive formulas for the intensional inheritance using both Shannon information theory and algorithmic information theory, incorporating interaction information among properties. We examine a special case where all properties are mutually exclusive and calculate the intensional inheritance in this case in both frameworks. We also derive expressions for $P(W \\mid F)$ based on the mutual information formula. Finally we consider the relationship between intensional inheritance and conventional set-theoretic \"extensional\" inheritance, concluding that in our information-theoretic framework, extensional inheritance emerges as a special case of intensional inheritance.",
+  "link": "https://doi.org/10.48550/arxiv.2501.17393"
+}

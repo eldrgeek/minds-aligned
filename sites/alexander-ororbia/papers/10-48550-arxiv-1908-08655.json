@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1908.08655",
+  "doi_url": "https://doi.org/10.48550/arxiv.1908.08655",
+  "title": "Spiking Neural Predictive Coding for Continual Learning from Data Streams",
+  "year": 2019,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "For energy-efficient computation in specialized neuromorphic hardware, we present spiking neural coding, an instantiation of a family of artificial neural models grounded in the theory of predictive coding. This model, the first of its kind, works by operating in a never-ending process of \"guess-and-check\", where neurons predict the activity values of one another and then adjust their own activities to make better future predictions. The interactive, iterative nature of our system fits well into the continuous time formulation of sensory stream prediction and, as we show, the model's structure yields a local synaptic update rule, which can be used to complement or as an alternative to online spike-timing dependent plasticity. In this article, we experiment with an instantiation of our model consisting of leaky integrate-and-fire units. However, the framework within which our system is situated can naturally incorporate more complex neurons such as the Hodgkin-Huxley model. Our experimental results in pattern recognition demonstrate the potential of the model when binary spike trains are the primary paradigm for inter-neuron communication. Notably, spiking neural coding is competitive in terms of classification performance and experiences less forgetting when learning from task sequence, offering a more computationally economical, biologically-plausible alternative to popular artificial neural networks.",
+  "link": "http://arxiv.org/abs/1908.08655"
+}

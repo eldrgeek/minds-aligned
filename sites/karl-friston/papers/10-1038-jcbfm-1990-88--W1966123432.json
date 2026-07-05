@@ -1,0 +1,17 @@
+{
+  "doi": "10.1038/jcbfm.1990.88",
+  "doi_url": "https://doi.org/10.1038/jcbfm.1990.88",
+  "title": "The Relationship between Global and Local Changes in PET Scans",
+  "year": "1990",
+  "journal": "Journal of Cerebral Blood Flow & Metabolism",
+  "authors": [
+    "Karl Friston",
+    "Chris Frith",
+    "Peter F. Liddle",
+    "Raymond J. Dolan",
+    "Adriaan A. Lammertsma",
+    "R. S. J. Frackowiak"
+  ],
+  "abstract": "In order to localize cerebral cognitive or sensorimotor function, activation paradigms are being used in conjunction with PET measures of cerebral activity (e.g., rCBF). The changes in local cerebral activity have two components: a global, region independent change and a local or regional change. As the first step in localizing the regional effects of an activation, global variance must be removed by a normalization procedure. A simple normalization procedure is division of regional values by the whole brain mean. This requires the dependence of local activity on global activity to be one of simple proportionality. This is shown not to be the case. Furthermore, a systematic deviation from a proportional relationship across brain regions is demonstrated. Consequently, any normalization must be approached on a pixel-by-pixel basis by measuring the change in local activity and change in global activity. The changes associated with an activation can be partitioned into global and local effects according to two models: one assumes that the increase in local activity depends on global values and the other assumes independence. It is shown that the increase in activity due to a cognitive activation is independent of global activity. This independence of the (activation) condition effect and the confounding linear effect of global activity on observed local activity meet the requirements for an analysis of covariance, with the “nuisance” variable as global activity and the activation condition as the categorical independent variable. These conclusions are based on analysis of data from 24 scans: six conditions over four normal subjects using a verbal fluency paradigm. A technique is described based on ANCOVA and using statistical parametric mapping to localize foci in the brain that have been significantly perturbed by the cognitive tasks. This technique represents a fundamental and necessary departure from ROI-based approaches allowing the separation of global and local effects pixel by pixel, and provides an image of affected regions whose significance can be quantified. The specificity and sensitivity of the described method of change detection is assessed.",
+  "link": "https://doi.org/10.1038/jcbfm.1990.88"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2209.09174",
+  "doi_url": "https://doi.org/10.48550/arxiv.2209.09174",
+  "title": "Active Predicting Coding: Brain-Inspired Reinforcement Learning for Sparse Reward Robotic Control Problems",
+  "year": 2022,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Ankur Mali"
+  ],
+  "abstract": "In this article, we propose a backpropagation-free approach to robotic control through the neuro-cognitive computational framework of neural generative coding (NGC), designing an agent built completely from powerful predictive coding/processing circuits that facilitate dynamic, online learning from sparse rewards, embodying the principles of planning-as-inference. Concretely, we craft an adaptive agent system, which we call active predictive coding (ActPC), that balances an internally-generated epistemic signal (meant to encourage intelligent exploration) with an internally-generated instrumental signal (meant to encourage goal-seeking behavior) to ultimately learn how to control various simulated robotic systems as well as a complex robotic arm using a realistic robotics simulator, i.e., the Surreal Robotics Suite, for the block lifting task and can pick-and-place problems. Notably, our experimental results demonstrate that our proposed ActPC agent performs well in the face of sparse (extrinsic) reward signals and is competitive with or outperforms several powerful backprop-based RL approaches.",
+  "link": "http://arxiv.org/abs/2209.09174"
+}

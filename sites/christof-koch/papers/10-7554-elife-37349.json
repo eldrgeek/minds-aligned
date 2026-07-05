@@ -1,0 +1,32 @@
+{
+  "doi": "10.7554/elife.37349",
+  "doi_url": "https://doi.org/10.7554/elife.37349",
+  "title": "Sparse recurrent excitatory connectivity in the microcircuit of the adult mouse and human cortex",
+  "year": 2018,
+  "journal": "eLife",
+  "authors": [
+    "Stephanie C. Seeman",
+    "Luke Campagnola",
+    "Pasha A. Davoudian",
+    "Alex Hoggarth",
+    "Travis A Hage",
+    "Alice Bosma-Moody",
+    "Christopher A. Baker",
+    "Jung H. Lee",
+    "Ştefan Mihalaş",
+    "Corinne Teeter",
+    "Andrew L. Ko",
+    "Jeffrey G. Ojemann",
+    "Ryder P. Gwinn",
+    "Daniel L. Silbergeld",
+    "Charles Cobbs",
+    "John W. Phillips",
+    "Ed S. Lein",
+    "Gabe J. Murphy",
+    "Christof Koch",
+    "Hongkui Zeng",
+    "Tim Jarsky"
+  ],
+  "abstract": "Generating a comprehensive description of cortical networks requires a large-scale, systematic approach. To that end, we have begun a pipeline project using multipatch electrophysiology, supplemented with two-photon optogenetics, to characterize connectivity and synaptic signaling between classes of neurons in adult mouse primary visual cortex (V1) and human cortex. We focus on producing results detailed enough for the generation of computational models and enabling comparison with future studies. Here, we report our examination of intralaminar connectivity within each of several classes of excitatory neurons. We find that connections are sparse but present among all excitatory cell classes and layers we sampled, and that most mouse synapses exhibited short-term depression with similar dynamics. Synaptic signaling between a subset of layer 2/3 neurons, however, exhibited facilitation. These results contribute to a body of evidence describing recurrent excitatory connectivity as a conserved feature of cortical microcircuits.",
+  "link": "https://doi.org/10.7554/elife.37349"
+}

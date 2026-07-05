@@ -1,0 +1,17 @@
+{
+  "doi": "10.1016/j.neuroimage.2007.04.065",
+  "doi_url": "https://doi.org/10.1016/j.neuroimage.2007.04.065",
+  "title": "Spatial normalization of lesioned brains: Performance evaluation and impact on fMRI analyses",
+  "year": "2007",
+  "journal": "NeuroImage",
+  "authors": [
+    "Jenny Crinion",
+    "John Ashburner",
+    "Alexander Leff",
+    "Matthew Brett",
+    "Cathy J. Price",
+    "Karl Friston"
+  ],
+  "abstract": "A key component of group analyses of neuroimaging data is precise and valid spatial normalization (i.e., inter-subject image registration). When patients have structural brain lesions, such as a stroke, this process can be confounded by the lack of correspondence between the subject and standardized template images. Current procedures for dealing with this problem include regularizing the estimate of warping parameters used to match lesioned brains to the template, or \"cost function masking\"; both these solutions have significant drawbacks. We report three experiments that identify the best spatial normalization for structurally damaged brains and establish whether differences among normalizations have a significant effect on inferences about functional activations. Our novel protocols evaluate the effects of different normalization solutions and can be applied easily to any neuroimaging study. This has important implications for users of both structural and functional imaging techniques in the study of patients with structural brain damage.",
+  "link": "https://doi.org/10.1016/j.neuroimage.2007.04.065"
+}

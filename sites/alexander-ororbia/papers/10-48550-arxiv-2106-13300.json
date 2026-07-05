@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2106.13300",
+  "doi_url": "https://doi.org/10.48550/arxiv.2106.13300",
+  "title": "Continual Competitive Memory: A Neural System for Online Task-Free Lifelong Learning",
+  "year": 2021,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "In this article, we propose a novel form of unsupervised learning, continual competitive memory (CCM), as well as a computational framework to unify related neural models that operate under the principles of competition. The resulting neural system is shown to offer an effective approach for combating catastrophic forgetting in online continual classification problems. We demonstrate that the proposed CCM system not only outperforms other competitive learning neural models but also yields performance that is competitive with several modern, state-of-the-art lifelong learning approaches on benchmarks such as Split MNIST and Split NotMNIST. CCM yields a promising path forward for acquiring representations that are robust to interference from data streams, especially when the task is unknown to the model and must be inferred without external guidance.",
+  "link": "http://arxiv.org/abs/2106.13300"
+}

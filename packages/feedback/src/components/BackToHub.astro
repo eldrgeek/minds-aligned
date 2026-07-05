@@ -1,0 +1,65 @@
+---
+// BackToHub.astro
+// Renders a "Back to Society of Minds Aligned" button when linked from hub
+// The hub passes ?from=hub&hubUrl=<url> when linking to subsites
+
+interface Props {
+  fallbackHubUrl?: string
+  label?: string
+}
+
+const {
+  fallbackHubUrl = 'https://minds-aligned.netlify.app',
+  label = '← Back to Society of Minds Aligned'
+} = Astro.props
+
+// Note: This component only works on client-side since we need to read query params
+// The client-side script below will show/hide this button based on the query param
+---
+
+<div id="back-to-hub-container" style="display: none;">
+  <nav class="back-to-hub-nav">
+    <a id="back-to-hub-link" href={fallbackHubUrl} class="back-to-hub-link">
+      {label}
+    </a>
+  </nav>
+</div>
+
+<script define:vars={{ fallbackHubUrl }}>
+  // Detect if we were linked from the hub
+  const params = new URLSearchParams(window.location.search)
+  const fromHub = params.get('from') === 'hub'
+  const hubUrl = params.get('hubUrl') || fallbackHubUrl
+
+  if (fromHub) {
+    const container = document.getElementById('back-to-hub-container')
+    const link = document.getElementById('back-to-hub-link')
+    if (container && link) {
+      container.style.display = 'block'
+      link.href = hubUrl
+    }
+  }
+</script>
+
+<style>
+  .back-to-hub-nav {
+    padding: 1rem;
+    border-bottom: 1px solid var(--color-border, #e5e7eb);
+    background: var(--color-surface, #f9fafb);
+  }
+
+  .back-to-hub-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text-primary, #1f2937);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .back-to-hub-link:hover {
+    color: var(--color-text-accent, #3b82f6);
+  }
+</style>

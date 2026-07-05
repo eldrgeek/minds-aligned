@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2012.14474",
+  "doi_url": "https://doi.org/10.48550/arxiv.2012.14474",
+  "title": "Paraconsistent Foundations for Probabilistic Reasoning, Programming and Concept Formation",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "It is argued that 4-valued paraconsistent truth values (called here \"p-bits\") can serve as a conceptual, mathematical and practical foundation for highly AI-relevant forms of probabilistic logic and probabilistic programming and concept formation. First it is shown that appropriate averaging-across-situations and renormalization of 4-valued p-bits operating in accordance with Constructible Duality (CD) logic yields PLN (Probabilistic Logic Networks) strength-and-confidence truth values. Then variations on the Curry-Howard correspondence are used to map these paraconsistent and probabilistic logics into probabilistic types suitable for use within dependent type based programming languages. Zach Weber's paraconsistent analysis of the sorites paradox is extended to form a paraconsistent / probabilistic / fuzzy analysis of concept boundaries; and a paraconsistent version of concept formation via Formal Concept Analysis is presented, building on a definition of fuzzy property-value degrees in terms of relative entropy on paraconsistent probability distributions. These general points are fleshed out via reference to the realization of probabilistic reasoning and programming and concept formation in the OpenCog AGI framework which is centered on collaborative multi-algorithm updating of a common knowledge metagraph.",
+  "link": "https://doi.org/10.48550/arxiv.2012.14474"
+}

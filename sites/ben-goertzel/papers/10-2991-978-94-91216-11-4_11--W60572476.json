@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4_11",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4_11",
+  "title": "Mining Patterns from Large Spatiotemporal Logical Knowledge Stores",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "Once one has stored a large knowledge base of logical relationships, then what? One can query the knowledge base – if one knows what one wants to ask for. One can carry out reasoning toward various goals. And another important question is how to find “unknown unknowns” – patterns in the knowledge base that are surprising and interesting yet unexpected. This quest goes by multiple names – data mining, pattern mining, information exploitation, and so forth. Whatever you call it, it’s a difficult challenge because in any large dataset, the number of possible patterns to search through is mind-boggling.",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4_11"
+}

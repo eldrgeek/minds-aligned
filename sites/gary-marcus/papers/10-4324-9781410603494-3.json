@@ -1,0 +1,15 @@
+{
+  "doi": "10.4324/9781410603494-3",
+  "doi_url": "https://doi.org/10.4324/9781410603494-3",
+  "title": "Connectionism: What’s structure got to do with it?",
+  "year": 2020,
+  "journal": "Psychology Press eBooks",
+  "authors": [
+    "Gary Marcus",
+    "John E. Hummel",
+    "Risto Miikkulainen",
+    "Lokendra Shastri"
+  ],
+  "abstract": "Most discussions of connectionism in cognitive science have focused on whether or not simple unstructured networks such as multilayer perceptrons suffice for cognition. Other types of connectionist models have received relatively less attention. The purpose of this symposium is to increase awareness of these other kinds of models, situating them in a context that allows a greater understanding of what kinds of models are good for what kinds of tasks. Our assumption is that in any given domain it is possible build some adequate model, but that the interesting question is how. The emphasis, then, will be on the strengths and weaknesses of competing connectionist architectures and how they can be usefully applied to models of cognition.",
+  "link": "https://doi.org/10.4324/9781410603494-3"
+}

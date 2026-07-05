@@ -1,0 +1,23 @@
+{
+  "doi": "10.1609/aimag.v33i1.2322",
+  "doi_url": "https://doi.org/10.1609/aimag.v33i1.2322",
+  "title": "Mapping the Landscape of Human‐Level Artificial General Intelligence",
+  "year": "2012",
+  "journal": "AI Magazine",
+  "authors": [
+    "Sam S. Adams",
+    "Itamar Arel",
+    "Joscha Bach",
+    "Robert Coop",
+    "Rod Furlan",
+    "Ben Goertzel",
+    "Jacob Hall",
+    "Alexei V. Samsonovich",
+    "Matthias Scheutz",
+    "Matthew Schlesinger",
+    "Stuart C. Shapiro",
+    "John F. Sowa"
+  ],
+  "abstract": "We present the broad outlines of a roadmap toward human‐level artificial general intelligence (henceforth, AGI). We begin by discussing AGI in general, adopting a pragmatic goal for its attainment and a necessary foundation of characteristics and requirements. An initial capability landscape will be presented, drawing on major themes from developmental psychology and illuminated by mathematical, physiological, and information‐processing perspectives. The challenge of identifying appropriate tasks and environments for measuring AGI will be addressed, and seven scenarios will be presented as milestones suggesting a roadmap across the AGI landscape along with directions for future research and collaboration.",
+  "link": "https://doi.org/10.1609/aimag.v33i1.2322"
+}

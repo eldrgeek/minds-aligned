@@ -1,0 +1,13 @@
+{
+  "doi": "10.1162/neco.1992.4.5.643",
+  "doi_url": "https://doi.org/10.1162/neco.1992.4.5.643",
+  "title": "Cortical Cells Should Fire Regularly, But Do Not",
+  "year": 1992,
+  "journal": "Neural Computation",
+  "authors": [
+    "William R. Softky",
+    "Christof Koch"
+  ],
+  "abstract": "When a typical nerve cell is injected with enough current, it fires a regular stream of action potentials. But cortical cells in vivo usually fire irregularly, reflecting synaptic input from presynaptic cells as well as intrinsic biophysical properties. We have applied the theory of stochastic&#13;\\nprocesses to spike trains recorded from cortical neurons (Tuckwell 1989) and find a fundamental contradiction between the large interspike variability observed and the much lower values predicted by well-accepted biophysical models of single cells.",
+  "link": "https://doi.org/10.1162/neco.1992.4.5.643"
+}

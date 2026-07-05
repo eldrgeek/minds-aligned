@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2005.12533",
+  "doi_url": "https://doi.org/10.48550/arxiv.2005.12533",
+  "title": "Guiding Symbolic Natural Language Grammar Induction via Transformer-Based Sequence Probabilities",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel",
+    "Andres Suarez Madrigal",
+    "Gino Yu"
+  ],
+  "abstract": "A novel approach to automated learning of syntactic rules governing natural languages is proposed, based on using probabilities assigned to sentences (and potentially longer word sequences) by transformer neural network language models to guide symbolic learning processes like clustering and rule induction. This method exploits the learned linguistic knowledge in transformers, without any reference to their inner representations; hence, the technique is readily adaptable to the continuous appearance of more powerful language models. We show a proof-of-concept example of our proposed technique, using it to guide unsupervised symbolic link-grammar induction methods drawn from our prior research.",
+  "link": "https://doi.org/10.48550/arxiv.2005.12533"
+}

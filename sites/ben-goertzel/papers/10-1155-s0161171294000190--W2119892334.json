@@ -1,0 +1,14 @@
+{
+  "doi": "10.1155/s0161171294000190",
+  "doi_url": "https://doi.org/10.1155/s0161171294000190",
+  "title": "Dynamics of the radix expansion map",
+  "year": "1993",
+  "journal": "International Journal of Mathematics and Mathematical Sciences",
+  "authors": [
+    "Ben Goertzel",
+    "Harold Bowman",
+    "R. Jacob Baker"
+  ],
+  "abstract": "The chaotic dynamics of the map ϕ ( x ) = ( β x + α )(mod1) are studied using Parry′s β ‐expansion. It is shown that for 1 &lt; β &lt; 2, a ≥ 0, the number of periodic points of period n is 0( β n ).",
+  "link": "https://doi.org/10.1155/s0161171294000190"
+}

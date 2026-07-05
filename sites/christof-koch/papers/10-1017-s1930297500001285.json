@@ -1,0 +1,16 @@
+{
+  "doi": "10.1017/s1930297500001285",
+  "doi_url": "https://doi.org/10.1017/s1930297500001285",
+  "title": "The Drift Diffusion Model can account for the accuracy and reaction time of value-based choices under high and low time pressure",
+  "year": 2010,
+  "journal": "Judgment and Decision Making",
+  "authors": [
+    "Milica Milosavljevic",
+    "Jonathan Malmaud",
+    "Alexander G. Huth",
+    "Christof Koch",
+    "Antonio Rangel"
+  ],
+  "abstract": "Abstract An important open problem is how values are compared to make simple choices. A natural hypothesis is that the brain carries out the computations associated with the value comparisons in a manner consistent with the Drift Diffusion Model (DDM), since this model has been able to account for a large amount of data in other domains. We investigated the ability of four different versions of the DDM to explain the data in a real binary food choice task under conditions of high and low time pressure. We found that a seven-parameter version of the DDM can account for the choice and reaction time data with high-accuracy, in both the high and low time pressure conditions. The changes associated with the introduction of time pressure could be traced to changes in two key model parameters: the barrier height and the noise in the slope of the drift process.",
+  "link": "https://doi.org/10.1017/s1930297500001285"
+}

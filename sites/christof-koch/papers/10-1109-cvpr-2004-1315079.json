@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/cvpr.2004.1315079",
+  "doi_url": "https://doi.org/10.1109/cvpr.2004.1315079",
+  "title": "Detection and tracking of objects in underwater video",
+  "year": 2004,
+  "journal": null,
+  "authors": [
+    "Dirk B. Walther",
+    "Duane Edgington",
+    "Christof Koch"
+  ],
+  "abstract": "For oceanographic research, remotely operated underwater vehicles (ROVs) routinely record several hours of video material each day. Manual processing of such large amounts of video has become a major bottleneck for scientific research based on this data. We have developed an automated system that detects and tracks objects that are of potential interest for human video annotators. By pre-selecting salient targets for track initiation using a selective attention algorithm, we reduce the complexity of multi-target tracking, in particular of the assignment problem. Detection of low-contrast translucent targets is difficult due to variable lighting conditions and the presence of ubiquitous noise from high-contrast organic debris (\"marine snow\") particles. We describe the methods we developed to overcome these issues and report our results of processing ROV video data.",
+  "link": "https://doi.org/10.1109/cvpr.2004.1315079"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2309.14691",
+  "doi_url": "https://doi.org/10.48550/arxiv.2309.14691",
+  "title": "On the Computational Complexity and Formal Hierarchy of Second Order Recurrent Neural Networks",
+  "year": 2023,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ankur Mali",
+    "Alexander G. Ororbia",
+    "Daniel Kifer",
+    "C. Lee Giles"
+  ],
+  "abstract": "Artificial neural networks (ANNs) with recurrence and self-attention have been shown to be Turing-complete (TC). However, existing work has shown that these ANNs require multiple turns or unbounded computation time, even with unbounded precision in weights, in order to recognize TC grammars. However, under constraints such as fixed or bounded precision neurons and time, ANNs without memory are shown to struggle to recognize even context-free languages. In this work, we extend the theoretical foundation for the $2^{nd}$-order recurrent network ($2^{nd}$ RNN) and prove there exists a class of a $2^{nd}$ RNN that is Turing-complete with bounded time. This model is capable of directly encoding a transition table into its recurrent weights, enabling bounded time computation and is interpretable by design. We also demonstrate that $2$nd order RNNs, without memory, under bounded weights and time constraints, outperform modern-day models such as vanilla RNNs and gated recurrent units in recognizing regular grammars. We provide an upper bound and a stability analysis on the maximum number of neurons required by $2$nd order RNNs to recognize any class of regular grammar. Extensive experiments on the Tomita grammars support our findings, demonstrating the importance of tensor connections in crafting computationally efficient RNNs. Finally, we show $2^{nd}$ order RNNs are also interpretable by extraction and can extract state machines with higher success rates as compared to first-order RNNs. Our results extend the theoretical foundations of RNNs and offer promising avenues for future explainable AI research.",
+  "link": "http://arxiv.org/abs/2309.14691"
+}

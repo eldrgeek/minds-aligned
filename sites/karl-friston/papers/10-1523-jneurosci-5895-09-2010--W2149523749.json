@@ -1,0 +1,15 @@
+{
+  "doi": "10.1523/jneurosci.5895-09.2010",
+  "doi_url": "https://doi.org/10.1523/jneurosci.5895-09.2010",
+  "title": "Neural Mechanisms of Belief Inference during Cooperative Games",
+  "year": "2010",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Wako Yoshida",
+    "Ben Seymour",
+    "Karl Friston",
+    "Raymond J. Dolan"
+  ],
+  "abstract": "Humans have the arguably unique ability to understand the mental representations of others. For success in both competitive and cooperative interactions, however, this ability must be extended to include representations of others' belief about our intentions, their model about our belief about their intentions, and so on. We developed a \"stag hunt\" game in which human subjects interacted with a computerized agent using different degrees of sophistication (recursive inferences) and applied an ecologically valid computational model of dynamic belief inference. We show that rostral medial prefrontal (paracingulate) cortex, a brain region consistently identified in psychological tasks requiring mentalizing, has a specific role in encoding the uncertainty of inference about the other's strategy. In contrast, dorsolateral prefrontal cortex encodes the depth of recursion of the strategy being used, an index of executive sophistication. These findings reveal putative computational representations within prefrontal cortex regions, supporting the maintenance of cooperation in complex social decision making.",
+  "link": "https://doi.org/10.1523/jneurosci.5895-09.2010"
+}

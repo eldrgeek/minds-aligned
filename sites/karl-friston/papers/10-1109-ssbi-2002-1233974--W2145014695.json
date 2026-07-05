@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/ssbi.2002.1233974",
+  "doi_url": "https://doi.org/10.1109/ssbi.2002.1233974",
+  "title": "A voxel-based morphometric study of ageing in 465 normal adult human brains",
+  "year": "2005",
+  "journal": null,
+  "authors": [
+    "Catriona D. Good",
+    "Ingrid S. Johnsrude",
+    "John Ashburner",
+    "Richard N. Henson",
+    "Karl Friston",
+    "R. S. J. Frackowiak"
+  ],
+  "abstract": "Voxel-based-morphometry (VBM) is a whole-brain, unbiased technique for characterizing regional cerebral volume and tissue concentration differences in structural magnetic resonance images. We describe an optimized method of VBM to examine the effects of age on grey and white matter and CSF in 465 normal adults. Global grey matter volume decreased linearly with age, with a significantly steeper decline in males. Local areas of accelerated loss were observed bilaterally in the insula, superior parietal gyri, central sulci, and cingulate sulci. Areas exhibiting little or no age effect (relative preservation) were noted in the amygdala, hippocampi, and entorhinal cortex. Global white matter did not decline with age, but local areas of relative accelerated loss and preservation were seen. There was no interaction of age with sex for regionally specific effects. These results corroborate previous reports and indicate that VBM is a useful technique for studying structural brain correlates of ageing through life in humans.",
+  "link": "https://doi.org/10.1109/ssbi.2002.1233974"
+}

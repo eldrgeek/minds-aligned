@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-027-0_15",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-027-0_15",
+  "title": "Representing Implicit Knowledge via Hypergraphs",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "Explicit knowledge is easy to write about and talk about; implicit knowledge is equally important, but tends to get less attention in discussions of AI and psychology, simply because we don’t have as good a vocabulary for describing it, nor as good a collection of methods for measuring it. One way to deal with this problem is to describe implicit knowledge using language and methods typically reserved for explicit knowledge. This might seem intrinsically non-workable, but we argue that it actually makes a lot of sense. The same sort of networks that a system like CogPrime uses to represent knowledge explicitly, can also be used to represent the emergent knowledge that implicitly exists in an intelligent system’s complex structures and dynamics.",
+  "link": "https://doi.org/10.2991/978-94-6239-027-0_15"
+}

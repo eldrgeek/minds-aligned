@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2303.04115",
+  "doi_url": "https://doi.org/10.48550/arxiv.2303.04115",
+  "title": "Predicted Embedding Power Regression for Large-Scale Out-of-Distribution Detection",
+  "year": 2023,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Hong Yang",
+    "William Gebhardt",
+    "Alexander G. Ororbia",
+    "Travis Desell"
+  ],
+  "abstract": "Out-of-distribution (OOD) inputs can compromise the performance and safety of real world machine learning systems. While many methods exist for OOD detection and work well on small scale datasets with lower resolution and few classes, few methods have been developed for large-scale OOD detection. Existing large-scale methods generally depend on maximum classification probability, such as the state-of-the-art grouped softmax method. In this work, we develop a novel approach that calculates the probability of the predicted class label based on label distributions learned during the training process. Our method performs better than current state-of-the-art methods with only a negligible increase in compute cost. We evaluate our method against contemporary methods across $14$ datasets and achieve a statistically significant improvement with respect to AUROC (84.2 vs 82.4) and AUPR (96.2 vs 93.7).",
+  "link": "http://arxiv.org/abs/2303.04115"
+}

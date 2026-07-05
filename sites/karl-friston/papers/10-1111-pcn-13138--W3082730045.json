@@ -1,0 +1,14 @@
+{
+  "doi": "10.1111/pcn.13138",
+  "doi_url": "https://doi.org/10.1111/pcn.13138",
+  "title": "Recent advances in the application of predictive coding and active inference models within clinical neuroscience",
+  "year": "2020",
+  "journal": "Psychiatry and Clinical Neurosciences",
+  "authors": [
+    "Ryan Smith",
+    "Paul B. Badcock",
+    "Karl Friston"
+  ],
+  "abstract": "Research in clinical neuroscience is founded on the idea that a better understanding of brain (dys)function will improve our ability to diagnose and treat neurological and psychiatric disorders. In recent years, neuroscience has converged on the notion that the brain is a 'prediction machine,' in that it actively predicts the sensory input that it will receive if one or another course of action is chosen. These predictions are used to select actions that will (most often, and in the long run) maintain the body within the narrow range of physiological states consistent with survival. This insight has given rise to an area of clinical computational neuroscience research that focuses on characterizing neural circuit architectures that can accomplish these predictive functions, and on how the associated processes may break down or become aberrant within clinical conditions. Here, we provide a brief review of examples of recent work on the application of predictive processing models of brain function to study clinical (psychiatric) disorders, with the aim of highlighting current directions and their potential clinical utility. We offer examples of recent conceptual models, formal mathematical models, and applications of such models in empirical research in clinical populations, with a focus on making this material accessible to clinicians without expertise in computational neuroscience. In doing so, we aim to highlight the potential insights and opportunities that understanding the brain as a prediction machine may offer to clinical research and practice.",
+  "link": "https://doi.org/10.1111/pcn.13138"
+}

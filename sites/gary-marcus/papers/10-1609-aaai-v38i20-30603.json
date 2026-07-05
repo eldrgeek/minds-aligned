@@ -1,0 +1,16 @@
+{
+  "doi": "10.1609/aaai.v38i20.30603",
+  "doi_url": "https://doi.org/10.1609/aaai.v38i20.30603",
+  "title": "The Defeat of the Winograd Schema Challenge (Abstract Reprint)",
+  "year": 2024,
+  "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "authors": [
+    "Vid Kocijan",
+    "Ernest Davis",
+    "Thomas Lukasiewicz",
+    "Gary Marcus",
+    "Leora Morgenstern"
+  ],
+  "abstract": "The Winograd Schema Challenge—a set of twin sentences involving pronoun reference disambiguation that seem to require the use of commonsense knowledge—was proposed by Hector Levesque in 2011. By 2019, a number of AI systems, based on large pre-trained transformer-based language models and fine-tuned on these kinds of problems, achieved better than 90% accuracy. In this paper, we review the history of the Winograd Schema Challenge and discuss the lasting contributions of the flurry of research that has taken place on the WSC in the last decade. We discuss the significance of various datasets developed for WSC, and the research community's deeper understanding of the role of surrogate tasks in assessing the intelligence of an AI system.",
+  "link": "http://dx.doi.org/10.1609/aaai.v38i20.30603"
+}

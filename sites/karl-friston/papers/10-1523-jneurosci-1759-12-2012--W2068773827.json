@@ -1,0 +1,15 @@
+{
+  "doi": "10.1523/jneurosci.1759-12.2012",
+  "doi_url": "https://doi.org/10.1523/jneurosci.1759-12.2012",
+  "title": "Features versus Feelings: Dissociable Representations of the Acoustic Features and Valence of Aversive Sounds",
+  "year": "2012",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Sukhbinder Kumar",
+    "Katharina von Kriegstein",
+    "Karl Friston",
+    "Timothy D. Griffiths"
+  ],
+  "abstract": "This study addresses the neuronal representation of aversive sounds that are perceived as unpleasant. Functional magnetic resonance imaging in humans demonstrated responses in the amygdala and auditory cortex to aversive sounds. We show that the amygdala encodes both the acoustic features of a stimulus and its valence (perceived unpleasantness). Dynamic causal modeling of this system revealed that evoked responses to sounds are relayed to the amygdala via auditory cortex. While acoustic features modulate effective connectivity from auditory cortex to the amygdala, the valence modulates the effective connectivity from amygdala to the auditory cortex. These results support a complex (recurrent) interaction between the auditory cortex and amygdala based on object-level analysis in the auditory cortex that portends the assignment of emotional valence in amygdala that in turn influences the representation of salient information in auditory cortex.",
+  "link": "https://doi.org/10.1523/jneurosci.1759-12.2012"
+}

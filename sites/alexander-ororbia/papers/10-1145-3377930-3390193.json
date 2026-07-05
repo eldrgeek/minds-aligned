@@ -1,0 +1,17 @@
+{
+  "doi": "10.1145/3377930.3390193",
+  "doi_url": "https://doi.org/10.1145/3377930.3390193",
+  "title": "Improving neuroevolutionary transfer learning of deep recurrent neural networks through network-aware adaptation",
+  "year": 2020,
+  "journal": null,
+  "authors": [
+    "AbdElRahman ElSaid",
+    "Joshua Karns",
+    "Zimeng Lyu",
+    "Daniel E. Krutz",
+    "Alexander G. Ororbia",
+    "Travis Desell"
+  ],
+  "abstract": "Transfer learning entails taking an artificial neural network (ANN) that is trained on a source dataset and adapting it to a new target dataset. While this has been shown to be quite powerful, its use has generally been restricted by architectural constraints. Previously, in order to reuse and adapt an ANN's internal weights and structure, the underlying topology of the ANN being transferred across tasks must remain mostly the same while a new output layer is attached, discarding the old output layer's weights. This work introduces network-aware adaptive structure transfer learning (N-ASTL), an advancement over prior efforts to remove this restriction. N-ASTL utilizes statistical information related to the source network's topology and weight distribution in order to inform how new input and output neurons are to be integrated into the existing structure. Results show improvements over prior state-of-the-art, including the ability to transfer in challenging real-world datasets not previously possible and improved generalization over RNNs without transfer.",
+  "link": "https://doi.org/10.1145/3377930.3390193"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.1073/pnas.80.9.2799",
+  "doi_url": "https://doi.org/10.1073/pnas.80.9.2799",
+  "title": "Nonlinear interactions in a dendritic tree: localization, timing, and role in information processing.",
+  "year": 1983,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Christof Koch",
+    "Tomaso Poggio",
+    "Vincent Torre"
+  ],
+  "abstract": "In a passive dendritic tree, inhibitory synaptic inputs activating ionic conductances with an equilibrium potential near the resting potential can effectively veto excitatory inputs. Analog interactions of this type can be very powerful if the inputs are appropriately timed and occur at certain locations. We examine with computer simulations the precise conditions required for strong and specific interactions in the case of a delta-like ganglion cell of the cat retina. We find some critical conditions to be that (i) the peak inhibitory conductance changes must be sufficiently large (i.e., approximately equal to 50 nS or more), (ii) inhibition must be on the direct path from the location of excitation to the soma, and (iii) the time course of excitation and inhibition must substantially overlap. Analog AND-NOT operations realized by satisfying these conditions may underlie direction selectivity in ganglion cells.",
+  "link": "https://doi.org/10.1073/pnas.80.9.2799"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.1017/cbo9780511980435.019",
+  "doi_url": "https://doi.org/10.1017/cbo9780511980435.019",
+  "title": "Modularity and descent-with-modification",
+  "year": 2013,
+  "journal": "Cambridge University Press eBooks",
+  "authors": [
+    "Gary Marcus",
+    "Cristina D. Rabaglia",
+    "Hugh Rabagliati"
+  ],
+  "abstract": "In statistical modeling, there are numerous parameters defined mathematically to account for the expected shape of data distributions. In the domain of human language, both principles and parameters are often thought of as innate domain-specific abstractions that connect to many structural properties about language. Linguistic principles correspond to the properties that are invariant across all human languages. The learning path turns out to be crucial for learning the English metrical phonology systems using parameters. An increasingly common way to explore how exactly the human mind learns with parameters is to use computational modeling. Computational modeling gives us very precise control over the language acquisition process, including what hypotheses the child entertains, what data are considered relevant, and how the child changes belief in different hypotheses based on the data. The chapter also looks at a few examples of computational models that investigate language acquisition using parameters.",
+  "link": "https://doi.org/10.1017/cbo9780511980435.019"
+}

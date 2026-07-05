@@ -1,0 +1,19 @@
+{
+  "doi": "10.1162/089892905774589190",
+  "doi_url": "https://doi.org/10.1162/089892905774589190",
+  "title": "Dissociating Reading Processes on the Basis of Neuronal Interactions",
+  "year": "2005",
+  "journal": "Journal of Cognitive Neuroscience",
+  "authors": [
+    "Andrea Mechelli",
+    "Jenny Crinion",
+    "Steven de long",
+    "Karl Friston",
+    "Matthew A. Lambon Ralph",
+    "Karalyn Patterson",
+    "James L. McClelland",
+    "Cathy J. Price"
+  ],
+  "abstract": "Previous studies of patients with phonological and surface alexia have demonstrated a double dissociation between the reading of pseudo words and words with atypical spelling-to-sound relationships. A corresponding double dissociation in the neuronal activation patterns for pseudo words and exception words has not, however, been consistently demonstrated in normal subjects. Motivated by the literature on acquired alexia, the present study contrasted pseudo words to exception words and explored how neuronal interactions within the reading system are influenced by word type. Functional magnetic resonance imaging was used to measure neuronal responses during reading in 22 healthy volunteers. The direct comparison of reading pseudo words and exception words revealed a double dissociation within the left frontal cortex. Pseudo words preferentially increased left dorsal premotor activation, whereas exception words preferentially increased left pars triangularis activation. Critically, these areas correspond to those previously associated with phonological and semantic processing, respectively. Word-type dependent interactions between brain areas were then investigated using dynamic causal modeling. This revealed that increased activation in the dorsal premotor cortex for pseudo words was associated with a selective increase in effective connectivity from the posterior fusiform gyrus. In contrast, increased activation in the pars triangularis for exception words was associated with a selective increase in effective connectivity from the anterior fusiform gyrus. The present investigation is the first to identify distinct neuronal mechanisms for semantic and phonological contributions to reading.",
+  "link": "https://doi.org/10.1162/089892905774589190"
+}

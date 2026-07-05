@@ -1,0 +1,12 @@
+{
+  "doi": "10.1016/s0010-0277(98)00018-3",
+  "doi_url": "https://doi.org/10.1016/s0010-0277(98)00018-3",
+  "title": "Can connectionism save constructivism?",
+  "year": 1998,
+  "journal": "Cognition",
+  "authors": [
+    "Gary Marcus"
+  ],
+  "abstract": "Constructivism is the Piagetian notion that learning leads the child to develop new types of representations. For example, on the Piagetian view, a child is born without knowing that objects persist in time even when they are occluded; through a process of learning, the child comes to know that objects persist in time. The trouble with this view has always been the lack of a concrete, computational account of how a learning mechanism could lead to such a change. Recently, however, in a book entitled Rethinking Innateness. Elman et al. (Elman, J.L., Bates, E., Johnson, M.H., Karmiloff-Smith, A., Parisi, D., Plunkett, K., 1996. Rethinking Innateness: A Connectionist Perspective on Development. Cambridge, MA: MIT Press) have claimed that connectionist models might provide an account of the development of new kinds of representations that would not depend on the existence of innate representations. I show that the models described in Rethinking Innateness depend on innately assumed representations and that they do not offer a genuine alternative to nativism. Moreover, I present simulation results which show that these models are incapable of deriving genuine abstract representations that are not presupposed. I then give a formal account of why the models fail to generalize in the ways that humans do. Thus, connectionism, at least in its current form, does not provide any support for constructivism. I conclude by sketching a possible alternative.",
+  "link": "https://doi.org/10.1016/s0010-0277(98)00018-3"
+}

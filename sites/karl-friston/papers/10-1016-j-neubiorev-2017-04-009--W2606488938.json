@@ -1,0 +1,16 @@
+{
+  "doi": "10.1016/j.neubiorev.2017.04.009",
+  "doi_url": "https://doi.org/10.1016/j.neubiorev.2017.04.009",
+  "title": "Deep temporal models and active inference",
+  "year": "2017",
+  "journal": "Neuroscience & Biobehavioral Reviews",
+  "authors": [
+    "Karl Friston",
+    "Richard Rosch",
+    "Thomas Parr",
+    "Cathy J. Price",
+    "Howard Bowman"
+  ],
+  "abstract": "How do we navigate a deeply structured world? Why are you reading this sentence first - and did you actually look at the fifth word? This review offers some answers by appealing to active inference based on deep temporal models. It builds on previous formulations of active inference to simulate behavioural and electrophysiological responses under hierarchical generative models of state transitions. Inverting these models corresponds to sequential inference, such that the state at any hierarchical level entails a sequence of transitions in the level below. The deep temporal aspect of these models means that evidence is accumulated over nested time scales, enabling inferences about narratives (i.e., temporal scenes). We illustrate this behaviour with Bayesian belief updating - and neuronal process theories - to simulate the epistemic foraging seen in reading. These simulations reproduce perisaccadic delay period activity and local field potentials seen empirically. Finally, we exploit the deep structure of these models to simulate responses to local (e.g., font type) and global (e.g., semantic) violations; reproducing mismatch negativity and P300 responses respectively.",
+  "link": "https://doi.org/10.1016/j.neubiorev.2017.04.009"
+}

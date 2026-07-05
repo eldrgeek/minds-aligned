@@ -1,0 +1,14 @@
+{
+  "doi": "10.1080/03610926.2018.1543776",
+  "doi_url": "https://doi.org/10.1080/03610926.2018.1543776",
+  "title": "The probabilistic support Kendall correlation and its transitivity properties",
+  "year": "2019",
+  "journal": "Communication in Statistics- Theory and Methods",
+  "authors": [
+    "Ruiting Lian",
+    "Changle Zhou",
+    "Ben Goertzel"
+  ],
+  "abstract": "A new variation of the Kendall correlation, the \"Probabilistic Support Kendall Correlation\" (PSKC), is proposed based on applying the notion of “probabilistic support” to compare the pairwise comparisons of measurements. It is shown that the most basic version of the PSKC is proportional to the standard Kendall correlation under the assumption of no ties; however, the PSKC also lends itself to various extensions involving restrictions to specific sorts of comparisons or consideration of the relative magnitudes of different comparisons (the latter being the PSCC or Probabilistic Support Comparison Correlation as introduced here). It is shown that under broad conditions, Probabilistic Support Kendall Correlation (and hence the standard Kendall correlation as well as the various more general versions of PSKC) has a strong, elegant transitivity property.",
+  "link": "https://doi.org/10.1080/03610926.2018.1543776"
+}

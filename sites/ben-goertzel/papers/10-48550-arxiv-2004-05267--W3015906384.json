@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2004.05267",
+  "doi_url": "https://doi.org/10.48550/arxiv.2004.05267",
+  "title": "What Kind of Programming Language Best Suits Integrative AGI?",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "What kind of programming language would be most appropriate to serve the needs of integrative, multi-paradigm, multi-software-system approaches to AGI? This question is broached via exploring the more particular question of how to create a more scalable and usable version of the \"Atomese\" programming language that forms a key component of the OpenCog AGI design (an \"Atomese 2.0\") . It is tentatively proposed that the core of Atomese 2.0 should be a very flexible framework of rewriting rules for rewriting a metagraph (where the rules themselves are represented within the same metagraph, and some of the intermediate data created and used during the rule-interpretation process may be represented in the same metagraph). This framework should support concurrent rewriting of the metagraph according to rules that are labeled with various sorts of uncertainty-quantifications, and that are labeled with various sorts of types associated with various type systems. A gradual typing approach should be used to enable mixture of rules and other metagraph nodes/links associated with various type systems, and untyped metagraph nodes/links not associated with any type system. This must be done in a way that allows reasonable efficiency and scalability, including in concurrent and distributed processing contexts, in the case where a large percentage of of processing time is occupied with evaluating static pattern-matching queries on specific subgraphs of a large metagraph (including a rich variety of queries such as matches against nodes representing variables, and matches against whole subgraphs, etc.).",
+  "link": "https://doi.org/10.48550/arxiv.2004.05267"
+}

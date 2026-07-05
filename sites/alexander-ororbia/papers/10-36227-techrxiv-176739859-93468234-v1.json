@@ -1,0 +1,14 @@
+{
+  "doi": "10.36227/techrxiv.176739859.93468234/v1",
+  "doi_url": "https://doi.org/10.36227/techrxiv.176739859.93468234/v1",
+  "title": "Backpropagation-Free Learning: On the Emergence of Forward-Only Algorithms",
+  "year": 2026,
+  "journal": null,
+  "authors": [
+    "Baichuan Huang",
+    "Alexander G. Ororbia",
+    "Amir Aminifar"
+  ],
+  "abstract": "Backpropagation of errors (BP) plays a vital role in the deep learning domain and exhibits impressive performance in real-world applications. Training state-of-the-art deep neural networks (DNNs) relies almost exclusively on BP, which consumes massive amounts of resources. However, the human brain learns new tasks with remarkable efficiency. This contrast has led to criticism of BP for its biologically implausible nature, underscoring the significant disparity in performance between DNNs and the human brain. The emerging forward-only adaptation, namely backward-pass-free, is proposed to remove the biologically implausible backward pass in deep learning, with the potential to improve memory, computing, and energy efficiency. This survey presents a comprehensive overview and a rethinking of BP-free learning given the emergence of forward-only adaptation. These BP-free algorithms are categorized across different historical stages according to their technical evolution, and are analyzed based on the core principles in each representative work. Moreover, we establish the taxonomy of supervisory signal and biological plausibility, providing a holistic lens into the extent to which various BP-free algorithms perform compared to forward-only adaptation. We further investigate the scalability of BP-free algorithms. Additionally, we discuss the advantages, practical applications, and current limitations of BP-free algorithms, while outlining potential future directions. This survey paper provides a comprehensive overview to foster progress in BP-free learning in the context of emerging forward-only adaptation.",
+  "link": "https://doi.org/10.36227/techrxiv.176739859.93468234/v1"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/intellisys.2015.7361241",
+  "doi_url": "https://doi.org/10.1109/intellisys.2015.7361241",
+  "title": "Recursive decomposition of numeric goals, exemplified with automated construction agents in 3D MineCraft worlds",
+  "year": "2015",
+  "journal": null,
+  "authors": [
+    "Shujing Ke Tilburg",
+    "Ben Goertzel",
+    "Pieter Spronck",
+    "Alex van der Peet",
+    "Oliver C. Watkins",
+    "Gino Yu"
+  ],
+  "abstract": "This research describes a novel approach to incorporating navigation in a general planning process. Five planning control strategies are articulated for combining \"primitive rules\" (which directly solve problems) with \"recursive rules\" (which decompose problems into combinations of problems of the same form). The combined rules are applied to carry out navigation and generalized planning, utilizing the observation that a \"planning-aided navigation\" problem can be decomposed automatically into smaller planning-aided navigation problems, and hence addressed by vertical recursive rules. The approach is illustrated in a MineCraft construction domain, using an agent that is able to build blocks to create a path to reach an initially unreachable target, e.g., a path finding task in which parts of the path must be constructed during the course of navigation/planning, such as building a bridge to fill a gap on the way to the target location.",
+  "link": "https://doi.org/10.1109/intellisys.2015.7361241"
+}

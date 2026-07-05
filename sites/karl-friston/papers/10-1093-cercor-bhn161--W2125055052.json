@@ -1,0 +1,16 @@
+{
+  "doi": "10.1093/cercor/bhn161",
+  "doi_url": "https://doi.org/10.1093/cercor/bhn161",
+  "title": "A Dual Role for Prediction Error in Associative Learning",
+  "year": "2008",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Hanneke E.M. den Ouden",
+    "Karl Friston",
+    "Nathaniel D. Daw",
+    "Anthony R. McIntosh",
+    "Klaas Ε. Stephan"
+  ],
+  "abstract": "Confronted with a rich sensory environment, the brain must learn statistical regularities across sensory domains to construct causal models of the world. Here, we used functional magnetic resonance imaging and dynamic causal modeling (DCM) to furnish neurophysiological evidence that statistical associations are learnt, even when task-irrelevant. Subjects performed an audio-visual target-detection task while being exposed to distractor stimuli. Unknown to them, auditory distractors predicted the presence or absence of subsequent visual distractors. We modeled incidental learning of these associations using a Rescorla-Wagner (RW) model. Activity in primary visual cortex and putamen reflected learning-dependent surprise: these areas responded progressively more to unpredicted, and progressively less to predicted visual stimuli. Critically, this prediction-error response was observed even when the absence of a visual stimulus was surprising. We investigated the underlying mechanism by embedding the RW model into a DCM to show that auditory to visual connectivity changed significantly over time as a function of prediction error. Thus, consistent with predictive coding models of perception, associative learning is mediated by prediction-error dependent changes in connectivity. These results posit a dual role for prediction-error in encoding surprise and driving associative plasticity.",
+  "link": "https://doi.org/10.1093/cercor/bhn161"
+}

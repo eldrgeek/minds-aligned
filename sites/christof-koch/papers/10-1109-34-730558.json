@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/34.730558",
+  "doi_url": "https://doi.org/10.1109/34.730558",
+  "title": "A model of saliency-based visual attention for rapid scene analysis",
+  "year": 1998,
+  "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "authors": [
+    "Laurent Itti",
+    "Christof Koch",
+    "Ernst Niebur"
+  ],
+  "abstract": "A visual attention system, inspired by the behavior and the neuronal architecture of the early primate visual system, is presented. Multiscale image features are combined into a single topographical saliency map. A dynamical neural network then selects attended locations in order of decreasing saliency. The system breaks down the complex problem of scene understanding by rapidly selecting, in a computationally efficient manner, conspicuous locations to be analyzed in detail.",
+  "link": "https://doi.org/10.1109/34.730558"
+}

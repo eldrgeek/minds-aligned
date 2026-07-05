@@ -1,0 +1,33 @@
+{
+  "doi": "10.48550/arxiv.2506.06299",
+  "doi_url": "https://doi.org/10.48550/arxiv.2506.06299",
+  "title": "How malicious AI swarms can threaten democracy: The fusion of agentic AI and LLMs marks a new frontier in information warfare",
+  "year": 2025,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Daniel Thilo Schroeder",
+    "Meeyoung Cha",
+    "Andrea Baronchelli",
+    "Nick Bostrom",
+    "Nicholas A. Christakis",
+    "David García Núñez",
+    "Amit Goldenberg",
+    "Yara Kyrychenko",
+    "Kevin Leyton‐Brown",
+    "Nina Lutz",
+    "Gary Marcus",
+    "Filippo Menczer",
+    "Gordon Pennycook",
+    "David G. Rand",
+    "Maria Ressa",
+    "Frank Schweitzer",
+    "Dawn Song",
+    "Christopher Summerfield",
+    "Audrey Tang",
+    "Jay Joseph Van Bavel",
+    "Sander van der Linden",
+    "Jonas R. Kunst"
+  ],
+  "abstract": "Advances in AI offer the prospect of manipulating beliefs and behaviors on a population-wide level. Large language models and autonomous agents now let influence campaigns reach unprecedented scale and precision. Generative tools can expand propaganda output without sacrificing credibility and inexpensively create falsehoods that are rated as more human-like than those written by humans. Techniques meant to refine AI reasoning, such as chain-of-thought prompting, can just as effectively be used to generate more convincing falsehoods. Enabled by these capabilities, a disruptive threat is emerging: swarms of collaborative, malicious AI agents. Fusing LLM reasoning with multi-agent architectures, these systems are capable of coordinating autonomously, infiltrating communities, and fabricating consensus efficiently. By adaptively mimicking human social dynamics, they threaten democracy. Because the resulting harms stem from design, commercial incentives, and governance, we prioritize interventions at multiple leverage points, focusing on pragmatic mechanisms over voluntary compliance.",
+  "link": "http://arxiv.org/abs/2506.06299"
+}

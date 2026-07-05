@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "The slice-timing problem in event-related fMRI",
+  "year": "1999",
+  "journal": "UCL Discovery (University College London)",
+  "authors": [
+    "Rna Henson",
+    "Christian Buechel",
+    "Oliver Josephs",
+    "Karl Friston"
+  ],
+  "abstract": "The desiderata for functional neuroimaging are high spatial and high temporal resolution. Recent developments in rapid echo-planar functional resonance imaging (fMRI) and event-related analyses [1,2] combine a spatial resolution of millimetres with a temporal resolution of seconds. A fundamental trade-off remains however: large brain coverage at high spatial resolution requires many, thin image planes (slices), resulting in a longer interscan interval (TR) and hence poorer temporal resolution. Though staggering stimulus times relative to scan times allows a higher effective sampling rate, existing volume-based analysis techniques such as SPM [2] assume simultaneous sampling of all slices. We show that this assumption can result in poor model fits and hence type II errors. Two popular solutions are compared: the use of multiple regressors and the interpolation of data in time.",
+  "link": "https://openalex.org/W2224081466"
+}

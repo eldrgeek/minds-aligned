@@ -1,0 +1,12 @@
+{
+  "doi": "10.1017/s0140525x9735002x",
+  "doi_url": "https://doi.org/10.1017/s0140525x9735002x",
+  "title": "Extracting higher-level relationships in connectionist models",
+  "year": 1997,
+  "journal": "Behavioral and Brain Sciences",
+  "authors": [
+    "Gary Marcus"
+  ],
+  "abstract": "Connectionist networks excel at extracting statistical regularities but have trouble extracting higher-order relationships. Clark &amp; Thornton suggest that a solution to this problem might come from Elman (1993), but I argue that the success of Elman's single recurrent network is illusory, and show that it cannot in fact represent abstract relationships that can be generalized to novel instances, undermining Clark &amp; Thornton's key arguments.",
+  "link": "https://doi.org/10.1017/s0140525x9735002x"
+}

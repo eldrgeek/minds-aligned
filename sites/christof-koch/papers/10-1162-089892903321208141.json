@@ -1,0 +1,13 @@
+{
+  "doi": "10.1162/089892903321208141",
+  "doi_url": "https://doi.org/10.1162/089892903321208141",
+  "title": "Visual Selective Behavior Can Be Triggered by a Feed-Forward Process",
+  "year": 2003,
+  "journal": "Journal of Cognitive Neuroscience",
+  "authors": [
+    "Rufin VanRullen",
+    "Christof Koch"
+  ],
+  "abstract": "The ventral visual pathway implements object recognition and categorization in a hierarchy of processing areas with neuronal selectivities of increasing complexity. The presence of massive feedback connections within this hierarchy raises the possibility that normal visual processing relies on the use of computational loops. It is not known, however, whether object recognition can be performed at all without such loops (i.e., in a purely feed-forward mode). By analyzing the time course of reaction times in a masked natural scene categorization paradigm, we show that the human visual system can generate selective motor responses based on a single feed-forward pass. We confirm these results using a more constrained letter discrimination task, in which the rapid succession of a target and mask is actually perceived as a distractor. We show that a masked stimulus presented for only 26 msec - and often not consciously perceived - can fully determine the earliest selective motor responses: The neural representations of the stimulus and mask are thus kept separated during a short period corresponding to the feed-forward \"sweep.\" Therefore, feedback loops do not appear to be \"mandatory\" for visual processing. Rather, we found that such loops allow the masked stimulus to reverberate in the visual system and affect behavior for nearly 150 msec after the feed-forward sweep.",
+  "link": "https://doi.org/10.1162/089892903321208141"
+}

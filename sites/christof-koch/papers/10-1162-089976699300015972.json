@@ -1,0 +1,13 @@
+{
+  "doi": "10.1162/089976699300015972",
+  "doi_url": "https://doi.org/10.1162/089976699300015972",
+  "title": "Detecting and Estimating Signals in Noisy Cable Structures, I: Neuronal Noise Sources",
+  "year": 1999,
+  "journal": "Neural Computation",
+  "authors": [
+    "Amit Manwani",
+    "Christof Koch"
+  ],
+  "abstract": "In recent theoretical approaches addressing the problem of neural coding, tools from statistical estimation and information theory have been applied to quantify the ability of neurons to transmit information through their spike outputs. These techniques, though fairly general, ignore the specific nature of neuronal processing in terms of its known biophysical properties. However, a systematic study of processing at various stages in a biophysically faithful model of a single neuron can identify the role of each stage in information transfer. Toward this end, we carry out a theoretical analysis of the information loss of a synaptic signal propagating along a linear, one-dimensional, weakly active cable due to neuronal noise sources along the way, using both a signal reconstruction and a signal detection paradigm. Here we begin such an analysis by quantitatively characterizing three sources of membrane noise: (1) thermal noise due to the passive membrane resistance, (2) noise due to stochastic openings and closings of voltage-gated membrane channels (NA+ and K+), and (3) noise due to random, background synaptic activity. Using analytical expressions for the power spectral densities of these noise sources, we compare their magnitudes in the case of a patch of membrane from a cortical pyramidal cell and explore their dependence on different biophysical parameters.",
+  "link": "https://doi.org/10.1162/089976699300015972"
+}

@@ -1,0 +1,16 @@
+{
+  "doi": "10.31223/x57g9t",
+  "doi_url": "https://doi.org/10.31223/x57g9t",
+  "title": "Causal and Predictive Analysis of Climate Change Using Granger Causality",
+  "year": "2021",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Nejc Znidar",
+    "Misgana Bayetta",
+    "Matthew Iklé",
+    "Scherazade Goertzel"
+  ],
+  "abstract": "Current climate simulation models provide valuable insights but are highly complicated, with numerous parameters, making them complex for assessing the causal impact of anthropogenic and natural factors on global temperatures. We applied multivariate Granger causality to investigate how combinations of forcings affect Earth's surface and ocean temperatures. Clear causal impact was found due to combinations of human factors including well-mixed greenhouse gases, tropical aerosols, ozone, and land use, while non-anthropogenic factors showed a non-trivial but lesser role.",
+  "link": "https://doi.org/10.31223/x57g9t"
+}

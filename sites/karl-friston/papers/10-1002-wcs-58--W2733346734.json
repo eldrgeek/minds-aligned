@@ -1,0 +1,13 @@
+{
+  "doi": "10.1002/wcs.58",
+  "doi_url": "https://doi.org/10.1002/wcs.58",
+  "title": "Analyzing effective connectivity with functional magnetic resonance imaging",
+  "year": "2010",
+  "journal": "Wiley Interdisciplinary Reviews Cognitive Science",
+  "authors": [
+    "Klaas Ε. Stephan",
+    "Karl Friston"
+  ],
+  "abstract": "Functional neuroimaging techniques are used widely in cognitive neuroscience to investigate aspects of functional specialization and functional integration in the human brain. Functional integration can be characterized in two ways, functional connectivity and effective connectivity. While functional connectivity describes statistical dependencies between data, effective connectivity rests on a mechanistic model of the causal effects that generated the data. This review addresses the conceptual and methodological basis of established techniques for characterizing effective connectivity using functional magnetic resonance imaging (fMRI) data. In particular, we focus on dynamic causal modeling (DCM) of fMRI data and emphasize the importance of model selection procedures and nonlinear mechanisms for context-dependent changes in connection strengths. Copyright © 2010 John Wiley & Sons, Ltd. For further resources related to this article, please visit the WIREs website.",
+  "link": "https://doi.org/10.1002/wcs.58"
+}

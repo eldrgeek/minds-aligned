@@ -1,0 +1,15 @@
+{
+  "doi": "10.1080/02630259508970152",
+  "doi_url": "https://doi.org/10.1080/02630259508970152",
+  "title": "DISCRIMINANT ANALYSIS OF HYDROCOLLAPSE IN LAS VEGAS SOILS",
+  "year": "1995",
+  "journal": "Civil Engineering Systems",
+  "authors": [
+    "Moses Karakouzian",
+    "Ben Goertzel",
+    "Nick Hudyma",
+    "Penny Roullier"
+  ],
+  "abstract": "Abstract In their natural condition, hydrocollapsible soils exhibit considerable strength. As they become wet, they exhibit considerable collapse, even in the absence of an applied load. The severity of this collapse depends on a variety of factors. One would like to be able to predict the severity of collapse from easily measurable properties of the soil - if not with absolute precision, at least in an approximate, probabilistic way. Using a hydrocollapse measurements database compiled from geotechnical reports on various clays, silts and sands found in the Las Vegas area, we apply linear discriminant analysis to determine the dependence of collapse percentage on four properties: moisture content, load, dry density, and depth. Using this analysis, we give a formula which estimates into which of three predetermined collapse ranges a given sample is most likely to fall, either based on all four properties or based on moisture content and dry density alone. We then derive a novel probabilistic classification rule, which estimates the probability that a soil sample falls into a given collapse range. Although quite simple, this rule uses much more of the information provided by discriminant analysis than does simple deterministic classification.",
+  "link": "https://doi.org/10.1080/02630259508970152"
+}

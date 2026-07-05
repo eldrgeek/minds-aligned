@@ -1,0 +1,17 @@
+{
+  "doi": "10.48550/arxiv.1902.03857",
+  "doi_url": "https://doi.org/10.48550/arxiv.1902.03857",
+  "title": "A Reputation System for Marketplaces - Viability Assessment",
+  "year": "2019",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Anton Kolonin",
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Deborah Duong",
+    "Marco Argentieri",
+    "Nejc Znidar"
+  ],
+  "abstract": "In this work we explore the implementation of the reputation system for a generic marketplace, describe details of the algorithm and parameters driving its operation, justify an approach to simulation modeling, and explore how various kinds of reputation systems with different parameters impact the economic security of the marketplace. Our emphasis here is on the protection of consumers by means of an ability to distinguish between cheating participants and honest participants, as well as the ability to minimize losses of honest participants due to scam.",
+  "link": "https://doi.org/10.48550/arxiv.1902.03857"
+}

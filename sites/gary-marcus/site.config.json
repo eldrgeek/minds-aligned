@@ -1,0 +1,22 @@
+{
+  "slug": "gary-marcus",
+  "name": "Gary Marcus",
+  "shortName": "Gary Marcus",
+  "tagline": "Publication archive and grounded AI guide for Gary Marcus — cognitive science, the limits of deep learning, and the case for neurosymbolic AI.",
+  "bio": "Gary Marcus is a cognitive scientist, author, and entrepreneur, and emeritus professor of psychology and neural science at New York University. A prominent critic of pure deep-learning approaches to AI, he argues for hybrid neurosymbolic systems that combine learning with structured knowledge and reasoning, and writes widely on AI reliability, robustness, and policy.",
+  "bioLinks": [
+    {
+      "label": "Personal site",
+      "url": "https://garymarcus.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gary_Marcus"
+    }
+  ],
+  "personaId": "marcus",
+  "personaName": "Marcus Guide",
+  "personaAvatar": "🧩",
+  "personaGreeting": "I'm an AI guide grounded in Gary Marcus's published work — cognitive science, the limits of deep learning, and the case for neurosymbolic AI. I'm not Gary Marcus myself, but I can help you navigate the corpus and the ideas this research introduced.",
+  "guideConfigFile": "gary-marcus-guide-config.js"
+}

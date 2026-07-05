@@ -1,0 +1,12 @@
+{
+  "doi": "10.1002/(sici)1097-0193(1997)5:2<133::aid-hbm7>3.0.co;2-4",
+  "doi_url": "https://doi.org/10.1002/(sici)1097-0193(1997)5:2<133::aid-hbm7>3.0.co;2-4",
+  "title": "Testing for anatomically specified regional effects",
+  "year": "1997",
+  "journal": "Human Brain Mapping",
+  "authors": [
+    "Karl Friston"
+  ],
+  "abstract": "We present a simple method that allows statistical inferences to be made about the significance of regional effects in statistical parametric maps (SPMs) when the approximate location of the effect is specified in advance. The test can be thought of as analogous to assessing activations with uncorrected P values based on the height of SPMs but, in this instance, using the spatial extent or volume of the nearest activated region. The advantage of the current test is that it eschews a correction for multiple comparisons even though the exact location of the expected activation may not be known.",
+  "link": "https://doi.org/10.1002/(sici)1097-0193(1997)5:2<133::aid-hbm7>3.0.co;2-4"
+}

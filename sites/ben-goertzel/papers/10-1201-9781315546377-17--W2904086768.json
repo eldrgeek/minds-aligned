@@ -1,0 +1,12 @@
+{
+  "doi": "10.1201/9781315546377-17",
+  "doi_url": "https://doi.org/10.1201/9781315546377-17",
+  "title": "Mirror Man: A Speculative Case Study of the Synergetic Potential of Data Visualization and Virtual Worlds",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "Current brain imaging technology is not able to detect the dynamics of thoughts and feelings as they pass through the brain. Artificial Intelligence (AI) experts agree that this sort of Artificial General Intelligence (AGI) will eventually be possible, but estimates of the timeline and the most likely path to this goal differ widely. motion capture should be supplemented with emotion capture: a variety of physical sensors capturing parameters such as heart rate, galvanic skin response, and so forth, giving a physiological indication of the user's emotional state. There is significant ongoing work in this direction as well, though not specifically directed at virtual agent control. Robot simulators exceed virtual worlds and game engines in terms of allowing detailed control of simulated robot joints, and physically realistic interactions between objects (as needed for instance to enable tool use), but don't allow large numbers of individuals to log on and help teach robots.",
+  "link": "https://doi.org/10.1201/9781315546377-17"
+}

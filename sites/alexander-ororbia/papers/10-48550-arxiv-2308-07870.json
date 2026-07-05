@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2308.07870",
+  "doi_url": "https://doi.org/10.48550/arxiv.2308.07870",
+  "title": "Brain-inspired Computational Intelligence via Predictive Coding",
+  "year": 2023,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Tommaso Salvatori",
+    "Ankur Mali",
+    "Christopher L. Buckley",
+    "Thomas Lukasiewicz",
+    "Rajesh P. N. Rao",
+    "Karl Friston",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "Artificial intelligence (AI) is rapidly becoming one of the key technologies of this century. The majority of results in AI thus far have been achieved using deep neural networks trained with a learning algorithm called error backpropagation, always considered biologically implausible. To this end, recent works have studied learning algorithms for deep neural networks inspired by the neurosciences. One such theory, called predictive coding (PC), has shown promising properties that make it potentially valuable for the machine learning community: it can model information processing in different areas of the brain, can be used in control and robotics, has a solid mathematical foundation in variational inference, and performs its computations asynchronously. Inspired by such properties, works that propose novel PC-like algorithms are starting to be present in multiple sub-fields of machine learning and AI at large. Here, we survey such efforts by first providing a broad overview of the history of PC to provide common ground for the understanding of the recent developments, then by describing current efforts and results, and concluding with a large discussion of possible implications and ways forward.",
+  "link": "http://arxiv.org/abs/2308.07870"
+}

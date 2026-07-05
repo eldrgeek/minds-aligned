@@ -1,0 +1,23 @@
+{
+  "doi": "10.1038/s41467-017-02717-4",
+  "doi_url": "https://doi.org/10.1038/s41467-017-02717-4",
+  "title": "Generalized leaky integrate-and-fire models classify multiple neuron types",
+  "year": 2018,
+  "journal": "Nature Communications",
+  "authors": [
+    "Corinne Teeter",
+    "Ramakrishnan Iyer",
+    "Vilas Menon",
+    "Nathan W. Gouwens",
+    "David Feng",
+    "Jim Berg",
+    "Aaron Szafer",
+    "Nicholas Cain",
+    "Hongkui Zeng",
+    "Michael Hawrylycz",
+    "Christof Koch",
+    "Ştefan Mihalaş"
+  ],
+  "abstract": "There is a high diversity of neuronal types in the mammalian neocortex. To facilitate construction of system models with multiple cell types, we generate a database of point models associated with the Allen Cell Types Database. We construct a set of generalized leaky integrate-and-fire (GLIF) models of increasing complexity to reproduce the spiking behaviors of 645 recorded neurons from 16 transgenic lines. The more complex models have an increased capacity to predict spiking behavior of hold-out stimuli. We use unsupervised methods to classify cell types, and find that high level GLIF model parameters are able to differentiate transgenic lines comparable to electrophysiological features. The more complex model parameters also have an increased ability to differentiate between transgenic lines. Thus, creating simple models is an effective dimensionality reduction technique that enables the differentiation of cell types from electrophysiological responses without the need for a priori-defined features. This database will provide a set of simplified models of multiple cell types for the community to use in network models.",
+  "link": "https://doi.org/10.1038/s41467-017-02717-4"
+}

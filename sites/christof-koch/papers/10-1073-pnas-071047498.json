@@ -1,0 +1,13 @@
+{
+  "doi": "10.1073/pnas.071047498",
+  "doi_url": "https://doi.org/10.1073/pnas.071047498",
+  "title": "Seeing properties of an invisible object: Feature inheritance and shine-through",
+  "year": 2001,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Michael H. Herzog",
+    "Christof Koch"
+  ],
+  "abstract": "We characterize a class of spatio-temporal illusions with two complementary properties. Firstly, if a vernier stimulus is flashed for a short time on a monitor and is followed immediately by a grating, the latter can express features of the vernier, such as its offset, its orientation, or its motion (feature inheritance). Yet the vernier stimulus itself remains perceptually invisible. Secondly, the vernier can be rendered visible by presenting gratings with a larger number of elements (shine-through). Under these conditions, subjects perceive two independent \"objects\" each carrying their own features. Transition between these two domains can be effected by subtle changes in the spatio-temporal layout of the grating. This should allow psychophysicists and electrophysiologists to investigate feature binding in a precise and quantitative manner.",
+  "link": "https://doi.org/10.1073/pnas.071047498"
+}

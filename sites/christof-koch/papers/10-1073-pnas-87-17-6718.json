@@ -1,0 +1,14 @@
+{
+  "doi": "10.1073/pnas.87.17.6718",
+  "doi_url": "https://doi.org/10.1073/pnas.87.17.6718",
+  "title": "Biophysical model of a Hebbian synapse.",
+  "year": 1990,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Anthony M. Zador",
+    "Christof Koch",
+    "Thomas H. Brown"
+  ],
+  "abstract": "We present a biophysical model of electrical and Ca(2+) dynamics following activation of N-methyl-D-aspartate (NMDA) receptors located on a dendritic spine. The model accounts for much of the phenomenology of the induction of long-term potentiation at a Hebbian synapse in hippocampal region CA1. Computer simulations suggested four important functions of spines in this Ca(2+)-dependent synaptic modification: (i) compartmentalizing transient changes in [Ca(2+)] to just those synapses that satisfy the conjunctive requirement for synaptic modification; (ii) isolating the spine head from changes in the [Ca(2+)] at the dendritic shaft; (iii) amplifying the concentration changes at those synapses; and (iv) increasing the voltage dependence of the processes underlying long term potentiation induction. This proposed role of spines in the regulation of Ca(2+) dynamics contrasts with traditional approaches to spine function that have stressed electronic properties. This model can be used to explore the computational implications of Hebbian synapses.",
+  "link": "https://doi.org/10.1073/pnas.87.17.6718"
+}

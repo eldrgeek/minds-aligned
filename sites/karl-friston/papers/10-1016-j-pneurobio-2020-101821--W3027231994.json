@@ -1,0 +1,14 @@
+{
+  "doi": "10.1016/j.pneurobio.2020.101821",
+  "doi_url": "https://doi.org/10.1016/j.pneurobio.2020.101821",
+  "title": "Prediction and memory: A predictive coding account",
+  "year": "2020",
+  "journal": "Progress in Neurobiology",
+  "authors": [
+    "Helen C. Barron",
+    "Ryszard Auksztulewicz",
+    "Karl Friston"
+  ],
+  "abstract": "The hippocampus is crucial for episodic memory, but it is also involved in online prediction. Evidence suggests that a unitary hippocampal code underlies both episodic memory and predictive processing, yet within a predictive coding framework the hippocampal-neocortical interactions that accompany these two phenomena are distinct and opposing. Namely, during episodic recall, the hippocampus is thought to exert an excitatory influence on the neocortex, to reinstate activity patterns across cortical circuits. This contrasts with empirical and theoretical work on predictive processing, where descending predictions suppress prediction errors to 'explain away' ascending inputs via cortical inhibition. In this hypothesis piece, we attempt to dissolve this previously overlooked dialectic. We consider how the hippocampus may facilitate both prediction and memory, respectively, by inhibiting neocortical prediction errors or increasing their gain. We propose that these distinct processing modes depend upon the neuromodulatory gain (or precision) ascribed to prediction error units. Within this framework, memory recall is cast as arising from fictive prediction errors that furnish training signals to optimise generative models of the world, in the absence of sensory data.",
+  "link": "https://doi.org/10.1016/j.pneurobio.2020.101821"
+}

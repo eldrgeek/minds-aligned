@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2504.21029",
+  "doi_url": "https://doi.org/10.48550/arxiv.2504.21029",
+  "title": "PICO: Secure Transformers via Robust Prompt Isolation and Cybersecurity Oversight",
+  "year": "2025",
+  "journal": "ArXiv.org",
+  "authors": [
+    "Ben Goertzel",
+    "Paulos Yibelo"
+  ],
+  "abstract": "We propose a robust transformer architecture designed to prevent prompt injection attacks and ensure secure, reliable response generation. Our PICO (Prompt Isolation and Cybersecurity Oversight) framework structurally separates trusted system instructions from untrusted user inputs through dual channels that are processed independently and merged only by a controlled, gated fusion mechanism. In addition, we integrate a specialized Security Expert Agent within a Mixture-of-Experts (MoE) framework and incorporate a Cybersecurity Knowledge Graph (CKG) to supply domain-specific reasoning. Our training design further ensures that the system prompt branch remains immutable while the rest of the network learns to handle adversarial inputs safely. This PICO framework is presented via a general mathematical formulation, then elaborated in terms of the specifics of transformer architecture, and fleshed out via hypothetical case studies including Policy Puppetry attacks. While the most effective implementation may involve training transformers in a PICO-based way from scratch, we also present a cost-effective fine-tuning approach.",
+  "link": "https://doi.org/10.48550/arxiv.2504.21029"
+}

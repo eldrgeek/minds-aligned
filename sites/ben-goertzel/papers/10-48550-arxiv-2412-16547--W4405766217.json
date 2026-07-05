@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2412.16547",
+  "doi_url": "https://doi.org/10.48550/arxiv.2412.16547",
+  "title": "ActPC-Chem: Discrete Active Predictive Coding for Goal-Guided Algorithmic Chemistry as a Potential Cognitive Kernel for Hyperon &amp; PRIMUS-Based AGI",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "We explore a novel paradigm (labeled ActPC-Chem) for biologically inspired, goal-guided artificial intelligence (AI) centered on a form of Discrete Active Predictive Coding (ActPC) operating within an algorithmic chemistry of rewrite rules. ActPC-Chem is envisioned as a foundational \"cognitive kernel\" for advanced cognitive architectures, such as the OpenCog Hyperon system, incorporating essential elements of the PRIMUS cognitive architecture. The central thesis is that general-intelligence-capable cognitive structures and dynamics can emerge in a system where both data and models are represented as evolving patterns of metagraph rewrite rules, and where prediction errors, intrinsic and extrinsic rewards, and semantic constraints guide the continual reorganization and refinement of these rules. Using a virtual \"robot bug\" thought experiment, we illustrate how such a system might self-organize to handle challenging tasks involving delayed and context-dependent rewards, integrating causal rule inference (AIRIS) and probabilistic logical abstraction (PLN) to discover and exploit conceptual patterns and causal constraints. Next, we describe how continuous predictive coding neural networks, which excel at handling noisy sensory data and motor control signals, can be coherently merged with the discrete ActPC substrate. Finally, we outline how these ideas might be extended to create a transformer-like architecture that foregoes traditional backpropagation in favor of rule-based transformations guided by ActPC. This layered architecture, supplemented with AIRIS and PLN, promises structured, multi-modal, and logically consistent next-token predictions and narrative sequences.",
+  "link": "https://doi.org/10.48550/arxiv.2412.16547"
+}

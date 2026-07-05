@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/fuzz-ieee.2014.6891863",
+  "doi_url": "https://doi.org/10.1109/fuzz-ieee.2014.6891863",
+  "title": "Uncertain Interval Algebra via fuzzy/probabilistic modeling",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Keyvan Mir Mohammad Sadeghi",
+    "Ben Goertzel"
+  ],
+  "abstract": "A novel approach to uncertain temporal inference is presented. Allen Interval Algebra is extended to fuzzy time-intervals via representing the latter as trapeziums with distinct beginning, middle and end. An uncertain version of the Interval Algebra composition table is developed via running a computer simulation in which a large number of fuzzy time-intervals are drawn from an assumed probability distribution.",
+  "link": "https://doi.org/10.1109/fuzz-ieee.2014.6891863"
+}

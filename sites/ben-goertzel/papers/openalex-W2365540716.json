@@ -1,0 +1,16 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "World survey of artificial brains, Part II: Biologically inspired cognitive architectures",
+  "year": "2010",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Ruiting Lian",
+    "Itamar Arel",
+    "Hugo de Garis",
+    "Shuo Chen"
+  ],
+  "abstract": "A number of leading cognitive architectures that are inspired by the human brain, at various levels of granularity, are reviewed and compared, with special attention paid to the way their internal structures and dynamics map onto neural processes. Four categories of Biologically Inspired Cognitive Architectures (BICAs) are considered, with multiple examples of each category briefly reviewed, and selected examples discussed in more depth: primarily symbolic architectures (e.g. ACT-R), emergentist architectures (e.g. DeSTIN), developmental robotics architectures (e.g. IM-CLEVER), and our central focus, hybrid architectures (e.g. LIDA, CLARION, 4D/RCS, DUAL, MicroPsi, and OpenCog). Given the state of the art in BICA, it is not yet possible to tell whether emulating the brain on the architectural level is going to be enough to allow rough emulation of brain function; and given the state of the art in neuroscience, it is not yet possible to connect BICAs with large-scale brain simulations in a thoroughgoing way. However, it is nonetheless possible to draw reasonably close function connections between various components of various BICAs and various brain regions and dynamics, and as both BICAs and brain simulations mature, these connections should become richer and may extend further into the domain of internal dynamics as well as overall behavior.",
+  "link": "https://openalex.org/W2365540716"
+}

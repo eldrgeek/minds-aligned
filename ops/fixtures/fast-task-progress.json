@@ -1,0 +1,8 @@
+{
+  "task": "fast-task",
+  "pct": 50,
+  "step": "Synthetic: ahead of schedule",
+  "est_total_sec": 1000,
+  "elapsed_sec": 100,
+  "ts": "2026-06-21T12:00:00.000Z"
+}

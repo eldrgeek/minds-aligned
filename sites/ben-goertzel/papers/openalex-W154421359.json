@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Proceedings of the Second Conference on Artificial General Intelligence",
+  "year": "2009",
+  "journal": "Journal of Bioresource Management",
+  "authors": [
+    "Ben Goertzel",
+    "Pascal Hitzler",
+    "Marcus Hütter"
+  ],
+  "abstract": "Artificial General Intelligence (AGI) research focuses on the original and ultimate goal of AI – to create broad human-like and transhuman intelligence, by exploring all available paths, including theoretical and experimental computer science, cognitive science, neuroscience, and innovative interdisciplinary methodologies. Due to the difficulty of this task, for the last few decades the majority of AI researchers have focused on what has been called narrow AI – the production of AI systems displaying intelligence regarding specific, highly constrained tasks. In recent years, however, more and more researchers have recognized the necessity – and feasibility – of returning to the original goals of the field. Increasingly, there is a call for a transition back to confronting the more difficult issues of human level intelligence and more broadly artificial general intelligence. The Conference on Artificial General Intelligence is the only major conference series devoted wholly and specifically to the creation of AI systems possessing general intelligence at the human level and ultimately beyond. Its second installation, AGI-09, in Arlington, Virginia, March 6-9, 2009, attracted 67 paper submissions, which is a substantial increase from the previous year. Of these submissions, 33 (i.e., 49%) were accepted as full papers for presentation at the conference. Additional 13 papers were included as position papers. The program also included a keynote address by J¨urgen Schmidhuber on The New AI, a post-conference workshop on The Future of AI, and a number of pre-conference tutorials on various topics related to AGI.",
+  "link": "https://openalex.org/W154421359"
+}

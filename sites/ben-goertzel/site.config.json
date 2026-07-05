@@ -1,0 +1,17 @@
+{
+  "slug": "ben-goertzel",
+  "name": "Ben Goertzel",
+  "shortName": "Ben Goertzel",
+  "tagline": "Publication archive and grounded AI guide for Ben Goertzel — AGI, OpenCog, and complex adaptive systems.",
+  "bio": "Ben Goertzel is an American AI researcher and entrepreneur whose work spans artificial general intelligence, cognitive science, and complex adaptive systems. He is founder and CEO of SingularityNET, chief scientist of Hanson Robotics, and chairman of the AGI Society, which organizes the AGI conference series. He has published extensively on AGI architectures (including OpenCog), probabilistic logic networks, and the path toward beneficial general intelligence.",
+  "bioLinks": [
+    { "label": "SingularityNET", "url": "https://singularitynet.io/team/ben-goertzel/" },
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=V8Wega8AAAAJ" },
+    { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ben_Goertzel" }
+  ],
+  "personaId": "goertzel",
+  "personaName": "Goertzel Guide",
+  "personaAvatar": "🤖",
+  "personaGreeting": "I'm an AI guide grounded in Ben Goertzel's published work — papers on AGI, OpenCog, probabilistic logic, and complex systems. I'm not Goertzel himself, but I can help you navigate his corpus and the research programs he has advanced.",
+  "guideConfigFile": "ben-goertzel-guide-config.js"
+}

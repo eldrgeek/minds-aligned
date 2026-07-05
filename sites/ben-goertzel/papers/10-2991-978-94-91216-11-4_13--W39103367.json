@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4_13",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4_13",
+  "title": "Temporal and Contextual Reasoning in PLN",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "In this chapter we review the temporal and causal PLN relationship types and rules that are used to guide these sorts of inference in PLN, and give some simple examples to illustrate how they are used. In the following chapters we will present more elaborate examples of spatiotemporal reasoning, using these constructs and ideas.",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4_13"
+}

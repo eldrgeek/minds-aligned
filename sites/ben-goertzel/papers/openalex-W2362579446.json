@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Artificial General Intelligence 2008:Proceedings of the First AGI Conference",
+  "year": "2008",
+  "journal": null,
+  "authors": [
+    "Wang Pei",
+    "Ben Goertzel",
+    "Stan Franklin"
+  ],
+  "abstract": "The field of Artificial Intelligence (AI) was initially directly aimed at the construction of 'thinking machines' - that is, computer systems with human-like general intelligence. But this task proved more difficult than expected. As the years passed, AI researchers gradually shifted focus to producing AI systems that intelligently approached specific tasks in relatively narrow domains. In recent years, however, more and more AI researchers have recognized the necessity - and the feasibility - of returning to the original goal of the field. Increasingly, there is a call to focus less on highly specialized 'narrow AI' problem solving systems, and more on confronting the difficult issues involved in creating 'human-level intelligence', and ultimately general intelligence that goes beyond the human level in various ways. Artificial General Intelligence (AGI), as this renewed focus has come to be called, attempts to study and reproduce intelligence as a whole in a domain independent way. Encouraged by the recent success of several smaller-scale AGI-related meetings and special tracks at conferences, the initiative to organize the very first international conference on AGI was taken, with the goal to give researchers in the field an opportunity to present relevant research results and to exchange ideas on topics of common interest. In this collection you will find the conference papers: full-length papers, short position statements and also the papers presented in the post conference workshop on the sociocultural, ethical and futurological implications of AGI.IOS Press is an international science, technical and medical publisher of high-quality books for academics, scientists, and professionals in all fields. Some of the areas we publish in: -Biomedicine -Oncology -Artificial intelligence -Databases and information systems -Maritime engineering -Nanotechnology -Geoengineering -All aspects of physics -E-governance -E-commerce -The knowledge economy -Urban studies -Arms control -Understanding and responding to terrorism -Medical informatics -Computer Sciences",
+  "link": "https://openalex.org/W2362579446"
+}

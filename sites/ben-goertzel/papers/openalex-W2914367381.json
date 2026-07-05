@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Proceedings of the HLT-NAACL BioNLP Workshop on Linking Natural Language and Biology",
+  "year": "2006",
+  "journal": null,
+  "authors": [
+    "Karin Verspoor",
+    "Kevin Bretonnel Cohen",
+    "Ben Goertzel",
+    "Interjeet Mani"
+  ],
+  "abstract": "The intent of this workshop was to bring researchers in text processing in the bioinformatics and biomedical domains together to discuss how techniques from natural language processing and information retrieval can be exploited to address biological information needs. Credit for its successes in reaching that goal is due entirely to the authors of the papers and posters presented in this volume and to the exceptional program committee.",
+  "link": "https://openalex.org/W2914367381"
+}

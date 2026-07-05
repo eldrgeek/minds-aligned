@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "An Extensible, Integrative Architecture for Intelligent Humanoid Robotics",
+  "year": "2008",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Hugo de Garis"
+  ],
+  "abstract": "The XIA-MAN architecture for intelligent humanoid robot control is proposed, a novel design in which perception and action are achieved via a combination of GA-evolved neural-net modules with existing open-source software packages; and cognition is achieved via the OpenCog Prime framework. XML is used to communicate between components, enabling simple pluggability of additional or modified components, and leading to the name XIA-MAN (eXtensible Integrative Artificial Man). XIA-MAN’s neural net modules are used to convert between high-dimensional numerical representations denoting perceptions and actions, and probabilistic symbolic representations suitable for cognitive manipulation. XIA-MAN’s Cognition Engine is used, at each time cycle, to choose a high-level behavioral procedure that is believes is likely to enable the robot to achieve its goals in the current context. This provides a pragmatic approach to achieving intelligent robot functionality given currently available technologies; and the architecture is conceptually reminiscent of the complexly interconnected multimodular architecture of the brain. Initial work involves an incarnation of the XIA-MAN architecture using the Nao humanoid robot, to create an intelligent humanoid called XiaoNao.",
+  "link": "https://openalex.org/W2249144737"
+}

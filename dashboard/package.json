@@ -1,0 +1,11 @@
+{
+  "name": "agi26-review-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AGI-26 review control room — see, don't read",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "npx --yes serve . -l 3456",
+    "preview": "npm run build && npm run serve"
+  }
+}

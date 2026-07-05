@@ -1,0 +1,17 @@
+{
+  "doi": "10.1038/s41592-021-01285-2",
+  "doi_url": "https://doi.org/10.1038/s41592-021-01285-2",
+  "title": "Removing independent noise in systems neuroscience data using DeepInterpolation",
+  "year": 2021,
+  "journal": "Nature Methods",
+  "authors": [
+    "Jérôme Lecoq",
+    "Michael Oliver",
+    "Joshua H. Siegle",
+    "N. S. Orlova",
+    "Peter Ledochowitsch",
+    "Christof Koch"
+  ],
+  "abstract": "",
+  "link": "https://doi.org/10.1038/s41592-021-01285-2"
+}

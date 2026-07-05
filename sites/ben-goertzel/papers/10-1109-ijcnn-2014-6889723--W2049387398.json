@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/ijcnn.2014.6889723",
+  "doi_url": "https://doi.org/10.1109/ijcnn.2014.6889723",
+  "title": "Improving machine vision via incorporating expectation-maximization into Deep Spatio-Temporal learning",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Min Jiang",
+    "Yulong Ding",
+    "Ben Goertzel",
+    "Zhongqiang Huang",
+    "Changle Zhou",
+    "Fei Chao"
+  ],
+  "abstract": "The Deep Spatio-Temporal Inference Network (DeSTIN) is a deep learning architecture which combines un-supervised learning and Bayesian inference. The original version of DeSTIN incorporates k-means clustering inside each processing node. Here we propose to replace k-means with a more sophisticated algorithm, online EM (Expectation Maximization), and show that this improves DeSTIN's performance on image classification and restoration tasks.",
+  "link": "https://doi.org/10.1109/ijcnn.2014.6889723"
+}

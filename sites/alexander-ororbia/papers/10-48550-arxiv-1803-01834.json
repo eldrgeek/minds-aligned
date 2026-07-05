@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.1803.01834",
+  "doi_url": "https://doi.org/10.48550/arxiv.1803.01834",
+  "title": "Conducting Credit Assignment by Aligning Local Representations",
+  "year": 2018,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Ankur Mali",
+    "Daniel Kifer",
+    "C. Lee Giles"
+  ],
+  "abstract": "Using back-propagation and its variants to train deep networks is often problematic for new users. Issues such as exploding gradients, vanishing gradients, and high sensitivity to weight initialization strategies often make networks difficult to train, especially when users are experimenting with new architectures. Here, we present Local Representation Alignment (LRA), a training procedure that is much less sensitive to bad initializations, does not require modifications to the network architecture, and can be adapted to networks with highly nonlinear and discrete-valued activation functions. Furthermore, we show that one variation of LRA can start with a null initialization of network weights and still successfully train networks with a wide variety of nonlinearities, including tanh, ReLU-6, softplus, signum and others that may draw their inspiration from biology. A comprehensive set of experiments on MNIST and the much harder Fashion MNIST data sets show that LRA can be used to train networks robustly and effectively, succeeding even when back-propagation fails and outperforming other alternative learning algorithms, such as target propagation and feedback alignment.",
+  "link": "http://arxiv.org/abs/1803.01834"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.1016/j.procs.2014.11.098",
+  "doi_url": "https://doi.org/10.1016/j.procs.2014.11.098",
+  "title": "haracterizing Human-like Consciousness: An Integrative Approach",
+  "year": "2014",
+  "journal": "Procedia Computer Science",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "Synthesizing concepts and findings from a number of recent models of human consciousness, a unified model of the key properties characterizing human consciousness is outlined. Six key properties are emphasized: Dynamical representation of the focus of consciousness, Focusing of energetic resources and focusing of informational resources on a subset of system knowledge, Global Workspace dynamics as outlined by Bernard Baars in his cognitive theory of consciousness, Integrated Information as emphasized by Tononi, and correlation of attentional focus with self-modeling. It is proposed that the extent, and relative importance, of these properties may vary in different states of consciousness; and that any AI system displaying closely human-like intelligence will need to manifest these properties in its consciousness as well. The “hard problem” of consciousness is sidestepped throughout, via focusing on structures and dynamics posited to serve as neural or cognitive correlates of subjective conscious experience.",
+  "link": "https://doi.org/10.1016/j.procs.2014.11.098"
+}

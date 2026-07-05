@@ -1,0 +1,18 @@
+{
+  "doi": "10.1113/jphysiol.2004.080903",
+  "doi_url": "https://doi.org/10.1113/jphysiol.2004.080903",
+  "title": "Subthreshold voltage noise of rat neocortical pyramidal neurones",
+  "year": 2005,
+  "journal": "The Journal of Physiology",
+  "authors": [
+    "Gilad A. Jacobson",
+    "Kamran Diba",
+    "Anat Yaron‐Jakoubovitch",
+    "Yasmin Oz",
+    "Christof Koch",
+    "Idan Segev",
+    "Yosef Yarom"
+  ],
+  "abstract": "Neurones are noisy elements. Noise arises from both intrinsic and extrinsic sources, and manifests itself as fluctuations in the membrane potential. These fluctuations limit the accuracy of a neurone's output but have also been suggested to play a computational role. We present a detailed study of the amplitude and spectrum of voltage noise recorded at the soma of layer IV-V pyramidal neurones in slices taken from rat neocortex. The dependence of the noise on holding potential, synaptic activity and Na+ conductance is systematically analysed. We demonstrate that voltage noise increases non-linearly as the cell depolarizes (from a standard deviation (s.d.) of 0.19 mV at -75 mV to an s.d. of 0.54 mV at -55 mV). The increase in voltage noise is accompanied by an increase in the cell impedance, due to voltage dependence of Na+ conductance. The impedance increase accounts for the majority (70%) of the voltage noise increase. The increase in voltage noise and impedance is restricted to the low-frequency range (0.2-2 Hz). At the high frequency range (5-100 Hz) the voltage noise is dominated by synaptic activity. In our slice preparation, synaptic noise has little effect on the cell impedance. A minimal model reproduces qualitatively these data. Our results imply that ion channel noise contributes significantly to membrane voltage fluctuations at the subthreshold voltage range, and that Na+ conductance plays a key role in determining the amplitude of this noise by acting as a voltage-dependent amplifier of low-frequency transients.",
+  "link": "https://doi.org/10.1113/jphysiol.2004.080903"
+}

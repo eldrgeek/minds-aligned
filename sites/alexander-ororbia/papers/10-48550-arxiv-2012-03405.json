@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2012.03405",
+  "doi_url": "https://doi.org/10.48550/arxiv.2012.03405",
+  "title": "The Neural Coding Framework for Learning Generative Models",
+  "year": 2020,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Daniel Kifer"
+  ],
+  "abstract": "Neural generative models can be used to learn complex probability distributions from data, to sample from them, and to produce probability density estimates. We propose a computational framework for developing neural generative models inspired by the theory of predictive processing in the brain. According to predictive processing theory, the neurons in the brain form a hierarchy in which neurons in one level form expectations about sensory inputs from another level. These neurons update their local models based on differences between their expectations and the observed signals. In a similar way, artificial neurons in our generative models predict what neighboring neurons will do, and adjust their parameters based on how well the predictions matched reality. In this work, we show that the neural generative models learned within our framework perform well in practice across several benchmark datasets and metrics and either remain competitive with or significantly outperform other generative models with similar functionality (such as the variational auto-encoder).",
+  "link": "http://arxiv.org/abs/2012.03405"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.1117/12.348467",
+  "doi_url": "https://doi.org/10.1117/12.348467",
+  "title": "&lt;title&gt;Comparison of feature combination strategies for saliency-based visual attention systems&lt;/title&gt;",
+  "year": 1999,
+  "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "Laurent Itti",
+    "Christof Koch"
+  ],
+  "abstract": "Bottom-up or saliency-based visual attention allows primates to detect non-specific conspicuous targets in cluttered scenes. A classical metaphor, derived from electrophysiological and psychophysical studies, describes attention as a rapidly shiftable 'spotlight'. The model described here reproduces the attentional scanpaths of this spotlight: Simple multi-scale 'feature maps' detect local spatial discontinuities in intensity, color, orientation or optical flow, and are combined into a unique 'master' or 'saliency' map. the saliency map is sequentially scanned, in order of decreasing saliency, by the focus of attention. We study the problem of combining feature maps, from different visual modalities and with unrelated dynamic ranges, into a unique saliency map. Four combination strategies are compared using three databases of natural color images: (1) Simple normalized summation, (2) linear combination with learned weights, (3) global non-linear normalization followed by summation, and (4) local non-linear competition between salient locations. Performance was measured as the number of false detections before the most salient target was found. Strategy (1) always yielded poorest performance and (2) best performance, with a 3- to 8-fold improvement in time to find a salient target. However, (2) yielded specialized systems with poor generations. Interestingly, strategy (4) and its simplified, computationally efficient approximation (3) yielded significantly better performance than (1), with up to 4-fold improvement, while preserving generality.",
+  "link": "https://doi.org/10.1117/12.348467"
+}

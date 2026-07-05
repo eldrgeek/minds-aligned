@@ -1,0 +1,16 @@
+{
+  "doi": "10.3389/fpsyt.2013.00047",
+  "doi_url": "https://doi.org/10.3389/fpsyt.2013.00047",
+  "title": "The Computational Anatomy of Psychosis",
+  "year": "2013",
+  "journal": "Frontiers in Psychiatry",
+  "authors": [
+    "Rick A. Adams",
+    "Klaas Ε. Stephan",
+    "Harriet R. Brown",
+    "Chris Frith",
+    "Karl Friston"
+  ],
+  "abstract": "This paper considers psychotic symptoms in terms of false inferences or beliefs. It is based on the notion that the brain is an inference machine that actively constructs hypotheses to explain or predict its sensations. This perspective provides a normative (Bayes-optimal) account of action and perception that emphasizes probabilistic representations; in particular, the confidence or precision of beliefs about the world. We will consider hallucinosis, abnormal eye movements, sensory attenuation deficits, catatonia, and delusions as various expressions of the same core pathology: namely, an aberrant encoding of precision. From a cognitive perspective, this represents a pernicious failure of metacognition (beliefs about beliefs) that can confound perceptual inference. In the embodied setting of active (Bayesian) inference, it can lead to behaviors that are paradoxically more accurate than Bayes-optimal behavior. Crucially, this normative account is accompanied by a neuronally plausible process theory based upon hierarchical predictive coding. In predictive coding, precision is thought to be encoded by the post-synaptic gain of neurons reporting prediction error. This suggests that both pervasive trait abnormalities and florid failures of inference in the psychotic state can be linked to factors controlling post-synaptic gain - such as NMDA receptor function and (dopaminergic) neuromodulation. We illustrate these points using biologically plausible simulations of perceptual synthesis, smooth pursuit eye movements and attribution of agency - that all use the same predictive coding scheme and pathology: namely, a reduction in the precision of prior beliefs, relative to sensory evidence.",
+  "link": "https://doi.org/10.3389/fpsyt.2013.00047"
+}

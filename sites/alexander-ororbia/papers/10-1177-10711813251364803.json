@@ -1,0 +1,15 @@
+{
+  "doi": "10.1177/10711813251364803",
+  "doi_url": "https://doi.org/10.1177/10711813251364803",
+  "title": "A Neural Hypervector Model of Memory-Driven Spatial Navigation",
+  "year": 2025,
+  "journal": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+  "authors": [
+    "William Gebhardt",
+    "Jamison Heard",
+    "Alexander G. Ororbia",
+    "Esa M. Rantanen"
+  ],
+  "abstract": "In this study, we develop an experimental environment for studying human spatial awareness and memory as well as a neuro-computational connectionist model based on hyperdimensional computing, useful for modeling participants’ ability to store and recall stimuli. A qualitative comparison between the proposed model’s confidence, in which it recalls past stimuli, and a participant’s performance in recalling the same past stimuli, was conducted. The results demonstrate that the proposed memory model shows promise for modeling participant performance fall-off, offering a potentially useful tool for neuroergonomics research.",
+  "link": "https://doi.org/10.1177/10711813251364803"
+}

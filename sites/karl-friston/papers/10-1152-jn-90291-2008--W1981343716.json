@@ -1,0 +1,15 @@
+{
+  "doi": "10.1152/jn.90291.2008",
+  "doi_url": "https://doi.org/10.1152/jn.90291.2008",
+  "title": "Dynamic Causal Modeling of the Response to Frequency Deviants",
+  "year": "2009",
+  "journal": "Journal of Neurophysiology",
+  "authors": [
+    "Marta I. Garrido",
+    "James M. Kilner",
+    "Stefan J. Kiebel",
+    "Karl Friston"
+  ],
+  "abstract": "This article describes the use of dynamic causal modeling to test hypotheses about the genesis of evoked responses. Specifically, we consider the mismatch negativity (MMN), a well-characterized response to deviant sounds and one of the most widely studied evoked responses. There have been several mechanistic accounts of how the MMN might arise. It has been suggested that the MMN results from a comparison between sensory input and a memory trace of previous input, although others have argued that local adaptation, due to stimulus repetition, is sufficient to explain the MMN. Thus the precise mechanisms underlying the generation of the MMN remain unclear. This study tests some biologically plausible spatiotemporal dipole models that rest on changes in extrinsic top-down connections (that enable comparison) and intrinsic changes (that model adaptation). Dynamic causal modeling suggested that responses to deviants are best explained by changes in effective connectivity both within and between cortical sources in a hierarchical network of distributed sources. Our model comparison suggests that both adaptation and memory comparison operate in concert to produce the early (N1 enhancement) and late (MMN) parts of the response to frequency deviants. We consider these mechanisms in the light of predictive coding and hierarchical inference in the brain.",
+  "link": "https://doi.org/10.1152/jn.90291.2008"
+}

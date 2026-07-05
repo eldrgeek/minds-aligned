@@ -1,0 +1,23 @@
+{
+  "doi": "10.1038/s41598-018-26803-9",
+  "doi_url": "https://doi.org/10.1038/s41598-018-26803-9",
+  "title": "A robust ex vivo experimental platform for molecular-genetic dissection of adult human neocortical cell types and circuits",
+  "year": 2018,
+  "journal": "Scientific Reports",
+  "authors": [
+    "Jonathan T. Ting",
+    "Brian Kalmbach",
+    "Peter Chong",
+    "Rebecca de Frates",
+    "C. Dirk Keene",
+    "Ryder P. Gwinn",
+    "Charles Cobbs",
+    "Andrew L. Ko",
+    "Jeffrey G. Ojemann",
+    "Richard G. Ellenbogen",
+    "Christof Koch",
+    "Ed S. Lein"
+  ],
+  "abstract": "The powerful suite of available genetic tools is driving tremendous progress in understanding mouse brain cell types and circuits. However, the degree of conservation in human remains largely unknown in large part due to the lack of such tools and healthy tissue preparations. To close this gap, we describe a robust and stable adult human neurosurgically-derived ex vivo acute and cultured neocortical brain slice system optimized for rapid molecular-genetic manipulation. Surprisingly, acute human brain slices exhibited exceptional viability, and neuronal intrinsic membrane properties could be assayed for at least three days. Maintaining adult human slices in culture under sterile conditions further enabled the application of viral tools to drive rapid expression of exogenous transgenes. Widespread neuron-specific labeling was achieved as early as two days post infection with HSV-1 vectors, with virally-transduced neurons exhibiting membrane properties largely comparable to uninfected neurons over this short timeframe. Finally, we demonstrate the suitability of this culture paradigm for optical manipulation and monitoring of neuronal activity using genetically encoded probes, opening a path for applying modern molecular-genetic tools to study human brain circuit function.",
+  "link": "https://doi.org/10.1038/s41598-018-26803-9"
+}

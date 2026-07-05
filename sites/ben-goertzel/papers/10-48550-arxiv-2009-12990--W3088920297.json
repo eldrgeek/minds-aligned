@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2009.12990",
+  "doi_url": "https://doi.org/10.48550/arxiv.2009.12990",
+  "title": "Uncertain Linear Logic via Fibring of Probabilistic and Fuzzy Logic",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "Beginning with a simple semantics for propositions, based on counting observations, it is shown that probabilistic and fuzzy logic correspond to two different heuristic assumptions regarding the combination of propositions whose evidence bases are not currently available. These two different heuristic assumptions lead to two different sets of formulas for propagating quantitative truth values through lattice operations. It is shown that these two sets of formulas provide a natural grounding for the multiplicative and additive operator-sets in linear logic. The standard rules of linear logic then emerge as consequences of the underlying semantics. The concept of linear logic as a ``logic of resources\" is manifested here via the principle of ``conservation of evidence\" -- the restrictions to weakening and contraction in linear logic serve to avoid double-counting of evidence (beyond any double-counting incurred via use of heuristic truth value functions).",
+  "link": "https://doi.org/10.48550/arxiv.2009.12990"
+}

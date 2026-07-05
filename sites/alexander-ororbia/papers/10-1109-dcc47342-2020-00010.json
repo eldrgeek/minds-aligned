@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/dcc47342.2020.00010",
+  "doi_url": "https://doi.org/10.1109/dcc47342.2020.00010",
+  "title": "The Sibling Neural Estimator: Improving Iterative Image Decoding with Gradient Communication",
+  "year": 2020,
+  "journal": null,
+  "authors": [
+    "Ankur Mali",
+    "Alexander G. Ororbia",
+    "C. Lee Giles"
+  ],
+  "abstract": "For lossy image compression, we develop a neural-based system which learns a nonlinear estimator for decoding from quantized representations. The system links two recurrent networks that \"help\" each other reconstruct the same target image patches using complementary portions of the spatial context, communicating with each other via gradient signals. This dual agent system builds upon prior work that proposed an iterative refinement algorithm for recurrent neural network (RNN) based decoding. Our approach works with any neural or non-neural encoder. Our system progressively reduces image patch reconstruction error over a fixed number of steps. Experiments with variations of RNN memory cells show that our system consistently creates lower distortion images of higher perceptual quality compared to other approaches. Specifically, on the Kodak Lossless True Color Image Suite, we observe gains of 1:64 decibel (dB) over JPEG, a 1:46 dB over JPEG2000, a 1:34 dB over the GOOG neural baseline, 0:36 over E2E (a modern competitive neural compression model), and 0:37 over a single iterative neural decoder.",
+  "link": "https://doi.org/10.1109/dcc47342.2020.00010"
+}

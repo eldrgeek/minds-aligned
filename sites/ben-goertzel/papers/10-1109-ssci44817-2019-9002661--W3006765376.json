@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/ssci44817.2019.9002661",
+  "doi_url": "https://doi.org/10.1109/ssci44817.2019.9002661",
+  "title": "Maximal Algorithmic Caliber and Algorithmic Causal Network Inference: General Principles of Real-World General Intelligenceƒ",
+  "year": "2019",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "Ideas and formalisms from far-from-equilibrium thermodynamics are ported to the context of stochastic computational processes, via following and extending Tadaki's algorithmic thermodynamics. A Principle of Maximum Algorithmic Caliber is proposed, providing guidance as to what computational processes one should hypothesize if one is provided constraints to work within. It is conjectured that, under suitable assumptions, computational processes obeying algorithmic Markov conditions will maximize algorithmic caliber. It is proposed that in accordance with this, real-world cognitive systems may operate in substantial part by modeling their environments and choosing their actions to be (approximate and compactly represented) algorithmic Markov networks. These ideas are suggested as potential early steps toward a general theory of the operation of pragmatic generally intelligent systems.",
+  "link": "https://doi.org/10.1109/ssci44817.2019.9002661"
+}

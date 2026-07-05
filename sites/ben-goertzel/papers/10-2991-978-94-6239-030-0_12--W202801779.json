@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_12",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_12",
+  "title": "Procedure Learning as Program Learning",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "Broadly speaking, the learning of predicates and schemata (executable procedures) is done in CogPrime via a number of different methods, including for example PLN inference and concept predicatization (to be discussed in later chapters). Most of these methods, however, merely extrapolate procedures directly from other procedures or concepts in the AtomSpace, in a local way—a new procedure is derived from a small number of other procedures or concepts.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_12"
+}

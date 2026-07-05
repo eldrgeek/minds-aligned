@@ -1,0 +1,14 @@
+{
+  "doi": "10.1002/hbm.460010108",
+  "doi_url": "https://doi.org/10.1002/hbm.460010108",
+  "title": "Time‐dependent changes in effective connectivity measured with PET",
+  "year": "1993",
+  "journal": "Human Brain Mapping",
+  "authors": [
+    "Karl Friston",
+    "Chris Frith",
+    "R. S. J. Frackowiak"
+  ],
+  "abstract": "Abstract A voxel‐based method of measuring the effective connectivity between brain regions is presented. The approach is based on electrophysiological concepts and is applied to neurophysiological data obtained with [positron emission tomography (PET)] functional imaging. Time‐dependent changes in effective connectivity were assessed during a verbal fluency activation paradigm using 12 consecutive measurements of regional cerebral blood flow (rCBF). The changes observed were predicted by an associative (Hebbian) model of plasticity, applied to cortical activity, measured in terms of rCBF. The main finding was, in most regions, a selective enhancement of effective connections from the distributed brain regions exhibiting the dominant pattern of correlated activity. © 1993 Wiley‐Liss, Inc.",
+  "link": "https://doi.org/10.1002/hbm.460010108"
+}

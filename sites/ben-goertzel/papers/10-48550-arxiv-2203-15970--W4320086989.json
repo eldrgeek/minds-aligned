@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2203.15970",
+  "doi_url": "https://doi.org/10.48550/arxiv.2203.15970",
+  "title": "A meta-probabilistic-programming language for bisimulation of probabilistic and non-well-founded type systems",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Jonathan Warrell",
+    "А. В. Потапов",
+    "Adam Vandervorst",
+    "Ben Goertzel"
+  ],
+  "abstract": "We introduce a formal meta-language for probabilistic programming, capable of expressing both programs and the type systems in which they are embedded. We are motivated here by the desire to allow an AGI to learn not only relevant knowledge (programs/proofs), but also appropriate ways of reasoning (logics/type systems). We draw on the frameworks of cubical type theory and dependent typed metagraphs to formalize our approach. In doing so, we show that specific constructions within the meta-language can be related via bisimulation (implying path equivalence) to the type systems they correspond. This allows our approach to provide a convenient means of deriving synthetic denotational semantics for various type systems. Particularly, we derive bisimulations for pure type systems (PTS), and probabilistic dependent type systems (PDTS). We discuss further the relationship of PTS to non-well-founded set theory, and demonstrate the feasibility of our approach with an implementation of a bisimulation proof in a Guarded Cubical Type Theory type checker.",
+  "link": "https://doi.org/10.48550/arxiv.2203.15970"
+}

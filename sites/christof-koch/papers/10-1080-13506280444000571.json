@@ -1,0 +1,15 @@
+{
+  "doi": "10.1080/13506280444000571",
+  "doi_url": "https://doi.org/10.1080/13506280444000571",
+  "title": "Why does natural scene categorization require little attention? Exploring attentional requirements for natural and synthetic stimuli",
+  "year": 2005,
+  "journal": "Visual Cognition",
+  "authors": [
+    "Li Fei-Fei",
+    "Rufin VanRullen",
+    "Christof Koch",
+    "Pietro Perona"
+  ],
+  "abstract": "It was recently demonstrated that detecting target objects (e.g., animals) in natural scenes can be done in a dual-task paradigm, in the near absence of spatial attention. Under the same conditions, subjects were unable to perform apparently simpler tasks involving synthetic stimuli (e.g., discriminating randomly rotated Ts and Ls, or a bisected colour disc and its mirror image). Classical theories predict that attention is more critical for the recognition of complex stimuli that cannot be easily separated on a single feature dimension. Therefore, these puzzling results have raised a number of questions. If it is not the complexity of a stimulus, what then determines the recognition task's attentional requirements? How does this differ between natural and artificial stimuli? What can these observations tell us about the mechanism of natural scene processing as well as its relation to attention? Here we show that removing colour information, or doubling the amount of information to be analysed, failed to make the natural scene categorization tasks significantly more “attention demanding”. Conversely, increasing discriminability or predictability did not diminish the need for attention in the case of synthetic stimuli. However, when the familiar letters, such as Ts or Ls, were presented upright, full attention was no longer required for discrimination. This suggests that familiarity and meaningfulness might be among the factors that determine attentional requirements for both natural and synthetic stimuli.",
+  "link": "https://doi.org/10.1080/13506280444000571"
+}

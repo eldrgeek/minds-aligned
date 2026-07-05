@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Indra: Emergent Ontologies from Text for Feeding Data to Simulations",
+  "year": "2010",
+  "journal": null,
+  "authors": [
+    "Nicholas E. Stone",
+    "J. Venuto",
+    "Ben Goertzel",
+    "Deborah Duong"
+  ],
+  "abstract": "One of the major differences between irregular warfare (IW) simulation and conventional warfare simulation is the differing data requirements. The data required by conventional warfare simulation is very narrow and well defined compared to that required by IW simulation. In fact, almost any data that is remotely related to social conditions on the Internet and beyond may be used in IW simulation. There is no problem with the existence of data for simulations in this information age. The problem is that this data is not expressed in a way that can be used for simulations. This paper is about a natural language processing program, Indra, which works towards solving this problem by making data available for multiple purposes other than those for which it was first intended.",
+  "link": "https://openalex.org/W862437607"
+}

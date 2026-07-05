@@ -1,0 +1,16 @@
+{
+  "doi": "10.1523/jneurosci.2101-06.2006",
+  "doi_url": "https://doi.org/10.1523/jneurosci.2101-06.2006",
+  "title": "Sparse Representation in the Human Medial Temporal Lobe",
+  "year": 2006,
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "S. Waydo",
+    "Alexander Kraskov",
+    "Rodrigo Quian Quiroga",
+    "Itzhak Fried",
+    "Christof Koch"
+  ],
+  "abstract": "Recent experiments characterized individual neurons in the human medial temporal lobe with remarkably selective, invariant, and explicit responses to images of famous individuals or landmark buildings. Here, we used a probabilistic analysis to show that these data are consistent with a sparse code in which neurons respond in a selective manner to a small fraction of stimuli.",
+  "link": "https://doi.org/10.1523/jneurosci.2101-06.2006"
+}

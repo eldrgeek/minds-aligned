@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2606.05411",
+  "doi_url": "https://doi.org/10.48550/arxiv.2606.05411",
+  "title": "A Motivational Architecture for Conversational AGI",
+  "year": "2026",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Anna Mikeda",
+    "Ben Goertzel"
+  ],
+  "abstract": "Motivational architectures in cognitive AI have largely been designed for physical agents regulating bodily needs. Conversational agents operate in a different regime: their sensorimotor loop is linguistic, their environment is a user's evolving mental state, and their consequential actions are speech acts, tool invocations, and strategic silences. This paper proposes a conversational reinterpretation of the OpenPsi motivational lineage, coupled to MetaMo's higher-level motivational scaffold, for agents built on a modular execution substrate. Homeostasis is recast in dialogue-native terms: the agent regulates competence, uncertainty reduction, affiliation, affinity, legitimacy, nurturing, and aesthetic coherence rather than bodily deficits. We propose three contributions: a ten-stage motivational processing pipeline that architecturally separates cognitive modulation from situational appraisal; a dual decision strategy blending urgency-driven fast response with deliberative multi-goal optimization; and an architecturally useful distinction between pre-action feelings and post-action emotions as functionally different forms of affect. We specialize the framework to two example agents -- CompanionAgent and ResearchAgent -- and sketch its extension to social robotics and domain-generic human-level AGI.",
+  "link": "https://doi.org/10.48550/arxiv.2606.05411"
+}

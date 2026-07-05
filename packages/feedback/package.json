@@ -1,0 +1,13 @@
+{
+  "name": "@soma/feedback",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./components": "./src/components/index.ts"
+  },
+  "dependencies": {
+    "astro": "^4.16.0"
+  }
+}

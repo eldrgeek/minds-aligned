@@ -1,0 +1,22 @@
+{
+  "slug": "alexander-ororbia",
+  "name": "Alexander G. Ororbia",
+  "shortName": "Alexander Ororbia",
+  "tagline": "Publication archive and grounded AI guide for Alexander Ororbia — predictive coding, neuromimetic learning, and brain-inspired AI.",
+  "bio": "Alexander G. Ororbia is a computer scientist at the Rochester Institute of Technology, where he directs the Neural Adaptive Computing (NAC) Laboratory. His research develops brain-inspired learning algorithms beyond backpropagation, including predictive coding, neuromimetic and biologically plausible credit assignment, active inference, and continual/lifelong learning.",
+  "bioLinks": [
+    {
+      "label": "RIT NAC Lab",
+      "url": "https://www.cs.rit.edu/~ago/nac_lab.html"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=IN8Eg4AAAAJ"
+    }
+  ],
+  "personaId": "ororbia",
+  "personaName": "Ororbia Guide",
+  "personaAvatar": "🧬",
+  "personaGreeting": "I'm an AI guide grounded in Alexander G. Ororbia's published work — predictive coding, neuromimetic learning, active inference, and brain-inspired AI. I'm not Alexander Ororbia myself, but I can help you navigate the corpus and the ideas this research introduced.",
+  "guideConfigFile": "alexander-ororbia-guide-config.js"
+}

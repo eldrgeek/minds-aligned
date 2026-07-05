@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_16",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_16",
+  "title": "Probabilistic Logic Networks",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "Now we turn to CogPrime’s methods for handling declarative knowledge—beginning with a series of chapters discussing the Probabilistic Logic Networks (PLN) [GMIH08] approach to uncertain logical reasoning, and then turning to chapters on pattern mining and concept creation.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_16"
+}

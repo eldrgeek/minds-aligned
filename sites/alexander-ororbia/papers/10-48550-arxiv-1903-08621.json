@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1903.08621",
+  "doi_url": "https://doi.org/10.48550/arxiv.1903.08621",
+  "title": "Column2Vec: Structural Understanding via Distributed Representations of\\n Database Schemas",
+  "year": 2019,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Michael J. Mior",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "We present Column2Vec, a distributed representation of database columns based\\non column metadata. Our distributed representation has several applications.\\nUsing known names for groups of columns (i.e., a table name), we train a model\\nto generate an appropriate name for columns in an unnamed table. We demonstrate\\nthe viability of our approach using schema information collected from open\\nsource applications on GitHub.\\n",
+  "link": "http://arxiv.org/abs/1903.08621"
+}

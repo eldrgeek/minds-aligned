@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2211.10419",
+  "doi_url": "https://doi.org/10.48550/arxiv.2211.10419",
+  "title": "A Neural Active Inference Model of Perceptual-Motor Learning",
+  "year": 2022,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Zhizhuo Yang",
+    "Gabriel J. Diaz",
+    "Brett R. Fajen",
+    "Reynold Bailey",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "The active inference framework (AIF) is a promising new computational framework grounded in contemporary neuroscience that can produce human-like behavior through reward-based learning. In this study, we test the ability for the AIF to capture the role of anticipation in the visual guidance of action in humans through the systematic investigation of a visual-motor task that has been well-explored -- that of intercepting a target moving over a ground plane. Previous research demonstrated that humans performing this task resorted to anticipatory changes in speed intended to compensate for semi-predictable changes in target speed later in the approach. To capture this behavior, our proposed \"neural\" AIF agent uses artificial neural networks to select actions on the basis of a very short term prediction of the information about the task environment that these actions would reveal along with a long-term estimate of the resulting cumulative expected free energy. Systematic variation revealed that anticipatory behavior emerged only when required by limitations on the agent's movement capabilities, and only when the agent was able to estimate accumulated free energy over sufficiently long durations into the future. In addition, we present a novel formulation of the prior function that maps a multi-dimensional world-state to a uni-dimensional distribution of free-energy. Together, these results demonstrate the use of AIF as a plausible model of anticipatory visually guided behavior in humans.",
+  "link": "http://arxiv.org/abs/2211.10419"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.3389/fpsyg.2018.00579",
+  "doi_url": "https://doi.org/10.3389/fpsyg.2018.00579",
+  "title": "Am I Self-Conscious? (Or Does Self-Organization Entail Self-Consciousness?)",
+  "year": "2018",
+  "journal": "Frontiers in Psychology",
+  "authors": [
+    "Karl Friston"
+  ],
+  "abstract": "Is self-consciousness necessary for consciousness? The answer is yes. So there you have it – the answer is yes. This was my response to a question I was asked to address in a recent AEON piece (https://aeon.co/essays/consciousness-is-not-a-thing-but-a-process-of-inference). What follows is based upon the notes for that essay, with a special focus on self-organisation, self-evidencing and self-modelling. I will try to substantiate my (polemic) answer from the perspective of a physicist. In brief, the argument goes as follows: if we want to talk about creatures, like ourselves, then we have to identify the characteristic behaviours they must exhibit. This is fairly easy to do by noting that living systems return to a set of attracting states time and time again. Mathematically, this implies the existence of a Lyapunov function that turns out to be model evidence (i.e., self-evidence) in Bayesian statistics or surprise (i.e., self-information) in information theory. This means that all biological processes can be construed as performing some form of inference, from evolution through to conscious processing. If this is the case, at what point do we invoke consciousness? The proposal on offer here is that the mind comes into being when self-evidencing has a temporal thickness or counterfactual depth, which grounds inferences about the consequences of my action. On this view, consciousness is nothing more than inference about my future; namely, the self-evidencing consequences of what I could do.",
+  "link": "https://doi.org/10.3389/fpsyg.2018.00579"
+}

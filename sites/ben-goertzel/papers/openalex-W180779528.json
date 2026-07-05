@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Application of MUTIC to the exploration of gene expression data in prostate cancer.",
+  "year": "2007",
+  "journal": "PubMed",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Leandro dos Santos Coelho",
+    "M A Mudado"
+  ],
+  "abstract": "We show here an example of the application of a novel method, MUTIC (model utilization-based clustering), used for identifying complex interactions between genes or gene categories based on gene expression data. The method deals with binary categorical data which consist of a set of gene expression profiles divided into two biologically meaningful categories. It does not require data from multiple time points. Gene expression profiles are represented by feature vectors whose component features are either gene expression values, or averaged expression values corresponding to gene ontology or protein information resource categories. A supervised learning algorithm (genetic programming) is used to learn an ensemble of classification models distinguishing the two categories based on the feature vectors corresponding to their members. Each feature is associated with a \"model utilization vector\", which has an entry for each high-quality classification model found, indicating whether or not the feature was used in that model. These utilization vectors are then clustered using a variant of hierarchical clustering called Omniclust. The result is a set of model utilization-based clusters, in which features are gathered together if they are often considered together by classification models - which may be because they are co-expressed, or may be for subtler reasons involving multi-gene interactions. The MUTIC method is illustrated here by applying it to a dataset regarding gene expression in prostate cancer and control samples. Compared to traditional expression-based clustering, MUTIC yields clusters that have higher mathematical quality (in the sense of homogeneity and separation) and that also yield novel insights into the underlying biological processes.",
+  "link": "https://openalex.org/W180779528"
+}

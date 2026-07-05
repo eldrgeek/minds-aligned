@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Probabilistic Quantifier Logic for General Intelligence: An Indefinite Probabilities Approach",
+  "year": "2008",
+  "journal": "Artificial General Intelligence",
+  "authors": [
+    "Matthew Iklé",
+    "Ben Goertzel"
+  ],
+  "abstract": "Indefinite probabilities are a novel technique for quantifying uncertainty, which were created as part of the PLN (Probabilistic Logic Networks) logical inference engine, which is a key component of the Novamente Cognition Engine (NCE), an integrative AGI system. Previous papers have discussed the use of indefinite probabilities in the context of a variety of logical inference rules, but have omitted discussion of quantification. Here this gap is filled, and a mathematical procedure is provided allowing the propagation of indefinite probabilities through universal and existential quantifiers, and also through a variety of fuzzy quantifiers corresponding to natural language quantifiers (such as “few”, “many”, “a lot”, “hardly any”, etc.). Proper probabilistic handling of various quantifier transformation rules is also discussed. Together with the ideas in prior publications, and a forthcoming sequel paper on indefinite probabilities for intensional inference, these results allow probabilistic logic based on indefinite probabilities to be utilized for the full scope of inferences involved in intelligent reasoning. To illustrate the ideas and algorithms involved, we give two concrete examples: Halpern's “crooked lottery” predicate, and a commonsense syllogism that uses fuzzy quantifiers together with the standard PLN term logic deduction rule.",
+  "link": "https://openalex.org/W1597031180"
+}

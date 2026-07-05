@@ -1,0 +1,12 @@
+{
+  "doi": "10.1006/cogp.1998.0694",
+  "doi_url": "https://doi.org/10.1006/cogp.1998.0694",
+  "title": "Rethinking Eliminative Connectionism",
+  "year": 1998,
+  "journal": "Cognitive Psychology",
+  "authors": [
+    "Gary Marcus"
+  ],
+  "abstract": "Humans routinely generalize universal relationships to unfamiliar instances. If we are told \"if glork then frum,\" and \"glork,\" we can infer \"frum\"; any name that serves as the subject of a sentence can appear as the object of a sentence. These universals are pervasive in language and reasoning. One account of how they are generalized holds that humans possess mechanisms that manipulate symbols and variables; an alternative account holds that symbol-manipulation can be eliminated from scientific theories in favor of descriptions couched in terms of networks of interconnected nodes. Can these \"eliminative\" connectionist models offer a genuine alternative? This article shows that eliminative connectionist models cannot account for how we extend universals to arbitrary items. The argument runs as follows. First, if these models, as currently conceived, were to extend universals to arbitrary instances, they would have to generalize outside the space of training examples. Next, it is shown that the class of eliminative connectionist models that is currently popular cannot learn to extend universals outside the training space. This limitation might be avoided through the use of an architecture that implements symbol manipulation.",
+  "link": "https://doi.org/10.1006/cogp.1998.0694"
+}

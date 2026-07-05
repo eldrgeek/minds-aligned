@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/ijcnn.2006.246830",
+  "doi_url": "https://doi.org/10.1109/ijcnn.2006.246830",
+  "title": "Accurate SVM Text Classification for Highly Skewed Data Using Threshold Tuning and Query-Expansion-Based Feature Selection",
+  "year": "2006",
+  "journal": "The 2006 IEEE International Joint Conference on Neural Network Proceedings",
+  "authors": [
+    "Ben Goertzel",
+    "J. Venuto"
+  ],
+  "abstract": "A novel technique is described, wherein Support Vector Machines are used to perform relatively effective text categorization based on small numbers of positive examples (fewer than 10 in some cases). It is assumed that in addition to the positive examples a query describing the positive category is given (in the form of a set of key phrases or a sentence). The technique combines two innovations: a special way of altering the SVM score threshold based on looking at the distribution of scores across the training set; and, a method of feature selection that involves retaining only features that display semantic association to the content words in the query (according to a word-association database produced by statistical analysis of a parsed corpus). Examples are given on a number of test cases drawn from the Reuters and FBIS news archives.",
+  "link": "https://doi.org/10.1109/ijcnn.2006.246830"
+}

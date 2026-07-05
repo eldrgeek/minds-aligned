@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2506.05529",
+  "doi_url": "https://doi.org/10.48550/arxiv.2506.05529",
+  "title": "Avoiding Death through Fear Intrinsic Conditioning",
+  "year": 2025,
+  "journal": "ArXiv.org",
+  "authors": [
+    "RC Jiménez Sánchez",
+    "Ferat Sahin",
+    "Alexander G. Ororbia",
+    "Jamison Heard"
+  ],
+  "abstract": "Biological and psychological concepts have inspired reinforcement learning algorithms to create new complex behaviors that expand agents' capacity. These behaviors can be seen in the rise of techniques like goal decomposition, curriculum, and intrinsic rewards, which have paved the way for these complex behaviors. One limitation in evaluating these methods is the requirement for engineered extrinsic for realistic environments. A central challenge in engineering the necessary reward function(s) comes from these environments containing states that carry high negative rewards, but provide no feedback to the agent. Death is one such stimuli that fails to provide direct feedback to the agent. In this work, we introduce an intrinsic reward function inspired by early amygdala development and produce this intrinsic reward through a novel memory-augmented neural network (MANN) architecture. We show how this intrinsic motivation serves to deter exploration of terminal states and results in avoidance behavior similar to fear conditioning observed in animals. Furthermore, we demonstrate how modifying a threshold where the fear response is active produces a range of behaviors that are described under the paradigm of general anxiety disorders (GADs). We demonstrate this behavior in the Miniworld Sidewalk environment, which provides a partially observable Markov decision process (POMDP) and a sparse reward with a non-descriptive terminal condition, i.e., death. In effect, this study results in a biologically-inspired neural architecture and framework for fear conditioning paradigms; we empirically demonstrate avoidance behavior in a constructed agent that is able to solve environments with non-descriptive terminal conditions.",
+  "link": "http://arxiv.org/abs/2506.05529"
+}

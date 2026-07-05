@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/ijcnn.2014.6889662",
+  "doi_url": "https://doi.org/10.1109/ijcnn.2014.6889662",
+  "title": "How might the brain represent complex symbolic knowledge?",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "A novel category of theories is proposed, providing a potential explanation for the representation of complex knowledge in the human (and, more generally, mammalian) brain. Firstly, a \"glocal\" representation for concepts is suggested, involving localized representations in a sparse network of \"concept neurons\" in the Medial Temporal Lobe, coupled with a complex dynamical attractor representation in other parts of cortex. Secondly, it is hypothesized that a combi-natory logic like representation is used to encode abstract relationships without explicit use of variable bindings, perhaps using systematic asynchronization among concept neurons to indicate an analogue of the combinatory-logic operation of function application. While unraveling the specifics of the brain's knowledge representation mechanisms will require data beyond what is currently available, the approach presented here provides a class of possibilities that is neurally plausible and bridges the gap between neurophysiological realities and mathematical and computer science concepts.",
+  "link": "https://doi.org/10.1109/ijcnn.2014.6889662"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-91216-62-6_8",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-62-6_8",
+  "title": "The Architecture of Human-Like General Intelligence",
+  "year": "2012",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Matthew Iklé",
+    "Jared Wigmore"
+  ],
+  "abstract": "By exploring the relationships between different AGI architectures, one can work toward a holistic cognitive model of human-level intelligence. In this vein, here an integrative architecture diagram for human-like general intelligence is proposed, via merging of lightly modified version of prior diagrams including Aaron Sloman’s high-level cognitive model, Stan Franklin and the LIDA group’s model of working memory and the cognitive cycle, Joscha Bach and Dietrich Dorner’s Psi model of motivated action and cognition, James Albus’s three-hierarchy intelligent robotics model, and the author’s prior work on cognitive synergy in deliberative thought and metacognition, along with ideas from deep learning and computational linguistics.",
+  "link": "https://doi.org/10.2991/978-94-91216-62-6_8"
+}

@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+import RosterCard from '../components/RosterCard.astro';
+import { roster, anchors, keynotes, totalCount } from '../data/roster';
+---
+
+<Base 
+  title="Home" 
+  description="Minds Aligned — a living, queryable weave of the thought-streams of the thinkers building toward AGI. AGI-26, San Francisco, 27–30 July 2026."
+>
+
+  <!-- Masthead / Hero -->
+  <section class="bg-navy-deep">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 pt-20 pb-16">
+      <div class="max-w-3xl">
+        <p class="text-xs font-mono font-medium text-accent uppercase tracking-eyebrow mb-4">AGI-26 · San Francisco · 27–30 July 2026</p>
+        <h1 class="font-display text-hero font-bold text-cream leading-[1.05] tracking-tight mb-6">
+          The minds of<br />AGI-26
+        </h1>
+        <p class="text-xl text-body mb-10 leading-relaxed max-w-2xl">
+          A living, queryable weave of the thought-streams of the thinkers building toward AGI.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="#roster" class="inline-flex items-center gap-2 bg-accent text-cream px-6 py-3 rounded text-xs font-mono uppercase tracking-label font-medium hover:bg-accent-hover transition-colors">
+            Explore the roster
+          </a>
+          <a href="/about/" class="inline-flex items-center gap-2 border border-border text-cream px-6 py-3 rounded text-xs font-mono uppercase tracking-label font-medium hover:border-accent/50 hover:text-accent transition-colors">
+            Read the vision
+          </a>
+        </div>
+        <p class="mt-6 text-xs font-mono uppercase tracking-label text-muted">No one is a subject. Every thinker is a co-owner.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision snippet -->
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-14 border-t border-border">
+    <div class="max-w-3xl">
+      <p class="text-body leading-relaxed">
+        Each confirmed thinker at AGI-26 receives a <span class="font-medium text-cream">corpus</span> of their public work, 
+        an <span class="font-medium text-cream">AI community manager</span> trained only on that public record (never an impersonation), 
+        and a dedicated <span class="font-medium text-cream">room</span>. The hub is the crossroads: a place to browse the roster, 
+        enter individual rooms, and — soon — run cross-corpus synthesis and active-inference conversations that span multiple thinkers.
+      </p>
+      <p class="mt-4 text-sm text-muted">
+        This is infrastructure for alignment through genuine multiplicity, not consolidation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Roster Grid -->
+  <section id="roster" class="bg-navy-deep border-t border-border">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-14">
+      <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-8">
+        <div>
+          <h2 class="font-display text-3xl font-bold text-cream">The roster</h2>
+          <p class="text-sm text-muted mt-2">{totalCount} confirmed keynotes at AGI-26</p>
+        </div>
+        <span class="text-[10px] uppercase tracking-label text-muted font-mono">Anchors have live or in-progress spaces</span>
+      </div>
+
+      <!-- Anchors first, prominent -->
+      <div class="mb-10">
+        <div class="text-[10px] uppercase tracking-label font-mono font-medium text-accent mb-4">Anchors — deep corpora &amp; managers live or building</div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {anchors.map(thinker => (
+            <RosterCard thinker={thinker} />
+          ))}
+        </div>
+      </div>
+
+      <!-- Other keynotes -->
+      <div>
+        <div class="text-[10px] uppercase tracking-label font-mono font-medium text-muted mb-4">Confirmed keynotes — pages ready to claim</div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {keynotes.map(thinker => (
+            <RosterCard thinker={thinker} />
+          ))}
+        </div>
+      </div>
+
+      <p class="mt-8 text-xs text-muted">
+        Anchors link to their dedicated spaces (Levinese and Joschese are live examples). Other keynotes: the "Claim your page" button is the co-ownership invitation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Kickstarter teaser -->
+  <section class="bg-cream border-t border-border-light">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-14">
+      <div class="max-w-2xl border border-border-light rounded-2xl p-8 bg-white">
+        <div class="uppercase tracking-label text-accent text-[10px] font-mono font-medium mb-3">Coming soon</div>
+        <h3 class="font-display text-2xl font-bold text-navy mb-4">Kickstarter: Infrastructure for Minds Aligned</h3>
+        <p class="text-navy/70 mb-6 leading-relaxed">
+          Funding the shared index, the cross-corpus synthesis engine, the persistent rooms, and the first wave of manager training and curation tooling so that each thinker retains true ownership of their representation.
+        </p>
+        <a href="#" class="inline-flex items-center text-xs font-mono uppercase tracking-label font-medium text-accent hover:text-accent-deep transition-colors">Join the waitlist for the launch →</a>
+      </div>
+    </div>
+  </section>
+
+</Base>

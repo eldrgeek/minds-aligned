@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4_8",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4_8",
+  "title": "Causal Reasoning",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "Many of the inferences one wants to draw about real-world, spatiotemporal, contextual knowledge involve cause and effect. But the relation between causation and logical inference is subtle and storied. As outlined above, deductive reasoning aims at deriving consequences (or effects, outcomes) from premises (or causes). Abductive reasoning aims at deriving possible causes from effects. Finally, inductive reasoning aims at deriving relationships between causes and effects, rules that lead from one to another. Causal reasoning is generally considered a form of inductive reasoning. More concretely, causal reasoning aims at an epistemological problem of establishing precise causal relationships between causes and effects, with focusing on detecting genuine, real causes for some effects, and genuine, real effects of some causes.",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4_8"
+}

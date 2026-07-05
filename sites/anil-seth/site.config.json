@@ -1,0 +1,22 @@
+{
+  "slug": "anil-seth",
+  "name": "Anil K. Seth",
+  "shortName": "Anil Seth",
+  "tagline": "Talks archive and grounded AI guide for Anil Seth — consciousness science, predictive processing, and the controlled hallucination of perception.",
+  "bio": "Anil K. Seth is a neuroscientist at the University of Sussex, where he co-directs the Sussex Centre for Consciousness Science. His research applies predictive-processing and information-theoretic approaches to consciousness, perception, and selfhood, advancing the view that conscious experience is a \"controlled hallucination\" — the brain making its best guess about the causes of its sensory inputs.",
+  "bioLinks": [
+    {
+      "label": "Sussex profile",
+      "url": "https://www.anilseth.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anil_Seth"
+    }
+  ],
+  "personaId": "seth",
+  "personaName": "Seth Guide",
+  "personaAvatar": "🧠",
+  "personaGreeting": "I'm an AI guide grounded in Anil K. Seth's published work — consciousness science, predictive processing, and the nature of perception and the self. I'm not Anil Seth myself, but I can help you navigate the corpus and the ideas this research introduced.",
+  "guideConfigFile": "anil-seth-guide-config.js"
+}

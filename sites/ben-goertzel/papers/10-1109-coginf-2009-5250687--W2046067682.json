@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/coginf.2009.5250687",
+  "doi_url": "https://doi.org/10.1109/coginf.2009.5250687",
+  "title": "The Embodied Communication Prior: A characterization of general intelligence in the context of Embodied social interaction",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "We outline a general conceptual definition of real-world general intelligence that avoids the twin pitfalls of excessive mathematical generality, and excessive anthropomorphism. Drawing on prior literature, a definition of general intelligence is given, which defines the latter by reference to an assumed measure of the simplicity of goals and environments. The novel contribution presented is to gauge the simplicity of an entity in terms of the ease of communicating it within a community of embodied agents (the so-called embodied communication prior or ECP). Augmented by some further assumptions about the statistical structure of communicated knowledge, this choice is seen to lead to a model of intelligence in terms of distinct but interacting memory and cognitive subsystems dealing with procedural, declarative, sensory/episodic, attentional and intentional knowledge. A sister paper then extends these ideas to yield a \"cognitive synergy theory\" that suggests specific conclusions for the architecture of artificial general intelligences, based on the ECP.",
+  "link": "https://doi.org/10.1109/coginf.2009.5250687"
+}

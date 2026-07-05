@@ -1,0 +1,20 @@
+{
+  "doi": "10.1523/jneurosci.0492-14.2014",
+  "doi_url": "https://doi.org/10.1523/jneurosci.0492-14.2014",
+  "title": "Local Activity Determines Functional Connectivity in the Resting Human Brain: A Simultaneous FDG-PET/fMRI Study",
+  "year": "2014",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Valentin Riedl",
+    "Katarzyna Bienkowska",
+    "Carola Strobel",
+    "Masoud Tahmasian",
+    "Timo Grimmer",
+    "Stefan Förster",
+    "Karl Friston",
+    "Christian Sorg",
+    "Alexander Drzezga"
+  ],
+  "abstract": "Over the last decade, synchronized resting-state fluctuations of blood oxygenation level-dependent (BOLD) signals between remote brain areas [so-called BOLD resting-state functional connectivity (rs-FC)] have gained enormous relevance in systems and clinical neuroscience. However, the neural underpinnings of rs-FC are still incompletely understood. Using simultaneous positron emission tomography/magnetic resonance imaging we here directly investigated the relationship between rs-FC and local neuronal activity in humans. Computational models suggest a mechanistic link between the dynamics of local neuronal activity and the functional coupling among distributed brain regions. Therefore, we hypothesized that the local activity (LA) of a region at rest determines its rs-FC. To test this hypothesis, we simultaneously measured both LA (glucose metabolism) and rs-FC (via synchronized BOLD fluctuations) during conditions of eyes closed or eyes open. During eyes open, LA increased in the visual system, and the salience network (i.e., cingulate and insular cortices) and the pattern of elevated LA coincided almost exactly with the spatial pattern of increased rs-FC. Specifically, the voxelwise regional profile of LA in these areas strongly correlated with the regional pattern of rs-FC among the same regions (e.g., LA in primary visual cortex accounts for ∼ 50%, and LA in anterior cingulate accounts for ∼ 20% of rs-FC with the visual system). These data provide the first direct evidence in humans that local neuronal activity determines BOLD FC at rest. Beyond its relevance for the neuronal basis of coherent BOLD signal fluctuations, our procedure may translate into clinical research particularly to investigate potentially aberrant links between local dynamics and remote functional coupling in patients with neuropsychiatric disorders.",
+  "link": "https://doi.org/10.1523/jneurosci.0492-14.2014"
+}

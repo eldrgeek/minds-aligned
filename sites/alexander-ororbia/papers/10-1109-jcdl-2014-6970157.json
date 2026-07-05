@@ -1,0 +1,22 @@
+{
+  "doi": "10.1109/jcdl.2014.6970157",
+  "doi_url": "https://doi.org/10.1109/jcdl.2014.6970157",
+  "title": "Towards building a scholarly big data platform: Challenges, lessons and opportunities",
+  "year": 2014,
+  "journal": null,
+  "authors": [
+    "Zhaohui Wu",
+    "Jian Wu",
+    "Madian Khabsa",
+    "Kyle Williams",
+    "Hung‐Hsuan Chen",
+    "Wenyi Huang",
+    "Suppawong Tuarob",
+    "Sagnik Ray Choudhury",
+    "Alexander G. Ororbia",
+    "Prasenjit Mitra",
+    "C. Lee Giles"
+  ],
+  "abstract": "We introduce a big data platform that provides various services for harvesting scholarly information and enabling efficient scholarly applications. The core architecture of the platform is built on a secured private cloud, crawls data using a scholarly focused crawler that leverages a dynamic scheduler, processes by utilizing a map reduce based crawl-extraction-ingestion (CEI) workflow, and is stored in distributed repositories and databases. Services such as scholarly data harvesting, information extraction, and user information and log data analytics are integrated into the platform and provided by an OAI and RESTful API. We also introduce a set of scholarly applications built on top of this platform including citation recommendation and collaborator discovery.",
+  "link": "https://doi.org/10.1109/jcdl.2014.6970157"
+}

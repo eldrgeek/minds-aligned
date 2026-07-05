@@ -1,0 +1,13 @@
+{
+  "doi": "10.3389/fncom.2018.00090",
+  "doi_url": "https://doi.org/10.3389/fncom.2018.00090",
+  "title": "The Anatomy of Inference: Generative Models and Brain Structure",
+  "year": "2018",
+  "journal": "Frontiers in Computational Neuroscience",
+  "authors": [
+    "Thomas Parr",
+    "Karl Friston"
+  ],
+  "abstract": "To infer the causes of its sensations, the brain must call on a generative (predictive) model. This necessitates passing local messages between populations of neurons to update beliefs about hidden variables in the world beyond its sensory samples. It also entails inferences about how we will act. Active inference is a principled framework that frames perception and action as approximate Bayesian inference. This has been successful in accounting for a wide range of physiological and behavioral phenomena. Recently, a process theory has emerged that attempts to relate inferences to their neurobiological substrates. In this paper, we review and develop the anatomical aspects of this process theory. We argue that the form of the generative models required for inference constrains the way in which brain regions connect to one another. Specifically, neuronal populations representing beliefs about a variable must receive input from populations representing the Markov blanket of that variable. We illustrate this idea in four different domains: perception, planning, attention, and movement. In doing so, we attempt to show how appealing to generative models enables us to account for anatomical brain architectures. Ultimately, committing to an anatomical theory of inference ensures we can form empirical hypotheses that can be tested using neuroimaging, neuropsychological, and electrophysiological experiments.",
+  "link": "https://doi.org/10.3389/fncom.2018.00090"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.1037/a0026918",
+  "doi_url": "https://doi.org/10.1037/a0026918",
+  "title": "Top-down influence in young children's linguistic ambiguity resolution.",
+  "year": 2012,
+  "journal": "Developmental Psychology",
+  "authors": [
+    "Hugh Rabagliati",
+    "Liina Pylkkänen",
+    "Gary Marcus"
+  ],
+  "abstract": "Language is rife with ambiguity. Do children and adults meet this challenge in similar ways? Recent work suggests that while adults resolve syntactic ambiguities by integrating a variety of cues, children are less sensitive to top-down evidence. We test whether this top-down insensitivity is specific to syntax or a general feature of children's linguistic ambiguity resolution by evaluating whether children rely largely or completely on lexical associations to resolve lexical ambiguities (e.g., the word swing primes the baseball meaning of bat) or additionally integrate top-down global plausibility. Using a picture choice task, we compared 4-year-olds' ability to resolve polysemes and homophones with a Bayesian algorithm reliant purely on lexical associations and found that the algorithm's power to predict children's choices was limited. A 2nd experiment confirmed that children override associations and integrate top-down plausibility. We discuss this with regard to models of psycholinguistic development.",
+  "link": "https://doi.org/10.1037/a0026918"
+}

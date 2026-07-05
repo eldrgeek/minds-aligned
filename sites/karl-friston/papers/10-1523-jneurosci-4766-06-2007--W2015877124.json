@@ -1,0 +1,16 @@
+{
+  "doi": "10.1523/jneurosci.4766-06.2007",
+  "doi_url": "https://doi.org/10.1523/jneurosci.4766-06.2007",
+  "title": "Interhemispheric Integration of Visual Processing during Task-Driven Lateralization",
+  "year": "2007",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Klaas Ε. Stephan",
+    "John C. Marshall",
+    "W.D. Penny",
+    "Karl Friston",
+    "Gereon R. Fink"
+  ],
+  "abstract": "The mechanisms underlying interhemispheric integration (IHI) remain poorly understood, particularly for lateralized cognitive processes. To test competing theories of IHI, we constructed and fitted dynamic causal models to functional magnetic resonance data from two visual tasks that operated on identical stimuli but showed opposite hemispheric dominance. Using a systematic Bayesian model selection procedure, we found that, in the ventral visual stream, which was activated by letter judgments, interhemispheric connections mediated asymmetric information transfer from the nonspecialized right to the specialized left hemisphere when the latter did not have direct access to stimulus information. Notably, this form of IHI did not engage all areas activated by the task but was specific for areas in the lingual and fusiform gyri. In the dorsal stream, activated by spatial judgments, it did not matter which hemisphere received the stimulus: interhemispheric coupling increased bidirectionally, reflecting recruitment of the nonspecialized left hemisphere. Again, not all areas activated by the task were involved in this form of IHI; instead, it was restricted to interactions between areas in the superior parietal gyrus. Overall, our results provide direct neurophysiological evidence, in terms of effective connectivity, for the existence of context-dependent mechanisms of IHI that are implemented by specific visual areas during task-driven lateralization.",
+  "link": "https://doi.org/10.1523/jneurosci.4766-06.2007"
+}

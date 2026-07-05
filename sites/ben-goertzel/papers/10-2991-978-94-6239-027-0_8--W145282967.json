@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-027-0_8",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-027-0_8",
+  "title": "A Formal Model of Intelligent Agents",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "The artificial intelligence field is full of sophisticated mathematical models and equations, but most of these are highly specialized in nature—e.g. formalizations of particular logic systems, analyzes of the dynamics of specific sorts of neural nets, etc. On the other hand, a number of highly general models of intelligent systems also exist, including Hutter’s recent formalization of universal intelligence [Hut05] and a large body of work in the disciplines of systems science and cybernetics—but these have tended not to yield many specific lessons useful for engineering AGI systems, serving more as conceptual models in mathematical form.",
+  "link": "https://doi.org/10.2991/978-94-6239-027-0_8"
+}

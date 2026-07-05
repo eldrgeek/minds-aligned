@@ -1,0 +1,12 @@
+{
+  "doi": "10.1093/oso/9780195104912.001.0001",
+  "doi_url": "https://doi.org/10.1093/oso/9780195104912.001.0001",
+  "title": "Biophysics of Computation",
+  "year": 1998,
+  "journal": "Oxford University Press eBooks",
+  "authors": [
+    "Christof Koch"
+  ],
+  "abstract": "Neural network research often builds on the fiction that neurons are simple linear threshold units, completely neglecting the highly dynamic and complex nature of synapses, dendrites, and voltage-dependent ionic currents. Biophysics of Computation: Information Processing in Single Neurons challenges this notion, using richly detailed experimental and theoretical findings from cellular biophysics to explain the repertoire of computational functions available to single neurons. The author shows how individual nerve cells can multiply, integrate, or delay synaptic inputs and how information can be encoded in the voltage across the membrane, in the intracellular calcium concentration, or in the timing of individual spikes. Key topics covered include the linear cable equation; cable theory as applied to passive dendritic trees and dendritic spines; chemical and electrical synapses and how to treat them from a computational point of view; nonlinear interactions of synaptic input in passive and active dendritic trees; the Hodgkin-Huxley model of action potential generation and propagation; phase space analysis; linking stochastic ionic channels to membrane-dependent currents; calcium and potassium currents and their role in information processing; the role of diffusion, buffering and binding of calcium, and other messenger systems in information processing and storage; short- and long-term models of synaptic plasticity; simplified models of single cells; stochastic aspects of neuronal firing; the nature of the neuronal code; and unconventional models of sub-cellular computation. Biophysics of Computation: Information Processing in Single Neurons serves as an ideal text for advanced undergraduate and graduate courses in cellular biophysics, computational neuroscience, and neural networks, and will appeal to students and professionals in neuroscience, electrical and computer engineering, and physics.",
+  "link": "https://doi.org/10.1093/oso/9780195104912.001.0001"
+}

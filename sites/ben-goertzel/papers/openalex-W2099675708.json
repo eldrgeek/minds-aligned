@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Lifelong forgetting: a critical ingredient of lifelong learning, and its implementation in the opencog integrative AI framework",
+  "year": "2011",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "Your fingers weave quick minarets... Speak in secret al-phabets... I light another cigarette... Learn to forget, learn to forget – Jim Morrison, ”Soul Kitchen” Of all the aspects differentiating lifelong learning from shorter-term, more specialized learning, perhaps none is more central than forgetting – or, to frame the issue more generally and technically, ”memory access speed deprioriti-zation. ” This extended abstract reviews some of the ideas in-volved in forgetting for lifelong learning systems, and briefly discusses the forgetting mechanisms used in the OpenCog integrative cognitive architecture. Defining Forgetting In ordinary human discourse, the word ”forget ” has multiple shades of meaning. It can refer to the irreversible elimination of a certain knowledge item",
+  "link": "https://openalex.org/W2099675708"
+}

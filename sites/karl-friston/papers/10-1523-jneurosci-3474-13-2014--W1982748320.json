@@ -1,0 +1,15 @@
+{
+  "doi": "10.1523/jneurosci.3474-13.2014",
+  "doi_url": "https://doi.org/10.1523/jneurosci.3474-13.2014",
+  "title": "Attentional Modulation of Alpha/Beta and Gamma Oscillations Reflect Functionally Distinct Processes",
+  "year": "2014",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Markus Bauer",
+    "Max‐Philipp Stenner",
+    "Karl Friston",
+    "Raymond J. Dolan"
+  ],
+  "abstract": "The brain adapts to dynamic environments by adjusting the attentional gain or precision afforded to salient and predictable sensory input. Previous research suggests that this involves the regulation of cortical excitability (reflected in prestimulus alpha oscillations) before stimulus onset that modulates subsequent stimulus processing (reflected in stimulus-bound gamma oscillations). We present two spatial attention experiments in humans, where we first replicate the classic finding of prestimulus attentional alpha modulation and poststimulus gamma modulation. In the second experiment, the task-relevant target was a stimulus change that occurred after stimulus onset. This enabled us to show that attentional alpha modulation reflects the predictability (precision) of an upcoming sensory target, rather than an attenuation of alpha activity induced by neuronal excitation related to stimulus onset. In particular, we show that the strength of attentional alpha modulations increases with the predictability of the anticipated sensory target, regardless of current afferent drive. By contrast, we show that the poststimulus attentional gamma enhancement is stimulus-bound and decreases when the subsequent target becomes more predictable. Hence, this pattern suggests that the strength of gamma oscillations is not merely a function of cortical excitability, but also depends on the relative mismatch of predictions and sensory evidence. Together, these findings support recent theoretical proposals for distinct roles of alpha/beta and gamma oscillations in hierarchical perceptual inference and predictive coding.",
+  "link": "https://doi.org/10.1523/jneurosci.3474-13.2014"
+}

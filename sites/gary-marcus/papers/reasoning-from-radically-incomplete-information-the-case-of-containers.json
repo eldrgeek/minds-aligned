@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Reasoning from Radically Incomplete Information: The Case of Containers",
+  "year": 2013,
+  "journal": null,
+  "authors": [
+    "Ernest Davis",
+    "Gary Marcus",
+    "Angelica Chen"
+  ],
+  "abstract": "In physical reasoning, humans are often able to carry out useful reasoning based on radically incomplete information. One physical domain that it is ubiquitous both in everyday interactions and in many kinds of scientific applications, where reasoning from incomplete information is very common, is the interaction of containers and their contents. We have developed a preliminary knowledge base for qualitative reasoning about containers, expressed in a sorted first-order language of time, geometry, objects, histories, and events. We have demonstrated that the knowledge suffices to justify a number of commonsense physical inferences, based on very incomplete knowledge. 1. Physical Reasoning Based on Radically Incomplete Information In physical reasoning, humans, unlike programs for scientific computation, are often able to carry out useful reasoning based on radically incomplete information. If AI systems are to achieve human levels of reasoning, they must likewise have this ability. Extant automated reasoners based on simulation cannot fully address the challenges of radically incomplete information (Davis &amp;amp; Marcus, 2013); rather such challenges require alternative reasoning techniques specifically designed for incomplete information.",
+  "link": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.398.3362"
+}

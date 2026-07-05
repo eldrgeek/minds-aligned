@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-027-0_6",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-027-0_6",
+  "title": "Brief Survey of Cognitive Architectures",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "While we believe CogPrime is the most thorough attempt at an architecture for advanced AGI, to date, we certainly recognize there have been many valuable attempts in the past with similar aims; and we also have great respect for other AGI efforts occurring in parallel with CogPrime development, based on alternative, sometimes overlapping, theoretical presuppositions and practical choices. In most of this book we will ignore these other current and historical efforts except where they are directly useful for CogPrime—there are many literature reviews already published, and this is a research treatise not a textbook. In this chapter, however, we will break from this pattern and give a rough high-level overview of the various AGI architectures at play in the field today. The overview definitely has a bias toward other work with some direct relevance to CogPrime, but not an overwhelming bias; we also discuss a number of approaches that are unrelated to, and even in some cases conceptually orthogonal to, our own.",
+  "link": "https://doi.org/10.2991/978-94-6239-027-0_6"
+}

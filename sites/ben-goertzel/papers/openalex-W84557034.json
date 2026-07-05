@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "OpenCog: A Software Framework for Integrative Artificial General Intelligence",
+  "year": "2008",
+  "journal": "Artificial General Intelligence",
+  "authors": [
+    "David Hart",
+    "Ben Goertzel"
+  ],
+  "abstract": "The OpenCog software development framework, for advancement of the development and testing of powerful and responsible integrative AGI, is described. The OpenCog Framework (OCF) 1.0, to be released in 2008 under the GPLv2, is comprised of a collection of portable libraries for OpenCog applications, plus an initial collection of cognitive algorithms that operate within the OpenCog framework. The OCF libraries include a flexible knowledge representation embodied in a scalable knowledge store, a cognitive process scheduler, and a plug-in architecture for allowing interaction between cognitive, perceptual, and control algorithms.",
+  "link": "https://openalex.org/W84557034"
+}

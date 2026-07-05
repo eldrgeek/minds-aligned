@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1601.07213",
+  "doi_url": "https://doi.org/10.48550/arxiv.1601.07213",
+  "title": "Unifying Adversarial Training Algorithms with Flexible Deep Data Gradient Regularization",
+  "year": 2016,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "C. Lee Giles",
+    "Daniel Kifer"
+  ],
+  "abstract": "Many previous proposals for adversarial training of deep neural nets have included di- rectly modifying the gradient, training on a mix of original and adversarial examples, using contractive penalties, and approximately optimizing constrained adversarial ob- jective functions. In this paper, we show these proposals are actually all instances of optimizing a general, regularized objective we call DataGrad. Our proposed DataGrad framework, which can be viewed as a deep extension of the layerwise contractive au- toencoder penalty, cleanly simplifies prior work and easily allows extensions such as adversarial training with multi-task cues. In our experiments, we find that the deep gra- dient regularization of DataGrad (which also has L1 and L2 flavors of regularization) outperforms alternative forms of regularization, including classical L1, L2, and multi- task, both on the original dataset as well as on adversarial sets. Furthermore, we find that combining multi-task optimization with DataGrad adversarial training results in the most robust performance.",
+  "link": "http://arxiv.org/abs/1601.07213"
+}

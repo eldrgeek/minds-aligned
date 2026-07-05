@@ -1,0 +1,12 @@
+{
+  "doi": "10.1146/annurev.psych.56.091103.070311",
+  "doi_url": "https://doi.org/10.1146/annurev.psych.56.091103.070311",
+  "title": "Models of Brain Function in Neuroimaging",
+  "year": "2004",
+  "journal": "Annual Review of Psychology",
+  "authors": [
+    "Karl Friston"
+  ],
+  "abstract": "Inferences about brain function, using neuroimaging data, rest on models of how the data were caused. These models can be quite diverse, ranging from conceptual models of functional anatomy to nonlinear mathematical models of hemodynamics. However, they all have to be internally consistent because they model the same thing. This consistency encompasses many levels of description and places constraints on the statistical models, adopted for data analysis, and the experimental designs they embody. The aim of this review is to introduce the key models used in imaging neuroscience and how they relate to each other. We start with anatomical models of functional brain architectures, which motivate some of the fundaments of neuroimaging. We then turn to basic statistical models (e.g., the general linear model) used for making classical and Bayesian inferences about where neuronal responses are expressed. By incorporating biophysical constraints, these basic models can be finessed and, in a dynamic setting, rendered causal. This allows us to infer how interactions among brain regions are mediated.",
+  "link": "https://doi.org/10.1146/annurev.psych.56.091103.070311"
+}

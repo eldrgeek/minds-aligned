@@ -1,0 +1,14 @@
+{
+  "doi": "10.1073/pnas.0409172102",
+  "doi_url": "https://doi.org/10.1073/pnas.0409172102",
+  "title": "Attention-driven discrete sampling of motion perception",
+  "year": 2005,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Rufin VanRullen",
+    "Leila Reddy",
+    "Christof Koch"
+  ],
+  "abstract": "In movies or on TV, a wheel can seem to rotate backwards, due to the temporal subsampling inherent in the recording process (the wagon wheel illusion). Surprisingly, this effect has also been reported under continuous light, suggesting that our visual system, too, might sample motion in discrete \"snapshots.\" Recently, these results and their interpretation have been challenged. Here, we investigate the continuous wagon wheel illusion as a form of bistable percept. We observe a strong temporal frequency dependence: the illusion is maximal at alternation rates around 10 Hz but shows no spatial frequency dependence. We introduce an objective method, based on unbalanced counterphase gratings, for measuring this phenomenon and demonstrate that the effect critically depends on attention: the continuous wagon wheel illusion was almost abolished in the absence of focused attention. A motion-energy model, coupled with attention-dependent temporal subsampling of the perceptual stream at rates between 10 and 20 Hz, can quantitatively account for the observed data.",
+  "link": "https://doi.org/10.1073/pnas.0409172102"
+}

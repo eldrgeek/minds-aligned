@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_1",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_1",
+  "title": "The OpenCog Framework",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "The primary burden of this book is to explain the CogPrime architecture for AGI—the broad outline of the design, the main dynamics it’s intended to display once complete, and the reasons why we believe it will be capable of leading to general intelligence at the human level and beyond.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_1"
+}

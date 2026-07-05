@@ -1,0 +1,15 @@
+{
+  "doi": "10.1167/6.10.6",
+  "doi_url": "https://doi.org/10.1167/6.10.6",
+  "title": "Depth of interocular suppression associated with continuous flash suppression, flash suppression, and binocular rivalry",
+  "year": 2006,
+  "journal": "Journal of Vision",
+  "authors": [
+    "Naotsugu Tsuchiya",
+    "Christof Koch",
+    "Lee A. Gilroy",
+    "Randolph Blake"
+  ],
+  "abstract": "When conflicting images are presented to the corresponding regions of the two eyes, only one image may be consciously perceived. In binocular rivalry (BR), two images alternate in phenomenal visibility; even a salient image is eventually suppressed by an image of low saliency. Recently, N. Tsuchiya and C. Koch (2005) reported a technique called continuous flash suppression (CFS), extending the suppression duration more than 10-fold. Here, we investigated the depth of this prolonged form of interocular suppression as well as conventional BR and flash suppression (FS) using a probe detection task. Compared to monocular viewing condition, CFS elevated detection thresholds more than 20-fold, whereas BR did so by 3-fold. In subsequent experiments, we dissected CFS into several components. By manipulating the number and timing of flashes with respect to the probe, we found that the stronger suppression in CFS is not due to summation between BR and FS but is caused by the summation of the suppression due to multiple flashes. Our results support the view that CFS is not a stronger version of BR but is due to the accumulated suppressive effects of multiple flashes.",
+  "link": "https://doi.org/10.1167/6.10.6"
+}

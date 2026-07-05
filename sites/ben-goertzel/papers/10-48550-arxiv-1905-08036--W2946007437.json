@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.1905.08036",
+  "doi_url": "https://doi.org/10.48550/arxiv.1905.08036",
+  "title": "A Reputation System for Multi-Agent Marketplaces",
+  "year": "2019",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Anton Kolonin",
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Deborah Duong",
+    "Matthew Iklé",
+    "Nejc Znidar",
+    "Marco Argentieri"
+  ],
+  "abstract": "We present an exploration of a reputation system based on explicit ratings weighted by the values of corresponding financial transactions from the perspective of its ability to grant \"security\" to market participants by protecting them from scam and \"equity\" in terms of having real qualities of the participants correctly assessed. We present a simulation modeling approach based on the selected reputation system and discuss the results of the simulation.",
+  "link": "https://doi.org/10.48550/arxiv.1905.08036"
+}

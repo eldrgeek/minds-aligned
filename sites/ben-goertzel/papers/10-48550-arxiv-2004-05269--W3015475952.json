@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2004.05269",
+  "doi_url": "https://doi.org/10.48550/arxiv.2004.05269",
+  "title": "Grounding Occam's Razor in a Formal Theory of Simplicity",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "A formal theory of simplicity is introduced, in the context of a \"combinational\" computation model that views computation as comprising the iterated transformational and compositional activity of a population of agents upon each other. Conventional measures of simplicity in terms of algorithmic information etc. are shown to be special cases of a broader understanding of the core \"symmetry\" properties constituting what is defined here as a Compositional Simplicity Measure (CoSM). This theory of CoSMs is extended to a theory of CoSMOS (Combinational Simplicity Measure Operating Sets) which involve multiple simplicity measures utilized together. Given a vector of simplicity measures, an entity is associated not with an individual simplicity value but with a \"simplicity bundles\" of Pareto-optimal simplicity-value vectors. CoSMs and CoSMOS are then used as a foundation for a theory of pattern and multipattern, and a theory of hierarchy and heterarchy in systems of patterns. A formalization of the cognitive-systems notion of a \"coherent dual network\" interweaving hierarchy and heterarchy in a consistent way is presented. The high level end result of this investigation is to re-envision Occam's Razor as something like: When in doubt, prefer hypotheses whose simplicity bundles are Pareto optimal, partly because doing so both permits and benefits from the construction of coherent dual networks comprising coordinated and consistent multipattern hierarchies and heterarchies.",
+  "link": "https://doi.org/10.48550/arxiv.2004.05269"
+}

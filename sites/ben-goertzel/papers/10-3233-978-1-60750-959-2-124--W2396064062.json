@@ -1,0 +1,19 @@
+{
+  "doi": "10.3233/978-1-60750-959-2-124",
+  "doi_url": "https://doi.org/10.3233/978-1-60750-959-2-124",
+  "title": "Integrative General Intelligence for Controlling Game AI in a Minecraft-Like Environment",
+  "year": "2011",
+  "journal": "Frontiers in artificial intelligence and applications",
+  "authors": [
+    "Ben Goertzel",
+    "Joel Pitt",
+    "Zhenhua Cai",
+    "Jared Wigmore",
+    "Deheng Huang",
+    "Nil Geisweiller",
+    "Ruiting Lian",
+    "Gino Yu"
+  ],
+  "abstract": "A current project is briefly described, involving the application of the OpenCog integrative AGI system to control an animated agent in a videogame world inspired by the commercial game Minecraft. Among other purposes the project will provide a means of testing the hypothesis that cognitive synergy among learning mechanisms associated with different types of memory is valuable for embodied, human-like general intelligence.",
+  "link": "https://doi.org/10.3233/978-1-60750-959-2-124"
+}

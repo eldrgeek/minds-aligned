@@ -1,0 +1,19 @@
+{
+  "doi": "10.1101/2021.04.12.21255149",
+  "doi_url": "https://doi.org/10.1101/2021.04.12.21255149",
+  "title": "Clumpiness: Modeling the Impact of Social Dynamics on COVID-19 Spread",
+  "year": "2021",
+  "journal": "medRxiv",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Deborah Duong",
+    "Matthew Iklé",
+    "Michael Duncan",
+    "James Boyd",
+    "André Senna",
+    "Ramon Durães"
+  ],
+  "abstract": "Abstract We present an agent based simulation model configured for exploring the dynamics of disease spread in the context of agents that group together through homophily, the principle of “like attracts like”. To study the properties of this model, we introduce two novel social network inter-connectivity measures, “clumpiness” and “hoprank,” that are the same basic concept defined at global and local levels, respectively. The measures may be computed from samples of readily available demographic data, and are useful for measuring probabilistic packet transmission through social networks. In three studies we apply clumpiness to measure the effects, on COVID-19 transmission, caused by social networks of both homophilic physical proximity and homophilic information replication. The particular characteristic we are interested in about disease transmission is herd immunity, the percentage of a population that has to be immune in order to prevent infection from spreading to those who are not. Two studies demonstrate innovations measuring herd immunity levels and predicting future outbreak locations, procedures relevant to epidemiological control policy. In the first study, we look at how homophilic physical proximity networks form natural bubbles that act as frictive surfaces that affect the speed of transmission of packets and influence herd immunity levels. In the second study, we test clumpiness in homophilic proximity social networks as a predictor of future infection outbreaks at the level of individual schools, restaurants, and workplaces. Our third study demonstrates that protective social bubbles form naturally from homophilic information replication networks, and enhance the natural bubbles that come from the homophilic physical proximity networks. Accurate description of this information environment lays the foundation for epidemiological messaging policy formation.",
+  "link": "https://doi.org/10.1101/2021.04.12.21255149"
+}

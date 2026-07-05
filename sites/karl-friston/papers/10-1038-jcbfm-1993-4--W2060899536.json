@@ -1,0 +1,15 @@
+{
+  "doi": "10.1038/jcbfm.1993.4",
+  "doi_url": "https://doi.org/10.1038/jcbfm.1993.4",
+  "title": "Functional Connectivity: The Principal-Component Analysis of Large (PET) Data Sets",
+  "year": "1993",
+  "journal": "Journal of Cerebral Blood Flow & Metabolism",
+  "authors": [
+    "Karl Friston",
+    "Chris Frith",
+    "Peter F. Liddle",
+    "R. S. J. Frackowiak"
+  ],
+  "abstract": "The distributed brain systems associated with performance of a verbal fluency task were identified in a nondirected correlational analysis of neurophysiological data obtained with positron tomography. This analysis used a recursive principal-component analysis developed specifically for large data sets. This analysis is interpreted in terms of functional connectivity, defined as the temporal correlation of a neurophysiological index measured in different brain areas. The results suggest that the variance in neurophysiological measurements, introduced experimentally, was accounted for by two independent principal components. The first, and considerably larger, highlighted an intentional brain system seen in previous studies of verbal fluency. The second identified a distributed brain system including the anterior cingulate and Wernicke's area that reflected monotonic time effects. We propose that this system has an attentional bias.",
+  "link": "https://doi.org/10.1038/jcbfm.1993.4"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.1146/annurev.ne.10.030187.002401",
+  "doi_url": "https://doi.org/10.1146/annurev.ne.10.030187.002401",
+  "title": "The Analysis of Visual Motion: From Computational Theory to Neuronal Mechanisms",
+  "year": 1987,
+  "journal": "Annual Review of Neuroscience",
+  "authors": [
+    "Ellen C. Hildreth",
+    "Christof Koch"
+  ],
+  "abstract": "The measurement and use of visual motion is one of the most fundamental abilities of biological vision systems, serving many essential functions. For example, a sudden movement in the scene might indicate an approaching predator or a desirable prey. The rapid expansion of features in the visual field can signal an object about to collide with the observer. Discontinuities in motion often occur at the locations of object boundaries and can be used to carve up the scene into distinct objects. Motion signals provide input to centers controlling eye movements, allowing objects of interest to be tracked through the scene. Relative movement can be used to infer the three-dimensional (3-D) structure and motion of object surfaces, and the movement of the observer relative to the scene, allowing biological systems to navigate quickly and efficiently through the environment. More generally, the analysis of visual motion helps us to maintain continuity of our perception of the constantly changing environment around us.",
+  "link": "https://doi.org/10.1146/annurev.ne.10.030187.002401"
+}

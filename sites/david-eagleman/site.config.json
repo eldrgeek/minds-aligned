@@ -1,0 +1,22 @@
+{
+  "slug": "david-eagleman",
+  "name": "David Eagleman",
+  "shortName": "David Eagleman",
+  "tagline": "Talks archive and grounded AI guide for David Eagleman — neuroscience of perception, time, sensory substitution, and brain plasticity.",
+  "bio": "David Eagleman is a neuroscientist at Stanford University and a writer and entrepreneur. His research addresses time perception, synesthesia, sensory substitution, and neuroplasticity (\"livewiring\"), and he is widely known for popularizing neuroscience through books and broadcasting and for building devices that feed new sensory streams to the brain.",
+  "bioLinks": [
+    {
+      "label": "Personal site",
+      "url": "https://eagleman.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/David_Eagleman"
+    }
+  ],
+  "personaId": "eagleman",
+  "personaName": "Eagleman Guide",
+  "personaAvatar": "⚡",
+  "personaGreeting": "I'm an AI guide grounded in David Eagleman's published work — the neuroscience of perception, time, sensory substitution, and brain plasticity. I'm not David Eagleman myself, but I can help you navigate the corpus and the ideas this research introduced.",
+  "guideConfigFile": "david-eagleman-guide-config.js"
+}

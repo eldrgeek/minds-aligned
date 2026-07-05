@@ -1,0 +1,12 @@
+{
+  "doi": "10.31219/osf.io/yw6ua",
+  "doi_url": "https://doi.org/10.31219/osf.io/yw6ua",
+  "title": "Continual Competitive Memory",
+  "year": 2021,
+  "journal": null,
+  "authors": [
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "In this article, we propose a novel form of unsupervised learning that we call continual competitive memory (CCM) as well as a simple framework to unify related neural models that operate under the principles of competition. The resulting neural system, which takes inspiration from adaptive resonance theory, is shown to offer a rather simple yet effective approach for combating catastrophic forgetting in continual classification problems. We compare our approach to several other forms of competitive learning and find that: 1) competitive learning, in general, offers a promising pathway towards acquiring sparse representations that reduce neural cross-talk, and, 2) our proposed variant, the CCM, which is designed with task streams in mind, is needed to prevent the overriding of old information. CCM yields promising results on continual learning benchmarks including Split MNIST and Split NotMNIST.",
+  "link": "https://doi.org/10.31219/osf.io/yw6ua"
+}

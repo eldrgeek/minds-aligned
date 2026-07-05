@@ -1,0 +1,18 @@
+{
+  "doi": "10.1523/jneurosci.23-12-05308.2003",
+  "doi_url": "https://doi.org/10.1523/jneurosci.23-12-05308.2003",
+  "title": "Acute Remapping within the Motor System Induced by Low-Frequency Repetitive Transcranial Magnetic Stimulation",
+  "year": "2003",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Lucy Lee",
+    "Hartwig R. Siebner",
+    "James B. Rowe",
+    "Vincenzo Rizzo",
+    "John C. Rothwell",
+    "R. S. J. Frackowiak",
+    "Karl Friston"
+  ],
+  "abstract": "Repetitive transcranial magnetic stimulation (rTMS) of human primary motor cortex (M1) changes cortical excitability at the site of stimulation and at distant sites without affecting simple motor performance. The aim of this study was to explore how rTMS changes regional excitability and how the motor system compensates for these changes. Using functional brain imaging, activation was mapped at rest and during freely selected finger movements after 30 min of 1 Hz rTMS. rTMS increased synaptic activity in the stimulated left M1 and induced widespread changes in activity throughout areas engaged by the task. In particular, movement-related activity in the premotor cortex of the nonstimulated hemisphere increased after 1 Hz rTMS. Analyses of effective connectivity confirmed that the stimulated part of M1 became less responsive to input from premotor and mesial motor areas. Conversely, after rTMS our results were consistent with increased coupling between an inferomedial portion of left M1 and anterior motor areas. These results are important for three reasons. First, they show changes in motor excitability to central inputs from other cortical areas (as opposed to peripheral or exogenous inputs used in previous studies). Second, they suggest that maintenance of task performance may involve activation of premotor areas contralateral to the site of rTMS, similar to that seen in stroke patients. Third, changes in motor activations at the site of rTMS suggest an rTMS-induced remodeling of motor representations during movement. This remapping may provide a neural substrate for acute compensatory plasticity of the motor system in response to focal lesions such as stroke.",
+  "link": "https://doi.org/10.1523/jneurosci.23-12-05308.2003"
+}

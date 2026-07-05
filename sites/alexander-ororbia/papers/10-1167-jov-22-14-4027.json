@@ -1,0 +1,16 @@
+{
+  "doi": "10.1167/jov.22.14.4027",
+  "doi_url": "https://doi.org/10.1167/jov.22.14.4027",
+  "title": "An active inference model of anticipation in locomotor interception",
+  "year": 2022,
+  "journal": "Journal of Vision",
+  "authors": [
+    "Zhizhuo Yang",
+    "Gabriel J. Diaz",
+    "Brett R. Fajen",
+    "Reynold Bailey",
+    "Alexander G. Ororbia"
+  ],
+  "abstract": "When attempting to intercept a target moving across the ground plane, success is guaranteed if one can maintain the target’s exocentric direction over time, i.e., the constant bearing angle (CBA) strategy. However, this strategy is not well suited for the interception of targets that change speeds or directions in ways that are somewhat predictable. In a previous study, Diaz, Phillips, & Fajen (2007) found that in such contexts, humans act in anticipation of likely changes in target behavior. In the present study, we attempt to capture such anticipatory behavior within a generalization of the active inference framework. Active inference offers a neurobiologically plausible means of conducting reward-based learning through the capacity to predict sensory information. We present a model that selects actions based on expected free energy, which comprises both an instrumental and an epistemic component. This allows the agent to balance the intent to reach the goal with the drive to explore the task environment in search of more efficient solutions. The agent also learns from previous experience how to adapt its speed in anticipation of likely target speed changes. For example, if, on repeated trials, the agent must accelerate to successfully intercept the target after it changes speeds, it learns on subsequent trials to initially move faster than what a CBA strategy would predict. We compared this model’s behavior to the behavior of human subjects in Diaz et al. and found a close correspondence across both behavioral and performance-based measures, as long as the model included a visuomotor delay that was within a biologically plausible range (~150 ms). The model is compatible with Zhao and Warren’s (2015) hybrid hypothesis, according to which behavior that is beyond the scope of traditional on-line control strategies (e.g., that which appears to involve model-based prediction) can be captured by simple heuristics.",
+  "link": "https://doi.org/10.1167/jov.22.14.4027"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "OpenCog NS: A Deeply-Interactive Hybrid Neural-Symbolic Cognitive Architecture Designed for Global/Local Memory Synergy",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Deborah Duong"
+  ],
+  "abstract": "A deeply-interactive hybrid neural-symbolic cognitive architecture is defined as one in which the neural-net and symbolic components interact frequently and dynamically, so that each intervenes significantly in the other&amp;apos;s internal operations, and the two form a combined dynamical system at the time-scale of each component&amp;apos;s individual cognitive operations. An example architecture of this nature that is currently under development is described: OpenCog NS, based on integration of the OpenCog cognitive architecture (which incorporates symbolic, evolutionary and connectionist aspects) with a hierarchical attractor neural network (HANN). In this integrated architecture, the neural and non-neural aspects each play major roles, and the depth of the interconnection is revealed for example in the facts that symbolic reasoning intervenes in the process of attractor formation within the HANN, whereas the HANN plays a major role in guiding the individual steps of logical inference and evolutionary program learning processes.",
+  "link": "https://openalex.org/W2129297081"
+}

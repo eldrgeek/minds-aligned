@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/icde.2007.367906",
+  "doi_url": "https://doi.org/10.1109/icde.2007.367906",
+  "title": "10106Worlds and Beyond: Efficient Representation and Processing of Incomplete Information",
+  "year": 2007,
+  "journal": null,
+  "authors": [
+    "Lyublena Antova",
+    "Christof Koch",
+    "Dan Olteanu"
+  ],
+  "abstract": "We present a decomposition-based approach to managing incomplete information. We introduce world-set decompositions (WSDs), a space-efficient and complete representation system for finite sets of worlds. We study the problem of efficiently evaluating relational algebra queries on world-sets represented by WSDs. We also evaluate our technique experimentally in a large census data scenario and show that it is both scalable and efficient.",
+  "link": "https://doi.org/10.1109/icde.2007.367906"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_27",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_27",
+  "title": "Language Learning via Unsupervised Corpus Analysis",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "The approach taken to NLP in the OpenCog project up through 2013, in practice, has involved engineering and integrating rule-based NLP systems as “scaffolding”, with a view toward later replacing the rule content with alternative content learned via an OpenCog system’s experience.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_27"
+}

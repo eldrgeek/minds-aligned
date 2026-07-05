@@ -1,0 +1,14 @@
+{
+  "doi": "10.1371/journal.pcbi.1003157",
+  "doi_url": "https://doi.org/10.1371/journal.pcbi.1003157",
+  "title": "Information and Efficiency in the Nervous System—A Synthesis",
+  "year": "2013",
+  "journal": "PLoS Computational Biology",
+  "authors": [
+    "Biswa Sengupta",
+    "Martin Stemmler",
+    "Karl Friston"
+  ],
+  "abstract": "In systems biology, questions concerning the molecular and cellular makeup of an organism are of utmost importance, especially when trying to understand how unreliable components--like genetic circuits, biochemical cascades, and ion channels, among others--enable reliable and adaptive behaviour. The repertoire and speed of biological computations are limited by thermodynamic or metabolic constraints: an example can be found in neurons, where fluctuations in biophysical states limit the information they can encode--with almost 20-60% of the total energy allocated for the brain used for signalling purposes, either via action potentials or by synaptic transmission. Here, we consider the imperatives for neurons to optimise computational and metabolic efficiency, wherein benefits and costs trade-off against each other in the context of self-organised and adaptive behaviour. In particular, we try to link information theoretic (variational) and thermodynamic (Helmholtz) free-energy formulations of neuronal processing and show how they are related in a fundamental way through a complexity minimisation lemma.",
+  "link": "https://doi.org/10.1371/journal.pcbi.1003157"
+}

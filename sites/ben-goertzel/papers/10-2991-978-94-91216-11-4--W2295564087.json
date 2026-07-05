@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4",
+  "title": "Real-World Reasoning: Toward Scalable, Uncertain Spatiotemporal, Contextual and Causal Inference",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "The general problem addressed in this book is a large and important one: how to usefully deal with huge storehouses of complex information about real-world situations. Every one of the major modes of interacting with such storehouses - querying, data mining, data analysis - is addressed by current technologies only in very limited and unsatisfactory ways. The impact of a solution to this problem would be huge and pervasive, as the domains of human pursuit to which such storehouses are acutely relevant is numerous and rapidly growing. Finally, we give a more detailed treatment of one potential",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4"
+}

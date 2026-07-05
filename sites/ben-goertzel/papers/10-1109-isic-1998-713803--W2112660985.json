@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/isic.1998.713803",
+  "doi_url": "https://doi.org/10.1109/isic.1998.713803",
+  "title": "Meaning is a fuzzy web of patterns: semiotics/autonomy feedback in the WebMind Internet AI system",
+  "year": "2002",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "In the Webmind network-based self-organizing knowledge management system, symbols are grounded by the genetic-algorithm evolution of automata mapping nonlinguistic data to patterns of linguistic reference associated with symbols. This process is the core of the Webmind system's creation of meaning from its own experience, leading to the philosophical conclusion that, in Webmind at any rate, semiotics supports autonomy via the social creation of self, whereas autonomy supports semiotics by supplying a coherent body of information to serve as raw material for the evolution of symbol groundings.",
+  "link": "https://doi.org/10.1109/isic.1998.713803"
+}

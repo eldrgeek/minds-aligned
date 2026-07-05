@@ -1,0 +1,18 @@
+{
+  "doi": "10.1145/3097983.3098158",
+  "doi_url": "https://doi.org/10.1145/3097983.3098158",
+  "title": "Adversary Resistant Deep Neural Networks with an Application to Malware Detection",
+  "year": 2017,
+  "journal": null,
+  "authors": [
+    "Qinglong Wang",
+    "Wenbo Guo",
+    "Kaixuan Zhang",
+    "Alexander G. Ororbia",
+    "Xinyu Xing",
+    "Xue Liu",
+    "C. Lee Giles"
+  ],
+  "abstract": "Outside the highly publicized victories in the game of Go, there have been numerous successful applications of deep learning in the fields of information retrieval, computer vision, and speech recognition. In cybersecurity, an increasing number of companies have begun exploring the use of deep learning (DL) in a variety of security tasks with malware detection among the more popular. These companies claim that deep neural networks (DNNs) could help turn the tide in the war against malware infection. However, DNNs are vulnerable to adversarial samples, a shortcoming that plagues most, if not all, statistical and machine learning models. Recent research has demonstrated that those with malicious intent can easily circumvent deep learning-powered malware detection by exploiting this weakness.",
+  "link": "https://doi.org/10.1145/3097983.3098158"
+}

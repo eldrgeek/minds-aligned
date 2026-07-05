@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2210.02362",
+  "doi_url": "https://doi.org/10.48550/arxiv.2210.02362",
+  "title": "A Reputation System for Market Security and Equity",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Anton Kolonin",
+    "Deborah Duong",
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Matthew Iklé",
+    "Nejc Znidar",
+    "Marco Argentieri"
+  ],
+  "abstract": "We simulate a reputation system in a market to optimise the balance between market security and market equity. We introduce a method of using a reputation system that will stabilise the distribution of wealth in a market in a fair manner. We also introduce metrics of a modified Gini that takes production quality into account, a way to use a weighted Pearson as a tool to optimise balance.",
+  "link": "https://doi.org/10.48550/arxiv.2210.02362"
+}

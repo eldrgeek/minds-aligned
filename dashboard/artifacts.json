@@ -1,0 +1,44 @@
+[
+  {
+    "id": "hub",
+    "title": "Society of Minds Aligned Hub",
+    "direction": "Roster landing — anchors first, links to thinker subsites.",
+    "url": "https://minds-aligned.netlify.app",
+    "status": "live"
+  },
+  {
+    "id": "michael-levin",
+    "title": "Michael Levin",
+    "direction": "Bioelectric cognition corpus — papers, dictionary, manager stub.",
+    "url": "https://levinese.netlify.app",
+    "status": "live"
+  },
+  {
+    "id": "joscha-bach",
+    "title": "Joscha Bach",
+    "direction": "Cognitive architecture corpus — X threads and papers.",
+    "url": "https://joschese.netlify.app",
+    "status": "live"
+  },
+  {
+    "id": "karl-friston",
+    "title": "Karl Friston",
+    "direction": "Active inference papers — dictionary mined from OpenAlex.",
+    "url": "https://agi26-karl-friston.netlify.app",
+    "status": "live"
+  },
+  {
+    "id": "ben-goertzel",
+    "title": "Ben Goertzel",
+    "direction": "AGI architecture papers — OpenCog and SingularityNET spine.",
+    "url": "https://agi26-ben-goertzel.netlify.app",
+    "status": "live"
+  },
+  {
+    "id": "room",
+    "title": "Multi-Agent Room",
+    "direction": "Representatives in cited conversation — hero demo, not live yet.",
+    "url": null,
+    "status": "placeholder"
+  }
+]

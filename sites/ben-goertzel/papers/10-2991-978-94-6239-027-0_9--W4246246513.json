@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-027-0_9",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-027-0_9",
+  "title": "Cognitive Synergy",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "As we have seen, the formal theory of general intelligence, in its current form, doesn’t really tell us much that’s of use for creating real-world AGI systems. It tells us that creating extraordinarily powerful general intelligence is almost trivial if one has unrealistically huge amounts of computational resources; and that creating moderately powerful general intelligence using feasible computational resources is all about creating AI algorithms and data structures that (explicitly or implicitly) match the restrictions implied by a certain class of situations, to which the general intelligence is biased.",
+  "link": "https://doi.org/10.2991/978-94-6239-027-0_9"
+}

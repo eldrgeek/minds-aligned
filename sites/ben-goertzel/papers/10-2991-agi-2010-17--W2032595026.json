@@ -1,0 +1,12 @@
+{
+  "doi": "10.2991/agi.2010.17",
+  "doi_url": "https://doi.org/10.2991/agi.2010.17",
+  "title": "Toward a Formal Characterization of Real-World General Intelligence",
+  "year": "2010",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "Two new formal definitions of intelligence are presented, the \"pragmatic general intelligence\" and \"efficient pragmatic general intelligence.\" Largely inspired by Legg and Hutter's formal definition of \"universal intelligence,\" the goal of these definitions is to capture a notion of general intelligence that more closely models that possessed by humans and practical AI systems, which combine an element of universality with a certain degree of specialization to particular environments and goals. Pragmatic general intelligence measures the capability of an agent to achieve goals in environments, relative to prior distributions over goal and environment space. Efficient pragmatic general intelligences measures this same capability, but normalized by the amount of computational resources utilized in the course of the goal-achievement. A methodology is described for estimating these theoretical quantities based on observations of a real biological or artificial system operating in a real environment. Finally, a measure of the \"degree of generality\" of an intelligent system is presented, allowing a rigorous distinction between \"general AI\" and \"narrow AI.\"",
+  "link": "https://doi.org/10.2991/agi.2010.17"
+}

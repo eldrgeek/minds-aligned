@@ -1,0 +1,16 @@
+{
+  "doi": "10.1162/089892999563481",
+  "doi_url": "https://doi.org/10.1162/089892999563481",
+  "title": "Delineating Necessary and Sufficient Neural Systems with Functional Imaging Studies of Neuropsychological Patients",
+  "year": "1999",
+  "journal": "Journal of Cognitive Neuroscience",
+  "authors": [
+    "C.J. Price",
+    "Cath Mummery",
+    "C. J. Moore",
+    "R. S. J. Frackowiak",
+    "Karl Friston"
+  ],
+  "abstract": "This paper demonstrates how functional imaging studies of neuropsychological patients can provide a way of determining which areas in a cognitive network are jointly necessary and sufficient. The approach is illustrated with an investigation of the neural system underlying semantic similarity judgments. Functional neuroimaging demonstrates that normal subjects activate left temporal, parietal, and inferior frontal cortices during this task relative to physical size judgments. Neuropsychology demonstrates that damage to the temporal and parietal regions results in semantic deficits, indicating that these areas are necessary for task performance. In contrast, damage to the inferior frontal cortex does not impair task performance, indicating that the inferior frontal cortex might not be necessary. However, there are two other possible accounts of intact performance following frontal lobe damage: (1) there is functional reorganization involving the right frontal cortex and (2) there is peri-infarct activity around the damaged left-hemisphere tissue. Functional imaging of the patient is required to discount these possibilities. We investigated a patient (SW), who was able to associate words and pictures on the basis of semantic relationships despite extensive damage to the left frontal, inferior parietal, and superior temporal cortices. Although SW showed peri-infarct activation in left extrasylvian temporal cortices, no activity was observed in either left or right inferior frontal cortices. These findings demonstrate that activity in extrasylvian temporo-parietal and medial superior frontal regions is sufficient to perform semantic similarity judgments. In contrast, the left inferior frontal activations detected in each control subject appear not to be necessary for task performance. In conclusion, necessary and sufficient brain systems can be delineated by functional imaging or brain-damaged patients who are not functionally impaired.",
+  "link": "https://doi.org/10.1162/089892999563481"
+}

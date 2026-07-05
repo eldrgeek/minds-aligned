@@ -1,0 +1,9 @@
+node_modules/
+scraper/node_modules/
+.env
+.DS_Store
+.netlify
+raw/
+derive/out/
+index/store/
+*.log

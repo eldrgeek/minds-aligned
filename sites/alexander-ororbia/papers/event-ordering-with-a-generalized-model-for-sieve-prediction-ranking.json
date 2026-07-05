@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Event Ordering with a Generalized Model for Sieve Prediction Ranking",
+  "year": 2017,
+  "journal": "International Joint Conference on Natural Language Processing",
+  "authors": [
+    "Bill McDowell",
+    "Nathanael Chambers",
+    "Alexander G. Ororbia",
+    "David Reitter"
+  ],
+  "abstract": "This paper improves on several aspects of a sieve-based event ordering architecture‚ CAEVO (Chambers et al.‚ 2014)‚ which creates globally consistent temporal relations between events and time expressions. First‚ we examine the usage of word embeddings and semantic role features. With the incorporation of these new features‚ we demonstrate a 5% relative F1 gain over our replicated version of CAEVO. Second‚ we reformulate the architecture’s sieve-based inference algorithm as a prediction reranking method that approximately optimizes a scoring function computed using classifier precisions. Within this prediction reranking framework‚ we propose an alternative scoring function‚ showing an 8.8% relative gain over the original CAEVO. We further include an in-depth analysis of one of the main datasets that is used to evaluate temporal classifiers‚ and we show that in spite of the density of this corpus‚ there is still a danger of overfitting. While this paper focuses on temporal ordering‚ its results are applicable to other areas that use sievebased architectures.",
+  "link": "http://dblp.uni-trier.de/db/conf/ijcnlp/ijcnlp2017-1.html#McDowellCOR17"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.2991/978-94-6239-030-0_6",
+  "doi_url": "https://doi.org/10.2991/978-94-6239-030-0_6",
+  "title": "Economic Goal and Action Selection",
+  "year": "2014",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geisweiller"
+  ],
+  "abstract": "A significant portion of CogPrime’s dynamics is explicitly goal-driven—that is, based on trying (inasmuch as possible within the available resources) to figure out which actions will best help the system achieve its goals, given the current context.",
+  "link": "https://doi.org/10.2991/978-94-6239-030-0_6"
+}

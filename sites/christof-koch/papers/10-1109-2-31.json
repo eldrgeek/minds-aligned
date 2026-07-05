@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/2.31",
+  "doi_url": "https://doi.org/10.1109/2.31",
+  "title": "Computing motion using analog and binary resistive networks",
+  "year": 1988,
+  "journal": "Computer",
+  "authors": [
+    "James Hutchinson",
+    "Christof Koch",
+    "Jin Luo",
+    "Carver Mead"
+  ],
+  "abstract": "The authors describe recent developments in the theory of early vision that led from the formulation of the motion problem as an ill-posed one to its solution by minimizing certain 'cost' functions. These cost or energy functions can be mapped onto simple analog and digital resistive networks. The optical flow is computed by injecting currents into resistive networks and recording the resulting stationary voltage distribution at each node. The authors believe that these networks, which they implemented in complementary metal-oxide-semiconductor (CMOS) very-large-scale integrated (VLSI) circuits, represent plausible candidates for biological vision systems.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX>",
+  "link": "https://doi.org/10.1109/2.31"
+}

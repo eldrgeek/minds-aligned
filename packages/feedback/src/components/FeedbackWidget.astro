@@ -1,0 +1,26 @@
+---
+// FeedbackWidget.astro
+// Mounts the canonical soma-feedback widget on a page
+// Usage in any Astro page:
+//   import FeedbackWidget from '@soma/feedback/components'
+//   <FeedbackWidget site="michael-levin" />
+
+interface Props {
+  site: string
+  area?: string
+}
+
+const { site, area = 'content' } = Astro.props
+const googleClientId = '1072944905499-vm2v2i5dvn0a0d2o4ca36i1vge8cvbn0.apps.googleusercontent.com'
+const feedbackEndpoint = 'https://vpsmikewolf.duckdns.org/feedback-svc/feedback'
+---
+
+<link rel="stylesheet" href="/vendor/soma-feedback/soma-feedback.css" />
+<script
+  src="/vendor/soma-feedback/soma-feedback.js"
+  data-site={site}
+  data-endpoint={feedbackEndpoint}
+  data-google-client-id={googleClientId}
+  data-area={area}
+  defer>
+</script>

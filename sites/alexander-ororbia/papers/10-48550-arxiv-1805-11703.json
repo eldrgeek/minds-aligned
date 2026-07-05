@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1805.11703",
+  "doi_url": "https://doi.org/10.48550/arxiv.1805.11703",
+  "title": "Biologically Motivated Algorithms for Propagating Local Target\\n Representations",
+  "year": 2018,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander G. Ororbia",
+    "Ankur Mali"
+  ],
+  "abstract": "Finding biologically plausible alternatives to back-propagation of errors is\\na fundamentally important challenge in artificial neural network research. In\\nthis paper, we propose a learning algorithm called error-driven Local\\nRepresentation Alignment (LRA-E), which has strong connections to predictive\\ncoding, a theory that offers a mechanistic way of describing neurocomputational\\nmachinery. In addition, we propose an improved variant of Difference Target\\nPropagation, another procedure that comes from the same family of algorithms as\\nLRA-E. We compare our procedures to several other biologically-motivated\\nalgorithms, including two feedback alignment algorithms and Equilibrium\\nPropagation. In two benchmarks, we find that both of our proposed algorithms\\nyield stable performance and strong generalization compared to other competing\\nback-propagation alternatives when training deeper, highly nonlinear networks,\\nwith LRA-E performing the best overall.\\n",
+  "link": "http://arxiv.org/abs/1805.11703"
+}

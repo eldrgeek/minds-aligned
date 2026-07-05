@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2605.12504",
+  "doi_url": "https://doi.org/10.48550/arxiv.2605.12504",
+  "title": "Prime Successor Irreducibility: Turing Machine Complexity, Kolmogorov Complexity, and Weakness-Based Formulations",
+  "year": "2026",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ben Goertzel",
+    "Bill Lauritzen"
+  ],
+  "abstract": "We develop conjectures and theorems expressing the idea that the prime sequence exhibits computational irreducibility in the transition from one prime to its successor. Informally, given a prime pp p, no general algorithm can compute the least prime greater than pp p substantially faster than sequentially testing candidates for primality, except possibly on sparse input sets. Our framework proceeds along complementary lines. First, we formalize Prime Successor Irreducibility in a Turing-machine complexity model (PSI-T), asserting lower bounds on running time relative to a sequential baseline. Second, we propose a Kolmogorov-complexity formulation (PSI-K), asserting that typical prime gaps are algorithmically incompressible at their scale; we prove PSI-K(c, $δ$) unconditionally for all fixed c&lt;1 using standard sieve bounds. Third, we develop weakness-based formulations: PSI-W (sparse-set anti-concentration) shows no small menu of gap values captures a noticeable fraction of primes, while PSI-W-LE shows collision probabilities decay and logical entropy tends to 1. These extend to prime constellations and consecutive gap vectors. Finally, a sieve-theoretic framework connects local obstruction patterns to Selberg weakness parameters. The PSI-K and weakness formulations connect irreducibility to classical statistical questions about prime gaps. Using the relationship between Kolmogorov complexity and Shannon entropy, we derive rigorous lower bounds on prime gap entropy in dyadic intervals [X,2X]. Together, these formulations provide a unified complexity-theoretic perspective on the apparent local unpredictability of the prime sequence, without asserting randomness or independence.",
+  "link": "https://doi.org/10.48550/arxiv.2605.12504"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Mirror Neurons, Mirrorhouses, and the Algebraic Structure of the Self",
+  "year": "2008",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Onar Aam",
+    "F. Tony Smith",
+    "Kent D. Palmer"
+  ],
+  "abstract": "Abstract. Recent psychological research suggests that the individual human mind may be effectively modeled as involving a group of interacting social actors: both various subselves representing coherent aspects of personality; and virtual actors embodying “internalizations of others. ” Recent neuroscience research suggests the further hypothesis that these internal actors may in many cases be neurologically associated with collections of mirror neurons. Taking up this theme, we study the mathematical and conceptual structure of sets of inter-observing actors, noting that this structure is mathematically isomorphic to the structure of physical entities called “mirrorhouses.” Mirrorhouses are naturally modeled in terms of abstract algebras such as quaternions and octonions (which also play a central role in physics), which leads to the conclusion that the presence within a single human mind of multiple inter-observing actors naturally gives rise to a mirrorhouse-type cognitive structure and hence to a quaternionic and octonionic algebraic structure as a significant aspect of human intelligence. Similar conclusions would apply to nonhuman intelligences such as AI’s, we suggest, so long as these intelligences included empathic social modeling (and/or other cognitive dynamics leading to the creation of simultaneously active subselves or other internal autonomous actors) as a significant component.",
+  "link": "https://openalex.org/W2128683699"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": "10.1073/pnas.1815129116",
+  "doi_url": "https://doi.org/10.1073/pnas.1815129116",
+  "title": "Effective connectivity changes in LSD-induced altered states of consciousness in humans",
+  "year": "2019",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Katrin H. Preller",
+    "Adeel Razi",
+    "Peter Zeidman",
+    "Philipp Stämpfli",
+    "Karl Friston",
+    "Franz X. Vollenweider"
+  ],
+  "abstract": "Psychedelics exert unique effects on human consciousness. The thalamic filter model suggests that core effects of psychedelics may result from gating deficits, based on a disintegration of information processing within cortico-striato-thalamo-cortical (CSTC) feedback loops. To test this hypothesis, we characterized changes in directed (effective) connectivity between selected CTSC regions after acute administration of lysergic acid diethylamide (LSD), and after pretreatment with Ketanserin (a selective serotonin 2A receptor antagonist) plus LSD in a double-blind, randomized, placebo-controlled, cross-over study in 25 healthy participants. We used spectral dynamic causal modeling (DCM) for resting-state fMRI data. Fully connected DCM models were specified for each treatment condition to investigate the connectivity between the following areas: thalamus, ventral striatum, posterior cingulate cortex, and temporal cortex. Our results confirm major predictions proposed in the CSTC model and provide evidence that LSD alters effective connectivity within CSTC pathways that have been implicated in the gating of sensory and sensorimotor information to the cortex. In particular, LSD increased effective connectivity from the thalamus to the posterior cingulate cortex in a way that depended on serotonin 2A receptor activation, and decreased effective connectivity from the ventral striatum to the thalamus independently of serotonin 2A receptor activation. Together, these results advance our mechanistic understanding of the action of psychedelics in health and disease. This is important for the development of new pharmacological therapeutics and also increases our understanding of the mechanisms underlying the potential clinical efficacy of psychedelics.",
+  "link": "https://doi.org/10.1073/pnas.1815129116"
+}

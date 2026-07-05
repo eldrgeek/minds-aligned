@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4_7",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4_7",
+  "title": "Representing and Reasoning on Contextual Knowledge",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "One of the critical issues confronted in doing logical inference on large spatiotemporal knowledge bases is the fact that most real-world logical relationships are contextual in nature. Contextuality must be explicitly taken into account to make real-world inference tractable. This is one of the issues with which formal-logic-based AI has traditionally had the most difficulty. In this chapter we briefly explore the notion of contextual inference and the key approaches that have been taken.",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4_7"
+}

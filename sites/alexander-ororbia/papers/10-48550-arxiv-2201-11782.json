@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2201.11782",
+  "doi_url": "https://doi.org/10.48550/arxiv.2201.11782",
+  "title": "An Empirical Analysis of Recurrent Learning Algorithms In Neural Lossy Image Compression Systems",
+  "year": 2022,
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ankur Mali",
+    "Alexander G. Ororbia",
+    "Daniel Kifer",
+    "C. Lee Giles"
+  ],
+  "abstract": "Recent advances in deep learning have resulted in image compression algorithms that outperform JPEG and JPEG 2000 on the standard Kodak benchmark. However, they are slow to train (due to backprop-through-time) and, to the best of our knowledge, have not been systematically evaluated on a large variety of datasets. In this paper, we perform the first large-scale comparison of recent state-of-the-art hybrid neural compression algorithms, while exploring the effects of alternative training strategies (when applicable). The hybrid recurrent neural decoder is a former state-of-the-art model (recently overtaken by a Google model) that can be trained using backprop-through-time (BPTT) or with alternative algorithms like sparse attentive backtracking (SAB), unbiased online recurrent optimization (UORO), and real-time recurrent learning (RTRL). We compare these training alternatives along with the Google models (GOOG and E2E) on 6 benchmark datasets. Surprisingly, we found that the model trained with SAB performs better (outperforming even BPTT), resulting in faster convergence and a better peak signal-to-noise ratio.",
+  "link": "http://arxiv.org/abs/2201.11782"
+}

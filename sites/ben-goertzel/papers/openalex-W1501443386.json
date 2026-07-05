@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Stages of Cognitive Development in Uncertain-Logic-Based AI Systems",
+  "year": "2007",
+  "journal": null,
+  "authors": [
+    "Ben Goertzel",
+    "Stephan Vladimir Bugaj"
+  ],
+  "abstract": "A novel theory of stages in cognitive development is presented, loosely corresponding to Piagetan theory but specifically oriented toward AI systems centered on uncertain inference components. Four stages are articulated (infantile, concrete, formal and reflexive), and are characterized both in terms of external cognitive achievements (a la Piaget) and in terms of internal inference control dynamics. The theory is illustrated via the analysis of specific problem solving tasks corresponding to the different stages. The Novamente AI Engine, with its Probabilistic Logic Networks uncertain inference component and its embodiment in the AGI-SIM simulation world, is used as an example throughout. I.",
+  "link": "https://openalex.org/W1501443386"
+}

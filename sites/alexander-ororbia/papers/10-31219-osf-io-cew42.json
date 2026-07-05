@@ -1,0 +1,13 @@
+{
+  "doi": "10.31219/osf.io/cew42",
+  "doi_url": "https://doi.org/10.31219/osf.io/cew42",
+  "title": "CogNGen: Constructing the Kernel of a Hyperdimensional Predictive Processing Cognitive Architecture",
+  "year": 2022,
+  "journal": null,
+  "authors": [
+    "Alexander G. Ororbia",
+    "Matthew A. Kelly"
+  ],
+  "abstract": "We present a new cognitive architecture that combines two neurobiologically plausible, computational models: (1) a variant of predictive processing known as neural generative coding (NGC) and (2) hyperdimensional / vector-symbolic models of human memory. We draw inspiration from well-known cognitive architectures such as ACT-R, Soar, Leabra, and Spaun/Nengo. Our cognitive architecture, the COGnitive Neural GENerative system (CogNGen), is in broad agreement with these architectures, but provides a level of detail between ACT-R's high-level, symbolic description of human cognition and Spaun's low-level neurobiological description. CogNGen creates the groundwork for developing agents that learn continually from diverse tasks and model human performance at larger scales than what is possible with existent cognitive architectures. We aim to develop a cognitive architecture that has the power of modern machine learning techniques while retaining long-term memory, single-trial learning, transfer-learning, planning, and other capacities associated with high-level cognition. We test CogNGen on a set of maze-learning tasks, including mazes that test short-term memory and planning, and find that the addition of vector-symbolic models of memory improves the ability of the NGC reinforcement learning model to master the maze task. Future work includes testing CogNGen on more tasks and exploring methods for efficiently scaling hyperdimensional memory models to lifetime learning.",
+  "link": "https://doi.org/10.31219/osf.io/cew42"
+}

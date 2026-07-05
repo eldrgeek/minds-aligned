@@ -1,0 +1,16 @@
+{
+  "doi": "10.2991/978-94-91216-11-4_15",
+  "doi_url": "https://doi.org/10.2991/978-94-91216-11-4_15",
+  "title": "Adaptive Inference Control",
+  "year": "2011",
+  "journal": "Atlantis thinking machines",
+  "authors": [
+    "Ben Goertzel",
+    "Nil Geisweiller",
+    "Lúcio Coelho",
+    "Predrag Janičić",
+    "Cassio Pennachin"
+  ],
+  "abstract": "As the discussion in the above chapters has hopefully made clear, every one of the tasks involved in logic-based RWR has been carefully approached by computer scientists, using various formalisms and software prototypes. We have produced more fully fleshed-out examples using PLN than other formalisms, because PLN is the inference framework we’re most familiar with and because we believe it most adequately integrates rich uncertainty representations with powerful inference mechanisms; but similar explorations could be produced using other inference formalisms, and of course one could also go into far greater detail than has been done above.",
+  "link": "https://doi.org/10.2991/978-94-91216-11-4_15"
+}

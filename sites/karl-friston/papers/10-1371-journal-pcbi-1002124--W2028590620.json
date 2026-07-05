@@ -1,0 +1,18 @@
+{
+  "doi": "10.1371/journal.pcbi.1002124",
+  "doi_url": "https://doi.org/10.1371/journal.pcbi.1002124",
+  "title": "Alterations in Brain Connectivity Underlying Beta Oscillations in Parkinsonism",
+  "year": "2011",
+  "journal": "PLoS Computational Biology",
+  "authors": [
+    "Rosalyn Moran",
+    "Nicolas Mallet",
+    "Vladimir Litvak",
+    "Raymond J. Dolan",
+    "Peter J. Magill",
+    "Karl Friston",
+    "Peter Brown"
+  ],
+  "abstract": "Cortico-basal ganglia-thalamocortical circuits are severely disrupted by the dopamine depletion of Parkinson's disease (PD), leading to pathologically exaggerated beta oscillations. Abnormal rhythms, found in several circuit nodes are correlated with movement impairments but their neural basis remains unclear. Here, we used dynamic causal modelling (DCM) and the 6-hydroxydopamine-lesioned rat model of PD to examine the effective connectivity underlying these spectral abnormalities. We acquired auto-spectral and cross-spectral measures of beta oscillations (10-35 Hz) from local field potential recordings made simultaneously in the frontal cortex, striatum, external globus pallidus (GPe) and subthalamic nucleus (STN), and used these data to optimise neurobiologically plausible models. Chronic dopamine depletion reorganised the cortico-basal ganglia-thalamocortical circuit, with increased effective connectivity in the pathway from cortex to STN and decreased connectivity from STN to GPe. Moreover, a contribution analysis of the Parkinsonian circuit distinguished between pathogenic and compensatory processes and revealed how effective connectivity along the indirect pathway acquired a strategic importance that underpins beta oscillations. In modelling excessive beta synchrony in PD, these findings provide a novel perspective on how altered connectivity in basal ganglia-thalamocortical circuits reflects a balance between pathogenesis and compensation, and predicts potential new therapeutic targets to overcome dysfunctional oscillations.",
+  "link": "https://doi.org/10.1371/journal.pcbi.1002124"
+}

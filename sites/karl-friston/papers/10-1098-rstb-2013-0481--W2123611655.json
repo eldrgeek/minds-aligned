@@ -1,0 +1,17 @@
+{
+  "doi": "10.1098/rstb.2013.0481",
+  "doi_url": "https://doi.org/10.1098/rstb.2013.0481",
+  "title": "The anatomy of choice: dopamine and decision-making",
+  "year": "2014",
+  "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
+  "authors": [
+    "Karl Friston",
+    "Philipp Schwartenbeck",
+    "Thomas H. B. FitzGerald",
+    "Michael Moutoussis",
+    "Timothy E.J. Behrens",
+    "Raymond J. Dolan"
+  ],
+  "abstract": "This paper considers goal-directed decision-making in terms of embodied or active inference. We associate bounded rationality with approximate Bayesian inference that optimizes a free energy bound on model evidence. Several constructs such as expected utility, exploration or novelty bonuses, softmax choice rules and optimism bias emerge as natural consequences of free energy minimization. Previous accounts of active inference have focused on predictive coding. In this paper, we consider variational Bayes as a scheme that the brain might use for approximate Bayesian inference. This scheme provides formal constraints on the computational anatomy of inference and action, which appear to be remarkably consistent with neuroanatomy. Active inference contextualizes optimal decision theory within embodied inference, where goals become prior beliefs. For example, expected utility theory emerges as a special case of free energy minimization, where the sensitivity or inverse temperature (associated with softmax functions and quantal response equilibria) has a unique and Bayes-optimal solution. Crucially, this sensitivity corresponds to the precision of beliefs about behaviour. The changes in precision during variational updates are remarkably reminiscent of empirical dopaminergic responses-and they may provide a new perspective on the role of dopamine in assimilating reward prediction errors to optimize decision-making.",
+  "link": "https://doi.org/10.1098/rstb.2013.0481"
+}

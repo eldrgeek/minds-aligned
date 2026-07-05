@@ -1,0 +1,15 @@
+{
+  "doi": "10.1073/pnas.88.24.11569",
+  "doi_url": "https://doi.org/10.1073/pnas.88.24.11569",
+  "title": "Synaptic background activity influences spatiotemporal integration in single pyramidal cells.",
+  "year": 1991,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Öjvind Bernander",
+    "Rodney J. Douglas",
+    "Kathleen A. Martin",
+    "Christof Koch"
+  ],
+  "abstract": "The standard one-dimensional Rall cable model assumes that the electrotonic structure of neurons does not change in response to synaptic input. This model is used in a great number of both theoretical and anatomical-physiological structure-function studies. In particular, the membrane time constant, tau m, the somatic input resistance, Rin, and the electrotonic length are used to characterize single cells. However, these studies do not take into account that neurons are embedded in a network of spontaneously active cells. Synapses from these cells will contribute significantly to the membrane conductance, especially if recent evidence of very high specific membrane resistance, Rm = 100 k omega.cm2, is taken into account. We numerically simulated the electrical behavior of an anatomically reconstructed layer V cortical pyramidal cell receiving input from 4000 excitatory and 1000 inhibitory cells firing spontaneously at 0-7 Hz. We found that, over this range of synaptic background activity, tau m and Rin change by a factor of 10 (80-7 msec, 110-14 M omega) and the electrotonic length of the cell changes by a factor of 3. We show that this significantly changes the response of the cell to temporal desynchronized versus temporal synchronized synaptic input distributed throughout the neuron. Thus, the global activity of the network can control how individual cells perform spatial and temporal integration.",
+  "link": "https://doi.org/10.1073/pnas.88.24.11569"
+}

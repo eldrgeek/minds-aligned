@@ -1,0 +1,24 @@
+{
+  "doi": "10.1101/gr.5540007",
+  "doi_url": "https://doi.org/10.1101/gr.5540007",
+  "title": "Butyrate mediates decrease of histone acetylation centered on transcription start sites and down-regulation of associated genes",
+  "year": 2007,
+  "journal": "Genome Research",
+  "authors": [
+    "Álvaro Rada-Iglesias",
+    "Stefan Enroth",
+    "Adam Ameur",
+    "Christof Koch",
+    "Gayle K. Clelland",
+    "Patricia Respuela",
+    "Sarah Wilcox",
+    "Oliver M. Dovey",
+    "Peter Ellis",
+    "Cordelia F. Langford",
+    "Ian Dunham",
+    "Jan Komorowski",
+    "Claes Wadelius"
+  ],
+  "abstract": "Butyrate is a histone deacetylase inhibitor (HDACi) with anti-neoplastic properties, which theoretically reactivates epigenetically silenced genes by increasing global histone acetylation. However, recent studies indicate that a similar number or even more genes are down-regulated than up-regulated by this drug. We treated hepatocarcinoma HepG2 cells with butyrate and characterized the levels of acetylation at DNA-bound histones H3 and H4 by ChIP-chip along the ENCODE regions. In contrast to the global increases of histone acetylation, many genomic regions close to transcription start sites were deacetylated after butyrate exposure. In order to validate these findings, we found that both butyrate and trichostatin A treatment resulted in histone deacetylation at selected regions, while nucleosome loss or changes in histone H3 lysine 4 trimethylation (H3K4me3) did not occur in such locations. Furthermore, similar histone deacetylation events were observed when colon adenocarcinoma HT-29 cells were treated with butyrate. In addition, genes with deacetylated promoters were down-regulated by butyrate, and this was mediated at the transcriptional level by affecting RNA polymerase II (POLR2A) initiation/elongation. Finally, the global increase in acetylated histones was preferentially localized to the nuclear periphery, indicating that it might not be associated to euchromatin. Our results are significant for the evaluation of HDACi as anti-tumourogenic drugs, suggesting that previous models of action might need to be revised, and provides an explanation for the frequently observed repression of many genes during HDACi treatment.",
+  "link": "https://doi.org/10.1101/gr.5540007"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "alison-gopnik",
+  "name": "Alison Gopnik",
+  "shortName": "Alison Gopnik",
+  "tagline": "Talks archive and grounded AI guide for Alison Gopnik — child development, causal learning, and what children teach us about AI.",
+  "bio": "Alison Gopnik is a developmental psychologist and philosopher at the University of California, Berkeley. She is known for pioneering work on how young children learn — causal inference, theory of mind, and the \"theory theory\" of cognitive development — and for connecting childhood learning to questions in artificial intelligence, framing children as the most powerful learning systems we know.",
+  "bioLinks": [
+    {
+      "label": "Berkeley profile",
+      "url": "https://psychology.berkeley.edu/people/alison-gopnik"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alison_Gopnik"
+    }
+  ],
+  "personaId": "gopnik",
+  "personaName": "Gopnik Guide",
+  "personaAvatar": "👶",
+  "personaGreeting": "I'm an AI guide grounded in Alison Gopnik's published work — child development, causal learning, theory of mind, and lessons for AI. I'm not Alison Gopnik myself, but I can help you navigate the corpus and the ideas this research introduced.",
+  "guideConfigFile": "alison-gopnik-guide-config.js"
+}

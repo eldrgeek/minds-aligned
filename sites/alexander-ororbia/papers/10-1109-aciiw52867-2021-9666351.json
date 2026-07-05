@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/aciiw52867.2021.9666351",
+  "doi_url": "https://doi.org/10.1109/aciiw52867.2021.9666351",
+  "title": "Eliciting Confusion in Online Conversational Tasks",
+  "year": 2021,
+  "journal": null,
+  "authors": [
+    "Nikhil Kaushik",
+    "Reynold Bailey",
+    "Alexander G. Ororbia",
+    "Cecilia Ovesdotter Alm"
+  ],
+  "abstract": "Confusion is a complex affective experience that involves both emotional and cognitive components, being less conspicuous than core emotions such as anger or sadness. We discuss an online data collection study designed to elicit confusion in spontaneous conversations across two dialogue tasks. Results from an analysis of the multimodal data (transcribed spoken language and facial expressions) suggest that the tasks induced naturalistic confusion, towards automated confusion recognition.",
+  "link": "https://doi.org/10.1109/aciiw52867.2021.9666351"
+}

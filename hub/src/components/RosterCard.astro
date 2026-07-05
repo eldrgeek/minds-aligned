@@ -1,0 +1,49 @@
+---
+import type { Thinker } from '../data/roster';
+
+export interface Props {
+  thinker: Thinker;
+}
+
+const { thinker } = Astro.props;
+const isAnchor = thinker.tier === 'anchor';
+---
+
+<div class={`group flex flex-col bg-navy-card border border-border rounded-xl p-5 transition-all hover:border-accent/40 ${isAnchor ? 'hover:shadow-[0_0_0_1px_rgba(60,108,221,0.15)]' : ''}`}>
+  <div class="flex items-start justify-between gap-3 mb-3">
+    <div class="flex items-center gap-3">
+      <div class={`w-10 h-10 rounded-lg flex items-center justify-center font-mono text-sm font-medium border ${isAnchor ? 'bg-accent text-cream border-accent' : 'bg-navy-deep text-accent border-border'}`}>
+        {thinker.glyph}
+      </div>
+      <div>
+        <h3 class="font-display text-lg font-bold text-cream group-hover:text-accent transition-colors">{thinker.name}</h3>
+        <p class="text-[10px] font-mono uppercase tracking-label text-muted">{thinker.affiliation}</p>
+      </div>
+    </div>
+    {isAnchor && (
+      <span class="shrink-0 text-[10px] uppercase tracking-label font-mono font-medium px-2 py-0.5 rounded border border-accent/30 text-accent">anchor</span>
+    )}
+  </div>
+
+  {thinker.bio && (
+    <p class="text-sm text-muted leading-snug mb-4 line-clamp-3">{thinker.bio}</p>
+  )}
+
+  {thinker.subsiteUrl ? (
+    <a 
+      href={thinker.subsiteUrl} 
+      target={thinker.subsiteUrl.startsWith('http') ? '_blank' : '_self'}
+      rel={thinker.subsiteUrl.startsWith('http') ? 'noopener' : ''}
+      class="mt-auto inline-flex items-center text-xs font-mono uppercase tracking-label font-medium text-accent hover:text-accent-hover transition-colors"
+    >
+      Visit {thinker.name.split(' ')[0]}'s space →
+    </a>
+  ) : (
+    <a 
+      href={`mailto:claim@societyofminds.org?subject=Claim%20page%20for%20${encodeURIComponent(thinker.name)}`}
+      class="mt-auto inline-flex items-center justify-center text-xs font-mono uppercase tracking-label font-medium border border-accent text-accent hover:bg-accent/10 px-4 py-2 rounded transition-colors"
+    >
+      Claim your page
+    </a>
+  )}
+</div>

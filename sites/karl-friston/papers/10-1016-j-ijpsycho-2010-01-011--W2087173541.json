@@ -1,0 +1,14 @@
+{
+  "doi": "10.1016/j.ijpsycho.2010.01.011",
+  "doi_url": "https://doi.org/10.1016/j.ijpsycho.2010.01.011",
+  "title": "Analytic measures for quantification of arousal from spontaneous skin conductance fluctuations",
+  "year": "2010",
+  "journal": "International Journal of Psychophysiology",
+  "authors": [
+    "Dominik R. Bach",
+    "Karl Friston",
+    "Raymond J. Dolan"
+  ],
+  "abstract": "Autonomic arousal is often indexed by spontaneous fluctuations in skin conductance. Here, we derive a simple measure of sympathetic arousal, using a convolution model of how sudomotor bursting causes fluctuations in skin conductivity. Under this model, the time-integral of measured conductance is proportional to the frequency and amplitude of sudomotor bursts. We demonstrate the validity of this measure in relation to finite impulse response models, and show that it is a better predictor of autonomic arousal, relative to conventional measures.",
+  "link": "https://doi.org/10.1016/j.ijpsycho.2010.01.011"
+}

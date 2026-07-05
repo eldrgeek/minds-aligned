@@ -1,0 +1,17 @@
+{
+  "doi": "10.7554/elife.41703",
+  "doi_url": "https://doi.org/10.7554/elife.41703",
+  "title": "Computational mechanisms of curiosity and goal-directed exploration",
+  "year": "2019",
+  "journal": "eLife",
+  "authors": [
+    "Philipp Schwartenbeck",
+    "Johannes Passecker",
+    "Tobias U. Hauser",
+    "Thomas H. B. FitzGerald",
+    "Martin Kronbichler",
+    "Karl Friston"
+  ],
+  "abstract": "Successful behaviour depends on the right balance between maximising reward and soliciting information about the world. Here, we show how different types of information-gain emerge when casting behaviour as surprise minimisation. We present two distinct mechanisms for goal-directed exploration that express separable profiles of active sampling to reduce uncertainty. 'Hidden state' exploration motivates agents to sample unambiguous observations to accurately infer the (hidden) state of the world. Conversely, 'model parameter' exploration, compels agents to sample outcomes associated with high uncertainty, if they are informative for their representation of the task structure. We illustrate the emergence of these types of information-gain, termed active inference and active learning, and show how these forms of exploration induce distinct patterns of 'Bayes-optimal' behaviour. Our findings provide a computational framework for understanding how distinct levels of uncertainty systematically affect the exploration-exploitation trade-off in decision-making.",
+  "link": "https://doi.org/10.7554/elife.41703"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2602.02530",
+  "doi_url": "https://doi.org/10.48550/arxiv.2602.02530",
+  "title": "Formulating Reinforcement Learning for Human-Robot Collaboration through Off-Policy Evaluation",
+  "year": 2026,
+  "journal": "Open MIND",
+  "authors": [
+    "Saurav Singh",
+    "Rodney Sanchez",
+    "Alexander G. Ororbia",
+    "Jamison Heard"
+  ],
+  "abstract": "Reinforcement learning (RL) has the potential to transform real-world decision-making systems by enabling autonomous agents to learn from experience. Deploying RL in real-world settings, especially in the context of human-robot interaction, requires defining state representations and reward functions, which are critical for learning efficiency and policy performance. Traditional RL approaches often rely on domain expertise and trial-and-error, necessitating extensive human involvement as well as direct interaction with the environment, which can be costly and impractical, especially in complex and safety-critical applications. This work proposes a novel RL framework that leverages off-policy evaluation (OPE) for state space and reward function selection, using only logged interaction data. This approach eliminates the need for real-time access to the environment or human-in-the-loop feedback, greatly reducing the dependency on costly real-time interactions. The proposed approach systematically evaluates multiple candidate state representations and reward functions by training offline RL agents and applying OPE to estimate policy performance. The optimal state space and reward function are selected based on their ability to produce high-performing policies under OPE metrics. Our method is validated on two environments: the Lunar Lander environment by OpenAI Gym, which provides a controlled setting for assessing state space and reward function selection, and a NASA-MATB-II human subjects study environment, which evaluates the approach's real-world applicability to human-robot teaming scenarios. This work enhances the feasibility and scalability of offline RL for real-world environments by automating critical RL design decisions through a data-driven OPE-based evaluation, enabling more reliable, effective, and sustainable RL formulation for complex human-robot interaction settings.",
+  "link": "https://doi.org/10.48550/arxiv.2602.02530"
+}

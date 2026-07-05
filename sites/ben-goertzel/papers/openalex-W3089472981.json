@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Novamente: An Integrative Architecture for General Intelligence.",
+  "year": "2004",
+  "journal": null,
+  "authors": [
+    "Moshe Looks",
+    "Ben Goertzel",
+    "Cassio Pennachin"
+  ],
+  "abstract": "The Novamente AI Engine is briefly reviewed. The overall architecture is unique, drawing on system-theoretic ideas regarding complex mental dynamics and associated emergent patterns. We describe how these are facilitated by a novel knowledge representation which allows diverse cognitive processes to interact effectively. We then elaborate the two primary cognitive algorithms used to construct these processes: probabilistic term logic (PTL), and the Bayesian Optimization Algorithm (BOA). PTL is a highly flexible inference framework, applicable to domains involving uncertain, dynamic data, and autonomous agents in complex environments. BOA is a population-based optimization algorithm which can incorporate prior knowledge. While originally designed to operate on bit strings, our extended version also learns programs and predicates with variable length and tree-like structure, used to represent actions, perceptions, and internal state. We detail some of the specific dynamics and structures we expect to emerge through the interaction of the cognitive processes, outline our approach to training the system through experiential interactive learning, and conclude with a description of some recent results obtained with our partial implementation, including practical work in bioinformatics, natural language processing, and knowledge discovery.",
+  "link": "https://openalex.org/W3089472981"
+}

@@ -1,0 +1,25 @@
+{
+  "doi": "10.1093/brain/awu027",
+  "doi_url": "https://doi.org/10.1093/brain/awu027",
+  "title": "Resting state functional MRI in Parkinson’s disease: the impact of deep brain stimulation on ‘effective’ connectivity",
+  "year": "2014",
+  "journal": "Brain",
+  "authors": [
+    "Joshua Kahan",
+    "Maren Urner",
+    "Rosalyn Moran",
+    "Guillaume Flandin",
+    "André C. Marreiros",
+    "Laura Mancini",
+    "Mark White",
+    "John S. Thornton",
+    "Tarek Yousry",
+    "Ludvic Zrinzo",
+    "Marwan Hariz",
+    "Patricia Limousin",
+    "Karl Friston",
+    "Tom Foltynie"
+  ],
+  "abstract": "Depleted of dopamine, the dynamics of the parkinsonian brain impact on both 'action' and 'resting' motor behaviour. Deep brain stimulation has become an established means of managing these symptoms, although its mechanisms of action remain unclear. Non-invasive characterizations of induced brain responses, and the effective connectivity underlying them, generally appeals to dynamic causal modelling of neuroimaging data. When the brain is at rest, however, this sort of characterization has been limited to correlations (functional connectivity). In this work, we model the 'effective' connectivity underlying low frequency blood oxygen level-dependent fluctuations in the resting Parkinsonian motor network-disclosing the distributed effects of deep brain stimulation on cortico-subcortical connections. Specifically, we show that subthalamic nucleus deep brain stimulation modulates all the major components of the motor cortico-striato-thalamo-cortical loop, including the cortico-striatal, thalamo-cortical, direct and indirect basal ganglia pathways, and the hyperdirect subthalamic nucleus projections. The strength of effective subthalamic nucleus afferents and efferents were reduced by stimulation, whereas cortico-striatal, thalamo-cortical and direct pathways were strengthened. Remarkably, regression analysis revealed that the hyperdirect, direct, and basal ganglia afferents to the subthalamic nucleus predicted clinical status and therapeutic response to deep brain stimulation; however, suppression of the sensitivity of the subthalamic nucleus to its hyperdirect afferents by deep brain stimulation may subvert the clinical efficacy of deep brain stimulation. Our findings highlight the distributed effects of stimulation on the resting motor network and provide a framework for analysing effective connectivity in resting state functional MRI with strong a priori hypotheses.",
+  "link": "https://doi.org/10.1093/brain/awu027"
+}

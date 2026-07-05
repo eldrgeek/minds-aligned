@@ -1,0 +1,69 @@
+---
+// Base layout for Michael Levin subsite
+import { BackToHub, FeedbackWidget } from '@soma/feedback/components'
+
+interface Props {
+  title: string
+  hubUrl?: string
+}
+
+const { title, hubUrl } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} — Society of Minds Aligned</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <slot name="head" />
+  </head>
+  <body>
+    <BackToHub fallbackHubUrl={hubUrl} />
+
+    <div class="container">
+      <slot />
+    </div>
+
+    <FeedbackWidget site="michael-levin" />
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --color-bg: #0f141f;
+    --color-text: #e9eaed;
+    --color-text-muted: #9ba3b5;
+    --color-accent: #3c6cdd;
+    --color-border: rgba(255, 255, 255, 0.1);
+  }
+
+  html {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.6;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+</style>

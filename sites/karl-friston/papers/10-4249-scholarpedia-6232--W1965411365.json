@@ -1,0 +1,13 @@
+{
+  "doi": "10.4249/scholarpedia.6232",
+  "doi_url": "https://doi.org/10.4249/scholarpedia.6232",
+  "title": "Statistical parametric mapping (SPM)",
+  "year": "2008",
+  "journal": "Scholarpedia",
+  "authors": [
+    "Guillaume Flandin",
+    "Karl Friston"
+  ],
+  "abstract": "Statistical parametric mapping is the application of Random Field Theory to make inferences about the topological features of statistical processes that are continuous functions of space or time. It is usually used to identify regionally specific effects (e.g., brain activations) in neuroimaging data to characterize functional anatomy and disease-related changes.",
+  "link": "https://doi.org/10.4249/scholarpedia.6232"
+}

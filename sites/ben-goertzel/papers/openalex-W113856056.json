@@ -1,0 +1,19 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "An Integrative Methodology for Teaching Embodied Non-Linguistic Agents, Applied to Virtual Animals in Second Life",
+  "year": "2008",
+  "journal": "Artificial General Intelligence",
+  "authors": [
+    "Ben Goertzel",
+    "Cassio Pennachin",
+    "Nil Geissweiller",
+    "Moshe Looks",
+    "Andre Senna",
+    "Welter Silva",
+    "Ari Heljakka",
+    "Carlos R. Lopes"
+  ],
+  "abstract": "A teaching methodology called Imitative-Reinforcement-Corrective (IRC) learning is described, and proposed as a general approach for teaching embodied non-linguistic AGI systems. IRC may be used with a variety of different learning algorithms, but it is particularly easily described in EC lingo. In these terms, it is a framework for automatically learning a procedure that generates a desired type of behavior, in which: a set of exemplars of the target behavior-type are utilized for fitness estimation; reinforcement signals from a human teacher are used for fitness evaluation; and the execution of candidate procedures may be modified by the teacher via corrections delivered in real-time. An example application of IRC to teach behaviors to AI-controlled artificial animals embodied in the Second Life virtual world is described in detail, including a review of the overall virtual-animal-control software architecture and how the integrative teaching/learning methodology fits into it. In this example application architecture, the learning algorithm may be toggled between hillclimbing and probabilistic evolutionary learning. Envisioned future applications are also discussed, including an application to embodied language learning applicable to agents in Second Life and other virtual worlds.",
+  "link": "https://openalex.org/W113856056"
+}

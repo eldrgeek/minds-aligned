@@ -1,0 +1,19 @@
+{
+  "doi": "10.3233/978-1-60750-959-2-203",
+  "doi_url": "https://doi.org/10.3233/978-1-60750-959-2-203",
+  "title": "Recognizing Geospatial Patterns with Biologically-inspired Relational Reasoning",
+  "year": "2011",
+  "journal": "Frontiers in artificial intelligence and applications",
+  "authors": [
+    "Paul Kogut",
+    "June A. Gordon",
+    "David G. Morgenthaler",
+    "John E. Hummel",
+    "Edward Monroe",
+    "Ben Goertzel",
+    "Ethan Trewhitt",
+    "Elizabeth Whitaker"
+  ],
+  "abstract": "Relational reasoning is a complex high-level cognitive function that should be part of a realistic computational equivalent of the human mind. People use relational reasoning often in everyday life in many different contexts (e.g., social understanding, political science, law, business). This paper discusses the application of relational reasoning to the recognition of geospatial patterns (e.g., clusters of buildings that constitute a facility). The relational reasoning model is based on cognitive science evidence and emerging neuroscience theory. Experiments show that the relational reasoning model can recognize geospatial patterns that have a significant degree of variation.",
+  "link": "https://doi.org/10.3233/978-1-60750-959-2-203"
+}

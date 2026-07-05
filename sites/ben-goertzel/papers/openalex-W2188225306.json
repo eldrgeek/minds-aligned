@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "A Novel Strategy for Hybridizing Subsymbolic and Symbolic Learning and Representation",
+  "year": "2011",
+  "journal": "National Conference on Artificial Intelligence",
+  "authors": [
+    "Ben Goertzel"
+  ],
+  "abstract": "One approach to bridging the historic divide between ”symbolic” and ”subsymbolic” AI is to incorporate a subsymbolic system and a symbolic system into a synergetic integrative cognitive architecture. Here we consider various issues related to incorporating (subsymbolic) compositional spatiotemporal deep learning networks (CSDLNs, a term introduced to denote the category including HTM, DeSTIN and other similar systems) into an integrative cognitive architecture including symbolic aspects. The core conclusion is that for such integration to be meaningful, it must involve dynamic and adaptive linkage and conversion between CSDLN attractors spanning sensory, motor and goal hierarchies, and analogous representations in the remainder of the integrative architecture. We suggest the mechanism of ”semantic CSDLNs”, which maintain the general structure of CSDLNs but contain more abstract patterns, similar to those represented in more explicitly symbolic AI systems. This notion is made concrete by describing a planned integration of the DeSTIN CSDLN into the OpenCog integrative cognitive system (which includes a probabilistic-logical symbolic component).",
+  "link": "https://openalex.org/W2188225306"
+}

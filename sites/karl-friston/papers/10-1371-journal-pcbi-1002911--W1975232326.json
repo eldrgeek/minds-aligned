@@ -1,0 +1,16 @@
+{
+  "doi": "10.1371/journal.pcbi.1002911",
+  "doi_url": "https://doi.org/10.1371/journal.pcbi.1002911",
+  "title": "Modelling Trial-by-Trial Changes in the Mismatch Negativity",
+  "year": "2013",
+  "journal": "PLoS Computational Biology",
+  "authors": [
+    "Falk Lieder",
+    "Jean Daunizeau",
+    "Marta I. Garrido",
+    "Karl Friston",
+    "Klaas Ε. Stephan"
+  ],
+  "abstract": "The mismatch negativity (MMN) is a differential brain response to violations of learned regularities. It has been used to demonstrate that the brain learns the statistical structure of its environment and predicts future sensory inputs. However, the algorithmic nature of these computations and the underlying neurobiological implementation remain controversial. This article introduces a mathematical framework with which competing ideas about the computational quantities indexed by MMN responses can be formalized and tested against single-trial EEG data. This framework was applied to five major theories of the MMN, comparing their ability to explain trial-by-trial changes in MMN amplitude. Three of these theories (predictive coding, model adjustment, and novelty detection) were formalized by linking the MMN to different manifestations of the same computational mechanism: approximate Bayesian inference according to the free-energy principle. We thereby propose a unifying view on three distinct theories of the MMN. The relative plausibility of each theory was assessed against empirical single-trial MMN amplitudes acquired from eight healthy volunteers in a roving oddball experiment. Models based on the free-energy principle provided more plausible explanations of trial-by-trial changes in MMN amplitude than models representing the two more traditional theories (change detection and adaptation). Our results suggest that the MMN reflects approximate Bayesian learning of sensory regularities, and that the MMN-generating process adjusts a probabilistic model of the environment according to prediction errors.",
+  "link": "https://doi.org/10.1371/journal.pcbi.1002911"
+}
