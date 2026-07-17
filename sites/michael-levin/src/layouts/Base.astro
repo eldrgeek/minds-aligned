@@ -1,6 +1,6 @@
 ---
 // Base layout for Michael Levin subsite
-import { BackToHub, FeedbackWidget } from '@soma/feedback/components'
+import { BackToHub, FeedbackWidget, SocietyBar } from '@soma/feedback/components'
 
 interface Props {
   title: string
@@ -25,6 +25,8 @@ const { title, hubUrl } = Astro.props
     <div class="container">
       <slot />
     </div>
+
+    <SocietyBar />
 
     <FeedbackWidget site="michael-levin" />
   </body>

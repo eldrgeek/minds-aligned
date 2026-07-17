@@ -1,4 +1,5 @@
 ---
+import { FeedbackWidget, SocietyBar } from '@soma/feedback/components'
 interface Props {
   title: string;
   description?: string;
@@ -94,5 +95,8 @@ const { title, description = "Talks archive and grounded AI guide for Alison Gop
   <link rel="stylesheet" href="https://soma-guide.netlify.app/soma-guide.css" />
   <script is:inline src="/alison-gopnik-guide-config.js"></script>
   <script is:inline src="https://soma-guide.netlify.app/soma-guide.js"></script>
+  <SocietyBar />
+
+  <FeedbackWidget site="alison-gopnik" />
 </body>
 </html>

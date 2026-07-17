@@ -1,0 +1,54 @@
+---
+// SocietyBar.astro
+// Small shared footer strip tying every AGI-26 property back to the wider
+// Society of Minds Aligned. Self-contained styling (no Tailwind/CSS-var
+// dependency) so it renders consistently across both site families in this
+// monorepo. Added 2026-07-17 (Dee) per Mike's cross-linking directive.
+---
+
+<footer class="society-bar">
+  <p class="society-bar__text">
+    Part of the <strong>Society of Minds Aligned</strong> —
+    <a href="https://minds-aligned-door.netlify.app">Minds Aligned</a>
+    <span class="society-bar__sep">·</span>
+    <a href="https://siliconchildren.com">Silicon Children</a>
+    <span class="society-bar__sep">·</span>
+    <a href="https://minds-at-work-soma.netlify.app">Minds at Work</a>
+  </p>
+</footer>
+
+<style>
+  .society-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background: #0a0f1a;
+    padding: 0.85rem 1.5rem;
+    text-align: center;
+  }
+
+  .society-bar__text {
+    margin: 0;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    color: #9ba3b5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  .society-bar__text strong {
+    color: #e9eaed;
+    font-weight: 600;
+  }
+
+  .society-bar__sep {
+    margin: 0 0.35rem;
+    opacity: 0.5;
+  }
+
+  .society-bar a {
+    color: #6f9bff;
+    text-decoration: none;
+  }
+
+  .society-bar a:hover {
+    text-decoration: underline;
+  }
+</style>
