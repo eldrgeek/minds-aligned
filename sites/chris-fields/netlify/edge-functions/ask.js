@@ -142,6 +142,19 @@ function systemFrame(hostName) {
   ].join('\n');
 }
 
+/* The upstream occasionally leaks a line of its own scratchpad before the answer —
+ * observed live: "The answer is in the context, so I'll answer directly without tools."
+ * A host that narrates its own tool-use reads as broken, so drop a leading line that is
+ * plainly about the model's process rather than about the archive. Deliberately narrow:
+ * it only fires on the FIRST line, only when there is a real answer after it. */
+const PREAMBLE = /^(?:the answer is|i(?:'ll| will| can)\b|based on|looking at|since )[^\n]{0,160}?(?:context|tools?|passages?|archive materials?|directly)[^\n]{0,40}\n+/i;
+
+function stripPreamble(text) {
+  const t = String(text || '').trim();
+  const stripped = t.replace(PREAMBLE, '').trim();
+  return stripped.length > 40 ? stripped : t;
+}
+
 function json(status, obj) {
   return new Response(JSON.stringify(obj), { status, headers: CORS });
 }
@@ -197,7 +210,7 @@ export default async (request) => {
 
     const data = await res.json();
     return json(200, {
-      answer: data.answer || '',
+      answer: stripPreamble(data.answer),
       sources: hits.map((d) => ({ title: d.t, year: d.y, url: d.u })),
       retrieved: hits.length,
     });
