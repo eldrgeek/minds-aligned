@@ -63,6 +63,13 @@ estate had ever set it, so every "AI guide" was a keyword matcher with a persona
   swallowed error whose only visible text is "error while bundling edge functions". It lives
   in `netlify/edge-lib/`.
 - **`--dir` is resolved against the git root, not the cwd.** Always absolute.
+- **Retrieval failures are silent and look like honest answers.** Two found this way, both
+  of which made a host say "I don't see that in the archive" about content the archive
+  *contained*: (a) the `terms/*.md` dictionaries weren't indexed, and they are the densest
+  grounding in Levinese/Joscha; (b) hyphenation — the query token `cyber-animism` could
+  never match an indexed `cyberanimism`, so tokenize now expands every hyphenated token to
+  the hyphenated form, the joined form, and its parts. When a host pleads ignorance, check
+  retrieval before believing the corpus is thin.
 - **Every property deploys from its own directory, hub included.** A root-level
   `[[edge_functions]]` block is not picked up by a `--filter hub` deploy: the hub reported a
   successful deploy while `/api/ask` 404'd in production. Hence `hub/netlify.toml`.
