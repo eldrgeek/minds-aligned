@@ -1,0 +1,15 @@
+{
+  "doi": "10.31234/osf.io/uzdvp",
+  "doi_url": "https://doi.org/10.31234/osf.io/uzdvp",
+  "title": "Toddlers search longer when there is more information to be gained",
+  "year": "2021",
+  "journal": null,
+  "authors": [
+    "Azzurra Ruggeri",
+    "Madeline Pelz",
+    "Alison Gopnik",
+    "Eric Schulz"
+  ],
+  "abstract": "One of the greatest challenges for artificial intelligence is how to behave adaptively in scenarios with uncertain or no rewards. One---and perhaps the only---way to approach such complex learning problems is to build simple algorithms that grow into sophisticated adaptive agents, just like children do. But what drives children to explore and learn when external rewards are absent? Across three studies, we tested whether information gain itself acts as an internal reward and motivates children's actions. We measured 24- to 56-month-olds’ persistence in a game where they had to search for an object (animal or toy), which they never find, hidden behind a series of doors, manipulating the degree of uncertainty about \\emph{which specific object} was hidden. We found that children were more persistent in their search when there was higher uncertainty, and therefore more information to be gained with each action, highlighting the importance of research on artificial intelligence to invest in curiosity-driven algorithms.",
+  "link": "https://doi.org/10.31234/osf.io/uzdvp"
+}

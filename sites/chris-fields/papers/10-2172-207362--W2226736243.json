@@ -1,0 +1,12 @@
+{
+  "doi": "10.2172/207362",
+  "doi_url": "https://doi.org/10.2172/207362",
+  "title": "Sequencing Information Management System (SIMS). Final report",
+  "year": "1996",
+  "journal": null,
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "A feasibility study to develop a requirements analysis and functional specification for a data management system for large-scale DNA sequencing laboratories resulted in a functional specification for a Sequencing Information Management System (SIMS). This document reports the results of this feasibility study, and includes a functional specification for a SIMS relational schema. The SIMS is an integrated information management system that supports data acquisition, management, analysis, and distribution for DNA sequencing laboratories. The SIMS provides ad hoc query access to information on the sequencing process and its results, and partially automates the transfer of data between laboratory instruments, analysis programs, technical personnel, and managers. The SIMS user interfaces are designed for use by laboratory technicians, laboratory managers, and scientists. The SIMS is designed to run in a heterogeneous, multiplatform environment in a client/server mode. The SIMS communicates with external computational and data resources via the internet.",
+  "link": "https://doi.org/10.2172/207362"
+}

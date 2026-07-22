@@ -1,0 +1,12 @@
+{
+  "doi": "10.1557/proc-1152-tt03-01",
+  "doi_url": "https://doi.org/10.1557/proc-1152-tt03-01",
+  "title": "Intruder Dynamics on Vibrofluidized Granular Surfaces",
+  "year": "2008",
+  "journal": "Materials Research Society Symposium Proceedings",
+  "authors": [
+    "Alexander D. Wissner‐Gross"
+  ],
+  "abstract": "Granular fluids have received significant attention for their transport characteristics within rigid boundaries. In this work, we study the potential for amorphous granular beds themselves to serve as elastic boundaries for transport and manipulation of surface particles. In particular, we measure the effect of the mass and diameter of an intruding particle, supported and tossed by a periodic vibrofluidized granular bed, on its horizontal self-diffusivity using a two-dimensional hard-sphere molecular dynamics simulation. Intruder mass and diameter scaling exponents are fitted and found to be consistent with dominant Stokes drift. Intruder types favorable for manipulation applications are identified.",
+  "link": "https://doi.org/10.1557/proc-1152-tt03-01"
+}

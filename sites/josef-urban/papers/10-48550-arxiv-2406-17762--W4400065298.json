@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2406.17762",
+  "doi_url": "https://doi.org/10.48550/arxiv.2406.17762",
+  "title": "Solving Hard Mizar Problems with Instantiation and Strategy Invention",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Jan Jakubův",
+    "Mikoláš Janota",
+    "Josef Urban"
+  ],
+  "abstract": "In this work, we prove over 3000 previously ATP-unproved Mizar/MPTP problems by using several ATP and AI methods, raising the number of ATP-solved Mizar problems from 75\\% to above 80\\%. First, we start to experiment with the cvc5 SMT solver which uses several instantiation-based heuristics that differ from the superposition-based systems, that were previously applied to Mizar,and add many new solutions. Then we use automated strategy invention to develop cvc5 strategies that largely improve cvc5's performance on the hard problems. In particular, the best invented strategy solves over 14\\% more problems than the best previously available cvc5 strategy. We also show that different clausification methods have a high impact on such instantiation-based methods, again producing many new solutions. In total, the methods solve 3021 (21.3\\%) of the 14163 previously unsolved hard Mizar problems. This is a new milestone over the Mizar large-theory benchmark and a large strengthening of the hammer methods for Mizar.",
+  "link": "https://doi.org/10.48550/arxiv.2406.17762"
+}

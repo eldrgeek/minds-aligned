@@ -1,0 +1,15 @@
+{
+  "doi": "10.1101/2024.03.10.584304",
+  "doi_url": "https://doi.org/10.1101/2024.03.10.584304",
+  "title": "The functional anatomy of nociception: effective connectivity in chronic pain and placebo responders",
+  "year": "2024",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Sanjeev Nara",
+    "Marwan N. Baliki",
+    "Karl Friston",
+    "Dipanjan Ray"
+  ],
+  "abstract": "Abstract There is growing recognition of cortical involvement in nociception. The present study is motivated by predictive coding formulations of pain perception that stress the importance of top-down and bottom-up information flow in the brain. It compares forward and backward effective connectivity - estimated from resting-state fMRI - between chronic osteoarthritic patients and healthy control subjects. Additionally, it assesses differences in effective connectivity between placebo responders and non-responders and asks whether these differences can be used to predict pain perception and placebo response. To assess hierarchical processing in nociception, we defined two primary cortical regions: primary somatosensory cortex (SSC) and posterior insula (PI) (primary interoceptive cortex) and lateral frontal pole (FP1), a terminal relay station of the pain processing pathways. The directed (effective) connectivity within and between these regions were estimated using spectral dynamic causal modeling (DCM). 56 osteoarthritis patients and 18 healthy controls were included in the analysis. Within the patient group, effective connectivity was compared between placebo responders and non-responders. In osteoarthritic patients, contra control group, forward connectivity from SSC to FP1 and from PI to FP1 was enhanced in the left hemisphere. Backward connections from FP1 to SSC were more inhibitory. Intrinsic (i.e., inhibitory recurrent or self-connectivity) of left FP1 increased. In placebo responders compared to non-responders, forward connections from bilateral SSC to PI, left SSC to FP1, left PI to left FP1 were more inhibitory. In addition, self-connections of bilateral PI and top-down connections from right FP1 to right SSC were disinhibited; whereas self-connections of right FP1 became increasingly inhibitory. We confirmed the robustness of these results in a leave-one-out cross-validation analysis of (out-of-sample) effect sizes. Overall, effective extrinsic and intrinsic effective connectivity among higher and lower cortical regions involved in pain processing emerges as a promising and quantifiable candidate marker of nociception and placebo response. The significance of these findings for clinical practice and neuroscience are discussed in relation to predictive processing accounts of placebo effects and chronic pain.",
+  "link": "https://doi.org/10.1101/2024.03.10.584304"
+}

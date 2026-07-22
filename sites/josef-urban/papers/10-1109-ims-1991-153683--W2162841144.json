@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/ims.1991.153683",
+  "doi_url": "https://doi.org/10.1109/ims.1991.153683",
+  "title": "A method for integrating heterogeneous knowledge-bases",
+  "year": "2002",
+  "journal": null,
+  "authors": [
+    "Patrick O. Bobbie",
+    "Josef Urban"
+  ],
+  "abstract": "A knowledge-based system may be implemented using a knowledge representation scheme which is suitable for a particular problem domain. Also, knowledge-based systems are usually tailored towards specific applications. The need and advantages of integrating different knowledge-based systems is widely acknowledged. However, the use of different knowledge representation schemes requires each user to learn each scheme to effectively use the systems. But users are more productive, competitive, and feel encouraged to use different systems when the underlying tool disparities are hidden. Techniques for integrating knowledge-bases in distributed settings, without hindering the simultaneous access to local (native) representations, are addressed. The techniques are based on the clustering of knowledge-base data entities. The different entity clusters are then represented using a generic scheme for the integration step. In essence, the clustering and generic schemes provide a common framework for laminating the differences in representations of the entities in the respective knowledge-bases.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX>",
+  "link": "https://doi.org/10.1109/ims.1991.153683"
+}

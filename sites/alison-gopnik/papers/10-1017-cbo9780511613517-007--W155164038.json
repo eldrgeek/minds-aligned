@@ -1,0 +1,13 @@
+{
+  "doi": "10.1017/cbo9780511613517.007",
+  "doi_url": "https://doi.org/10.1017/cbo9780511613517.007",
+  "title": "Causal maps and Bayes nets: a cognitive and computational account of theory-formation",
+  "year": "2002",
+  "journal": "Cambridge University Press eBooks",
+  "authors": [
+    "Alison Gopnik",
+    "Clark Glymour"
+  ],
+  "abstract": "In this chapter, we outline a more precise cognitive and computational account of the 'theory theory' of cognitive development. Theories and theory-formation processes are cognitive systems that allow us to recover an accurate 'causal map' of the world: an abstract, coherent representation of the causal relations among events. This kind of knowledge can be perspicuously represented by the formalism of directed graphical causal models, or 'Bayes nets'. Human theory formation may involve similar computations.",
+  "link": "https://doi.org/10.1017/cbo9780511613517.007"
+}

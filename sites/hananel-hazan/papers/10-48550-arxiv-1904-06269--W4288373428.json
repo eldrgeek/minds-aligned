@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.1904.06269",
+  "doi_url": "https://doi.org/10.48550/arxiv.1904.06269",
+  "title": "Locally Connected Spiking Neural Networks for Unsupervised Feature\\n Learning",
+  "year": "2019",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Daniel J. Saunders",
+    "Devdhar Patel",
+    "Hananel Hazan",
+    "Hava T. Siegelmann",
+    "Róbert Kozma"
+  ],
+  "abstract": "In recent years, Spiking Neural Networks (SNNs) have demonstrated great\\nsuccesses in completing various Machine Learning tasks. We introduce a method\\nfor learning image features by \\\\textit{locally connected layers} in SNNs using\\nspike-timing-dependent plasticity (STDP) rule. In our approach, sub-networks\\ncompete via competitive inhibitory interactions to learn features from\\ndifferent locations of the input space. These \\\\textit{Locally-Connected SNNs}\\n(LC-SNNs) manifest key topological features of the spatial interaction of\\nbiological neurons. We explore biologically inspired n-gram classification\\napproach allowing parallel processing over various patches of the the image\\nspace. We report the classification accuracy of simple two-layer LC-SNNs on two\\nimage datasets, which match the state-of-art performance and are the first\\nresults to date. LC-SNNs have the advantage of fast convergence to a dataset\\nrepresentation, and they require fewer learnable parameters than other SNN\\napproaches with unsupervised learning. Robustness tests demonstrate that\\nLC-SNNs exhibit graceful degradation of performance despite the random deletion\\nof large amounts of synapses and neurons.\\n",
+  "link": "https://doi.org/10.48550/arxiv.1904.06269"
+}

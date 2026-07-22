@@ -1,0 +1,13 @@
+{
+  "doi": "10.1090/proc/14834",
+  "doi_url": "https://doi.org/10.1090/proc/14834",
+  "title": "Decomposition-space slices are toposes",
+  "year": "2020",
+  "journal": "Proceedings of the American Mathematical Society",
+  "authors": [
+    "Joachim Kock",
+    "David I. Spivak"
+  ],
+  "abstract": "We show that the category of decomposition spaces and CULF maps is locally a topos. Precisely, the slice category over any decomposition space <inline-formula content-type=\"math/mathml\"> <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"script upper D\"> <mml:semantics> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi class=\"MJX-tex-caligraphic\" mathvariant=\"script\">D</mml:mi> </mml:mrow> <mml:annotation encoding=\"application/x-tex\">\\mathcal {D}</mml:annotation> </mml:semantics> </mml:math> </inline-formula> is a presheaf topos, namely <inline-formula content-type=\"math/mathml\"> <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"sans-serif upper D sans-serif e sans-serif c sans-serif o sans-serif m sans-serif p Subscript slash script upper D Baseline asymptotically-equals sans-serif upper P sans-serif s sans-serif h left-parenthesis t w script upper D right-parenthesis\"> <mml:semantics> <mml:mrow> <mml:msub> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi mathvariant=\"sans-serif\">D</mml:mi> <mml:mi mathvariant=\"sans-serif\">e</mml:mi> <mml:mi mathvariant=\"sans-serif\">c</mml:mi> <mml:mi mathvariant=\"sans-serif\">o</mml:mi> <mml:mi mathvariant=\"sans-serif\">m</mml:mi> <mml:mi mathvariant=\"sans-serif\">p</mml:mi> </mml:mrow> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mo>/</mml:mo> </mml:mrow> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi class=\"MJX-tex-caligraphic\" mathvariant=\"script\">D</mml:mi> </mml:mrow> </mml:mrow> </mml:msub> <mml:mo> ≃ </mml:mo> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi mathvariant=\"sans-serif\">P</mml:mi> <mml:mi mathvariant=\"sans-serif\">s</mml:mi> <mml:mi mathvariant=\"sans-serif\">h</mml:mi> </mml:mrow> <mml:mo stretchy=\"false\">(</mml:mo> <mml:mi>tw</mml:mi> <mml:mo> ⁡ </mml:mo> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi class=\"MJX-tex-caligraphic\" mathvariant=\"script\">D</mml:mi> </mml:mrow> <mml:mo stretchy=\"false\">)</mml:mo> </mml:mrow> <mml:annotation encoding=\"application/x-tex\">\\mathsf {Decomp}_{/\\mathcal {D}}\\simeq \\mathsf {Psh}(\\operatorname {tw} \\mathcal {D})</mml:annotation> </mml:semantics> </mml:math> </inline-formula> .",
+  "link": "https://doi.org/10.1090/proc/14834"
+}

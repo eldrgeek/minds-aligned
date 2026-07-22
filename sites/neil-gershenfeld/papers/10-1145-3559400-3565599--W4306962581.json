@@ -1,0 +1,14 @@
+{
+  "doi": "10.1145/3559400.3565599",
+  "doi_url": "https://doi.org/10.1145/3559400.3565599",
+  "title": "Urumbu: Minimal Machine Building",
+  "year": "2022",
+  "journal": null,
+  "authors": [
+    "Neil Gershenfeld",
+    "Quentin Bolsée",
+    "Robert A. Hart"
+  ],
+  "abstract": "Computational fabrication has enabled the widespread adoption of rapid-prototyping. There has however been a much higher barrier to entry to make a machine. We investigate rapid-prototyping of rapid-prototyping, so that designing a machine can become as accessible as producing projects on one. We characterize minimum viable components for machine building, including \"controllerless\" designs that virtualize low-level controls in high-level parallel software, simplified systems for force transmission, and tradeoffs in structural systems. In this demo, a machine controlled entirely by a Python application on a host laptop is presented, with communication between the host and the machine at kHz rate. User interaction is enabled by including polling of input modules in the loop. The machine’s behavior is entirely software-defined within the host application, and new modules can be dynamically plugged in with no reconfiguration on the firmware side.",
+  "link": "https://doi.org/10.1145/3559400.3565599"
+}

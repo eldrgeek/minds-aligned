@@ -1,0 +1,20 @@
+{
+  "doi": "10.48550/arxiv.2005.02880",
+  "doi_url": "https://doi.org/10.48550/arxiv.2005.02880",
+  "title": "Exploring Exploration: Comparing Children with RL Agents in Unified Environments",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Eliza Kosoy",
+    "Jasmine Collins",
+    "David M. Chan",
+    "Sandy H. Huang",
+    "Pathak, Deepak",
+    "Agrawal, Pulkit",
+    "John Canny",
+    "Alison Gopnik",
+    "Jessica B. Hamrick"
+  ],
+  "abstract": "Research in developmental psychology consistently shows that children explore the world thoroughly and efficiently and that this exploration allows them to learn. In turn, this early learning supports more robust generalization and intelligent behavior later in life. While much work has gone into developing methods for exploration in machine learning, artificial agents have not yet reached the high standard set by their human counterparts. In this work we propose using DeepMind Lab (Beattie et al., 2016) as a platform to directly compare child and agent behaviors and to develop new exploration techniques. We outline two ongoing experiments to demonstrate the effectiveness of a direct comparison, and outline a number of open research questions that we believe can be tested using this methodology.",
+  "link": "https://doi.org/10.48550/arxiv.2005.02880"
+}

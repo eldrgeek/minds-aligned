@@ -1,0 +1,14 @@
+{
+  "doi": "10.1145/2854065.2854070",
+  "doi_url": "https://doi.org/10.1145/2854065.2854070",
+  "title": "Towards a Mizar environment for Isabelle: foundations and language",
+  "year": "2016",
+  "journal": null,
+  "authors": [
+    "Cezary Kaliszyk",
+    "Karol Pąk",
+    "Josef Urban"
+  ],
+  "abstract": "In this paper we explore the possibility of emulating the Mizar environment as close as possible inside the Isabelle logical framework. We introduce adaptations to the Isabelle/FOL object logic that correspond to the logic of Mizar, as well as Isar inner syntax notations that correspond to these of the Mizar language. We show how Isabelle types can be used to differentiate between the syntactic categories of the Mizar language, such as sets and Mizar types including modes and attributes, and show how they interact with the basic constructs of the Tarski-Grothendieck set theory. We discuss Mizar definitions and provide simple abbreviations that allow the introduction of Mizar predicates, functions, attributes and modes using the Isabelle/Pure language elements for introducing definitions and theorems. We finally consider the definite and indefinite description operators in Mizar and their use to introduce definitions by “means” and “equals”. We demonstrate the usability of the environment on a sample Mizar-style formalization, with cluster inferences and “by” steps performed manually.",
+  "link": "https://doi.org/10.1145/2854065.2854070"
+}

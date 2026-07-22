@@ -1,0 +1,14 @@
+{
+  "doi": "10.1162/netn_a_00348",
+  "doi_url": "https://doi.org/10.1162/netn_a_00348",
+  "title": "Spectral dynamic causal modeling: A didactic introduction and its relationship with functional connectivity",
+  "year": "2023",
+  "journal": "Network Neuroscience",
+  "authors": [
+    "Leonardo Novelli",
+    "Karl Friston",
+    "Adeel Razi"
+  ],
+  "abstract": "We present a didactic introduction to spectral dynamic causal modeling (DCM), a Bayesian state-space modeling approach used to infer effective connectivity from noninvasive neuroimaging data. Spectral DCM is currently the most widely applied DCM variant for resting-state functional MRI analysis. Our aim is to explain its technical foundations to an audience with limited expertise in state-space modeling and spectral data analysis. Particular attention will be paid to cross-spectral density, which is the most distinctive feature of spectral DCM and is closely related to functional connectivity, as measured by (zero-lag) Pearson correlations. In fact, the model parameters estimated by spectral DCM are those that best reproduce the cross-correlations between all measurements-at all time lags-including the zero-lag correlations that are usually interpreted as functional connectivity. We derive the functional connectivity matrix from the model equations and show how changing a single effective connectivity parameter can affect all pairwise correlations. To complicate matters, the pairs of brain regions showing the largest changes in functional connectivity do not necessarily coincide with those presenting the largest changes in effective connectivity. We discuss the implications and conclude with a comprehensive summary of the assumptions and limitations of spectral DCM.",
+  "link": "https://doi.org/10.1162/netn_a_00348"
+}

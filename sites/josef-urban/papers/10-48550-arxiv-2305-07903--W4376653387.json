@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2305.07903",
+  "doi_url": "https://doi.org/10.48550/arxiv.2305.07903",
+  "title": "Translating SUMO-K to Higher-Order Set Theory",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chad E. Brown",
+    "Adam Pease",
+    "Josef Urban"
+  ],
+  "abstract": "We describe a translation from a fragment of SUMO (SUMO-K) into higher-order set theory. The translation provides a formal semantics for portions of SUMO which are beyond first-order and which have previously only had an informal interpretation. It also for the first time embeds a large common-sense ontology into a very secure interactive theorem proving system. We further extend our previous work in finding contradictions in SUMO from first order constructs to include a portion of SUMO's higher order constructs. Finally, using the translation, we can create problems that can be proven using higher-order interactive and automated theorem provers. This is tested in several systems and can be used to form a corpus of higher-order common-sense reasoning problems.",
+  "link": "https://doi.org/10.48550/arxiv.2305.07903"
+}

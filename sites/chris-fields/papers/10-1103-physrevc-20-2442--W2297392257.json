@@ -1,0 +1,13 @@
+{
+  "doi": "10.1103/physrevc.20.2442",
+  "doi_url": "https://doi.org/10.1103/physrevc.20.2442",
+  "title": "High spin states of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">Y</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>89</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>studied with the<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">Rb</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>87</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>(<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>α</mml:mi></mml:math>,<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mn>2</mml:mn><mml:mi>n</mml:mi><mml:mi>γ</mml:mi></mml:math>)<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">Y</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>89</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>reaction",
+  "year": "1979",
+  "journal": "Physical Review C",
+  "authors": [
+    "Chris Fields",
+    "L. E. Samuelson"
+  ],
+  "abstract": "States in $^{89}\\mathrm{Y}$ with spins between $\\frac{9}{2}$ and $\\frac{27}{2}$ have been observed with the $^{87}\\mathrm{Rb}$($\\ensuremath{\\alpha}$,$2n\\ensuremath{\\gamma}$) reaction at 35.9 MeV. The previously reported $^{89}\\mathrm{Y}$ decay scheme is corrected.NUCLEAR REACTIONS $^{87}\\mathrm{Rb}$($\\ensuremath{\\alpha}$,$2n\\ensuremath{\\gamma}$)$^{89}\\mathrm{Y}$; measured $\\ensuremath{\\gamma}\\ensuremath{-}\\ensuremath{\\gamma}$ coincidence, $I({E}_{\\ensuremath{\\alpha}},{\\ensuremath{\\theta}}_{\\ensuremath{\\gamma}})$, ${E}_{\\ensuremath{\\gamma}}$; deduced ${J}^{\\ensuremath{\\pi}}$. Enriched target, Ge(Li) detectors.",
+  "link": "https://doi.org/10.1103/physrevc.20.2442"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.1177/105971230401200103",
+  "doi_url": "https://doi.org/10.1177/105971230401200103",
+  "title": "Environment and Behavior Influence the Complexity of Evolved Neural Networks",
+  "year": "2004",
+  "journal": "Adaptive Behavior",
+  "authors": [
+    "Anil K. Seth",
+    "Gerald M. Edelman"
+  ],
+  "abstract": "How does environmental structure influence the dynamics of adaptive behavior and its underlying mechanisms? By analyzing the neural controller of a simulated head/eye system, we show that a specific measure—“neural complexity”—can be selectively sensitive to neural dynamics underlying rich adaptive behavior. Evolutionary algorithms were used to generate neural network controllers able to support target fixation in environmental and phenotypic conditions of qualitatively different complexity. Networks that evolved in rich conditions showed higher behavioral flexibility and robustness, and higher neural complexity, than networks that evolved in simple conditions. The magnitude of neural complexity, which reflects a balance between dynamical integration and dynamical segregation, depended on properties of both the environment and the head/eye phenotype. These results show that neurally complex dynamics can accompany adaptive behavior in rich environmental and phenotypic conditions; they are consistent with the proposal that neural complexity may represent a common property of the functional organization of adaptive neural systems.",
+  "link": "https://doi.org/10.1177/105971230401200103"
+}

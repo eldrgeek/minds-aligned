@@ -1,0 +1,14 @@
+{
+  "doi": "10.4018/978-1-60960-021-1.ch010",
+  "doi_url": "https://doi.org/10.4018/978-1-60960-021-1.ch010",
+  "title": "Artificial Neural Systems for Robots",
+  "year": "2011",
+  "journal": "IGI Global eBooks",
+  "authors": [
+    "Phil Husbands",
+    "Andy Philippides",
+    "Anil K. Seth"
+  ],
+  "abstract": "This chapter reviews the use of neural systems in robotics, with particular emphasis on strongly biologically inspired neural networks and methods. As well as describing work at the research frontiers, the paper provides some historical background in order to clarify the motivations and scope of work in this field. There are two major sections that make up the bulk of the chapter: one surveying the application of artificial neural systems to robot control, and one describing the use of robots as tools in neuroscience. The former concentrates on biologically derived neural architectures and methods used to drive robot behaviours, and the latter introduces a closely related area of research where robotic models are used as tools to study neural mechanisms underlying the generation of adaptive behaviour in animals and humans.",
+  "link": "https://doi.org/10.4018/978-1-60960-021-1.ch010"
+}

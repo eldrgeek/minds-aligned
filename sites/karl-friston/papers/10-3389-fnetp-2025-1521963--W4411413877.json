@@ -1,0 +1,21 @@
+{
+  "doi": "10.3389/fnetp.2025.1521963",
+  "doi_url": "https://doi.org/10.3389/fnetp.2025.1521963",
+  "title": "From pixels to planning: scale-free active inference",
+  "year": "2025",
+  "journal": "Frontiers in Network Physiology",
+  "authors": [
+    "Karl Friston",
+    "Conor Heins",
+    "Tim Verbelen",
+    "Lancelot Da Costa",
+    "Tommaso Salvatori",
+    "Dimitrije Marković",
+    "Alexander Tschantz",
+    "Magnus Koudahl",
+    "Christopher D. Buckley",
+    "Thomas Parr"
+  ],
+  "abstract": "This paper describes a discrete state-space model and accompanying methods for generative modeling. This model generalizes partially observed Markov decision processes to include paths as latent variables, rendering it suitable for active inference and learning in a dynamic setting. Specifically, we consider deep or hierarchical forms using the renormalization group. The ensuing renormalizing generative models (RGM) can be regarded as discrete homologs of deep convolutional neural networks or continuous state-space models in generalized coordinates of motion. By construction, these scale-invariant models can be used to learn compositionality over space and time, furnishing models of paths or orbits: that is, events of increasing temporal depth and itinerancy. This technical note illustrates the automatic discovery, learning, and deployment of RGMs using a series of applications. We start with image classification and then consider the compression and generation of movies and music. Finally, we apply the same variational principles to the learning of Atari-like games.",
+  "link": "https://doi.org/10.3389/fnetp.2025.1521963"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.29007/lmmg",
+  "doi_url": "https://doi.org/10.29007/lmmg",
+  "title": "Machine Learning of Coq Proof Guidance: First Experiments",
+  "year": "2018",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Lionel Mamane",
+    "Josef Urban"
+  ],
+  "abstract": "We report the results of the first experiments with learning proof dependencies from the formalizations done with the Coq system. We explain the process of obtaining the dependencies from the Coq proofs, the characterization of formulas that is used for the learning, and the evaluation method. Various machine learning methods are compared on a dataset of 5021 toplevel Coq proofs coming from the CoRN repository. The best resulting method covers on average 75% of the needed proof dependencies among the first 100 predictions, which is a comparable performance of such initial experiments on other large-theory corpora.",
+  "link": "https://doi.org/10.29007/lmmg"
+}

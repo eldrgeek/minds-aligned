@@ -1,0 +1,13 @@
+{
+  "doi": "10.1017/s0140525x24000256",
+  "doi_url": "https://doi.org/10.1017/s0140525x24000256",
+  "title": "Meta-learning goes hand-in-hand with metacognition",
+  "year": "2024",
+  "journal": "Behavioral and Brain Sciences",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook"
+  ],
+  "abstract": "Binz et al. propose a general framework for meta-learning and contrast it with built-by-hand Bayesian models. We comment on some architectural assumptions of the approach, its relation to the active inference framework, its potential applicability to living systems in general, and the advantages of the latter in addressing the explanation problem.",
+  "link": "https://doi.org/10.1017/s0140525x24000256"
+}

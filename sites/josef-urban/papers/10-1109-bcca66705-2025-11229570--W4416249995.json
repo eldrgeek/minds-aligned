@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/bcca66705.2025.11229570",
+  "doi_url": "https://doi.org/10.1109/bcca66705.2025.11229570",
+  "title": "Payment Channels with Proofs",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "Chad E. Brown",
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "The fundamental building blocks of the Bitcoin lightning network are bidirectional payment channels. We describe an extension of payment channels in the Proofgold network which allow the two parties to bet on whether a proposition will be proven by a certain time. These provide the foundation for a Proofgold lightning network that would allow parties to request proofs (by betting there will be no proof by a certain time) and other parties to provide proofs (and be rewarded by betting there will be a proof). The bets may also provide a way to approximate the probability that a certain proposition is provable (in the given amount of time). We describe the implementation of payment channels supporting proofs in Proofgold and discuss a potential lightning network that could be built as a result. One application of such lightning network would be a large decentralized infrastructure for fast collaborative formalization projects.",
+  "link": "https://doi.org/10.1109/bcca66705.2025.11229570"
+}

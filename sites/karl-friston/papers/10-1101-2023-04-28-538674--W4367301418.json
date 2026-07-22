@@ -1,0 +1,15 @@
+{
+  "doi": "10.1101/2023.04.28.538674",
+  "doi_url": "https://doi.org/10.1101/2023.04.28.538674",
+  "title": "Cerebellar state estimation enables resilient coupling across behavioural domains",
+  "year": "2023",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Ensor Rafael Palacios",
+    "Paul Chadderton",
+    "Karl Friston",
+    "Conor Houghton"
+  ],
+  "abstract": "Abstract Cerebellar computations are necessary for fine behavioural control and are thought to rely on internal probabilistic models performing state estimation. We propose that the cerebellum infers how states contextualise (i.e., interact with) each other, and coordinates extra-cerebellar neuronal dynamics underpinning a range of behaviours. To support this claim, we describe a cerebellar model for state estimation that includes states interactions, and link the underlying inference with the neuronal architecture and dynamics observed empirically. This is formalised using the free energy principle, which provides a dual perspective on a system in terms of both the dynamics of its physical – in this case neuronal – states, and the inference process they entail. As a proof of principle, we simulate cerebellar-dependent synchronisation of whisking and respiration, which are known to be tightly coupled in rodents. In summary, we suggest that cerebellar-dependent contextualisation of behaviour can explain its ubiquitous involvement in most aspects of behaviour.",
+  "link": "https://doi.org/10.1101/2023.04.28.538674"
+}

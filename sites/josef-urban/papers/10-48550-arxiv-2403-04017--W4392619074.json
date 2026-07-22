@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2403.04017",
+  "doi_url": "https://doi.org/10.48550/arxiv.2403.04017",
+  "title": "Learning Guided Automated Reasoning: A Brief Survey",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Lasse Blaauwbroek",
+    "David M. Cerna",
+    "Thibault Gauthier",
+    "Jan Jakubův",
+    "Cezary Kaliszyk",
+    "Martin Suda",
+    "Josef Urban"
+  ],
+  "abstract": "Automated theorem provers and formal proof assistants are general reasoning systems that are in theory capable of proving arbitrarily hard theorems, thus solving arbitrary problems reducible to mathematics and logical reasoning. In practice, such systems however face large combinatorial explosion, and therefore include many heuristics and choice points that considerably influence their performance. This is an opportunity for trained machine learning predictors, which can guide the work of such reasoning systems. Conversely, deductive search supported by the notion of logically valid proof allows one to train machine learning systems on large reasoning corpora. Such bodies of proof are usually correct by construction and when combined with more and more precise trained guidance they can be boostrapped into very large corpora, with increasingly long reasoning chains and possibly novel proof ideas. In this paper we provide an overview of several automated reasoning and theorem proving domains and the learning and AI methods that have been so far developed for them. These include premise selection, proof guidance in several settings, AI systems and feedback loops iterating between reasoning and learning, and symbolic classification problems.",
+  "link": "https://doi.org/10.48550/arxiv.2403.04017"
+}

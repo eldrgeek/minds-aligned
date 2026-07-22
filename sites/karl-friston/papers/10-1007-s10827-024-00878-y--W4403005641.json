@@ -1,0 +1,14 @@
+{
+  "doi": "10.1007/s10827-024-00878-y",
+  "doi_url": "https://doi.org/10.1007/s10827-024-00878-y",
+  "title": "A cortical field theory – dynamics and symmetries",
+  "year": "2024",
+  "journal": "Journal of Computational Neuroscience",
+  "authors": [
+    "Gerald Cooray",
+    "Vernon Cooray",
+    "Karl Friston"
+  ],
+  "abstract": "We characterise cortical dynamics using partial differential equations (PDEs), analysing various connectivity patterns within the cortical sheet. This exploration yields diverse dynamics, encompassing wave equations and limit cycle activity. We presume balanced equations between excitatory and inhibitory neuronal units, reflecting the ubiquitous oscillatory patterns observed in electrophysiological measurements. Our derived dynamics comprise lowest-order wave equations (i.e., the Klein-Gordon model), limit cycle waves, higher-order PDE formulations, and transitions between limit cycles and near-zero states. Furthermore, we delve into the symmetries of the models using the Lagrangian formalism, distinguishing between continuous and discontinuous symmetries. These symmetries allow for mathematical expediency in the analysis of the model and could also be useful in studying the effect of symmetrical input from distributed cortical regions. Overall, our ability to derive multiple constraints on the fields - and predictions of the model - stems largely from the underlying assumption that the brain operates at a critical state. This assumption, in turn, drives the dynamics towards oscillatory or semi-conservative behaviour. Within this critical state, we can leverage results from the physics literature, which serve as analogues for neural fields, and implicit construct validity. Comparisons between our model predictions and electrophysiological findings from the literature - such as spectral power distribution across frequencies, wave propagation speed, epileptic seizure generation, and pattern formation over the cortical surface - demonstrate a close match. This study underscores the importance of utilizing symmetry preserving PDE formulations for further mechanistic insights into cortical activity.",
+  "link": "https://doi.org/10.1007/s10827-024-00878-y"
+}

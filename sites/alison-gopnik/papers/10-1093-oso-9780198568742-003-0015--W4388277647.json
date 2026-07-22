@@ -1,0 +1,13 @@
+{
+  "doi": "10.1093/oso/9780198568742.003.0015",
+  "doi_url": "https://doi.org/10.1093/oso/9780198568742.003.0015",
+  "title": "A brand new ball game: Bayes net and neural net learning mechanisms in young children",
+  "year": "2006",
+  "journal": null,
+  "authors": [
+    "Alison Gopnik",
+    "Clark Glymour"
+  ],
+  "abstract": "Abstract We outline a new computational account of learning in children using the causal Bayes net formalism. We also present evidence that children as young as 2 years old use something like causal Bayes net learning mechanisms to infer the causal structure of the world around them. This kind of learning may play an important role in the development of intuitive theories. Finally, we contrast causal Bayes net and neural net learning mechanisms.",
+  "link": "https://doi.org/10.1093/oso/9780198568742.003.0015"
+}

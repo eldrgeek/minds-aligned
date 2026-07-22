@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1803.08874",
+  "doi_url": "https://doi.org/10.48550/arxiv.1803.08874",
+  "title": "A mosaic of Chu spaces and Channel Theory with applications to Object Identification and Mereological Complexity",
+  "year": "2018",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook"
+  ],
+  "abstract": "Chu Spaces and Channel Theory are well established areas of investigation in the general context of category theory. We review a range of examples and applications of these methods in logic and computer science, including Formal Concept Analysis, distributed systems and ontology development. We then employ these methods to describe human object perception, beginning with the construction of uncategorized object files and proceeding through categorization, individual object identification and the tracking of object identity through time. We investigate the relationship between abstraction and mereological categorization, particularly as these affect object identity tracking. This we accomplish in terms of information flow that is semantically structured in terms of local logics, while at the same time this framework also provides an inferential mechanism towards identification and perception. We show how a mereotopology naturally emerges from the representation of classifications by simplicial complexes, and briefly explore the emergence of geometric relations and interactions between objects.",
+  "link": "https://doi.org/10.48550/arxiv.1803.08874"
+}

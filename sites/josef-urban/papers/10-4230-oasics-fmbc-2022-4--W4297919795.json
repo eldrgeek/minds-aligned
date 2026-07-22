@@ -1,0 +1,15 @@
+{
+  "doi": "10.4230/oasics.fmbc.2022.4",
+  "doi_url": "https://doi.org/10.4230/oasics.fmbc.2022.4",
+  "title": "Proofgold: Blockchain for Formal Methods",
+  "year": "2022",
+  "journal": "Leibniz-Zentrum für Informatik (Schloss Dagstuhl)",
+  "authors": [
+    "Brown, Chad E.",
+    "Cezary Kaliszyk",
+    "Gauthier, Thibault",
+    "Josef Urban"
+  ],
+  "abstract": "Proofgold is a peer to peer cryptocurrency making use of formal logic. Users can publish theories and then develop a theory by publishing documents with definitions, conjectures and proofs. The blockchain records the theories and their state of development (e.g., which theorems have been proven and when). Two of the main theories are a form of classical set theory (for formalizing mathematics) and an intuitionistic theory of higher-order abstract syntax (for reasoning about syntax with binders). We have also significantly modified the open source Proofgold Core client software to create a faster, more stable and more efficient client, Proofgold Lava. Two important changes are the cryptography code and the database code, and we discuss these improvements. We also discuss how the Proofgold network can be used to support large formalization efforts.",
+  "link": "https://doi.org/10.4230/oasics.fmbc.2022.4"
+}

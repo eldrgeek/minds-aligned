@@ -1,0 +1,17 @@
+{
+  "doi": "10.31219/osf.io/8v4tm",
+  "doi_url": "https://doi.org/10.31219/osf.io/8v4tm",
+  "title": "Mapping Inter-Regional Information Flow in the Murine Visual Cortex",
+  "year": "2024",
+  "journal": null,
+  "authors": [
+    "Erik D. Fagerholm",
+    "Gregory Scott",
+    "Robert Leech",
+    "Federico Turkheimer",
+    "Karl Friston",
+    "Milan Brázdil"
+  ],
+  "abstract": "One of the main challenges in computational neuroscience is to map the ways in which information flows through the networks of the brain. We present an approach to this challenge by tracing inter-regional entropy transmission within the murine visual cortex. In particular, we show that the entropy associated with the Fokker-Planck equation can be decomposed into two components, where one accounts for inter-regional flow and the other describes a diffusive spread. Following a proof of principle simulation using synthetic data, we apply this entropy decomposition to calcium imaging data collected in the murine visual cortex, revealing distinct patterns of information flow across cortical regions. We show that there is a consistent lateral redistribution of information from central to peripheral areas and a posterior-medial flow of processed information from frontal regions to specialized sensory areas. These findings offer insight into the structured propagation of neural information, contributing to our understanding of the functional architecture of the murine visual cortex.",
+  "link": "https://doi.org/10.31219/osf.io/8v4tm"
+}

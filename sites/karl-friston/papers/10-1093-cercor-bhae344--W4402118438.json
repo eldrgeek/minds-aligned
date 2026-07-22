@@ -1,0 +1,21 @@
+{
+  "doi": "10.1093/cercor/bhae344",
+  "doi_url": "https://doi.org/10.1093/cercor/bhae344",
+  "title": "Temporal dynamics of white and gray matter plasticity during motor skill acquisition: a comparative diffusion tensor imaging and multiparametric mapping analysis",
+  "year": "2024",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Tim Emmenegger",
+    "Gergely Dávid",
+    "Siawoosh Mohammadi",
+    "Gabriel Ziegler",
+    "Martina F. Callaghan",
+    "Alan J. Thompson",
+    "Karl Friston",
+    "Nikolaus Weiskopf",
+    "Tim Killeen",
+    "Patrick Freund"
+  ],
+  "abstract": "Learning new motor skills relies on neural plasticity within motor and limbic systems. This study uniquely combined diffusion tensor imaging and multiparametric mapping MRI to detail these neuroplasticity processes. We recruited 18 healthy male participants who underwent 960 min of training on a computer-based motion game, while 14 were scanned without training. Diffusion tensor imaging, which quantifies tissue microstructure by measuring the capacity for, and directionality of, water diffusion, revealed mostly linear changes in white matter across the corticospinal-cerebellar-thalamo-hippocampal circuit. These changes related to performance and reflected different responses to upper- and lower-limb training in brain areas with known somatotopic representations. Conversely, quantitative MRI metrics, sensitive to myelination and iron content, demonstrated mostly quadratic changes in gray matter related to performance and reflecting somatotopic representations within the same brain areas. Furthermore, while myelin and iron-sensitive multiparametric mapping MRI was able to describe time lags between different cortical brain systems, diffusion tensor imaging detected time lags within the white matter of the motor systems. These findings suggest that motor skill learning involves distinct phases of white and gray matter plasticity across the sensorimotor network, with the unique combination of diffusion tensor imaging and multiparametric mapping MRI providing complementary insights into the underlying neuroplastic responses.",
+  "link": "https://doi.org/10.1093/cercor/bhae344"
+}

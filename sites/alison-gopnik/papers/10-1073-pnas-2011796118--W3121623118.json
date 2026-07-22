@@ -1,0 +1,17 @@
+{
+  "doi": "10.1073/pnas.2011796118",
+  "doi_url": "https://doi.org/10.1073/pnas.2011796118",
+  "title": "Distinct electrophysiological signatures of task-unrelated and dynamic thoughts",
+  "year": "2021",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Julia W. Y. Kam",
+    "Zachary C. Irving",
+    "Caitlin Mills",
+    "Shawn Patel",
+    "Alison Gopnik",
+    "Robert T. Knight"
+  ],
+  "abstract": "Humans spend much of their lives engaging with their internal train of thoughts. Traditionally, research focused on whether or not these thoughts are related to ongoing tasks, and has identified reliable and distinct behavioral and neural correlates of task-unrelated and task-related thought. A recent theoretical framework highlighted a different aspect of thinking-how it dynamically moves between topics. However, the neural correlates of such thought dynamics are unknown. The current study aimed to determine the electrophysiological signatures of these dynamics by recording electroencephalogram (EEG) while participants performed an attention task and periodically answered thought-sampling questions about whether their thoughts were 1) task-unrelated, 2) freely moving, 3) deliberately constrained, and 4) automatically constrained. We examined three EEG measures across different time windows as a function of each thought type: stimulus-evoked P3 event-related potentials and non-stimulus-evoked alpha power and variability. Parietal P3 was larger for task-related relative to task-unrelated thoughts, whereas frontal P3 was increased for deliberately constrained compared with unconstrained thoughts. Frontal electrodes showed enhanced alpha power for freely moving thoughts relative to non-freely moving thoughts. Alpha-power variability was increased for task-unrelated, freely moving, and unconstrained thoughts. Our findings indicate distinct electrophysiological patterns associated with task-unrelated and dynamic thoughts, suggesting these neural measures capture the heterogeneity of our ongoing thoughts.",
+  "link": "https://doi.org/10.1073/pnas.2011796118"
+}

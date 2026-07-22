@@ -1,0 +1,33 @@
+{
+  "doi": "10.25561/25725",
+  "doi_url": "https://doi.org/10.25561/25725",
+  "title": "A formal proof of the Kepler conjecture",
+  "year": "2015",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Thomas Hales",
+    "Mark Adams",
+    "Gertrud Bauer",
+    "Dat Tat Dang",
+    "John Harrison",
+    "Hoang, TL",
+    "Cezary Kaliszyk",
+    "Victor Magron",
+    "Sean McLaughlin",
+    "Thang Tat Nguyen",
+    "Truong Quang Nguyen",
+    "Tobias Nipkow",
+    "Steven Obua",
+    "Joseph Pleso",
+    "Jason Rute",
+    "Alexey Solovyev",
+    "An Hoai Thi Ta",
+    "Trung Nam Tran",
+    "Diep Thi Trieu",
+    "Josef Urban",
+    "Ky Vu",
+    "Roland Zumkeller"
+  ],
+  "abstract": "This article describes a formal proof of the Kepler conjecture on dense sphere packings in a combination of the HOL Light and Isabelle proof assistants. This paper constitutes the official published account of the now completed Flyspeck project.",
+  "link": "https://doi.org/10.25561/25725"
+}

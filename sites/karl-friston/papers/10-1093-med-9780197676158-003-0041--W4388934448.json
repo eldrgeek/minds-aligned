@@ -1,0 +1,13 @@
+{
+  "doi": "10.1093/med/9780197676158.003.0041",
+  "doi_url": "https://doi.org/10.1093/med/9780197676158.003.0041",
+  "title": "Predictive Coding",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Stewart Shipp",
+    "Karl Friston"
+  ],
+  "abstract": "Abstract Predictive coding algorithms specify reciprocal message passing between hierarchical levels of a modular computation; likewise, the cerebral cortex can be characterized as a hierarchical arrangement of areas communicating via reciprocal forward and backward pathways. If the former is a model for the latter, it imposes several constraints over the micro- and macro-structure of pathways linking cortical areas, for example: which classes of neuron, with identified computational roles, make direct contact with each other; the topographic specificity of reciprocal connections, as realized through convergent and divergent connectivity; and the relative incidence of “manifold” processing (axonal distribution to multiple targets) in forward and backward connections. These issues are examined with reference to the visual system in mouse and monkey, with the conclusion that the mainstream organization of connectivity is largely compliant. Judicious expansion of the theoretical framework can accommodate some anomalous aspects of connectivity, and predict elements yet to be investigated experimentally.",
+  "link": "https://doi.org/10.1093/med/9780197676158.003.0041"
+}

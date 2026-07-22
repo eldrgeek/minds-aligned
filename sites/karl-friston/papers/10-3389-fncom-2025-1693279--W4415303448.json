@@ -1,0 +1,19 @@
+{
+  "doi": "10.3389/fncom.2025.1693279",
+  "doi_url": "https://doi.org/10.3389/fncom.2025.1693279",
+  "title": "Using noise to distinguish between system and observer effects in multimodal neuroimaging",
+  "year": "2025",
+  "journal": "Frontiers in Computational Neuroscience",
+  "authors": [
+    "Erik D. Fagerholm",
+    "Hirokazu Tanaka",
+    "Gregory Scott",
+    "Robert Leech",
+    "Federico Turkheimer",
+    "Peter Zeidman",
+    "Karl Friston",
+    "Milan Brázdil"
+  ],
+  "abstract": "Introduction: It has become increasingly common to record brain activity simultaneously at more than one spatiotemporal scale. Here, we address a central question raised by such cross-scale datasets: do they reflect the same underlying dynamics observed in different ways, or different dynamics observed in the same way? In other words, to what extent can variation between modalities be attributed to system-level versus observer-level effects? System-level effects reflect genuine differences in neural dynamics at the resolution sampled by each device. Observer-level effects, by contrast, reflect artefactual differences introduced by the nonlinear transformations each device imposes on the signal. We demonstrate that noise, when incorporated into generative models, can help disentangle these two sources of variation. Methods: We apply this noise-based approach to simultaneously recorded high-frequency broadband signals from macroelectrodes and microwires in the human hippocampus. Results: Most subjects show a complex mixture of system- and observer-level contributions to their time series. However, in one subject, the cross-scale difference is statistically attributable to an observer-level effect-i.e., consistent with the same dynamics at both microwire and macroelectrode scales. Discussion: This study shows that noise can be used in empirical datasets to determine whether cross-scale variation arises from differences in neural dynamics or differences in observer functions.",
+  "link": "https://doi.org/10.3389/fncom.2025.1693279"
+}

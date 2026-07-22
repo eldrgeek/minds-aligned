@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/icassp49357.2023.10095567",
+  "doi_url": "https://doi.org/10.1109/icassp49357.2023.10095567",
+  "title": "A Mathematical Model for Neuronal Activity and Brain Information Processing Capacity",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Yu Zheng",
+    "David C. Zhu",
+    "Jian Ren",
+    "Taosheng Liu",
+    "Karl Friston",
+    "Tongtong Li"
+  ],
+  "abstract": "Neurophysiological measurements suggest that human information processing is evinced by neuronal activity. However, the quantitative relationship between the activity of a brain region and its information processing capacity remains unclear. In this paper, we introduce an information conservation law for regional brain activation, and establish a mathematical model to quantify the relationship between the information processing capacity, input storage capacity, the arrival rate of exogenous information, and the neuronal activity of a brain region—referred to as the brain information processing capacity (IPC) model. We apply the IPC model to event related fMRI data from a flanker test, designed to determine age-related differences in brain activation. Our analysis demonstrates the predictive validity of the model in terms of providing accurate account of fMRI responses, and shows that for a given cognitive task, higher information processing capacity leads to lower neuronal activity level and faster response. Relying solely on the information conservation law, the IPC model provides a framework for modeling distributed neuronal processing—and can be applied to different data types and scales: i.e., single neurons, brain regions, and networks.",
+  "link": "https://doi.org/10.1109/icassp49357.2023.10095567"
+}

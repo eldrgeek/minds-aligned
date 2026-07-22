@@ -1,0 +1,14 @@
+{
+  "doi": "10.1093/cercor/bhad458",
+  "doi_url": "https://doi.org/10.1093/cercor/bhad458",
+  "title": "From active affordance to active inference: vertical integration of cognition in the cerebral cortex through dual subcortical control systems",
+  "year": "2023",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Phan Luu",
+    "Don M. Tucker",
+    "Karl Friston"
+  ],
+  "abstract": "In previous papers, we proposed that the dorsal attention system's top-down control is regulated by the dorsal division of the limbic system, providing a feedforward or impulsive form of control generating expectancies during active inference. In contrast, we proposed that the ventral attention system is regulated by the ventral limbic division, regulating feedback constraints and error-correction for active inference within the neocortical hierarchy. Here, we propose that these forms of cognitive control reflect vertical integration of subcortical arousal control systems that evolved for specific forms of behavior control. The feedforward impetus to action is regulated by phasic arousal, mediated by lemnothalamic projections from the reticular activating system of the lower brainstem, and then elaborated by the hippocampus and dorsal limbic division. In contrast, feedback constraint-based on environmental requirements-is regulated by the tonic activation furnished by collothalamic projections from the midbrain arousal control centers, and then sustained and elaborated by the amygdala, basal ganglia, and ventral limbic division. In an evolutionary-developmental analysis, understanding these differing forms of active affordance-for arousal and motor control within the subcortical vertebrate neuraxis-may help explain the evolution of active inference regulating the cognition of expectancy and error-correction within the mammalian 6-layered neocortex.",
+  "link": "https://doi.org/10.1093/cercor/bhad458"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2312.00990",
+  "doi_url": "https://doi.org/10.48550/arxiv.2312.00990",
+  "title": "Polynomial Functors: A Mathematical Theory of Interaction",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Nelson Niu",
+    "David I. Spivak"
+  ],
+  "abstract": "This monograph is a study of the category of polynomial endofunctors on the category of sets and its applications to modeling interaction protocols and dynamical systems. We assume basic categorical background and build the categorical theory from the ground up, highlighting pictorical techniques and concrete examples to build intuition and provide applications.",
+  "link": "https://doi.org/10.48550/arxiv.2312.00990"
+}

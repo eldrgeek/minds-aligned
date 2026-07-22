@@ -1,0 +1,15 @@
+{
+  "doi": "10.1038/s41598-024-56811-x",
+  "doi_url": "https://doi.org/10.1038/s41598-024-56811-x",
+  "title": "Cerebellar state estimation enables resilient coupling across behavioural domains",
+  "year": "2024",
+  "journal": "Scientific Reports",
+  "authors": [
+    "Ensor Rafael Palacios",
+    "Paul Chadderton",
+    "Karl Friston",
+    "Conor Houghton"
+  ],
+  "abstract": "Cerebellar computations are necessary for fine behavioural control and may rely on internal models for estimation of behaviourally relevant states. Here, we propose that the central cerebellar function is to estimate how states interact with each other, and to use these estimates to coordinates extra-cerebellar neuronal dynamics underpinning a range of interconnected behaviours. To support this claim, we describe a cerebellar model for state estimation that includes state interactions, and link this model with the neuronal architecture and dynamics observed empirically. This is formalised using the free energy principle, which provides a dual perspective on a system in terms of both the dynamics of its physical-in this case neuronal-states, and the inferential process they entail. As a demonstration of this proposal, we simulate cerebellar-dependent synchronisation of whisking and respiration, which are known to be tightly coupled in rodents, as well as limb and tail coordination during locomotion. In summary, we propose that the ubiquitous involvement of the cerebellum in behaviour arises from its central role in precisely coupling behavioural domains.",
+  "link": "https://doi.org/10.1038/s41598-024-56811-x"
+}

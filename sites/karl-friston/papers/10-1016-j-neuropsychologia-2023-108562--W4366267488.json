@@ -1,0 +1,15 @@
+{
+  "doi": "10.1016/j.neuropsychologia.2023.108562",
+  "doi_url": "https://doi.org/10.1016/j.neuropsychologia.2023.108562",
+  "title": "Cognitive effort and active inference",
+  "year": "2023",
+  "journal": "Neuropsychologia",
+  "authors": [
+    "Thomas Parr",
+    "Emma Holmes",
+    "Karl Friston",
+    "Giovanni Pezzulo"
+  ],
+  "abstract": "This paper aims to integrate some key constructs in the cognitive neuroscience of cognitive control and executive function by formalising the notion of cognitive (or mental) effort in terms of active inference. To do so, we call upon a task used in neuropsychology to assess impulse inhibition-a Stroop task. In this task, participants must suppress the impulse to read a colour word and instead report the colour of the text of the word. The Stroop task is characteristically effortful, and we unpack a theory of mental effort in which, to perform this task accurately, participants must overcome prior beliefs about how they would normally act. However, our interest here is not in overt action, but in covert (mental) action. Mental actions change our beliefs but have no (direct) effect on the outside world-much like deploying covert attention. This account of effort as mental action lets us generate multimodal (choice, reaction time, and electrophysiological) data of the sort we might expect from a human participant engaging in this task. We analyse how parameters determining cognitive effort influence simulated responses and demonstrate that-when provided only with performance data-these parameters can be recovered, provided they are within a certain range.",
+  "link": "https://doi.org/10.1016/j.neuropsychologia.2023.108562"
+}

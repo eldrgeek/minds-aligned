@@ -1,0 +1,15 @@
+{
+  "doi": "10.31234/osf.io/2gtsy_v1",
+  "doi_url": "https://doi.org/10.31234/osf.io/2gtsy_v1",
+  "title": "Image Recreation Methods Enable Quantitative Characterization of Geometric Visual Hallucinations",
+  "year": "2026",
+  "journal": null,
+  "authors": [
+    "Trevor Hewitt",
+    "Ethan Grove",
+    "Anil K. Seth",
+    "David J. Schwartzman"
+  ],
+  "abstract": "Hallucinations are percepts that occur in the absence of corresponding sensory input, reflecting internally generated activity within sensory systems. Among visual hallucinations, geometric formations are common, yet their phenomenological structure remains poorly characterised. They occur across contexts ranging from psychedelic experiences to psychiatric and neurological disorders, likely involving related mechanisms within the early sensory cortices. Despite their relevance across disciplines, existing measures rely primarily on verbal reports or coarse rating scales, which do not capture geometric structure.To address this limitation, we developed and validated image recreation methods in which healthy participants were trained to recreate images of their hallucinations induced by stroboscopic light at frequencies known to elicit visual hallucinations under laboratory conditions. In Experiment 1 (N = 55), participants used a freehand drawing interface; in Experiment 2 (N = 54), a generative image recreation interface was employed. Training procedures mitigated individual differences in expressive ability. Validation trials demonstrated that geometric features were recoverable at the population level when image stimuli were used in place of hallucination-inducing stimuli. Across experiments, visual qualities of induced hallucinations varied systematically with stimulation frequency, consistent with prior reports.The data revealed a broader repertoire of geometric forms than typically described in the literature, including structures not predicted by current computational models of simple hallucinations. Applying these methods to other contexts could clarify the range of geometric hallucinations the visual system tends to produce under controlled perturbation across psychedelic, pathological, and laboratory settings. More precise characterisation of hallucination phenomenology may refine constraints on theoretical models of how visual experience is constructed in normal and altered states.",
+  "link": "https://doi.org/10.31234/osf.io/2gtsy_v1"
+}

@@ -1,0 +1,23 @@
+{
+  "doi": "10.1038/s43247-022-00463-0",
+  "doi_url": "https://doi.org/10.1038/s43247-022-00463-0",
+  "title": "Lead removal at trace concentrations from water by inactive yeast cells",
+  "year": "2022",
+  "journal": "Communications Earth & Environment",
+  "authors": [
+    "Patritsia Maria Stathatou",
+    "Christos E. Athanasiou",
+    "M. Tsezos",
+    "John W. Goss",
+    "L. Camron Blackburn",
+    "Filippos Tourlomousis",
+    "Andreas Mershin",
+    "Brian W. Sheldon",
+    "Nitin P. Padture",
+    "Eric M. Darling",
+    "Huajian Gao",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Abstract Traces of heavy metals found in water resources, due to mining activities and e-waste discharge, pose a global threat. Conventional treatment processes fail to remove toxic heavy metals, such as lead, from drinking water in a resource-efficient manner when their initial concentrations are low. Here, we show that by using the yeast Saccharomyces cerevisiae we can effectively remove trace lead from water via a rapid mass transfer process, called biosorption, achieving an uptake of up to 12 mg lead per gram of biomass in solutions with initial lead concentrations below 1 part per million. Through spectroscopic analyses, we found that the yeast cell wall plays a crucial role in this process, with its mannoproteins and β-glucans being the key potential lead adsorbents. Furthermore, by employing nanomechanical characterization in the yeast biomass, we discovered that biosorption is linked to an increase in cell wall stiffness. These findings open new opportunities for using environmentally friendly and abundant biomaterials for advanced water treatment targeting emerging contaminants.",
+  "link": "https://doi.org/10.1038/s43247-022-00463-0"
+}

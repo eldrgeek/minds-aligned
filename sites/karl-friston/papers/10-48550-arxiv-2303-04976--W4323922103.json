@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2303.04976",
+  "doi_url": "https://doi.org/10.48550/arxiv.2303.04976",
+  "title": "Curvature-Sensitive Predictive Coding with Approximate Laplace Monte Carlo",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Umais Zahid",
+    "Qinghai Guo",
+    "Karl Friston",
+    "Zafeirios Fountas"
+  ],
+  "abstract": "Predictive coding (PC) accounts of perception now form one of the dominant computational theories of the brain, where they prescribe a general algorithm for inference and learning over hierarchical latent probabilistic models. Despite this, they have enjoyed little export to the broader field of machine learning, where comparative generative modelling techniques have flourished. In part, this has been due to the poor performance of models trained with PC when evaluated by both sample quality and marginal likelihood. By adopting the perspective of PC as a variational Bayes algorithm under the Laplace approximation, we identify the source of these deficits to lie in the exclusion of an associated Hessian term in the PC objective function, which would otherwise regularise the sharpness of the probability landscape and prevent over-certainty in the approximate posterior. To remedy this, we make three primary contributions: we begin by suggesting a simple Monte Carlo estimated evidence lower bound which relies on sampling from the Hessian-parameterised variational posterior. We then derive a novel block diagonal approximation to the full Hessian matrix that has lower memory requirements and favourable mathematical properties. Lastly, we present an algorithm that combines our method with standard PC to reduce memory complexity further. We evaluate models trained with our approach against the standard PC framework on image benchmark datasets. Our approach produces higher log-likelihoods and qualitatively better samples that more closely capture the diversity of the data-generating distribution.",
+  "link": "https://doi.org/10.48550/arxiv.2303.04976"
+}

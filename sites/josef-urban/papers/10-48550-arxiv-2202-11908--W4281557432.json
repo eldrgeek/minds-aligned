@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2202.11908",
+  "doi_url": "https://doi.org/10.48550/arxiv.2202.11908",
+  "title": "Learning Program Synthesis for Integer Sequences from Scratch",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Thibault Gauthier",
+    "Josef Urban"
+  ],
+  "abstract": "We present a self-learning approach for synthesizing programs from integer sequences. Our method relies on a tree search guided by a learned policy. Our system is tested on the On-Line Encyclopedia of Integer Sequences. There, it discovers, on its own, solutions for 27987 sequences starting from basic operators and without human-written training examples.",
+  "link": "https://doi.org/10.48550/arxiv.2202.11908"
+}

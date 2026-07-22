@@ -1,0 +1,14 @@
+{
+  "doi": "10.5281/zenodo.14285",
+  "doi_url": "https://doi.org/10.5281/zenodo.14285",
+  "title": "Witthoft, Winawer, Eagleman 2015: Learned Pairings in Synesthesia",
+  "year": "2015",
+  "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+    "Nathan Witthoft",
+    "Jonathan Winawer",
+    "David M. Eagleman"
+  ],
+  "abstract": "This repository contains all the data and code to recreate the analyses in Witthoft, Winawer, and Eagleman (2015). Prevalence of Learned Grapheme-Color Pairings in a Large Online Sample of Synesthesia. PLoS One.",
+  "link": "https://doi.org/10.5281/zenodo.14285"
+}

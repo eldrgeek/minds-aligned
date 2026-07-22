@@ -1,0 +1,13 @@
+{
+  "doi": "10.3389/fnins.2017.00579",
+  "doi_url": "https://doi.org/10.3389/fnins.2017.00579",
+  "title": "Closed Loop Experiment Manager (CLEM)—An Open and Inexpensive Solution for Multichannel Electrophysiological Recordings and Closed Loop Experiments",
+  "year": "2017",
+  "journal": "Frontiers in Neuroscience",
+  "authors": [
+    "Hananel Hazan",
+    "Noam Ziv"
+  ],
+  "abstract": "and in a variety of other neuronal preparations, or for developing and testing neuro-prosthetic devices, to name a few. Furthermore, there is a need for such systems to be inexpensive, reliable, user friendly, easy to set-up, open and expandable, and possess long life cycles in face of rapidly changing computing environments. Finally, they should provide powerful, yet reasonably easy to implement facilities for developing closed-loop protocols for interacting with neuronal systems. Here, we survey commercial and open source systems that address these needs to varying degrees. We then present our own solution, which we refer to as Closed Loop Experiments Manager (CLEM). CLEM is an open source, soft real-time, Microsoft Windows desktop application that is based on a single generic personal computer (PC) and an inexpensive, general-purpose data acquisition board. CLEM provides a fully functional, user-friendly graphical interface, possesses facilities for recording, presenting and logging electrophysiological data from up to 64 analog channels, and facilities for controlling external devices, such as stimulators, through digital and analog interfaces. Importantly, it includes facilities for running closed-loop protocols written in any programming language that can generate dynamic link libraries (DLLs). We describe the application, its architecture and facilities. We then demonstrate, using networks of cortical neurons growing on multielectrode arrays (MEA) that despite its reliance on generic hardware, its performance is appropriate for flexible, closed-loop experimentation at the neuronal network level.",
+  "link": "https://doi.org/10.3389/fnins.2017.00579"
+}

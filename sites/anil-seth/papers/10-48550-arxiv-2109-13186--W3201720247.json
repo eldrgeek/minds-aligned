@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2109.13186",
+  "doi_url": "https://doi.org/10.48550/arxiv.2109.13186",
+  "title": "Towards an extended taxonomy of information dynamics via Integrated Information Decomposition",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Pedro A. M. Mediano",
+    "Fernando E. Rosas",
+    "Andrea I. Luppi",
+    "Robin Carhart‐Harris",
+    "Daniel Bor",
+    "Anil K. Seth",
+    "Adam B. Barrett"
+  ],
+  "abstract": "Complex systems, from the human brain to the global economy, are made of multiple elements that interact in such ways that the behaviour of the `whole' often seems to be more than what is readily explainable in terms of the `sum of the parts.' Our ability to understand and control these systems remains limited, one reason being that we still don't know how best to describe -- and quantify -- the higher-order dynamical interactions that characterise their complexity. To address this limitation, we combine principles from the theories of Information Decomposition and Integrated Information into what we call Integrated Information Decomposition, or $Φ$ID. $Φ$ID provides a comprehensive framework to reason about, evaluate, and understand the information dynamics of complex multivariate systems. $Φ$ID reveals the existence of previously unreported modes of collective information flow, providing tools to express well-known measures of information transfer and dynamical complexity as aggregates of these modes. Via computational and empirical examples, we demonstrate that $Φ$ID extends our explanatory power beyond traditional causal discovery methods -- with profound implications for the study of complex systems across disciplines.",
+  "link": "https://doi.org/10.48550/arxiv.2109.13186"
+}

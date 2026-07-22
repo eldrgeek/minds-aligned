@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "The V1.0 'Pushpin' Nixel 2-D Self-Assembling Display Array",
+  "year": "2004",
+  "journal": null,
+  "authors": [
+    "Joseph M. Jacobson",
+    "Neil Gershenfeld",
+    "Bill Butera"
+  ],
+  "abstract": "Abstract : This report details the results of the MIT - RF Nixel Program. The RF Nixel Program represents a novel architecture for display systems based on an ensemble of Nixel display elements. Each Nixel element comprises a display element (pixel), lightweight computation sufficient to run self -assembling software code elements and local communications. A proof-of-principle hardware implementation (The Vi .0 Pushpin' Nixel 2D array) was carried out and used to successfully run the gradient and coordinate generating algorithms. Detailed simulation shows the viability of such an approach to render complex text and graphics.",
+  "link": "https://openalex.org/W113817396"
+}

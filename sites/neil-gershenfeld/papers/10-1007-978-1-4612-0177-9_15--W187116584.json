@@ -1,0 +1,13 @@
+{
+  "doi": "10.1007/978-1-4612-0177-9_15",
+  "doi_url": "https://doi.org/10.1007/978-1-4612-0177-9_15",
+  "title": "Cluster-Weighted Modeling: Probabilistic Time Series Prediction, Characterization, and Synthesis",
+  "year": "2001",
+  "journal": "Birkhäuser Boston eBooks",
+  "authors": [
+    "Bernd Schöner",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Cluster-weighted modeling, a mixture density estimator around local models, is presented as a framework for the analysis, prediction and characterization of non-linear time series. First architecture, model estimation and characterization formalisms are introduced. The characterization tools include estimator uncertainty, predictor uncertainty, and the correlation dimension of the data set. in the second part of this chapter the framework is extended to synthesize audio signals and is applied to model a violin in a data-driven input-output approach.",
+  "link": "https://doi.org/10.1007/978-1-4612-0177-9_15"
+}

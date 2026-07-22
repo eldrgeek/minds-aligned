@@ -1,0 +1,17 @@
+{
+  "doi": "10.1093/nar/20.16.4255",
+  "doi_url": "https://doi.org/10.1093/nar/20.16.4255",
+  "title": "Splicing signals in<i>Drosophila</i>: intron size, information content, and consensus sequences",
+  "year": "1992",
+  "journal": "Nucleic Acids Research",
+  "authors": [
+    "Stephen M. Mount",
+    "Christian Burks",
+    "Gerald Herts",
+    "Gary D. Stormo",
+    "Owen White",
+    "Chris Fields"
+  ],
+  "abstract": "A database of 209 Drosophila introns was extracted from Genbank (release number 64.0) and examined by a number of methods in order to characterize features that might serve as signals for messenger RNA splicing. A tight distribution of sizes was observed: while the smallest introns in the database are 51 nucleotides, more than half are less than 80 nucleotides in length, and most of these have lengths in the range of 59-67 nucleotides. Drosophila splice sites found in large and small introns differ in only minor ways from each other and from those found in vertebrate introns. However, larger introns have greater pyrimidine-richness in the region between 11 and 21 nucleotides upstream of 3' splice sites. The Drosophila branchpoint consensus matrix resembles C T A A T (in which branch formation occurs at the underlined A), and differs from the corresponding mammalian signal in the absence of G at the position immediately preceding the branchpoint. The distribution of occurrences of this sequence suggests a minimum distance between 5' splice sites and branchpoints of about 38 nucleotides, and a minimum distance between 3' splice sites and branchpoints of 15 nucleotides. The methods we have used detect no information in exon sequences other than in the few nucleotides immediately adjacent to the splice sites. However, Drosophila resembles many other species in that there is a discontinuity in A + T content between exons and introns, which are A + T rich.",
+  "link": "https://doi.org/10.1093/nar/20.16.4255"
+}

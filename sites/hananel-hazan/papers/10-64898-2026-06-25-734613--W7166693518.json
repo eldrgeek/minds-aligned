@@ -1,0 +1,18 @@
+{
+  "doi": "10.64898/2026.06.25.734613",
+  "doi_url": "https://doi.org/10.64898/2026.06.25.734613",
+  "title": "Context-Aware Evidence-Gated Plasticity for Multi-Goal Learning in Spiking Neural Networks",
+  "year": "2026",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Samuel A. Neymotin",
+    "Hananel Hazan",
+    "Gözde Ünal",
+    "C Earl",
+    "Haroon Anwar",
+    "Piotr J. Franaszczuk",
+    "David Boothe"
+  ],
+  "abstract": "Background / Introduction: Biologically inspired spiking neural networks can model adaptive behavior, but learning multiple goals is difficult because synaptic updates for different targets can interfere. We tested whether multi-timescale plasticity and context-specific credit assignment could improve continual multi-goal learning in a spiking navigation system inspired by entorhinal-hippocampal circuitry. Methods: We developed a closed-loop spiking model containing grid-like, place-like, target-related, association, and motor-output populations. An agent navigated in a two-dimensional environment with randomized starting locations and learned through reward-modulated spike-timing dependent plasticity (STDP/RL) and a novel evidence-gated plasticity (EGP) framework. EGP accumulates candidate synaptic modifications, evaluates them using reward evidence, and consolidates only changes that improve performance. A target-context variant maintained separate proposal stores and reward evaluation for each target. Results: STDP/RL learned and retained a single-target navigation policy, but multi-target training produced substantial interference, including attraction to incorrect targets after learning. Across 10 connectivity seeds, target-context EGP achieved higher late-stage reward than global EGP, improved weakest-target performance, and increased the fraction of targets achieving positive reward. In a longer continual-learning simulation, reward increased for all targets, TEST-phase performance increasingly exceeded TRAIN-phase performance, and proposal magnitudes grew over learning. Dwell-time confusion analyses showed that target-context EGP reduced wrong-target attraction and improved target selectivity relative to multi-target STDP/RL. Conclusions: These results demonstrate that spiking navigation circuits can learn goal-directed behavior using local plasticity, but robust multi-goal learning benefits from context-specific evidence-based consolidation. Target-context EGP provides a biologically motivated mechanism for reducing interference during continual reinforcement learning in spiking neural networks.",
+  "link": "https://doi.org/10.64898/2026.06.25.734613"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Incorporating dynamic control into the model generative reasoning system",
+  "year": "1988",
+  "journal": "European Conference on Artificial Intelligence",
+  "authors": [
+    "Chris Fields",
+    "M. J. Coombs",
+    "Eric Dietrich",
+    "Roger T. Hartley"
+  ],
+  "abstract": "Model -Generative Reasoning (MGR) is an automated problem solving architecture designed for application in task environments in which problems are novel and data arc noisy, incomplete, or of uncertain relevance (Hartley et al., 1987; Coombs and Hartley, 1987; Fields ct al., in press). The current prototype MGR system employs a sequential reasoning strategy, the MGR algorithm (Coombs and HartIcy, 1987). This problem solver is capable of generating models of events for which it has no stored schema by decomposing stored schemata representing similar events, and recombining the components into a new model. It can, therefore, function successfully in task environments in which a restricted class of novel events can arise, and in which irrelevant as well as relevant information is included in both the input and the knowledge base. The prototype has been applied to process control (Coombs and Hartley, 1988) and robot path planning (Eshner et al., in press) problems; current application areas include meteorological data fusion (Coombs et al., 1988) and DNA sequence analysis. The problem solving strategy employed by the current MGR prototype is useful in some domains; however, it does not permit sufficiently plastic behavior in the face of some forms of novelty or incomplete data. If plasticity in the face of novelty is regarded as a measure of intelligence (Fields and Dietrich, 1987a), the use of a fixed strategy must be regarded as a deficit in a problem solver. One approach to alleviating the limitations imposed by a fixed problem solving strategy is to design a strategy that allows the problem solver to emulate the behavior that would result from applying a task-appropriate to each individual task. This is the general approach taken by Newell’s group in the design of their Universal Weak Method (Laird and Newell, 1983; Laird et al., 1987). The approach that we have taken has similar motivations; however, instead of designing a universal symbolic weak method that allows emulation of alternative strategics, we have designed a concurrent, dynamic control structure that allows the arbitrary superposition of strategies within a single execution cycle. This structure will allow problem solvers based on the MGR architecture to, in effect, arbitrarily integrate alternative strategies into new methods customized to the particular problem at hand.",
+  "link": "https://openalex.org/W91519552"
+}

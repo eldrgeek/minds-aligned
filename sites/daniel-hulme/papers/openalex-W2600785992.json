@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Exact Logic Minimization and Multiplicative Complexity of Concrete Algebraic and Cryptographic Circuits",
+  "year": "2013",
+  "journal": null,
+  "authors": [
+    "Nicolas T. Courtois",
+    "Theodosis Mourouzis",
+    "Daniel Hulme"
+  ],
+  "abstract": "Abstract—Two very important NP-hard problems in the area of computational complexity are the problems of Matrix Mul-tiplication (MM) and Circuit Optimization. Solving particular cases of such problems yield to improvements in many other problems as they are core sub-routines implemented in many other algorithms. However, obtaining optimal solutions is an intractable problem since the space to explore for each problem is exponentially large. All suggested methodologies rely on well-chosen heuristics, selected according to the topology of the specific problem. Such heuristics may yield to efficient and acceptable solutions but they do not guarantee that no better can be done. In this paper, we suggest a general framework for obtaining solutions to such problems. We have developed a 2-step methodology, where in the first place we describe algebraically the problem and then we convert it to a SAT-CNF problem, which",
+  "link": "https://openalex.org/W2600785992"
+}

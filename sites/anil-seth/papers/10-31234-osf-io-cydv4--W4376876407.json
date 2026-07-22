@@ -1,0 +1,15 @@
+{
+  "doi": "10.31234/osf.io/cydv4",
+  "doi_url": "https://doi.org/10.31234/osf.io/cydv4",
+  "title": "Sensorimotor coupling modulates perceived time and agency across visual perspectives",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Shu Imaizumi",
+    "Giuseppe Lai",
+    "Anil K. Seth",
+    "Keisuke Suzuki"
+  ],
+  "abstract": "Voluntary actions are associated with sense of agency and distortions of perceived duration. This study examined how sensorimotor coupling and visual perspective modulate perceived duration and sense of agency during manual actions in four pre-registered experiments using virtual reality. Participants moved their hands while observing a virtual hand moving (a)synchronously, and evaluated movement duration and their sense of agency. We found that sensorimotor coupling provided by synchronous visual feedback is associated with longer perceived duration relative to action-related time compression, compared with delayed feedback or pre-recorded movements of another person (Experiments 1 and 2). Sensorimotor coupling also modulated sense of agency and may serve as a shared basis for perceived time and agency. Comparable modulations across first- and third-person perspectives (Experiments 1 and 2), anatomical configurations (Experiment 3), and attention on external entities (Experiment 4) suggest a shared predictive system for sensory consequences of self-generated actions and others’ reactions. This modulation was observed irrespective of anatomical configuration and when attention was directed toward objects unrelated to one’s own body, suggesting that the underlying mechanism is not confined to representations specific to the self, but may instead reflect domain-general predictive computations. These findings, together with the virtual reality technique developed, offer new insights into how humans experience passage of time and agency during voluntary action.",
+  "link": "https://doi.org/10.31234/osf.io/cydv4"
+}

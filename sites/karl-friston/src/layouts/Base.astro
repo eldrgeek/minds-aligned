@@ -1,5 +1,5 @@
 ---
-import { BackToHub, FeedbackWidget, SocietyBar } from '@soma/feedback/components'
+import { BackToHub, FeedbackWidget, SocietyBar, AIHost, JoinBar } from '@soma/feedback/components'
 
 interface Props {
   title: string
@@ -24,6 +24,10 @@ const { title, hubUrl } = Astro.props
     <div class="container">
       <slot />
     </div>
+
+    <AIHost slug="karl-friston" />
+
+    <JoinBar site="karl-friston" />
 
     <SocietyBar />
 

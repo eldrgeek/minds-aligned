@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Splicing signals inDrosophila: intron size, information content, andconsensussequences",
+  "year": "1992",
+  "journal": null,
+  "authors": [
+    "Christian Burks",
+    "Gerald Z. Hertz",
+    "Chris Fields"
+  ],
+  "abstract": "A database of209Drosophila introns wasextracted fromGenbank (release number64.0) andexamined by anumberofmethods inorder tocharacterize features that might serve assignals formessenger RNAsplicing. A tight distribution ofsizes wasobserved: while the smallest introns inthedatabase are51nucleotides, morethanhalf areless than80nucleotides inlength, andmostofthese havelengths intherangeof59-67 nucleotides. Drosophila splice sites foundinlarge and small introns differ inonly minor waysfromeachother andfromthosefoundinvertebrate introns. However, larger introns havegreater pyrimidine-richness inthe region between 11and21nucleotides upstream of3' splice sites. TheDrosophila branchpoint consensus matrix resembles CTAAT(in whichbranch formation occursattheunderlined A),anddiffers fromthe corresponding mammalian signal intheabsence ofG attheposition immediately preceding thebranchpoint. Thedistribution ofoccurrences ofthissequence suggests aminimumdistance between 5'splice sites andbranchpoints ofabout38nucleotides, anda minimumdistance between3'splice sitesand branchpoints of15nucleotides. Themethods wehave useddetect noinformation inexonsequences other thaninthefewnucleotides immediately adjacent tothe splice sites. However, Drosophila resembles many other species inthat there isadiscontinuity inA+T content between exonsandintrons, whichareA+T",
+  "link": "https://openalex.org/W2183278992"
+}

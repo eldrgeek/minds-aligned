@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1502.03424",
+  "doi_url": "https://doi.org/10.48550/arxiv.1502.03424",
+  "title": "Effective dark energy from decoherence",
+  "year": "2015",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Within the quantum Darwinist framework introduced by W. H. Zurek ({\\em Nat. Phys.}, 5:181-188, 2009), observers obtain pointer-state information about quantum systems by interacting with a local sample of the surrounding environment, e.g. a local sample of the ambient photon field. Because the environment encodes such pointer state information uniformly and hence redundantly throughout its entire volume, the information is equally available to all observers regardless of their location. This framework is applied to the observation of stellar center-of-mass positions, which are assumed to be encoded by the ambient photon field in a way that is uniformly accessible to all possible observers. Assuming Landauer's Principle, constructing such environmental encodings requires $(ln2) kT$ per encoded bit. For the observed 10$^{24}$ stars and a uniform binary encoding of center-of-mass positions into voxels with a linear dimension of 5 km, the free energy required at the current CMB temperature T = 2.7 K is $\\sim$ 2.5 $\\cdot$ 10$^{-27}$ kg $\\cdot$ m$^{-3}$, strikingly close to the observed value of $Ω_Λ ρ_{c}$. Decreasing the voxel size to $(l_{P})^{3}$ results in a free energy requirement 10$^{117}$ times larger.",
+  "link": "https://doi.org/10.48550/arxiv.1502.03424"
+}

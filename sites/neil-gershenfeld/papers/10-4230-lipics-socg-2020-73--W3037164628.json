@@ -1,0 +1,25 @@
+{
+  "doi": "10.4230/lipics.socg.2020.73",
+  "doi_url": "https://doi.org/10.4230/lipics.socg.2020.73",
+  "title": "Space Ants: Constructing and Reconfiguring Large-Scale Structures with Finite Automata (Media Exposition)",
+  "year": "2020",
+  "journal": "Leibniz-Zentrum für Informatik (Schloss Dagstuhl)",
+  "authors": [
+    "Amira Abdel-Rahman",
+    "Aaron T. Becker",
+    "Daniel Biediger",
+    "Kenneth Cheung",
+    "Sándor P. Fekete",
+    "Neil Gershenfeld",
+    "Sabrina Hugo",
+    "Benjamin Jenett",
+    "Phillip Keldenich",
+    "Eike Niehs",
+    "Christian Rieck",
+    "Arne Schmidt",
+    "Christian Scheffer",
+    "Michael Yannuzzi"
+  ],
+  "abstract": "In this video, we consider recognition and reconfiguration of lattice-based cellular structures by very simple robots with only basic functionality. The underlying motivation is the construction and modification of space facilities of enormous dimensions, where the combination of new materials with extremely simple robots promises structures of previously unthinkable size and flexibility. We present algorithmic methods that are able to detect and reconfigure arbitrary polyominoes, based on finite-state robots, while also preserving connectivity of a structure during reconfiguration. Specific results include methods for determining a bounding box, scaling a given arrangement, and adapting more general algorithms for transforming polyominoes.",
+  "link": "https://doi.org/10.4230/lipics.socg.2020.73"
+}

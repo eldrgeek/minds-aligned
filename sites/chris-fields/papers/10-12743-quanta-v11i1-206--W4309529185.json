@@ -1,0 +1,14 @@
+{
+  "doi": "10.12743/quanta.v11i1.206",
+  "doi_url": "https://doi.org/10.12743/quanta.v11i1.206",
+  "title": "The Physical Meaning of the Holographic Principle",
+  "year": "2022",
+  "journal": "Quanta",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook",
+    "Antonino Marcianò"
+  ],
+  "abstract": "We show in this pedagogical review that far from being an apparent law of physics that stands by itself, the holographic principle is a straightforward consequence of the quantum information theory of separable systems. It provides a basis for the theories of measurement, time, and scattering. Utilizing the notion of holographic screens, which are information encoding boundaries between physical subsystems, we demonstrate that the physical interaction is an information exchange during which information is strictly conserved. Then we use generalized holographic principle in order to flesh out a fully-general quantum theory of measurement in which the measurement produces finite-resolution, classical outcomes. Further, we show that the measurements are given meaning by quantum reference frames and sequential measurements induce topological quantum field theories. Finally, we discuss principles equivalent to the holographic principle, including Markov blankets and the free-energy principle in biology, multiple realizability and virtual machines in computer science, and active inference and interface theories in cognitive science. This appearance in multiple disciplines suggests that the holographic principle is not just a fundamental principle of physics, but of all of science. Quanta 2022; 11: 72–96.",
+  "link": "https://doi.org/10.12743/quanta.v11i1.206"
+}

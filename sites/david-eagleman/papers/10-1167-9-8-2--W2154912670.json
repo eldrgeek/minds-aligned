@@ -1,0 +1,14 @@
+{
+  "doi": "10.1167/9.8.2",
+  "doi_url": "https://doi.org/10.1167/9.8.2",
+  "title": "A neural model for temporal order judgments and their active recalibration: a common mechanism for space and time?",
+  "year": "2010",
+  "journal": "Journal of Vision",
+  "authors": [
+    "David M. Eagleman",
+    "Mingyu Cai",
+    "Chess Stetson"
+  ],
+  "abstract": "Human temporal order judgments (TOJs) dynamically recalibrate when participants are exposed to a delay between their motor actions and sensory effects. We here present a novel neural model that captures TOJs and their recalibration. This model employs two ubiquitous features of neural systems: synaptic scaling at the single neuron level and opponent processing at the population level. Essentially, the model posits that different populations of neurons encode different delays between motor-sensory or sensory-sensory events, and that these populations feed into opponent processing neurons that employ synaptic scaling. The system uses the difference in activity between populations encoding for ‘before’ or ‘after’ to obtain a decision. As a consequence, if the network's ‘motor acts’ are consistently followed by sensory feedback with a delay, the network will automatically recalibrate to change the perceived point of simultaneity between the action and sensation. Our model suggests that temporal recalibration may be a temporal analogue to the motion aftereffect. We hypothesize that the same neural mechanisms are used to make perceptual determinations about both space and time, depending on the information available in the neural neighborhood in which the module unpacks.",
+  "link": "https://doi.org/10.1167/9.8.2"
+}

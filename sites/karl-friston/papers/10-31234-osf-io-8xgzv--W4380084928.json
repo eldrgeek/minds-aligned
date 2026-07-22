@@ -1,0 +1,16 @@
+{
+  "doi": "10.31234/osf.io/8xgzv",
+  "doi_url": "https://doi.org/10.31234/osf.io/8xgzv",
+  "title": "Generating Meaning: Active Inference and the Scope and Limits of Passive AI",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Giovanni Pezzulo",
+    "Thomas Parr",
+    "Paul Cisek",
+    "Andy Clark",
+    "Karl Friston"
+  ],
+  "abstract": "Prominent accounts of sentient behaviour depict brains as generative models of organismic interaction with the world, raising points of contact with current work in Generative AI. However, because they contend with the control of purposive, life-maintaining sensorimotor interactions, the generative models of living organisms are inextricably anchored to the body and world. Unlike the passive models learnt by Generative AIs, they must capture and control the sensory consequences of action. This allows embodied agents to intervene upon their worlds in ways that constantly put their best models to the test; providing a solid bedrock that is—we argue—essential to the development of genuine understanding. Here, we review the resulting implications, and consider future directions of travel for Generative AI.",
+  "link": "https://doi.org/10.31234/osf.io/8xgzv"
+}

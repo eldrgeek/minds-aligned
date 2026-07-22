@@ -1,0 +1,15 @@
+{
+  "doi": "10.1076/jnmr.28.2.81.3116",
+  "doi_url": "https://doi.org/10.1076/jnmr.28.2.81.3116",
+  "title": "Data-Driven Modeling of Acoustical Instruments<sup>∗</sup>",
+  "year": "1999",
+  "journal": "Journal of New Music Research",
+  "authors": [
+    "Bernd Schöner",
+    "Chuck Cooper",
+    "Chris Douglas",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We present a framework for the analysis and synthesis of acoustical instruments based on data-driven probabilistic inference modeling. Audio time series and boundary conditions of a played instrument are recorded and the non-linear mapping from the control data into the audio space is inferred using the general inference framework of Cluster-Weighted Modeling. The resulting model is used for real-time synthesis of audio sequences from new input data.",
+  "link": "https://doi.org/10.1076/jnmr.28.2.81.3116"
+}

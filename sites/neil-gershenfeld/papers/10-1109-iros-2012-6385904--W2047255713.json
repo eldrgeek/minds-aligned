@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/iros.2012.6385904",
+  "doi_url": "https://doi.org/10.1109/iros.2012.6385904",
+  "title": "The Milli-Motein: A self-folding chain of programmable matter with a one centimeter module pitch",
+  "year": "2012",
+  "journal": null,
+  "authors": [
+    "Ara N. Knaian",
+    "Kenneth Cheung",
+    "Maxim B. Lobovsky",
+    "Asa J. Oines",
+    "Peter Schmidt-Neilsen",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "The Milli-Motein (Millimeter-Scale Motorized Protein) is ca chain of programmable matter with a 1 cm pitch. It can fold itself into digitized approximations of arbitrary three-dimensional shapes. The small size of the Milli-Motein segments is enabled by the use of our new electropermanent wobble stepper motors, described in this paper, and by a highly integrated electronic and mechanical design. The chain is an interlocked series of connected motor rotors and stators, wrapped with a continuous flex circuit to provide communications, control, and power transmission capabilities. The Milli-Motein uses off-the-shelf electronic components and fasteners, and custom parts fabricated by conventional and electric discharge machining, assembled with screws, glue, and solder using tweezers under a microscope. We perform shape reconfiguration experiments using a four-segment Milli-Motein. It can switch from a straight line to a prescribed shape in 5 seconds, consuming 2.6 W power during reconfiguration. It can hold its shape indefinitely without power. During reconfiguration, a segment can lift the weight of one but not two segments as a horizontal cantilever.",
+  "link": "https://doi.org/10.1109/iros.2012.6385904"
+}

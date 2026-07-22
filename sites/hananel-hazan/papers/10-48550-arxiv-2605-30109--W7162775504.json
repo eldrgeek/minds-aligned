@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2605.30109",
+  "doi_url": "https://doi.org/10.48550/arxiv.2605.30109",
+  "title": "Training Ecosystems: A Computational Approach to Uncovering Learning Behavior in Unconventional Contexts",
+  "year": "2026",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Adrita Samanta",
+    "Hananel Hazan",
+    "Michael Levin"
+  ],
+  "abstract": "Recent progress in diverse intelligence has shown simple learning capacities below the organism level - single cells and even molecular networks. However, there are still many knowledge gaps around learning capacity above the organism level, and about memory implemented purely by dynamical interactions without explicit memory media. We demonstrate that minimal ecological dynamics (in silico) are sufficient for several kinds of learning, assayed as changes in both, magnitude of response, and of recovery time. Systematic exploration of over 220,000 parameter combinations in a simulated classic predator-prey model revealed that, when perturbed by stimuli, recovery time exhibits habituation, sensitization, and a form of discrete number learning in a scale-invariant manner. Robustness analysis revealed that habituation and sensitization persist under stochastic perturbations, while discrete number learning is disrupted even at low noise levels. Dimensionality reduction revealed that the incidence of learning capacity is primarily determined by ecological interaction strengths. Clear, unique clustering patterns in parameter space allow high prediction accuracy for novel parameter combinations that enable learning. Response magnitude revealed a striking asymmetry: 90.6% of parameter combinations exhibited recovery time sensitization paired with habituation of response magnitude, while the opposite pattern was extremely rare. These findings highlight a set of phenomena at the intersection of ecology, basal cognition, and mathematics with many implications for a wide range of systems describable by similar kinds of equations. These properties provide numerous efforts in biology and engineering with a substrate that has considerable, pre-patterned, propensity for learning, which ultimately arises from mathematics, not depending on the details of physics or biology.",
+  "link": "https://doi.org/10.48550/arxiv.2605.30109"
+}

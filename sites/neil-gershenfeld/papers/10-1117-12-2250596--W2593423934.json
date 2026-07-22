@@ -1,0 +1,19 @@
+{
+  "doi": "10.1117/12.2250596",
+  "doi_url": "https://doi.org/10.1117/12.2250596",
+  "title": "Progress in fabrication of waveguide spatial light modulators via femtosecond laser micromachining",
+  "year": "2017",
+  "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "Nickolaos Savidis",
+    "Sundeep Jolly",
+    "Bianca Datta",
+    "Michael Moebius",
+    "Thrasyvoulos Karydis",
+    "Eric Mazur",
+    "Neil Gershenfeld",
+    "V. Michael Bove"
+  ],
+  "abstract": "We have previously introduced a femtosecond laser micromachining-based scheme for the fabrication of anisotropic waveguides in lithium niobate for use in a guided-wave acousto-optic spatial light modulator. This spatial light modulation scheme is extensible to off-plane waveguide holography via the integration of a Bragg reflection grating. In this paper, we present femtosecond laser-based direct-write approaches for the fabrication of (1) waveguide in-coupling gratings and (2) volume Bragg reflection gratings via permanent refractive index changes within the lithium niobate substrate. In combination with metal surface-acoustic-wave transducers, these direct-write approaches allow for complete fabrication of a functional spatial light modulator via femtosecond laser direct writing.",
+  "link": "https://doi.org/10.1117/12.2250596"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.1093/oso/9780198235934.003.0010",
+  "doi_url": "https://doi.org/10.1093/oso/9780198235934.003.0010",
+  "title": "Measurement and Computational Description",
+  "year": "1996",
+  "journal": null,
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Abstract The mathematical theory of computation does not directly address the questions of whether, and if so, how physical processes might be characterized as computations, or physical systems characterized as computers. These questions lie at the heart, however, of the technology of computer design, and of empirical investigations in cognitive science, computational neuroscience, and other sciences concerned with the processing of information. Addressing these questions requires a theory not of computation per se, but of the computational description of physical systems. My purposes in the present paper are, first, to outline a theory of computational description that is based explicitly on the theory of physical measurement, and, second, to examine some consequences of this theory for some questions in the philosophy of computer science and artificial intelligence.",
+  "link": "https://doi.org/10.1093/oso/9780198235934.003.0010"
+}

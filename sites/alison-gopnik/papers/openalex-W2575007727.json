@@ -1,0 +1,16 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "A Simple Sequential Algorithm for Approximating Bayesian Inference.",
+  "year": "2011",
+  "journal": "eScholarship (California Digital Library)",
+  "authors": [
+    "Elizabeth Bonawitz",
+    "Stephanie Denison",
+    "Annie Chen",
+    "Alison Gopnik",
+    "Thomas L. Griffiths"
+  ],
+  "abstract": "People can apparently make surprisingly sophisticated inductive inferences, despite the fact that there are constraints on cognitive resources that would make performing exact Bayesian inference computationally intractable. What algorithms could they be using to make this possible? We show that a simple sequential algorithm, Win-Stay, Lose-Shift (WSLS), can be used to approximate Bayesian inference, and is consistent with human behavior on a causal learning task. This algorithm provides a new way to understand people’s judgments and a new efficient method for performing Bayesian inference.",
+  "link": "https://openalex.org/W2575007727"
+}

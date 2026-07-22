@@ -1,0 +1,13 @@
+{
+  "doi": "10.3390/sym12050810",
+  "doi_url": "https://doi.org/10.3390/sym12050810",
+  "title": "Representing Measurement as a Thermodynamic Symmetry Breaking",
+  "year": "2020",
+  "journal": "Symmetry",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook"
+  ],
+  "abstract": "Descriptions of measurement typically neglect the observations required to identify the apparatus employed to either prepare or register the final state of the “system of interest.” Here, we employ category-theoretic methods, particularly the theory of classifiers, to characterize the full interaction between observer and world in terms of information and resource flows. Allocating a subset of the received bits to system identification imposes two separability constraints and hence breaks two symmetries: first, between observational outcomes held constant and those allowed to vary; and, second, between observational outcomes regarded as “informative” and those relegated to purely thermodynamic functions of free-energy acquisition and waste heat dissipation. We show that breaking these symmetries induces decoherence, contextuality, and measurement-associated disturbance of the system of interest.",
+  "link": "https://doi.org/10.3390/sym12050810"
+}

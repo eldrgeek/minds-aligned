@@ -1,0 +1,17 @@
+{
+  "doi": "10.1113/jp288141",
+  "doi_url": "https://doi.org/10.1113/jp288141",
+  "title": "Interictal discharges spread along local recurrent networks between tubers and surrounding cortex",
+  "year": "2025",
+  "journal": "The Journal of Physiology",
+  "authors": [
+    "Staša Tumpa",
+    "Rachel Thornton",
+    "Martin Tisdall",
+    "Torsten Baldeweg",
+    "Karl Friston",
+    "Richard Rosch"
+  ],
+  "abstract": "The presence of interictal epileptiform discharges on EEG may indicate increased epileptic seizure risk. In highly epileptogenic lesions, such as cortical tubers in tuberous sclerosis, these discharges can be recorded with intracranial stereotactic EEG as part of the evaluation for epilepsy surgery. Yet the network mechanisms that underwrite the generation and spread of these discharges remain poorly understood. Here, we investigate the dynamics of interictal epileptiform discharges using a combination of quantitative analysis of invasive EEG recordings and mesoscale neural mass modelling of cortical dynamics. We first characterise spatially organised local dynamics of discharges recorded from 36 separate tubers in eight patients with tuberous sclerosis. We characterise these dynamics with a set of competing explanatory network models using dynamic causal modelling. Bayesian model comparison of plausible network architectures suggests that the recurrent coupling between neuronal populations within, as well as adjacent to, the tuber core explains the travelling wave dynamics observed in these patient recordings. Our results indicate that tuber cores are the spatial sources of interictal discharges that behave like travelling waves with dynamics most probably explained by locally recurrent tuber-perituberal networks. This view integrates competing theories regarding the pathological organisation of epileptic foci and surrounding cortex in patients with tuberous sclerosis by through coupled oscillator dynamics. This recurrent coupling can explain the spread of ictal dynamics and also provide an explanation interictal discharge spread. In the future, we will explore the possible implications of our findings for epilepsy surgery approaches in tuberous sclerosis. KEY POINTS: Interictal epileptiform discharges (IEDs) are abnormal electrical patterns observed in the brains of people with epilepsy and may indicate seizure risk. In tuberous sclerosis, a condition causing epileptic lesions called cortical tubers, IEDs spread from the tuber core to surrounding brain tissue, forming travelling waves. This study used invasive EEG recordings and mathematical models to identify that recurrent connections between the tuber core and its surroundings explain this wave-like spread. Further in silico simulations demonstrate that this recurrent network architecture supports both interictal discharges and seizure-like dynamics under different levels of local inhibition.",
+  "link": "https://doi.org/10.1113/jp288141"
+}

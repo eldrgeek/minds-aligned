@@ -1,0 +1,13 @@
+{
+  "doi": "10.1103/physrevlett.74.5024",
+  "doi_url": "https://doi.org/10.1103/physrevlett.74.5024",
+  "title": "Entrainment and Communication with Dissipative Pseudorandom Dynamics",
+  "year": "1995",
+  "journal": "Physical Review Letters",
+  "authors": [
+    "Neil Gershenfeld",
+    "G. Grinstein"
+  ],
+  "abstract": "We introduce a new class of dynamical systems, analog generalizations of linear feedback shift registers, that can be designed with any number of degrees of freedom, generate optimal pseudorandom noise, and exhibit nonlinear dissipative entrainment which can be used to decode signals in communication and measurement applications.",
+  "link": "https://doi.org/10.1103/physrevlett.74.5024"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2404.16321",
+  "doi_url": "https://doi.org/10.48550/arxiv.2404.16321",
+  "title": "Pattern Runs on Matter: The Free Monad Monad as a Module over the Cofree Comonad Comonad",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Sophie Libkind",
+    "David I. Spivak"
+  ],
+  "abstract": "Interviews run on people, programs run on operating systems, voting schemes run on voters, games run on players. Each of these is an example of the abstraction pattern runs on matter. Pattern determines the decision tree that governs how a situation can unfold, while matter responds with decisions at each juncture. In this article, we will give a straightforward and concrete construction of the free monad monad for the category of polynomial functors with the substitution monoidal product. Although the free monad has been well-studied in other contexts, the construction we give is streamlined and explicitly illustrates how the free monad represents terminating decision trees. We will also explore the naturally arising interaction between the free monad and cofree comonad. Again, while the interaction itself is known, the perspective we take is the free monad as a module over the cofree comonad. Lastly, we will give four applications of the module action to interviews, computer programs, voting, and games. In each example, we will see how the free monad represents pattern, the cofree comonad represents matter, and the module action represents runs on.",
+  "link": "https://doi.org/10.48550/arxiv.2404.16321"
+}

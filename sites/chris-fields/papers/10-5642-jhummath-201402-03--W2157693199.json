@@ -1,0 +1,12 @@
+{
+  "doi": "10.5642/jhummath.201402.03",
+  "doi_url": "https://doi.org/10.5642/jhummath.201402.03",
+  "title": "Some Effects of the Human Genome Project on the Erdős Collaboration Graph",
+  "year": "2014",
+  "journal": "Journal of Humanistic Mathematics",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "The Human Genome Project introduced large-scale collaborations involving dozens to hundreds of scientists into biology. It also created a pressing need to solve discrete mathematics problems involving tens of thousands of elements. In this paper, we use minimal path lengths in the Erdős Collaboration Graph between prominent individual researchers as a measure of the distance between disciplines, and we show that the Human Genome Project brought laboratory biology as a whole closer to mathematics. We also define a novel graph reduction method and a metric that emphasizes the robustness of collaborative connections between researchers; these can facilitate the analysis of both within- and between-community connectivity in collaboration graphs.",
+  "link": "https://doi.org/10.5642/jhummath.201402.03"
+}

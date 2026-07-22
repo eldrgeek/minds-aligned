@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2205.13184",
+  "doi_url": "https://doi.org/10.48550/arxiv.2205.13184",
+  "title": "Sequential measurements, TQFTs, and TQNNs",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook",
+    "Antonino Marcianò"
+  ],
+  "abstract": "We introduce novel methods for implementing generic quantum information within a scale-free architecture. For a given observable system, we show how observational outcomes are taken to be finite bit strings induced by measurement operators derived from a holographic screen bounding the system. In this framework, measurements of identified systems with respect to defined reference frames are represented by semantically-regulated information flows through distributed systems of finite sets of binary-valued Barwise-Seligman classifiers. Specifically, we construct a functor from the category of cone-cocone diagrams (CCCDs) over finite sets of classifiers, to the category of finite cobordisms of Hilbert spaces. We show that finite CCCDs provide a generic representation of finite quantum reference frames (QRFs). Hence the constructed functor shows how sequential finite measurements can induce TQFTs. The only requirement is that each measurement in a sequence, by itself, satisfies Bayesian coherence, hence that the probabilities it assigns satisfy the Kolmogorov axioms. We extend the analysis so develop topological quantum neural networks (TQNNs), which enable machine learning with functorial evolution of quantum neural 2-complexes (TQN2Cs) governed by TQFTs amplitudes, and resort to the Atiyah-Singer theorems in order to classify topological data processed by TQN2Cs. We then comment about the quiver representation of CCCDs and generalized spin-networks, a basis of the Hilbert spaces of both TQNNs and TQFTs. We finally review potential implementations of this framework in solid state physics and suggest applications to quantum simulation and biological information processing.",
+  "link": "https://doi.org/10.48550/arxiv.2205.13184"
+}

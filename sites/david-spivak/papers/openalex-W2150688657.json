@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "A Purely Equational Formalism for Functorial Data Migration.",
+  "year": "2015",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak",
+    "Patrick Schultz",
+    "Ryan Wisnesky"
+  ],
+  "abstract": "In this paper we describe a simple equational formalism for expressing functorial data migration. A graphical IDE and implementation of this formalism are available at categoricaldata.net/fql.html.",
+  "link": "https://openalex.org/W2150688657"
+}

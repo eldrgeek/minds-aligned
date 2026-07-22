@@ -1,0 +1,15 @@
+{
+  "doi": "10.1002/0470018860.s00373",
+  "doi_url": "https://doi.org/10.1002/0470018860.s00373",
+  "title": "Reinforcement Learning: A Biological Perspective",
+  "year": "2005",
+  "journal": "Encyclopedia of Cognitive Science",
+  "authors": [
+    "P. Read Montague",
+    "David M. Eagleman",
+    "Samuel M. McClure",
+    "Gregory S. Berns"
+  ],
+  "abstract": "Abstract Reinforcement learning is an approach to learning problems that takes account of the interaction of the learner with their reactive environment. Despite its early connections to animal learning, reinforcement learning has been an active field of study in engineering and computer science. New research is now starting to connect reinforcement learning to identifiable biological systems. These connections may well provide direct insights into goal‐directed learning and decision‐making in biological organisms.",
+  "link": "https://doi.org/10.1002/0470018860.s00373"
+}

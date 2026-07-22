@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Using neural network models to model cerebral hemispheric differences in processing ambiguous words",
+  "year": "2007",
+  "journal": null,
+  "authors": [
+    "Orna Peleg",
+    "Zohar Eviatar",
+    "Larry M. Manevitz",
+    "Hananel Hazan"
+  ],
+  "abstract": "Neuropsychological studies have shown that both cerebral hemispheres process orthographic, phonological and semantic aspects of written words, albeit in different ways. The Left Hemisphere (LH) is more influenced by the phonological aspect of written words whereas lexical processing in the Right Hemisphere (RH) is more sensitive to visual form. We explain this phenomenon by postulating that in the Left Hemisphere (LH) orthography, phonology and semantics are interconnected while in the Right Hemisphere (RH), phonology is not connected directly to orthography and hence its influence must be mitigated by semantical processing. We test this hypothesis by complementary",
+  "link": "https://openalex.org/W235324553"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Is dark energy an artifact of decoherence",
+  "year": "2015",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Within the quantum Darwinist framework introduced by W. H. Zurek ({\\em Nat. Phys.}, 5:181-188, 2009), observers obtain pointer-state information about quantum systems by interacting with the surrounding environment, e.g. the ambient photon field. This framework is applied to the observation of stellar center-of-mass positions, which are assumed to be encoded in a way that is uniformly accessible to all observers regardless of their location. Assuming Landauer's Principle, constructing such environmental encodings requires $\\sim$ kT per bit. For 10$^{25}$ stars and a binary encoding of center-of-mass positions into 10 km$^{3}$ voxels, the free energy required at T = 2.7 K is $\\sim$ 5 $\\cdot$ 10$^{-27}$ kg $\\cdot$ m$^{-3}$, in striking agreement with the observed value of $\\Omega_{\\Lambda} \\rho_{c}$. Decreasing the voxel size to $l_{P}^{3}$ results in a free energy requirement 10$^{117}$ times larger.",
+  "link": "https://openalex.org/W2117010241"
+}

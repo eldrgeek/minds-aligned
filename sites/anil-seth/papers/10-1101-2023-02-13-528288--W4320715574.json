@@ -1,0 +1,14 @@
+{
+  "doi": "10.1101/2023.02.13.528288",
+  "doi_url": "https://doi.org/10.1101/2023.02.13.528288",
+  "title": "Modelling Phenomenological Differences in Aetiologically Distinct Visual Hallucinations Using Deep Neural Networks",
+  "year": "2023",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Keisuke Suzuki",
+    "Anil K. Seth",
+    "David J. Schwartzman"
+  ],
+  "abstract": "Abstract Visual hallucinations (VHs) are perceptions of objects or events in the absence of the sensory stimulation that would normally support such perceptions. Although all VHs share this core characteristic, there are substantial phenomenological differences between VHs that have different aetiologies, such as those arising from neurological conditions, visual loss, or psychedelic compounds. Here, we examine the potential mechanistic basis of these differences by leveraging recent advances in visualising the learned representations of a coupled classifier and generative deep neural network – an approach we call ‘computational (neuro)phenomenology’. Examining three aetiologically distinct populations in which VHs occur - neurological conditions (Parkinson’s Disease and Lewy Body Dementia), visual loss (Charles Bonnet Syndrome, CBS), and psychedelics - we identify three dimensions relevant to distinguishing these classes of VHs: realism (veridicality), dependence on sensory input (spontaneity), and complexity. By selectively tuning the parameters of the visualisation algorithm to reflect influence along each of these phenomenological dimensions we were able to generate ‘synthetic VHs’ that were characteristic of the VHs experienced by each aetiology. We verified the validity of this approach experimentally in two studies that examined the phenomenology of VHs in neurological and CBS patients, and in people with recent psychedelic experience. These studies confirmed the existence of phenomenological differences across these three dimensions between groups, and crucially, found that the appropriate synthetic VHs were representative of each group’s hallucinatory phenomenology. Together, our findings highlight the phenomenological diversity of VHs associated with distinct causal factors and demonstrate how a neural network model of visual phenomenology can successfully capture the distinctive visual characteristics of hallucinatory experience.",
+  "link": "https://doi.org/10.1101/2023.02.13.528288"
+}

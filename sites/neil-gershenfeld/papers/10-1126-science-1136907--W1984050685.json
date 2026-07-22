@@ -1,0 +1,13 @@
+{
+  "doi": "10.1126/science.1136907",
+  "doi_url": "https://doi.org/10.1126/science.1136907",
+  "title": "Microfluidic Bubble Logic",
+  "year": "2007",
+  "journal": "Science",
+  "authors": [
+    "Manu Prakash",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We demonstrate universal computation in an all-fluidic two-phase microfluidic system. Nonlinearity is introduced into an otherwise linear, reversible, low-Reynolds number flow via bubble-to-bubble hydrodynamic interactions. A bubble traveling in a channel represents a bit, providing us with the capability to simultaneously transport materials and perform logical control operations. We demonstrate bubble logic AND/OR/NOT gates, a toggle flip-flop, a ripple counter, timing restoration, a ring oscillator, and an electro-bubble modulator. These show the nonlinearity, gain, bistability, synchronization, cascadability, feedback, and programmability required for scalable universal computation. With increasing complexity in large-scale microfluidic processors, bubble logic provides an on-chip process control mechanism integrating chemistry and computation.",
+  "link": "https://doi.org/10.1126/science.1136907"
+}

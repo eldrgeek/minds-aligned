@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/iswc.1998.729539",
+  "doi_url": "https://doi.org/10.1109/iswc.1998.729539",
+  "title": "Parasitic power harvesting in shoes",
+  "year": "2002",
+  "journal": null,
+  "authors": [
+    "John Kymissis",
+    "C. Kendall",
+    "Joseph A. Paradiso",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "As the power requirements for microelectronics continue decreasing, environmental energy sources can begin to replace batteries in certain wearable subsystems. In this spirit, this paper examines three different devices that can be built into a shoe, (where excess energy is readily harvested) and used for generating electrical power \"parasitically\" while walking. Two of these are piezoelectric in nature: a unimorph strip made from piezoceramic composite material and a stave made from a multilayer laminate of PVDF foil. The third is a shoe-mounted rotary magnetic generator. Test results are given for these systems, their relative merits and compromises are discussed, and suggestions are proposed for improvements and potential applications in wearable systems. As a self-powered application example, a system had been built around the piezoelectric shoes that periodically broadcasts a digital RFID as the bearer walks.",
+  "link": "https://doi.org/10.1109/iswc.1998.729539"
+}

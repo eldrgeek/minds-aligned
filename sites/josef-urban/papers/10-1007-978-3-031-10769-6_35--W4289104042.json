@@ -1,0 +1,15 @@
+{
+  "doi": "10.1007/978-3-031-10769-6_35",
+  "doi_url": "https://doi.org/10.1007/978-3-031-10769-6_35",
+  "title": "Guiding an Automated Theorem Prover with Neural Rewriting",
+  "year": "2022",
+  "journal": "Lecture notes in computer science",
+  "authors": [
+    "Jelle Piepenbrock",
+    "Tom Heskes",
+    "Mikoláš Janota",
+    "Josef Urban"
+  ],
+  "abstract": "Abstract Automated theorem provers (ATPs) are today used to attack open problems in several areas of mathematics. An ongoing project by Kinyon and Veroff uses Prover9 to search for the proof of the Abelian Inner Mapping (AIM) Conjecture, one of the top open conjectures in quasigroup theory. In this work, we improve Prover9 on a benchmark of AIM problems by neural synthesis of useful alternative formulations of the goal. In particular, we design the 3SIL (stratified shortest solution imitation learning) method. 3SIL trains a neural predictor through a reinforcement learning (RL) loop to propose correct rewrites of the conjecture that guide the search. 3SIL is first developed on a simpler, Robinson arithmetic rewriting task for which the reward structure is similar to theorem proving. There we show that 3SIL outperforms other RL methods. Next we train 3SIL on the AIM benchmark and show that the final trained network, deciding what actions to take within the equational rewriting environment, proves 70.2% of problems, outperforming Waldmeister (65.5%). When we combine the rewrites suggested by the network with Prover9, we prove 8.3% more theorems than Prover9 in the same time, bringing the performance of the combined system to 90%.",
+  "link": "https://doi.org/10.1007/978-3-031-10769-6_35"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.1209/0295-5075/adfd0e",
+  "doi_url": "https://doi.org/10.1209/0295-5075/adfd0e",
+  "title": "Whether a quantum computation employs nonlocal resources is operationally undecidable",
+  "year": "2025",
+  "journal": "Europhysics Letters (EPL)",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook",
+    "Antonino Marcianò",
+    "Emanuele Zappala"
+  ],
+  "abstract": "Abstract In the classical theory of computation, e.g. , in the Turing Machine model, computational processes employ only local space and time resources, and their resource usage can be accurately measured by us as users. General relativity and quantum theory, however, introduce the possibility of computational processes that employ nonlocal spatial or temporal resources, raising the question of how these relate to classical resources. Operational, i.e. , device-independent, protocols to certify the use of entanglement as a resource are well known. We prove, however, that the independence of spatially separated systems cannot be operationally certified. The verifier (C) in a multiple interactive provers with shared entanglement (MIP*) protocol cannot, therefore, operationally demonstrate that the “multiple” provers are independent, i.e. , cannot operationally distinguish a MIP* machine from a monolithic quantum computer. Thus C cannot operationally distinguish a MIP* machine from a quantum TM, and hence cannot operationally demonstrate the solution to arbitrary problems in RE. Any claim that a MIP* machine has solved a TM-undecidable problem, e.g. , that of Ji Z. et al. , Commun. ACM , 64 (2020) 131, is therefore operationally circular, as the problem of deciding whether a physical system is a MIP* machine is itself TM-undecidable. We then prove a similar result showing that whether a system employs a closed time-like curve (CTC) as a resource is operationally undecidable. In such settings, therefore, theoretical analyses of resource usage cease to be reliable indicators of practical computational capability.",
+  "link": "https://doi.org/10.1209/0295-5075/adfd0e"
+}

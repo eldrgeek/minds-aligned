@@ -1,0 +1,16 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Identifying the structure of hypotheses that guide search during development.",
+  "year": "2018",
+  "journal": "eScholarship (California Digital Library)",
+  "authors": [
+    "Doug Markant",
+    "Angela Jones",
+    "Thorsten Pachur",
+    "Alison Gopnik",
+    "Azzurra Ruggeri"
+  ],
+  "abstract": "People use hypothesis-driven search to learn about novel concepts, favoring information sources that reduce uncertaintyacross a set of hypotheses about a target concept. We used childrens information search to investigate their reliance on twotypes of hypothesis spaces: exemplar-based representations or a hierarchical hypothesis space based on cue abstraction.Five- to seven-year-olds learned to rank monsters according to a hierarchical decision rule involving two cues (shape andcolor). Children generated evidence by selecting pairs of monsters and observing which one ranked higher; they werethen tested on whether they learned the decision rule and correct ranking. A comparison of exemplar-based and cue-based Bayesian models revealed that all children made search decisions predicted by the exemplar-based model, but olderchildren could use collected evidence to infer the underlying hierarchical structure. These results suggest a dissociationbetween the representations used to drive search and to make inferences from evidence during development.",
+  "link": "https://openalex.org/W2941670440"
+}

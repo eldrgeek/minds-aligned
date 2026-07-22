@@ -1,0 +1,26 @@
+---
+// AIHost.astro
+// Mounts the named AI host for an AGI-26 property (SOMA-APP-STANDARD §1 host pair,
+// §6 named minds, §7 every property ships its own tour).
+//
+// Load order matters, and is the whole reason this component exists:
+//   1. soma-guide.css         — canonical widget styling (CDN; consumed, not forked)
+//   2. <slug>-guide-config.js — the site's own siteMap + walkthroughs (hand-authored)
+//   3. <slug>-host.js         — GENERATED host layer: persona, inferenceUrl, scopeGuard,
+//                               knowledge. Merges over (2), so it can be regenerated from
+//                               sites/_shared/host/hosts.json without touching the tours.
+//   4. soma-guide.js          — the widget, reading the merged window.SomaGuideConfig
+//
+// Regenerate step 3 across every site: node sites/_shared/host/build-hosts.mjs
+
+interface Props {
+  slug: string
+}
+
+const { slug } = Astro.props
+---
+
+<link rel="stylesheet" href="https://soma-guide.netlify.app/soma-guide.css" />
+<script is:inline src={`/${slug}-guide-config.js`}></script>
+<script is:inline src={`/${slug}-host.js`}></script>
+<script is:inline src="https://soma-guide.netlify.app/soma-guide.js"></script>

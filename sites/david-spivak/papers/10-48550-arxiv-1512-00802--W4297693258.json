@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1512.00802",
+  "doi_url": "https://doi.org/10.48550/arxiv.1512.00802",
+  "title": "The steady states of coupled dynamical systems compose according to\\n matrix arithmetic",
+  "year": "2015",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak"
+  ],
+  "abstract": "Open dynamical systems are mathematical models of machines that take input,\\nchange their internal state, and produce output. For example, one may model\\nanything from neurons to robots in this way. Several open dynamical systems can\\nbe arranged in series, in parallel, and with feedback to form a new dynamical\\nsystem---this is called compositionality---and the process can be repeated in a\\nfractal-like manner to form more complex systems of systems. One issue is that\\nas larger systems are created, their state space grows exponentially.\\n In this paper a technique for calculating the steady states of an\\ninterconnected system of systems, in terms of the steady states of its\\ncomponent dynamical systems, is provided. These are organized into \"steady\\nstate matrices\" which generalize bifurcation diagrams. It is shown that the\\ncompositionality structure of dynamical systems fits with the familiar monoidal\\nstructure for the steady state matrices, where serial, parallel, and feedback\\ncomposition of matrices correspond to multiplication, Kronecker product, and\\npartial trace operations. The steady state matrices of dynamical systems\\nrespect this compositionality structure, exponentially reducing the complexity\\ninvolved in studying the steady states of composite dynamical systems.\\n",
+  "link": "https://doi.org/10.48550/arxiv.1512.00802"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": "10.1007/978-3-642-22673-1_11",
+  "doi_url": "https://doi.org/10.1007/978-3-642-22673-1_11",
+  "title": "Licensing the Mizar Mathematical Library",
+  "year": "2011",
+  "journal": "Lecture notes in computer science",
+  "authors": [
+    "Jesse Alama",
+    "Michael Kohlhase",
+    "Lionel Mamane",
+    "Adam Naumowicz",
+    "Piotr Rudnicki",
+    "Josef Urban"
+  ],
+  "abstract": "The Mizar Mathematical Library (MML) is a large corpus of formalised mathematical knowledge. It has been constructed over the course of many years by a large number of authors and maintainers. Yet the legal status of these efforts of the Mizar community has never been clarified. In 2010, after many years of loose deliberations, the community decided to investigate the issue of licensing the content of the MML, thereby clarifying and crystallizing the status of the texts, the text’s authors, and the library’s long-term maintainers. The community has settled on a copyright and license policy that suits the peculiar features of Mizar and its community. In this paper we discuss the copyright and license solutions. We offer our experience in the hopes that the communities of other libraries of formalised mathematical knowledge might take up the legal and scientific problems that we addressed for Mizar.",
+  "link": "https://doi.org/10.1007/978-3-642-22673-1_11"
+}

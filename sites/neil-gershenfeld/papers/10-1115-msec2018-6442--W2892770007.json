@@ -1,0 +1,14 @@
+{
+  "doi": "10.1115/msec2018-6442",
+  "doi_url": "https://doi.org/10.1115/msec2018-6442",
+  "title": "Building Block-Based Assembly of Scalable Metallic Lattices",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Benjamin Jenett",
+    "Neil Gershenfeld",
+    "Paul Guerrier"
+  ],
+  "abstract": "We describe a method for the manufacturing of metallic lattices with tunable properties through the reversible assembly of building block elements, which we call discrete metal lattice assembly (DMLA). These structures can have sub-millimeter scale features on millimeter scale parts used to assemble structures spanning tens of centimeters, comparable to those currently made with Direct Metal Laser Sintering (DMLS). However, unlike traditional additive manufacturing (AM) methods, the use of discrete assembly affords a number of benefits, such as extensible, incremental construction and being repairable and reconfigurable. We show this method results in large scale (tens of centimeters), ultralight (&lt;10 kg/m3 effective density) lattices which are currently not possible with state of the art additive manufacturing techniques. The lattice geometry used here is a combination of two geometries with quadratic property scaling, resulting in a novel lattice with sub-quadratic scaling.",
+  "link": "https://doi.org/10.1115/msec2018-6442"
+}

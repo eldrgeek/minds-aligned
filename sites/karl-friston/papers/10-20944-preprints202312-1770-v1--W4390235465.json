@@ -1,0 +1,17 @@
+{
+  "doi": "10.20944/preprints202312.1770.v1",
+  "doi_url": "https://doi.org/10.20944/preprints202312.1770.v1",
+  "title": "Shared Protentions in Multi-Agent Active Inference",
+  "year": "2023",
+  "journal": "Preprints.org",
+  "authors": [
+    "Mahault Albarracin",
+    "Riddhi J. Pitliya",
+    "Toby St Clere Smithe",
+    "Daniel Friedman",
+    "Karl Friston",
+    "Maxwell J. D. Ramstead"
+  ],
+  "abstract": "In this paper, we unite concepts from Husserlian phenomenology, the active inference framework in theoretical biology, and category theory in mathematics to develop a comprehensive framework for understanding social action premised on shared goals. We begin with an overview of Husserlian phenomenology, focusing on aspects of inner time consciousness, namely, retention, primal impression, and protention. We then review active inference as a formal approach to modeling agent behavior, based on variational (approximate Bayesian) inference. Expanding upon Husserl’s model of time consciousness, we consider collective goal-directed behavior, emphasizing shared protentions among agents and their connection to the shared generative models of active inference. This integrated framework aims to formalize shared goals in terms of shared protentions, and to thereby shed light on the emergence of group intentionality. Building on this foundation, we incorporate mathematical tools from category theory; particularly, sheaf and topos theory, to furnish a mathematical image of individual and group interactions within a stochastic environment. Specifically, we employ morphisms between polynomial representations of individual agent models, allowing predictions not only of their own behaviors but also those of other agents and environmental responses. Sheaf and topos theory facilitate the construction of coherent agent worldviews and provides a way of representing consensus or shared understanding. We explore the emergence of shared protentions, bridging the phenomenology of temporal structure, multi-agent active inference systems, and category theory. Shared protentions are highlighted as pivotal for coordination and achieving common objectives. We conclude by acknowledging the intricacies stemming from stochastic systems and uncertainties in realizing shared goals.",
+  "link": "https://doi.org/10.20944/preprints202312.1770.v1"
+}

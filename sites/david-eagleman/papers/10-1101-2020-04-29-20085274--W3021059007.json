@@ -1,0 +1,19 @@
+{
+  "doi": "10.1101/2020.04.29.20085274",
+  "doi_url": "https://doi.org/10.1101/2020.04.29.20085274",
+  "title": "Detection of mTBI in pediatric populations using BrainCheck, a tablet-based cognitive testing software",
+  "year": "2020",
+  "journal": "medRxiv",
+  "authors": [
+    "Siao Ye",
+    "Brian Ko",
+    "Huy Q. Phi",
+    "David M. Eagleman",
+    "Benjamin Flores",
+    "Yael Katz",
+    "Bin Huang",
+    "Reza Hosseini Ghomi"
+  ],
+  "abstract": "Abstract Aim Despite its high frequency of occurrence, mild traumatic brain injury (mTBI), or concussion, is difficult to recognize and diagnose, particularly in pediatric populations. Conventional methods to diagnose mTBI primarily rely on clinical questionnaires and sometimes include imaging such as computed tomography (CT) or pencil and paper neuropsychological testing. However, these methods are time consuming, require administration/interpretation from health professionals, and lack adequate test sensitivity and specificity. We explore the use of BrainCheck, a computerized neurocognitive test that is available on iPad, iPhone or computer desktop, for mTBI assessment. The BrainCheck battery consists of 6 gamified traditional neurocognitive tests that assess areas of cognition vulnerable to mTBI such as attention, processing speed, executing functioning, and coordination. Methods We administered BrainCheck to 10 participants diagnosed with mTBI at the emergency department (ED) of Children’s hospital within 96 hours of admittance to the ED, and 126 normal controls at a local high school. Statistical analysis included Chi-Square tests, Analysis of Variance (ANOVA), independent sample t-tests, and Hochberg tests to examine differences between mTBI, diagnoses by current gold standard clinical exam, and control groups on each assessment in the battery. Significant metrics from these assessments were used to build a logistic regression model that distinguishes mTBI from non-mTBI participants. Results BrainCheck was able to detect significant differences in coordination, Flanker, Stroop, Digital Symbol, Immediate/Delayed recall and recognition assessments between normal people and mTBI patients. Receiver operator score (ROC) analysis of our logistic regression model found a sensitivity of 84% and specificity of 80%. Conclusions BrainCheck has potential in distinguishing mTBI from non-mTBI participants, by providing a shorter, gamified test battery to assess cognitive function after brain injury, while also providing a method for tracking recovery with the opportunity to do so remotely from a patient’s home.",
+  "link": "https://doi.org/10.1101/2020.04.29.20085274"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.1145/3372885.3373827",
+  "doi_url": "https://doi.org/10.1145/3372885.3373827",
+  "title": "Exploration of neural machine translation in autoformalization of mathematics in Mizar",
+  "year": "2020",
+  "journal": null,
+  "authors": [
+    "Qingxiang Wang",
+    "Chad E. Brown",
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "In this paper we share several experiments trying to automatically translate informal mathematics into formal mathematics. In our context informal mathematics refers to human-written mathematical sentences in the LaTeX format; and formal mathematics refers to statements in the Mizar language. We conducted our experiments against three established neural network-based machine translation models that are known to deliver competitive results on translating between natural languages. To train these models we also prepared four informal-to-formal datasets. We compare and analyze our results according to whether the model is supervised or unsupervised. In order to augment the data available for auto-formalization and improve the results, we develop a custom type-elaboration mechanism and integrate it in the supervised translation.",
+  "link": "https://doi.org/10.1145/3372885.3373827"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "A Heuristic for Unsupervised Model Selection for Variational Disentangled Representation Learning.",
+  "year": "2019",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Sunny Duan",
+    "Nicholas Watters",
+    "Löıc Matthey",
+    "Christopher Burgess",
+    "Alexander Lerchner",
+    "Irina Higgins"
+  ],
+  "abstract": "",
+  "link": "https://openalex.org/W2947918519"
+}

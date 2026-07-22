@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2405.13157",
+  "doi_url": "https://doi.org/10.48550/arxiv.2405.13157",
+  "title": "A Polynomial Construction of Nerves for Higher Categories",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Brandon T. Shapiro",
+    "David I. Spivak"
+  ],
+  "abstract": "We show that the construction due to Leinster and Weber of a generalized Lawvere theory for a familially representable monad on a (co)presheaf category, and the associated ``nerve'' functor from monad algebras to (co)presheaves, have an elegant categorical description in the double category $\\mathbb{C}\\mathbf{at}^{\\#}$ of categories, cofunctors, familial functors, and transformations. In $\\mathbb{C}\\mathbf{at}^{\\#}$, which also arises from comonoids in the category of polynomial functors, both a familial monad and a (co)presheaf it acts on can be modeled as horizontal morphisms; from this perspective, the theory category associated to the monad is built using left Kan extension in the category of endomorphisms, and the nerve functor is modeled by a single composition of horizontal morphisms in $\\mathbb{C}\\mathbf{at}^{\\#}$. For the free category monad $path$ on graphs, this provides a new construction of the simplex category as $Δ:= \\lens{path}{path \\circ path}$. We also explore the free Eilenberg-Moore completion of $\\mathbb{C}\\mathbf{at}^{\\#}$, in which constructions such as the free symmetric monoidal category monad on $\\mathbf{Cat}$ can modeled using the rich language of polynomial functors.",
+  "link": "https://doi.org/10.48550/arxiv.2405.13157"
+}

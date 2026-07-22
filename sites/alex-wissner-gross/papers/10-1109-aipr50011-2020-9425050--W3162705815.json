@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/aipr50011.2020.9425050",
+  "doi_url": "https://doi.org/10.1109/aipr50011.2020.9425050",
+  "title": "Tamper-Proofing Imagery from Distributed Sensors Using Learned Blockchain Consensus",
+  "year": "2020",
+  "journal": null,
+  "authors": [
+    "Alexander D. Wissner‐Gross",
+    "Jared C. Willard",
+    "Noah Weston"
+  ],
+  "abstract": "Area monitoring using wireless sensor networks that collect imagery and multimodal data from multiple vantage points, while requiring only limited local bandwidth and compute resources, promises improved resilience and scalability over single-camera imagery. However, the distributed nature of such networks can also increase their relative vulnerability to subversion via physical tampering. Here we address that nascent vulnerability by introducing a blockchain application that (1) learns correlations between low-dimensional projections of observed sequences captured by pairs of sensors, and (2) uses those correlations as a baseline for a soft consensus mechanism that identifies potentially compromised sensors with the strongest pairwise statistical anomalies. We then demonstrate our approach in a simulated environment in which a network of virtual cameras are aimed at a common dynamical scene from different vantage points, and show that after a training period of observing baseline behavior followed by the subversion of various numbers of the cameras, our application can correctly identify the cameras that have been compromised. Finally, we explore automated responses to such compromised sensors, including denying them shared resources and services.",
+  "link": "https://doi.org/10.1109/aipr50011.2020.9425050"
+}

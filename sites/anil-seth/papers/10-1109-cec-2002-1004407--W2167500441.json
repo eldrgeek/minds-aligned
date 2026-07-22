@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/cec.2002.1004407",
+  "doi_url": "https://doi.org/10.1109/cec.2002.1004407",
+  "title": "Distinguishing adaptive from non-adaptive evolution using Ashby's law of requisite variety",
+  "year": "2003",
+  "journal": null,
+  "authors": [
+    "Anil K. Seth"
+  ],
+  "abstract": "The introduction of noise into an evolutionary iterated prisoner's dilemma model can promote the evolution of strategy memory. In this paper, an analysis in terms of Ashby's (1956) law of requisite variety enables a distinction to be drawn between the adaptive evolution of memory and non-adaptive evolution, or drift, a distinction which, in such situations, is remarkably insensitive to fitness statistics. As part of this, it is demonstrated how the influence of noise can depend on its locus in the evolving system. Additional evidence is presented for a second influence of noise in facilitating drift, an influence which can be interpreted in terms of noise-induced genotype-phenotype degeneracy.",
+  "link": "https://doi.org/10.1109/cec.2002.1004407"
+}

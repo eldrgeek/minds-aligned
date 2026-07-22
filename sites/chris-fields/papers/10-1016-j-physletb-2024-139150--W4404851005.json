@@ -1,0 +1,15 @@
+{
+  "doi": "10.1016/j.physletb.2024.139150",
+  "doi_url": "https://doi.org/10.1016/j.physletb.2024.139150",
+  "title": "ER = EPR is an operational theorem",
+  "year": "2024",
+  "journal": "Physics Letters B",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook",
+    "Antonino Marcianò",
+    "Emanuele Zappala"
+  ],
+  "abstract": "We show that in the operational setting of a two-agent, local operations, classical communication (LOCC) protocol, Alice and Bob cannot operationally distinguish monogamous entanglement from a topological identification of points in their respective local spacetimes, i.e. that ER = EPR can be recovered as an operational theorem. Our construction immediately implies that in this operational setting, the local topology of spacetime is observer-relative. It also provides a simple demonstration of the non-traversability of ER bridges. As our construction does not depend on an embedding geometry, it generalizes previous geometric approaches to ER = EPR.",
+  "link": "https://doi.org/10.1016/j.physletb.2024.139150"
+}

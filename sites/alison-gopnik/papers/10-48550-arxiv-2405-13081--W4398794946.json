@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2405.13081",
+  "doi_url": "https://doi.org/10.48550/arxiv.2405.13081",
+  "title": "Children's Mental Models of Generative Visual and Text Based AI Models",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Eliza Kosoy",
+    "Soojin Jeong",
+    "A. K. Sinha",
+    "Alison Gopnik",
+    "Tanya Kraljic"
+  ],
+  "abstract": "In this work we investigate how children ages 5-12 perceive, understand, and use generative AI models such as a text-based LLMs ChatGPT and a visual-based model DALL-E. Generative AI is newly being used widely since chatGPT. Children are also building mental models of generative AI. Those haven't been studied before and it is also the case that the children's models are dynamic as they use the tools, even with just very short usage. Upon surveying and experimentally observing over 40 children ages 5-12, we found that children generally have a very positive outlook towards AI and are excited about the ways AI may benefit and aid them in their everyday lives. In a forced choice, children robustly associated AI with positive adjectives versus negative ones. We also categorize what children are querying AI models for and find that children search for more imaginative things that don't exist when using a visual-based AI and not when using a text-based one. Our follow-up study monitored children's responses and feelings towards AI before and after interacting with GenAI models. We even find that children find AI to be less scary after interacting with it. We hope that these findings will shine a light on children's mental models of AI and provide insight for how to design the best possible tools for children who will inevitably be using AI in their lifetimes. The motivation of this work is to bridge the gap between Human-Computer Interaction (HCI) and Psychology in an effort to study the effects of AI on society. We aim to identify the gaps in humans' mental models of what AI is and how it works. Previous work has investigated how both adults and children perceive various kinds of robots, computers, and other technological concepts. However, there is very little work investigating these concepts for generative AI models and not simply embodied robots or physical technology.",
+  "link": "https://doi.org/10.48550/arxiv.2405.13081"
+}

@@ -1,0 +1,19 @@
+{
+  "doi": "10.1103/physrevc.28.1217",
+  "doi_url": "https://doi.org/10.1103/physrevc.28.1217",
+  "title": "<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">He</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>3</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>-induced fission of nuclei<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mn>159</mml:mn><mml:mo>&lt;</mml:mo><mml:mi>A</mml:mi><mml:mo>&lt;</mml:mo><mml:mn/><mml:mn>232</mml:mn><mml:mn/></mml:math>",
+  "year": "1983",
+  "journal": "Physical Review C",
+  "authors": [
+    "F. D. Becchetti",
+    "K. H. Hicks",
+    "Chris Fields",
+    "R. J. Peterson",
+    "R. S. Raymond",
+    "R. A. Ristinen",
+    "J. L. Ullmann",
+    "C.S. Zaidins"
+  ],
+  "abstract": "The fission of nuclei with $159\\ensuremath{\\le}A\\ensuremath{\\le}232$ induced by the bombardment of 19.1 to 44.5 MeV $^{3}\\mathrm{He}$ ions has been measured using solid-state detectors with time-of-flight measurements. Analysis with statistical fission theory, including precompound nucleon emission, indicates fission barriers which decrease only slightly relative to the liquid-drop model values with decreasing $Z$, approaching about 90% of the liquid-drop model barrier for $A\\ensuremath{\\approx}160$. These results are in contrast with measurements at higher angular momenta which indicate much lower fission barriers (60 to 70% of the liquid-drop model) for this mass region. The angular correlations indicate complete, or slightly greater than complete momentum transfer to the compound system. This is in opposition to that observed using heavier projectiles where incomplete momentum transfer is probable.NUCLEAR REACTIONS, FISSION $^{159}\\mathrm{Tb}$, $^{165}\\mathrm{Ho}$, $^{169}\\mathrm{Tm}$, $^{\\mathrm{nat}}\\mathrm{Ta}$, $^{\\mathrm{nat}}\\mathrm{Re}$, $^{194,195}\\mathrm{Pt}$, $^{197}\\mathrm{Au}$, $^{202}\\mathrm{Hg}$, $^{205}\\mathrm{Tl}$, $^{206,208}\\mathrm{Pb}$, $^{\\mathrm{nat}}\\mathrm{Bi}$, $^{\\mathrm{nat}}\\mathrm{Th}$($^{3}\\mathrm{He}$,f), $E(^{3}\\mathrm{He})=19.1 \\mathrm{to} 44.5$ MeV; measured ${\\ensuremath{\\sigma}}_{F}(\\ensuremath{\\theta}, E)$, angular correlations, coincident fragment kinetic energies; deduced relative mass division, total kinetic energy release, statistical-model fission parameters.",
+  "link": "https://doi.org/10.1103/physrevc.28.1217"
+}

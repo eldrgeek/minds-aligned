@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1611.08733",
+  "doi_url": "https://doi.org/10.48550/arxiv.1611.08733",
+  "title": "BliStrTune: Hierarchical Invention of Theorem Proving Strategies",
+  "year": "2016",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Jan Jakubův",
+    "Josef Urban"
+  ],
+  "abstract": "Inventing targeted proof search strategies for specific problem sets is a difficult task. State-of-the-art automated theorem provers (ATPs) such as E allow a large number of user-specified proof search strategies described in a rich domain specific language. Several machine learning methods that invent strategies automatically for ATPs were proposed previously. One of them is the Blind Strategymaker (BliStr), a system for automated invention of ATP strategies. In this paper we introduce BliStrTune -- a hierarchical extension of BliStr. BliStrTune allows exploring much larger space of E strategies by interleaving search for high-level parameters with their fine-tuning. We use BliStrTune to invent new strategies based also on new clause weight functions targeted at problems from large ITP libraries. We show that the new strategies significantly improve E's performance in solving problems from the Mizar Mathematical Library.",
+  "link": "https://doi.org/10.48550/arxiv.1611.08733"
+}

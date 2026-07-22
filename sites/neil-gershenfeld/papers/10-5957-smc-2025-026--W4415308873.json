@@ -1,0 +1,16 @@
+{
+  "doi": "10.5957/smc-2025-026",
+  "doi_url": "https://doi.org/10.5957/smc-2025-026",
+  "title": "Net drag reduction in high block coefficient ships and vehicles using vortex generators",
+  "year": "2025",
+  "journal": "SNAME Maritime Convention",
+  "authors": [
+    "José del Águila Ferrandis",
+    "Jack Kimmeth",
+    "Alfonso Parra Rubio",
+    "Neil Gershenfeld",
+    "Michael Triantafyllou"
+  ],
+  "abstract": "Abstract We document experimentally at model scale net viscous drag reduction of at least 7.5% in streamlined hulls with high block coefficient, potentially applicable to bulk carriers and tankers, using wedge shaped vortex generators (VGs). We also establish scaling laws proving that at full-scale drag reduction is fully preserved, and estimate the size and cost of VG installation and the gains that can be materialized in ship operations. INTRODUCTION The International Maritime Organization (IMO) has set strict carbon emission reduction goals for the shipping industry. By 2050, IMO requires net zero greenhouse gas emissions and has goals for at least a 20% reduction by 2030, and 70% by 2040. To reach these ambitious goals, short, medium, and long-term solutions must be utilized. Ultimately, a transition in prime movers and fuel type will be required to reach 100% greenhouse gas emission reduction, but in the short and medium term, means for reducing drag and improving hull efficiency will enable achieving the 2030 and 2040 goals, and will make the 2050 goal more easily attainable. With this goal in mind, we investigated the use of Vortex Generators (VGs) to reduce the viscous resistance of high block coefficient ships. For example, fuller shaped ships such as bulk carriers and tankers that have block coefficients up to 0.85 (the block coefficient is the ratio of the volume of the ship divided by the volume of the \"box\" that contains it, viz. the product of the length, beam, and draft), although streamlined with high length to-beam ratios, can have pressure drag that is up to 35% of the viscous drag. or even higher. We utilized a combination of experimental testing and computational fluid dynamics simulations, assisted by optimization methods, to investigate different geometries for the vortex generators and found that the optimal shape was a wedge shaped vortex generator; we then ran several different designs in the MIT Towing Tank on an axisymmetric model to find the optimal vortex generator design for a given speed. Appendix A contains design dimensions of the wedge VGs.",
+  "link": "https://doi.org/10.5957/smc-2025-026"
+}

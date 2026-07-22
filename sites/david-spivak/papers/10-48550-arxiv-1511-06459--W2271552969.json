@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1511.06459",
+  "doi_url": "https://doi.org/10.48550/arxiv.1511.06459",
+  "title": "QINL: Query-integrated Languages",
+  "year": "2015",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Patrick Schultz",
+    "David I. Spivak",
+    "Ryan Wisnesky"
+  ],
+  "abstract": "We describe an alternative solution to the impedance-mismatch problem between programming and query languages: rather than embed queries in a programming language, as done in LINQ systems, we embed programs in a query language, and dub the result QINL.",
+  "link": "https://doi.org/10.48550/arxiv.1511.06459"
+}

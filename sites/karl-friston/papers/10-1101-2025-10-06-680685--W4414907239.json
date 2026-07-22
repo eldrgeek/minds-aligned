@@ -1,0 +1,19 @@
+{
+  "doi": "10.1101/2025.10.06.680685",
+  "doi_url": "https://doi.org/10.1101/2025.10.06.680685",
+  "title": "Apathy as a Loss of Prior Precision on Action Outcomes",
+  "year": "2025",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "R Williams",
+    "Michelle Naessens",
+    "Amirhossein Jafarian",
+    "Juliette H. Lanskey",
+    "Frank H. Hezemans",
+    "Karl Friston",
+    "Laura E. Hughes",
+    "James B. Rowe"
+  ],
+  "abstract": "Abstract Apathy is common in neurological disease, associated with poor prognosis and limited treatments. Current models posit that goal-directed actions are reduced because costs or effort outweigh the expected reward. We highlight an alternative account of apathy, based on the reduction in precision of prior beliefs about action outcomes. In this preregistered study, we test the hypothesis that precision is encoded in the GABAergic gain of prefrontal superficial pyramidal neurons. Fifty healthy adults undertook a goal-directed task during magnetoencephalography. Estimates of synaptic efficacy or gain were obtained by dynamic causal modelling of induced responses. There was strong evidence of a negative correlation between prior precision and apathy (Bayes Factor=12, p&lt;0.01), and that prior precision was associated with gain in prefrontal and premotor neuronal populations (Posterior probability&gt;0.99). The importance of prior precision and GABAergic gain for goal-directed actions opens new avenues to advance the understanding and treatment of apathy.",
+  "link": "https://doi.org/10.1101/2025.10.06.680685"
+}

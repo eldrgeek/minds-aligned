@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Inferring Hidden Causes",
+  "year": "2003",
+  "journal": "eScholarship (California Digital Library)",
+  "authors": [
+    "Tamar Kushnir",
+    "Alison Gopnik",
+    "Laura Schulz",
+    "David Danks"
+  ],
+  "abstract": "One of the important aspects of human causal reasoning is that from the time we are young children we reason about unobserved causes.How can we learn about unobserved causes from information about observed events?Causal Bayes nets provide a formal account of how causal structure is learned from a combination of associations and interventions.This formalism makes specific predictions about the conditions under which learners postulate hidden causes.In this study adult learners were shown a pattern of associations and interventions on a novel causal system.We found that they were able to infer hidden causes as predicted by the Bayes net formalism, and were able to distinguish between one hidden common cause and two hidden independent causes of the observed events.",
+  "link": "https://openalex.org/W2610726101"
+}

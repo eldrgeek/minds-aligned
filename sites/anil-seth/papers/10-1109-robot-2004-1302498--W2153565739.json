@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/robot.2004.1302498",
+  "doi_url": "https://doi.org/10.1109/robot.2004.1302498",
+  "title": "Texture discrimination by an autonomous mobile brain-based device with whiskers",
+  "year": "2004",
+  "journal": null,
+  "authors": [
+    "Anil K. Seth",
+    "Jeffrey L. McKinstry",
+    "Gerald M. Edelman",
+    "Jeffrey L. Krichmar"
+  ],
+  "abstract": "Whiskers are widely used by many animal species for navigation and texture discrimination. This paper describes Darwin IX, a mobile physical device equipped with artificial whiskers, the behavior of which is controlled by a neural simulation based on the rat somatosensory system. During its autonomous behavior, Darwin IX is able to discriminate among textures in its environment and learns to avoid textures that are paired with aversive events.",
+  "link": "https://doi.org/10.1109/robot.2004.1302498"
+}

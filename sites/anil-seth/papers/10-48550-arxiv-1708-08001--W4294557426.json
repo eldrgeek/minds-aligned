@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1708.08001",
+  "doi_url": "https://doi.org/10.48550/arxiv.1708.08001",
+  "title": "Solved problems and remaining challenges for Granger causality analysis\\n in neuroscience: A response to Stokes and Purdon (2017)",
+  "year": "2017",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "L. D. Barnett",
+    "Adam B. Barrett",
+    "Anil K. Seth"
+  ],
+  "abstract": "Granger-Geweke causality (GGC) is a powerful and popular method for\\nidentifying directed functional (`causal') connectivity in neuroscience. In a\\nrecent paper, Stokes and Purdon [1] raise several concerns about its use. They\\nmake two primary claims: (1) that GGC estimates may be severely biased or of\\nhigh variance, and (2) that GGC fails to reveal the full structural/causal\\nmechanisms of a system. However, these claims rest, respectively, on an\\nincomplete evaluation of the literature, and a misconception about what GGC can\\nbe said to measure. Here we explain how existing approaches (as implemented,\\nfor example, in our popular MVGC software [2,3]) resolve the first issue, and\\ndiscuss the frequently-misunderstood distinction between functional and\\neffective neural connectivity which underlies Stokes and Purdon's second claim.\\n [1] Patrick A. Stokes and Patrick. L. Purdon (2017), A study of problems\\nencountered in Granger causality analysis from a neuroscience perspective,\\nProc. Natl. Acad. Sci. USA 114(34):7063-7072.\\n [2] Lionel Barnett and Anil K. Seth (2012), The MVGC Multivariate Granger\\nCausality Matlab toolbox, http://users.sussex.ac.uk/~lionelb/MVGC/\\n [3] Lionel Barnett and Anil K. Seth (2014), The MVGC multivariate Granger\\ncausality toolbox: A new approach to Granger-causal inference, J. Neurosci.\\nMethods 223:50-68\\n",
+  "link": "https://doi.org/10.48550/arxiv.1708.08001"
+}

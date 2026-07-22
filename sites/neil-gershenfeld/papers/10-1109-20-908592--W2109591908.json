@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/20.908592",
+  "doi_url": "https://doi.org/10.1109/20.908592",
+  "title": "Remotely interrogated temperature sensors based on magnetic materials",
+  "year": "2000",
+  "journal": "IEEE Transactions on Magnetics",
+  "authors": [
+    "R. Fletcher",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "A family of remotely interrogated passive temperature sensors is presented. These sensors are comprised of several layers of magnetic materials having either a resonant frequency or harmonic spectrum which varies with temperature. By incorporating a magnetic bias layer and a magnetically permeable layer, it is possible to create sensors which respond to a temperature threshold (reversibly or nonreversibly) or produce a signal which continuously and monotonically varies with temperature. In this paper, a 30%/70% Ni-Fe layer was used in conjunction with amorphous alloy strips to produce three distinct types of wireless temperature sensors operating over the range 20/spl deg/-70/spl deg/C.",
+  "link": "https://doi.org/10.1109/20.908592"
+}

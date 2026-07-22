@@ -1,0 +1,13 @@
+{
+  "doi": "10.1117/12.791268",
+  "doi_url": "https://doi.org/10.1117/12.791268",
+  "title": "Multicolor symbology for remotely scannable 2D barcodes",
+  "year": "2007",
+  "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "Alexander D. Wissner‐Gross",
+    "Timothy M. Sullivan"
+  ],
+  "abstract": "There has been much recent interest in mobile systems for augmented reality. However, existing visual tagging solutions are not robust at the low resolutions typical of current camera phones or at the low solid angles needed for \"across-the-room\" reality augmentation. In this paper, we propose a new 2D barcode symbology that uses multiple colors in order to address these challenges. We present preliminary results, showing the detection of example barcodes in this scheme over a range of angles.",
+  "link": "https://doi.org/10.1117/12.791268"
+}

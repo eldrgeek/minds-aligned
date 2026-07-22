@@ -1,0 +1,14 @@
+{
+  "doi": "10.29007/z7qx",
+  "doi_url": "https://doi.org/10.29007/z7qx",
+  "title": "ProofWatch Meets ENIGMA: First Experiments",
+  "year": "2018",
+  "journal": "Kalpa publications in computing",
+  "authors": [
+    "Zarathustra Goertzel",
+    "Jan Jakubův",
+    "Josef Urban"
+  ],
+  "abstract": "Watchlist (also hint list) is a technique that allows lemmas from related proofs to guide a saturation-style proof search for a new conjecture. ProofWatch is a recent watchlist-style method that loads many previous proofs inside the ATP, maintains their completion ratios during the proof search and focuses the search by following the most completed proofs. In this work, we start to use the dynamically changing vector of proof completion ratios as additional information about the saturation-style proof state for statistical machine learning methods that evaluate the generated clauses. In particular, we add the proof completion vectors to ENIGMA (efficient learning-based inference guiding machine) and evaluate the new method on the MPTP Challenge benchmark, showing moderate improvement in E’s performance over ProofWatch and ENIGMA.",
+  "link": "https://doi.org/10.29007/z7qx"
+}

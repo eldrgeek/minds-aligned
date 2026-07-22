@@ -1,0 +1,15 @@
+{
+  "doi": "10.1162/neco_a_01711",
+  "doi_url": "https://doi.org/10.1162/neco_a_01711",
+  "title": "Associative Learning and Active Inference",
+  "year": "2024",
+  "journal": "Neural Computation",
+  "authors": [
+    "Petr Anokhin",
+    "Artyom Sorokin",
+    "Mikhail Burtsev",
+    "Karl Friston"
+  ],
+  "abstract": "Associative learning is a behavioral phenomenon in which individuals develop connections between stimuli or events based on their co-occurrence. Initially studied by Pavlov in his conditioning experiments, the fundamental principles of learning have been expanded on through the discovery of a wide range of learning phenomena. Computational models have been developed based on the concept of minimizing reward prediction errors. The Rescorla-Wagner model, in particular, is a well-known model that has greatly influenced the field of reinforcement learning. However, the simplicity of these models restricts their ability to fully explain the diverse range of behavioral phenomena associated with learning. In this study, we adopt the free energy principle, which suggests that living systems strive to minimize surprise or uncertainty under their internal models of the world. We consider the learning process as the minimization of free energy and investigate its relationship with the Rescorla-Wagner model, focusing on the informational aspects of learning, different types of surprise, and prediction errors based on beliefs and values. Furthermore, we explore how well-known behavioral phenomena such as blocking, overshadowing, and latent inhibition can be modeled within the active inference framework. We accomplish this by using the informational and novelty aspects of attention, which share similar ideas proposed by seemingly contradictory models such as Mackintosh and Pearce-Hall models. Thus, we demonstrate that the free energy principle, as a theoretical framework derived from first principles, can integrate the ideas and models of associative learning proposed based on empirical experiments and serve as a framework for a better understanding of the computational processes behind associative learning in the brain.",
+  "link": "https://doi.org/10.1162/neco_a_01711"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.1016/s1571-0661(04)80659-5",
+  "doi_url": "https://doi.org/10.1016/s1571-0661(04)80659-5",
+  "title": "MPTP 0.1 - System Description",
+  "year": "2003",
+  "journal": "Electronic Notes in Theoretical Computer Science",
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "MPTP (Mizar Problems for Theorem Proving) is a system for translating the Mizar Mathematical Library (MML) into untyped first order format suitable for automated theorem provers, allowing generating theorem proving problems corresponding to MML. The first version generates about 30000 problems from complete proofs of Mizar theorems, and about 630000 problems from the simple (one-step) justifications done by the Mizar checker. We describe the design and structure of the system, some limitations, and planned future extensions.",
+  "link": "https://doi.org/10.1016/s1571-0661(04)80659-5"
+}

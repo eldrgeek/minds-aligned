@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2307.08613",
+  "doi_url": "https://doi.org/10.48550/arxiv.2307.08613",
+  "title": "Brain in the Dark: Design Principles for Neuro-mimetic Learning and Inference",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Mehran Hossein Zadeh Bazargani",
+    "Szymon Urbas",
+    "Karl Friston"
+  ],
+  "abstract": "Even though the brain operates in pure darkness, within the skull, it can infer the most likely causes of its sensory input. An approach to modelling this inference is to assume that the brain has a generative model of the world, which it can invert to infer the hidden causes behind its sensory stimuli, that is, perception. This assumption raises key questions: how to formulate the problem of designing brain-inspired generative models, how to invert them for the tasks of inference and learning, what is the appropriate loss function to be optimised, and, most importantly, what are the different choices of mean field approximation (MFA) and their implications for variational inference (VI).",
+  "link": "https://doi.org/10.48550/arxiv.2307.08613"
+}

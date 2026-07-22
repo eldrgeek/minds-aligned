@@ -1,0 +1,12 @@
+{
+  "doi": "10.1017/cbo9780511750540.014",
+  "doi_url": "https://doi.org/10.1017/cbo9780511750540.014",
+  "title": "How does the timing of neural signals map onto the timing of perception?",
+  "year": "2010",
+  "journal": "Cambridge University Press eBooks",
+  "authors": [
+    "David M. Eagleman"
+  ],
+  "abstract": "Different features of stimuli are processed in the central nervous system at different speeds. However, such neural time differences do not map directly onto perceptual time differences. How the brain accounts for timing disparities to correctly judge the temporal order of events in the world is the temporal binding problem. I weigh physiological data against new psychophysical findings both within and between modalities. The essence of the paradox is that the timing of neural signals appears, at first blush, too variable for the high accuracy of the psychophysical judgments. I marshal data indicating that ∼80 msec is an important duration in perception and make the novel suggestion that this number is directly mirrored in the physiology. In recordings from several areas of the primate visual system, the difference between the slowest and fastest latencies based on luminance contrast is 80 msec. If the rest of the brain wants to time outside stimuli correctly, it must account for the fact that the earliest stages of the visual system spread signals out in time. I suggest that the brain waits for the slowest information to arrive before committing to a percept. This strategy only applies to visual awareness; in contrast, the motor system may form its reactions based on the first incoming spikes.",
+  "link": "https://doi.org/10.1017/cbo9780511750540.014"
+}

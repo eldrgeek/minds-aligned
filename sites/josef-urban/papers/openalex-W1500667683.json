@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "MaLARea: a Metasystem for Automated Reasoning in Large Theories.",
+  "year": "2007",
+  "journal": null,
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "MaLARea (a Machine Learner for Automated Reasoning) is a simple metasystem iteratively combining deductive Automated Reasoning tools (now the E and the SPASS ATP systems) with a machine learning component (now the SNoW system used in the naive Bayesian learning mode). Its intended use is in large theories, i.e. on a large number of problems which in a consistent fashion use many axioms, lemmas, theorems, definitions and symbols. The system works in cycles of theorem proving followed by machine learning from successful proofs, using the learned information to prune the set of available axioms for the next theorem proving cycle. Although the metasystem is quite simple (ca. 1000 lines of Perl code), its design already now poses quite interesting questions about the nature of thinking, in particular, about how (and if and when) to combine learning from previous experience to attack difficult unsolved problems. The first version of MaLARea has been tested on the more difficult (chainy) division of the MPTP Challenge solving 142 problems out of 252, in comparison to E’s 89 and SPASS ’ 81 solved problems. It also outperforms the SRASS metasystem, which also uses E and SPASS as components, and solves 126 problems. 1",
+  "link": "https://openalex.org/W1500667683"
+}

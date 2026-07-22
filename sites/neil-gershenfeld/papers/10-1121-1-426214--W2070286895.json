@@ -1,0 +1,16 @@
+{
+  "doi": "10.1121/1.426214",
+  "doi_url": "https://doi.org/10.1121/1.426214",
+  "title": "Data-driven modeling of acoustical instruments",
+  "year": "1999",
+  "journal": "The Journal of the Acoustical Society of America",
+  "authors": [
+    "Bernd Schöner",
+    "Charles Cooper",
+    "Christopher L. Douglas",
+    "Edward S. Boyden",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Comprehensive digital analysis and synthesis of musical instruments using direct observations of their physical behavior have been developed and implemented for the violin. In a training session, control input data from unobtrusive bow and finger sensors is recorded simultaneously with the violin’s audio output. These signals are used to train a cluster-weighted probabilistic prediction model that reproduces the nonlinear relationship between the control inputs and the target audio output data. Cluster-weighted modeling was developed to apply previous results from linear systems theory and time-series approximation theory in the broader context of a globally complex and nonlinear model. The presented sound synthesis engine makes use of familiar sound synthesis techniques, but extends them with a complex input/output framework that naturally incorporates dynamic control. The final system predicts audio data based on new control data. While a violinist plays the interface device (a silent violin), the computer model reproduces the sound of the original violin. Recent work has extended the system of sensors and algorithms to model string vibration dynamics as well as the radiated sound.",
+  "link": "https://doi.org/10.1121/1.426214"
+}

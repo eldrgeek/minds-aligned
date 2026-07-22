@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1204.5094",
+  "doi_url": "https://doi.org/10.48550/arxiv.1204.5094",
+  "title": "Point-and-write --- Documenting Formal Mathematics by Reference",
+  "year": "2012",
+  "journal": "University of Birmingham Research Archive, E-prints Repository",
+  "authors": [
+    "Carst Tankink",
+    "Christoph Lange",
+    "Josef Urban"
+  ],
+  "abstract": "This paper describes the design and implementation of mechanisms for light-weight inclusion of formal mathematics in informal mathematical writings, particularly in a Web-based setting. This is conceptually done in three stages: (i) by choosing a suitable representation layer (based on RDF) for encoding the information about available resources of formal mathematics, (ii) by exporting this information from formal libraries, and (iii) by providing syntax and implementation for including formal mathematics in informal writings. We describe the use case of an author referring to formal text from an informal narrative, and discuss design choices entailed by this use case. Furthermore, we describe an implementation of the use case within the Agora prototype: a Wiki for collaborating on formalized mathematics.",
+  "link": "https://doi.org/10.48550/arxiv.1204.5094"
+}

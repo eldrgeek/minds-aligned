@@ -1,0 +1,31 @@
+{
+  "doi": "10.1016/j.tics.2022.02.009",
+  "doi_url": "https://doi.org/10.1016/j.tics.2022.02.009",
+  "title": "Computational ethics",
+  "year": "2022",
+  "journal": "Trends in Cognitive Sciences",
+  "authors": [
+    "Edmond Awad",
+    "Sydney Levine",
+    "Michael Anderson",
+    "Susan Anderson",
+    "Vincent Conitzer",
+    "Molly J. Crockett",
+    "Jim A. C. Everett",
+    "Theodoros Evgeniou",
+    "Alison Gopnik",
+    "Julian Jamison",
+    "Tae Wan Kim",
+    "S. Matthew Liao",
+    "Michelle N. Meyer",
+    "John Mikhail",
+    "Kweku A. Opoku-Agyemang",
+    "Jana Schaich Borg",
+    "Juliana Schroeder",
+    "Walter Sinnott‐Armstrong",
+    "Marija Slavkovik",
+    "Josh Tenenbaum"
+  ],
+  "abstract": "Technological advances are enabling roles for machines that present novel ethical challenges. The study of 'AI ethics' has emerged to confront these challenges, and connects perspectives from philosophy, computer science, law, and economics. Less represented in these interdisciplinary efforts is the perspective of cognitive science. We propose a framework - computational ethics - that specifies how the ethical challenges of AI can be partially addressed by incorporating the study of human moral decision-making. The driver of this framework is a computational version of reflective equilibrium (RE), an approach that seeks coherence between considered judgments and governing principles. The framework has two goals: (i) to inform the engineering of ethical AI systems, and (ii) to characterize human moral judgment and decision-making in computational terms. Working jointly towards these two goals will create the opportunity to integrate diverse research questions, bring together multiple academic communities, uncover new interdisciplinary research topics, and shed light on centuries-old philosophical questions.",
+  "link": "https://doi.org/10.1016/j.tics.2022.02.009"
+}

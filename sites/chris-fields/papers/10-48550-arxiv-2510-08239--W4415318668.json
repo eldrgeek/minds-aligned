@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2510.08239",
+  "doi_url": "https://doi.org/10.48550/arxiv.2510.08239",
+  "title": "Operational protocols cannot certify classicality",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook",
+    "Antonino Marcianò",
+    "Emanuele Zappala"
+  ],
+  "abstract": "The existence and practical utility of operational protocols that certify entanglement raises the question of whether operational protocols exist that certify the absence of entanglement, i.e. that certify separability. We show, within a purely topological, interpretation-independent representation, that such protocols do not exist. Classicality is therefore, as Bohr suggested, purely a pragmatic notion.",
+  "link": "https://doi.org/10.48550/arxiv.2510.08239"
+}

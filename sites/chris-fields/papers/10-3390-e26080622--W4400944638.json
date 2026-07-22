@@ -1,0 +1,14 @@
+{
+  "doi": "10.3390/e26080622",
+  "doi_url": "https://doi.org/10.3390/e26080622",
+  "title": "Making the Thermodynamic Cost of Active Inference Explicit",
+  "year": "2024",
+  "journal": "Entropy",
+  "authors": [
+    "Chris Fields",
+    "Adam Julian Goldstein",
+    "Lars Sandved-Smith"
+  ],
+  "abstract": "When describing Active Inference Agents (AIAs), the term \"energy\" can have two distinct meanings. One is the energy that is utilized by the AIA (e.g., electrical energy or chemical energy). The second meaning is so-called Variational Free Energy (VFE), a statistical quantity which provides an upper bound on surprisal. In this paper, we develop an account of the former quantity-the Thermodynamic Free Energy (TFE)-and its relationship with the latter. We highlight the necessary tradeoffs between these two in a generic, quantum information-theoretic formulation, and the macroscopic consequences of those tradeoffs for the ways that organisms approach their environments. By making this tradeoff explicit, we provide a theoretical basis for the different metabolic strategies that organisms from plants to predators use to survive.",
+  "link": "https://doi.org/10.3390/e26080622"
+}

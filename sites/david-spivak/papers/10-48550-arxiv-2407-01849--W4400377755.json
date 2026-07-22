@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2407.01849",
+  "doi_url": "https://doi.org/10.48550/arxiv.2407.01849",
+  "title": "What kind of linearly distributive category do polynomial functors form?",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak",
+    "Priyaa Varshinee Srinivasan"
+  ],
+  "abstract": "This paper has two purposes. The first is to extend the theory of linearly distributive categories by considering the structures that emerge in a special case: the normal duoidal category $(\\mathsf{Poly} ,\\mathcal{y}, \\otimes, \\triangleleft )$ of polynomial functors under Dirichlet and substitution product. This is an isomix LDC which is neither $*$-autonomous nor fully symmetric. The additional structures of interest here are a closure for $\\otimes$ and a co-closure for $\\triangleleft$, making $\\mathsf{Poly}$ a bi-closed LDC, which is a notion we introduce in this paper. The second purpose is to use $\\mathsf{Poly}$ as a source of examples and intuition about various structures that can occur in the setting of LDCs, including duals, cores, linear monoids, and others, as well as how these generalize to the non-symmetric setting. To that end, we characterize the linearly dual objects in $\\mathsf{Poly}$: every linear polynomial has a right dual which is a representable. It turns out that the linear and representable polynomials also form the left and right cores of $\\mathsf{Poly}$. Finally, we provide examples of linear monoids, linear comonoids, and linear bialgebras in $\\mathsf{Poly}$.",
+  "link": "https://doi.org/10.48550/arxiv.2407.01849"
+}

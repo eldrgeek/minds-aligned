@@ -1,0 +1,12 @@
+{
+  "doi": "10.1117/12.162677",
+  "doi_url": "https://doi.org/10.1117/12.162677",
+  "title": "&lt;title&gt;Future of forecasting&lt;/title&gt;",
+  "year": "1993",
+  "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "Neil Gershenfeld"
+  ],
+  "abstract": "This talk surveyed recent progress in forecasting nonlinear time series, including: the breakdown of linear systems theory, nonlinear generalizations by explicit embedding models and implicit neural network models, the role of geometrical invariants in embedding observations, using embedding to build forecasting models, the connection between high- dimensional entropy and dynamics in characterizing nonlinear systems, extension of embedding to more general linear transformations and to its experimental measurement by time-average expectation values, the difference between long-term modeling and short-term forecasting, and strategies for bringing time into connectionist architectures. The details of these techniques, as well as comparisons of their performance on a range of experimental data sets, is available in Time Series Prediction: Forecasting the Future and Understanding the Past, edited by Andreas Weigend and Neil Gershenfeld, Santa Fe Institute Studies in the Sciences of Complexity, Addison-Wesley, August 1993.",
+  "link": "https://doi.org/10.1117/12.162677"
+}

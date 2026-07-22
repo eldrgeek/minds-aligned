@@ -1,0 +1,15 @@
+{
+  "doi": "10.31219/osf.io/9y6t2",
+  "doi_url": "https://doi.org/10.31219/osf.io/9y6t2",
+  "title": "Rational Variability in Children’s Causal Inferences: The Sampling Hypothesis",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Stephanie Denison",
+    "Elizabeth Bonawitz",
+    "Alison Gopnik",
+    "Thomas L. Griffiths"
+  ],
+  "abstract": "We present a proposal—“The Sampling Hypothesis”—suggesting that the variability in young children’s responses may be part of a rational strategy for inductive inference. In particular, we argue that young learners may be randomly sampling from the set of possible hypotheses that explain the observed data, producing different hypotheses with frequencies that reflect their subjective probability. We test the Sampling Hypothesis with four experiments on four- and five-year-olds. In these experiments, children saw a distribution of colored blocks and an event involving one of these blocks. In the first experiment, one block fell randomly and invisibly into a machine, and children made multiple guesses about the color of the block, either immediately or after a one-week delay. The distribution of guesses was consistent with the distribution of block colors, and the dependence between guesses decreased as a function of the time between guesses. In Experiments 2 and 3 the probability of different colors was systematically varied by condition. Preschoolers’ guesses tracked the probabilities of the colors, as should be the case if they are sampling from the set of possible explanatory hypotheses. Experiment 4 used a more complicated two-step process to randomly select a block and found that the distribution of children’s guesses matched the probabilities resulting from this process rather than the overall frequency of different colors. This suggests that the children’s probability matching reflects sophisticated probabilistic inferences and is not merely the result of a naïve tabulation of frequencies. Taken together the four experiments provide support for the Sampling Hypothesis, and the idea that there may be a rational explanation for the variability of children’s responses in domains like causal inference.",
+  "link": "https://doi.org/10.31219/osf.io/9y6t2"
+}

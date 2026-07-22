@@ -1,0 +1,14 @@
+{
+  "doi": "10.1063/1.3360808",
+  "doi_url": "https://doi.org/10.1063/1.3360808",
+  "title": "Inertial measurement with trapped particles: A microdynamical system",
+  "year": "2010",
+  "journal": "Applied Physics Letters",
+  "authors": [
+    "E. Rehmi Post",
+    "George A. Popescu",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We describe an inertial measurement device based on an electrodynamically trapped proof mass. Mechanical constraints are replaced by guiding fields, permitting the trap stiffness to be tuned dynamically. Optical readout of the proof mass motion provides a measurement of acceleration and rotation, resulting in an integrated six degree of freedom inertial measurement device. We demonstrate such a device—constructed without microfabrication—with sensitivity comparable to that of commercial microelectromechanical systems technology and show how trapping parameters may be adjusted to increase dynamic range.",
+  "link": "https://doi.org/10.1063/1.3360808"
+}

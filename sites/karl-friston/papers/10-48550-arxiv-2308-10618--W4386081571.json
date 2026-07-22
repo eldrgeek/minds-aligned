@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2308.10618",
+  "doi_url": "https://doi.org/10.48550/arxiv.2308.10618",
+  "title": "Linking fast and slow: the case for generative models",
+  "year": "2023",
+  "journal": "PubMed",
+  "authors": [
+    "Johan Medrano",
+    "Karl Friston",
+    "Peter Zeidman"
+  ],
+  "abstract": "A pervasive challenge in neuroscience is testing whether neuronal connectivity changes over time due to specific causes, such as stimuli, events, or clinical interventions. Recent hardware innovations and falling data storage costs enable longer, more naturalistic neuronal recordings. The implicit opportunity for understanding the self-organised brain calls for new analysis methods that link temporal scales: from the order of milliseconds over which neuronal dynamics evolve, to the order of minutes, days, or even years over which experimental observations unfold. This review article demonstrates how hierarchical generative models and Bayesian inference help to characterise neuronal activity across different time scales. Crucially, these methods go beyond describing statistical associations among observations and enable inference about underlying mechanisms. We offer an overview of fundamental concepts in state-space modeling and suggest a taxonomy for these methods. Additionally, we introduce key mathematical principles that underscore a separation of temporal scales, such as the slaving principle, and review Bayesian methods that are being used to test hypotheses about the brain with multiscale data. We hope that this review will serve as a useful primer for experimental and computational neuroscientists on the state of the art and current directions of travel in the complex systems modelling literature.",
+  "link": "https://doi.org/10.48550/arxiv.2308.10618"
+}

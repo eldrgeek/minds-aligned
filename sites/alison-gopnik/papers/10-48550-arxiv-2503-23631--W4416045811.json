@@ -1,0 +1,17 @@
+{
+  "doi": "10.48550/arxiv.2503.23631",
+  "doi_url": "https://doi.org/10.48550/arxiv.2503.23631",
+  "title": "Intrinsically-Motivated Humans and Agents in Open-World Exploration",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Aly Lidayan",
+    "Yuqing Du",
+    "Eliza Kosoy",
+    "Maria Rufova",
+    "Pieter Abbeel",
+    "Alison Gopnik"
+  ],
+  "abstract": "What drives exploration? Understanding intrinsic motivation is a long-standing challenge in both cognitive science and artificial intelligence; numerous objectives have been proposed and used to train agents, yet there remains a gap between human and agent exploration. We directly compare adults, children, and AI agents in a complex open-ended environment, Crafter, and study how common intrinsic objectives: Entropy, Information Gain, and Empowerment, relate to their behavior. We find that only Entropy and Empowerment are consistently positively correlated with human exploration progress, indicating that these objectives may better inform intrinsic reward design for agents. Furthermore, across agents and humans we observe that Entropy initially increases rapidly, then plateaus, while Empowerment increases continuously, suggesting that state diversity may provide more signal in early exploration, while advanced exploration should prioritize control. Finally, we find preliminary evidence that private speech utterances, and particularly goal verbalizations, may aid exploration in children. Our data is available at https://github.com/alyd/humans_in_crafter_data.",
+  "link": "https://doi.org/10.48550/arxiv.2503.23631"
+}

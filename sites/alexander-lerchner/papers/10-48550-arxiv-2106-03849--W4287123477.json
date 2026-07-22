@@ -1,0 +1,19 @@
+{
+  "doi": "10.48550/arxiv.2106.03849",
+  "doi_url": "https://doi.org/10.48550/arxiv.2106.03849",
+  "title": "SIMONe: View-Invariant, Temporally-Abstracted Object Representations via\\n Unsupervised Video Decomposition",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Rishabh Kabra",
+    "Daniel Zoran",
+    "Goker Erdogan",
+    "Löıc Matthey",
+    "Antonia Creswell",
+    "Matthew Botvinick",
+    "Alexander Lerchner",
+    "Christopher Burgess"
+  ],
+  "abstract": "To help agents reason about scenes in terms of their building blocks, we wish\\nto extract the compositional structure of any given scene (in particular, the\\nconfiguration and characteristics of objects comprising the scene). This\\nproblem is especially difficult when scene structure needs to be inferred while\\nalso estimating the agent's location/viewpoint, as the two variables jointly\\ngive rise to the agent's observations. We present an unsupervised variational\\napproach to this problem. Leveraging the shared structure that exists across\\ndifferent scenes, our model learns to infer two sets of latent representations\\nfrom RGB video input alone: a set of \"object\" latents, corresponding to the\\ntime-invariant, object-level contents of the scene, as well as a set of \"frame\"\\nlatents, corresponding to global time-varying elements such as viewpoint. This\\nfactorization of latents allows our model, SIMONe, to represent object\\nattributes in an allocentric manner which does not depend on viewpoint.\\nMoreover, it allows us to disentangle object dynamics and summarize their\\ntrajectories as time-abstracted, view-invariant, per-object properties. We\\ndemonstrate these capabilities, as well as the model's performance in terms of\\nview synthesis and instance segmentation, across three procedurally generated\\nvideo datasets.\\n",
+  "link": "https://doi.org/10.48550/arxiv.2106.03849"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2308.10645",
+  "doi_url": "https://doi.org/10.48550/arxiv.2308.10645",
+  "title": "Canonical Cortical Field Theories",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Gerald Cooray",
+    "Vernon Cooray",
+    "Karl Friston"
+  ],
+  "abstract": "We characterise the dynamics of neuronal activity, in terms of field theory, using neural units placed on a 2D-lattice modelling the cortical surface. The electrical activity of neuronal units was analysed with the aim of deriving a neural field model with a simple functional form that still able to predict or reproduce empirical findings. Each neural unit was modelled using a neural mass and the accompanying field theory was derived in the continuum limit. The field theory comprised coupled (real) Klein-Gordon fields, where predictions of the model fall within the range of experimental findings. These predictions included the frequency spectrum of electric activity measured from the cortex, which was derived using an equipartition of energy over eigenfunctions of the neural fields. Moreover, the neural field model was invariant, within a set of parameters, to the dynamical system used to model each neuronal mass. Specifically, topologically equivalent dynamical systems resulted in the same neural field model when connected in a lattice; indicating that the fields derived could be read as a canonical cortical field theory. We specifically investigated non-dispersive fields that provide a structure for the coding (or representation) of afferent information. Further elaboration of the ensuing neural field theory, including the effect of dispersive forces, could be of importance in the understanding of the cortical processing of information.",
+  "link": "https://doi.org/10.48550/arxiv.2308.10645"
+}

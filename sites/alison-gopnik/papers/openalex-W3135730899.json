@@ -1,0 +1,17 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Exploring Exploration: Comparing Children with Agents in Unified Exploration Environments.",
+  "year": "2020",
+  "journal": "eScholarship (California Digital Library)",
+  "authors": [
+    "Eliza Kosoy",
+    "Jasmine Collins",
+    "David M. Chan",
+    "Deepak Pathak",
+    "Pulkit Agrawal",
+    "Alison Gopnik"
+  ],
+  "abstract": "Research in developmental psychology consistently shows that children explore the world thoroughly and efficiently andthat this exploration allows them to learn. While much work has gone into developing methods for exploration in machinelearning, artificial agents have not yet reached the standard set by their human counterparts. In this work we propose usingDeepMind Lab as a platform to directly compare child and agent behaviors and to develop new exploration techniques.We tested 60 children aged 4-6 examining two conditions that emulate how current reinforcement learning algorithmslearn using dense and sparse rewards and the children are then asked to find a goal in various mazes. These tasks providedata that can easily be compared to algorithms and we evaluate turn-by-turn moves the children do to what the Intrinsic-Curiosity-Module and Depth-First-Search algorithm do in the same exact maze. We show specifically where and whenchildren differ from the algorithms.",
+  "link": "https://openalex.org/W3135730899"
+}

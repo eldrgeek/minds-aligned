@@ -1,0 +1,14 @@
+{
+  "doi": "10.29007/8c2m",
+  "doi_url": "https://doi.org/10.29007/8c2m",
+  "title": "Improving Statistical Linguistic Algorithms for Parsing Mathematics",
+  "year": "2018",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban",
+    "J Vyskočil"
+  ],
+  "abstract": "In this paper we describe our combined statistical/semantic parsing method based on the CYK chart-parsing algorithm augmented with limited internal typechecking and external ATP filtering. This method was previously evaluated on parsing ambiguous mathematical expressions over the informalized Flyspeck corpus of 20000 theorems. We first discuss the motivation and drawbacks of the first version of the CYK-based component of the algorithm, and then we propose and implement a more sophisticated approach based on better statistical model of mathematical data structures.",
+  "link": "https://doi.org/10.29007/8c2m"
+}

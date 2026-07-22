@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/phycmp.1992.615556",
+  "doi_url": "https://doi.org/10.1109/phycmp.1992.615556",
+  "title": "Information In Dynamics",
+  "year": "2005",
+  "journal": null,
+  "authors": [
+    "Neil Gershenfeld"
+  ],
+  "abstract": "The historical search for the fundamental meaning of thermodynamic entropy lead to the discovery of the connection between entropy and information about microscopic dynamics, which in turn motivated the development of the theory of information in communications. In this paper I will review how information theory can profitably be applied back to its roots in dynamics in order to characterize the essential properties of a measured time series. Entropy was introduced in the familiar modern form (dS = ffi Q=T ) by Clausius in 1854, building on work by Carnot (1824) and Kelvin (¸1850) to understand the nature of heat and irreversability in thermodynamic systems. 1;2 Boltzmann was dedicated to understanding the microscopic meaning of this macroscopic entropy; influenced by Maxwell&amp;apos;s kinetic theory of gases (¸1860) he introduced the relationship H = R f(r; p; t) log f(r; p; t)d 3 rd 3 p (where f is the velocity distribution in a gas) in 1872, and then the more general form S = k lo...",
+  "link": "https://doi.org/10.1109/phycmp.1992.615556"
+}

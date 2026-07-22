@@ -1,0 +1,14 @@
+{
+  "doi": "10.1119/1.13158",
+  "doi_url": "https://doi.org/10.1119/1.13158",
+  "title": "APL and the numerical solution of high-order linear differential equations",
+  "year": "1983",
+  "journal": "American Journal of Physics",
+  "authors": [
+    "Neil Gershenfeld",
+    "Edward H. Schadler",
+    "O. M. Bilaniuk"
+  ],
+  "abstract": "An Nth-order linear ordinary differential equation is rewritten as a first-order equation in an N×N matrix. Taking advantage of the matrix manipulation strength of the APL language this equation is then solved directly, yielding a great simplification over the standard procedure of solving N coupled first-order scalar equations. This eases programming and results in a more intuitive algorithm. Example applications of a program using the technique are given from quantum mechanics and control theory.",
+  "link": "https://doi.org/10.1119/1.13158"
+}

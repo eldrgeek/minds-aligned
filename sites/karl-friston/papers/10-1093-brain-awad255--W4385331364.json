@@ -1,0 +1,21 @@
+{
+  "doi": "10.1093/brain/awad255",
+  "doi_url": "https://doi.org/10.1093/brain/awad255",
+  "title": "Predictive coding and stochastic resonance as fundamental principles of auditory phantom perception",
+  "year": "2023",
+  "journal": "Brain",
+  "authors": [
+    "Achim Schilling",
+    "William Sedley",
+    "Richard Gerum",
+    "Claus Metzner",
+    "Konstantin Tziridis",
+    "Andreas Maier",
+    "Holger Schulze",
+    "Fan‐Gang Zeng",
+    "Karl Friston",
+    "Patrick Krauß"
+  ],
+  "abstract": "Mechanistic insight is achieved only when experiments are employed to test formal or computational models. Furthermore, in analogy to lesion studies, phantom perception may serve as a vehicle to understand the fundamental processing principles underlying healthy auditory perception. With a special focus on tinnitus-as the prime example of auditory phantom perception-we review recent work at the intersection of artificial intelligence, psychology and neuroscience. In particular, we discuss why everyone with tinnitus suffers from (at least hidden) hearing loss, but not everyone with hearing loss suffers from tinnitus. We argue that intrinsic neural noise is generated and amplified along the auditory pathway as a compensatory mechanism to restore normal hearing based on adaptive stochastic resonance. The neural noise increase can then be misinterpreted as auditory input and perceived as tinnitus. This mechanism can be formalized in the Bayesian brain framework, where the percept (posterior) assimilates a prior prediction (brain's expectations) and likelihood (bottom-up neural signal). A higher mean and lower variance (i.e. enhanced precision) of the likelihood shifts the posterior, evincing a misinterpretation of sensory evidence, which may be further confounded by plastic changes in the brain that underwrite prior predictions. Hence, two fundamental processing principles provide the most explanatory power for the emergence of auditory phantom perceptions: predictive coding as a top-down and adaptive stochastic resonance as a complementary bottom-up mechanism. We conclude that both principles also play a crucial role in healthy auditory perception. Finally, in the context of neuroscience-inspired artificial intelligence, both processing principles may serve to improve contemporary machine learning techniques.",
+  "link": "https://doi.org/10.1093/brain/awad255"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.1111/j.1551-6709.2009.01072.x",
+  "doi_url": "https://doi.org/10.1111/j.1551-6709.2009.01072.x",
+  "title": "Inferring Hidden Causal Structure",
+  "year": "2010",
+  "journal": "Cognitive Science",
+  "authors": [
+    "Tamar Kushnir",
+    "Alison Gopnik",
+    "Chris Lucas",
+    "Laura Schulz"
+  ],
+  "abstract": "We used a new method to assess how people can infer unobserved causal structure from patterns of observed events. Participants were taught to draw causal graphs, and then shown a pattern of associations and interventions on a novel causal system. Given minimal training and no feedback, participants in Experiment 1 used causal graph notation to spontaneously draw structures containing one observed cause, one unobserved common cause, and two unobserved independent causes, depending on the pattern of associations and interventions they saw. We replicated these findings with less-informative training (Experiments 2 and 3) and a new apparatus (Experiment 3) to show that the pattern of data leads to hidden causal inferences across a range of prior constraints on causal knowledge.",
+  "link": "https://doi.org/10.1111/j.1551-6709.2009.01072.x"
+}

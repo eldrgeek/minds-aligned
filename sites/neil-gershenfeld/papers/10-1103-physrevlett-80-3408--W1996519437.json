@@ -1,0 +1,14 @@
+{
+  "doi": "10.1103/physrevlett.80.3408",
+  "doi_url": "https://doi.org/10.1103/physrevlett.80.3408",
+  "title": "Experimental Implementation of Fast Quantum Searching",
+  "year": "1998",
+  "journal": "Physical Review Letters",
+  "authors": [
+    "Isaac L. Chuang",
+    "Neil Gershenfeld",
+    "Mark G. Kubinec"
+  ],
+  "abstract": "Using nuclear magnetic resonance techniques with a solution of chloroform molecules we implement Grover's search algorithm for a system with four states. By performing a tomographic reconstruction of the density matrix during the computation good agreement is seen between theory and experiment. This provides the first complete experimental demonstration of loading an initial state into a quantum computer, performing a computation requiring fewer steps than on a classical computer, and then reading out the final state.",
+  "link": "https://doi.org/10.1103/physrevlett.80.3408"
+}

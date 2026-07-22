@@ -1,0 +1,16 @@
+{
+  "doi": "10.1155/2015/804385",
+  "doi_url": "https://doi.org/10.1155/2015/804385",
+  "title": "Decoding the Formation of New Semantics: MVPA Investigation of Rapid Neocortical Plasticity during Associative Encoding through Fast Mapping",
+  "year": "2015",
+  "journal": "Neural Plasticity",
+  "authors": [
+    "Tali Atir-Sharon",
+    "Asaf Gilboa",
+    "Hananel Hazan",
+    "Ester Koilis",
+    "Larry M. Manevitz"
+  ],
+  "abstract": "Neocortical structures typically only support slow acquisition of declarative memory; however, learning through fast mapping may facilitate rapid learning-induced cortical plasticity and hippocampal-independent integration of novel associations into existing semantic networks. During fast mapping the meaning of new words and concepts is inferred, and durable novel associations are incidentally formed, a process thought to support early childhood's exuberant learning. The anterior temporal lobe, a cortical semantic memory hub, may critically support such learning. We investigated encoding of semantic associations through fast mapping using fMRI and multivoxel pattern analysis. Subsequent memory performance following fast mapping was more efficiently predicted using anterior temporal lobe than hippocampal voxels, while standard explicit encoding was best predicted by hippocampal activity. Searchlight algorithms revealed additional activity patterns that predicted successful fast mapping semantic learning located in lateral occipitotemporal and parietotemporal neocortex and ventrolateral prefrontal cortex. By contrast, successful explicit encoding could be classified by activity in medial and dorsolateral prefrontal and parahippocampal cortices. We propose that fast mapping promotes incidental rapid integration of new associations into existing neocortical semantic networks by activating related, nonoverlapping conceptual knowledge. In healthy adults, this is better captured by unique anterior and lateral temporal lobe activity patterns, while hippocampal involvement is less predictive of this kind of learning.",
+  "link": "https://doi.org/10.1155/2015/804385"
+}

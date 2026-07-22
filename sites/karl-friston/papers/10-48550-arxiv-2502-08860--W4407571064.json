@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2502.08860",
+  "doi_url": "https://doi.org/10.48550/arxiv.2502.08860",
+  "title": "Brain in the Dark: Design Principles for Neuromimetic Inference under the Free Energy Principle",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Mehran Hossein Zadeh Bazargani",
+    "Szymon Urbas",
+    "Karl Friston"
+  ],
+  "abstract": "Deep learning has revolutionised artificial intelligence (AI) by enabling automatic feature extraction and function approximation from raw data. However, it faces challenges such as a lack of out-of-distribution generalisation, catastrophic forgetting and poor interpretability. In contrast, biological neural networks, such as those in the human brain, do not suffer from these issues, inspiring AI researchers to explore neuromimetic deep learning, which aims to replicate brain mechanisms within AI models. A foundational theory for this approach is the Free Energy Principle (FEP), which despite its potential, is often considered too complex to understand and implement in AI as it requires an interdisciplinary understanding across a variety of fields. This paper seeks to demystify the FEP and provide a comprehensive framework for designing neuromimetic models with human-like perception capabilities. We present a roadmap for implementing these models and a Pytorch code repository for applying FEP in a predictive coding network.",
+  "link": "https://doi.org/10.48550/arxiv.2502.08860"
+}

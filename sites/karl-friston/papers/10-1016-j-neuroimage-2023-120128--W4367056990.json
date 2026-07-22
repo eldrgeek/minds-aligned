@@ -1,0 +1,22 @@
+{
+  "doi": "10.1016/j.neuroimage.2023.120128",
+  "doi_url": "https://doi.org/10.1016/j.neuroimage.2023.120128",
+  "title": "Coherent, time-shifted patterns of microstructural plasticity during motor-skill learning",
+  "year": "2023",
+  "journal": "NeuroImage",
+  "authors": [
+    "Michela Azzarito",
+    "Tim Emmenegger",
+    "Gabriel Ziegler",
+    "Eveline Huber",
+    "Patrick Grabher",
+    "Martina F. Callaghan",
+    "Alan J. Thompson",
+    "Karl Friston",
+    "Nikolaus Weiskopf",
+    "Tim Killeen",
+    "Patrick Freund"
+  ],
+  "abstract": "Motor skill learning relies on neural plasticity in the motor and limbic systems. However, the spatial and temporal characteristics of these changes-and their microstructural underpinnings-remain unclear. Eighteen healthy males received 1 h of training in a computer-based motion game, 4 times a week, for 4 consecutive weeks, while 14 untrained participants underwent scanning only. Performance improvements were observed in all trained participants. Serial myelin- and iron-sensitive multiparametric mapping at 3T during this period of intensive motor skill acquisition revealed temporally and spatially distributed, performance-related microstructural changes in the grey and white matter across a corticospinal-cerebellar-hippocampal circuit. Analysis of the trajectory of these transient changes suggested time-shifted cascades of plasticity from the dominant sensorimotor system to the contralateral hippocampus. In the cranial corticospinal tracts, changes in myelin-sensitive metrics during training in the posterior limb of the internal capsule were of greater magnitude in those who trained their upper limbs vs. lower limb trainees. Motor skill learning is associated with waves of grey and white matter plasticity, across a broad sensorimotor network.",
+  "link": "https://doi.org/10.1016/j.neuroimage.2023.120128"
+}

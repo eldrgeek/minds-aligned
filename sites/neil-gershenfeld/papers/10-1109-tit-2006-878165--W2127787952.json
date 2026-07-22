@@ -1,0 +1,18 @@
+{
+  "doi": "10.1109/tit.2006.878165",
+  "doi_url": "https://doi.org/10.1109/tit.2006.878165",
+  "title": "Synchronization of Pseudorandom Signals by Forward-Only Message Passing With Application to Electronic Circuits",
+  "year": "2006",
+  "journal": "IEEE Transactions on Information Theory",
+  "authors": [
+    "Benjamin Vigoda",
+    "Justin Dauwels",
+    "Matthias Frey",
+    "Neil Gershenfeld",
+    "Tobias Koch",
+    "Hans‐Andrea Loeliger",
+    "Patrick Merkli"
+  ],
+  "abstract": "It has been observed that a linear-feedback shift-register (LFSR) sequence can be synchronized by feeding the modulated sequence into a \"soft\" (or \"analog\") version of the LFSR. In this correspondence, the \"soft LFSR\" is derived as forward-only message passing in the corresponding factor graph. A continous-time analog (suitable for realization as a clockless electronic circuit) is then given of both the LFSR and the soft LFSR. A connection is thus established between statistical state estimation and the phenomenon of entrainment of dynamical systems, which opens the prospect of deriving dynamical systems (such as electronic circuits) with strong entrainment capabilities from more powerful message passing algorithms",
+  "link": "https://doi.org/10.1109/tit.2006.878165"
+}

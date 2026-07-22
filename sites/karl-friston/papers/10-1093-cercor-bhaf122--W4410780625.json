@@ -1,0 +1,14 @@
+{
+  "doi": "10.1093/cercor/bhaf122",
+  "doi_url": "https://doi.org/10.1093/cercor/bhaf122",
+  "title": "Adaptive consolidation of active inference: excitatory and inhibitory mechanisms for organizing feedforward and feedback memory systems in sleep",
+  "year": "2025",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Don M. Tucker",
+    "Phan Luu",
+    "Karl Friston"
+  ],
+  "abstract": "Cognitive self-organization rests on activity-dependent plasticity to extend the ontogenetic process of neural differentiation and integration of the cerebral cortex in each act of cognition. This account of neurocognitive growth can be formulated in terms of active inference and learning. The organism regulates synaptic connectivity as it seeks its goals actively, through excitatory, feedforward expectancies that manifest its species-specific affordances. These adaptive expectancies are modified reactively, through inhibitory feedback error-correction to fit and predict environmental encounters. Although adaptive behavior, and concomitant synaptic plasticity, occur during waking, the synaptic architecture requires ongoing consolidation and refinement during sleep. We propose that memory consolidation during sleep is a continuation of the neurodevelopmental process that proceeds through a kind of inversion of waking active inference: NREM sleep first refines the brain's representations of new, unpredicted experiences during waking, implementing inhibitory mechanisms of long-term depression that both differentiate and stabilize new representations for consolidation. REM sleep then updates the organism's generative world model in light of this new learning through excitatory long-term potentiation of synaptic plasticity. REM thereby reconsolidates and integrates the organism's adaptive, feedforward predictions, the Bayesian priors for effective coping.",
+  "link": "https://doi.org/10.1093/cercor/bhaf122"
+}

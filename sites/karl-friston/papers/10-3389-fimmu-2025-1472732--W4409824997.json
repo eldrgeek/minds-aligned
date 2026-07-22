@@ -1,0 +1,15 @@
+{
+  "doi": "10.3389/fimmu.2025.1472732",
+  "doi_url": "https://doi.org/10.3389/fimmu.2025.1472732",
+  "title": "A computational account of joint SSRI and anti-inflammatory treatment",
+  "year": "2025",
+  "journal": "Frontiers in Immunology",
+  "authors": [
+    "Melissa Reneaux",
+    "Helen S. Mayberg",
+    "Karl Friston",
+    "Dimitris A. Pinotsis"
+  ],
+  "abstract": "Introduction: Depression is a chronic disorder that impacts millions worldwide. Traditional treatments may not always work. Inflammation seems to be an underlying cause for chronicity and treatment non-response. Methods: We present a computational model that elucidates the interplay between inflammation, serotonin levels, and brain activity. Results: The model delineates how inflammation impacts extracellular serotonin, while cerebral activity reciprocally influences serotonin concentration. Understanding the reciprocal interplay between the immune system and brain dynamics is important, as unabated inflammation can lead to relapsing depression. The model predicts dynamics within the prefrontal cortex (PFC) and subcallosal cingulate cortex (SCC), mirroring patterns observed in depressive conditions. It also accommodates pharmaceutical interventions that encompass anti-inflammatory and antidepressant agents, concurrently evaluating their efficacy with regard to the severity of depressive symptoms Our model shows that for mild and moderate levels of depression anti-depressant agents or anti-inflammatory agents acting in isolation can bring serotonergic levels and brain activity to control levels. However, for severe depression only joint treatment of anti-depressant and anti-inflammatory agents can bring the serotonergic levels and activity to control levels. Discussion: This study is a first step to mechanistically understand the intricate link between the immune system and depression, the role of inflammation and potential treatments. It explores the impact of anti-depressant and anti-inflammatory drug treatments and assesses their relevance with regard to depression severity.",
+  "link": "https://doi.org/10.3389/fimmu.2025.1472732"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.4230/lipics.itp.2019.34",
+  "doi_url": "https://doi.org/10.4230/lipics.itp.2019.34",
+  "title": "Hammering Mizar by Learning Clause Guidance (Short Paper)",
+  "year": "2019",
+  "journal": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+  "authors": [
+    "Jan Jakubův",
+    "Josef Urban"
+  ],
+  "abstract": "We describe a very large improvement of existing hammer-style proof automation over large ITP libraries by combining learning and theorem proving. In particular, we have integrated state-of-the-art machine learners into the E automated theorem prover, and developed methods that allow learning and efficient internal guidance of E over the whole Mizar library. The resulting trained system improves the real-time performance of E on the Mizar library by 70% in a single-strategy setting.",
+  "link": "https://doi.org/10.4230/lipics.itp.2019.34"
+}

@@ -1,0 +1,18 @@
+{
+  "doi": "10.1109/aero58975.2024.10521207",
+  "doi_url": "https://doi.org/10.1109/aero58975.2024.10521207",
+  "title": "Network Storage Analysis via Semiring Geometry",
+  "year": "2024",
+  "journal": null,
+  "authors": [
+    "William Bernardoni",
+    "Robert Kassouf-Short",
+    "Robert Cardona",
+    "Brian Heller",
+    "Justin Curry",
+    "David I. Spivak",
+    "Juan A. Fraire"
+  ],
+  "abstract": "The long-term goal of space networking studies is to provide the foundation needed to support a Solar System Internet (SSI). We anticipate that such an SSI would be composed of science and exploration satellites, ground stations, routing satellites, and ultimately humans and robots on the surfaces of different planets throughout our solar system. Interplanetary communications networks will need to handle the delays, disruptions, and disconnections inherent to space communications. The architecture of Delay Tolerant Networking (DTN) provides protocols and strategies to support these communications plans. At its core, DTN relies on a store-carry-forward approach to provide robust communications in the presence of delays and disruptions.In the past, routing models in DTN have focused on the forwarding aspects of store-carry-forward. Methods such as Contact Graph Routing, Contact Multigraph Routing, and Probabilistic Routing Protocol using the History of Encounters and Transitivity (PRoPHET) provide solutions for how to choose where to forward bundles through a network. However, these routing models often function bundle-by-bundle allowing them to set aside storage needs for each node. In order to bring our vision of a SSI to reality, we will need to be able to predict and incorporate storage needs that satellites and rovers will require. Modeling and predicting storage needs is the first step to being able to optimize storage needs and also optimize communication footprints on the size, mass, and power needs of future satellites.In this paper, we introduce a novel semiring model for contact-based routing protocols that includes a means of determining storage needs. Through proper analysis of the semiring structure, we show how to determine optimal storage structures in satellite networks. In addition, we run our analysis on simulated satellite networks to demonstrate the potential for working with these semiring models in a computational framework. We conclude by indicating future directions for semiring analysis is space communications.",
+  "link": "https://doi.org/10.1109/aero58975.2024.10521207"
+}

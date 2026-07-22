@@ -1,0 +1,17 @@
+{
+  "doi": "10.1177/17456916231188000",
+  "doi_url": "https://doi.org/10.1177/17456916231188000",
+  "title": "An Active-Inference Approach to Second-Person Neuroscience",
+  "year": "2023",
+  "journal": "Perspectives on Psychological Science",
+  "authors": [
+    "Konrad Lehmann",
+    "Dimitris Bolis",
+    "Karl Friston",
+    "Leonhard Schilbach",
+    "Maxwell J. D. Ramstead",
+    "Philipp Kanske"
+  ],
+  "abstract": "Social neuroscience has often been criticized for approaching the investigation of the neural processes that enable social interaction and cognition from a passive, detached, third-person perspective, without involving any real-time social interaction. With the emergence of second-person neuroscience, investigators have uncovered the unique complexity of neural-activation patterns in actual, real-time interaction. Social cognition that occurs during social interaction is fundamentally different from that unfolding during social observation. However, it remains unclear how the neural correlates of social interaction are to be interpreted. Here, we leverage the active-inference framework to shed light on the mechanisms at play during social interaction in second-person neuroscience studies. Specifically, we show how counterfactually rich mutual predictions, real-time bodily adaptation, and policy selection explain activation in components of the default mode, salience, and frontoparietal networks of the brain, as well as in the basal ganglia. We further argue that these processes constitute the crucial neural processes that underwrite bona fide social interaction. By placing the experimental approach of second-person neuroscience on the theoretical foundation of the active-inference framework, we inform the field of social neuroscience about the mechanisms of real-life interactions. We thereby contribute to the theoretical foundations of empirical second-person neuroscience.",
+  "link": "https://doi.org/10.1177/17456916231188000"
+}

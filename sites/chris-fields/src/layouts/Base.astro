@@ -1,5 +1,5 @@
 ---
-import { FeedbackWidget, SocietyBar } from '@soma/feedback/components'
+import { FeedbackWidget, SocietyBar, AIHost, JoinBar } from '@soma/feedback/components'
 interface Props {
   title: string;
   description?: string;
@@ -92,10 +92,10 @@ const { title, description = "Talks archive and grounded AI guide for Chris Fiel
     })();
   </script>
 
-  <link rel="stylesheet" href="https://soma-guide.netlify.app/soma-guide.css" />
-  <script is:inline src="/chris-fields-guide-config.js"></script>
-  <script is:inline src="https://soma-guide.netlify.app/soma-guide.js"></script>
-  <SocietyBar />
+  <AIHost slug="chris-fields" />
+  <JoinBar site="chris-fields" />
+
+    <SocietyBar />
 
   <FeedbackWidget site="chris-fields" />
 </body>

@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Development of Advanced Computing Technology for Optimizing the Use of Meteorological Databases: MERCURY Evaluation",
+  "year": "1991",
+  "journal": "Defense Technical Information Center (DTIC)",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "This document reports the development of the MERCURY mesoscale meteorological data fusion system between 1 October 1989 and 30 September 1990. MERCURY will function as an intelligent, autonomous software interface between the data ingestion and management facilities of a future version of the integrated meteorological system, or a similar system, and tactical decision aids that require meteorological data as input. This report describes the current state of MERCURY and the procedures being used for evaluation. It also presents representative test results obtained in the Los Angeles basin area during July 1990.",
+  "link": "https://openalex.org/W72125140"
+}

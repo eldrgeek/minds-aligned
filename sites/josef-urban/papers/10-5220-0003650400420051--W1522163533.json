@@ -1,0 +1,16 @@
+{
+  "doi": "10.5220/0003650400420051",
+  "doi_url": "https://doi.org/10.5220/0003650400420051",
+  "title": "MULTI-OUTPUT RANKING FOR AUTOMATED REASONING",
+  "year": "2011",
+  "journal": null,
+  "authors": [
+    "Daniel Kühlwein",
+    "Josef Urban",
+    "Evgeni Tsivtsivadze",
+    "Herman Geuvers",
+    "Tom Heskes"
+  ],
+  "abstract": "Abstract: Premise selection and ranking is a pressing problem for applications of automated reasoning to large formal theories and knowledge bases. Smart selection of premises has a significant impact on the efficiency of auto-mated proof assistant systems in large theories. Despite this, machine-learning methods for this domain are underdeveloped. In this paper we propose a general learning algorithm to address the premise selection prob-lem. Our approach consists of simultaneous training of multiple predictors that learn to rank a set of premises in order to estimate their expected usefulness when proving a new conjecture. The proposed algorithm ef-ficiently constructs prediction functions and can take correlations among multiple tasks into account. The experiments demonstrate that the proposed method significantly outperforms algorithms previously applied to the task. 1",
+  "link": "https://doi.org/10.5220/0003650400420051"
+}

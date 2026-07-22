@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2207.09734",
+  "doi_url": "https://doi.org/10.48550/arxiv.2207.09734",
+  "title": "The Free Energy Principle drives neuromorphic development",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields",
+    "Karl Friston",
+    "James F. Glazebrook",
+    "Michael Levin",
+    "Antonino Marcianò"
+  ],
+  "abstract": "We show how any system with morphological degrees of freedom and locally limited free energy will, under the constraints of the free energy principle, evolve toward a neuromorphic morphology that supports hierarchical computations in which each level of the hierarchy enacts a coarse-graining of its inputs, and dually a fine-graining of its outputs. Such hierarchies occur throughout biology, from the architectures of intracellular signal transduction pathways to the large-scale organization of perception and action cycles in the mammalian brain. Formally, the close formal connections between cone-cocone diagrams (CCCD) as models of quantum reference frames on the one hand, and between CCCDs and topological quantum field theories on the other, allow the representation of such computations in the fully-general quantum-computational framework of topological quantum neural networks.",
+  "link": "https://doi.org/10.48550/arxiv.2207.09734"
+}

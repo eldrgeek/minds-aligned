@@ -1,0 +1,15 @@
+{
+  "doi": "10.31219/osf.io/pm4au",
+  "doi_url": "https://doi.org/10.31219/osf.io/pm4au",
+  "title": "Win-Stay, Lose-Sample: A Simple Sequential Algorithm for Approximating Bayesian Inference",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Elizabeth Bonawitz",
+    "Stephanie Denison",
+    "Alison Gopnik",
+    "Thomas L. Griffiths"
+  ],
+  "abstract": "People can behave in a way that is consistent with Bayesian models of cognition, despite the fact that performing exact Bayesian inference is computationally challenging. What algorithms could people be using to make this possible? We show that a simple sequential algorithm “Win-Stay, Lose-Sample”, inspired by the Win-Stay, Lose-Shift (WSLS) principle, can be used to approximate Bayesian inference. We investigate the behavior of adults and preschoolers on two causal learning tasks to test whether people might use a similar algorithm. These studies use a “mini-microgenetic method”, investigating how people sequentially update their beliefs as they encounter new evidence. Experiment 1 investigates a deterministic causal learning scenario and Experiments 2 and 3 examine how people make inferences in a stochastic scenario. The behavior of adults and preschoolers in these experiments is consistent with our Bayesian version of the WSLS principle. This algorithm provides both a practical method for performing Bayesian inference and a new way to understand people’s judgments.",
+  "link": "https://doi.org/10.31219/osf.io/pm4au"
+}

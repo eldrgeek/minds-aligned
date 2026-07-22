@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/mcd.2006.273000",
+  "doi_url": "https://doi.org/10.1109/mcd.2006.273000",
+  "title": "Internet 0: Interdevice Internetworking - End-to-End Modulation for Embedded Networks",
+  "year": "2006",
+  "journal": "IEEE Circuits and Devices Magazine",
+  "authors": [
+    "Neil Gershenfeld",
+    "Danny Cohen"
+  ],
+  "abstract": "The Internet may be the most complex system ever engineered; from the first host in 1969, it's grown to comprise more than 1 billion routable host addresses (Meng et al., 2005). Its future expansion may be more dramatic still due to the demand to extend the Internet from people to things (Gershenfeld et al., 2004), but the frontiers of high-speed networking have receded further and further from the requirements of small, cheap, slow devices. These things need the Internet's original insights, rather than their current implementation; this is being done in the I0 initiative. The demand for networking embedded devices has led to a proliferation of standards and protocols, including X10, HomePlug, LonWorks, BACnet CEBus, Fieldbus, ModBus, CAN, Lin, I <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup> C, SPI, SSI, ASI, USB, EPC, IrDA, Bluetooth, 802.15.4, and ZigBee. While each of these has been optimized for a particular domain, all are encountering many of the same issues that the Internet faced as it grew, including inadequate address space, the need for naming and routing across networks, and mutual incompatibility. This situation is in fact analogous to the early days of the Internet itself",
+  "link": "https://doi.org/10.1109/mcd.2006.273000"
+}

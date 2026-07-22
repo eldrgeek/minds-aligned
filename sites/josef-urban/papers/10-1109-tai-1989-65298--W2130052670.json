@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/tai.1989.65298",
+  "doi_url": "https://doi.org/10.1109/tai.1989.65298",
+  "title": "A model for understanding complexities of developing large-scale software systems",
+  "year": "2003",
+  "journal": null,
+  "authors": [
+    "Patrick O. Bobbie",
+    "Josef Urban"
+  ],
+  "abstract": "The authors discuss a set of solutions to the problem of modeling the relationships between the entities of large-scale software processes and the development environments using matrix models. Formal techniques for developing project management specifications from descriptions of the attributes and relationships between software process entities are addressed. The attributes and the relationships of the entities are specified at the abstract, conceptual level, stored in a knowledge base, and further modeled as matrices. The discussion includes an algorithmic method for decomposing the models into subprocesses. The goal is to provide a definition and an integration tool for understanding the relationships between the notions of large software processes and a supporting environment early in the life cycle.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX>",
+  "link": "https://doi.org/10.1109/tai.1989.65298"
+}

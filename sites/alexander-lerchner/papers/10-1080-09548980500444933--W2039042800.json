@@ -1,0 +1,15 @@
+{
+  "doi": "10.1080/09548980500444933",
+  "doi_url": "https://doi.org/10.1080/09548980500444933",
+  "title": "Mean field theory for a balanced hypercolumn model of orientation selectivity in primary visual cortex",
+  "year": "2006",
+  "journal": "Network Computation in Neural Systems",
+  "authors": [
+    "Alexander Lerchner",
+    "Gustaf Sterner",
+    "John Hertz",
+    "Mandana Ahmadi"
+  ],
+  "abstract": "We present a complete mean field theory for a balanced state of a simple model of an orientation hypercolumn, with a numerical procedure for solving the mean-field equations quantitatively. With our treatment, one can determine self-consistently both the firing rates and the firing correlations, without being restricted to specific neuron models. Here, we solve the mean-field equations numerically for integrate-and-fire neurons. Several known key properties of orientation selective cortical neurons emerge naturally from the description: Irregular firing with statistics close to - but not restricted to - Poisson statistics; an almost linear gain function (firing frequency as a function of stimulus contrast) of the neurons within the network; and a contrast-invariant tuning width of the neuronal firing. We find that the irregularity in firing depends sensitively on synaptic strengths. If the Fano factor is considerably larger (smaller) than 1 at some stimulus orientation, then it is also larger (resp. maller) than 1 for all other stimulus orientations that elicit firing. We also find that the tuning of the noise in the input current is the same as the tuning of the external input, while that for the mean input current depends on both the external input and the intracortical connectivity.",
+  "link": "https://doi.org/10.1080/09548980500444933"
+}

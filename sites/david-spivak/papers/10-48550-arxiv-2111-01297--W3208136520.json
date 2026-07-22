@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2111.01297",
+  "doi_url": "https://doi.org/10.48550/arxiv.2111.01297",
+  "title": "Deep neural networks as nested dynamical systems",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak",
+    "Timothy Hosgood"
+  ],
+  "abstract": "There is an analogy that is often made between deep neural networks and actual brains, suggested by the nomenclature itself: the \"neurons\" in deep neural networks should correspond to neurons (or nerve cells, to avoid confusion) in the brain. We claim, however, that this analogy doesn't even type check: it is structurally flawed. In agreement with the slightly glib summary of Hebbian learning as \"cells that fire together wire together\", this article makes the case that the analogy should be different. Since the \"neurons\" in deep neural networks are managing the changing weights, they are more akin to the synapses in the brain; instead, it is the wires in deep neural networks that are more like nerve cells, in that they are what cause the information to flow. An intuition that nerve cells seem like more than mere wires is exactly right, and is justified by a precise category-theoretic analogy which we will explore in this article. Throughout, we will continue to highlight the error in equating artificial neurons with nerve cells by leaving \"neuron\" in quotes or by calling them artificial neurons. We will first explain how to view deep neural networks as nested dynamical systems with a very restricted sort of interaction pattern, and then explain a more general sort of interaction for dynamical systems that is useful throughout engineering, but which fails to adapt to changing circumstances. As mentioned, an analogy is then forced upon us by the mathematical formalism in which they are both embedded. We call the resulting encompassing generalization deeply interacting learning systems: they have complex interaction as in control theory, but adaptation to circumstances as in deep neural networks.",
+  "link": "https://doi.org/10.48550/arxiv.2111.01297"
+}

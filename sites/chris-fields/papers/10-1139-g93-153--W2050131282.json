@@ -1,0 +1,16 @@
+{
+  "doi": "10.1139/g93-153",
+  "doi_url": "https://doi.org/10.1139/g93-153",
+  "title": "The use of deficiencies to determine essential gene content in the <i>let-56</i>–<i>unc-22</i> region of <i>Caenorhabditis elegans</i>",
+  "year": "1993",
+  "journal": "Genome",
+  "authors": [
+    "Jacquie Schein",
+    "Marco A. Marra",
+    "Guy M. Benian",
+    "Chris Fields",
+    "David L. Baillie"
+  ],
+  "abstract": "We have investigated the possibility of using the polymerase chain reaction to detect deletions of coding elements in the unc-22-let-56 interval on chromosome IV in the nematode Caenorhabditis elegans. Our analysis of approximately 13 kb of genomic sequence immediately to the left of the unc-22 gene resulted in the identification of four possible genes. Partial cDNAs have been identified for three of them. To determine whether any of these coding elements are essential for development, we required a method for the induction and selection of mutations in these elements. Our approach was to identify a set of formaldehyde and gamma radiation induced unc-22 mutations that mapped to the unc-22-let-56 region, and then employ polymerase chain reaction methodology to identify deficiencies that affected one or more of the four identified coding elements. Two small deficiencies were identified in this manner. Characterization of these deficiencies shows that there are no coding elements between unc-22 and let-56 (the nearest mutationally identified gene to the left of unc-22), which are required in development under laboratory conditions. We conclude that the polymerase chain reaction is a practical tool for the detection of deletions of coding elements identified in this region, and that characterization of such deficiencies provides a method for assessing whether or not these elements are required for development.",
+  "link": "https://doi.org/10.1139/g93-153"
+}

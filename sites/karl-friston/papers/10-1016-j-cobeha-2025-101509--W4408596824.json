@@ -1,0 +1,14 @@
+{
+  "doi": "10.1016/j.cobeha.2025.101509",
+  "doi_url": "https://doi.org/10.1016/j.cobeha.2025.101509",
+  "title": "Priors and proprioceptive predictions",
+  "year": "2025",
+  "journal": "Current Opinion in Behavioral Sciences",
+  "authors": [
+    "Thomas Parr",
+    "Maxwell JD Ramstead",
+    "Karl Friston"
+  ],
+  "abstract": "This review presents an approach to motor control inspired by the Equilibrium Point Hypothesis. The core idea is that, to realise a motor plan, one need only anticipate the proprioceptive consequences of that plan. Movement can then be executed through spinal and brainstem reflex arcs that correct for any deviations from these proprioceptive predictions. Seen in this light, motor commands are proprioceptive predictions. From a control-theoretic perspective, this implies that reflexes can be cast as closed feedback loops, the set points of which are determined by proprioceptive predictions. In what follows, we consider the key elements — in terms of active inference — that generate proprioceptive predictions. These include prior beliefs about motor trajectories, their temporal (autocorrelation) structure, and the confidence with which their sensory consequences can be predicted. For each element, we briefly review the neurobiology of the structures that might support the underlying computations. In short, we will see how corticospinal, cerebellar, and extrapyramidal systems might contribute to the prediction and realisation of a motor plan. • We discuss set point control and equilibrium points in terms of active inference and reflexive dynamics. • Set points can be understood as predictions about the consequences of a planned action. • Such predictions depend upon priors about precision and plans, which may have distinct neurobiological underpinnings.",
+  "link": "https://doi.org/10.1016/j.cobeha.2025.101509"
+}

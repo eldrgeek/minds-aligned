@@ -1,0 +1,15 @@
+{
+  "doi": "10.7551/mitpress/3122.003.0018",
+  "doi_url": "https://doi.org/10.7551/mitpress/3122.003.0018",
+  "title": "Spatiotemporal Processing of Whisker Input Supports Texture Discrimination in a Brain-based Device",
+  "year": "2004",
+  "journal": "The MIT Press eBooks",
+  "authors": [
+    "Anil K. Seth",
+    "Jeffrey L. McKinstry",
+    "Gerald M. Edelman",
+    "Jeffrey L. Krichmar"
+  ],
+  "abstract": "Sensory signals from whiskers are typically rich in both spatial and temporal structure, and are used by many animals to guide a variety of adaptive behaviors. To explore possible neural mechanisms underlying whisker-guided behavior, we constructed Darwin IX, a mobile physical device equipped with artificial whiskers and a neural simulation based on the rat somatosensory (whisker) system. We show that neuronal units with time-lagged response properties, together with the selective modulation of neural connection strengths, provide a plausible neural mechanism for the spatiotemporal transformations of sensory input necessary for both texture discrimination and selective conditioning to textures.",
+  "link": "https://doi.org/10.7551/mitpress/3122.003.0018"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1409.6067",
+  "doi_url": "https://doi.org/10.48550/arxiv.1409.6067",
+  "title": "Categories as mathematical models",
+  "year": "2014",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak"
+  ],
+  "abstract": "Written to be contributed as the \"mathematical modeling\" chapter of a book, edited by Elaine Landry, to be titled \"Categories for the Working Philosopher\". In this chapter, category theory is presented as a mathematical modeling framework that highlights the relationships between objects, rather than the objects in themselves. A working definition of model is given, and several examples of mathematical objects, such as vector spaces, groups, and dynamical systems, are considered as categorical models.",
+  "link": "https://doi.org/10.48550/arxiv.1409.6067"
+}

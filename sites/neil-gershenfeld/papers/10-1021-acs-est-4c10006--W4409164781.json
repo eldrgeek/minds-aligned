@@ -1,0 +1,21 @@
+{
+  "doi": "10.1021/acs.est.4c10006",
+  "doi_url": "https://doi.org/10.1021/acs.est.4c10006",
+  "title": "Marine Scrubbers vs Low-Sulfur Fuels: A Comprehensive Well-To-Wake Life Cycle Assessment Supported by Measurements Aboard an Ocean-Going Vessel",
+  "year": "2025",
+  "journal": "Environmental Science & Technology",
+  "authors": [
+    "Patritsia Maria Stathatou",
+    "И А Петруня",
+    "Torsten Barenthin",
+    "George Gotsis",
+    "Paul Jeffrey",
+    "Christopher Fee",
+    "Scott Bergeron",
+    "M. Tsezos",
+    "Michael S. Triantafyllou",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Maritime transport significantly contributes to global emissions, prompting the International Maritime Organization to implement stricter regulations to reduce pollution. Since 2020, fuel sulfur (S) content limits have been reduced, requiring either the use of low-S fuels or the installation of marine scrubbers to continue using heavy fuel oil (HFO). While scrubbers are a widely adopted solution for reducing S emissions, their benefits are controversial and uncertainty remains regarding scrubber environmental impacts and their appropriate evaluation. Here, we systematically assess the environmental impacts of scrubbers operating on HFO to those of low-S fuels across various categories, through a measurement-informed Well-to-Wake (WtW) life cycle assessment (LCA). Gaseous and particulate matter (PM) emissions data were collected while a bulk carrier vessel was burning 3% S HFO, 0.1% S marine gas oil (MGO), and 0.5% S very low-S fuel oil (VLSFO) under similar engine operating modes during an actual ocean voyage. Seawater and washwater samples were also analyzed, alongside fuel, cylinder oil, and lubricant samples. The results suggest that, in various instances the use of HFO with a scrubber can be considered equivalent to MGO use while outperforming VLSFO use from a WtW perspective, for large, ocean-going bulk carrier vessels in open seas. These findings indicate that end-of-pipe solutions may not always be inferior to start-of-pipe alternatives, underscoring the need for comprehensive LCA studies to properly assess emission abatement technologies.",
+  "link": "https://doi.org/10.1021/acs.est.4c10006"
+}

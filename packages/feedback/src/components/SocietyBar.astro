@@ -4,11 +4,15 @@
 // Society of Minds Aligned. Self-contained styling (no Tailwind/CSS-var
 // dependency) so it renders consistently across both site families in this
 // monorepo. Added 2026-07-17 (Dee) per Mike's cross-linking directive.
+// 2026-07-22: SOMA 2026 leads the strip — it is the canonical "what this is and why"
+// page for the constellation, and every property must reach it in one click.
 ---
 
 <footer class="society-bar">
   <p class="society-bar__text">
     Part of the <strong>Society of Minds Aligned</strong> —
+    <a href="https://agi2026.netlify.app/soma2026/" class="society-bar__lead">SOMA 2026</a>
+    <span class="society-bar__sep">·</span>
     <a href="https://minds-aligned-door.netlify.app">Minds Aligned</a>
     <span class="society-bar__sep">·</span>
     <a href="https://siliconchildren.com">Silicon Children</a>
@@ -50,5 +54,9 @@
 
   .society-bar a:hover {
     text-decoration: underline;
+  }
+
+  .society-bar__lead {
+    font-weight: 600;
   }
 </style>

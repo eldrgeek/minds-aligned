@@ -1,0 +1,14 @@
+{
+  "doi": "10.1111/j.1467-7687.2007.00587.x",
+  "doi_url": "https://doi.org/10.1111/j.1467-7687.2007.00587.x",
+  "title": "Preschool children learn about causal structure from conditional interventions",
+  "year": "2007",
+  "journal": "Developmental Science",
+  "authors": [
+    "Laura Schulz",
+    "Alison Gopnik",
+    "Clark Glymour"
+  ],
+  "abstract": "The conditional intervention principle is a formal principle that relates patterns of interventions and outcomes to causal structure. It is a central assumption of experimental design and the causal Bayes net formalism. Two studies suggest that preschoolers can use the conditional intervention principle to distinguish causal chains, common cause and interactive causal structures even in the absence of differential spatiotemporal cues and specific mechanism knowledge. Children were also able to use knowledge of causal structure to predict the patterns of evidence that would result from interventions. A third study suggests that children's spontaneous play can generate evidence that would support such accurate causal learning.",
+  "link": "https://doi.org/10.1111/j.1467-7687.2007.00587.x"
+}

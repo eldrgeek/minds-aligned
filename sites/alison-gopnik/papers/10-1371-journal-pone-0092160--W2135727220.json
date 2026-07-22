@@ -1,0 +1,19 @@
+{
+  "doi": "10.1371/journal.pone.0092160",
+  "doi_url": "https://doi.org/10.1371/journal.pone.0092160",
+  "title": "The Child as Econometrician: A Rational Model of Preference Understanding in Children",
+  "year": "2014",
+  "journal": "PLoS ONE",
+  "authors": [
+    "Christopher G. Lucas",
+    "Thomas L. Griffiths",
+    "Fei Xu",
+    "Christine Fawcett",
+    "Alison Gopnik",
+    "Tamar Kushnir",
+    "Lori Markson",
+    "Jane C. Hu"
+  ],
+  "abstract": "Recent work has shown that young children can learn about preferences by observing the choices and emotional reactions of other people, but there is no unified account of how this learning occurs. We show that a rational model, built on ideas from economics and computer science, explains the behavior of children in several experiments, and offers new predictions as well. First, we demonstrate that when children use statistical information to learn about preferences, their inferences match the predictions of a simple econometric model. Next, we show that this same model can explain children's ability to learn that other people have preferences similar to or different from their own and use that knowledge to reason about the desirability of hidden objects. Finally, we use the model to explain a developmental shift in preference understanding.",
+  "link": "https://doi.org/10.1371/journal.pone.0092160"
+}

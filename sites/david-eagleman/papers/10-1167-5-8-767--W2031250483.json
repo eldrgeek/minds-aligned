@@ -1,0 +1,14 @@
+{
+  "doi": "10.1167/5.8.767",
+  "doi_url": "https://doi.org/10.1167/5.8.767",
+  "title": "How do motor acts change time perception?",
+  "year": "2005",
+  "journal": "Journal of Vision",
+  "authors": [
+    "David M. Eagleman",
+    "Archit Lakhani",
+    "Chess Stetson"
+  ],
+  "abstract": "Traditional psychophysical studies deliver stimuli to a subject at a time of the experimenter's choosing, not the subject's. But critically different results emerge when a participant's motor act is involved — especially as regards the perception of time. We here report results on motor and sensory integration using a novel psychophysics, fMRI, and modeling. Consistent with previous studies, we found that simultaneity judgments for 2 intra-sensory stimuli (e.g., 2 flashes) were more precise than for cross-sensory stimuli (e.g. a flash and a bang). In both cases the window of simultaneity is symmetric: a flash coming within ∼100 ms of a bang — in either order — will be judged simultaneous. But the story changes when motor acts are involved. When participants judged their keypress against flashes, simultaneity judgments were asymmetrical: participants were extremely sensitive to stimuli that preceded their keypress, but called stimuli up to 120 ms after their keypress simultaneous. This finding is consistent with the precision of operant learning mechanisms that are optimized for causality. Next, participants reported how much before or after their keypress a flash occurred. Although these intervals were judged accurately if the flash came from −200 to 0 ms before their keypress, interval determination of a flash from 0 to 120 ms after their keypress was impaired: all intervals in this region were reported to be close to 0 ms. Our psychophysical data can be captured by a model involving neural pooling and opponent-processing. This model also explains what happens during temporal adaptation (e.g., injected delays between action and sensation), which represents a temporal analogue to the motion aftereffect. We thus hypothesize that identical neural mechanisms underlie judgments of both time and space, allowing analogous illusions in both domains. Including motor acts in time perception informs related issues of prediction, prior expectation, and internal models.",
+  "link": "https://doi.org/10.1167/5.8.767"
+}

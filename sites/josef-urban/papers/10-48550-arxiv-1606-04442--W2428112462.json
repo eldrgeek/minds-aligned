@@ -1,0 +1,17 @@
+{
+  "doi": "10.48550/arxiv.1606.04442",
+  "doi_url": "https://doi.org/10.48550/arxiv.1606.04442",
+  "title": "DeepMath - Deep Sequence Models for Premise Selection",
+  "year": "2016",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alex Alemi",
+    "François Chollet",
+    "Niklas Eén",
+    "Geoffrey Irving",
+    "Christian Szegedy",
+    "Josef Urban"
+  ],
+  "abstract": "We study the effectiveness of neural sequence models for premise selection in automated theorem proving, one of the main bottlenecks in the formalization of mathematics. We propose a two stage approach for this task that yields good results for the premise selection task on the Mizar corpus while avoiding the hand-engineered features of existing state-of-the-art models. To our knowledge, this is the first time deep learning has been applied to theorem proving on a large scale.",
+  "link": "https://doi.org/10.48550/arxiv.1606.04442"
+}

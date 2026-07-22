@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Policy as Types.",
+  "year": "2013",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Lucius Gregory Meredith",
+    "Mike Stay",
+    "Sophia Drossopoulou"
+  ],
+  "abstract": "Drossopoulou and Noble argue persuasively for the need for a means to express policy in object-capability-based systems. We investigate a practical means to realize their aim via the Curry-Howard isomorphism. Specifically, we investigate representing policy as types in a behavioral type system for the RHO-calculus, a reflective higher-order variant of the pi-calculus.",
+  "link": "https://openalex.org/W2138679455"
+}

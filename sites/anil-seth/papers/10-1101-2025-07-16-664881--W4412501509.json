@@ -1,0 +1,16 @@
+{
+  "doi": "10.1101/2025.07.16.664881",
+  "doi_url": "https://doi.org/10.1101/2025.07.16.664881",
+  "title": "Dynamical independence reveals anaesthetic specific fragmentation of emergent structure in neural dynamics",
+  "year": "2025",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Borjan Milinkovic",
+    "Anil K. Seth",
+    "Lionel Barnett",
+    "Olivia Carter",
+    "Thomas Andrillon"
+  ],
+  "abstract": "Conscious experience depends on the coordinated activity of neural processes that span multiple scales--from synapses to whole-brain dynamics. A recently introduced measure, dynamical independence, identifies, characterises and quantifies these multi-scale relationships using an information-theoretic dimensionality-reduction approach. Here, we use DI to examine changes in emergent dynamical structure in the human brain under three pharmacologically-distinct anaesthetic interventions (propofol, xenon, ketamine). Applied to source-reconstructed EEG, our analysis reveals that propofol and xenon, anaesthetics that abolish conscious report, exhibit more emergent but highly variable dynamic structure, indicating fragmented macroscopic dynamical organisation. By contrast, ketamine, which preserves dream-like phenomenology, shows the opposite pattern: reduced overall emergence yet a partial preservation of the macroscopic structure, mirroring wake. Further exploratory analyses revealed spatially localised source-level contributions to emergent dynamical structure, highlighting regional variations. Together, our results highlight drug-specific reconfigurations of emergent dynamical structure under anaesthesia, dissociate the amount of emergence from the organisation of emergent dynamics, and caution against equating emergence with level of consciousness.",
+  "link": "https://doi.org/10.1101/2025.07.16.664881"
+}

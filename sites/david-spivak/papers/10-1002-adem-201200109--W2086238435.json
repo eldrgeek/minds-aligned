@@ -1,0 +1,14 @@
+{
+  "doi": "10.1002/adem.201200109",
+  "doi_url": "https://doi.org/10.1002/adem.201200109",
+  "title": "Category Theory Based Solution for the Building Block Replacement Problem in Materials Design",
+  "year": "2012",
+  "journal": "Advanced Engineering Materials",
+  "authors": [
+    "Tristan Giesa",
+    "David I. Spivak",
+    "Markus J. Buehler"
+  ],
+  "abstract": "Abstract An important objective in materials design is to develop a systematic methodology for replacing unavailable or expensive material building blocks by simpler and abundant ones, while maintaining or improving the functionality of the material. The mathematical field of category theory provides a formal specification language which lies at the heart of such a methodology. In this paper, we apply material ologs, category‐theoretic descriptions of hierarchical materials, to rigorously define a process by which material building blocks can be replaced by others while maintaining large‐scale properties, to the extent possible. We demonstrate the implementation of this approach by using algebraic techniques to predict concrete conditions needed for building block replacement. As an example, we specify structure–function relationships in two systems: a laminated composite and a structure–function analogue, a fruit salad. In both systems we illustrate how ologs provide us with a mathematical tool that allows us to replace one building block with others to achieve approximately the same functionality, and how to use them to model and design seemingly distinct physical systems with a consistent mathematical framework.",
+  "link": "https://doi.org/10.1002/adem.201200109"
+}

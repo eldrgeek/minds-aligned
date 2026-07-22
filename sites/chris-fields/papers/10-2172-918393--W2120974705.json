@@ -1,0 +1,27 @@
+{
+  "doi": "10.2172/918393",
+  "doi_url": "https://doi.org/10.2172/918393",
+  "title": "Application of multidisciplinary analysis to gene expression.",
+  "year": "2004",
+  "journal": null,
+  "authors": [
+    "Xuefel Wang",
+    "Huining Kang",
+    "Chris Fields",
+    "Jim Cowie",
+    "George S. Davidson",
+    "David M. Haaland",
+    "Valeriy Sibirtsev",
+    "Mónica Mosquera‐Caro",
+    "Yuexian Xu",
+    "Shawn Martin",
+    "Paul Helman",
+    "Erik Andries",
+    "Kerem AR",
+    "Jeffrey Potter",
+    "Cheryl L. Willman",
+    "Maurice Murphy"
+  ],
+  "abstract": "Molecular analysis of cancer, at the genomic level, could lead to individualized patient diagnostics and treatments. The developments to follow will signal a significant paradigm shift in the clinical management of human cancer. Despite our initial hopes, however, it seems that simple analysis of microarray data cannot elucidate clinically significant gene functions and mechanisms. Extracting biological information from microarray data requires a complicated path involving multidisciplinary teams of biomedical researchers, computer scientists, mathematicians, statisticians, and computational linguists. The integration of the diverse outputs of each team is the limiting factor in the progress to discover candidate genes and pathways associated with the molecular biology of cancer. Specifically, one must deal with sets of significant genes identified by each method and extract whatever useful information may be found by comparing these different gene lists. Here we present our experience with such comparisons, and share methods developed in the analysis of an infant leukemia cohort studied on Affymetrix HG-U95A arrays. In particular, spatial gene clustering, hyper-dimensional projections, and computational linguistics were used to compare different gene lists. In spatial gene clustering, different gene lists are grouped together and visualized on a three-dimensional expression map, where genes with similar expressions are co-located. In another approach, projections from gene expression space onto a sphere clarify how groups of genes can jointly have more predictive power than groups of individually selected genes. Finally, online literature is automatically rearranged to present information about genes common to multiple groups, or to contrast the differences between the lists. The combination of these methods has improved our understanding of infant leukemia. While the complicated reality of the biology dashed our initial, optimistic hopes for simple answers from microarrays, we have made progress by combining very different analytic approaches.",
+  "link": "https://doi.org/10.2172/918393"
+}

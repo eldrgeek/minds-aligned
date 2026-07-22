@@ -1,0 +1,18 @@
+{
+  "doi": "10.1073/pnas.2402282121",
+  "doi_url": "https://doi.org/10.1073/pnas.2402282121",
+  "title": "Two distinct networks for encoding goals and forms of action: An effective connectivity study",
+  "year": "2024",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Giuseppe Di Cesare",
+    "Giada Lombardi",
+    "Peter Zeidman",
+    "Burcu A. Ürgen",
+    "Alessandra Sciutti",
+    "Karl Friston",
+    "Giacomo Rizzolatti"
+  ],
+  "abstract": "Goal-directed actions are characterized by two main features: the content (i.e., the action goal) and the form, called vitality forms (VF) (i.e., how actions are executed). It is well established that both the action content and the capacity to understand the content of another's action are mediated by a network formed by a set of parietal and frontal brain areas. In contrast, the neural bases of action forms (e.g., gentle or rude actions) have not been characterized. However, there are now studies showing that the observation and execution of actions endowed with VF activate, in addition to the parieto-frontal network, the dorso-central insula (DCI). In the present study, we established-using dynamic causal modeling (DCM)-the direction of information flow during observation and execution of actions endowed with gentle and rude VF in the human brain. Based on previous fMRI studies, the selected nodes for the DCM comprised the posterior superior temporal sulcus (pSTS), the inferior parietal lobule (IPL), the premotor cortex (PM), and the DCI. Bayesian model comparison showed that, during action observation, two streams arose from pSTS: one toward IPL, concerning the action goal, and one toward DCI, concerning the action vitality forms. During action execution, two streams arose from PM: one toward IPL, concerning the action goal and one toward DCI concerning action vitality forms. This last finding opens an interesting question concerning the possibility to elicit VF in two distinct ways: cognitively (from PM to DCI) and affectively (from DCI to PM).",
+  "link": "https://doi.org/10.1073/pnas.2402282121"
+}

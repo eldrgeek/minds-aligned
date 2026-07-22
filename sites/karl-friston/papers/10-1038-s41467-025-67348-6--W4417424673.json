@@ -1,0 +1,15 @@
+{
+  "doi": "10.1038/s41467-025-67348-6",
+  "doi_url": "https://doi.org/10.1038/s41467-025-67348-6",
+  "title": "Distributionally robust free energy principle for decision-making",
+  "year": "2025",
+  "journal": "Nature Communications",
+  "authors": [
+    "Allahkaram Shafiei",
+    "Hozefa Jesawada",
+    "Karl Friston",
+    "Giovanni Russo"
+  ],
+  "abstract": "Despite their groundbreaking performance, autonomous agents can misbehave when training and environmental conditions become inconsistent, with minor mismatches leading to undesirable behaviors or even catastrophic failures. Robustness towards these training-environment ambiguities is a core requirement for intelligent agents and its fulfillment is a long-standing challenge towards their real-world deployments. Here, we introduce a Distributionally Robust Free Energy model (DR-FREE) that instills this core property by design. Combining a robust extension of the free energy principle with a resolution engine, DR-FREE wires robustness into the agent decision-making mechanisms. Across benchmark experiments, DR-FREE enables the agents to complete the task even when, in contrast, state-of-the-art models fail. This milestone may inspire both deployments in multi-agent settings and, at a perhaps deeper level, the quest for an explanation of how natural agents – with little or no training – survive in capricious environments. Autonomous agents can misbehave when training and environment conditions become inconsistent. Here, the authors introduce a Distributionally Robust Free Energy model that embeds robustness directly into the agent decision-making mechanisms through free energy minimization.",
+  "link": "https://doi.org/10.1038/s41467-025-67348-6"
+}

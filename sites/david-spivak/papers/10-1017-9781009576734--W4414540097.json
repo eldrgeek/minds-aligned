@@ -1,0 +1,13 @@
+{
+  "doi": "10.1017/9781009576734",
+  "doi_url": "https://doi.org/10.1017/9781009576734",
+  "title": "Polynomial Functors",
+  "year": "2025",
+  "journal": "Cambridge University Press eBooks",
+  "authors": [
+    "Nelson Niu",
+    "David I. Spivak"
+  ],
+  "abstract": "Everywhere one looks, one finds dynamic interacting systems: entities expressing and receiving signals between each other and acting and evolving accordingly over time. In this book, the authors give a new syntax for modeling such systems, describing a mathematical theory of interfaces and the way they connect. The discussion is guided by a rich mathematical structure called the category of polynomial functors. The authors synthesize current knowledge to provide a grounded introduction to the material, starting with set theory and building up to specific cases of category-theoretic concepts such as limits, adjunctions, monoidal products, closures, comonoids, comodules, and bicomodules. The text interleaves rigorous mathematical theory with concrete applications, providing detailed examples illustrated with graphical notation as well as exercises with solutions. Graduate students and scholars from a diverse array of backgrounds will appreciate this common language by which to study interactive systems categorically.",
+  "link": "https://doi.org/10.1017/9781009576734"
+}

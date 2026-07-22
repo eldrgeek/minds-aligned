@@ -1,0 +1,16 @@
+{
+  "doi": "10.1016/j.neunet.2019.08.009",
+  "doi_url": "https://doi.org/10.1016/j.neunet.2019.08.009",
+  "title": "Improved robustness of reinforcement learning policies upon conversion to spiking neuronal network platforms applied to Atari Breakout game",
+  "year": "2019",
+  "journal": "Neural Networks",
+  "authors": [
+    "Devdhar Patel",
+    "Hananel Hazan",
+    "Daniel J. Saunders",
+    "Hava T. Siegelmann",
+    "Róbert Kozma"
+  ],
+  "abstract": "",
+  "link": "https://doi.org/10.1016/j.neunet.2019.08.009"
+}

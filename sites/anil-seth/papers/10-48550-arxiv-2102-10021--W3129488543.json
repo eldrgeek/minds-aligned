@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2102.10021",
+  "doi_url": "https://doi.org/10.48550/arxiv.2102.10021",
+  "title": "Neural Kalman Filtering",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Beren Millidge",
+    "Alexander Tschantz",
+    "Anil K. Seth",
+    "Christopher L. Buckley"
+  ],
+  "abstract": "The Kalman filter is a fundamental filtering algorithm that fuses noisy sensory data, a previous state estimate, and a dynamics model to produce a principled estimate of the current state. It assumes, and is optimal for, linear models and white Gaussian noise. Due to its relative simplicity and general effectiveness, the Kalman filter is widely used in engineering applications. Since many sensory problems the brain faces are, at their core, filtering problems, it is possible that the brain possesses neural circuitry that implements equivalent computations to the Kalman filter. The standard approach to Kalman filtering requires complex matrix computations that are unlikely to be directly implementable in neural circuits. In this paper, we show that a gradient-descent approximation to the Kalman filter requires only local computations with variance weighted prediction errors. Moreover, we show that it is possible under the same scheme to adaptively learn the dynamics model with a learning rule that corresponds directly to Hebbian plasticity. We demonstrate the performance of our method on a simple Kalman filtering task, and propose a neural implementation of the required equations.",
+  "link": "https://doi.org/10.48550/arxiv.2102.10021"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.1145/3745778.3766665",
+  "doi_url": "https://doi.org/10.1145/3745778.3766665",
+  "title": "Hierarchical Discrete Lattice Assembly: An Approach for the Digital Fabrication of Scalable Macroscale Structures",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "Miana Smith",
+    "Paul Richard",
+    "Alexander Htet Kyaw",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Although digital fabrication processes at the desktop scale have become proficient and prolific, systems aimed at producing larger-scale structures are still typically complex, expensive, and unreliable. In this work, we present an approach for the fabrication of scalable macroscale structures using simple robots and interlocking lattice building blocks. A target structure is first voxelized so that it can be populated with an architected lattice. These voxels are then grouped into larger interconnected blocks, which are produced using standard digital fabrication processes, leveraging their capability to produce highly complex geometries at a small scale. These blocks, on the size scale of tens of centimeters, are then fed to mobile relative robots that are able to traverse over the structure and place new blocks to form structures on the meter scale. To facilitate the assembly of large structures, we introduce a live digital twin simulation tool for controlling and coordinating assembly robots that enables both global planning for a target structure and live user design, interaction, or intervention. To improve assembly throughput, we introduce a new modular assembly robot, designed for hierarchical voxel handling. We validate this system by demonstrating the voxelization, hierarchical blocking, path planning, and robotic fabrication of a set of meter-scale objects.",
+  "link": "https://doi.org/10.1145/3745778.3766665"
+}

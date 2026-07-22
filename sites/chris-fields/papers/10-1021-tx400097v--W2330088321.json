@@ -1,0 +1,16 @@
+{
+  "doi": "10.1021/tx400097v",
+  "doi_url": "https://doi.org/10.1021/tx400097v",
+  "title": "Is Diacetyl a Respiratory Sensitizer? A Reconsideration Using QSAR, QMM, and Competition Experiments",
+  "year": "2013",
+  "journal": "Chemical Research in Toxicology",
+  "authors": [
+    "Jürgen Dworak",
+    "David W. Roberts",
+    "Michael A. Calter",
+    "Chris Fields",
+    "Jonathan Borak"
+  ],
+  "abstract": "Concerns have been raised that diacetyl (DA) might be a respiratory sensitizer based on its LUMO energy similar to that of the respiratory allergen toluene-2,4-diisocyanate (TDI) and results of a local lymph node assay (LLNA) that reported an EC3 of 1.9%. To better understand the concerns, we performed a systematic literature review and experimental competition reactions between DA and TDI. The experimental evidence demonstrates that DA is at least 400-fold less reactive than TDI. The literature review finds evidence that the EC3 for DA is actually >11%. We conclude that DA is unlikely to have significant respiratory sensitization potential.",
+  "link": "https://doi.org/10.1021/tx400097v"
+}

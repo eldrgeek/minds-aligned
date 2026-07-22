@@ -1,0 +1,17 @@
+{
+  "doi": "10.1126/sciadv.abc9943",
+  "doi_url": "https://doi.org/10.1126/sciadv.abc9943",
+  "title": "Discretely assembled mechanical metamaterials",
+  "year": "2020",
+  "journal": "Science Advances",
+  "authors": [
+    "Benjamin Jenett",
+    "Christopher Cameron",
+    "Filippos Tourlomousis",
+    "Alfonso Parra Rubio",
+    "Megan Ochalek",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Mechanical metamaterials offer exotic properties based on local control of cell geometry and their global configuration into structures and mechanisms. Historically, these have been made as continuous, monolithic structures with additive manufacturing, which affords high resolution and throughput, but is inherently limited by process and machine constraints. To address this issue, we present a construction system for mechanical metamaterials based on discrete assembly of a finite set of parts, which can be spatially composed for a range of properties such as rigidity, compliance, chirality, and auxetic behavior. This system achieves desired continuum properties through design of the parts such that global behavior is governed by local mechanisms. We describe the design methodology, production process, numerical modeling, and experimental characterization of metamaterial behaviors. This approach benefits from incremental assembly, which eliminates scale limitations, best-practice manufacturing for reliable, low-cost part production, and interchangeability through a consistent assembly process across part types.",
+  "link": "https://doi.org/10.1126/sciadv.abc9943"
+}

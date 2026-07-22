@@ -1,0 +1,17 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Do I know that you know what you know? Modeling testimony in causal inference",
+  "year": "2012",
+  "journal": "eScholarship (California Digital Library)",
+  "authors": [
+    "Daphna Buchsbaum",
+    "Sophie Bridgers",
+    "Andrew Whalen",
+    "Elizabeth Seiver",
+    "Thomas L. Griffiths",
+    "Alison Gopnik"
+  ],
+  "abstract": "We rely on both our own observations and on others ’ testimony when making causal inferences. To integrate these sources of information we must consider an informant’s statements about the world, her expressed level of certainty, her previous accuracy, and perhaps her apparent self-knowledge – how accurately she conveys her own certainty. It can be difficult to tease apart the contributions of all these variables simply by observing people’s causal judgments. We present a computa-tional account of how these different cues contribute to a ratio-nal causal inference, and two experiments looking at adults’ inferences from causal demonstrations and informant testi-mony, focusing on cases where these sources conflict. We find that adults are able to combine social information with their own observations, and are sensitive to the reliability of each. Adults are also sensitive to the accuracy, certainty, and self-knowledge of the informant, a result confirmed by comparing predictions from models with and without these variables.",
+  "link": "https://openalex.org/W2396840467"
+}

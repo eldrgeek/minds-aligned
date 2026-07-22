@@ -1,0 +1,15 @@
+{
+  "doi": "10.1101/766154",
+  "doi_url": "https://doi.org/10.1101/766154",
+  "title": "Dynamic clamp constructed phase diagram of the Hodgkin-Huxley action potential model",
+  "year": "2019",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Hillel Ori",
+    "Hananel Hazan",
+    "Eve Marder",
+    "Shimon Marom"
+  ],
+  "abstract": "Abstract Excitability – a threshold governed transient in transmembrane voltage – is a fundamental physiological process that controls the function of the heart, endocrine, muscles and neuronal tissues. The 1950’s Hodgkin and Huxley explicit formulation provides a mathematical framework for understanding excitability, as the consequence of the properties of voltage-gated sodium and potassium channels. The Hodgkin-Huxley model is more sensitive to parametric variations of protein densities and kinetics than biological systems whose excitability is apparently more robust. It is generally assumed that the model’s sensitivity reflects missing functional relations between its parameters or other components present in biological systems. Here we experimentally construct excitable membranes using the dynamic clamp and voltage-gated potassium ionic channels (Kv1.3) expressed in Xenopus oocytes. We take advantage of a theoretically derived phase diagram, where the phenomenon of excitability is reduced to two dimensions defined as combinations of the Hodgkin-Huxley model parameters. This biological-computational hybrid enabled us to explore functional relations in the parameter space, experimentally validate the phase diagram of the Hodgkin-Huxley model, and demonstrate activity-dependence and hysteretic dynamics due to the impacts of slow inactivation kinetics. The experimental results presented here provide new in-sights into the gap between technology-guided high-dimensional descriptions, and a lower, physiological dimensionality, within which biological function is embedded.",
+  "link": "https://doi.org/10.1101/766154"
+}

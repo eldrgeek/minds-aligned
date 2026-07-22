@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Trivial Hypertext Transfer Protocol (THTP)",
+  "year": "2006",
+  "journal": null,
+  "authors": [
+    "Neil Gershenfeld"
+  ],
+  "abstract": "THTP, the Trivial Hypertext Transfer Protocol, is an implementation of\nHTTP over UDP transport. THTP is designed for environments with\nlimited computational power or bandwidth and single-packet exchanges.\nAs such, THTP is best suited for the emerging class of applications\nrunning on embedded devices and sensor networks. THTP decouples HTTP\nfrom TCP and provides a subset of HTTP's functionality, in\nparticular leveraging HTTP's URI naming scheme. This document\ndescribes the THTP protocol.",
+  "link": "https://openalex.org/W2487272914"
+}

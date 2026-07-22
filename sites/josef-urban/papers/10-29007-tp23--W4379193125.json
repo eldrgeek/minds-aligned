@@ -1,0 +1,15 @@
+{
+  "doi": "10.29007/tp23",
+  "doi_url": "https://doi.org/10.29007/tp23",
+  "title": "Guiding an Instantiation Prover with Graph Neural Networks",
+  "year": "2023",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Karel Chvalovský",
+    "Konstantin Korovin",
+    "Jelle Piepenbrock",
+    "Josef Urban"
+  ],
+  "abstract": "In this work we extend an instantiation-based theorem prover iProver with machine learning (ML) guidance based on graph neural networks. For this we implement an interactive mode in iProver, which allows communication with an external agent via network sockets. The external (ML-based) agent guides the proof search by scoring generated clauses in the given clause loop. Our evaluation on a large set of Mizar problems shows that the ML guidance outperforms iProver’s standard human-programmed priority queues, solving more than twice as many problems in the same time. To our knowledge, this is the first time the performance of a state-of-the-art instantiation-based system is doubled by ML guidance.",
+  "link": "https://doi.org/10.29007/tp23"
+}

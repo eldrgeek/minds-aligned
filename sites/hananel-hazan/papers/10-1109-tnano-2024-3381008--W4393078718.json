@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/tnano.2024.3381008",
+  "doi_url": "https://doi.org/10.1109/tnano.2024.3381008",
+  "title": "Memristor Based Liquid State Machine With Method for In-Situ Training",
+  "year": "2024",
+  "journal": "IEEE Transactions on Nanotechnology",
+  "authors": [
+    "Alex Henderson",
+    "Chris Yakopcic",
+    "Cory Merkel",
+    "Hananel Hazan",
+    "Steven D. Harbour",
+    "Tarek M. Taha"
+  ],
+  "abstract": "SpikiDg neural network (SNN) hardware has gained significant interest due to its ability to process complex data in size, weight, and power (SWaP) constrained environments. Memristors, in particular, offer the potential to enhance SNN algorithms by pro\\'iding analog domain acceleration with exceptional energy and throoghput efficiency. Among the current SNN architectures, the liquid State Machine (LSM), a form of Reservoir Computing (RC), stands out due to its low resource utilization and straightforward training process. In this paper, we present a custom memristor-based LSM circuit design with an ouline learuiog methodology. The proposed circuit implementing the LSM is designed using SPICE to ensure precise de\\'ice level accurocy. Furthermore, we explore liquid connecti\\'ity touing to facilitate a real-time and efficient design process. To assess the performance of our system, we evaluate it on multiple datasets, including MNIST, TI-46 spoken digits, acoustic drone recordings, and musical MIDI Iiles. Our results demonstrate comparable accuracy while achieving significant power and energy sa\\'ings when oompured to existing LSM accelerators. Moreover, our design exhibits resilience in the presence of noise and neuron misfires. These findings highlight the potential of a memristor based LSM architecture to rival purely CMOSbased LSM implementations, offering robust and energy-efficient neuromorphic computing capabilities with memristive SNNs.",
+  "link": "https://doi.org/10.1109/tnano.2024.3381008"
+}

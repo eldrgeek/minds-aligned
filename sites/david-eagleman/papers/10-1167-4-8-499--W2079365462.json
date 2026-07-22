@@ -1,0 +1,13 @@
+{
+  "doi": "10.1167/4.8.499",
+  "doi_url": "https://doi.org/10.1167/4.8.499",
+  "title": "Does agency change the perceived timing of events?",
+  "year": "2004",
+  "journal": "Journal of Vision",
+  "authors": [
+    "Chandler A. Stetson",
+    "David M. Eagleman"
+  ],
+  "abstract": "If one believes that his action has caused an event, does that change the way he perceives the timing of his action and/or the event? Haggard et al (2002) reported that when subjects voluntarily pressed a key, which was followed by a beep 250 msec later, the keypress was judged to take place later in time, and the beep earlier in time — i.e., the two events seemed closer together (Eagleman & Holcombe, 2002). Further, in a report by Cunningham et al (2001), subjects anecdotally reported that their actions and delayed effects began to seem simultaneous. To further examine temporal attraction between intentional action and effect, we had subjects play a game in which they adapted to a 100ms delay between their keypress and a resultant flash. Occasionally, a computer opponent would cause this same flash in a time window after the subject's keypress, but before the subject's flash was expected to arrive. After adapting to the action-effect delay, Ss often erroneously answered that flashes appearing in this time window actually occurred before they pressed the button. When they played the same game with no inserted delay, this timing illusion disappeared. One hypothesis is that the keypress was judged by Ss to be later in time. Given this, we attempted to replicate the Haggard et al study, and found that subjects reported a beep to indeed happen earlier in the voluntary condition and later in the involuntary condition (average difference 155+−47 msec). However, it is unclear whether all subjects perceived the *keypress* to be pulled later in time. Further, we were surprised to find that several other versions of causality games that we constructed did not show any significant temporal attractin as a result of agency. This indicates that the putative ‘temporal attraction’ between actions and their effects is not straightforward, but might be overridden by stimuli that give more information. We propose a temporal Bayesian model to partially explain our results.",
+  "link": "https://doi.org/10.1167/4.8.499"
+}

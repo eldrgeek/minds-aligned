@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/iwssip.2007.4381200",
+  "doi_url": "https://doi.org/10.1109/iwssip.2007.4381200",
+  "title": "OFDM PAPR reduction by combination of Interleaving with Repeated clipping and filtering",
+  "year": "2007",
+  "journal": null,
+  "authors": [
+    "Josef Urban",
+    "Roman Maršálek"
+  ],
+  "abstract": "This paper is focused in the domain of peak to average power ratio (PAPR) reduction of orthogonal frequency division multiplex (OFDM) signals. The main idea is to use a combination of data interleaving with repeated clipping and filtering method (or its improved noniterative version) in order to increase the overall performance for the PAPR reduction. The performance is evaluated in AWGN channel with presence of Salch nonlinearity model. Another contribution of the paper is a study of influence of side information coding on total bit error probability.",
+  "link": "https://doi.org/10.1109/iwssip.2007.4381200"
+}

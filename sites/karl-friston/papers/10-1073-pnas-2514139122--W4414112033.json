@@ -1,0 +1,17 @@
+{
+  "doi": "10.1073/pnas.2514139122",
+  "doi_url": "https://doi.org/10.1073/pnas.2514139122",
+  "title": "Bridging feeling and motion: Insula–premotor dynamics in the processing of action vitality forms",
+  "year": "2025",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Giuseppe Di Cesare",
+    "Yury Koush",
+    "Peter Zeidman",
+    "Alessandra Sciutti",
+    "Karl Friston",
+    "Giacomo Rizzolatti"
+  ],
+  "abstract": "Typically, people perform actions in a valenced-positive or negative-way, depending on their attitudes or desires. These forms of action are named vitality forms (VFs). While it is well established that action goals are mediated by a parieto-frontal network, less is known about the processing of VFs. Recent fMRI studies suggest that the insula (INS)-and its connections with the parieto-frontal circuit-plays a crucial role in VFs processing. However, a key question remains: How does our internal affective state shape our motor behavior? To explore this issue, we conducted an fMRI study. Participants were required to perform two sequential tasks: 1) to evoke either a positive (enthusiastic) or a negative (angry) affective state (feeling task); 2) to execute an action while maintaining these affective states (execution task). Univariate analysis revealed activation of the INS and dorsolateral prefrontal cortex (PFC) during the feeling task, which extended to the premotor (PM) and parietal areas during the execution task. To determine the directionality of information flow among these nodes, we employed dynamic causal modeling. Bayesian model comparison showed that, during the feeling task, affect generation involves INS, which, together with the PFC, modulates the activity of PM. In contrast, during execution, motor commands emerge from PM and influence activity in the INS and PFC. These findings indicate that while the internal states crucially imply the INS, their regulation is mediated by PFC. The PM cortex plays a crucial role in the selection of the corresponding action VFs.",
+  "link": "https://doi.org/10.1073/pnas.2514139122"
+}

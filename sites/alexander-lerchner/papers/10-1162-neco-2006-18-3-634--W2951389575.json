@@ -1,0 +1,17 @@
+{
+  "doi": "10.1162/neco.2006.18.3.634",
+  "doi_url": "https://doi.org/10.1162/neco.2006.18.3.634",
+  "title": "Response Variability in Balanced Cortical Networks",
+  "year": "2006",
+  "journal": "Neural Computation",
+  "authors": [
+    "Alexander Lerchner",
+    "Cristina Ursta",
+    "John Hertz",
+    "Mandana Ahmadi",
+    "Pauline Ruffiot",
+    "Søren Enemark"
+  ],
+  "abstract": "We study the spike statistics of neurons in a network with dynamically balanced excitation and inhibition. Our model, intended to represent a generic cortical column, comprises randomly connected excitatory and inhibitory leaky integrate-and-fire neurons, driven by excitatory input from an external population. The high connectivity permits a mean field description in which synaptic currents can be treated as gaussian noise, the mean and autocorrelation function of which are calculated self-consistently from the firing statistics of single model neurons. Within this description, a wide range of Fano factors is possible. We find that the irregularity of spike trains is controlled mainly by the strength of the synapses relative to the difference between the firing threshold and the postfiring reset level of the membrane potential. For moderately strong synapses, we find spike statistics very similar to those observed in primary visual cortex.",
+  "link": "https://doi.org/10.1162/neco.2006.18.3.634"
+}

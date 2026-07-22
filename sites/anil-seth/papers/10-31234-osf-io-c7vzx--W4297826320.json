@@ -1,0 +1,15 @@
+{
+  "doi": "10.31234/osf.io/c7vzx",
+  "doi_url": "https://doi.org/10.31234/osf.io/c7vzx",
+  "title": "The Perception of Time in Humans, Brains, and Machines",
+  "year": "2022",
+  "journal": null,
+  "authors": [
+    "Warrick Roseboom",
+    "Anil K. Seth",
+    "Maxine T. Sherman",
+    "Zafeirios Fountas"
+  ],
+  "abstract": "The experience of time passing is fundamental to human experience. Considerable experimental data has found that perceptual judgments of duration show systematic distortions away from physical ‘clock’ time. The majority of neurocognitive explanations of duration perception invoke some form of ‘inner clock’, or pacemaker. Systematic distortions can then be accounted for by alterations in this pacemaker mechanism. Here, we summarise recent work exploring a different approach, according to which experiences of duration are based on activity within perceptual classification networks. Specifically, we propose that subjective time is constructed from accumulated salient changes within hierarchical perceptual networks and substantiate this proposal by (i) building an artificial neural network based model which is able to predict human subjective time judgements, including a number of its biases; (ii) using model-based neuroimaging to show that human subjective time can be predicted from activity in human perceptual cortex, as suggested by our model, and (iii) locating the model within a larger ‘predictive processing’ framework which enables connections between time perception and episodic memory to be elaborated. Altogether, we provide a new mechanistic framework for understanding human time perception in terms of inference about information arising during perceptual processing.",
+  "link": "https://doi.org/10.31234/osf.io/c7vzx"
+}

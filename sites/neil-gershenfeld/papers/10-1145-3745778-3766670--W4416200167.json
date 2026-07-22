@@ -1,0 +1,15 @@
+{
+  "doi": "10.1145/3745778.3766670",
+  "doi_url": "https://doi.org/10.1145/3745778.3766670",
+  "title": "Speech to Reality: On-Demand Production using Natural Language, 3D Generative AI, and Discrete Robotic Assembly",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "Alexander Htet Kyaw",
+    "Miana Smith",
+    "Se Hwan Jeon",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We present a system that transforms speech into physical objects using 3D generative AI and discrete robotic assembly. By leveraging natural language, the system makes design and manufacturing more accessible to people without expertise in 3D modeling or robotic programming. While generative AI models can produce a wide range of 3D meshes, AI-generated meshes are not directly suitable for robotic assembly or account for fabrication constraints. To address this, we contribute a workflow that integrates natural language, 3D generative AI, geometric processing, and discrete robotic assembly. The system discretizes the AI-generated geometry and modifies it to meet fabrication constraints such as component count, overhangs, and connectivity to ensure feasible physical assembly. The results are demonstrated through the assembly of various objects, ranging from chairs to shelves, which are prompted via speech and realized within 5 minutes using a robotic arm.",
+  "link": "https://doi.org/10.1145/3745778.3766670"
+}

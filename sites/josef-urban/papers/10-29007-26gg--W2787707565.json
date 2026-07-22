@@ -1,0 +1,12 @@
+{
+  "doi": "10.29007/26gg",
+  "doi_url": "https://doi.org/10.29007/26gg",
+  "title": "AI at CADE/IJCAR",
+  "year": "2018",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "This text briefly discusses and criticizes the prevailing attitudes towards AI and Machine Learning research in the current Automated Reasoning (CADE/IJCAR) community.",
+  "link": "https://doi.org/10.29007/26gg"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/foci.2007.372174",
+  "doi_url": "https://doi.org/10.1109/foci.2007.372174",
+  "title": "A New Reduction from 3SAT to n-Partite Graphs",
+  "year": "2007",
+  "journal": null,
+  "authors": [
+    "Daniel Hulme",
+    "Robin Hirsch",
+    "Bernard F. Buxton",
+    "R. Beau Lotto"
+  ],
+  "abstract": "The constraint satisfaction problem (CSP) is one of the most prominent problems in artificial intelligence, logic, theoretical computer science, engineering and many other areas in science and industry. One instance of a CSP, the satisfiability problem in propositional logic (SAT), has become increasingly popular and has illuminated important insights into our understanding of the fundamentals of computation. Though the concept of representing propositional formulae as n-partite graphs is certainly not novel, in this paper we introduce a new polynomial reduction from 3SAT to G <sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">7 </sub> <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">n</sup> graphs and demonstrate that this framework has advantages over the standard representation. More specifically, after presenting the reduction we show that many hard 3SAT instances represented in this framework can be solved using a basic path-consistency algorithm, and finally we discuss the potential advantages and implications of using such a representation",
+  "link": "https://doi.org/10.1109/foci.2007.372174"
+}

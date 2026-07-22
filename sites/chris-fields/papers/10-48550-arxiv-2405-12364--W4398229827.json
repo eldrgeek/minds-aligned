@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2405.12364",
+  "doi_url": "https://doi.org/10.48550/arxiv.2405.12364",
+  "title": "Communication protocols and QECC from the perspective of TQFT, Part II: QECCs as spacetimes",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook",
+    "Antonino Marcianò"
+  ],
+  "abstract": "Topological quantum field theories (TQFTs) provide a general, minimal-assumption language for describing quantum-state preparation and measurement. They therefore provide a general language in which to express multi-agent communication protocols, e.g. local operations, classical communication (LOCC) protocols. In the accompanying Part I, we construct LOCC protocols using TQFT, and show that LOCC protocols induce quantum error-correcting codes (QECCs) on the agent-environment boundary. Such QECCs can be regarded as implementing or inducing the emergence of spacetimes on such boundaries. Here we investigate this connection between inter-agent communication and spacetime, exploiting different realizations of TQFT. We delve into TQFTs that support on their boundaries spin-networks as computational systems: these are known as topological quantum neural networks (TQNNs). TQNNs, which have a natural representation as tensor networks, implement QECC. We recognize into the HaPPY code a paradigmatic example. We then show how generic QECCs, as bulk-boundary codes, induce effective spacetimes. The effective spatial and temporal separations that take place in QECC enables LOCC protocols between spatially separated observers. We then consider the implementation of QECCs in BF and Chern-Simons theories, and show that QECC-induced spacetimes provide the classical redundancy required for LOCC. Finally, we consider topological M-theory as an implementation of QECC in higher spacetime dimensions.",
+  "link": "https://doi.org/10.48550/arxiv.2405.12364"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2503.21974",
+  "doi_url": "https://doi.org/10.48550/arxiv.2503.21974",
+  "title": "Categories by Kan extension",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak"
+  ],
+  "abstract": "Categories can be identified -- up to isomorphism -- with polynomial comonads on Set. The left Kan extension of a functor along itself is always a comonad -- called the density comonad -- so it defines a category when its carrier is polynomial. We provide a number of generalizations of this to produce new categories from old, as well as from distributive laws of monads over comonads. For example, all Lawvere theories, all product completions of small categories, and the simplicial indexing category $Δ^{op}$ arise in this way. Another, seemingly much less well-known, example constructs a so-called selection category from a polynomial comonad in a way that's somehow dual to the construction of a Lawvere theory category from a monad; we'll discuss this in more detail. Along the way, we will see various constructions of non-polynomial comonads as well.",
+  "link": "https://doi.org/10.48550/arxiv.2503.21974"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": "10.22489/cinc.2020.287",
+  "doi_url": "https://doi.org/10.22489/cinc.2020.287",
+  "title": "Computational Reconstruction of Electrocardiogram Lead Placement",
+  "year": "2020",
+  "journal": "Computing in cardiology",
+  "authors": [
+    "Alexander D. Wissner‐Gross",
+    "Suraj Kapa",
+    "James Lee",
+    "Desmond Keenan",
+    "Natasha Drapeau",
+    "Kenneth Londoner"
+  ],
+  "abstract": "We present a method for computationally reconstructing the spatial placement of electrocardiogram (ECG) leads using only correlations between their recorded signals and without requiring external calibration or other prior knowledge. We then apply our method to 12-lead ECGs obtained from the training dataset of the PhysioNet 2020 Challenge and examine the association of various cardiac abnormalities with the reconstructed geometries. Finally, we review potential clinical applications of our method, including automated recommendation of optimal lead placement, simplified visual summarization of ECG recordings, and improved automated classification of patient conditions.",
+  "link": "https://doi.org/10.22489/cinc.2020.287"
+}

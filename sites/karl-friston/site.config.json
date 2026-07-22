@@ -5,13 +5,22 @@
   "tagline": "Publication archive and grounded AI guide for Karl J. Friston — free energy, active inference, and the physics of sentient systems.",
   "bio": "Karl J. Friston is a British neuroscientist and theoretical biologist at University College London. He is known for the free energy principle and active inference frameworks in computational neuroscience, and for foundational work in statistical parametric mapping and dynamic causal modelling. He is Scientific Director of the Wellcome Centre for Human Neuroimaging (formerly the Wellcome Trust Centre for Neuroimaging) and holds honorary professorships at several universities.",
   "bioLinks": [
-    { "label": "UCL profile", "url": "https://www.ucl.ac.uk/bartlett/architecture/people/prof-karl-friston" },
-    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=q_4u0aoAAAAJ" },
-    { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Karl_Friston" }
+    {
+      "label": "UCL profile",
+      "url": "https://profiles.ucl.ac.uk/2483-karl-friston"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=q_4u0aoAAAAJ"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Karl_Friston"
+    }
   ],
   "personaId": "friston",
-  "personaName": "Friston Guide",
+  "personaName": "Markov",
   "personaAvatar": "🧠",
-  "personaGreeting": "I'm an AI guide grounded in Karl Friston's published work — papers on the free energy principle, active inference, predictive processing, and dynamic causal modelling. I'm not Friston himself, but I can help you navigate his corpus and the concepts his research introduced.",
+  "personaGreeting": "I'm Markov, the AI host of this archive. I'm grounded in Karl Friston's published papers — the free energy principle, active inference, predictive processing, dynamic causal modelling. I am not Friston; I'm a guide to what he wrote. Ask me a question and I'll answer from the corpus and cite it.",
   "guideConfigFile": "karl-friston-guide-config.js"
 }

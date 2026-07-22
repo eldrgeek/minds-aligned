@@ -1,0 +1,14 @@
+{
+  "doi": "10.1007/s42452-024-05624-8",
+  "doi_url": "https://doi.org/10.1007/s42452-024-05624-8",
+  "title": "Modelling cortical network dynamics",
+  "year": "2024",
+  "journal": "Discover Applied Sciences",
+  "authors": [
+    "Gerald Cooray",
+    "Richard Rosch",
+    "Karl Friston"
+  ],
+  "abstract": "Abstract We have investigated the theoretical constraints of the interactions between coupled cortical columns. Each cortical column consists of a set of neural populations where each population is modelled as a neural mass. The existence of semi-stable states within a cortical column is dependent on the type of interaction between the neuronal populations, i.e., the form of the synaptic kernels. Current-to-current coupling has been shown, in contrast to potential-to-current coupling, to create semi-stable states within a cortical column. The interaction between semi-stable states of the cortical columns is studied where we derive the dynamics for the collected activity. For small excitations the dynamics follow the Kuramoto model; however, in contrast to previous work we derive coupled equations between phase and amplitude dynamics with the possibility of defining connectivity as a stationary and dynamic variable. The turbulent flow of phase dynamics which occurs in networks of Kuramoto oscillators would indicate turbulent changes in dynamic connectivity for coupled cortical columns which is something that has been recorded in epileptic seizures. We used the results we derived to estimate a seizure propagation model which allowed for inversions using the Laplace assumption (Dynamic Causal Modelling). The seizure propagation model was trialed on simulated data, and future work will investigate the estimation of the connectivity matrix from empirical data. This model can be used to predict changes in seizure evolution after virtual changes in the connectivity network, something that could be of clinical use when applied to epilepsy surgical cases.",
+  "link": "https://doi.org/10.1007/s42452-024-05624-8"
+}

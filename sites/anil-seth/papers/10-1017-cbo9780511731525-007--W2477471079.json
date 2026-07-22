@@ -1,0 +1,12 @@
+{
+  "doi": "10.1017/cbo9780511731525.007",
+  "doi_url": "https://doi.org/10.1017/cbo9780511731525.007",
+  "title": "Optimised agent-based modelling of action selection",
+  "year": "2011",
+  "journal": "Cambridge University Press eBooks",
+  "authors": [
+    "Anil K. Seth"
+  ],
+  "abstract": "The problem of action selection has two components: what is selected? How is it selected? To understand what is selected, it is necessary to recognise that animals do not choose among behaviours per se; rather, behaviour reflects observed interactions among brains, bodies, and environments (embeddedness). To understand what guides selection, it is useful to take a normative, functional perspective that evaluates behaviour in terms of a fitness metric. This perspective can be especially useful for understanding apparently irrational action selection. Bringing together these issues therefore requires integrating function and mechanism in models of action selection. This chapter describes 'optimised agent-based modelling', a methodology that integrates functional and mechanistic perspectives in the context of embedded agent–environment interactions. Using this methodology, I demonstrate that successful action selection can arise from the joint activity of parallel, loosely coupled sensorimotor processes, and I show how an instance of apparently suboptimal decision making (the matching law) can be accounted for by adaptation to competitive foraging environments.",
+  "link": "https://doi.org/10.1017/cbo9780511731525.007"
+}

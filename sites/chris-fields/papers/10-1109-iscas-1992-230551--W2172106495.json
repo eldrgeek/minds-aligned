@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/iscas.1992.230551",
+  "doi_url": "https://doi.org/10.1109/iscas.1992.230551",
+  "title": "Applications of hybrid analog-digital neural networks in signal processing: simple circuits for frequency and phase detection and shifting",
+  "year": "2003",
+  "journal": null,
+  "authors": [
+    "M. DeYong",
+    "Chris Fields"
+  ],
+  "abstract": "Simple frequency and phase relation systems based on hybrid analog-digital processing elements (PEs) are examined. The systems utilize the temporal characteristics of the input signals and the systems themselves to produce fast low hardware solutions to problems commonly encountered in signal processing. Circuit level simulations of the systems were used to verify system functionality and demonstrate the basic waveforms produced by the hybrid processing element. It is shown that these PEs can be applied very naturally to temporal signal processing problems involving frequency and/or phase detection and shifting.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX>",
+  "link": "https://doi.org/10.1109/iscas.1992.230551"
+}

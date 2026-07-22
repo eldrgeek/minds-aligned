@@ -1,0 +1,23 @@
+{
+  "doi": "10.48550/arxiv.2412.06438",
+  "doi_url": "https://doi.org/10.48550/arxiv.2412.06438",
+  "title": "Can foundation models actively gather information in interactive environments to test hypotheses?",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Danny P. Sawyer",
+    "Nan Rosemary Ke",
+    "Hubert Soyer",
+    "Martin Engelcke",
+    "David Reichert",
+    "Drew A. Hudson",
+    "John Reid",
+    "Alexander Lerchner",
+    "Danilo Jimenez Rezende",
+    "Timothy Lillicrap",
+    "Michael C. Mozer",
+    "Jane X. Wang"
+  ],
+  "abstract": "Foundation models excel at single-turn reasoning but struggle with multi-turn exploration in dynamic environments, a requirement for many real-world challenges. We evaluated these models on their ability to learn from experience, adapt, and gather information. First, in \"Feature World,\" a simple setting for testing information gathering, models performed near-optimally. However, to test more complex, multi-trial learning, we implemented a text-based version of the \"Alchemy\" environment, a benchmark for meta-learning. Here, agents must deduce a latent causal structure by integrating information across many trials. In this setting, recent foundation models initially failed to improve their performance over time. Crucially, we found that prompting the models to summarize their observations at regular intervals enabled an emergent meta-learning process. This allowed them to improve across trials and even adaptively re-learn when the environment's rules changed unexpectedly. While most models handled the simple task, Alchemy revealed stark differences in robustness: Gemini 2.5 performed best, followed by Claude 3.7, while ChatGPT-4o and o4-mini struggled. This underscores Alchemy's value as a benchmark. Our findings demonstrate that the biggest challenge for foundation models is not selecting informative actions in the moment, but integrating knowledge through adaptive strategies over time. Encouragingly, there appears to be no intrinsic barrier to future models mastering these abilities.",
+  "link": "https://doi.org/10.48550/arxiv.2412.06438"
+}

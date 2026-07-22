@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/swste.2014.22",
+  "doi_url": "https://doi.org/10.1109/swste.2014.22",
+  "title": "Towards Classifying Human Phonemes without Encodings via Spatiotemporal Liquid State Machines: Extended Abstract",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Alex Frid",
+    "Hananel Hazan",
+    "Larry M. Manevitz"
+  ],
+  "abstract": "Classifying human production of phonemes without additional encoding is accomplished at the level of about 77% using a version of reservoir computing. So far this has been accomplished with: (1) artificial data (2) artificial noise (designed to mimic natural noise) (3) natural human data with artificial noise (4) natural human data with its natural noise and variance albeit for certain phonemes. This mechanism, unlike most other methods is done without any encoding of the signal, and without changing time into space, but instead uses the Liquid State Machine paradigm which is an abstraction of natural cortical arrangements. The data is entered as an analogue signal without any modifications. This means that the methodology is close to \"natural\" biological mechanisms.",
+  "link": "https://doi.org/10.1109/swste.2014.22"
+}

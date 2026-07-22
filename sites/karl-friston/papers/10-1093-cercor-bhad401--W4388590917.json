@@ -1,0 +1,16 @@
+{
+  "doi": "10.1093/cercor/bhad401",
+  "doi_url": "https://doi.org/10.1093/cercor/bhad401",
+  "title": "Bistable perception, precision and neuromodulation",
+  "year": "2023",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Filip Novický",
+    "Thomas Parr",
+    "Karl Friston",
+    "Muammer Berk Mirza",
+    "Noor Sajid"
+  ],
+  "abstract": "Bistable perception follows from observing a static, ambiguous, (visual) stimulus with two possible interpretations. Here, we present an active (Bayesian) inference account of bistable perception and posit that perceptual transitions between different interpretations (i.e. inferences) of the same stimulus ensue from specific eye movements that shift the focus to a different visual feature. Formally, these inferences are a consequence of precision control that determines how confident beliefs are and change the frequency with which one can perceive-and alternate between-two distinct percepts. We hypothesized that there are multiple, but distinct, ways in which precision modulation can interact to give rise to a similar frequency of bistable perception. We validated this using numerical simulations of the Necker cube paradigm and demonstrate the multiple routes that underwrite the frequency of perceptual alternation. Our results provide an (enactive) computational account of the intricate precision balance underwriting bistable perception. Importantly, these precision parameters can be considered the computational homologs of particular neurotransmitters-i.e. acetylcholine, noradrenaline, dopamine-that have been previously implicated in controlling bistable perception, providing a computational link between the neurochemistry and perception.",
+  "link": "https://doi.org/10.1093/cercor/bhad401"
+}

@@ -1,0 +1,20 @@
+{
+  "doi": "10.3390/bioengineering11030224",
+  "doi_url": "https://doi.org/10.3390/bioengineering11030224",
+  "title": "Measurement of the Mapping between Intracranial EEG and fMRI Recordings in the Human Brain",
+  "year": "2024",
+  "journal": "Bioengineering",
+  "authors": [
+    "David W. Carmichael",
+    "Serge Vulliémoz",
+    "Teresa Murta",
+    "Umair J. Chaudhary",
+    "Suejen Perani",
+    "Roman Rodionov",
+    "Maria João Rosa",
+    "Karl Friston",
+    "Louis Lemieux"
+  ],
+  "abstract": "There are considerable gaps in our understanding of the relationship between human brain activity measured at different temporal and spatial scales. Here, electrocorticography (ECoG) measures were used to predict functional MRI changes in the sensorimotor cortex in two brain states: at rest and during motor performance. The specificity of this relationship to spatial co-localisation of the two signals was also investigated. We acquired simultaneous ECoG-fMRI in the sensorimotor cortex of three patients with epilepsy. During motor activity, high gamma power was the only frequency band where the electrophysiological response was co-localised with fMRI measures across all subjects. The best model of fMRI changes across states was its principal components, a parsimonious description of the entire ECoG spectrogram. This model performed much better than any others that were based either on the classical frequency bands or on summary measures of cross-spectral changes. The region-specific fMRI signal is reflected in spatially and spectrally distributed EEG activity.",
+  "link": "https://doi.org/10.3390/bioengineering11030224"
+}

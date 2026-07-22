@@ -1,0 +1,20 @@
+{
+  "doi": "10.1177/13872877251344325",
+  "doi_url": "https://doi.org/10.1177/13872877251344325",
+  "title": "Neural mechanisms of disease pathology and cognition in young-onset Alzheimer's disease variants",
+  "year": "2025",
+  "journal": "Journal of Alzheimer s Disease",
+  "authors": [
+    "Seda Sacu",
+    "Catherine F. Slattery",
+    "Karl Friston",
+    "Ross W. Paterson",
+    "Alexander Foulkes",
+    "Keir Yong",
+    "Sebastian J. Crutch",
+    "Jonathan M. Schott",
+    "Adeel Razi"
+  ],
+  "abstract": "BackgroundLate-onset Alzheimer's disease is consistently associated with alterations in the default-mode network (DMN)-a large-scale brain network associated with self-related processing and memory. However, the functional organization of DMN is far less clear in young-onset Alzheimer's disease (YOAD).ObjectiveThe current study aimed to identify effective connectivity changes in the core DMN nodes between YOAD variants and healthy controls.MethodsWe assessed resting-state DMN effective connectivity in two common YOAD variants (i.e., amnestic variant (n = 26) and posterior cortical atrophy (n = 13) and healthy participants (n = 24) to identify disease- and variant-specific connectivity differences using spectral dynamic causal modelling.ResultsPatients with the amnestic variant showed increased connectivity from prefrontal cortex to posterior DMN nodes relative to healthy controls, whereas patients with posterior cortical atrophy exhibited decreased posterior DMN connectivity. Right hippocampus connectivity differentiated the two patient groups. Furthermore, disease-related connectivity alterations were also predictive of group membership and cognitive performance.ConclusionsThese findings suggest that resting-state DMN effective connectivity provides a new understanding of neural mechanisms underlying the disease pathology and cognition in YOAD.",
+  "link": "https://doi.org/10.1177/13872877251344325"
+}

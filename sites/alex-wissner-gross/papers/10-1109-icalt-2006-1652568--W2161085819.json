@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/icalt.2006.1652568",
+  "doi_url": "https://doi.org/10.1109/icalt.2006.1652568",
+  "title": "Preparation of Topical Reading Lists from the Link Structure of Wikipedia",
+  "year": "2006",
+  "journal": null,
+  "authors": [
+    "Alexander D. Wissner‐Gross"
+  ],
+  "abstract": "Personalized reading preparation poses an important challenge for education and continuing education. Using a PageRank derivative and graph distance ordering, we show that personalized background reading lists can be generated automatically from the link structure of Wikipedia. We examine the operation of our new tool in professional, student, and interdisciplinary researcher learning models. Additionally, we present desktop and mobile interfaces for the generated reading lists.",
+  "link": "https://doi.org/10.1109/icalt.2006.1652568"
+}

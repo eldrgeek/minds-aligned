@@ -1,0 +1,18 @@
+{
+  "doi": "10.1038/s41598-026-41495-2",
+  "doi_url": "https://doi.org/10.1038/s41598-026-41495-2",
+  "title": "RAG-based architectures for drug side effect retrieval using compact LLMs",
+  "year": "2026",
+  "journal": "Scientific Reports",
+  "authors": [
+    "Shad Nygren",
+    "Ömer Erdoğan",
+    "Pinar Avci",
+    "Andre Daniels",
+    "Reza Rassool",
+    "Afshin Beheshti",
+    "Diego Galeano"
+  ],
+  "abstract": "Drug side effects are a major public health concern, yet off-the-shelf large language models (LLMs) struggle to reliably answer questions about drug side effects due to limited training data and domain gaps. Here, we evaluate two open-book architectures that inject curated knowledge from the Side Effect Resource (SIDER 4.1) into LLM workflows: a text-based retrieval-augmented generation (RAG) pipeline and a graph-based variant (GraphRAG) implemented over a Neo4j knowledge graph. On a balanced forward benchmark of 19,520 drug–side-effect pairs, GraphRAG achieved near-perfect accuracy (99.95% for Qwen-2.5-7B-Instruct and 99.96% for Llama-3.1-8B-Instruct). On reverse queries (side effect to drug set), it returned the exact drug sets with precision, recall and F1 all equal to 100% at markedly lower latency (~ 0.09 s), compared with a text-RAG baseline (F1 99.18%, 82.63 s). We further show that a compact LLM-based normalization step can robustly correct common misspellings and variants of drug names without modifying downstream logic. Taken together, these results indicate that integrating structured side-effect knowledge with compact LLMs provides a practical path to interactive, evidence-grounded querying of catalogued drug side effect associations in larger language models.",
+  "link": "https://doi.org/10.1038/s41598-026-41495-2"
+}

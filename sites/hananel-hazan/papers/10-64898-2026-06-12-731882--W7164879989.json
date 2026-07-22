@@ -1,0 +1,15 @@
+{
+  "doi": "10.64898/2026.06.12.731882",
+  "doi_url": "https://doi.org/10.64898/2026.06.12.731882",
+  "title": "DeltaQ: Value-Guided Hebbian Learning in Spiking Neuronal Networks for Multi-Goal Navigation",
+  "year": "2026",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "C Earl",
+    "Gözde Ünal",
+    "Hananel Hazan",
+    "Samuel A. Neymotin"
+  ],
+  "abstract": "Animals must often navigate environments where feedback about progress toward a goal is sparse or delayed, requiring internal representations of space and memory of prior experience. The hippocampal-entorhinal system is believed to support this capability through distributed spatial representations that guide goal-directed behavior. However, many computational models of these circuits focus primarily on reproducing neural dynamics rather than demonstrating how such representations support learning on navigation tasks. We present a biologically inspired spiking neuronal network (SNN) model that combines grid-cell-derived spatial representations, ΔQ-modulated Hebbian plasticity, and context-dependent modulation to support navigation under sparse reward conditions. Grid Cell populations generate distributed spatial codes that are transformed by an Association Cell population into more spatially selective internal representations. Learning is driven by changes in Q-values (ΔQ) computed from a goal-conditioned Q-table, allowing local synaptic plasticity to incorporate information about long-term navigation outcomes. For environments containing multiple navigation objectives, a Context Cell population provides task-dependent modulation that enables a shared network architecture to support distinct navigation policies. Across two complementary maze environments, the model demonstrates three core capabilities: generation of distinct spatial representations, learning of efficient navigation policies under sparse and delayed reward, and support for multiple navigation objectives within a shared environment. The results further show that contextual modulation introduces subtle task-dependent variations into a largely shared population representation, allowing identical spatial locations to support different navigation behaviors. These findings demonstrate that biologically inspired spatial representations, value-guided plasticity, and contextual modulation can jointly support flexible navigation in spiking neuronal networks, providing a bridge between mechanistic neural circuit models and functional reinforcement learning.",
+  "link": "https://doi.org/10.64898/2026.06.12.731882"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "THE COMBINATION OF CLIPPING AND FILTERING WITH SELECTIVE MAPPING METHODS FOR PEAK TO AVERAGE POWER RATIO REDUCTION IN OFDM",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Josef Urban",
+    "Roman Maršálek"
+  ],
+  "abstract": "The high Peak to Average Power Ratio (PAPR) is a serious drawback of the Orthogonal Frequency Division Multiplex (OFDM). In this paper, the advantages of two different approaches to PAPR reduction are exploited in order to reduce the PAPR more significantly. The first approach is based on clipping and provides a high PAPR reduction at the cost of signal distortion. The second approach (selective mapping) results in no distortion, but it suffers from higher complexity. Two cases of simulation setup have been chosen for the evaluation – one with a lower number of subcarriers (Wimax-like signal), the other signal is similar to the future DVB-T2 32K mode. The performance of the combined method is evaluated on the PAPR distribution function and on the Bit Error Rate as a function of both Signal to Noise Ratio ( Additive Gaussian Noise Channel) and Input Back Off (Saleh model of nonlinear power amplifier).",
+  "link": "https://openalex.org/W2186463849"
+}

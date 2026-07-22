@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2305.02571",
+  "doi_url": "https://doi.org/10.48550/arxiv.2305.02571",
+  "title": "All Concepts are $\\mathbb{C}\\mathbf{at}^\\#$",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Lynch, Owen",
+    "Brandon T. Shapiro",
+    "David I. Spivak"
+  ],
+  "abstract": "We show that the double category $\\mathbb{C}\\mathbf{at}^\\#$ of comonoids in the category of polynomial functors (previously shown by Ahman-Uustalu and Garner to be equivalent to the double category of categories, cofunctors, and prafunctors) contains several formal settings for basic category theory and has subcategories equivalent to both the double category $\\mathbb{O}\\mathbf{rg}$ of dynamic rewiring systems and the double category $\\mathbb{P}\\mathbf{oly}_{\\mathcal{E}}$ of generalized polynomials in a finite limit category $\\mathcal{E}$. Also serving as a natural setting for categorical database theory and generalized higher category theory, $\\mathbb{C}\\mathbf{at}^\\#$ at once hosts models of a wide range of concepts from the theory and applications of polynomial functors and category theory.",
+  "link": "https://doi.org/10.48550/arxiv.2305.02571"
+}

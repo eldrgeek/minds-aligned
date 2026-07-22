@@ -1,0 +1,19 @@
+{
+  "doi": "10.1126/science.aba3823",
+  "doi_url": "https://doi.org/10.1126/science.aba3823",
+  "title": "Microfluidic electrochemistry for single-electron transfer redox-neutral reactions",
+  "year": "2020",
+  "journal": "Science",
+  "authors": [
+    "Yiming Mo",
+    "Zhaohong Lu",
+    "Girish Rughoobur",
+    "Prashant Patil",
+    "Neil Gershenfeld",
+    "Akintunde I. Akinwande",
+    "Stephen L. Buchwald",
+    "Klavs F. Jensen"
+  ],
+  "abstract": "Cutting it close for radical coupling In principle, electrochemistry is an ideal method for radical coupling: One precursor oxidized at the anode pairs up with a counterpart that has been reduced at the cathode. The trouble is that either or both coupling partners might not stay stable long enough to meet in the middle. Mo et al. resolved this issue by closely spacing the electrodes in a microfluidics platform (see the Perspective by Liu et al. ). They showcase coupling of dicyanobenzene as the cathodic radical precursor with a variety of oxidatively generated partners. Science , this issue p. 1352 ; see also p. 1312",
+  "link": "https://doi.org/10.1126/science.aba3823"
+}

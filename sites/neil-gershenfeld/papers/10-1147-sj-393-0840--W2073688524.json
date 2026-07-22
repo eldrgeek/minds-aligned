@@ -1,0 +1,15 @@
+{
+  "doi": "10.1147/sj.393.0840",
+  "doi_url": "https://doi.org/10.1147/sj.393.0840",
+  "title": "E-broidery: Design and fabrication of textile-based computing",
+  "year": "2000",
+  "journal": "IBM Systems Journal",
+  "authors": [
+    "E. Rehmi Post",
+    "Maggie Orth",
+    "Pietro Russo",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Highly durable, flexible, and even washable multilayer electronic circuitry can be constructed on textile substrates, using conductive yarns and suitably packaged components. In this paper we describe the development of e-broidery (electronic embroidery, i.e., the patterning of conductive textiles by numerically controlled sewing or weaving processes) as a means of creating computationally active textiles. We compare textiles to existing flexible circuit substrates with regard to durability, conformability, and wearability. We also report on: some unique applications enabled by our work; the construction of sensors and user interface elements in textiles; and a complete process for creating flexible multilayer circuits on fabric substrates. This process maintains close compatibility with existing electronic components and design tools, while optimizing design techniques and component packages for use in textiles.",
+  "link": "https://doi.org/10.1147/sj.393.0840"
+}

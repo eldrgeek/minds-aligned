@@ -1,0 +1,15 @@
+{
+  "doi": "10.1021/acsbiomaterials.5b00251",
+  "doi_url": "https://doi.org/10.1021/acsbiomaterials.5b00251",
+  "title": "Matriarch: A Python Library for Materials Architecture",
+  "year": "2015",
+  "journal": "ACS Biomaterials Science & Engineering",
+  "authors": [
+    "Tristan Giesa",
+    "Ravi Jagadeesan",
+    "David I. Spivak",
+    "Markus J. Buehler"
+  ],
+  "abstract": "Biological materials, such as proteins, often have a hierarchical structure ranging from basic building blocks at the nanoscale (e.g., amino acids) to assembled structures at the macroscale (e.g., fibers). Current software for materials engineering allows the user to specify polypeptide chains and simple secondary structures prior to molecular dynamics simulation, but is not flexible in terms of the geometric arrangement of unequilibrated structures. Given some knowledge of a larger-scale structure, instructing the software to create it can be very difficult and time-intensive. To this end, the present paper reports a mathematical language, using category theory, to describe the architecture of a material, i.e., its set of building blocks and instructions for combining them. While this framework applies to any hierarchical material, here we concentrate on proteins. We implement this mathematical language as an open-source Python library called Matriarch. It is a domain-specific language that gives the user the ability to create almost arbitrary structures with arbitrary amino acid sequences and, from them, generate Protein Data Bank (PDB) files. In this way, Matriarch is more powerful than commercial software now available. Matriarch can be used in tandem with molecular dynamics simulations and helps engineers design and modify biologically inspired materials based on their desired functionality. As a case study, we use our software to alter both building blocks and building instructions for tropocollagen, and determine their effect on its structure and mechanical properties.",
+  "link": "https://doi.org/10.1021/acsbiomaterials.5b00251"
+}

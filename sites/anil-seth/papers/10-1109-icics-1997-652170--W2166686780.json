@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/icics.1997.652170",
+  "doi_url": "https://doi.org/10.1109/icics.1997.652170",
+  "title": "Real time monitoring of vibrations using interferometric sensor",
+  "year": "2002",
+  "journal": null,
+  "authors": [
+    "Chandra Shakher",
+    "A. L. Vyas",
+    "Anil K. Seth"
+  ],
+  "abstract": "An interferometric sensor for monitoring the localised strains and vibrations is presented. The modified Michelson interferometer is employed to process the signal received from the sensing interferometer. Details of the sensor amplifier and signal processing scheme which can provide real-time monitoring of surface vibrations (amplitude, frequency and direction of motion) are also presented.",
+  "link": "https://doi.org/10.1109/icics.1997.652170"
+}

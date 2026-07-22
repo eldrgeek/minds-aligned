@@ -1,0 +1,18 @@
+{
+  "doi": "10.1089/soro.2016.0032",
+  "doi_url": "https://doi.org/10.1089/soro.2016.0032",
+  "title": "Digital Morphing Wing: Active Wing Shaping Concept Using Composite Lattice-Based Cellular Structures",
+  "year": "2016",
+  "journal": "Soft Robotics",
+  "authors": [
+    "Benjamin Jenett",
+    "Sam Calisch",
+    "Daniel Cellucci",
+    "Nick B. Cramer",
+    "Neil Gershenfeld",
+    "Sean Swei",
+    "Kenneth Cheung"
+  ],
+  "abstract": "We describe an approach for the discrete and reversible assembly of tunable and actively deformable structures using modular building block parts for robotic applications. The primary technical challenge addressed by this work is the use of this method to design and fabricate low density, highly compliant robotic structures with spatially tuned stiffness. This approach offers a number of potential advantages over more conventional methods for constructing compliant robots. The discrete assembly reduces manufacturing complexity, as relatively simple parts can be batch-produced and joined to make complex structures. Global mechanical properties can be tuned based on sub-part ordering and geometry, because local stiffness and density can be independently set to a wide range of values and varied spatially. The structure's intrinsic modularity can significantly simplify analysis and simulation. Simple analytical models for the behavior of each building block type can be calibrated with empirical testing and synthesized into a highly accurate and computationally efficient model of the full compliant system. As a case study, we describe a modular and reversibly assembled wing that performs continuous span-wise twist deformation. It exhibits high performance aerodynamic characteristics, is lightweight and simple to fabricate and repair. The wing is constructed from discrete lattice elements, wherein the geometric and mechanical attributes of the building blocks determine the global mechanical properties of the wing. We describe the mechanical design and structural performance of the digital morphing wing, including their relationship to wind tunnel tests that suggest the ability to increase roll efficiency compared to a conventional rigid aileron system. We focus here on describing the approach to design, modeling, and construction as a generalizable approach for robotics that require very lightweight, tunable, and actively deformable structures.",
+  "link": "https://doi.org/10.1089/soro.2016.0032"
+}

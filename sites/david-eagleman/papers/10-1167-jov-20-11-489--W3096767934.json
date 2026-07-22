@@ -1,0 +1,19 @@
+{
+  "doi": "10.1167/jov.20.11.489",
+  "doi_url": "https://doi.org/10.1167/jov.20.11.489",
+  "title": "Has half the time passed? Investigating time perception at long time scales",
+  "year": "2020",
+  "journal": "Journal of Vision",
+  "authors": [
+    "Sandra Malpica",
+    "Belén Masiá",
+    "Laura Herman",
+    "Gordon Wetzstein",
+    "David M. Eagleman",
+    "Diego Gutiérrez",
+    "Zoya Bylinskii",
+    "Qi Sun"
+  ],
+  "abstract": "Time perception is fluid, and can change in response to different visual inputs. Previous literature shows that time perception at short (millisecond timing) intervals is affected by low-level aspects of visual stimuli, including luminance contrast and temporal frequency. At long intervals, high-level aspects like emotions elicited by visual input affect time perception, but are confounded with semantics. For the first time, we investigate the effects of changes in low-level aspects of visual input on time perception at long intervals (30 seconds to 3 minutes). We conduct experiments in traditional displays (TD) and virtual reality (VR), and find that luminance contrast, temporal frequency of presentation, and field of view (FoV; tested in VR only) have significant effects on time perception. Using a 2AFC task, participants judge whether less or more than half of a trial’s duration has elapsed at a given sampling point (45% or 55% of the total trial duration). Prior to each experiment, participants are presented with a sample trial and told when 50% of the time has elapsed. Participants perform 8-12 trials at a fixed viewing duration. First, we find that contrast and frequency have significant effects on time judgements of 30s trials with static images in TD. Second, we replicate these results in VR, and also find a significant effect of FoV. Third, the effects of contrast and frequency hold up when using 30s trials of video clips in TD. Fourth, we extend our experiments to longer blocks of up to 3 minutes while varying stimuli frequency, and find consistent results. Our results show that higher frequency, higher contrast, and larger FoV (bigger visual magnitude changes) shorten perceived time. These results provide a means of modifying visual stimuli to change their perceived duration.",
+  "link": "https://doi.org/10.1167/jov.20.11.489"
+}

@@ -1,0 +1,16 @@
+{
+  "doi": "10.1103/physrevc.24.2401",
+  "doi_url": "https://doi.org/10.1103/physrevc.24.2401",
+  "title": "Ghost anomaly in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">Be</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>8</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>studied with<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">Be</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>9</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>(<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>p</mml:mi></mml:math>,<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>d</mml:mi></mml:math>) at<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>=</mml:mo><mml:mn>14.3</mml:mn><mml:mn/><mml:mi> </mml:mi><mml:mi mathvariant=\"normal\">and</mml:mi><mml:mi> </mml:mi><mml:mn>26.2</mml:mn></mml:math>MeV",
+  "year": "1981",
+  "journal": "Physical Review C",
+  "authors": [
+    "F. D. Becchetti",
+    "Chris Fields",
+    "R. S. Raymond",
+    "H. Bhang",
+    "D. Overway"
+  ],
+  "abstract": "The anomalous feature in $^{8}\\mathrm{Be}$ reported at ${E}_{x}\\ensuremath{\\approx}0.6$ MeV has been investigated using $^{9}\\mathrm{Be}$($p$,$d$)$^{8}\\mathrm{Be}$ at 14.3 and 26.2 MeV bombarding energy. Analyses of the spectral shape and transfer cross sections as a function of scattering angle are consistent with this feature being part of the ${J}^{\\ensuremath{\\pi}}={0}^{+}$ $^{8}\\mathrm{Beg}$.s. Approximately 6% of the g.s. transfer strength is contained in the anomaly. Also, the line width observed for the ${J}^{\\ensuremath{\\pi}}={2}^{+}$ level (${E}_{x}=2.94$ MeV) appears to be independent of bombarding energy for ${E}_{p}=14 \\mathrm{to} 180$ MeV.NUCLEAR REACTIONS $^{9}\\mathrm{Be}$($p$,$d$)$^{8}\\mathrm{Be}$, ${E}_{p}=14.3 \\mathrm{and} 26.2$ MeV; measured $\\ensuremath{\\sigma}({E}_{x},\\ensuremath{\\theta})$, ${E}_{x}=0, 0.6, 2.94, \\mathrm{and} 11.4$ MeV; deduced $\\ensuremath{\\Gamma}$, ${\\ensuremath{\\gamma}}^{2}$ and ${S}_{n}$; inferred properties of ghost anomaly at ${E}_{x}\\ensuremath{\\approx}0.6$ MeV; FRDW analysis; $\\ensuremath{\\Delta}E\\ensuremath{-}E$ counter telescope and magnetic spectrometer.",
+  "link": "https://doi.org/10.1103/physrevc.24.2401"
+}

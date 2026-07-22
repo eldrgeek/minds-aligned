@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Wikis and Collaborative Systems for Large Formal Mathematics.",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "In the recent years, there have been significant advances in formalization of mathematics, involving a number of large-scale formalization projects. This naturally poses a number of interesting problems concerning how should humans and machines collaborate on such deeply semantic and computer-assisted projects. In this paper we provide an overview of the wikis and web-based systems for such collaboration involving humans and also AI systems over the large corpora of fully formal mathematical knowledge.",
+  "link": "https://openalex.org/W2572283920"
+}

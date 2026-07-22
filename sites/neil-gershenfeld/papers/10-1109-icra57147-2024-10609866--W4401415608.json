@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/icra57147.2024.10609866",
+  "doi_url": "https://doi.org/10.1109/icra57147.2024.10609866",
+  "title": "Self-Reconfigurable Robots for Collaborative Discrete Lattice Assembly",
+  "year": "2024",
+  "journal": null,
+  "authors": [
+    "Miana Smith",
+    "Amira Abdel-Rahman",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We present a robotic system for the assembly of 3D discrete lattice structures in which the robots are able to self-reproduce, such that the assembly system may scale its own parallelization. Robots and structures are made from a set of compatible building blocks, or voxels, which can be assembled and reassembled into more complex structures. Robotic modules are made by combining actuators with a functional voxel, which routes electrical power and signals. Robotic modules then assemble into reconfigurable robots via a reversible solder joint. The robot assembles higher performance structures using a set of construction voxels, which do not contain electrical features. This paper describes the design, development, and evaluation of this assembly system, including the robotic hardware, lattice material, and planning and controls methods. We demonstrate the system through a set of fundamental assembly tasks: the robot assembling another robot, and the two robots collaborating to assemble a small structure.",
+  "link": "https://doi.org/10.1109/icra57147.2024.10609866"
+}

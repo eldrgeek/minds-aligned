@@ -1,0 +1,19 @@
+{
+  "doi": "10.1038/s42003-023-05515-5",
+  "doi_url": "https://doi.org/10.1038/s42003-023-05515-5",
+  "title": "Degeneracy in the neurological model of auditory speech repetition",
+  "year": "2023",
+  "journal": "Communications Biology",
+  "authors": [
+    "Noor Sajid",
+    "Andrea Gajardo‐Vidal",
+    "Justyna O. Ekert",
+    "Diego L. Lorca‐Puls",
+    "Thomas M.H. Hope",
+    "David W. Green",
+    "Karl Friston",
+    "Cathy J. Price"
+  ],
+  "abstract": "Both classic and contemporary models of auditory word repetition involve at least four left hemisphere regions: primary auditory cortex for processing sounds; pSTS (within Wernicke's area) for processing auditory images of speech; pOp (within Broca's area) for processing motor images of speech; and primary motor cortex for overt speech articulation. Previous functional-MRI (fMRI) studies confirm that auditory repetition activates these regions, in addition to many others. Crucially, however, contemporary models do not specify how regions interact and drive each other during auditory repetition. Here, we used dynamic causal modelling, to test the functional interplay among the four core brain regions during single auditory word and pseudoword repetition. Our analysis is grounded in the principle of degeneracy-i.e., many-to-one structure-function relationships-where multiple neural pathways can execute the same function. Contrary to expectation, we found that, for both word and pseudoword repetition, (i) the effective connectivity between pSTS and pOp was predominantly bidirectional and inhibitory; (ii) activity in the motor cortex could be driven by either pSTS or pOp; and (iii) the latter varied both within and between individuals. These results suggest that different neural pathways can support auditory speech repetition. This degeneracy may explain resilience to functional loss after brain damage.",
+  "link": "https://doi.org/10.1038/s42003-023-05515-5"
+}

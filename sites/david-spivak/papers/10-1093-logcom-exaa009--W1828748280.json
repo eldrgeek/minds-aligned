@@ -1,0 +1,14 @@
+{
+  "doi": "10.1093/logcom/exaa009",
+  "doi_url": "https://doi.org/10.1093/logcom/exaa009",
+  "title": "Type theoretical databases",
+  "year": "2020",
+  "journal": "Journal of Logic and Computation",
+  "authors": [
+    "Henrik Forssell",
+    "Håkon Robbestad Gylterud",
+    "David I. Spivak"
+  ],
+  "abstract": "Abstract We show how the display-map category of finite (symmetric) simplicial complexes can be seen as representing the totality of database schemas and instances in a single mathematical structure. We give a sound interpretation of a certain dependent type theory in this model and show how it allows for the syntactic specification of schemas and instances and the manipulation of the same with the usual type-theoretic operations.",
+  "link": "https://doi.org/10.1093/logcom/exaa009"
+}

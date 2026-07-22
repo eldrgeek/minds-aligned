@@ -1,0 +1,14 @@
+{
+  "doi": "10.1167/5.8.59",
+  "doi_url": "https://doi.org/10.1167/5.8.59",
+  "title": "The visual system does not take global snapshots of the visual field",
+  "year": "2010",
+  "journal": "Journal of Vision",
+  "authors": [
+    "Kimberly A. Kline",
+    "Alex O. Holcombe",
+    "David M. Eagleman"
+  ],
+  "abstract": "In stroboscopic conditions, rotating objects may appear to move in the reverse direction. This illusion arises from an asynchrony between illumination frequency and the periodic frequency of stimulus rotation. A seemingly similar phenomenon occurs in constant sunlight, and this has been suggested as evidence that the visual system processes discrete “snapshots” of the outside world. We reasoned that if snapshots indeed are taken of the visual field, then when a rotating drum appears to transiently reverse direction, its mirror image should always appear to reverse direction simultaneously. Contrary to this prediction, we found that when observers viewed two rotating drums, almost all illusory motion reversals occurred in only one drum at a time, not both at once. This result indicates that the motion reversal illusion cannot be explained by snapshots of the visual field, a theory popular since the advent of cinematography. Independent reversal of the two drums is also found when the two images are presented in the same visual hemifield, further ruling out hemisphere-specific snapshots. The frequency distribution of illusory reversal durations approximates a gamma distribution, suggesting perceptual rivalry as a better explanation for illusory motion reversal. In an adaptive motion-opponency system, the activity of motion-sensitive neurons coding for motion in the reverse direction might intermittently drive the perception of motion. EEG and fMRI experiments are underway to determine the neural difference between veridical and illusory motion perception.",
+  "link": "https://doi.org/10.1167/5.8.59"
+}

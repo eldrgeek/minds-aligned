@@ -1,0 +1,13 @@
+{
+  "doi": "10.1037/a0028044",
+  "doi_url": "https://doi.org/10.1037/a0028044",
+  "title": "Reconstructing constructivism: Causal models, Bayesian learning mechanisms, and the theory theory.",
+  "year": "2012",
+  "journal": "Psychological Bulletin",
+  "authors": [
+    "Alison Gopnik",
+    "Henry M. Wellman"
+  ],
+  "abstract": "We propose a new version of the \"theory theory\" grounded in the computational framework of probabilistic causal models and Bayesian learning. Probabilistic models allow a constructivist but rigorous and detailed approach to cognitive development. They also explain the learning of both more specific causal hypotheses and more abstract framework theories. We outline the new theoretical ideas, explain the computational framework in an intuitive and nontechnical way, and review an extensive but relatively recent body of empirical results that supports these ideas. These include new studies of the mechanisms of learning. Children infer causal structure from statistical information, through their own actions on the world and through observations of the actions of others. Studies demonstrate these learning mechanisms in children from 16 months to 4 years old and include research on causal statistical learning, informal experimentation through play, and imitation and informal pedagogy. They also include studies of the variability and progressive character of intuitive theory change, particularly theory of mind. These studies investigate both the physical and the psychological and social domains. We conclude with suggestions for further collaborative projects between developmental and computational cognitive scientists.",
+  "link": "https://doi.org/10.1037/a0028044"
+}

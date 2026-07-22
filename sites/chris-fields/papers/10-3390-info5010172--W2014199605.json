@@ -1,0 +1,12 @@
+{
+  "doi": "10.3390/info5010172",
+  "doi_url": "https://doi.org/10.3390/info5010172",
+  "title": "Equivalence of the Symbol Grounding and Quantum System Identification Problems",
+  "year": "2014",
+  "journal": "Information",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "The symbol grounding problem is the problem of specifying a semantics for the representations employed by a physical symbol system in a way that is neither circular nor regressive. The quantum system identification problem is the problem of relating observational outcomes to specific collections of physical degrees of freedom, i.e., to specific Hilbert spaces. It is shown that with reasonable physical assumptions these problems are equivalent. As the quantum system identification problem is demonstrably unsolvable by finite means, the symbol grounding problem is similarly unsolvable.",
+  "link": "https://doi.org/10.3390/info5010172"
+}

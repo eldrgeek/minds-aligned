@@ -1,0 +1,27 @@
+{
+  "doi": "10.1002/hbm.26782",
+  "doi_url": "https://doi.org/10.1002/hbm.26782",
+  "title": "Reliability of dynamic causal modelling of resting‐state magnetoencephalography",
+  "year": "2024",
+  "journal": "Human Brain Mapping",
+  "authors": [
+    "Amirhossein Jafarian",
+    "Melek Karadag Assem",
+    "Ece Kocagöncü",
+    "Juliette H. Lanskey",
+    "Rebecca Williams",
+    "Yun‐Ju Cheng",
+    "Andrew J. Quinn",
+    "Jemma Pitt",
+    "Vanessa Raymont",
+    "Stephen L. Lowe",
+    "Krish D. Singh",
+    "Mark W. Woolrich",
+    "Anna C. Nobre",
+    "Richard N. Henson",
+    "Karl Friston",
+    "James B. Rowe"
+  ],
+  "abstract": "This study assesses the reliability of resting-state dynamic causal modelling (DCM) of magnetoencephalography (MEG) under conductance-based canonical microcircuit models, in terms of both posterior parameter estimates and model evidence. We use resting-state MEG data from two sessions, acquired 2 weeks apart, from a cohort with high between-subject variance arising from Alzheimer's disease. Our focus is not on the effect of disease, but on the reliability of the methods (as within-subject between-session agreement), which is crucial for future studies of disease progression and drug intervention. To assess the reliability of first-level DCMs, we compare model evidence associated with the covariance among subject-specific free energies (i.e., the 'quality' of the models) with versus without interclass correlations. We then used parametric empirical Bayes (PEB) to investigate the differences between the inferred DCM parameter probability distributions at the between subject level. Specifically, we examined the evidence for or against parameter differences (i) within-subject, within-session, and between-epochs; (ii) within-subject between-session; and (iii) within-site between-subjects, accommodating the conditional dependency among parameter estimates. We show that for data acquired close in time, and under similar circumstances, more than 95% of inferred DCM parameters are unlikely to differ, speaking to mutual predictability over sessions. Using PEB, we show a reciprocal relationship between a conventional definition of 'reliability' and the conditional dependency among inferred model parameters. Our analyses confirm the reliability and reproducibility of the conductance-based DCMs for resting-state neurophysiological data. In this respect, the implicit generative modelling is suitable for interventional and longitudinal studies of neurological and psychiatric disorders.",
+  "link": "https://doi.org/10.1002/hbm.26782"
+}

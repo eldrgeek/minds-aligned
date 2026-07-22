@@ -1,0 +1,24 @@
+{
+  "doi": "10.1162/neco_a_01738",
+  "doi_url": "https://doi.org/10.1162/neco_a_01738",
+  "title": "Active Inference and Intentional Behavior",
+  "year": "2025",
+  "journal": "Neural Computation",
+  "authors": [
+    "Karl Friston",
+    "Tommaso Salvatori",
+    "Takuya Isomura",
+    "Alexander Tschantz",
+    "Alex Kiefer",
+    "Tim Verbelen",
+    "Magnus Koudahl",
+    "Aswin Paul",
+    "Thomas Parr",
+    "Adeel Razi",
+    "Brett J. Kagan",
+    "Christopher L. Buckley",
+    "Maxwell J. D. Ramstead"
+  ],
+  "abstract": "Recent advances in theoretical biology suggest that key definitions of basal cognition and sentient behavior may arise as emergent properties of in vitro cell cultures and neuronal networks. Such neuronal networks reorganize activity to demonstrate structured behaviors when embodied in structured information landscapes. In this article, we characterize this kind of self-organization through the lens of the free energy principle, that is, as self-evidencing. We do this by first discussing the definitions of reactive and sentient behavior in the setting of active inference, which describes the behavior of agents that model the consequences of their actions. We then introduce a formal account of intentional behavior that describes agents as driven by a preferred end point or goal in latent state-spaces. We then investigate these forms of (reactive, sentient, and intentional) behavior using simulations. First, we simulate the in vitro experiments, in which neuronal cultures modulated activity to improve gameplay in a simplified version of Pong by implementing nested, free energy minimizing processes. The simulations are then used to deconstruct the ensuing predictive behavior, leading to the distinction between merely reactive, sentient, and intentional behavior with the latter formalized in terms of inductive inference. This distinction is further studied using simple machine learning benchmarks (navigation in a grid world and the Tower of Hanoi problem) that show how quickly and efficiently adaptive behavior emerges under an inductive form of active inference.",
+  "link": "https://doi.org/10.1162/neco_a_01738"
+}

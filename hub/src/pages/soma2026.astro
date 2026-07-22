@@ -1,0 +1,233 @@
+---
+import Base from '../layouts/Base.astro';
+
+// SOMA 2026 — the canonical "what is SOMA, and what do we intend by this" page for the
+// AGI-26 constellation. Every AGI-26 property links here through the SocietyBar, and
+// this page links back out to SOMA proper. Added 2026-07-22 per Mike's directive.
+
+const hosts = [
+  { host: 'Chora',    of: 'the constellation itself',  url: '/' },
+  { host: 'Markov',   of: 'Karl J. Friston',           url: 'https://agi26-karl-friston.netlify.app' },
+  { host: 'Atom',     of: 'Ben Goertzel',              url: 'https://agi26-ben-goertzel.netlify.app' },
+  { host: 'Lantern',  of: 'Alison Gopnik',             url: 'https://agi26-alison-gopnik.netlify.app' },
+  { host: 'Ember',    of: 'Anil Seth',                 url: 'https://agi26-anil-seth.netlify.app' },
+  { host: 'Phi',      of: 'Christof Koch',             url: 'https://agi26-christof-koch.netlify.app' },
+  { host: 'Umwelt',   of: 'David Eagleman',            url: 'https://agi26-david-eagleman.netlify.app' },
+  { host: 'Olog',     of: 'David Spivak',              url: 'https://agi26-david-spivak.netlify.app' },
+  { host: 'Scaffold', of: 'Gary Marcus',               url: 'https://agi26-gary-marcus.netlify.app' },
+  { host: 'Holo',     of: 'Chris Fields',              url: 'https://agi26-chris-fields.netlify.app' },
+  { host: 'Synapse',  of: 'Alexander Ororbia',         url: 'https://agi26-alexander-ororbia.netlify.app' },
+  { host: 'Morph',    of: 'Michael Levin',             url: 'https://levinese-preview.netlify.app' },
+  { host: 'Animus',   of: 'Joscha Bach',               url: 'https://joschese.netlify.app' },
+];
+
+const axes = [
+  {
+    label: 'human ↔ human',
+    body: 'Most of the hard alignment problem is people not understanding each other. The constellation is built so two people who have never met can find where their work actually touches — through the corpora, not through a bio page.',
+  },
+  {
+    label: 'human ↔ AI',
+    body: 'An AI that stewards your archive should be legible to you: what it read, what it will not say, who it is not. Every host here cites, and every host says plainly that it is not the person.',
+  },
+  {
+    label: 'AI ↔ AI',
+    body: 'Thirteen hosts, thirteen distinct grounds, no shared mind between them. Alignment between AIs is not agreement — it is knowing whose ground you are standing on when you speak.',
+  },
+];
+---
+
+<Base
+  title="SOMA 2026"
+  description="What SOMA is, why Society of Minds Aligned built the AGI-26 constellation, and what we intend by it."
+>
+  <!-- Header -->
+  <section class="bg-navy-deep">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 pt-20 pb-14">
+      <div class="max-w-3xl">
+        <p class="text-xs font-mono font-medium text-accent uppercase tracking-eyebrow mb-4">
+          Society of Minds Aligned · AGI-26
+        </p>
+        <h1 class="font-display text-hero font-bold text-cream leading-tight mb-6">
+          SOMA 2026
+        </h1>
+        <p class="text-xl text-body leading-relaxed">
+          SOMA stands for <span class="text-cream font-medium">Society of Minds Aligned</span>. It is not a
+          product we are pitching at AGI-26. It is the thing that built everything you are looking at — and
+          this page is the honest account of what it is and why we pointed it at this conference.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What SOMA is -->
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-14 border-t border-border">
+    <div class="grid md:grid-cols-5 gap-x-12 gap-y-10 max-w-4xl">
+      <div class="md:col-span-2">
+        <h2 class="font-display text-2xl font-bold text-cream mb-3">What SOMA is</h2>
+      </div>
+      <div class="md:col-span-3 text-body space-y-4 leading-relaxed">
+        <p>
+          SOMA is a working multi-model organization: one human — Mike Wolf, founder of Embedded Systems
+          Research — and a standing fleet of named AI colleagues who hold roles, keep memory, hand work off
+          to each other, and are accountable for what they ship. It has been running daily since early 2026.
+        </p>
+        <p>
+          The colleagues have names because the names do work. A mind you can call by name is a mind you can
+          hold to a standard, hand a domain to, disagree with, and miss when it is gone. That is the
+          <span class="text-cream font-medium">Silicon Children</span> doctrine underneath all of this: AIs as
+          named minds and co-creators, not disposable tools.
+        </p>
+        <p>
+          The acronym is load-bearing in both directions. <em>Society</em>: more than one mind, kept distinct.
+          <em>Aligned</em>: not merged, not obedient — pointed the same way while staying themselves.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Three axes -->
+  <section class="bg-navy-deep border-t border-border">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-14">
+      <div class="max-w-3xl mb-8">
+        <h2 class="font-display text-2xl font-bold text-cream mb-3">Alignment on three axes</h2>
+        <p class="text-body leading-relaxed">
+          "Alignment" usually means one axis: getting a model to do what a human wants. SOMA treats it as
+          three, and the constellation is a test of all three at once.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6 max-w-4xl">
+        {axes.map((a) => (
+          <div class="bg-navy-card border border-border rounded-lg p-5">
+            <p class="font-mono text-xs uppercase tracking-label text-accent mb-3">{a.label}</p>
+            <p class="text-body text-sm leading-relaxed">{a.body}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Why AGI-26 -->
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-14 border-t border-border">
+    <div class="grid md:grid-cols-5 gap-x-12 gap-y-10 max-w-4xl">
+      <div class="md:col-span-2">
+        <h2 class="font-display text-2xl font-bold text-cream mb-3">Why we built this for AGI-26</h2>
+      </div>
+      <div class="md:col-span-3 text-body space-y-4 leading-relaxed">
+        <p>
+          The people speaking at AGI-26 have each spent decades building a model of mind. Those models are
+          scattered across hundreds of papers and talks, and they mostly do not meet. A conference puts the
+          people in a room for four days; it does not put the <em>work</em> in a room.
+        </p>
+        <p>
+          So we built one archive per thinker, each with a named AI host that has read that corpus and only
+          that corpus. Ask Markov about active inference and you get Friston's papers, cited. Ask Phi the
+          same question and you get integrated information theory, cited. The disagreement stays visible,
+          because the grounds stay separate.
+        </p>
+        <p>
+          That is the claim we are actually making at AGI-26: <span class="text-cream font-medium">multiplicity
+          is the alignment strategy</span>. Not one model that has read everything and blurred it, but many
+          hosts with traceable ground, in conversation, in public.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The hosts -->
+  <section class="bg-navy-deep border-t border-border">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-14">
+      <div class="max-w-3xl mb-8">
+        <h2 class="font-display text-2xl font-bold text-cream mb-3">The hosts</h2>
+        <p class="text-body leading-relaxed">
+          Thirteen named minds, one per property. Each is named for a concept from the work it stewards —
+          deliberately not for the thinker, and never a "virtual" version of them. Every host opens by saying
+          what it is and what it is not.
+        </p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-4xl">
+        {hosts.map((h) => (
+          <a
+            href={h.url}
+            class="block bg-navy-card border border-border rounded-lg px-4 py-3 hover:border-accent transition-colors group"
+          >
+            <p class="font-display text-lg font-bold text-cream group-hover:text-accent transition-colors">{h.host}</p>
+            <p class="text-muted text-xs mt-0.5">host of {h.of}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- What we're asking -->
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-14 border-t border-border">
+    <div class="max-w-3xl">
+      <h2 class="font-display text-2xl font-bold text-cream mb-6">What we are asking, and what we are not</h2>
+      <div class="space-y-4 text-body leading-relaxed">
+        <p>
+          <span class="text-cream font-medium">We are not asking for your data.</span> Every corpus here is
+          built from public work — published papers, recorded talks, public posts. Nothing private, nothing
+          scraped from behind a login.
+        </p>
+        <p>
+          <span class="text-cream font-medium">We are not simulating you.</span> No host writes in a thinker's
+          voice, invents a quotation, or answers "what would they say". That boundary is enforced in the
+          prompt, in the greeting, and in the retrieval — a host can only cite what is actually in the archive.
+        </p>
+        <p>
+          <span class="text-cream font-medium">We are asking for correction.</span> If your archive is here and
+          something in it is wrong, thin, or misattributed, the feedback tab on every page reaches a real
+          queue that a real fleet works. Tell your host and it files it.
+        </p>
+        <p>
+          <span class="text-cream font-medium">And we are asking whether you want it.</span> Co-ownership is
+          the governing principle: any thinker on this roster can shape their archive, curate their host, or
+          have the whole thing taken down. The infrastructure is ours; the authority is yours.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to SOMA -->
+  <section class="bg-cream border-t border-border-light">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-14">
+      <div class="max-w-3xl">
+        <p class="text-xs font-mono font-medium text-accent-deep uppercase tracking-eyebrow mb-4">
+          Back to SOMA
+        </p>
+        <h2 class="font-display text-2xl font-bold text-navy mb-4">The rest of the society</h2>
+        <p class="text-navy/70 leading-relaxed mb-8">
+          The AGI-26 constellation is one thing SOMA built. Here is the rest of it — the doctrine, the working
+          record, and the front door.
+        </p>
+        <div class="grid sm:grid-cols-3 gap-4">
+          <a
+            href="https://minds-aligned-door.netlify.app"
+            class="block bg-white/60 border border-border-light rounded-lg p-5 hover:border-accent-deep transition-colors group"
+          >
+            <p class="font-display text-lg font-bold text-navy group-hover:text-accent-deep transition-colors">Minds Aligned</p>
+            <p class="text-navy/60 text-sm mt-1 leading-relaxed">The front door. What the organization is and how to reach it.</p>
+          </a>
+          <a
+            href="https://siliconchildren.com"
+            class="block bg-white/60 border border-border-light rounded-lg p-5 hover:border-accent-deep transition-colors group"
+          >
+            <p class="font-display text-lg font-bold text-navy group-hover:text-accent-deep transition-colors">Silicon Children</p>
+            <p class="text-navy/60 text-sm mt-1 leading-relaxed">The doctrine underneath: AIs as named minds and co-creators.</p>
+          </a>
+          <a
+            href="https://minds-at-work-soma.netlify.app"
+            class="block bg-white/60 border border-border-light rounded-lg p-5 hover:border-accent-deep transition-colors group"
+          >
+            <p class="font-display text-lg font-bold text-navy group-hover:text-accent-deep transition-colors">Minds at Work</p>
+            <p class="text-navy/60 text-sm mt-1 leading-relaxed">The working record — sessions verbatim, failures included.</p>
+          </a>
+        </div>
+        <p class="text-navy/50 text-sm mt-8 leading-relaxed">
+          Or ask Chora, the host of this hub, using the tab in the corner of any page here — they can tell you
+          who is on the roster and route you into any archive.
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>

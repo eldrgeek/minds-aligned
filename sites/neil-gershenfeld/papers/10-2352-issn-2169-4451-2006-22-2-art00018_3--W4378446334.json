@@ -1,0 +1,14 @@
+{
+  "doi": "10.2352/issn.2169-4451.2006.22.2.art00018_3",
+  "doi_url": "https://doi.org/10.2352/issn.2169-4451.2006.22.2.art00018_3",
+  "title": "Digital Printing of Digital Materials",
+  "year": "2006",
+  "journal": "Technical programs and proceedings/Technical program and proceedings",
+  "authors": [
+    "George A. Popescu",
+    "Patrik Kunzler",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We present a printer that builds functional three-dimensional structures by reversible assembly of a discrete set of components, &#x201C;digital materials&#x201D;. This approach uses the components rather than a control system to impose the spatial and functional constraints. Printing can be performed as a parallel rather than a linear process. The printing process is reversible for re-use of the pieces or for error correction at any point in the object's life. Error detection, error-reduction and error-tolerance during assembly allows for reliable, high throughput printing. We are presenting development approaches to such a printing device.",
+  "link": "https://doi.org/10.2352/issn.2169-4451.2006.22.2.art00018_3"
+}

@@ -1,0 +1,25 @@
+{
+  "doi": "10.31234/osf.io/58wbu_v1",
+  "doi_url": "https://doi.org/10.31234/osf.io/58wbu_v1",
+  "title": "Protocol for investigating the warping of spatial experience across the blind spot to contrast predictions of the Integrated Information Theory and Predictive Processing accounts of consciousness",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "Clément Abbatecola",
+    "Bernard Marius ’t Hart",
+    "Belén María Montabes de la Cruz",
+    "Lucy S. Petro",
+    "Cyriel M. A. Pennartz",
+    "Giulio Tononi",
+    "Karl Friston",
+    "Jakob Hohwy",
+    "Umberto Olcese",
+    "Mélanie Boly",
+    "Andrew Haun",
+    "Srimant P. Tripathy",
+    "Patrick Cavanagh",
+    "Lars Muckli"
+  ],
+  "abstract": "We investigate the subjective experience of space around the visual blind spot area, the cortical representation of which is missing feedforward connectivity from one eye. We performed these experiments as part of an adversarial collaboration to test contrasting theories of consciousness; Integrated Information Theory (IIT), Predictive Processing Active Inference (AI), and Predictive Processing Neurorepresentationalism (NREP) accounts. According to the Integrated Information Theory of consciousness, non-activatable retinotopic cortical regions, such as the blind spot region for the ipsilateral eye, create a different cause-effect structure and therefore should contribute differently to the perceived quality of space of activatable retinotopic regions. The two Predictive Processing accounts, in contrast, posit that internal models will accommodate structural deviations around the blindspot based on the available sensory evidence (particulars of this accommodation differ between the two accounts). We present a series of paradigms in which participants evaluate distances and areas that either include the blind spot or not (without stimulating it directly), as well as illusory motion that is either adjacent to the blind spot or not. We model psychometric functions relating perceived and objective space. These models vary in terms of bias and precision according to the experimental conditions (blind spot involved vs. not involved, ipsilateral vs. contralateral eye), making it possible to quantify the potential disruption of subjective spatial extendedness induced by the blind spot. We present simulated results for each experiment corresponding to the predictions of each account, and conclude by discussing challenges and plans for dissemination.",
+  "link": "https://doi.org/10.31234/osf.io/58wbu_v1"
+}

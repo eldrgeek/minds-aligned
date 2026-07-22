@@ -1,0 +1,24 @@
+{
+  "doi": "10.1016/j.biopsycho.2024.108891",
+  "doi_url": "https://doi.org/10.1016/j.biopsycho.2024.108891",
+  "title": "Supervised structure learning",
+  "year": "2024",
+  "journal": "Biological Psychology",
+  "authors": [
+    "Karl Friston",
+    "Lancelot Da Costa",
+    "Alexander Tschantz",
+    "Alex Kiefer",
+    "Tommaso Salvatori",
+    "Victorita Neacsu",
+    "Magnus Koudahl",
+    "Conor Heins",
+    "Noor Sajid",
+    "Dimitrije Marković",
+    "Thomas Parr",
+    "Tim Verbelen",
+    "Christopher L. Buckley"
+  ],
+  "abstract": "This paper concerns structure learning or discovery of discrete generative models. It focuses on Bayesian model selection and the assimilation of training data or content, with a special emphasis on the order in which data are ingested. A key move—in the ensuing schemes—is to place priors on the selection of models, based upon expected free energy. In this setting, expected free energy reduces to a constrained mutual information, where the constraints inherit from priors over outcomes (i.e., preferred outcomes). The resulting scheme is first used to perform image classification on the MNIST dataset to illustrate the basic idea, and then tested on a more challenging problem of discovering models with dynamics, using a simple sprite-based visual disentanglement paradigm and the Tower of Hanoi (cf., blocks world) problem. In these examples, generative models are constructed autodidactically to recover (i.e., disentangle) the factorial structure of latent states—and their characteristic paths or dynamics. • Bayesian model selection can be cast as a special case of minimising expected free energy. • The ordinality of data can finesse the problem of structure learning. • Generalised Markovian models are applied to a diverse set of structure learning problems.",
+  "link": "https://doi.org/10.1016/j.biopsycho.2024.108891"
+}

@@ -1,0 +1,25 @@
+{
+  "doi": "10.48550/arxiv.2505.24784",
+  "doi_url": "https://doi.org/10.48550/arxiv.2505.24784",
+  "title": "AXIOM: Learning to Play Games in Minutes with Expanding Object-Centric Models",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Conor Heins",
+    "Toon Van de Maele",
+    "Alexander Tschantz",
+    "Hampus Linander",
+    "Dimitrije Marković",
+    "Tommaso Salvatori",
+    "Corrado Pezzato",
+    "Ozan Çatal",
+    "Ran Wei",
+    "Magnus Koudahl",
+    "Marco Perin",
+    "Karl Friston",
+    "Tim Verbelen",
+    "Christopher L. Buckley"
+  ],
+  "abstract": "Current deep reinforcement learning (DRL) approaches achieve state-of-the-art performance in various domains, but struggle with data efficiency compared to human learning, which leverages core priors about objects and their interactions. Active inference offers a principled framework for integrating sensory information with prior knowledge to learn a world model and quantify the uncertainty of its own beliefs and predictions. However, active inference models are usually crafted for a single task with bespoke knowledge, so they lack the domain flexibility typical of DRL approaches. To bridge this gap, we propose a novel architecture that integrates a minimal yet expressive set of core priors about object-centric dynamics and interactions to accelerate learning in low-data regimes. The resulting approach, which we call AXIOM, combines the usual data efficiency and interpretability of Bayesian approaches with the across-task generalization usually associated with DRL. AXIOM represents scenes as compositions of objects, whose dynamics are modeled as piecewise linear trajectories that capture sparse object-object interactions. The structure of the generative model is expanded online by growing and learning mixture models from single events and periodically refined through Bayesian model reduction to induce generalization. AXIOM masters various games within only 10,000 interaction steps, with both a small number of parameters compared to DRL, and without the computational expense of gradient-based optimization.",
+  "link": "https://doi.org/10.48550/arxiv.2505.24784"
+}

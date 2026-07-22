@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1209.1011",
+  "doi_url": "https://doi.org/10.48550/arxiv.1209.1011",
+  "title": "Kleisli Database Instances",
+  "year": "2012",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak"
+  ],
+  "abstract": "We use monads to relax the atomicity requirement for data in a database. Depending on the choice of monad, the database fields may contain generalized values such as lists or sets of values, or they may contain exceptions such as various types of nulls. The return operation for monads ensures that any ordinary database instance will count as one of these generalized instances, and the bind operation ensures that generalized values behave well under joins of foreign key sequences. Different monads allow for vastly different types of information to be stored in the database. For example, we show that classical concepts like Markov chains, graphs, and finite state automata are each perfectly captured by a different monad on the same schema.",
+  "link": "https://doi.org/10.48550/arxiv.1209.1011"
+}

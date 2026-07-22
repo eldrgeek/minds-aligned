@@ -1,0 +1,22 @@
+{
+  "doi": "10.3390/biophysica4020012",
+  "doi_url": "https://doi.org/10.3390/biophysica4020012",
+  "title": "Search for Entanglement between Spatially Separated Living Systems: Experiment Design, Results, and Lessons Learned",
+  "year": "2024",
+  "journal": "Biophysica",
+  "authors": [
+    "Chris Fields",
+    "Lorenzo Cohen",
+    "Andrew Cusimano",
+    "Sharmistha Chakraborty",
+    "Phuong Nguyen",
+    "Defeng Deng",
+    "Shafaqmuhammad Iqbal",
+    "Monica Nelson",
+    "Daoyan Wei",
+    "Arnaud Delorme",
+    "Peiying Yang"
+  ],
+  "abstract": "Statistically significant violations of the Clauser–Horne–Shimony–Holt (CHSH) inequality are the “gold standard” test for quantum entanglement between spatially separated systems. Here, we report an experimental design that implements a CHSH test between bioelectric state variables for a human subject and bioelectric and/or biochemical state variables for cultured human cells in vitro. While we were unable to obtain evidence for entanglement with this design, observing only classical correlation, we report lessons learned and suggest possible avenues for future studies.",
+  "link": "https://doi.org/10.3390/biophysica4020012"
+}

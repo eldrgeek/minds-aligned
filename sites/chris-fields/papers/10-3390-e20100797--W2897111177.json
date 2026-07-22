@@ -1,0 +1,12 @@
+{
+  "doi": "10.3390/e20100797",
+  "doi_url": "https://doi.org/10.3390/e20100797",
+  "title": "Some Consequences of the Thermodynamic Cost of System Identification",
+  "year": "2018",
+  "journal": "Entropy",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "The concept of a \"system\" is foundational to physics, but the question of how observers identify systems is seldom addressed. Classical thermodynamics restricts observers to finite, finite-resolution observations with which to identify the systems on which \"pointer state\" measurements are to be made. It is shown that system identification is at best approximate, even in a finite world, and that violations of the Leggett-Garg and Bell/CHSH (Clauser-Horne-Shimony-Holt) inequalities emerge naturally as requirements for successful system identification.",
+  "link": "https://doi.org/10.3390/e20100797"
+}

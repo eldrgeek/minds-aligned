@@ -1,0 +1,30 @@
+{
+  "doi": "10.1101/2025.03.09.642197",
+  "doi_url": "https://doi.org/10.1101/2025.03.09.642197",
+  "title": "Psychedelics Align Brain Activity with Context",
+  "year": "2025",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Devon Stoliker",
+    "Leonardo Novelli",
+    "M. Amin Khajehnejad",
+    "Mana Biabani",
+    "Tamrin Barta",
+    "Matthew D. Greaves",
+    "Martin Williams",
+    "Sidhant Chopra",
+    "Olivier Bazin",
+    "Otto Simonsson",
+    "Richard Chambers",
+    "Frederick S. Barrett",
+    "Gustavo Deco",
+    "Katrin H. Preller",
+    "Robin Carhart‐Harris",
+    "Anil K. Seth",
+    "Suresh Sundram",
+    "Gary F. Egan",
+    "Adeel Razi"
+  ],
+  "abstract": "Abstract Psychedelics can profoundly alter consciousness by reorganising brain connectivity; however, their effects are context-sensitive. To understand how this reorganisation depends on context, we collected and comprehensively analysed the largest psychedelic neuroimaging dataset to date. Sixty-two adults were scanned with functional MRI and EEG during rest and naturalistic stimuli (meditation, music, and movie), before and after ingesting 19 mg of psilocybin (functional MRI ≈80 min post-dose; EEG ≈150 min post-dose). Half the participants ranked the experience among the most meaningful of their lives. Under psilocybin, functional MRI and EEG signals recorded during eyes-closed conditions became similar to those recorded during an eyes-open condition. Global functional connectivity increased in associative regions and decreased in sensory areas. Using machine learning to represent neural activity as low-dimensional trajectories, we found that psilocybin reorganised these into structured, context-sensitive patterns of brain activity that reflected both experimental condition and the quality of subjective experience, revealing an organisation that was missed by time-averaged connectivity measures. Under psilocybin, brain networks that ordinarily segregate internal and external processing coherently integrated and aligned neural dynamics with context. This context-alignment manifested as distinct and cohesive neural trajectories in participants reporting positively felt self- and boundary-dissolving effects, corresponding to the felt experience of being part of the environment, which we refer to as embeddedness —the subjective experience of being continuous with, rather than separate from, the surrounding environment. The strength of this context-alignment was associated with next-day mindset change, bridging the neural, experiential, and therapeutic dimensions of the psychedelic state. These findings show that the organisation of brain activity covaries with the experiential coherence of the psychedelic state, and provide a systems-level framework for how context-sensitive brain dynamics link neurobiology to subjective experience and behavioural change.",
+  "link": "https://doi.org/10.1101/2025.03.09.642197"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Data-driven Modeling and Synthesis of Acoustical Instruments",
+  "year": "1998",
+  "journal": "The Journal of the Abraham Lincoln Association",
+  "authors": [
+    "Bernd Schöner",
+    "Chuck Cooper",
+    "Chris Douglas",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We present a framework for the analysis and synthesis of acoustical instruments based on data-driven probabilistic inference modeling. Audio time series and boundary conditions of a played instrument are recorded and the non-linear mapping from the control data into the audio space is inferred using the general inference framework of Cluster-Weighted Modeling. The resulting model is used for real-time synthesis of audio sequences from new input data. 1 Introduction Most of today&amp;apos;s musical synthesis is based on either sampling acoustical instruments [Massie, 1998] or detailed first-principles physical modeling [Smith, 1992]. The sampling approach typically results in high sound quality, but has no notion of the instrument as a dynamic system with variable control. The physical modeling approach retains this dynamic control but results in intractably large models when all the physical degrees of freedom are considered. The search for the right combination of model parameters is difficul...",
+  "link": "https://openalex.org/W1601481080"
+}

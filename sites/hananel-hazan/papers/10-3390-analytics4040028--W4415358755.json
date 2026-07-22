@@ -1,0 +1,17 @@
+{
+  "doi": "10.3390/analytics4040028",
+  "doi_url": "https://doi.org/10.3390/analytics4040028",
+  "title": "Reservoir Computation with Networks of Differentiating Neuron Ring Oscillators",
+  "year": "2025",
+  "journal": "Analytics",
+  "authors": [
+    "Alexander Seeshing Yeung",
+    "Peter DelMastro",
+    "Arjun Karuvally",
+    "Hava T. Siegelmann",
+    "Edward A. Rietman",
+    "Hananel Hazan"
+  ],
+  "abstract": "Reservoir computing is an approach to machine learning that leverages the dynamics of a complex system alongside a simple, often linear, machine learning model for a designated task. While many efforts have previously focused their attention on integrating neurons, which produce an output in response to large, sustained inputs, we focus on using differentiating neurons, which produce an output in response to large changes in input. Here, we introduce a small-world graph built from rings of differentiating neurons as a Reservoir Computing substrate. We find the coupling strength and network topology that enable these small-world networks to function as an effective reservoir. The dynamics of differentiating neurons naturally give rise to oscillatory dynamics when arranged in rings, where we study their computational use in the Reservoir Computing setting. We demonstrate the efficacy of these networks in the MNIST digit recognition task, achieving comparable performance of 90.65% to existing Reservoir Computing approaches. Beyond accuracy, we conduct systematic analysis of our reservoir’s internal dynamics using three complementary complexity measures that quantify neuronal activity balance, input dependence, and effective dimensionality. Our analysis reveals that optimal performance emerges when the reservoir operates with intermediate levels of neural entropy and input sensitivity, consistent with the edge-of-chaos hypothesis, where the system balances stability and responsiveness. The findings suggest that differentiating neurons can be a potential alternative to integrating neurons and can provide a sustainable future alternative for power-hungry AI applications.",
+  "link": "https://doi.org/10.3390/analytics4040028"
+}

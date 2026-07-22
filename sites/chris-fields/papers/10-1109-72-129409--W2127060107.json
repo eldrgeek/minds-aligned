@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/72.129409",
+  "doi_url": "https://doi.org/10.1109/72.129409",
+  "title": "The design, fabrication, and test of a new VLSI hybrid analog-digital neural processing element",
+  "year": "1992",
+  "journal": "IEEE Transactions on Neural Networks",
+  "authors": [
+    "M. DeYong",
+    "Randall Findley",
+    "Chris Fields"
+  ],
+  "abstract": "A hybrid analog-digital neural processing element with the time-dependent behavior of biological neurons has been developed. The hybrid processing element is designed for VLSI implementation and offers the best attributes of both analog and digital computation. Custom VLSI layout reduces the layout area of the processing element, which in turn increases the expected network density. The hybrid processing element operates at the nanosecond time scale, which enables it to produce real-time solutions to complex spatiotemporal problems found in high-speed signal processing applications. VLSI prototype chips have been designed, fabricated, and tested with encouraging results. Systems utilizing the time-dependent behavior of the hybrid processing element have been simulated and are currently in the fabrication process. Future applications are also discussed.",
+  "link": "https://doi.org/10.1109/72.129409"
+}

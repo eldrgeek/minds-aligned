@@ -1,0 +1,14 @@
+{
+  "doi": "10.2352/issn.2169-4451.2006.22.2.art00019_3",
+  "doi_url": "https://doi.org/10.2352/issn.2169-4451.2006.22.2.art00019_3",
+  "title": "Digital materials for digital printing",
+  "year": "2006",
+  "journal": "Technical programs and proceedings/Technical program and proceedings",
+  "authors": [
+    "George A. Popescu",
+    "Tushar Mahale",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Conventional three-dimensional printing processes are material-dependent, and are irreversible. We present an alternative approach based on three-dimensional assembly of mass-produced two-dimensional components of digital material. This significantly enlarges the available material set, allows reversible disassembly, and imposes constraints that reduce the accumulation of local positioning errors in constructing a global shape. Experimental work on material properties and dimensional scaling of the digital material will be presented, with application in assembling functional structures. We propose that assembling digital material will be the future of 3-dimensional free-form fabrication of functional materials.",
+  "link": "https://doi.org/10.2352/issn.2169-4451.2006.22.2.art00019_3"
+}

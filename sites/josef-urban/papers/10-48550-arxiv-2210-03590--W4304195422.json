@@ -1,0 +1,17 @@
+{
+  "doi": "10.48550/arxiv.2210.03590",
+  "doi_url": "https://doi.org/10.48550/arxiv.2210.03590",
+  "title": "Machine Learning Meets The Herbrand Universe",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Jelle Piepenbrock",
+    "Josef Urban",
+    "Konstantin Korovin",
+    "Miroslav Olšák",
+    "Tom Heskes",
+    "Mikoláš Janota"
+  ],
+  "abstract": "The appearance of strong CDCL-based propositional (SAT) solvers has greatly advanced several areas of automated reasoning (AR). One of the directions in AR is thus to apply SAT solvers to expressive formalisms such as first-order logic, for which large corpora of general mathematical problems exist today. This is possible due to Herbrand's theorem, which allows reduction of first-order problems to propositional problems by instantiation. The core challenge is choosing the right instances from the typically infinite Herbrand universe. In this work, we develop the first machine learning system targeting this task, addressing its combinatorial and invariance properties. In particular, we develop a GNN2RNN architecture based on an invariant graph neural network (GNN) that learns from problems and their solutions independently of symbol names (addressing the abundance of skolems), combined with a recurrent neural network (RNN) that proposes for each clause its instantiations. The architecture is then trained on a corpus of mathematical problems and their instantiation-based proofs, and its performance is evaluated in several ways. We show that the trained system achieves high accuracy in predicting the right instances, and that it is capable of solving many problems by educated guessing when combined with a ground solver. To our knowledge, this is the first convincing use of machine learning in synthesizing relevant elements from arbitrary Herbrand universes.",
+  "link": "https://doi.org/10.48550/arxiv.2210.03590"
+}

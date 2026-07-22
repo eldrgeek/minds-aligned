@@ -1,0 +1,16 @@
+{
+  "doi": "10.1016/j.neunet.2019.08.016",
+  "doi_url": "https://doi.org/10.1016/j.neunet.2019.08.016",
+  "title": "Locally connected spiking neural networks for unsupervised feature learning",
+  "year": "2019",
+  "journal": "Neural Networks",
+  "authors": [
+    "Daniel J. Saunders",
+    "Devdhar Patel",
+    "Hananel Hazan",
+    "Hava T. Siegelmann",
+    "Róbert Kozma"
+  ],
+  "abstract": "",
+  "link": "https://doi.org/10.1016/j.neunet.2019.08.016"
+}

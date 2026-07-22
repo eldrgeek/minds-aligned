@@ -1,0 +1,15 @@
+{
+  "doi": "10.3389/fnhum.2018.00302",
+  "doi_url": "https://doi.org/10.3389/fnhum.2018.00302",
+  "title": "Empathic Neural Responses Predict Group Allegiance",
+  "year": "2018",
+  "journal": "Frontiers in Human Neuroscience",
+  "authors": [
+    "Don A. Vaughn",
+    "Ricky R. Savjani",
+    "Mark S. Cohen",
+    "David M. Eagleman"
+  ],
+  "abstract": "Watching another person in pain activates brain areas involved in the sensation of our own pain. Importantly, this neural mirroring is not constant; rather, it is modulated by our beliefs about their intentions, circumstances, and group allegiances. We investigated if the neural empathic response is modulated by minimally-differentiating information (e.g., a simple text label indicating another’s religious belief), and if neural activity changes predict ingroups and outgroups across independent paradigms. We found that the empathic response was larger when participants viewed a painful event occurring to a hand labeled with their own religion (ingroup) than to a hand labeled with a different religion (outgroup). Counterintuitively, the magnitude of this bias correlated positively with the magnitude of participants’ self-reported empathy. A multivariate classifier, using mean activity in empathy-related brain regions as features, discriminated ingroup from outgroup with 72% accuracy; the classifier’s confidence correlated with belief certainty. This classifier generalized successfully to validation experiments in which the ingroup condition was based on an arbitrary group assignment. Empathy networks thus allow for the classification of long-held, newly-modified and arbitrarily-formed ingroups and outgroups. This is the first report of a single machine learning model on neural activation that generalizes to multiple representations of ingroup and outgroup. The current findings may prove useful as an objective diagnostic tool to measure the magnitude of one’s group affiliations, and the effectiveness of interventions to reduce ingroup biases.",
+  "link": "https://doi.org/10.3389/fnhum.2018.00302"
+}

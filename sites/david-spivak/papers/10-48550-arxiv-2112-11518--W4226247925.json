@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2112.11518",
+  "doi_url": "https://doi.org/10.48550/arxiv.2112.11518",
+  "title": "Collectives: Compositional protocols for contributions and returns",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Nelson Niu",
+    "David I. Spivak"
+  ],
+  "abstract": "We introduce a concept called a collective: an interface with a protocol for aggregating contributions and distributing returns. Through such a protocol, many members may participate in a mutual endeavor. We present a variety of real-world examples of collectives to explore the many kinds of things that members can contribute (such as time, work, ideas, or resources) as well as the many ways these contributions can be aggregated and returns distributed. In addition, we illustrate several ways in which new collectives can be constructed from old, alluding to the fact that all these constructions have a natural mathematical description within the category of polynomial functors equipped with a certain monoidal structure.",
+  "link": "https://doi.org/10.48550/arxiv.2112.11518"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2301.01144",
+  "doi_url": "https://doi.org/10.48550/arxiv.2301.01144",
+  "title": "Modelling cortical network dynamics",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Gerald Cooray",
+    "Richard Rosch",
+    "Karl Friston"
+  ],
+  "abstract": "We consider the theoretical constraints on interactions between coupled cortical columns. Each column comprises a set of neural populations, where each population is modelled as a neural mass. The existence of semi-stable states within a cortical column has been shown to be dependent on the type of interaction between the constituent neuronal subpopulations, i.e., the form of the implicit synaptic convolution kernels. Current-to-current coupling has been shown, in contrast to potential-to-current coupling, to create semi-stable states within a cortical column. In this analytic and numerical study, the interaction between semi-stable states is characterized by equations of motion for ensemble activity. We show that for small excitations, the dynamics follow the Kuramoto model. However, in contrast to previous work, we derive coupled equations between phase and amplitude dynamics. This affords the possibility of defining connectivity as a dynamic variable. The turbulent flow of phase dynamics found in networks of Kuramoto oscillators indicate turbulent changes in dynamic connectivity for coupled cortical columns. Crucially, this is something that has been recorded in epileptic seizures. We used the results we derived to estimate a seizure propagation model, which allowed for relatively straightforward inversions using variational Laplace (a.k.a., Dynamic Causal Modelling). The face validity of the ensuing seizure propagation model was established using simulated data as a prelude to future work; which will investigate dynamic connectivity from empirical data. This model also allows predictions of seizure evolution, induced by virtual lesions to synaptic connectivity: something that could be of clinical use, when applied to epilepsy surgical cases.",
+  "link": "https://doi.org/10.48550/arxiv.2301.01144"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": "10.31219/osf.io/dnw5k",
+  "doi_url": "https://doi.org/10.31219/osf.io/dnw5k",
+  "title": "Distributed Science - The Scientific Process as Multi-Scale Active Inference",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Francesco Balzan",
+    "John O. Campbell",
+    "Karl Friston",
+    "Maxwell J. D. Ramstead",
+    "Daniel Friedman",
+    "Axel Constant"
+  ],
+  "abstract": "This paper applies the theory of active inference—a Bayesian theory of cognition—to provide a multi-scale description of science understood as a distributed, evidence-seeking process. This allows us to naturalise the scientific process in terms of dynamics that can be read as inference or Bayesian belief updating, i.e., processes that maximize the evidence for a generative model of the sensed and measured world. Our goal is to ground a computational framework that elucidates how individual cognitive processes contribute to the emergence of the scientific system, and reciprocally, how collective values, practices and technological advancements guide individual scientific cognition. Epistemologically, it also addresses some key questions, e.g., is science a special? And in what ways is scientific pursuit an existential imperative for all beings? Pragmatically, it proposes a way of simulating the practice of science, which may have a foundational role in the next generation of augmented intelligence systems.",
+  "link": "https://doi.org/10.31219/osf.io/dnw5k"
+}

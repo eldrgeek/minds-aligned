@@ -1,0 +1,14 @@
+{
+  "doi": "10.1147/sj.393.0823",
+  "doi_url": "https://doi.org/10.1147/sj.393.0823",
+  "title": "Toward a table-top quantum computer",
+  "year": "2000",
+  "journal": "IBM Systems Journal",
+  "authors": [
+    "Yael G. Maguire",
+    "Edward S. Boyden",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "To investigate the scaling issues for quantum computation using thermalized ensembles of spins, we are building a rudimentary quantum computer using nuclear magnetic resonance (NMR). We discuss the experimental issues facing the scalability of this technique including the number of qubits, issues of classical versus quantum behavior, and polarization. Due to the weak signals measured in NMR, the most significant challenge to practical devices is polarization enhancement. We present the architecture for a simple NMR spectrometer that is table-top, low-cost, and software-radio driven using commodity electronics and unconventional permanent magnet designs. Optimizations specific to using this machine as a computational device, such as probe design, compilation, and on-line control, are discussed.",
+  "link": "https://doi.org/10.1147/sj.393.0823"
+}

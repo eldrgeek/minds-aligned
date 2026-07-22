@@ -1,0 +1,21 @@
+{
+  "doi": "10.1093/nc/niw022",
+  "doi_url": "https://doi.org/10.1093/nc/niw022",
+  "title": "Global and local complexity of intracranial EEG decreases during NREM sleep",
+  "year": "2017",
+  "journal": "Neuroscience of Consciousness",
+  "authors": [
+    "Michael Schartner",
+    "Andrea Pigorini",
+    "Steve A. Gibbs",
+    "Gabriele Arnulfo",
+    "Simone Sarasso",
+    "Lionel Barnett",
+    "Lino Nobili",
+    "Marcello Massimini",
+    "Anil K. Seth",
+    "Adam B. Barrett"
+  ],
+  "abstract": "Key to understanding the neuronal basis of consciousness is the characterization of the neural signatures of changes in level of consciousness during sleep. Here we analysed three measures of dynamical complexity on spontaneous depth electrode recordings from 10 epilepsy patients during wakeful rest (WR) and different stages of sleep: (i) Lempel-Ziv complexity, which is derived from how compressible the data are; (ii) amplitude coalition entropy, which measures the variability over time of the set of channels active above a threshold; (iii) synchrony coalition entropy, which measures the variability over time of the set of synchronous channels. When computed across sets of channels that are broadly distributed across multiple brain regions, all three measures decreased substantially in all participants during early-night non-rapid eye movement (NREM) sleep. This decrease was partially reversed during late-night NREM sleep, while the measures scored similar to WR during rapid eye movement (REM) sleep. This global pattern was in almost all cases mirrored at the local level by groups of channels located in a single region. In testing for differences between regions, we found elevated signal complexity in the frontal lobe. These differences could not be attributed solely to changes in spectral power between conditions. Our results provide further evidence that the level of consciousness correlates with neural dynamical complexity.",
+  "link": "https://doi.org/10.1093/nc/niw022"
+}

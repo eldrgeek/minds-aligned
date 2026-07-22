@@ -1,0 +1,16 @@
+{
+  "doi": "10.1088/2634-4386/aca7de",
+  "doi_url": "https://doi.org/10.1088/2634-4386/aca7de",
+  "title": "The free energy principle induces neuromorphic development",
+  "year": "2022",
+  "journal": "Neuromorphic Computing and Engineering",
+  "authors": [
+    "Chris Fields",
+    "Karl Friston",
+    "James F. Glazebrook",
+    "Michael Levin",
+    "Antonino Marcianò"
+  ],
+  "abstract": "Abstract We show how any finite physical system with morphological, i.e. three-dimensional embedding or shape, degrees of freedom and locally limited free energy will, under the constraints of the free energy principle, evolve over time towards a neuromorphic morphology that supports hierarchical computations in which each ‘level’ of the hierarchy enacts a coarse-graining of its inputs, and dually, a fine-graining of its outputs. Such hierarchies occur throughout biology, from the architectures of intracellular signal transduction pathways to the large-scale organization of perception and action cycles in the mammalian brain. The close formal connections between cone-cocone diagrams (CCCD) as models of quantum reference frames on the one hand, and between CCCDs and topological quantum field theories on the other, allow the representation of such computations in the fully-general quantum-computational framework of topological quantum neural networks.",
+  "link": "https://doi.org/10.1088/2634-4386/aca7de"
+}

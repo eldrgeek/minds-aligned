@@ -1,0 +1,13 @@
+{
+  "doi": "10.1080/0952813x.2020.1836034",
+  "doi_url": "https://doi.org/10.1080/0952813x.2020.1836034",
+  "title": "Information flow in context-dependent hierarchical Bayesian inference",
+  "year": "2020",
+  "journal": "Journal of Experimental & Theoretical Artificial Intelligence",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook"
+  ],
+  "abstract": "Recent theories developing broad notions of context and its effects on inference are becoming increasingly important in fields as diverse as cognitive psychology, information science and quantum information theory and computing. Here we introduce a novel and general approach to the characterisation of contextuality using the techniques of Chu spaces and Channel Theory viewed as general theories of information flow. This involves introducing three essential components into the formulism: events, conditions and measurement systems. Incorporating these factors in relationship to conditional probabilities leads to information flows both in the setting of Chu spaces and Channel Theory. The latter provides a representation of semantic content using local logics from which conditionals can be derived. We employ these features to construct cone-cocone diagrams, commutativity of which enforces inferential coherence. With these we build a scale-free architecture incorporating a Bayesian-like hierarchical structure, in which there is an interpretation of active inference and Markov blankets. We compare this architecture with other theories of contextuality which we briefly review. We also show that this development of ideas conveniently accommodates negative probabilities, leading to the notion of signed information flow, and address how quantum contextuality can be interpreted within this model. Finally, we relate contextuality to the Frame Problem, another way of characterising a fundamental limitation on the observational and inferential capabilities of finite agents.",
+  "link": "https://doi.org/10.1080/0952813x.2020.1836034"
+}

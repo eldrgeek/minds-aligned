@@ -1,0 +1,14 @@
+{
+  "doi": "10.5281/zenodo.3407204",
+  "doi_url": "https://doi.org/10.5281/zenodo.3407204",
+  "title": "System Description: Statistical Parsing of Informalized Mizar Formulas",
+  "year": "2018",
+  "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban",
+    "J Vyskočil"
+  ],
+  "abstract": "We describe a statistical system that learns parsing of ambiguous Mizar-like formulas from a large training corpus of aligned informal/formal formulas. We describe the methodology, the overall ideas, evaluate the performance of the system, and provide a web interface for using the system.",
+  "link": "https://doi.org/10.5281/zenodo.3407204"
+}

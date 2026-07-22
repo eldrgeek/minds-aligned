@@ -1,0 +1,19 @@
+{
+  "doi": "10.1098/rsfs.2022.0029",
+  "doi_url": "https://doi.org/10.1098/rsfs.2022.0029",
+  "title": "On Bayesian mechanics: a physics of and by beliefs",
+  "year": "2023",
+  "journal": "Interface Focus",
+  "authors": [
+    "Maxwell J. D. Ramstead",
+    "Dalton A R Sakthivadivel",
+    "Conor Heins",
+    "Magnus Koudahl",
+    "Beren Millidge",
+    "Lancelot Da Costa",
+    "Brennan Klein",
+    "Karl Friston"
+  ],
+  "abstract": "The aim of this paper is to introduce a field of study that has emerged over the last decade, called Bayesian mechanics. Bayesian mechanics is a probabilistic mechanics, comprising tools that enable us to model systems endowed with a particular partition (i.e. into particles), where the internal states (or the trajectories of internal states) of a particular system encode the parameters of beliefs about external states (or their trajectories). These tools allow us to write down mechanical theories for systems that look as if they are estimating posterior probability distributions over the causes of their sensory states. This provides a formal language for modelling the constraints, forces, potentials and other quantities determining the dynamics of such systems, especially as they entail dynamics on a space of beliefs (i.e. on a statistical manifold). Here, we will review the state of the art in the literature on the free energy principle, distinguishing between three ways in which Bayesian mechanics has been applied to particular systems (i.e. path-tracking, mode-tracking and mode-matching). We go on to examine a duality between the free energy principle and the constrained maximum entropy principle, both of which lie at the heart of Bayesian mechanics, and discuss its implications.",
+  "link": "https://doi.org/10.1098/rsfs.2022.0029"
+}

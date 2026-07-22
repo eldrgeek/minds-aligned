@@ -1,0 +1,16 @@
+{
+  "doi": "10.1115/1.4034268",
+  "doi_url": "https://doi.org/10.1115/1.4034268",
+  "title": "Using Category Theory to Facilitate Multiple Manufacturing Service Database Integration",
+  "year": "2016",
+  "journal": "Journal of Computing and Information Science in Engineering",
+  "authors": [
+    "Ryan Wisnesky",
+    "Spencer Breiner",
+    "Albert Jones",
+    "David I. Spivak",
+    "Eswaran Subrahmanian"
+  ],
+  "abstract": "The goal of this paper is to illustrate the use of category theory (CT) as a basis for the integration of manufacturing service databases. In this paper, we use as our reference prior work by Kulvatunyou et al. (2013, “An Analysis of OWL-Based Semantic Mediation Approaches to Enhance Manufacturing Service Capability Models,” Int. J. Comput. Integr. Manuf., 27(9), pp. 803–823) on the use of web ontology language (OWL)-based semantic web tools to study the integration of different manufacturing service capability (MSC) databases using a generic-model approach that they propose in their paper. We approach the same task using a different set of tools, specifically CT and FQL, a functorial query language based on categorical mathematics. This work demonstrates the potential utility of category-theoretic information management tools and illustrates some advantages of categorical techniques for the integration and evolution of databases. We conclude by making the case that a category-theoretic approach can provide a more flexible and robust approach to integration of existing and evolving information.",
+  "link": "https://doi.org/10.1115/1.4034268"
+}

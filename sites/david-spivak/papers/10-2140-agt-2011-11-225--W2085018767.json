@@ -1,0 +1,13 @@
+{
+  "doi": "10.2140/agt.2011.11.225",
+  "doi_url": "https://doi.org/10.2140/agt.2011.11.225",
+  "title": "Rigidification of quasi-categories",
+  "year": "2011",
+  "journal": "Algebraic & Geometric Topology",
+  "authors": [
+    "Daniel Dugger",
+    "David I. Spivak"
+  ],
+  "abstract": "We give a new construction for rigidifying a quasi-category into a simplicial category, and prove that it is weakly equivalent to the rigidification given by Lurie. Our construction comes from the use of necklaces, which are simplicial sets obtained by stringing simplices together. As an application of these methods, we use our model to reprove some basic facts from Lurie [13] about the rigidification process. 55U40; 18G30, 18B99",
+  "link": "https://doi.org/10.2140/agt.2011.11.225"
+}

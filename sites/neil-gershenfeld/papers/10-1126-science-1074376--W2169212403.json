@@ -1,0 +1,15 @@
+{
+  "doi": "10.1126/science.1074376",
+  "doi_url": "https://doi.org/10.1126/science.1074376",
+  "title": "Physical One-Way Functions",
+  "year": "2002",
+  "journal": "Science",
+  "authors": [
+    "Ravikanth Pappu",
+    "Ben Recht",
+    "Jason Taylor",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Modern cryptographic practice rests on the use of one-way functions, which are easy to evaluate but difficult to invert. Unfortunately, commonly used one-way functions are either based on unproven conjectures or have known vulnerabilities. We show that instead of relying on number theory, the mesoscopic physics of coherent transport through a disordered medium can be used to allocate and authenticate unique identifiers by physically reducing the medium's microstructure to a fixed-length string of binary digits. These physical one-way functions are inexpensive to fabricate, prohibitively difficult to duplicate, admit no compact mathematical representation, and are intrinsically tamper-resistant. We provide an authentication protocol based on the enormous address space that is a principal characteristic of physical one-way functions.",
+  "link": "https://doi.org/10.1126/science.1074376"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Multiplicative Complexity and Solving Generalized Brent Equations With SAT Solvers",
+  "year": "2012",
+  "journal": null,
+  "authors": [
+    "Nicolas T. Courtois",
+    "Daniel Hulme",
+    "Theodosis Mourouzis"
+  ],
+  "abstract": "In this paper we look at the general problem of Multiplicative Complexity (MC) as an essential tool for optimizing potentially arbitrary algebraic computations over fields and rings in the general non-commutative setting. Our goal is to find optimizations in a fully automated way via algebraic formal coding and conversion to a SAT problem [1]. We focus on the basic problems of minimizing the number of multiplications in Matrix Multiplication, complex number multiplication and also quaternion multiplication. Minimizing the number of multiplications in the Matrix Multiplication problem alone (and this for problems of fixed size some of which we were able to optimize) is known to be able to lead to immediate improvements in countless other algorithms on formal languages, graphs, arbitrary finite groups, various real/complex/algebraic rings and fields of practical importance. Thus we may hope to translate our efforts to improve many high-profile applications in computer graphics, signal processing, cryptography, computational physics and chemistry, weather prediction, financial computing, Google page ranking, etc. The classical tool to solve the Matrix Multiplication problem are the Brent Equations. We have developed a methodology for solving these equations over small fields such as GF(2) with a conversion to a SAT problem and progressive lifting to larger fields and rings.We generalize the Brent Equations and extend our method to similar algebraic optimizations and to tri-linear problems. We have been able to obtain new results to decrease the MC of several well known operations in algebra, which to the best of our knowledge are new. For example we have obtained a new general 3 3 matrix multiplication method with 23 multiplications. We also present new formulas for complex number multiplications and quaternion multiplications. Additionally, using our methodology we are able to produce highly optimized implementations of small circuits. We obtained exact lower bounds with respect to MC of two very well known block ciphers, such as PRESENT and GOST, known for their exceptionally low implementation cost. Our method is efficient for any sufficiently small circuit.",
+  "link": "https://openalex.org/W2283052686"
+}

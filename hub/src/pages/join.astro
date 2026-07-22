@@ -1,0 +1,213 @@
+---
+import Base from '../layouts/Base.astro';
+
+// /join/ — the QR landing. Someone who already belongs held up a code, or sent a link;
+// this is where that lands. Served by @soma/onboard through /api/onboard/*.
+//
+// The whole point of the mechanic is that it takes about eight seconds and no password,
+// so this page does the minimum: say who invited you, take a name, let you in.
+---
+
+<Base
+  title="Join"
+  description="Join the AGI-26 constellation — someone who already belongs invited you."
+>
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-20 pb-20">
+    <div class="max-w-xl">
+      <p class="text-xs font-mono font-medium text-accent uppercase tracking-eyebrow mb-4">
+        Society of Minds Aligned · AGI-26
+      </p>
+
+      <h1 class="font-display text-hero font-bold text-cream leading-tight mb-4" id="join-title">
+        You've been invited
+      </h1>
+
+      <p class="text-lg text-body leading-relaxed mb-8" id="join-sub">
+        Checking your invitation…
+      </p>
+
+      <form id="join-form" class="space-y-4 hidden">
+        <div>
+          <label for="join-name" class="block text-sm font-mono uppercase tracking-label text-muted mb-2">
+            Your name
+          </label>
+          <input
+            id="join-name"
+            name="name"
+            type="text"
+            required
+            autocomplete="name"
+            class="w-full bg-navy-card border border-border rounded-lg px-4 py-3 text-body placeholder:text-muted/60 focus:border-accent focus:outline-none"
+            placeholder="How you'd be introduced"
+          />
+        </div>
+
+        <div>
+          <label for="join-role" class="block text-sm font-mono uppercase tracking-label text-muted mb-2">
+            What brings you here
+          </label>
+          <select
+            id="join-role"
+            name="role"
+            class="w-full bg-navy-card border border-border rounded-lg px-4 py-3 text-body focus:border-accent focus:outline-none"
+          >
+            <option value="researcher">Researcher</option>
+            <option value="builder">Builder</option>
+            <option value="student">Student</option>
+            <option value="writer">Writer</option>
+            <option value="investor">Investor</option>
+            <option value="organizer">Organizer</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="join-email" class="block text-sm font-mono uppercase tracking-label text-muted mb-2">
+            Email <span class="normal-case tracking-normal opacity-70">— optional</span>
+          </label>
+          <input
+            id="join-email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            class="w-full bg-navy-card border border-border rounded-lg px-4 py-3 text-body placeholder:text-muted/60 focus:border-accent focus:outline-none"
+            placeholder="Only if you want to hear from us"
+          />
+        </div>
+
+        <label class="flex items-start gap-3 text-sm text-muted leading-relaxed pt-1">
+          <input id="join-consent" type="checkbox" required class="mt-1 accent-accent" />
+          <span>
+            I'm joining the AGI-26 constellation and I'm fine with my name being visible to
+            other members.
+          </span>
+        </label>
+
+        <button
+          type="submit"
+          id="join-submit"
+          class="w-full bg-accent hover:bg-accent-hover text-cream font-medium rounded-lg px-4 py-3 transition-colors disabled:opacity-50"
+        >
+          Join
+        </button>
+
+        <p id="join-error" class="text-sm text-red-400 hidden"></p>
+      </form>
+
+      <div id="join-done" class="hidden">
+        <p class="text-body leading-relaxed mb-6" id="join-done-text"></p>
+        <a
+          href="/"
+          class="inline-block bg-accent hover:bg-accent-hover text-cream font-medium rounded-lg px-5 py-3 transition-colors"
+        >
+          See the roster
+        </a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script is:inline>
+  (function () {
+    var API = '/api/onboard';
+    var params = new URLSearchParams(location.search);
+    var title = document.getElementById('join-title');
+    var sub = document.getElementById('join-sub');
+    var form = document.getElementById('join-form');
+    var done = document.getElementById('join-done');
+    var doneText = document.getElementById('join-done-text');
+    var err = document.getElementById('join-error');
+    var submit = document.getElementById('join-submit');
+
+    /* @soma/onboard puts the inviter's code in the PATH — /join/<CODE> — and the rest
+       in the query. ?code= is accepted too, for a hand-written link. */
+    var pathCode = (location.pathname.match(/\/join\/([^/]+)/) || [])[1] || '';
+    var code = decodeURIComponent(pathCode) || params.get('code') || '';
+    var claim = params.get('claim') || '';
+    var channel = params.get('ch') || '';
+    var forName = params.get('for') || '';
+
+    function show(el) { el.classList.remove('hidden'); }
+    function hide(el) { el.classList.add('hidden'); }
+
+    /* Attribution beacon. Never allowed to block the join — if it fails, it fails. */
+    if (params.get('invite')) {
+      fetch(API + '/invite-open', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ invite_id: params.get('invite'), channel: channel }),
+      }).catch(function () {});
+    }
+
+    if (forName) document.getElementById('join-name').value = forName;
+
+    fetch(API + '/invite-info?' + new URLSearchParams({ code: code }))
+      .then(function (r) { return r.json(); })
+      .then(function (info) {
+        var inviter = info && info.inviter && info.inviter.name;
+        if (inviter) {
+          title.textContent = inviter + ' invited you in';
+          sub.textContent =
+            'The AGI-26 constellation: an archive and a named AI host for each thinker ' +
+            'building toward AGI. Tell us who you are and you’re in.';
+        } else {
+          title.textContent = 'Join the constellation';
+          sub.textContent =
+            'An archive and a named AI host for each thinker building toward AGI. ' +
+            'Tell us who you are and you’re in.';
+        }
+        var claimed = info && (info.claim || info.invitee);
+        if (claimed && claimed.name && !document.getElementById('join-name').value) {
+          document.getElementById('join-name').value = claimed.name;
+        }
+        show(form);
+      })
+      .catch(function () {
+        title.textContent = 'Join the constellation';
+        sub.textContent = 'Tell us who you are and you’re in.';
+        show(form);
+      });
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      hide(err);
+      submit.disabled = true;
+      submit.textContent = 'Joining…';
+
+      var route = claim ? '/one-click-join' : '/join';
+      fetch(API + route, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          code: code,
+          claim: claim,
+          channel: channel,
+          name: document.getElementById('join-name').value.trim(),
+          role: document.getElementById('join-role').value,
+          email: document.getElementById('join-email').value.trim() || null,
+          consent: document.getElementById('join-consent').checked,
+        }),
+      })
+        .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
+        .then(function (res) {
+          if (!res.ok) throw new Error((res.d && res.d.error) || 'Could not complete the join.');
+          try {
+            if (res.d.token) localStorage.setItem('agi26.session', res.d.token);
+            if (res.d.member && res.d.member.code) localStorage.setItem('agi26.code', res.d.member.code);
+          } catch (_) {}
+          hide(form);
+          doneText.textContent =
+            'You’re in' +
+            (res.d.member && res.d.member.name ? ', ' + res.d.member.name : '') +
+            '. Every archive on the roster has its own AI host — ask any of them anything.';
+          show(done);
+        })
+        .catch(function (e2) {
+          err.textContent = e2.message;
+          show(err);
+          submit.disabled = false;
+          submit.textContent = 'Join';
+        });
+    });
+  })();
+</script>

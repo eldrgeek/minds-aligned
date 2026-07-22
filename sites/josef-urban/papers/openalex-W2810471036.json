@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Escape to ATP for Mizar.",
+  "year": "2011",
+  "journal": null,
+  "authors": [
+    "Piotr Rudnicki",
+    "Josef Urban"
+  ],
+  "abstract": "An interactive ATP service is a new feature in the Mizar proof assistant. The functionality of the service is in many respects analogous to the Sledgehammer subsystem of Isabelle/HOL. The ATP service requires minimal user configuration and is accessible via a few keystrokes from within Mizar mode in Emacs. In return, for a given goal formula, the ATP service, when it succeeds, finds premises sufficient to prove the goal. The “escape ” to ATP uses a sound translation from Mizar’s language to that of first-order provers, the same translation that has been used in the more batch oriented Automated Reasoning for Mizar (MizAR) web services presented in [16]. We briefly present the interactive ATP service followed by an account of initial experiments with the tool. We claim with some confidence that the tool will substantially ease the process of preparing new Mizar articles. 1",
+  "link": "https://openalex.org/W2810471036"
+}

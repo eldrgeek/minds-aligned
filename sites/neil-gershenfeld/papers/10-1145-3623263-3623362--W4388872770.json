@@ -1,0 +1,14 @@
+{
+  "doi": "10.1145/3623263.3623362",
+  "doi_url": "https://doi.org/10.1145/3623263.3623362",
+  "title": "MAXL: Distributed Trajectories for Modular Motion",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Jake Robert Read",
+    "Nadya Peek",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Computational fabrication relies on time-synchronized operation of various machine components. Designing machines for novel workflows is of interest to the computational fabrication community, but designing control systems for these machines, especially with diverse actuators and sensors, remains challenging. We present MAXL, a modular, extensible machine control architecture that enables synchronous control of heterogeneous components. We contribute (1) a design pattern for a distributed trajectory object with one author and multiple readers, (2) high- and low-level APIs for interfacing this trajectory object to modular hardware and to digital fab applications (3) a simple time-synchronization algorithm and queuing scheme for distributing the trajectory object, and (4) an extensible hardware implementation of MAXL. We demonstrate MAXL’s utility in developing new computational fabrication applications by integrating it into two motion control applications; one for time-synchronized data output (light-painting), and the other for time-synchronized data retrieval (from an accelerometer). Finally, we discuss how MAXL can be extended for use in future machine applications.",
+  "link": "https://doi.org/10.1145/3623263.3623362"
+}

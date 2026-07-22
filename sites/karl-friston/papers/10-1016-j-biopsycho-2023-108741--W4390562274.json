@@ -1,0 +1,14 @@
+{
+  "doi": "10.1016/j.biopsycho.2023.108741",
+  "doi_url": "https://doi.org/10.1016/j.biopsycho.2023.108741",
+  "title": "Active inference as a theory of sentient behavior",
+  "year": "2024",
+  "journal": "Biological Psychology",
+  "authors": [
+    "Giovanni Pezzulo",
+    "Thomas Parr",
+    "Karl Friston"
+  ],
+  "abstract": "This review paper offers an overview of the history and future of active inference-a unifying perspective on action and perception. Active inference is based upon the idea that sentient behavior depends upon our brains' implicit use of internal models to predict, infer, and direct action. Our focus is upon the conceptual roots and development of this theory of (basic) sentience and does not follow a rigid chronological narrative. We trace the evolution from Helmholtzian ideas on unconscious inference, through to a contemporary understanding of action and perception. In doing so, we touch upon related perspectives, the neural underpinnings of active inference, and the opportunities for future development. Key steps in this development include the formulation of predictive coding models and related theories of neuronal message passing, the use of sequential models for planning and policy optimization, and the importance of hierarchical (temporally) deep internal (i.e., generative or world) models. Active inference has been used to account for aspects of anatomy and neurophysiology, to offer theories of psychopathology in terms of aberrant precision control, and to unify extant psychological theories. We anticipate further development in all these areas and note the exciting early work applying active inference beyond neuroscience. This suggests a future not just in biology, but in robotics, machine learning, and artificial intelligence.",
+  "link": "https://doi.org/10.1016/j.biopsycho.2023.108741"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Bell’s theorem from Moore’s theorem",
+  "year": "2012",
+  "journal": null,
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "It is shown that the restrictions of what can be inferred from classically recorded observational outcomes that are imposed by the no-cloning theorem, the Kochen–Specker theorem and Bell's theorem also follow from restrictions on inferences from observations formulated within classical automata theory. Similarities between the assumptions underlying classical automata theory and those underlying universally unitary quantum theory are discussed.",
+  "link": "https://openalex.org/W3102767752"
+}

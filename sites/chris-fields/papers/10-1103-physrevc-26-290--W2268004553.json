@@ -1,0 +1,17 @@
+{
+  "doi": "10.1103/physrevc.26.290",
+  "doi_url": "https://doi.org/10.1103/physrevc.26.290",
+  "title": "Interacting negative-parity bands in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">Er</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>164</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>",
+  "year": "1982",
+  "journal": "Physical Review C",
+  "authors": [
+    "Chris Fields",
+    "K. H. Hicks",
+    "R. A. Ristinen",
+    "F.W.N. de Boer",
+    "L.K. Peker",
+    "P. M. Walker"
+  ],
+  "abstract": "The interactions between a ${K}^{\\ensuremath{\\pi}}={5}^{\\ensuremath{-}}$ aligned two-quasineutron band and two octupole bands have been observed in $^{164}\\mathrm{Er}$. Band crossings occur in both even- and odd-spin sequences. The members of all three bands are observed from the bandheads (${I}^{\\ensuremath{\\pi}}={1}^{\\ensuremath{-}}, {2}^{\\ensuremath{-}}, \\mathrm{and} {5}^{\\ensuremath{-}}$) to about ${12}^{\\ensuremath{-}}$.NUCLEAR REACTIONS $^{162}\\mathrm{Dy}(\\ensuremath{\\alpha}, 2n\\ensuremath{\\gamma})^{164}\\mathrm{Er}$, $E=24$ MeV; measured ${E}_{\\ensuremath{\\gamma}}$, ${I}_{\\ensuremath{\\gamma}}(\\ensuremath{\\theta}, t)$, $\\ensuremath{\\gamma}\\ensuremath{-}\\ensuremath{\\gamma}$ coin. Deduced levels, ${K}^{\\ensuremath{\\pi}}$, ${I}^{\\ensuremath{\\pi}}$, configurations. Two-band mixing analysis.",
+  "link": "https://doi.org/10.1103/physrevc.26.290"
+}

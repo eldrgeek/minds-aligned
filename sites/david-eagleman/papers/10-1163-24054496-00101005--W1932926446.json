@@ -1,0 +1,17 @@
+{
+  "doi": "10.1163/24054496-00101005",
+  "doi_url": "https://doi.org/10.1163/24054496-00101005",
+  "title": "Subjective Duration as a Signature of Coding Efficiency: Emerging Links Among Stimulus Repetition, Predictive Coding, and Cortical GABA Levels",
+  "year": "2014",
+  "journal": "Timing & Time Perception Reviews",
+  "authors": [
+    "William J. Matthews",
+    "Devin B. Terhune",
+    "Hedderik van Rijn",
+    "David M. Eagleman",
+    "Marc A. Sommer",
+    "Warren H. Meck"
+  ],
+  "abstract": "Immediate repetition of a stimulus reduces its apparent duration relative to a novel item. Recent work indicates that this may reflect suppressed cortical responses to repeated stimuli, arising from neural adaptation and/or the predictive coding of expected stimuli. This article summarizes recent behavioral and neurobiological studies linking perceived time to the magnitude of cortical responses, including work suggesting that variations in GABA-mediated cortical inhibition may underlie some of the individual differences in time perception. We suggest that the firing of cortical neurons can be modified using simple recurrent networks with time-dependent processes that are modulated by GABA levels. These local networks feed into a core-timing network used to integrate across stimulus inputs/modalities, thereby allowing for the coordination of multiple duration ranges and effector systems.",
+  "link": "https://doi.org/10.1163/24054496-00101005"
+}

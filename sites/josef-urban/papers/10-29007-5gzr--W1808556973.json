@@ -1,0 +1,13 @@
+{
+  "doi": "10.29007/5gzr",
+  "doi_url": "https://doi.org/10.29007/5gzr",
+  "title": "Stronger Automation for Flyspeck by Feature Weighting and Strategy Evolution",
+  "year": "2018",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "Two complementary AI methods are used to improve the strength of the AI/ATP service for proving conjectures over the HOL Light and Flyspeck corpora. First, several schemes for frequency-based feature weighting are explored in combination with distance-weighted k-nearest-neighbor classifier. This results in 16% improvement (39.0% to 45.5% Flyspeck problems solved) of the overall strength of the service when using 14 CPUs and 30 seconds. The best premise-selection/ATP combination is improved from 24.2% to 31.4%, i.e. by 30%. A smaller improvement is obtained by evolving targetted E prover strategies on two particular premise selections, using the Blind Strategymaker (BliStr) system. This raises the performance of the best AI/ATP method from 31.4% to 34.9%, i.e. by 11%, and raises the current 14-CPU power of the service to 46.9%.",
+  "link": "https://doi.org/10.29007/5gzr"
+}

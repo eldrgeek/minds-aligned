@@ -1,0 +1,14 @@
+{
+  "doi": "10.1371/journal.pcbi.1010915",
+  "doi_url": "https://doi.org/10.1371/journal.pcbi.1010915",
+  "title": "Global dynamics of neural mass models",
+  "year": "2023",
+  "journal": "PLoS Computational Biology",
+  "authors": [
+    "Gerald Cooray",
+    "Richard Rosch",
+    "Karl Friston"
+  ],
+  "abstract": "Neural mass models are used to simulate cortical dynamics and to explain the electrical and magnetic fields measured using electro- and magnetoencephalography. Simulations evince a complex phase-space structure for these kinds of models; including stationary points and limit cycles and the possibility for bifurcations and transitions among different modes of activity. This complexity allows neural mass models to describe the itinerant features of brain dynamics. However, expressive, nonlinear neural mass models are often difficult to fit to empirical data without additional simplifying assumptions: e.g., that the system can be modelled as linear perturbations around a fixed point. In this study we offer a mathematical analysis of neural mass models, specifically the canonical microcircuit model, providing analytical solutions describing slow changes in the type of cortical activity, i.e. dynamical itinerancy. We derive a perturbation analysis up to second order of the phase flow, together with adiabatic approximations. This allows us to describe amplitude modulations in a relatively simple mathematical format providing analytic proof-of-principle for the existence of semi-stable states of cortical dynamics at the scale of a cortical column. This work allows for model inversion of neural mass models, not only around fixed points, but over regions of phase space that encompass transitions among semi or multi-stable states of oscillatory activity. Crucially, these theoretical results speak to model inversion in the context of multiple semi-stable brain states, such as the transition between interictal, pre-ictal and ictal activity in epilepsy.",
+  "link": "https://doi.org/10.1371/journal.pcbi.1010915"
+}

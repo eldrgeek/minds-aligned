@@ -1,0 +1,16 @@
+{
+  "doi": "10.1089/3dp.2023.0309",
+  "doi_url": "https://doi.org/10.1089/3dp.2023.0309",
+  "title": "From Words to Worlds: Exploring Generative 3D Models in Design and Fabrication",
+  "year": "2024",
+  "journal": "3D Printing and Additive Manufacturing",
+  "authors": [
+    "Valdemar Danry",
+    "Cenk Güzelis",
+    "Lingdong Huang",
+    "Neil Gershenfeld",
+    "Pattie Maes"
+  ],
+  "abstract": "The integration of artificial intelligence (AI) into the design and fabrication process has opened up novel pathways for producing custom objects and altered the traditional creative workflow. In this article, we present Depthfusion, a novel text-to-3D model generation system that empowers users to rapidly create detailed 3D models from textual or 2D image inputs, and explore the application of text-to-3D models within different fabrication techniques. Depthfusion leverages current text-to-image AI technologies such as Midjourney, Stable Diffusion, and DALL-E and integrates them with advanced mesh inflation and depth mapping techniques. This approach yields a high degree of artistic control and facilitates the production of high-resolution models that are compatible with various 3D printing methods. Our results include a biomimetic tableware set that merges intricate design with functionality, a large-scale ceramic vase illustrating the potential for additive manufacturing in ceramics, and even a sneaker-shaped bread product achieved by converting AI design into a baked form. These projects showcase the diverse possibilities for AI in the design and crafting of objects across mediums, pushing the boundaries of what is traditionally considered feasible in bespoke manufacturing.",
+  "link": "https://doi.org/10.1089/3dp.2023.0309"
+}

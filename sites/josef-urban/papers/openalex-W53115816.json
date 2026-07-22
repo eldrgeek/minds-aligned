@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "COMBINING MIZAR AND TPTP SEMANTIC PRESENTATION AND VERIFICATION TOOLS",
+  "year": "2009",
+  "journal": null,
+  "authors": [
+    "Josef Urban",
+    "Geoff Sutcliffe",
+    "Steven Trac",
+    "Yury Puzis"
+  ],
+  "abstract": "This paper describes a combination of several Mizar-based tools (the MPTP translator, XSL style sheets for Mizar), and TPTPbased tools (IDV, AGInT, SystemOnTPTP, GDV) used for visualizing, analyzing, and independent verification of Mizar proofs. The combination delivers to the readers of the Mizar Mathematical Library (MML) an easy, powerful, and almost playful way of exploring the semantics and the structure of the library. The key factors for the relative easiness of having these functionalities are the choice of XML as both internal and external interface of Mizar, and the existence of a TPTP representation of MML articles. This shows the great added value that can be obtained by cooperation of several quite diverse (and quite often separately developed) projects, provided that they are based on the same communication standards.",
+  "link": "https://openalex.org/W53115816"
+}

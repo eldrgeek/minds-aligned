@@ -1,0 +1,17 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Algorithmic approaches to reconfigurable assembly systems",
+  "year": "2019",
+  "journal": "TU/e Research Portal (Eindhoven University of Technology)",
+  "authors": [
+    "Allan dos Santos Costa",
+    "Amira Abdel-Rahman",
+    "Benjamin Jenett",
+    "Neil Gershenfeld",
+    "Kostitsyna, I Irina",
+    "Kenneth Cheung"
+  ],
+  "abstract": "&lt;p&gt;Assembly of large scale structural systems in space is understood as critical to serving applications that cannot be deployed from a single launch. Recent literature proposes the use of discrete modular structures for in-space assembly and relatively small scale robotics that are able to modify and traverse the structure. This paper addresses the algorithmic problems in scaling reconfigurable space structures built through robotic construction, where reconfiguration is defined as the problem of transforming an initial structure into a different goal configuration. We analyze different algorithmic paradigms and present corresponding abstractions and graph formulations, examining specialized algorithms that consider discretized space and time steps. We then discuss fundamental design trades for different computational architectures, such as centralized versus distributed, and present two representative algorithms as concrete examples for comparison. We analyze how those algorithms achieve different objective functions and goals, such as minimization of total distance traveled, maximization of fault-tolerance, or minimization of total time spent in assembly. This is meant to offer an impression of algorithmic constraints on scalability of corresponding structural and robotic design. From this study, a set of recommendations is developed on where and when to use each paradigm, as well as implications for physical robotic and structural system design.&lt;/p&gt;",
+  "link": "https://openalex.org/W3105272157"
+}

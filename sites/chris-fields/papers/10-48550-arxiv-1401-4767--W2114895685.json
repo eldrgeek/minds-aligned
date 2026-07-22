@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1401.4767",
+  "doi_url": "https://doi.org/10.48550/arxiv.1401.4767",
+  "title": "Hilbert-space factorization is a limited and expensive information-processing resource",
+  "year": "2014",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "By taking the need for quantum reference frames into account, it is shown that Hilbert-space factorization is a dissipative process requiring on the order of kT to reduce by one bit an observer's uncertainty in the provenance of a classically-recorded observational outcome. This cost is neglected in standard treatments of decoherence that assume that observational outcomes are obtained by interacting with a collection of degrees of freedom identified a priori. Treating this cost explicitly leads to a natural measure of the probability of any particular quantum reference frame.",
+  "link": "https://doi.org/10.48550/arxiv.1401.4767"
+}

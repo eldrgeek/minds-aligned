@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2308.07775",
+  "doi_url": "https://doi.org/10.48550/arxiv.2308.07775",
+  "title": "Hierarchical generative modelling for autonomous robots",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Kai Yuan",
+    "Noor Sajid",
+    "Karl Friston",
+    "Zhibin Li"
+  ],
+  "abstract": "Humans can produce complex whole-body motions when interacting with their surroundings, by planning, executing and combining individual limb movements. We investigated this fundamental aspect of motor control in the setting of autonomous robotic operations. We approach this problem by hierarchical generative modelling equipped with multi-level planning-for autonomous task completion-that mimics the deep temporal architecture of human motor control. Here, temporal depth refers to the nested time scales at which successive levels of a forward or generative model unfold, for example, delivering an object requires a global plan to contextualise the fast coordination of multiple local movements of limbs. This separation of temporal scales also motivates robotics and control. Specifically, to achieve versatile sensorimotor control, it is advantageous to hierarchically structure the planning and low-level motor control of individual limbs. We use numerical and physical simulation to conduct experiments and to establish the efficacy of this formulation. Using a hierarchical generative model, we show how a humanoid robot can autonomously complete a complex task that necessitates a holistic use of locomotion, manipulation, and grasping. Specifically, we demonstrate the ability of a humanoid robot that can retrieve and transport a box, open and walk through a door to reach the destination, approach and kick a football, while showing robust performance in presence of body damage and ground irregularities. Our findings demonstrated the effectiveness of using human-inspired motor control algorithms, and our method provides a viable hierarchical architecture for the autonomous completion of challenging goal-directed tasks.",
+  "link": "https://doi.org/10.48550/arxiv.2308.07775"
+}

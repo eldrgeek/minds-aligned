@@ -1,0 +1,13 @@
+{
+  "doi": "10.3390/g15050030",
+  "doi_url": "https://doi.org/10.3390/g15050030",
+  "title": "Nash Equilibria and Undecidability in Generic Physical Interactions—A Free Energy Perspective",
+  "year": "2024",
+  "journal": "Games",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook"
+  ],
+  "abstract": "We start from the fundamental premise that any physical interaction can be interpreted as a game. To demonstrate this, we draw upon the free energy principle and the theory of quantum reference frames. In this way, we place the game-theoretic Nash Equilibrium in a new light in so far as the incompleteness and undecidability of the concept, as well as the nature of strategies in general, can be seen as the consequences of certain no-go theorems. We show that games of the generic imitation type follow a circularity of idealization that includes the good regulator theorem, generalized synchrony, and undecidability of the Turing test. We discuss Bayesian games in the light of Bell non-locality and establish the basics of quantum games, which we relate to local operations and classical communication protocols. In this light, we also review the rationality of gaming strategies from the players’ point of view.",
+  "link": "https://doi.org/10.3390/g15050030"
+}

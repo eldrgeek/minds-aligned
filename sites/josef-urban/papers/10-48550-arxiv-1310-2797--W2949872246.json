@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1310.2797",
+  "doi_url": "https://doi.org/10.48550/arxiv.1310.2797",
+  "title": "Lemma Mining over HOL Light",
+  "year": "2013",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "Large formal mathematical libraries consist of millions of atomic inference steps that give rise to a corresponding number of proved statements (lemmas). Analogously to the informal mathematical practice, only a tiny fraction of such statements is named and re-used in later proofs by formal mathematicians. In this work, we suggest and implement criteria defining the estimated usefulness of the HOL Light lemmas for proving further theorems. We use these criteria to mine the large inference graph of all lemmas in the core HOL Light library, adding thousands of the best lemmas to the pool of named statements that can be re-used in later proofs. The usefulness of the new lemmas is then evaluated by comparing the performance of automated proving of the core HOL Light theorems with and without such added lemmas.",
+  "link": "https://doi.org/10.48550/arxiv.1310.2797"
+}

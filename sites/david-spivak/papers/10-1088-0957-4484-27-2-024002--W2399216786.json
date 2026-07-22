@@ -1,0 +1,15 @@
+{
+  "doi": "10.1088/0957-4484/27/2/024002",
+  "doi_url": "https://doi.org/10.1088/0957-4484/27/2/024002",
+  "title": "Categorical prototyping: incorporating molecular mechanisms into 3D printing",
+  "year": "2015",
+  "journal": "Nanotechnology",
+  "authors": [
+    "Dieter B. Brommer",
+    "Tristan Giesa",
+    "David I. Spivak",
+    "Markus J. Buehler"
+  ],
+  "abstract": "We apply the mathematical framework of category theory to articulate the precise relation between the structure and mechanics of a nanoscale system in a macroscopic domain. We maintain the chosen molecular mechanical properties from the nanoscale to the continuum scale. Therein we demonstrate a procedure to 'protoype a model', as category theory enables us to maintain certain information across disparate fields of study, distinct scales, or physical realizations. This process fits naturally with prototyping, as a prototype is not a complete product but rather a reduction to test a subset of properties. To illustrate this point, we use large-scale multi-material printing to examine the scaling of the elastic modulus of 2D carbon allotropes at the macroscale and validate our printed model using experimental testing. The resulting hand-held materials can be examined more readily, and yield insights beyond those available in the original digital representations. We demonstrate this concept by twisting the material, a test beyond the scope of the original model. The method developed can be extended to other methods of additive manufacturing.",
+  "link": "https://doi.org/10.1088/0957-4484/27/2/024002"
+}

@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2107.11153",
+  "doi_url": "https://doi.org/10.48550/arxiv.2107.11153",
+  "title": "Constellation: Learning relational abstractions over objects for\\n compositional imagination",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "James C. R. Whittington",
+    "Rishabh Kabra",
+    "Löıc Matthey",
+    "Christopher Burgess",
+    "Alexander Lerchner"
+  ],
+  "abstract": "Learning structured representations of visual scenes is currently a major\\nbottleneck to bridging perception with reasoning. While there has been exciting\\nprogress with slot-based models, which learn to segment scenes into sets of\\nobjects, learning configurational properties of entire groups of objects is\\nstill under-explored. To address this problem, we introduce Constellation, a\\nnetwork that learns relational abstractions of static visual scenes, and\\ngeneralises these abstractions over sensory particularities, thus offering a\\npotential basis for abstract relational reasoning. We further show that this\\nbasis, along with language association, provides a means to imagine sensory\\ncontent in new ways. This work is a first step in the explicit representation\\nof visual relationships and using them for complex cognitive procedures.\\n",
+  "link": "https://doi.org/10.48550/arxiv.2107.11153"
+}

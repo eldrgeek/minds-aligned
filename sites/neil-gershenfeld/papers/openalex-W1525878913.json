@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Electric field imaging",
+  "year": "1999",
+  "journal": null,
+  "authors": [
+    "Joshua R. Smith",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "The physical user interface is an increasingly significant factor limiting the effectiveness of our interactions with and through technology. This thesis introduces Electric Field Imaging, a new physical channel and inference framework for machine perception of human action. Though electric field sensing is an important sensory modality for several species of fish, it has not been seriously explored as a channel for machine perception. Technological applications of field sensing, from the Theremin to the capacitive elevator button, have been limited to simple proximity detection tasks. This thesis presents a solution to the inverse problem of inferring geometrical information about the configuration and motion of the human body from electric field measurements. It also presents simple, inexpensive hardware and signal processing techniques for making the field measurements, and several new applications of electric field sensing. The signal",
+  "link": "https://openalex.org/W1525878913"
+}

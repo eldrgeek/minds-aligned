@@ -1,0 +1,21 @@
+{
+  "doi": "10.1016/j.nicl.2023.103556",
+  "doi_url": "https://doi.org/10.1016/j.nicl.2023.103556",
+  "title": "Large-scale effective connectivity analysis reveals the existence of two mutual inhibitory systems in patients with major depression",
+  "year": "2023",
+  "journal": "NeuroImage Clinical",
+  "authors": [
+    "Jia Wang",
+    "Baojuan Li",
+    "Jian Liu",
+    "Jiaming Li",
+    "Adeel Razi",
+    "Kaizhong Zheng",
+    "Baoyu Yan",
+    "Huaning Wang",
+    "Hongbing Lu",
+    "Karl Friston"
+  ],
+  "abstract": "• Large-scale brain networks form two mutual inhibitory systems in healthy controls and patients with MDD. • Patients with MDD exhibit increased intra-system connectivity and decreased inter-system connectivity. • A shift of the controlling role of the CEN and DAN to the DMN, SN, AN and VN in the MDD patients. It is posited that cognitive and affective dysfunction in patients with major depression disorder (MDD) may be caused by dysfunctional signal propagation in the brain. By leveraging dynamic causal modeling, we investigated large-scale directed signal propagation (effective connectivity) among distributed large-scale brain networks with 43 MDD patients and 56 healthy controls. The results revealed the existence of two mutual inhibitory systems: the anterior default mode network, auditory network, sensorimotor network, salience network and visual networks formed an “emotional” brain, while the posterior default mode network, central executive networks, cerebellum and dorsal attention network formed a “rational brain”. These two networks exhibited excitatory intra-system connectivity and inhibitory inter-system connectivity. Patients were characterized by potentiated intra-system connections within the “emotional/sensory brain”, as well as over-inhibition of the “rational brain” by the “emotional/sensory brain”. The hierarchical architecture of the large-scale effective connectivity networks was then analyzed using a PageRank algorithm which revealed a shift of the controlling role of the “rational brain” to the “emotional/sensory brain” in the patients. These findings inform basic organization of distributed large-scale brain networks and furnish a better characterization of the neural mechanisms of depression, which may facilitate effective treatment.",
+  "link": "https://doi.org/10.1016/j.nicl.2023.103556"
+}

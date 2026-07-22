@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "[Correlation of the coronary heart disease risk factors and coronary angiographic data].",
+  "year": "1982",
+  "journal": "PubMed",
+  "authors": [
+    "Vlietstra Re",
+    "Kronmal Ra",
+    "Anil K. Seth",
+    "Frye Rl"
+  ],
+  "abstract": "The findings for 14 risk variables were correlated with the results of coronary angiography in 8807 patients enrolled in the multicenter Coronary Artery Surgery Study. Discriminant function analysis revealed that age, sex, cigarette smoking and level of blood cholesterol best distinguished between the groups with (6688 patients) and without (2119 patients) coronary artery disease (CAD). The relative risk for CAD in patients with the combination of cigarette smoking and an elevated cholesterol level was high in women 55 years old or younger and in men 35 years old or younger. Few women 45 years old or younger (7 out of 97) had CAD when neither of these risk factors were present. Despite these correlations, only limited gains accrued from the use of discriminant function analysis in correctly allocating patients into disease and nondisease groups. Extent and severity of disease in 15298 patients with CAD were significantly (p less than 0.001) but modestly correlated with age, sex, blood cholesterol level and history of diabetes or hypertension. No positive correlation occurred between the arteriographic measures of disease and the cigarette smoking history. Thus, factors influencing the presence of disease may differ from those influencing its extent and severity.",
+  "link": "https://openalex.org/W2413156659"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1606.08644",
+  "doi_url": "https://doi.org/10.48550/arxiv.1606.08644",
+  "title": "Detectability of Granger causality for subsampled continuous-time\\n neurophysiological processes",
+  "year": "2016",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "L. D. Barnett",
+    "Anil K. Seth"
+  ],
+  "abstract": "Granger causality is well established within the neurosciences for inference\\nof directed functional connectivity from neurophysiological data. These data\\nusually consist of time series which subsample a continuous-time\\nbiophysiological process. While it is well-known that subsampling can lead to\\nimputation of spurious causal connections where none exist, here we address the\\nequally important issue of the effects of subsampling on the ability to\\nreliably detect causal connections which do exist.\\n Neurophysiological processes typically feature signal propagation delays on\\nmultiple time scales; accordingly, we base our analysis on a distributed-lag,\\ncontinuous-time stochastic model, and consider Granger causality in continuous\\ntime at finite prediction horizons. Via exact analytical solutions, we identify\\nrelationships among sampling frequency, underlying causal time scales and\\ndetectability of causalities. Our analysis reveals complex interactions between\\nthe time scale(s) of neural signal propagation and sampling frequency: we\\ndemonstrate that Granger causality decays exponentially as the sample time\\ninterval increases beyond causal delay times, identify detectability \"black\\nspots\" and \"sweet spots\", and show that subsampling may sometimes improve\\ndetectability. We also demonstrate that the invariance of Granger causality\\nunder causal, invertible filtering fails at finite prediction horizons. We\\ndiscuss the implications of our results for inference of Granger causality at\\nthe neural level from various neurophysiological recording modes, and emphasise\\nthat sampling rates for causal analysis of neurophysiological time series\\nshould be informed by domain-specific time scales.\\n",
+  "link": "https://doi.org/10.48550/arxiv.1606.08644"
+}

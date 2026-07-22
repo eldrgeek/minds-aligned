@@ -1,0 +1,15 @@
+{
+  "doi": "10.3389/fnbot.2022.944986",
+  "doi_url": "https://doi.org/10.3389/fnbot.2022.944986",
+  "title": "Small steps for mankind: Modeling the emergence of cumulative culture from joint active inference communication",
+  "year": "2023",
+  "journal": "Frontiers in Neurorobotics",
+  "authors": [
+    "Natalie Kastel",
+    "Casper Hesp",
+    "K. Richard Ridderinkhof",
+    "Karl Friston"
+  ],
+  "abstract": "Although the increase in the use of dynamical modeling in the literature on cultural evolution makes current models more mathematically sophisticated, these models have yet to be tested or validated. This paper provides a testable deep active inference formulation of social behavior and accompanying simulations of cumulative culture in two steps: First, we cast cultural transmission as a bi-directional process of communication that induces a generalized synchrony (operationalized as a particular convergence) between the belief states of interlocutors. Second, we cast social or cultural exchange as a process of active inference by equipping agents with the choice of who to engage in communication with. This induces trade-offs between confirmation of current beliefs and exploration of the social environment. We find that cumulative culture emerges from belief updating (i.e., active inference and learning) in the form of a joint minimization of uncertainty. The emergent cultural equilibria are characterized by a segregation into groups, whose belief systems are actively sustained by selective, uncertainty minimizing, dyadic exchanges. The nature of these equilibria depends sensitively on the precision afforded by various probabilistic mappings in each individual's generative model of their encultured niche.",
+  "link": "https://doi.org/10.3389/fnbot.2022.944986"
+}

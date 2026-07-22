@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1802.03080",
+  "doi_url": "https://doi.org/10.48550/arxiv.1802.03080",
+  "title": "Abstraction, Composition and Contracts: A Sheaf Theoretic Approach",
+  "year": "2018",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alberto Speranzon",
+    "David I. Spivak",
+    "Srivatsan Varadarajan"
+  ],
+  "abstract": "Complex systems of systems (SoS) are characterized by multiple interconnected subsystems. Typically, each subsystem is designed and analyzed using methodologies and formalisms that are specific to the particular subsystem model of computation considered --- Petri nets, continuous time ODEs, nondeterministic automata, to name a few. When interconnecting subsystems, a designer needs to choose, based on the specific subsystems models, a common abstraction framework to analyze the composition. In this paper we introduce a new framework for abstraction, composition and analysis of SoS that builds on results and methods developed in sheaf theory, category theory and topos theory. In particular, we will be modeling behaviors of systems using sheaves, leverage category theoretic methods to define wiring diagrams and formalize composition and, by establishing a connection with topos theory, define a formal (intuitionistic/constructive) logic with a sound sheaf semantics",
+  "link": "https://doi.org/10.48550/arxiv.1802.03080"
+}

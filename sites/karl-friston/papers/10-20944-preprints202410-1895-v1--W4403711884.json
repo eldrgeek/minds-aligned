@@ -1,0 +1,18 @@
+{
+  "doi": "10.20944/preprints202410.1895.v1",
+  "doi_url": "https://doi.org/10.20944/preprints202410.1895.v1",
+  "title": "As One and Many: Relating Individual and Emergent Group-Level Generative Models in Active Inference",
+  "year": "2024",
+  "journal": "Preprints.org",
+  "authors": [
+    "Peter Thestrup Waade",
+    "C. Olesen",
+    "Jonathan Ehrenreich Laursen",
+    "Samuel William Nehrer",
+    "Conor Heins",
+    "Karl Friston",
+    "Christoph Mathys"
+  ],
+  "abstract": "Active inference under the Free Energy Principle has been proposed as an across-scales compatible framework for understanding and modelling behaviour and self-maintenance. Crucially, a collective of active inference agents can, if they maintain a group-level Markov Blanket, constitute a larger group-level active inference agent with a generative model of its own. This potential for computational, scale-free structures speaks to the application of active inference to self-organizing systems across spatiotemporal scales, from cells to human collectives. Due to the difficulty of reconstructing the generative model — that explains the behaviour — of emergent group-level agents, there has been little research on this kind of multi-scale active inference. Here, we propose a data-driven methodology for characterising the relation between the generative model of a group-level agent and the dynamics of its constituent individual agents. We apply methods from computational cognitive modelling and computational psychiatry, applicable for active inference as well as other types of modelling approaches. Using a simple multi-armed bandit task as an example, we employ the new ActiveInference.jl library for Julia to simulate a collective of agents who are equipped with a Markov blanket. We use sampling-based parameter estimation to make inferences about the generative model of the group-level agent and we show that there is a non-trivial relationship between the generative models of individual agents and the group-level agent they constitute, even in this simple setting. Finally, we point to a number of ways in which this methodology might be applied to better understand the relations between nested active inference agents across scales.",
+  "link": "https://doi.org/10.20944/preprints202410.1895.v1"
+}

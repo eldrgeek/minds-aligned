@@ -1,0 +1,16 @@
+{
+  "doi": "10.1109/ijcnn.2018.8489673",
+  "doi_url": "https://doi.org/10.1109/ijcnn.2018.8489673",
+  "title": "Unsupervised Learning with Self-Organizing Spiking Neural Networks",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Hananel Hazan",
+    "Daniel J. Saunders",
+    "Darpan Sanghavi",
+    "Hava T. Siegelmann",
+    "Róbert Kozma"
+  ],
+  "abstract": "We present a system comprising a hybridization of self-organized map (SOM) properties with spiking neural networks (SNNs) that retain many of the features of SOMs. Networks are trained in an unsupervised manner to learn a self-organized lattice of filters via excitatory-inhibitory interactions among populations of neurons. We develop and test various inhibition strategies, such as growing with inter-neuron distance and two distinct levels of inhibition. The quality of the unsupervised learning algorithm is evaluated using examples with known labels. Several biologically-inspired classification tools are proposed and compared, including population-level confidence rating, and n-grams using spike motif algorithm. Using the optimal choice of parameters, our approach produces improvements over state-of-art spiking neural networks.",
+  "link": "https://doi.org/10.1109/ijcnn.2018.8489673"
+}

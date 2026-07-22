@@ -1,0 +1,13 @@
+{
+  "doi": "10.1007/978-3-031-99984-0_23",
+  "doi_url": "https://doi.org/10.1007/978-3-031-99984-0_23",
+  "title": "Learning Conjecturing from Scratch",
+  "year": "2025",
+  "journal": "Lecture notes in computer science",
+  "authors": [
+    "Thibault Gauthier",
+    "Josef Urban"
+  ],
+  "abstract": "Abstract We develop a self-learning approach for conjecturing of induction predicates on a dataset of 14,005 problems derived from the OEIS. These problems are hard for today’s SMT and ATP systems because they require a combination of inductive and arithmetical reasoning. Starting from scratch, our approach consists of a feedback loop that iterates between (i) training a neural translator to learn the correspondence between the problems solved so far and the induction predicates useful for them, (ii) using the trained neural system to generate many new induction predicates for the problems, (iii) fast runs of the Z3 prover attempting to prove the problems using the generated predicates, (iv) using heuristics such as predicate size and solution speed on the proved problems to choose the best predicates for the next iteration of training. The algorithm discovers on its own many interesting induction predicates, ultimately solving 3,590 problems, compared to 835 problems solved by CVC5, Vampire or Z3 in 60 s.",
+  "link": "https://doi.org/10.1007/978-3-031-99984-0_23"
+}

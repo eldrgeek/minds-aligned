@@ -1,0 +1,13 @@
+{
+  "doi": "10.1016/j.entcs.2006.09.022",
+  "doi_url": "https://doi.org/10.1016/j.entcs.2006.09.022",
+  "title": "Presenting and Explaining Mizar",
+  "year": "2007",
+  "journal": "Electronic Notes in Theoretical Computer Science",
+  "authors": [
+    "Josef Urban",
+    "Grzegorz Bancerek"
+  ],
+  "abstract": "The Mizar proof language has both many human-friendly presentation features, and also firm semantical level allowing rigorous proof checking. Both the presentation features and the semantics are important for users, and an ideal Mizar presentation should be both human-friendly (i.e. very close to textbook presentations), and also allowing fast access to the detailed semantics and detailed proof explanations. This poses several questions, problems and choices when presenting original Mizar texts, presenting results of semantic queries over the Mizar library, and also when presenting texts produced directly on the semantical level, e.g. by automated theorem provers. This paper discusses solutions to these problems, and particularly implements an initial system for presenting detailed explanations of atomic Mizar inferences. This is done by the cooperation of the Mizar XML presentation tools, the MML Query system, and automated theorem provers working on the MPTP semantic translation of Mizar.",
+  "link": "https://doi.org/10.1016/j.entcs.2006.09.022"
+}

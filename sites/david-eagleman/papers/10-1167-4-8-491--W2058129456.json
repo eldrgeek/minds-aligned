@@ -1,0 +1,12 @@
+{
+  "doi": "10.1167/4.8.491",
+  "doi_url": "https://doi.org/10.1167/4.8.491",
+  "title": "Time perception is distorted during slow motion sequences in movies",
+  "year": "2004",
+  "journal": "Journal of Vision",
+  "authors": [
+    "David M. Eagleman"
+  ],
+  "abstract": "Little is understood about the perceived speeding and slowing of psychological time. Here I propose that the speed of psychological time passage is regulated, at least in part, by sensory feedback prediction errors. In this framework, sensory feedback is compared against predictions, and the difference (i.e., the error) can tell the nervous system whether its perceived speed of the passage of time is flowing too slowly or quickly. Time perception will accordingly speed or slow to minimize prediction errors. In support of this hypothesis, I report a striking new illusion: duration judgments are distorted during slow-motion sequences in movies. Subjects compared the durations of two brief flashes. The flashes were superimposed over movies of natural biological motion (such as a sprinting cheetah). A flash presented during a slow-motion sequence of the movie is erroneously perceived as having an average of 27% shorter duration than an identical flash presented during a normal-speed sequence of the movie. In frame-shuffled, pixel-scrambled, and upside-down versions of the movie, no illusory time-distortion is found; this indicates that the time-distortion illusion only happens when the future positions of the objects in the movie are predictable. In summary, when a dynamic natural scene changes speed, a moving object's positions may be correctly predicted by a forward internal model of Newtonian physics — however, the timing of those positions is no longer predicted correctly. I suggest the nervous system can eliminate these feedback prediction errors with a simple trick: by modifying its estimated speed of the flow of physical time. Such a change is expected to have measurable perceptual consequences, which I suggest are exposed by this novel time-distortion illusion.",
+  "link": "https://doi.org/10.1167/4.8.491"
+}

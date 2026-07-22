@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.1905.09275",
+  "doi_url": "https://doi.org/10.48550/arxiv.1905.09275",
+  "title": "COBRA: Data-Efficient Model-Based RL through Unsupervised Object Discovery and Curiosity-Driven Exploration",
+  "year": "2019",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Nicholas Watters",
+    "Löıc Matthey",
+    "Matko Bošnjak",
+    "Christopher Burgess",
+    "Alexander Lerchner"
+  ],
+  "abstract": "Data efficiency and robustness to task-irrelevant perturbations are long-standing challenges for deep reinforcement learning algorithms. Here we introduce a modular approach to addressing these challenges in a continuous control environment, without using hand-crafted or supervised information. Our Curious Object-Based seaRch Agent (COBRA) uses task-free intrinsically motivated exploration and unsupervised learning to build object-based models of its environment and action space. Subsequently, it can learn a variety of tasks through model-based search in very few steps and excel on structured hold-out tests of policy robustness.",
+  "link": "https://doi.org/10.48550/arxiv.1905.09275"
+}

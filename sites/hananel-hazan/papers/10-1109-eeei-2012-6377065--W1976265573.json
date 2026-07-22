@@ -1,0 +1,16 @@
+{
+  "doi": "10.1109/eeei.2012.6377065",
+  "doi_url": "https://doi.org/10.1109/eeei.2012.6377065",
+  "title": "Early diagnosis of Parkinson's disease via machine learning on speech data",
+  "year": "2012",
+  "journal": null,
+  "authors": [
+    "Hananel Hazan",
+    "Dan Hilu",
+    "Larry M. Manevitz",
+    "Lorraine O. Ramig",
+    "Shimon Sapir"
+  ],
+  "abstract": "Using two distinct data sets (from the USA and Germany) of healthy controls and patients with early or mild stages of Parkinson's disease, we show that machine learning tools can be used for the early diagnosis of Parkinson's disease from speech data. This could potentially be applicable before physical symptoms appear. In addition, we show that while the training phase of machine learning process from one country can be reused in the other; different features dominate in each country; presumably because of languages differences. Three results are presented: (i) separate training and testing by each country (close to 85% range); (ii) pooled training and testing (about 80% range) and (iii) cross-country (training in one and testing in the other) (about 75% ranges). We discovered that different feature sets were needed for each country (language).",
+  "link": "https://doi.org/10.1109/eeei.2012.6377065"
+}

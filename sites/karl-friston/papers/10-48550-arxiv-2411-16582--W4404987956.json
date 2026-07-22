@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2411.16582",
+  "doi_url": "https://doi.org/10.48550/arxiv.2411.16582",
+  "title": "Dynamic Causal Models of Time-Varying Connectivity",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Johan Medrano",
+    "Karl Friston",
+    "Peter Zeidman"
+  ],
+  "abstract": "This paper introduces a novel approach for modelling time-varying connectivity in neuroimaging data, focusing on the slow fluctuations in synaptic efficacy that mediate neuronal dynamics. Building on the framework of Dynamic Causal Modelling (DCM), we propose a method that incorporates temporal basis functions into neural models, allowing for the explicit representation of slow parameter changes. This approach balances expressivity and computational efficiency by modelling these fluctuations as a Gaussian process, offering a middle ground between existing methods that either strongly constrain or excessively relax parameter fluctuations. We validate the ensuing model through simulations and real data from an auditory roving oddball paradigm, demonstrating its potential to explain key aspects of brain dynamics. This work aims to equip researchers with a robust tool for investigating time-varying connectivity, particularly in the context of synaptic modulation and its role in both healthy and pathological brain function.",
+  "link": "https://doi.org/10.48550/arxiv.2411.16582"
+}

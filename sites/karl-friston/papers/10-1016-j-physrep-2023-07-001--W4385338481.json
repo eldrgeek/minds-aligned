@@ -1,0 +1,18 @@
+{
+  "doi": "10.1016/j.physrep.2023.07.001",
+  "doi_url": "https://doi.org/10.1016/j.physrep.2023.07.001",
+  "title": "The free energy principle made simpler but not too simple",
+  "year": "2023",
+  "journal": "Physics Reports",
+  "authors": [
+    "Karl Friston",
+    "Lancelot Da Costa",
+    "Noor Sajid",
+    "Conor Heins",
+    "Kai Ueltzhöffer",
+    "Grigorios A. Pavliotis",
+    "Thomas Parr"
+  ],
+  "abstract": "This paper provides a concise description of the free energy principle, starting from a formulation of random dynamical systems in terms of a Langevin equation and ending with a Bayesian mechanics that can be read as a physics of sentience. It rehearses the key steps using standard results from statistical physics. These steps entail (i) establishing a particular partition of states based upon conditional independencies that inherit from sparsely coupled dynamics, (ii) unpacking the implications of this partition in terms of Bayesian inference and (iii) describing the paths of particular states with a variational principle of least action. Teleologically, the free energy principle offers a normative account of self-organisation in terms of optimal Bayesian design and decision-making, in the sense of maximising marginal likelihood or Bayesian model evidence. In summary, starting from a description of the world in terms of random dynamical systems, we end up with a description of self-organisation as sentient behaviour that can be interpreted as self-evidencing; namely, self-assembly, autopoiesis or active inference.",
+  "link": "https://doi.org/10.1016/j.physrep.2023.07.001"
+}

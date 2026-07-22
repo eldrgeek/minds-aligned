@@ -1,0 +1,18 @@
+{
+  "doi": "10.1101/2021.01.15.426822",
+  "doi_url": "https://doi.org/10.1101/2021.01.15.426822",
+  "title": "Formation and Spontaneous Long-Term Repatterning of Headless Planarian Flatworms",
+  "year": "2021",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Johanna Bischof",
+    "Jennifer V. LaPalme",
+    "Kelsie A. Miller",
+    "Junji Morokuma",
+    "Katherine B. Williams",
+    "Chris Fields",
+    "Michael Levin"
+  ],
+  "abstract": "Abstract Regeneration requires the production of large numbers of new cells, and thus cell division regulators, particularly ERK signaling, are critical in regulating this process. In the highly regenerative planarian flatworm, questions remain as to whether ERK signaling controls overall regeneration or plays a head-specific role. Here we show that ERK inhibition in the 3 days following amputation delays regeneration, but that all tissues except the head can overcome this inhibition, resulting in headless regenerates. This prevention of head regeneration happens to a different degree along the anterior-posterior axis, with very anterior wounds regenerating heads even under ERK inhibition. Remarkably, 4 to 18 weeks after injury, the headless animals induced by ERK inhibition remodel to regain single-headed morphology, in the absence of further injury, in a process driven by Wnt/β-catenin signaling. Interestingly, headless animals are likely to exhibit unstable axial polarity, and cutting or fissioning prior to remodeling can result in body-wide reversal of anterior-posterior polarity. Our data reveal new aspects of how ERK signaling regulates regeneration in planaria and show anatomical remodeling on very long timescales.",
+  "link": "https://doi.org/10.1101/2021.01.15.426822"
+}

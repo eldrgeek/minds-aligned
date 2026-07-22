@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2305.11243",
+  "doi_url": "https://doi.org/10.48550/arxiv.2305.11243",
+  "title": "Comparing Machines and Children: Using Developmental Psychology Experiments to Assess the Strengths and Weaknesses of LaMDA Responses",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Eliza Kosoy",
+    "Emily Rose Reagan",
+    "Leslie Lai",
+    "Alison Gopnik",
+    "Danielle Krettek Cobb"
+  ],
+  "abstract": "Developmental psychologists have spent decades devising experiments to test the intelligence and knowledge of infants and children, tracing the origin of crucial concepts and capacities. Moreover, experimental techniques in developmental psychology have been carefully designed to discriminate the cognitive capacities that underlie particular behaviors. We propose that using classical experiments from child development is a particularly effective way to probe the computational abilities of AI models, in general, and LLMs in particular. First, the methodological techniques of developmental psychology, such as the use of novel stimuli to control for past experience or control conditions to determine whether children are using simple associations, can be equally helpful for assessing the capacities of LLMs. In parallel, testing LLMs in this way can tell us whether the information that is encoded in text is sufficient to enable particular responses, or whether those responses depend on other kinds of information, such as information from exploration of the physical world. In this work we adapt classical developmental experiments to evaluate the capabilities of LaMDA, a large language model from Google. We propose a novel LLM Response Score (LRS) metric which can be used to evaluate other language models, such as GPT. We find that LaMDA generates appropriate responses that are similar to those of children in experiments involving social understanding, perhaps providing evidence that knowledge of these domains is discovered through language. On the other hand, LaMDA's responses in early object and action understanding, theory of mind, and especially causal reasoning tasks are very different from those of young children, perhaps showing that these domains require more real-world, self-initiated exploration and cannot simply be learned from patterns in language input.",
+  "link": "https://doi.org/10.48550/arxiv.2305.11243"
+}

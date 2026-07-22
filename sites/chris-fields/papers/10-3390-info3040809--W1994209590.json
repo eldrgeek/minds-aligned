@@ -1,0 +1,12 @@
+{
+  "doi": "10.3390/info3040809",
+  "doi_url": "https://doi.org/10.3390/info3040809",
+  "title": "Implementation of Classical Communication in a Quantum World",
+  "year": "2012",
+  "journal": "Information",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Observations of quantum systems carried out by finite observers who subsequently communicate their results using classical data structures can be described as “local operations, classical communication” (LOCC) observations. The implementation of LOCC observations by the Hamiltonian dynamics prescribed by minimal quantum mechanics is investigated. It is shown that LOCC observations cannot be described using decoherence considerations alone, but rather require the a priori stipulation of a positive operator-valued measure (POVM) about which communicating observers agree. It is also shown that the transfer of classical information from system to observer can be described in terms of system-observer entanglement, raising the possibility that an apparatus implementing an appropriate POVM can reveal the entangled system-observer states that implement LOCC observations.",
+  "link": "https://doi.org/10.3390/info3040809"
+}

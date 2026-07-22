@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Is that your final answer? The effects of neutral queries on children’s choices",
+  "year": "2012",
+  "journal": "eScholarship (California Digital Library)",
+  "authors": [
+    "Aaron Gonzalez",
+    "Patrick Shafto",
+    "Elizabeth Bonawitz",
+    "Alison Gopnik"
+  ],
+  "abstract": "Preschoolers often switch a response on repeated questioning, even though no new evidence has been provided (Krahenbuhl, Blades, &amp;amp; Eiser, 2009). Though apparently irrational, this behavior may be understood as children making an induc-tive inferrence based on their beliefs about whether intial re-sponses were correct and the knowledgeability of the ques-tioner. We present a probabilistic model of how the question-ers ’ knowledge and biases to be positive should affect infer-ences. The model generates the qualitative prediction that an ideal learner should switch responses more often following a “neutral query ” from a knowledgeable questioner than follow-ing queries from an ignorant questioner. We test predictions of the model in an experiment. The results show that four-year-old children are sensitive to questioners ’ knowledge when re-sponding to a neutral query, demonstrating more switching be-havior when the query is provided by a knowledgeable ques-tioner. We conclude by discussing the practical and theoretical implications for cognitive development. When should a learner abandon their current hypothesis in favor of a new one? It is becoming clear that even preschool-aged children rationally update beliefs and generate new explanations following informative evidence (Gopnik, Gly-",
+  "link": "https://openalex.org/W2398933259"
+}

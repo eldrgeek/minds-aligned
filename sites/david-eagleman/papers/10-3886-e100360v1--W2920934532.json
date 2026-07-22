@@ -1,0 +1,12 @@
+{
+  "doi": "10.3886/e100360v1",
+  "doi_url": "https://doi.org/10.3886/e100360v1",
+  "title": "NeuLaw Criminal Record Database",
+  "year": "2016",
+  "journal": "ICPSR Data Holdings",
+  "authors": [
+    "David M. Eagleman"
+  ],
+  "abstract": "Traditionally, criminal research on a national scale has relied primarily on the FBI's Uniform Crime Reports (UCR), a tool with several weaknesses: (1) it contains no unique personal identifiers, precluding analysis of re-offense rates, (2) it lacks detail about individual crimes and their outcomes (e.g., number of charges, plea bargains, dispositions, fines, jail sentences), (3) reporting to the UCR is highly variable, so the aggregate statistics cannot be read as a comprehensive picture of crime. An alternative approach to crime record analysis can be pursued by the study of individual court records, housed in hundreds of counties across the United States. However, each jurisdiction employs local laws and sparse, idiosyncratic information management systems, making it prohibitively difficult to compare detailed crime records across time and place.To overcome all these limitations, we have developed the NeuLaw Criminal Record Database (CRD), a rich and growing collection of tens of millions of crime records. The CRD provides an unprecedented level of detail about individual offenders, their crimes, and their interactions with the criminal justice system; additionally, it translates court records into a common framework for cross-jurisdiction comparison. In particular, the database includes anonymized identifiers to enable large-scale exploration of criminal re-offense (recidivism). The CRD is growing monthly; as of this writing it contains 22.5 million records from 1977 to 2014 from Harris County in Texas, New York City, Miami-Dade County in Florida, and the state of New Mexico. The database can enable or enhance many types of research—for example, identification of high-risk offenders, measurement of changes in policing strategies, and quantification of legislative efficacy—thus giving policy makers the best data upon which to base law enforcement decisions.<br>",
+  "link": "https://doi.org/10.3886/e100360v1"
+}

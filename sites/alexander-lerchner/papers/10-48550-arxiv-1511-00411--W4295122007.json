@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1511.00411",
+  "doi_url": "https://doi.org/10.48550/arxiv.1511.00411",
+  "title": "A unifying framework for understanding state-dependent network dynamics\\n in cortex",
+  "year": "2015",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Alexander Lerchner",
+    "Peter E. Latham"
+  ],
+  "abstract": "Activity in neocortex exhibits a range of behaviors, from irregular to\\ntemporally precise, and from weakly to strongly correlated. So far there has\\nbeen no single theoretical framework that could explain all these behaviors,\\nleaving open the possibility that they are a signature of radically different\\nmechanisms. Here, we suggest that this is not the case. Instead, we show that a\\nsingle theory can account for a broad spectrum of experimental observations,\\nincluding specifics such as the fine temporal details of subthreshold\\ncross-correlations. For the model underlying our theory, we need only assume a\\nsmall number of well-established properties common to all local cortical\\nnetworks. When these assumptions are combined with realistically structured\\ninput, they produce exactly the repertoire of behaviors that is observed\\nexperimentally, and lead to a number of testable predictions.\\n",
+  "link": "https://doi.org/10.48550/arxiv.1511.00411"
+}

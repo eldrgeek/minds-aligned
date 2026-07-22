@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/lra.2019.2930486",
+  "doi_url": "https://doi.org/10.1109/lra.2019.2930486",
+  "title": "Material–Robot System for Assembly of Discrete Cellular Structures",
+  "year": "2019",
+  "journal": "IEEE Robotics and Automation Letters",
+  "authors": [
+    "Benjamin Jenett",
+    "Amira Abdel-Rahman",
+    "Kenneth Cheung",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We present a material–robot system consisting of mobile robots that can assemble discrete cellular structures. We detail the manufacturing of cuboctahedral unit cells, termed voxels, which passively connect to neighboring voxels with magnets. We then describe “relative” robots that can locomote on, transport, and place voxels. These robots are designed relative to and in coordination with the cellular structure—the geometry of the voxel informs the robot's global geometric configuration, local mechanisms, and end effectors, and robotic assembly features are designed into the voxels. We describe control strategies for determining build sequence, robot path planning, discrete motion control, and feedback, integrated within a custom software environment for simulating and executing a single or multi-robot construction. We use this material–robot system to build several types of structures, such as one-dimensional (1-D) beams, 2-D plates, and 3-D enclosures. The robots can navigate and assemble structures with minimal feedback, relying on voxel-sized resolution to achieve successful global positioning. We show a multi-robot assembly to increase the throughput and expand system capability using a deterministic centralized control strategy.",
+  "link": "https://doi.org/10.1109/lra.2019.2930486"
+}

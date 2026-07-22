@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/bmsb.2017.7986143",
+  "doi_url": "https://doi.org/10.1109/bmsb.2017.7986143",
+  "title": "VMAF reproducibility: Validating a perceptual practical video quality metric",
+  "year": "2017",
+  "journal": null,
+  "authors": [
+    "Reza Rassool"
+  ],
+  "abstract": "Measuring video quality with standard metrics ensures that operators can deliver to consumers the desired quality of experience (QoE) at an optimal cost. Such metrics also allow CODEC engineers to optimize the performance of their encoding algorithms. This paper briefly surveys existing video quality metrics and then presents results of the new Video Multi-Method Assessment Fusion (VMAF) metric [1] proposed by Netflix. The author and colleagues used VMAF to measure the quality of a 4K dataset encoded with the RealMedia video CODEC at a range of bitrates. They also gathered subjective quality assessments from a group of viewers for the same dataset. The paper presents findings of correlation between subjective and objective results.",
+  "link": "https://doi.org/10.1109/bmsb.2017.7986143"
+}

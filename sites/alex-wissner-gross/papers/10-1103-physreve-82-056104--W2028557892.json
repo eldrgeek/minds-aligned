@@ -1,0 +1,13 @@
+{
+  "doi": "10.1103/physreve.82.056104",
+  "doi_url": "https://doi.org/10.1103/physreve.82.056104",
+  "title": "Relativistic statistical arbitrage",
+  "year": "2010",
+  "journal": "Physical Review E",
+  "authors": [
+    "Alexander D. Wissner‐Gross",
+    "Cameron E. Freer"
+  ],
+  "abstract": "Recent advances in high-frequency financial trading have made light propagation delays between geographically separated exchanges relevant. Here we show that there exist optimal locations from which to coordinate the statistical arbitrage of pairs of spacelike separated securities, and calculate a representative map of such locations on Earth. Furthermore, trading local securities along chains of such intermediate locations results in a novel econophysical effect, in which the relativistic propagation of tradable information is effectively slowed or stopped by arbitrage.",
+  "link": "https://doi.org/10.1103/physreve.82.056104"
+}

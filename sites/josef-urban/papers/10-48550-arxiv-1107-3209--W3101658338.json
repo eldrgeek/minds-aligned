@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.1107.3209",
+  "doi_url": "https://doi.org/10.48550/arxiv.1107.3209",
+  "title": "Large Formal Wikis: Issues and Solutions",
+  "year": "2011",
+  "journal": null,
+  "authors": [
+    "Jesse Alama",
+    "Kasper Brink",
+    "Lionel Mamane",
+    "Josef Urban"
+  ],
+  "abstract": "We present several steps towards large formal mathematical wikis. The Coq proof assistant together with the CoRN repository are added to the pool of systems handled by the general wiki system described in \\cite{DBLP:conf/aisc/UrbanARG10}. A smart re-verification scheme for the large formal libraries in the wiki is suggested for Mizar/MML and Coq/CoRN, based on recently developed precise tracking of mathematical dependencies. We propose to use features of state-of-the-art filesystems to allow real-time cloning and sandboxing of the entire libraries, allowing also to extend the wiki to a true multi-user collaborative area. A number of related issues are discussed.",
+  "link": "https://doi.org/10.48550/arxiv.1107.3209"
+}

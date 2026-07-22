@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "MaLeS: A Framework for Automatic Tuning of Automated Theorem Provers",
+  "year": "2013",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "K\\\"uhlwein, Daniel",
+    "Josef Urban"
+  ],
+  "abstract": "MaLeS is an automatic tuning framework for automated theorem provers. It provides solutions for both the strategy finding as well as the strategy scheduling problem. This paper describes the tool and the methods used in it, and evaluates its performance on three automated theorem provers: E, LEO-II and Satallax. An evaluation on a subset of the TPTP library problems shows that on average a MaLeS-tuned prover solves 8.67% more problems than the prover with its default settings.",
+  "link": "https://openalex.org/W4299572416"
+}

@@ -1,0 +1,19 @@
+{
+  "doi": "10.1109/iccv51701.2025.01809",
+  "doi_url": "https://doi.org/10.1109/iccv51701.2025.01809",
+  "title": "LayerLock: Non-Collapsing Representation Learning with Progressive Freezing",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "Goker Erdogan",
+    "Nikhil Parthasarathy",
+    "Catalin Ionescu",
+    "Drew A. Hudson",
+    "Alexander Lerchner",
+    "Andrew Zisserman",
+    "Mehdi S. M. Sajjadi",
+    "João Carreira"
+  ],
+  "abstract": "",
+  "link": "https://doi.org/10.1109/iccv51701.2025.01809"
+}

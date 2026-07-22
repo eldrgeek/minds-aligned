@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Cluster-Weighted Sampling for Synthesis and Cross-Synthesis of Violin Family Instruments",
+  "year": "2000",
+  "journal": null,
+  "authors": [
+    "Bernd Schöner",
+    "Chuck Cooper",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "A digital model of a violin/cello is presented that computes violin sounds in real time given gesture input from a violinist. The model is derived from recorded data using clusterweighted sampling, a probabilistic inference technique based on kernel density estimation and wavetable synthesis. Novel interface technology is presented that records gesture input of acoustic instruments and also serves as a standalone controller for digital sound engines. 1 Introduction In this paper, we show how to synthesize the sound of violin-family instruments from a player&amp;apos;s gestural input. The input-output model describes the mapping between physical input time series and a perceptual parameterization of the output time series. It is trained on a recorded data set consisting of gesture input data of the violinist, such as bow and left hand nger position, along with audio output data. The audio signal is reconstructed from the estimated parameterization and from audio samples stored in memory. The...",
+  "link": "https://openalex.org/W2401291769"
+}

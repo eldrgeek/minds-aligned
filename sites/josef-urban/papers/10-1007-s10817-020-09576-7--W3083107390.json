@@ -1,0 +1,14 @@
+{
+  "doi": "10.1007/s10817-020-09576-7",
+  "doi_url": "https://doi.org/10.1007/s10817-020-09576-7",
+  "title": "Machine Learning Guidance for Connection Tableaux",
+  "year": "2020",
+  "journal": "Journal of Automated Reasoning",
+  "authors": [
+    "Michael Färber",
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "Connection calculi allow for very compact implementations of goal-directed proof search. We give an overview of our work related to connection tableaux calculi: first, we show optimised functional implementations of connection tableaux proof search, including a consistent Skolemisation procedure for machine learning. Then, we show two guidance methods based on machine learning, namely reordering of proof steps with Naive Bayesian probabilities, and expansion of a proof search tree with Monte Carlo Tree Search.",
+  "link": "https://doi.org/10.1007/s10817-020-09576-7"
+}

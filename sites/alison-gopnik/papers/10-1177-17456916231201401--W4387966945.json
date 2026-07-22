@@ -1,0 +1,14 @@
+{
+  "doi": "10.1177/17456916231201401",
+  "doi_url": "https://doi.org/10.1177/17456916231201401",
+  "title": "Transmission Versus Truth, Imitation Versus Innovation: What Children Can Do That Large Language and Language-and-Vision Models Cannot (Yet)",
+  "year": "2023",
+  "journal": "Perspectives on Psychological Science",
+  "authors": [
+    "Eunice Yiu",
+    "Eliza Kosoy",
+    "Alison Gopnik"
+  ],
+  "abstract": "Much discussion about large language models and language-and-vision models has focused on whether these models are intelligent agents. We present an alternative perspective. First, we argue that these artificial intelligence (AI) models are cultural technologies that enhance cultural transmission and are efficient and powerful imitation engines. Second, we explore what AI models can tell us about imitation and innovation by testing whether they can be used to discover new tools and novel causal structures and contrasting their responses with those of human children. Our work serves as a first step in determining which particular representations and competences, as well as which kinds of knowledge or skill, can be derived from particular learning techniques and data. In particular, we explore which kinds of cognitive capacities can be enabled by statistical analysis of large-scale linguistic data. Critically, our findings suggest that machines may need more than large-scale language and image data to allow the kinds of innovation that a small child can produce.",
+  "link": "https://doi.org/10.1177/17456916231201401"
+}

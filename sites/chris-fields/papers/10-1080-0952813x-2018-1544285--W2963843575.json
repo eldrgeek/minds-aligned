@@ -1,0 +1,13 @@
+{
+  "doi": "10.1080/0952813x.2018.1544285",
+  "doi_url": "https://doi.org/10.1080/0952813x.2018.1544285",
+  "title": "A mosaic of Chu spaces and Channel Theory II: applications to object identification and mereological complexity",
+  "year": "2018",
+  "journal": "Journal of Experimental & Theoretical Artificial Intelligence",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook"
+  ],
+  "abstract": "In this Part II of a two-part work, we proceed from the survey of concepts and techniques of Chu spaces and Channel Theory in Part I to the characterisation of human visual object identification, beginning with the construction of uncategorised object files and proceeding through categorisation, individual object identification and the tracking of object identity through time. We investigate the relationship between abstraction and mereological categorisation, particularly as these affect object-identity tracking. This we accomplish in terms of information flow that is semantically structured in terms of local logics, providing an inferential mechanism for object identification and tracking. We introduce categorical Cone-Cocone Diagrams to explicitly capture a bidirectional duality between ‘token’ roles and ‘type’ roles, and show that all representations can be considered to play both roles. We discuss the emergence of mereotopology from the representation of classifications with underlying simplicial complexes, and briefly explore the emergence of geometric relations and interactions between objects. Throughout we discuss the empirical support for the utility of this descriptive mechanism, particularly as a scale-free organisation that is applicable to cognition and to AI systems in general, and raise open issues and problems.",
+  "link": "https://doi.org/10.1080/0952813x.2018.1544285"
+}

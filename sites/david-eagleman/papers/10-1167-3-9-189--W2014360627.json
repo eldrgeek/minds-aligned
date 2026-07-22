@@ -1,0 +1,13 @@
+{
+  "doi": "10.1167/3.9.189",
+  "doi_url": "https://doi.org/10.1167/3.9.189",
+  "title": "Motion-biasing, not asynchronous feature binding, explains the feature-flash drag effect",
+  "year": "2010",
+  "journal": "Journal of Vision",
+  "authors": [
+    "David M. Eagleman",
+    "Terrence J. Sejnowski"
+  ],
+  "abstract": "Cai and Schlag [VSS 2001] demonstrated that a flashed feature of a moving object — say, a translating bar that flashes blue for one frame — is mislocalized to a later point in the trajectory. If the bar changes height as it moves, then the blueness appears to fill the height of a bar further along the trajectory. They suggested the illusion results from asynchronous feature binding (AFB), i.e., the flashed color change is “delayed and assigned to a later occurring bar” [Cai & Cavanagh, VSS 2002]. Our evidence speaks against an AFB explanation, suggesting instead that motion signals drag the position judgments of the feature-flashed bar (causing “feature-flash drag’). To distinguish between the AFB and motion-biasing models, we presented the illusion with fewer apparent-motion stations: the bar completes its trajectory in the same amount of time, but with fewer appearances. Here, the blue bar appears shifted to a location where no bar was presented. This speaks against AFB, which predicts the assignment of blue to a later appearance of the bar. Cai & Cavanagh suggested that positions of the moving object may be interpolated before AFB; however, our alternative hypothesis of motion-biasing may account for more data (ref. Whitney, 2002). Next, Ss counted the number of white bars that appeared after the blue bar. In the AFB model, blueness assigned to a later bar should cause Ss to undercount. However, Ss counted veridically, supporting the motion-biasing model. Lastly, the blue bar is seen at intermediate heights that never actually occurred (also shown by Cai & Cavanagh). We suggest that motion signals may be applied differentially to the individual edges of an object (here, the top and bottom edges of a growing bar move orthogonally to the bar's translation). Instead of asynchronous perception, this illusion may demonstrate the generality of motion biasing and offer a unified explanation for flash-lag and flash-drag effects.",
+  "link": "https://doi.org/10.1167/3.9.189"
+}

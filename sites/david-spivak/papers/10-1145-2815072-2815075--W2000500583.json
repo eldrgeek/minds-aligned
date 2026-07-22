@@ -1,0 +1,13 @@
+{
+  "doi": "10.1145/2815072.2815075",
+  "doi_url": "https://doi.org/10.1145/2815072.2815075",
+  "title": "Relational foundations for functorial data migration",
+  "year": "2015",
+  "journal": null,
+  "authors": [
+    "David I. Spivak",
+    "Ryan Wisnesky"
+  ],
+  "abstract": "We study the data transformation capabilities associated with schemas that are presented by directed multi-graphs and path equations. Unlike most approaches which treat graph-based schemas as abbreviations for relational schemas, we treat graph-based schemas as categories. A schema S is a finitely-presented category, and the collection of all S-instances forms a category, S-inst. A functor F between schemas S and T, which can be generated from a visual mapping between graphs, induces three adjoint data migration functors, Sigma_F : S-inst -> T-inst, Pi_F : S-inst -> T-inst, and Delta_F : T-inst -> S-inst. We present an algebraic query language FQL based on these functors, prove that FQL is closed under composition, prove that FQL can be implemented with the select-project-product-union relational algebra (SPCU) extended with a key-generation operation, and prove that SPCU can be implemented with FQL.",
+  "link": "https://doi.org/10.1145/2815072.2815075"
+}

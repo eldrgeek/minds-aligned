@@ -1,0 +1,19 @@
+{
+  "doi": "10.48550/arxiv.2210.13741",
+  "doi_url": "https://doi.org/10.48550/arxiv.2210.13741",
+  "title": "Deep Neural Networks as the Semi-classical Limit of Topological Quantum Neural Networks: The problem of generalisation",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Antonino Marcianò",
+    "Emanuele Zappala",
+    "Torda, Tommaso",
+    "Matteo Lulli",
+    "Giagu, Stefano",
+    "Chris Fields",
+    "De’en Chen",
+    "Filippo Fabrocini"
+  ],
+  "abstract": "Deep Neural Networks miss a principled model of their operation. A novel framework for supervised learning based on Topological Quantum Field Theory that looks particularly well suited for implementation on quantum processors has been recently explored. We propose using this framework to understand the problem of generalisation in Deep Neural Networks. More specifically, in this approach, Deep Neural Networks are viewed as the semi-classical limit of Topological Quantum Neural Networks. A framework of this kind explains the overfitting behavior of Deep Neural Networks during the training step and the corresponding generalisation capabilities. We explore the paradigmatic case of the perceptron, which we implement as the semiclassical limit of Topological Quantum Neural Networks. We apply a novel algorithm we developed, showing that it obtains similar results to standard neural networks, but without the need for training (optimisation).",
+  "link": "https://doi.org/10.48550/arxiv.2210.13741"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/aero.2017.7943956",
+  "doi_url": "https://doi.org/10.1109/aero.2017.7943956",
+  "title": "Hierarchical assembly of a self-replicating spacecraft",
+  "year": "2017",
+  "journal": null,
+  "authors": [
+    "Will Langford",
+    "Amanda Ghassaei",
+    "Ben Jenett",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Extraterrestrial fabrication of spacecraft by current best-practice manufacturing methods is complicated by the need to integrate thousands of unique parts, each made using a diversity of processes and raw materials. Reducing this complexity could enable exponential space exploration via self-replicating spacecraft (known as Von Neumann probes). We propose a hierarchical model for machine design, based on 13 reversibly-assembled part types, reducing the complexity of machine self-replication and bridging prior work in the areas of in-situ resource utilization (ISRU) and modular robotics. Analogous to amino acids in biological systems, these parts form a basis set for the electronic and mechanical subsystems of an exploratory spacecraft. In simulation we validate representative subsystem designs and develop a hierarchical architecture for the design of mechanisms, actuation, and electronics. By standardizing and modularizing the parts, we drastically reduce the diversity of the required supply chain as well as the minimum viable payload mass. We estimate that a seed launch could contain approximately 10 <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">5</sup> parts, fit within the envelope of a 3U cubesat, and enable the assembly of over one hundred self-replicating assemblers.",
+  "link": "https://doi.org/10.1109/aero.2017.7943956"
+}

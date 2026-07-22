@@ -1,0 +1,18 @@
+{
+  "doi": "10.3389/fncom.2022.1017284",
+  "doi_url": "https://doi.org/10.3389/fncom.2022.1017284",
+  "title": "Training spiking neuronal networks to perform motor control using reinforcement and evolutionary learning",
+  "year": "2022",
+  "journal": "Frontiers in Computational Neuroscience",
+  "authors": [
+    "Daniel Haşegan",
+    "Matt Deible",
+    "Christopher Earl",
+    "David Donofrio",
+    "Hananel Hazan",
+    "Haroon Anwar",
+    "Samuel A. Neymotin"
+  ],
+  "abstract": "Artificial neural networks (ANNs) have been successfully trained to perform a wide range of sensory-motor behaviors. In contrast, the performance of spiking neuronal network (SNN) models trained to perform similar behaviors remains relatively suboptimal. In this work, we aimed to push the field of SNNs forward by exploring the potential of different learning mechanisms to achieve optimal performance. We trained SNNs to solve the CartPole reinforcement learning (RL) control problem using two learning mechanisms operating at different timescales: (1) spike-timing-dependent reinforcement learning (STDP-RL) and (2) evolutionary strategy (EVOL). Though the role of STDP-RL in biological systems is well established, several other mechanisms, though not fully understood, work in concert during learning in vivo . Recreating accurate models that capture the interaction of STDP-RL with these diverse learning mechanisms is extremely difficult. EVOL is an alternative method and has been successfully used in many studies to fit model neural responsiveness to electrophysiological recordings and, in some cases, for classification problems. One advantage of EVOL is that it may not need to capture all interacting components of synaptic plasticity and thus provides a better alternative to STDP-RL. Here, we compared the performance of each algorithm after training, which revealed EVOL as a powerful method for training SNNs to perform sensory-motor behaviors. Our modeling opens up new capabilities for SNNs in RL and could serve as a testbed for neurobiologists aiming to understand multi-timescale learning mechanisms and dynamics in neuronal circuits.",
+  "link": "https://doi.org/10.3389/fncom.2022.1017284"
+}

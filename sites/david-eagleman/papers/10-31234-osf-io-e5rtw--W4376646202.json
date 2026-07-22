@@ -1,0 +1,12 @@
+{
+  "doi": "10.31234/osf.io/e5rtw",
+  "doi_url": "https://doi.org/10.31234/osf.io/e5rtw",
+  "title": "A proposed test for human-level intelligence in AI",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "David M. Eagleman"
+  ],
+  "abstract": "The need for a meaningful test for intelligence in AI becomes increasingly pressing as AI systems grow more sophisticated. Several approaches have been proposed for intelligence tests, ranging from solving puzzles, understanding natural language, or learning and adapting to new situations. I here propose that instead of assessing intelligence based on conversational text (Turing test) or creativity (Lovelace test), a superior test assesses the capacity to make scientific discovery. However, it is critical to note there are different categories of such discovery. Level 1 discovery is defined here as piecing together scattered facts in the scientific literature, something that approaches impossibility for a human who cannot read the literature in its entirety nor enjoy perfect recall. Level 1 discoveries will be meaningful and important, but there is an important distinction to be drawn: Level 2 discoveries require the building and simulation of new models rather than simply a joining of facts. Einstein’s discovery of special relativity or Darwin’s proposal of evolution by natural selection are examples that extend beyond simple interpolation and instead require novel frameworks. In summary, scientific discovery can serve as a meaningful test of intelligence – but this requires distinguishing different levels, and in this proposal only Level 2 discoveries will serve to demonstrate human-level intelligence.",
+  "link": "https://doi.org/10.31234/osf.io/e5rtw"
+}

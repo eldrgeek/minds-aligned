@@ -1,0 +1,14 @@
+{
+  "doi": "10.1101/467027",
+  "doi_url": "https://doi.org/10.1101/467027",
+  "title": "Multiple Duration Priors Within and Across the Senses",
+  "year": "2018",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Darren Rhodes",
+    "Anil K. Seth",
+    "Warrick Roseboom"
+  ],
+  "abstract": "Abstract Perception can be understood as an active process in which sensory samples are combined with prior expectations to shape perceptual content. A prominent example of the influence of priors on perception is that manually reproduced temporal durations are biased towards the mean of previously experienced durations. However, little is known about how prior expectations are acquired and maintained in environments in which multiple competing cues may indicate whether a given prior should be applied in that specific context. We tested whether human participants could acquire and maintain multiple priors for duration, dependent on the sensory signal in which the duration was presented. Human participants were presented with visual flashes or auditory tones, high or low pitch tones, or white noise versus pure tone audio. In each case, the presented duration on a given trial was drawn from a distribution that was, on average, shorter for tones than for flashes, or vice versa. Our participants’ timing reports were consistent with having acquired distinct duration priors dependent on the sensory signal in which the duration was presented (e.g. auditory or visual). Moreover, this was true whether signals differed across, or within, sensory modality. We account for our findings within a Bayesian framework in which duration priors are iteratively updated depending on determination of a common or distinct origin between successive events. Overall, these results show that the human brain can acquire and maintain multiple perceptual priors based on differences in stimulus properties both within and across the senses.",
+  "link": "https://doi.org/10.1101/467027"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2205.02425",
+  "doi_url": "https://doi.org/10.48550/arxiv.2205.02425",
+  "title": "Fast Left Kan Extensions Using The Chase",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "J. Meyers",
+    "David I. Spivak",
+    "Ryan Wisnesky"
+  ],
+  "abstract": "We show how computation of left Kan extensions can be reduced to computation of free models of cartesian (finite-limit) theories. We discuss how the standard and parallel chase compute weakly free models of regular theories and free models of cartesian theories, and compare the concept of \"free model\" with a similar concept from database theory known as \"universal model\". We prove that, as algorithms for computing finite free models of cartesian theories, the standard and parallel chase are complete under fairness assumptions. Finally, we describe an optimized implementation of the parallel chase specialized to left Kan extensions that achieves an order of magnitude improvement in our performance benchmarks compared to the next fastest left Kan extension algorithm we are aware of.",
+  "link": "https://doi.org/10.48550/arxiv.2205.02425"
+}

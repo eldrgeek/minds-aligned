@@ -1,0 +1,16 @@
+{
+  "doi": "10.1109/tasc.2023.3243186",
+  "doi_url": "https://doi.org/10.1109/tasc.2023.3243186",
+  "title": "Design and Simulation of Phase Synchronizer for Adiabatic Quantum Flux Parametron Circuits",
+  "year": "2023",
+  "journal": "IEEE Transactions on Applied Superconductivity",
+  "authors": [
+    "L. Camron Blackburn",
+    "Evan B. Golden",
+    "Alex Wynn",
+    "Andrew P. Wagner",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "An adiabatic quantum flux parametron (AQFP) is a two-terminal superconducting device capable of amplifying or inverting digital input signals at near-kT energy dissipation. This ultra-low power device is desirable for myriad reasons, including high performance accelerator applications as CMOS processors become more and more limited by energy consumption. Promising performance results have been realized on AQFP processors; however, scaling these results to larger computing systems faces engineering challenges due to device density and power distribution. AQFP circuits require a multi-phase activation signal to propagate logic. If data is not properly aligned with the activation phase, it can be dropped or shifted to an incorrect phase and disrupt circuit operation. This work presents design and simulation of an activation phase synchronizer: a simple circuit that will accept data arriving on any phase and re-align it to a known phase of the subsequent cycle. The phase synchronizer can be useful for mitigating clock skew across clock domains or play an important role in asynchronous design where the arrival time of data may be unknown.",
+  "link": "https://doi.org/10.1109/tasc.2023.3243186"
+}

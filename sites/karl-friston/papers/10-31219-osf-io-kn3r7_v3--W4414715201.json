@@ -1,0 +1,19 @@
+{
+  "doi": "10.31219/osf.io/kn3r7_v3",
+  "doi_url": "https://doi.org/10.31219/osf.io/kn3r7_v3",
+  "title": "Noise as a diagnostic tool: Distinguishing System / Device Effects in Multimodal Neuroimaging",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "Erik D. Fagerholm",
+    "Hirokazu Tanaka",
+    "Gregory Scott",
+    "Robert Leech",
+    "Federico Turkheimer",
+    "Peter Zeidman",
+    "Karl Friston",
+    "Milan Brázdil"
+  ],
+  "abstract": "Simultaneous cross-scale recording using multiple imaging devices with differing spatiotemporal resolutions is increasingly common in empirical neuroscience. This type of scenario introduces a key question: to what extent are differences between the resultant timeseries due to genuine variation in neural dynamics across scales, as opposed to device-based artefacts? In this study, we address how to disentangle these effects—specifically, how to isolate measurement artefacts introduced by the observer (i.e., the device) from the true dynamics of the system (i.e., the neural system). We demonstrate that stochastic fluctuations—typically viewed as a confound—can in fact be leveraged when incorporated into generative models. Using synthetic data, we demonstrate that Bayesian model comparison more accurately distinguishes system- from observer-level differences when models include noise, compared to noise-free alternatives. We apply this technique to empirical data and show that cross-scale variation between simultaneously recorded high-frequency broadband signals from macroelectrodes and microwires in the human hippocampus is better explained by differences in observer functions than by underlying system dynamics. These findingssuggest that noise, when appropriately modelled, can enhance inference in multimodalneuroimaging by revealing the origin of cross-scale signal variation.",
+  "link": "https://doi.org/10.31219/osf.io/kn3r7_v3"
+}

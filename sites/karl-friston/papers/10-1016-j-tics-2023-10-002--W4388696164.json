@@ -1,0 +1,16 @@
+{
+  "doi": "10.1016/j.tics.2023.10.002",
+  "doi_url": "https://doi.org/10.1016/j.tics.2023.10.002",
+  "title": "Generating meaning: active inference and the scope and limits of passive AI",
+  "year": "2023",
+  "journal": "Trends in Cognitive Sciences",
+  "authors": [
+    "Giovanni Pezzulo",
+    "Thomas Parr",
+    "Paul Cisek",
+    "Andy Clark",
+    "Karl Friston"
+  ],
+  "abstract": "Prominent accounts of sentient behavior depict brains as generative models of organismic interaction with the world, evincing intriguing similarities with current advances in generative artificial intelligence (AI). However, because they contend with the control of purposive, life-sustaining sensorimotor interactions, the generative models of living organisms are inextricably anchored to the body and world. Unlike the passive models learned by generative AI systems, they must capture and control the sensory consequences of action. This allows embodied agents to intervene upon their worlds in ways that constantly put their best models to the test, thus providing a solid bedrock that is - we argue - essential to the development of genuine understanding. We review the resulting implications and consider future directions for generative AI.",
+  "link": "https://doi.org/10.1016/j.tics.2023.10.002"
+}

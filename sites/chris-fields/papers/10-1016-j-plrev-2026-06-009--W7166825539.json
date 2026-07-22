@@ -1,0 +1,15 @@
+{
+  "doi": "10.1016/j.plrev.2026.06.009",
+  "doi_url": "https://doi.org/10.1016/j.plrev.2026.06.009",
+  "title": "Remapping and navigation of an embedding space via error minimization: a fundamental organizational principle of cognition in natural and artificial systems",
+  "year": "2026",
+  "journal": "Physics of Life Reviews",
+  "authors": [
+    "Benedikt Hartl",
+    "Léo Pio‐Lopez",
+    "Chris Fields",
+    "Michael Levin"
+  ],
+  "abstract": "The emerging field of diverse intelligence seeks an integrated view of problem-solving in agents of very different provenance, composition, and substrates. From subcellular chemical networks to swarms of organisms, and across evolved, engineered, and chimeric systems, it is hypothesized that scale-invariant principles of decision-making can be discovered. We propose that cognition in both natural and synthetic systems can be characterized and understood by the interplay between two equally important invariants: (i) the remapping of embedding spaces, and (ii) the navigation within these spaces. Biological collectives, from single cells to entire organisms (and beyond), remap transcriptional, morphological, physiological, or 3D spaces to maintain homeostasis and regenerate structure, while navigating these spaces through distributed error correction. Modern Artificial Intelligence (AI) systems, including transformers, diffusion models, and neural cellular automata enact analogous processes by remapping data into latent embeddings and refining them iteratively through contextualization. We argue that this dual principle – remapping and navigation of embedding spaces via iterative error minimization – constitutes a substrate-independent invariant of cognition. Recognizing this shared mechanism not only illuminates deep parallels between living systems and artificial models, but also provides a unifying framework for engineering adaptive intelligence across scales.",
+  "link": "https://doi.org/10.1016/j.plrev.2026.06.009"
+}

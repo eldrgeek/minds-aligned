@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/syseng.2016.7753120",
+  "doi_url": "https://doi.org/10.1109/syseng.2016.7753120",
+  "title": "Pixel matrices: An elementary technique for solving nonlinear systems",
+  "year": "2016",
+  "journal": null,
+  "authors": [
+    "David I. Spivak",
+    "Dominique Ernadote",
+    "Omar Hammammi"
+  ],
+  "abstract": "A new technique for approximating the entire solution set, in any bounding box, for a nonlinear system of relations (nonlinear equations, inequalities, etc. involving algebraic, smooth, or even continuous functions) is presented. The technique is to first plot each function as a pixel matrix, and to then perform a sequence of basic matrix operations, as dictated by how variables are shared by the relations in the system. The result is a pixel matrix graphing the approximated simultaneous solution set for the system.",
+  "link": "https://doi.org/10.1109/syseng.2016.7753120"
+}

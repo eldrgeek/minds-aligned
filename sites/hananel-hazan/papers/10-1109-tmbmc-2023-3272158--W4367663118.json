@@ -1,0 +1,18 @@
+{
+  "doi": "10.1109/tmbmc.2023.3272158",
+  "doi_url": "https://doi.org/10.1109/tmbmc.2023.3272158",
+  "title": "Control Flow in Active Inference Systems—Part II: Tensor Networks as General Models of Control Flow",
+  "year": "2023",
+  "journal": "IEEE Transactions on Molecular Biological and Multi-Scale Communications",
+  "authors": [
+    "Chris Fields",
+    "Filippo Fabrocini",
+    "Karl Friston",
+    "James F. Glazebrook",
+    "Hananel Hazan",
+    "Michael Levin",
+    "Antonino Marcianò"
+  ],
+  "abstract": "Living systems face both environmental complexity and limited access to free-energy resources. Survival under these conditions requires a control system that can activate, or deploy, available perception and action resources in a context specific way. In Part I, we introduced the free-energy principle (FEP) and the idea of active inference as Bayesian prediction-error minimization, and show how the control problem arises in active inference systems. We then review classical and quantum formulations of the FEP, with the former being the classical limit of the latter. In this accompanying Part II, we show that when systems are described as executing active inference driven by the FEP, their control flow systems can always be represented as tensor networks (TNs). We show how TNs as control systems can be implemented within the general framework of quantum topological neural networks, and discuss the implications of these results for modeling biological systems at multiple scales.",
+  "link": "https://doi.org/10.1109/tmbmc.2023.3272158"
+}

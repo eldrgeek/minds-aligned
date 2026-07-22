@@ -1,0 +1,14 @@
+{
+  "doi": "10.1167/3.9.594",
+  "doi_url": "https://doi.org/10.1167/3.9.594",
+  "title": "Explaining why the perceived brightness of a flash is modified by temporal relationships with its neighbors: the commitment, adaptation, and comparison model",
+  "year": "2010",
+  "journal": "Journal of Vision",
+  "authors": [
+    "John E. Jacobson",
+    "David M. Eagleman",
+    "Terrence J. Sejnowski"
+  ],
+  "abstract": "We have previously reported that the perceived brightness of a brief flash depends on its temporal relationships with its neighbors (the Temporal Neighborhood Illusion [Eagleman et al, VSS 2002]). In our experiment, two flashes, identical in luminance, appear on the screen: one lasts for 56 ms (‘brief’), the other for 278 ms (‘long’). When the flashes have simultaneous onset, subjects report that the brief flash looks dimmer than the long flash (the Broca-Sulzer effect). Surprisingly, however, when the flashes have simultaneous offset, the brief flash appears conspicuously (∼30%) brighter (and much brighter than it appears in isolation). Our new experiments suggest that the brightness enhancement of the offset-aligned flash results from a comparison with the long flash. In our model, the offset-aligned flash appears brighter because the visual system commits to a brightness value for the long flash (say, labeling it a ‘10’) — but the associated neural activity fatigues (adapts) through time. When the new (brief) flash subsequently appears, its attendant neural activity, unfatigued, is greater. When the system compares the ratio of activities, it is forced by its previous commitments to label the new flash brighter, say as a ‘13’. This commitment-adaptation-and-comparison model suggests that two independent representations contribute to brightness perception: one based on neural activity (probably firing rate in V1), and another system that labels the object's brightness, irrespective of the neural fatigue that inevitably follows. This second system, which maintains adaptation-blindness and provides computational savings, is here unmasked by the Temporal Neighborhood Illusion.",
+  "link": "https://doi.org/10.1167/3.9.594"
+}

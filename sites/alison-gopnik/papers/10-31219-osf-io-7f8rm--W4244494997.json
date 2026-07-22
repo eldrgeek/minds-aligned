@@ -1,0 +1,16 @@
+{
+  "doi": "10.31219/osf.io/7f8rm",
+  "doi_url": "https://doi.org/10.31219/osf.io/7f8rm",
+  "title": "Sticking to the evidence? A behavioral and computational case study of micro-theory change in the domain of magnetism.",
+  "year": "2019",
+  "journal": null,
+  "authors": [
+    "Elizabeth Bonawitz",
+    "Tomer Ullman",
+    "Sophie Bridgers",
+    "Josh Tenenbaum",
+    "Alison Gopnik"
+  ],
+  "abstract": "Constructing an intuitive theory from data confronts learners with a “chicken-and-egg” problem: the laws can only be expressed in terms of the theory’s core concepts, but these concepts are only meaningful in terms of the role they play in the theory’s laws; how can a learner discover appropriate concepts and laws simultaneously, knowing neither to begin with? We explore how children can solve this chicken-and-egg problem in the domain of magnetism, drawing on perspectives from computational modeling and behavioral experiments. We present four- and five-year-olds with two different simplified magnet-learning tasks. Children appropriately constrain their beliefs to two hypotheses following ambiguous but informative evidence. Following a critical intervention they learn the correct theory. In the second study, children infer the correct number of categories given no information about the possible causal laws. Children’s hypotheses in these tasks are explained as rational inferences within a Bayesian computational framework.",
+  "link": "https://doi.org/10.31219/osf.io/7f8rm"
+}

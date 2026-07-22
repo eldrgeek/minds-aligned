@@ -1,0 +1,17 @@
+{
+  "doi": "10.5220/0005594501140121",
+  "doi_url": "https://doi.org/10.5220/0005594501140121",
+  "title": "Machine Learning Techniques and the Existence of Variant Processes in Humans Declarative Memory",
+  "year": "2015",
+  "journal": null,
+  "authors": [
+    "Alex Frid",
+    "Hananel Hazan",
+    "Ester Koilis",
+    "Larry M. Manevitz",
+    "Maayan Merhav",
+    "Gal Star"
+  ],
+  "abstract": "This work uses supervised machine learning methods over fMRI brain scans to establish the existence of two different encoding procedures for human declarative memory. Declarative knowledge refers to the memory for facts and events and initially depends on the hippocampus. Recent studies which used patients with hippocampal lesions and neuroimaging data, suggested the existence of an alternative process to form declarative memories. This process is triggered by learning mechanism called \"Fast Mapping (FM)\", as opposed to the 'standard' \"Explicit Encoding (EE)\" learning procedure. The present work gives a clear biomarker on the existence of two distinct encoding procedures as we can accurately predict which of the processes is being used directly from voxel activity in fMRI scans. The scans are taken during retrieval of information wherein the tasks are identical regardless of which procedure was used for acquisition and by that reflect conclusive prediction. This is an identification o f a more subtle cognitive task than direct perceptual cognitive tasks as it requires some encoding and processing in the brain",
+  "link": "https://doi.org/10.5220/0005594501140121"
+}

@@ -1,0 +1,21 @@
+{
+  "doi": "10.1093/cercor/bhaf234",
+  "doi_url": "https://doi.org/10.1093/cercor/bhaf234",
+  "title": "SPM—30 years and beyond",
+  "year": "2025",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Peter Zeidman",
+    "John Ashburner",
+    "Gareth R. Barnes",
+    "Olivia S. Kowalczyk",
+    "Christian Lambert",
+    "Vladimir Litvak",
+    "Thomas E. Nichols",
+    "Thomas Parr",
+    "Tim M. Tierney",
+    "Karl Friston"
+  ],
+  "abstract": "This paper marks the 30th anniversary of the Statistical Parametric Mapping (SPM) software and the journal Cerebral Cortex: two modest milestones that mark the inception of cognitive neuroscience. We take this opportunity to reflect on SPM, a generation after its introduction. Each of the authors of this paper-who represent a small selection of the many contributors to SPM-were asked to consider lessons learned, what has gone well, and where there is room for improvement in future development. We hope that this review of SPM-and its aspirations-will provide some context for current imaging neuroscience and foreground some potential directions for the future of the field.",
+  "link": "https://doi.org/10.1093/cercor/bhaf234"
+}

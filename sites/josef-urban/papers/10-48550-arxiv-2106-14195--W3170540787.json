@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2106.14195",
+  "doi_url": "https://doi.org/10.48550/arxiv.2106.14195",
+  "title": "Learning to solve geometric construction problems from images",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "J. Macke",
+    "Jiří Sedlář",
+    "Olsak, M.",
+    "Josef Urban",
+    "Josef Šivic"
+  ],
+  "abstract": "We describe a purely image-based method for finding geometric constructions with a ruler and compass in the Euclidea geometric game. The method is based on adapting the Mask R-CNN state-of-the-art image processing neural architecture and adding a tree-based search procedure to it. In a supervised setting, the method learns to solve all 68 kinds of geometric construction problems from the first six level packs of Euclidea with an average 92% accuracy. When evaluated on new kinds of problems, the method can solve 31 of the 68 kinds of Euclidea problems. We believe that this is the first time that a purely image-based learning has been trained to solve geometric construction problems of this difficulty.",
+  "link": "https://doi.org/10.48550/arxiv.2106.14195"
+}

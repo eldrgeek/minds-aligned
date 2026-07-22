@@ -1,0 +1,21 @@
+{
+  "doi": "10.1089/soro.2022.0117",
+  "doi_url": "https://doi.org/10.1089/soro.2022.0117",
+  "title": "Modular Morphing Lattices for Large-Scale Underwater Continuum Robotic Structures",
+  "year": "2023",
+  "journal": "Soft Robotics",
+  "authors": [
+    "Alfonso Parra Rubio",
+    "Dixia Fan",
+    "Benjamin Jenett",
+    "José del Águila Ferrandis",
+    "Filippos Tourlomousis",
+    "Amira Abdel-Rahman",
+    "David Preiss",
+    "Jiří Zemánek",
+    "Michael Triantafyllou",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "In this study, we present a method to construct meter-scale deformable structures for underwater robotic applications by discretely assembling mechanical metamaterials. We address the challenge of scaling up nature-like deformable structures while remaining structurally efficient by combining rigid and compliant facets to form custom unit cells that assemble into lattices. The unit cells generate controlled local anisotropies that architect the global deformation of the robotic structure. The resulting flexibility allows better unsteady flow control that enables highly efficient propulsion and optimized force profile manipulations. We demonstrate the utility of this approach in two models. The first is a morphing beam snake-like robot that can generate thrust at specific anguilliform swimming parameters. The second is a morphing surface hydrofoil that, when compared with a rigid wing at the same angles of attack (AoAs), can increase the lift coefficient up to 0.6. In addition, in lower AoAs, the <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"> <mml:mi>L</mml:mi> <mml:mo class=\"MathClass-bin\">∕</mml:mo> <mml:mi>D</mml:mi> </mml:math> ratio improves by 5 times, whereas in higher angles it improves by 1.25 times. The resulting hydrodynamic performance demonstrates the potential to achieve accessible, scalable, and simple to design and assemble morphing structures for more efficient and effective future ocean exploration and exploitation.",
+  "link": "https://doi.org/10.1089/soro.2022.0117"
+}

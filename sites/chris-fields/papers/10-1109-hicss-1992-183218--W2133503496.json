@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/hicss.1992.183218",
+  "doi_url": "https://doi.org/10.1109/hicss.1992.183218",
+  "title": "gm: a tool for exploratory analysis of DNA sequence data",
+  "year": "1992",
+  "journal": null,
+  "authors": [
+    "Carol Soderlund",
+    "P. Shanmugam",
+    "Owen White",
+    "Chris Fields"
+  ],
+  "abstract": "The gm (gene mapper) system provides a tool which automates the analysis and identification of candidate genes within an anonymous DNA sequence. Only a small, biased set of all genes are known; from this sampling it is not possible to know the composition of all genes. Consequently, it is not currently possible to develop software to detect all genes. gm is capable of detecting large regions of many genes and provides an exploratory tool for looking at anonymous DNA sequences. The first release of gm has been distributed to several dozen user sites, who have provided feedback which is being integrated into gm v.2. This paper discusses the problems encountered in gene identification software, the performance of gm v1.0, and the new features in gm v.2 that will enhance its use as an exploratory tool.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX>",
+  "link": "https://doi.org/10.1109/hicss.1992.183218"
+}

@@ -1,0 +1,23 @@
+{
+  "doi": "10.5167/uzh-434957",
+  "doi_url": "https://doi.org/10.5167/uzh-434957",
+  "title": "Human hippocampal ripples tune cortical responses based on predicted uncertainty",
+  "year": "2026",
+  "journal": "Universität Zürich, ZORA",
+  "authors": [
+    "Darya Frank",
+    "Stephan Moratti",
+    "Robin Hellerstedt",
+    "Johannes Sarnthein",
+    "Ningfei Li",
+    "A B Horn",
+    "Lukas Imbach",
+    "Lennart Stieglitz",
+    "António Gil‐Nagel",
+    "Rafael Toledano",
+    "Karl Friston",
+    "Bryan A. Strange"
+  ],
+  "abstract": "To encode information efficiently, our perceptual system should detect when situations are unpredictable (that is, informative) and modulate brain dynamics to prepare for encoding. Under uncertainty, there is an increased need to generate predictions about upcoming information, a process that has been proposed to require coordinated activity between the hippocampus and neocortex. Here we show, with direct recordings from the human hippocampus and visual cortex, that after exposure to unpredictable visual stimulus streams, hippocampal ripple activity increases in frequency and duration before stimulus presentation. Prestimulus hippocampal ripples suppress changes in visual cortex gamma activity associated with uncertainty and modulate poststimulus prediction error gamma responses in higher-level visual cortex to surprising stimuli. We reveal a function of hippocampal ripples in facilitating the propagation of visual stimuli based on the expected information gain. These results, therefore, link hippocampal ripples with predictive coding accounts of neuronal message passing and precision-weighted prediction errors, revealing a mechanism relevant for perceptual synthesis and subsequent memory encoding.",
+  "link": "https://doi.org/10.5167/uzh-434957"
+}

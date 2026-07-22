@@ -1,0 +1,15 @@
+{
+  "doi": "10.1137/1.9781611972818.68",
+  "doi_url": "https://doi.org/10.1137/1.9781611972818.68",
+  "title": "Semantic Graph Kernels for Automated Reasoning",
+  "year": "2011",
+  "journal": null,
+  "authors": [
+    "Evgeni Tsivtsivadze",
+    "Josef Urban",
+    "Herman Geuvers",
+    "Tom Heskes"
+  ],
+  "abstract": "Learning reasoning techniques from previous knowledge is a largely underdeveloped area of automated reasoning. As large bodies of formal knowledge are becoming available to automated reasoners, state-of-the-art machine learning methods can provide powerful heuristics for problem-specific detection of relevant knowledge contained in the libraries. In this paper we develop a semantic graph kernel suitable for learning in structured mathematical domains. Our kernel incorporates contextual information about the features and unlike “random walk”-based graph kernels it is also applicable to sparse graphs. We evaluate the proposed semantic graph kernel on a subset of the large formal Mizar mathematical library. Our empirical evaluation demonstrates that graph kernels in general are particularly suitable for the automated reasoning domain and that in many cases our semantic graph kernel leads to improvement in performance compared to linear, Gaussian, latent semantic, and geometric graph kernels.",
+  "link": "https://doi.org/10.1137/1.9781611972818.68"
+}

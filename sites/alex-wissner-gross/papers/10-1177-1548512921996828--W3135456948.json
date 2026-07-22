@@ -1,0 +1,15 @@
+{
+  "doi": "10.1177/1548512921996828",
+  "doi_url": "https://doi.org/10.1177/1548512921996828",
+  "title": "Joint sparsity-biased variational graph autoencoders",
+  "year": "2021",
+  "journal": "The Journal of Defense Modeling and Simulation Applications Methodology Technology",
+  "authors": [
+    "Lane Lawley",
+    "Will Frey",
+    "Patrick Mullen",
+    "Alexander D. Wissner‐Gross"
+  ],
+  "abstract": "To bring the full benefits of machine learning to defense modeling and simulation, it is essential to first learn useful representations for sparse graphs consisting of both key entities (vertices) and their relationships (edges). Here, we present a new model, the Joint Sparsity-Biased Variational Graph AutoEncoder (JSBVGAE), capable of learning embedded representations of nodes from which both sparse network topologies and node features can be jointly and accurately reconstructed. We show that our model outperforms the previous state of the art on standard link-prediction and node-classification tasks, and achieves significantly higher whole-network reconstruction accuracy, while reducing the number of trained parameters.",
+  "link": "https://doi.org/10.1177/1548512921996828"
+}

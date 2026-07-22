@@ -1,0 +1,13 @@
+{
+  "doi": "10.1007/s10817-015-9329-1",
+  "doi_url": "https://doi.org/10.1007/s10817-015-9329-1",
+  "title": "MaLeS: A Framework for Automatic Tuning of Automated Theorem Provers",
+  "year": "2015",
+  "journal": "Journal of Automated Reasoning",
+  "authors": [
+    "Daniel Kühlwein",
+    "Josef Urban"
+  ],
+  "abstract": "MaLeS is an automatic tuning framework for automated theorem provers. It provides solutions for both the strategy finding as well as the strategy scheduling problem. This paper describes the tool and the methods used in it, and evaluates its performance on three automated theorem provers: E, LEO-II and Satallax. On a representative subset of the TPTP library a MaLeS-tuned prover solves on average 8.67 % more problems than the prover with its default settings.",
+  "link": "https://doi.org/10.1007/s10817-015-9329-1"
+}

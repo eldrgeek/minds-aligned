@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Non-Contact Sensing of People and Things",
+  "year": "2004",
+  "journal": null,
+  "authors": [
+    "Neil Gershenfeld"
+  ],
+  "abstract": "This paper, originally published in 1996, discusses current research on alternative technologies that offer promise for introducing inexpensive, robust and unobtrusive sensing into automobiles. These technologies are based on non-contact detection of material properties and focus on the use of near-field radio frequency measurements to determine the configuration of the occupants. Although this technology can be used for applications such as controlling air bag deployment, they can ultimately help automobiles anticipate and respond to other occupant intentions and needs.",
+  "link": "https://openalex.org/W610108040"
+}

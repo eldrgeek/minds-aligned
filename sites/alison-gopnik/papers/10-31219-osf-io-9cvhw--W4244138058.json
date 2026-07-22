@@ -1,0 +1,13 @@
+{
+  "doi": "10.31219/osf.io/9cvhw",
+  "doi_url": "https://doi.org/10.31219/osf.io/9cvhw",
+  "title": "Bayesian models of child development",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Elizabeth Bonawitz",
+    "Alison Gopnik"
+  ],
+  "abstract": "Bayesian models have been applied to many areas of cognitive science including vision, language, and motor learning. We discuss the implications of this framework for cognitive development. We first present a brief introduction to the Bayesian framework. Bayesian models make assumptions about representation explicit, and provide a detailed account of learning. Furthermore, they can provide an account of developmental transitions and other phenomena in development, such as curiosity and exploration. Drawing on recent work bridging empirical developmental data and modeling, we show that these features of the Bayesian approach provide solutions to problems that elude traditional accounts of learning and raise new areas of investigation.",
+  "link": "https://doi.org/10.31219/osf.io/9cvhw"
+}

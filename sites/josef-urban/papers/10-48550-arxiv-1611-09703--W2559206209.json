@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1611.09703",
+  "doi_url": "https://doi.org/10.48550/arxiv.1611.09703",
+  "title": "Semantic Parsing of Mathematics by Context-based Learning from Aligned Corpora and Theorem Proving",
+  "year": "2016",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban",
+    "J Vyskočil"
+  ],
+  "abstract": "We study methods for automated parsing of informal mathematical expressions into formal ones, a main prerequisite for deep computer understanding of informal mathematical texts. We propose a context-based parsing approach that combines efficient statistical learning of deep parse trees with their semantic pruning by type checking and large-theory automated theorem proving. We show that the methods very significantly improve on previous results in parsing theorems from the Flyspeck corpus.",
+  "link": "https://doi.org/10.48550/arxiv.1611.09703"
+}

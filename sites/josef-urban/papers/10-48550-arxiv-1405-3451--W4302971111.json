@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.1405.3451",
+  "doi_url": "https://doi.org/10.48550/arxiv.1405.3451",
+  "title": "Developing Corpus-based Translation Methods between Informal and Formal\\n Mathematics: Project Description",
+  "year": "2014",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban",
+    "J Vyskočil",
+    "Herman Geuvers"
+  ],
+  "abstract": "The goal of this project is to (i) accumulate annotated informal/formal\\nmathematical corpora suitable for training semi-automated translation between\\ninformal and formal mathematics by statistical machine-translation methods,\\n(ii) to develop such methods oriented at the formalization task, and in\\nparticular (iii) to combine such methods with learning-assisted automated\\nreasoning that will serve as a strong semantic component. We describe these\\nideas, the initial set of corpora, and some initial experiments done over them.\\n",
+  "link": "https://doi.org/10.48550/arxiv.1405.3451"
+}

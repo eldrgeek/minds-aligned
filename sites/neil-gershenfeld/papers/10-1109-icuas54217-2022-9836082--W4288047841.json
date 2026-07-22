@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/icuas54217.2022.9836082",
+  "doi_url": "https://doi.org/10.1109/icuas54217.2022.9836082",
+  "title": "Discrete Assembly of Unmanned Aerial Systems",
+  "year": "2022",
+  "journal": "2022 International Conference on Unmanned Aircraft Systems (ICUAS)",
+  "authors": [
+    "Christopher Cameron",
+    "Zach Fredin",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We introduce a modular construction kit for rapidly assembling multi-copter unmanned aerial systems (UAS). The kit consists of voxelized building blocks based on a discrete, face-baced decomposition of a cuboctahedral lattice using a circuit board substrate. These voxel building blocks provide the structure of the vehicle, but also create electrical connections for routing power as well as command and control signals. Functional modules including propulsors, power storage, and command and control are designed to interface with the cuboctahedral lattice to create a complete vehicle. We use the system to assemble a 2.6 kg quadcopter UAS in 22 minutes, flight test the resulting vehicle, then disassemble it into components ready for reuse. We examine how the system scales to larger designs, and compare build times and performance with a comparable commerical UAS and equivalent designs built using additive manufacturing.",
+  "link": "https://doi.org/10.1109/icuas54217.2022.9836082"
+}

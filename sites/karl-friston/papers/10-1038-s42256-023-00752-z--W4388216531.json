@@ -1,0 +1,15 @@
+{
+  "doi": "10.1038/s42256-023-00752-z",
+  "doi_url": "https://doi.org/10.1038/s42256-023-00752-z",
+  "title": "Hierarchical generative modelling for autonomous robots",
+  "year": "2023",
+  "journal": "Nature Machine Intelligence",
+  "authors": [
+    "Kai Yuan",
+    "Noor Sajid",
+    "Karl Friston",
+    "Zhibin Li"
+  ],
+  "abstract": "Abstract Humans generate intricate whole-body motions by planning, executing and combining individual limb movements. We investigated this fundamental aspect of motor control and approached the problem of autonomous task completion by hierarchical generative modelling with multi-level planning, emulating the deep temporal architecture of human motor control. We explored the temporal depth of nested timescales, where successive levels of a forward or generative model unfold, for example, object delivery requires both global planning and local coordination of limb movements. This separation of temporal scales suggests the advantage of hierarchically organizing the global planning and local control of individual limbs. We validated our proposed formulation extensively through physics simulation. Using a hierarchical generative model, we showcase that an embodied artificial intelligence system, a humanoid robot, can autonomously complete a complex task requiring a holistic use of locomotion, manipulation and grasping: the robot adeptly retrieves and transports a box, opens and walks through a door, kicks a football and exhibits robust performance even in the presence of body damage and ground irregularities. Our findings demonstrated the efficacy and feasibility of human-inspired motor control for an embodied artificial intelligence robot, highlighting the viability of the formulized hierarchical architecture for achieving autonomous completion of challenging goal-directed tasks.",
+  "link": "https://doi.org/10.1038/s42256-023-00752-z"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.21236/ada444920",
+  "doi_url": "https://doi.org/10.21236/ada444920",
+  "title": "Algorithms for Fungible Computation",
+  "year": "2006",
+  "journal": null,
+  "authors": [
+    "Neil Gershenfeld"
+  ],
+  "abstract": "This project sought fundamental mathematical principles to guide the development of \"fungible\" computers. Like fungible goods in economics that can be incrementally extended and exchanged, this effort sought to solve problems by using distributed processing nodes propagating mobile code through short-range communications. Motivations for doing this included providing extensibility for hardware to be able to scale with demand, offering reliable operation with unreliable components as process technologies reach fundamental limits, taking advantage of the structure of inherently distributed problems, and dynamically balancing the distribution of computation, storage, sensing, display, and I/O in an operating system. Results included proof-of-principle demonstration applications such as a display that operates statistically, and a unifying research framework based on mathematical programming\" that lies at the intersection of physically-inspired local algorithms, graphical message-passing, and global constrained optimization.",
+  "link": "https://doi.org/10.21236/ada444920"
+}

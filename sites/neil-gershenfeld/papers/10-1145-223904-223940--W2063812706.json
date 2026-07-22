@@ -1,0 +1,16 @@
+{
+  "doi": "10.1145/223904.223940",
+  "doi_url": "https://doi.org/10.1145/223904.223940",
+  "title": "Applying electric field sensing to human-computer interfaces",
+  "year": "1995",
+  "journal": null,
+  "authors": [
+    "Thomas G. Zimmerman",
+    "Joshua R. Smith",
+    "Joseph A. Paradiso",
+    "David Allport",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "A non-contact sensor based on the interaction of a person with electric fields for human-computer interface is investigated. Two sensing modes are explored: an external electric field shunted to ground through a human body, and an external electric field transmitted through a human body to stationary receivers. The sensors are low power (milliwatts), high resolution (millimeter) low cost (a few dollars per channel), have low latency (millisecond), high update rate (1 kHz), high immunity to noise (&amp;gt;72 dB), are not affected by clothing, surface texture or reflectivity, and can operate on length scales from microns to meters. Systems incorporating the sensors include a finger mouse, a room that knows the location of its occupant, and people-sensing furniture. Haptic feedback using passive materials is described. Also discussed are empirical and analytical approaches to transform sensor measurements into position information. KEYWORDS: user interface, input device, gesture interface, non-...",
+  "link": "https://doi.org/10.1145/223904.223940"
+}

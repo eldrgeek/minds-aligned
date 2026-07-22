@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.1705.09156",
+  "doi_url": "https://doi.org/10.48550/arxiv.1705.09156",
+  "title": "The free energy principle for action and perception: A mathematical\\n review",
+  "year": "2017",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Christopher L. Buckley",
+    "Chang Sub Kim",
+    "Simon McGregor",
+    "Anil K. Seth"
+  ],
+  "abstract": "The 'free energy principle' (FEP) has been suggested to provide a unified\\ntheory of the brain, integrating data and theory relating to action,\\nperception, and learning. The theory and implementation of the FEP combines\\ninsights from Helmholtzian 'perception as inference', machine learning theory,\\nand statistical thermodynamics. Here, we provide a detailed mathematical\\nevaluation of a suggested biologically plausible implementation of the FEP that\\nhas been widely used to develop the theory. Our objectives are (i) to describe\\nwithin a single article the mathematical structure of this implementation of\\nthe FEP; (ii) provide a simple but complete agent-based model utilising the\\nFEP; (iii) disclose the assumption structure of this implementation of the FEP\\nto help elucidate its significance for the brain sciences.\\n",
+  "link": "https://doi.org/10.48550/arxiv.1705.09156"
+}

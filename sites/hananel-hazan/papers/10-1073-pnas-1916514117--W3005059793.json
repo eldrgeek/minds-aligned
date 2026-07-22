@@ -1,0 +1,15 @@
+{
+  "doi": "10.1073/pnas.1916514117",
+  "doi_url": "https://doi.org/10.1073/pnas.1916514117",
+  "title": "Dynamic clamp constructed phase diagram for the Hodgkin and Huxley model of excitability",
+  "year": "2020",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Hillel Ori",
+    "Hananel Hazan",
+    "Eve Marder",
+    "Shimon Marom"
+  ],
+  "abstract": "Excitability—a threshold-governed transient in transmembrane voltage—is a fundamental physiological process that controls the function of the heart, endocrine, muscles, and neuronal tissues. The 1950s Hodgkin and Huxley explicit formulation provides a mathematical framework for understanding excitability, as the consequence of the properties of voltage-gated sodium and potassium channels. The Hodgkin–Huxley model is more sensitive to parametric variations of protein densities and kinetics than biological systems whose excitability is apparently more robust. It is generally assumed that the model’s sensitivity reflects missing functional relations between its parameters or other components present in biological systems. Here we experimentally assembled excitable membranes using the dynamic clamp and voltage-gated potassium ionic channels (Kv1.3) expressed in Xenopus oocytes. We take advantage of a theoretically derived phase diagram, where the phenomenon of excitability is reduced to two dimensions defined as combinations of the Hodgkin–Huxley model parameters, to examine functional relations in the parameter space. Moreover, we demonstrate activity dependence and hysteretic dynamics over the phase diagram due to the impacts of complex slow inactivation kinetics. The results suggest that maintenance of excitability amid parametric variation is a low-dimensional, physiologically tenable control process. In the context of model construction, the results point to a potentially significant gap between high-dimensional models that capture the full measure of complexity displayed by ion channel function and the lower dimensionality that captures physiological function.",
+  "link": "https://doi.org/10.1073/pnas.1916514117"
+}

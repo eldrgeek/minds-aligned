@@ -1,0 +1,13 @@
+{
+  "doi": "10.3390/a13070175",
+  "doi_url": "https://doi.org/10.3390/a13070175",
+  "title": "Equivalence of the Frame and Halting Problems",
+  "year": "2020",
+  "journal": "Algorithms",
+  "authors": [
+    "Eric Dietrich",
+    "Chris Fields"
+  ],
+  "abstract": "The open-domain Frame Problem is the problem of determining what features of an open task environment need to be updated following an action. Here we prove that the open-domain Frame Problem is equivalent to the Halting Problem and is therefore undecidable. We discuss two other open-domain problems closely related to the Frame Problem, the system identification problem and the symbol-grounding problem, and show that they are similarly undecidable. We then reformulate the Frame Problem as a quantum decision problem, and show that it is undecidable by any finite quantum computer.",
+  "link": "https://doi.org/10.3390/a13070175"
+}

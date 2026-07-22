@@ -1,0 +1,14 @@
+{
+  "doi": "10.1101/183954",
+  "doi_url": "https://doi.org/10.1101/183954",
+  "title": "Neurophysiological signatures of duration and rhythm prediction across sensory modalities",
+  "year": "2017",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Acer Yu-Chan Chang",
+    "Anil K. Seth",
+    "Warrick Roseboom"
+  ],
+  "abstract": "Abstract Effective behaviour and cognition requires the ability to make predictions about the temporal properties of events, such as duration. It is well known that violations of temporal structure within sequences of stimuli lead to neurophysiological effects known as the (temporal) mismatch negativity (TMMN). However, previous studies investigating this phenomenon have typically presented successive stimulus intervals (i.e., durations) within a rhythmic structure, conflating the contributions of rhythmic temporal processing with those specific to duration. In a novel behavioural paradigm which extends the classic temporal oddball design, we examined the neurophysiological correlates of prediction violation under both rhythmically (isochronous) and arrhythmically (anisochronous) presented durations, in visual and auditory modalities. Using event-related potential (ERP), multivariate pattern analysis (MVPA), and temporal generalisation analysis (TGA) analyses, we found evidence for common, and distinct neurophysiological responses related to duration predictions and their violation, across isochronous and anisochronous conditions. Further, using TGA we could directly compare processes underlying duration prediction violation across different modalities, despite differences in processing latency of audition and vision. We discovered a common set of neurophysiological responses that are elicited whenever a duration prediction is violated, regardless of presentation modality, indicating the existence of a supramodal duration prediction mechanism. Altogether, our data show that the human brain encodes predictions specifically about duration, in addition to those from rhythmic structure, and that the neural underpinnings of these predictions generalize across modalities. These findings support the idea that time perception is based on similar principles of inference as characterize ‘predictive processing’ theories of perception.",
+  "link": "https://doi.org/10.1101/183954"
+}

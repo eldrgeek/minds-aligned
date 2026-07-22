@@ -1,0 +1,13 @@
+{
+  "doi": "10.1145/944217.944236",
+  "doi_url": "https://doi.org/10.1145/944217.944236",
+  "title": "Contracts and types",
+  "year": "2003",
+  "journal": "Communications of the ACM",
+  "authors": [
+    "Lucius Gregory Meredith",
+    "Steve Bjorg"
+  ],
+  "abstract": "Addressing the need for a more formal account of service descriptions and service contracts with a mobile process algebra.",
+  "link": "https://doi.org/10.1145/944217.944236"
+}

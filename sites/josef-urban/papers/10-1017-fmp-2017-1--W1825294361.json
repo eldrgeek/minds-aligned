@@ -1,0 +1,33 @@
+{
+  "doi": "10.1017/fmp.2017.1",
+  "doi_url": "https://doi.org/10.1017/fmp.2017.1",
+  "title": "A FORMAL PROOF OF THE KEPLER CONJECTURE",
+  "year": "2017",
+  "journal": "Forum of Mathematics Pi",
+  "authors": [
+    "Thomas Hales",
+    "Mark Adams",
+    "Gertrud Bauer",
+    "TAT DAT DANG",
+    "John Harrison",
+    "LE TRUONG HOANG",
+    "Cezary Kaliszyk",
+    "Victor Magron",
+    "Sean McLaughlin",
+    "TAT THANG NGUYEN",
+    "QUANG TRUONG NGUYEN",
+    "Tobias Nipkow",
+    "Steven Obua",
+    "Joseph Pleso",
+    "Jason Rute",
+    "Alexey Solovyev",
+    "Thi Hoai An Ta",
+    "Nam Trung Tran",
+    "THI DIEP TRIEU",
+    "Josef Urban",
+    "Ky Vu",
+    "Roland Zumkeller"
+  ],
+  "abstract": "This article describes a formal proof of the Kepler conjecture on dense sphere packings in a combination of the HOL Light and Isabelle proof assistants. This paper constitutes the official published account of the now completed Flyspeck project.",
+  "link": "https://doi.org/10.1017/fmp.2017.1"
+}

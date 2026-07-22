@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2106.06511",
+  "doi_url": "https://doi.org/10.48550/arxiv.2106.06511",
+  "title": "Dynamical independence: discovering emergent macroscopic processes in complex dynamical systems",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "L. D. Barnett",
+    "Anil K. Seth"
+  ],
+  "abstract": "We introduce a notion of emergence for coarse-grained macroscopic variables associated with highly-multivariate microscopic dynamical processes, in the context of a coupled dynamical environment. Dynamical independence instantiates the intuition of an emergent macroscopic process as one possessing the characteristics of a dynamical system \"in its own right\", with its own dynamical laws distinct from those of the underlying microscopic dynamics. We quantify (departure from) dynamical independence by a transformation-invariant Shannon information-based measure of dynamical dependence. We emphasise the data-driven discovery of dynamically-independent macroscopic variables, and introduce the idea of a multiscale \"emergence portrait\" for complex systems. We show how dynamical dependence may be computed explicitly for linear systems via state-space modelling, in both time and frequency domains, facilitating discovery of emergent phenomena at all spatiotemporal scales. We discuss application of the state-space operationalisation to inference of the emergence portrait for neural systems from neurophysiological time-series data. We also examine dynamical independence for discrete- and continuous-time deterministic dynamics, with potential application to Hamiltonian mechanics and classical complex systems such as flocking and cellular automata.",
+  "link": "https://doi.org/10.48550/arxiv.2106.06511"
+}

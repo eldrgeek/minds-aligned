@@ -1,0 +1,14 @@
+{
+  "doi": "10.1155/2019/6803526",
+  "doi_url": "https://doi.org/10.1155/2019/6803526",
+  "title": "Memoryless Systems Generate the Class of all Discrete Systems",
+  "year": "2019",
+  "journal": "International Journal of Mathematics and Mathematical Sciences",
+  "authors": [
+    "Erwan Beurier",
+    "Dominique Pastor",
+    "David I. Spivak"
+  ],
+  "abstract": "Automata are machines, which receive inputs, accordingly update their internal state, and produce output, and are a common abstraction for the basic building blocks used in engineering and science to describe and design complex systems. These arbitrarily simple machines can be wired together—so that the output of one is passed to another as its input—to form more complex machines. Indeed, both modern computers and biological systems can be described in this way, as assemblies of transistors or assemblies of simple cells. The complexity is in the network, i.e., the connection patterns between simple machines. The main result of this paper is to show that the range of simplicity for parts as compared to the complexity for wholes is in some sense complete: the most complex automaton can be obtained by wiring together direct-output memoryless components. The model we use—discrete-time automata sending each other messages from a fixed set of possibilities—is certainly more appropriate for computer systems than for biological systems. However, the result leads one to wonder what might be the simplest sort of machines, broadly construed, that can be assembled to produce the behaviour found in biological systems, including the brain.",
+  "link": "https://doi.org/10.1155/2019/6803526"
+}

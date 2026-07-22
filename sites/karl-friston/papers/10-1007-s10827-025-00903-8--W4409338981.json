@@ -1,0 +1,14 @@
+{
+  "doi": "10.1007/s10827-025-00903-8",
+  "doi_url": "https://doi.org/10.1007/s10827-025-00903-8",
+  "title": "Cortical dynamics of neural-connectivity fields",
+  "year": "2025",
+  "journal": "Journal of Computational Neuroscience",
+  "authors": [
+    "Gerald Cooray",
+    "Vernon Cooray",
+    "Karl Friston"
+  ],
+  "abstract": "Macroscopic studies of cortical tissue reveal a prevalence of oscillatory activity, that reflect a fine tuning of neural interactions. This research extends neural field theories by incorporating generalized oscillatory dynamics into previous work on conservative or semi-conservative neural field dynamics. Prior studies have largely assumed isotropic connections among neural units; however, this study demonstrates that a broad range of anisotropic and fluctuating connections can still sustain oscillations. Using Lagrangian field methods, we examine different types of connectivity, their dynamics, and potential interactions with neural fields. From this theoretical foundation, we derive a framework that incorporates Hebbian and non-Hebbian learning - i.e., plasticity - into the study of neural fields via the concept of a connectivity field.",
+  "link": "https://doi.org/10.1007/s10827-025-00903-8"
+}

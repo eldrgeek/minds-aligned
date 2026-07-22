@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2403.20324",
+  "doi_url": "https://doi.org/10.48550/arxiv.2403.20324",
+  "title": "Localising the Seizure Onset Zone from Single-Pulse Electrical Stimulation Responses with a CNN Transformer",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "J. C. Norris",
+    "Ajai Chari",
+    "van Blooijs, Dorien",
+    "Gerald Cooray",
+    "Karl Friston",
+    "Martin Tisdall",
+    "Richard Rosch"
+  ],
+  "abstract": "Epilepsy is one of the most common neurological disorders, often requiring surgical intervention when medication fails to control seizures. For effective surgical outcomes, precise localisation of the epileptogenic focus - often approximated through the Seizure Onset Zone (SOZ) - is critical yet remains a challenge. Active probing through electrical stimulation is already standard clinical practice for identifying epileptogenic areas. Our study advances the application of deep learning for SOZ localisation using Single-Pulse Electrical Stimulation (SPES) responses, with two key contributions. Firstly, we implement an existing deep learning model to compare two SPES analysis paradigms: divergent and convergent. These paradigms evaluate outward and inward effective connections, respectively. We assess the generalisability of these models to unseen patients and electrode placements using held-out test sets. Our findings reveal a notable improvement in moving from a divergent (AUROC: 0.574) to a convergent approach (AUROC: 0.666), marking the first application of the latter in this context. Secondly, we demonstrate the efficacy of CNN Transformers with cross-channel attention in handling heterogeneous electrode placements, increasing the AUROC to 0.730. These findings represent a significant step in modelling patient-specific intracranial EEG electrode placements in SPES. Future work will explore integrating these models into clinical decision-making processes to bridge the gap between deep learning research and practical healthcare applications.",
+  "link": "https://doi.org/10.48550/arxiv.2403.20324"
+}

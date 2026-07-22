@@ -1,0 +1,12 @@
+{
+  "doi": "10.1080/09528138908953699",
+  "doi_url": "https://doi.org/10.1080/09528138908953699",
+  "title": "Consequences of nonclassical measurement for the algorithmic description of continuous dynamical systems",
+  "year": "1989",
+  "journal": "Journal of Experimental & Theoretical Artificial Intelligence",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Abstract Continuous dynamical systems intuitively seem capable of more complex behavior than discrete systems. If analyzed in the framework of the traditional theory of computation, a.continuous dynamical system with countably many quasistable states has at least the computational power of a universal Turing machine. Such an analysis assumes, however, the classical notion of measurement. If measurement is viewed nonclassically, a continuous dynamical system cannot, even in principle, exhibit behavior that cannot be simulated by a universal Turing machine.",
+  "link": "https://doi.org/10.1080/09528138908953699"
+}

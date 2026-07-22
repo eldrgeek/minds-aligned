@@ -1,0 +1,21 @@
+{
+  "doi": "10.48550/arxiv.2206.08353",
+  "doi_url": "https://doi.org/10.48550/arxiv.2206.08353",
+  "title": "Towards Understanding How Machines Can Learn Causal Overhypotheses",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Eliza Kosoy",
+    "David M. Chan",
+    "Adrian Liu",
+    "Jasmine D. Collins",
+    "Bryanna Kaufmann",
+    "Huang, Sandy Han",
+    "Jessica B. Hamrick",
+    "John Canny",
+    "Nan Rosemary Ke",
+    "Alison Gopnik"
+  ],
+  "abstract": "Recent work in machine learning and cognitive science has suggested that understanding causal information is essential to the development of intelligence. The extensive literature in cognitive science using the ``blicket detector'' environment shows that children are adept at many kinds of causal inference and learning. We propose to adapt that environment for machine learning agents. One of the key challenges for current machine learning algorithms is modeling and understanding causal overhypotheses: transferable abstract hypotheses about sets of causal relationships. In contrast, even young children spontaneously learn and use causal overhypotheses. In this work, we present a new benchmark -- a flexible environment which allows for the evaluation of existing techniques under variable causal overhypotheses -- and demonstrate that many existing state-of-the-art methods have trouble generalizing in this environment. The code and resources for this benchmark are available at https://github.com/CannyLab/casual_overhypotheses.",
+  "link": "https://doi.org/10.48550/arxiv.2206.08353"
+}

@@ -1,0 +1,16 @@
+{
+  "doi": "10.1103/physrevc.25.2710",
+  "doi_url": "https://doi.org/10.1103/physrevc.25.2710",
+  "title": "Decays of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">Pb</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>1</mml:mn><mml:mn>9</mml:mn><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mn>9</mml:mn><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mn>9</mml:mn><mml:mn>6</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>",
+  "year": "1982",
+  "journal": "Physical Review C",
+  "authors": [
+    "K. H. Hicks",
+    "Τ. E. Ward",
+    "J.S. Wiggins",
+    "Chris Fields",
+    "F.W.N. de Boer"
+  ],
+  "abstract": "Decay properties of $^{194,195,196}\\mathrm{Pb}$ were studied using singles and coincident $\\ensuremath{\\gamma}$-ray spectroscopy. Sources were produced by the 95 MeV $^{197}\\mathrm{Au}$($^{6}\\mathrm{Li}$,$\\mathrm{xn}$) reactions. No direct evidence for the decay of a low-spin isomer of $^{195}\\mathrm{Pb}$ was observed. Several new levels were observed in $^{195,196}\\mathrm{Tl}$, and are interpreted in terms of a rotational model.RADIOACTIVITY $^{194,195,196}\\mathrm{Pb}$ [from $^{197}\\mathrm{Au}$($^{6}\\mathrm{Li}$,$\\mathrm{xn}$), $E=95$ MeV]. Measured ${E}_{\\ensuremath{\\gamma}}$, ${I}_{\\ensuremath{\\gamma}}$, $\\ensuremath{\\gamma}\\ensuremath{-}\\ensuremath{\\gamma}$ coin; deduced $log\\mathrm{ft}$. $^{194,195,196}\\mathrm{Pb}^{m}$ deduced ${t}_{\\frac{1}{2}}$. $^{194,195,196}\\mathrm{Tl}$ deduced levels, $J$, $\\ensuremath{\\pi}$, Nilsson configurations. Ge(Li) detectors.",
+  "link": "https://doi.org/10.1103/physrevc.25.2710"
+}

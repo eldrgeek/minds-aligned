@@ -1,0 +1,20 @@
+{
+  "doi": "10.1147/sj.393.0861",
+  "doi_url": "https://doi.org/10.1147/sj.393.0861",
+  "title": "An installation of interactive furniture",
+  "year": "2000",
+  "journal": "IBM Systems Journal",
+  "authors": [
+    "O. Omojola",
+    "E. Rehmi Post",
+    "M. Hancher",
+    "Yael G. Maguire",
+    "Ravikanth Pappu",
+    "Bernd Schöner",
+    "Pietro Russo",
+    "R. Fletcher",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We report on a project that explored emerging technologies for intuitive and unobtrusive information interfaces in a compelling setting. An installation at the Museum of Modern Art, New York, was part of a public exhibit and included an interactive table that presented information associated with the exhibit to the gallery visitors without visible conventional computing elements. The enabling devices included noncontact sensing of low-cost tags in physical icons, electrostatic detection of hand location in three dimensions, and sensor fusion through lightweight Internet Protocol access.",
+  "link": "https://doi.org/10.1147/sj.393.0861"
+}

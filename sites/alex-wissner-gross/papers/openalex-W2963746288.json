@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Pattern Formation without Favored Local Interactions",
+  "year": "2008",
+  "journal": null,
+  "authors": [
+    "Alexander D. Wissner‐Gross"
+  ],
+  "abstract": "Individual cellular automata rules are attractive models for a range of biological and physical self-assembling systems. While coexpression and coevolution are common in such systems, ensembles of cellular automata rules remain poorly understood. Here we report the first known analysis of the equally weighted ensemble of all elementary cellular automata (ECA) rules. Ensembledynamicsrevealpersistent, localized, non-interactingpatterns, rather than homogenization. The patterns are strongly correlated by velocity and have a quasi-linear dependence on initial conditions. Dispersion from a single initial site generates peaks traveling at low-denominator fractional velocities, some of which are not discernible in individual rules, suggesting collective excitation. Further analysis of the time-evolved rule space shows the 256 ECArules can be represented by only approximately 111 principal components. These results suggest the rather surprising conclusion that rich self-assembly is possible without favoring particular local interactions.",
+  "link": "https://openalex.org/W2963746288"
+}

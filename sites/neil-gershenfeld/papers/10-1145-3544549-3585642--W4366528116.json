@@ -1,0 +1,16 @@
+{
+  "doi": "10.1145/3544549.3585642",
+  "doi_url": "https://doi.org/10.1145/3544549.3585642",
+  "title": "Modular-Things: Plug-and-Play with Virtualized Hardware",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Jake Robert Read",
+    "Leo Mcelroy",
+    "Quentin Bolsée",
+    "B Smith",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We present a collection of tools for building plug-and-play modular physical computing systems that we call Modular-Things. Our tools consist of a set of single purpose embedded devices, a link layer agnostic message passing system for communication between devices, and a web-based programming environment. The devices are dynamically discovered and virtualized into software objects that can be programmed in the web IDE. We tested Modular-Things in a classroom setting where groups of novice machine builders constructed custom machines that integrated embedded systems modules with high-level responsive interfaces built with web and computer vision technologies. Users also extended our system by constructing new customized devices.",
+  "link": "https://doi.org/10.1145/3544549.3585642"
+}

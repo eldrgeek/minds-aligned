@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2304.14950",
+  "doi_url": "https://doi.org/10.48550/arxiv.2304.14950",
+  "title": "Dynamic Tracing: a graphical language for rewriting protocols",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Kristopher Brown",
+    "David I. Spivak"
+  ],
+  "abstract": "The category Set_* of sets and partial functions is well-known to be traced monoidal, meaning that a partial function S+U -/-&gt; T+U can be coherently transformed into a partial function S -/-&gt; T. This transformation is generally described in terms of an implicit procedure that must be run. We make this procedure explicit by enriching the traced category in Cat#, the symmetric monoidal category of categories and cofunctors: each hom-category has such procedures as objects, and advancement through the procedures as arrows. We also generalize to traced Kleisli categories beyond Set_*, providing a conjectural trace operator for the Kleisli category of any polynomial monad of the form t+1. The main motivation for this work is to give a formal and graphical syntax for performing sophisticated computations powered by graph rewriting, which is itself a graphical language for data transformation.",
+  "link": "https://doi.org/10.48550/arxiv.2304.14950"
+}

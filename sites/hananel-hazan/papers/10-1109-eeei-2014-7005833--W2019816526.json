@@ -1,0 +1,18 @@
+{
+  "doi": "10.1109/eeei.2014.7005833",
+  "doi_url": "https://doi.org/10.1109/eeei.2014.7005833",
+  "title": "Recognizing deep grammatical information during reading from event related fMRI",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Haim Shalelashvili",
+    "Tali Bitan",
+    "Alex Frid",
+    "Hananel Hazan",
+    "Stav Hertz",
+    "Yael Weiss",
+    "Larry M. Manevitz"
+  ],
+  "abstract": "This experiment was designed to see if information related to linguistic characteristics of read text can be deduced from fMRI data via machine learning techniques. Individuals were scanned while reading text the size of words in loud reading. Three experiments were performed corresponding to different degrees of grammatical complexity that is performed during loud reading: (1) words and pseudo-words were presented to subjects; (2) words with diacritical marking and words without diacritical markings were presented to subjects; (3) Hebrew words with Hebrew root and Hebrew words without Hebrew root were presented to subjects. The working hypothesis was that the more complex the needed grammatical processing needed, the more difficult it should be to perform the classification at the level of temporal and spatial resolution given by an fMRI signal. We were able to accomplish the first task completely. The second and third task did not succeed when all the data is used simultaneously. However, the third task was successful when training and testing was done within a continuous scanning run. (The experimental protocol did not allow this for the second task.) This does establish that complex linguistic information is decodable from fMRI scans. On the other hand, the need to restrict to the intra-run situation indicates that additional work is needed to compensate for distortions introduced between scanning runs.",
+  "link": "https://doi.org/10.1109/eeei.2014.7005833"
+}

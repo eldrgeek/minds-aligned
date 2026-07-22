@@ -1,0 +1,14 @@
+{
+  "doi": "10.1167/16.12.467",
+  "doi_url": "https://doi.org/10.1167/16.12.467",
+  "title": "Regularities in Grapheme-Color Synesthesia",
+  "year": "2016",
+  "journal": "Journal of Vision",
+  "authors": [
+    "Nathan Witthoft",
+    "David M. Eagleman",
+    "Jonathan Winawer"
+  ],
+  "abstract": "Neuroscientists have long been interested in the origin of synesthetic pairings. Though the choices made by individual synesthetes sometimes appear idiosyncratic, recent work on moderately sized samples (~10-200 subjects) has found that colors associated with letters reflect environmental influences such as color words, letter frequency, and alphabetical order. We analyzed the letter-color matches from a large sample of grapheme-color synesthetes (6588 subjects) from the database at www.synesthete.org, and report several systematic patterns. The set of all 160,000+ color matches across letters appears to sample from the color space in a biased way. Black, white, red, and yellow are strongly overrepresented, while cyan and magenta are almost never chosen. Whether this bias is mediated by linguistics, perception, or physiological constraints is not known. Consistent with prior work, we find strong tendencies for many letters to be associated with particular colors (A -> red), some of which can be interpreted as arising from environmental influences (Y -> yellow). However, color choices are largely independent across letters: knowing the color of one letter carries little information about the color of any other letter. One interpretation is that environmental influences which drive the letter-color matches are present across the population, but operate probabilistically, suggesting that learning is a ubiquitous influence on grapheme-color synesthesia. We also examined the role of visual statistics on the distance between letter-color matches. Consistent with previous reports, measures of ordinality and letter frequency predict color distances when data are averaged across subjects and letters. However, analyses which take into account both subject variation and the fact that color distances between letter pairs are not independent, show very small effect sizes. Our observations support the view that synesthetic pairings are far from random or idiosyncratic. The findings are also consistent with a widespread role of learning in color-grapheme synethesia. Meeting abstract presented at VSS 2016",
+  "link": "https://doi.org/10.1167/16.12.467"
+}

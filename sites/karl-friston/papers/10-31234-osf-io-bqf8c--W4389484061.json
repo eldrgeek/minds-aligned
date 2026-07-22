@@ -1,0 +1,17 @@
+{
+  "doi": "10.31234/osf.io/bqf8c",
+  "doi_url": "https://doi.org/10.31234/osf.io/bqf8c",
+  "title": "Forgetting Ourselves in Flow: An Active Inference Account of Flow States and How We Experience Ourselves Within Them",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Darius Parvizi-Wayne",
+    "Lars Sandved-Smith",
+    "Riddhi J. Pitliya",
+    "Jakub Limanowski",
+    "Miles R. A. Tufft",
+    "Karl Friston"
+  ],
+  "abstract": "Flow has been described as a state of optimal performance, experienced universally across a broad range of domains: from art to athletics, gaming to writing. However, its phenomenal characteristics can, at first glance, be puzzling. Firstly, individuals in flow supposedly report a loss of self-awareness, even though they perform in a manner which seems to evince their agency and skill. Secondly, flow states are felt to be effortless, despite the prerequisite complexity of the tasks that engender them. In this paper, we unpick these features of flow, as well as others, through the active inference framework, which posits that action and perception are forms of active Bayesian inference directed at sustained self-organisation; i.e., the minimisation of variational free energy. We propose that the phenomenology of flow is rooted in the deployment of high precision weight over i) the expected sensory consequences of action and ii) beliefs about how action will sequentially unfold. This computational mechanism thus draws the embodied cognitive system to minimise the ensuing (i.e., expected) free energy through the exploitation of the pragmatic affordances at hand. Furthermore, given the challenging dynamics the flow-inducing situation presents, attention must be wholly focussed on the unfolding task whilst counterfactual planning is restricted, leading to the attested loss of the sense of self-as-object. This involves the inhibition of both the sense of self as a temporally extended object and higher–order, meta-cognitive forms of self-conceptualisation. Nevertheless, we stress that self-awareness is not entirely lost in flow. Rather, it is pre-reflective and bodily. Our approach to bodily-action-centred phenomenology can be applied to similar facets of seemingly agentive experience beyond canonical flow states, providing insights into the mechanisms of so-called selfless experiences, embodied expertise and wellbeing.",
+  "link": "https://doi.org/10.31234/osf.io/bqf8c"
+}

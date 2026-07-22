@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/lics.1995.523270",
+  "doi_url": "https://doi.org/10.1109/lics.1995.523270",
+  "title": "When do fixed point logics capture complexity classes?",
+  "year": "2002",
+  "journal": null,
+  "authors": [
+    "Anil K. Seth"
+  ],
+  "abstract": "We give examples of classes of rigid structures which are of unbounded rigidity but least fixed point (Partial fixed point) logic can express all Boolean PTIME (PSPACE) queries on these classes. This shows that definability of linear order in FO+LEP although sufficient for it to capture Boolean PTIME queries, is not necessary even on the classes of rigid structures. The situation however appears very different for nonzero-ary queries. Next, we turn to the study of fixed point logics on arbitrary classes of structures. We completely characterize the recursively enumerable classes of finite structures on which PFP captures all PSPACE queries of arbitrary arities. We also state in some alternative forms several natural necessary and some sufficient conditions for PFP to capture PSPACE queries on classes of finite structures. The conditions similar to the ones proposed above work for LFP and PTIME also in some special cases but to prove the same necessary conditions in general for LFP to capture PTIME seems harder and remains open.",
+  "link": "https://doi.org/10.1109/lics.1995.523270"
+}

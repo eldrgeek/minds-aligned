@@ -1,0 +1,110 @@
+---
+// JoinBar.astro
+// The SOMA-onboard affordance, carried by every AGI-26 property.
+//
+// Two states, decided in the browser:
+//   - not a member → "Join the constellation", linking to the hub's /join/ page with a
+//     ?ch= tag so channel attribution has a numerator.
+//   - already a member → "Invite someone", which opens the @soma/onboard share sheet
+//     (QR, copy link, native share, email, SMS, WhatsApp, Signal, Telegram, X, LinkedIn).
+//
+// Membership is ONE membership for the whole constellation, held at the hub — joining at
+// the Friston archive means you have joined the constellation, not that archive. So both
+// the API and the share sheet talk to agi2026.netlify.app, from whichever property you
+// happen to be standing on. See hub/netlify/functions/_onboard.js for why.
+
+interface Props {
+  /** Which property this is — becomes the ?ch= channel tag for attribution. */
+  site: string
+  hubUrl?: string
+}
+
+const { site, hubUrl = 'https://agi2026.netlify.app' } = Astro.props
+---
+
+<div class="join-bar" data-site={site} data-hub={hubUrl}>
+  <a class="join-bar__cta" id="join-bar-cta" href={`${hubUrl}/join/?ch=${site}`}>
+    Join the constellation
+  </a>
+</div>
+
+<script is:inline define:vars={{ site, hubUrl }}>
+  (function () {
+    var cta = document.getElementById('join-bar-cta');
+    if (!cta) return;
+
+    var token, code;
+    try {
+      token = localStorage.getItem('agi26.session');
+      code = localStorage.getItem('agi26.code');
+    } catch (_) {}
+
+    /* Members get the invite sheet instead of a join link. The sheet is a custom element
+     * from @soma/onboard, loaded from the hub so every property shares one copy. */
+    if (!token) return;
+
+    cta.textContent = 'Invite someone';
+    cta.href = '#';
+    cta.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (cta.dataset.busy) return;
+      cta.dataset.busy = '1';
+      var original = cta.textContent;
+      cta.textContent = 'Preparing…';
+
+      import(hubUrl + '/vendor/soma-onboard/invite-sheet.js')
+        .then(function () {
+          return fetch(hubUrl + '/api/onboard/prepare-invite', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + token },
+            body: JSON.stringify({ channelHint: site }),
+          });
+        })
+        .then(function (r) { return r.json(); })
+        .then(function (invite) {
+          var sheet = document.querySelector('soma-invite-sheet');
+          if (!sheet) {
+            sheet = document.createElement('soma-invite-sheet');
+            document.body.appendChild(sheet);
+          }
+          sheet.invite = invite;
+          if (typeof sheet.open === 'function') sheet.open();
+        })
+        .catch(function () {
+          cta.textContent = 'Could not prepare an invite';
+        })
+        .then(function () {
+          delete cta.dataset.busy;
+          if (cta.textContent === 'Preparing…') cta.textContent = original;
+        });
+    });
+  })();
+</script>
+
+<style>
+  .join-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background: #0a0f1a;
+    padding: 1rem 1.5rem 1.15rem;
+    text-align: center;
+  }
+
+  .join-bar__cta {
+    display: inline-block;
+    padding: 0.55rem 1.4rem;
+    border: 1px solid rgba(111, 155, 255, 0.5);
+    border-radius: 999px;
+    color: #6f9bff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+
+  .join-bar__cta:hover {
+    background: rgba(111, 155, 255, 0.12);
+    border-color: #6f9bff;
+    color: #9dbcff;
+  }
+</style>

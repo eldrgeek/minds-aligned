@@ -1,0 +1,12 @@
+{
+  "doi": "10.1142/s0218213006002588",
+  "doi_url": "https://doi.org/10.1142/s0218213006002588",
+  "title": "MoMM — FAST INTERREDUCTION AND RETRIEVAL IN LARGE LIBRARIES OF FORMALIZED MATHEMATICS",
+  "year": "2006",
+  "journal": "International Journal of Artificial Intelligence Tools",
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "MoMM (in the narrower sense) is a tool allowing fast interreduction of a high number of clauses, dumping and fast-loading of the interreduced clause sets, and their use for real-time retrieval of matching clauses in an interactive mode. MoMM's main task is now providing these services for the world's largest body of formalized mathematics — the Mizar Mathematical Library (MML), which uses a richer formalism than just pure predicate logic. This task leads to a number of features (strength, speed, memory efficiency, dealing with the richer Mizar logic, etc.) required from MoMM, and we describe the choices taken in its implementation corresponding to these requirements. An important part of MoMM (in the wider sense) are the tools exporting the richer logic of MML into the clause-like format suitable for fast interreduction, and the tools allowing the use of MoMM as an interactive advisor for the authors of Mizar articles. These tools and choices taken in their implementation are also described here. Next we present some results of the interreduction of MML, which provide an interesting information about subsumption and repetition in the MML and can be used for its refactoring. This interreduction reveals that more than 2 percent of the main MML theorems are subsumed by others, and that for more than 50 percent of the internal lemmas proved by Mizar authors MoMM can provide useful advice for their justification. Finally some problems and possible future work are discussed.",
+  "link": "https://doi.org/10.1142/s0218213006002588"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/lics.1998.705641",
+  "doi_url": "https://doi.org/10.1109/lics.1998.705641",
+  "title": "Ordering finite variable types with generalized quantifiers",
+  "year": "2002",
+  "journal": null,
+  "authors": [
+    "Anuj Dawar",
+    "Lauri Hella",
+    "Anil K. Seth"
+  ],
+  "abstract": "Let Q be a finite set of generalized quantifiers. By L/sup k/(Q) we denote the k-variable fragment of FO(Q), first order logic extended with Q. We show that for each k, there is a PFP(Q)-definable linear pre-order whose equivalence classes in any finite structure 21 are the L/sup k/(Q)-types in 21. For some special classes of generalized quantifiers Q, we show that such an ordering of L/sup k/(Q)-types is already definable in IFP(Q). As applications of the above results, we prove some generalizations of the Abiteboul-Vianu theorem. For instance, we show that for any finite set Q of modular counting quantifiers, P=PSPACE if, and only if, IFP(Q)=PFP(Q) over finite structures. On the other hand, we show that an ordering of L/sup k/(Q)-types is not always definable in IFP(Q). Indeed, we construct a single, polynomial time computable quantifier P such that the equivalence relation /spl equiv//sup k,P/, and hence ordering on L/sup k/(P)-types, is not definable in IFP(P).",
+  "link": "https://doi.org/10.1109/lics.1998.705641"
+}

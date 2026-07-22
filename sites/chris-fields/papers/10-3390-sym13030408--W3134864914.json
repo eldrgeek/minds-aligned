@@ -1,0 +1,14 @@
+{
+  "doi": "10.3390/sym13030408",
+  "doi_url": "https://doi.org/10.3390/sym13030408",
+  "title": "Reference Frame Induced Symmetry Breaking on Holographic Screens",
+  "year": "2021",
+  "journal": "Symmetry",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook",
+    "Antonino Marcianò"
+  ],
+  "abstract": "Any interaction between finite quantum systems in a separable joint state can be viewed as encoding classical information on an induced holographic screen. Here we show that when such an interaction is represented as a measurement, the quantum reference frames (QRFs) deployed to identify systems and pick out their pointer states induce decoherence, breaking the symmetry of the holographic encoding in an observer-relative way. Observable entanglement, contextuality, and classical memory are, in this representation, logical and temporal relations between QRFs. Sharing entanglement as a resource requires a priori shared QRFs.",
+  "link": "https://doi.org/10.3390/sym13030408"
+}

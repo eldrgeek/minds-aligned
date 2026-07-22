@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/swste.2014.17",
+  "doi_url": "https://doi.org/10.1109/swste.2014.17",
+  "title": "Computational Diagnosis of Parkinson's Disease Directly from Natural Speech Using Machine Learning Techniques",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Alex Frid",
+    "Hananel Hazan",
+    "Dan Hilu",
+    "Larry M. Manevitz",
+    "Lorraine O. Ramig",
+    "Shimon Sapir"
+  ],
+  "abstract": "The human voice signal carries much information in addition to direct linguistic semantic information. This information can be perceived by computational systems. In this work, we show that early diagnosis of Parkinson's disease is possible solely from the voice signal. This is in contrast to earlier work in which we showed that this can be done using hand-calculated features of the speech (such as formants) as annotated by professional speech therapists. In this paper, we review that work and show that a differential diagnosis can be produced directly from the analog speech signal itself. In addition, differentiation can be made between seven different degrees of progression of the disease (including healthy). Such a system can act as an additional stage (or another building block) in a bigger system of natural speech processing. For example it could be used in automatic speech recognition systems that are used as personal assistants (such as Iphones' Siri, Google Voice), or as natural man-machine interfaces. We also conjecture that such systems can be extended to monitoring and classifying additional neurological diseases and speech pathologies. The methods presented here use a combination of signal processing features and machine learning techniques.",
+  "link": "https://doi.org/10.1109/swste.2014.17"
+}

@@ -1,0 +1,18 @@
+{
+  "doi": "10.3390/onco4030013",
+  "doi_url": "https://doi.org/10.3390/onco4030013",
+  "title": "A Systems Biology Analysis of Chronic Lymphocytic Leukemia",
+  "year": "2024",
+  "journal": "Onco",
+  "authors": [
+    "Giulia Pozzati",
+    "Jinrui Zhou",
+    "Hananel Hazan",
+    "Giannoula Klement",
+    "Hava T. Siegelmann",
+    "Jack A. Tuszyński",
+    "Edward A. Rietman"
+  ],
+  "abstract": "Whole-genome sequencing has revealed that TP53, NOTCH1, ATM, SF3B1, BIRC3, ABL, NXF1, BCR, and ZAP70 are often mutated in CLL, but not consistently across all CLL patients. This paper employs a statistical thermodynamics approach in combination with the systems biology of the CLL protein–protein interaction networks to identify the most significant participant proteins in the cancerous transformation. Betti number (a topology of complexity) estimates highlight a protein hierarchy, primarily in the Wnt pathway known for aberrant CLL activation. These individually identified proteins suggest a network-targeted strategy over single-target drug development. The findings advocate for a multi-target inhibition approach, limited to several key proteins to minimize side effects, thereby providing a foundation for designing therapies. This study emphasizes a shift towards a comprehensive, multi-scale analysis to enhance personalized treatment strategies for CLL, which could be experimentally validated using siRNA or small-molecule inhibitors. The result is not just the identification of these proteins but their rank-order, offering a potent signal amplification in the context of the 20,000 proteins produced by the human body, thus providing a strategic basis for therapeutic intervention in CLL, underscoring the necessity for a more holistic, cellular, chromosomal, and genome-wide study to develop tailored treatments for CLL patients.",
+  "link": "https://doi.org/10.3390/onco4030013"
+}

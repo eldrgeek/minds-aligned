@@ -1,0 +1,13 @@
+{
+  "doi": "10.1515/opphil-2019-0034",
+  "doi_url": "https://doi.org/10.1515/opphil-2019-0034",
+  "title": "Using AI Methods to Evaluate a Minimal Model for Perception",
+  "year": "2019",
+  "journal": "Open Philosophy",
+  "authors": [
+    "Robert Prentner",
+    "Chris Fields"
+  ],
+  "abstract": "Abstract The relationship between philosophy and research on artificial intelligence (AI) has been difficult since its beginning, with mutual misunderstanding and sometimes even hostility. By contrast, we show how an approach informed by both philosophy and AI can be productive. After reviewing some popular frameworks for computation and learning, we apply the AI methodology of “build it and see” to tackle the philosophical and psychological problem of characterizing perception as distinct from sensation. Our model comprises a network of very simple, but interacting agents which have binary experiences of the “yes/no”-type and communicate their experiences with each other. When does such a network refer to a single agent instead of a distributed network of entities? We apply machine learning techniques to address the following related questions: i) how can the model explain stability of compound entities, and ii) how could the model implement a single task such as perceptual inference? We thereby find consistency with previous work on “interface” strategies from perception research. While this reflects some necessary conditions for the ascription of agency, we suggest that it is not sufficient. Here, AI research, if it is intended to contribute to conceptual understanding, would benefit from issues previously raised by philosophy. We thus conclude the article with a discussion of action-selection, the role of embodiment, and consciousness to make this more explicit. We conjecture that a combination of AI research and philosophy allows general principles of mind and being to emerge from a “quasi-empirical” investigation.",
+  "link": "https://doi.org/10.1515/opphil-2019-0034"
+}

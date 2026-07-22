@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Automated reasoning and presentation support for formalizing mathematics in Mizar",
+  "year": "2010",
+  "journal": null,
+  "authors": [
+    "Josef Urban",
+    "Geoff Sutcliffe"
+  ],
+  "abstract": "Abstract. This paper presents a combination of several automated rea-soning and proof presentation tools with the Mizar system for formal-ization of mathematics. The combination forms an online service called MizAR, similar to the SystemOnTPTP service for first-order automated reasoning. The main differences to SystemOnTPTP are the use of the Mizar language that is oriented towards human mathematicians (rather than the pure first-order logic used in SystemOnTPTP), and setting the service in the context of the large Mizar Mathematical Library of pre-vious theorems, definitions, and proofs (rather than the isolated prob-lems that are solved in SystemOnTPTP). These differences poses new challenges and new opportunities for automated reasoning and for proof presentation tools. This paper describes the overall structure of MizAR, and presents the automated reasoning systems and proof presentation tools that are combined to make MizAR a useful mathematical service. 1",
+  "link": "https://openalex.org/W1999080232"
+}

@@ -1,0 +1,18 @@
+{
+  "doi": "10.1162/imag.a.88",
+  "doi_url": "https://doi.org/10.1162/imag.a.88",
+  "title": "Increasing spectral DCM flexibility and speed by leveraging Julia’s ModelingToolkit and automated differentiation",
+  "year": "2025",
+  "journal": "Imaging Neuroscience",
+  "authors": [
+    "D. J. Hofmann",
+    "Anthony G. Chesebro",
+    "Christopher Rackauckas",
+    "Lilianne R. Mujica‐Parodi",
+    "Karl Friston",
+    "Alan Edelman",
+    "Helmut H. Strey"
+  ],
+  "abstract": "Using neuroimaging and electrophysiological data to infer neural parameter estimations from theoretical circuits requires solving the inverse problem. Here, we provide a new Julia language package designed to i) compose complex dynamical models in a simple and modular way with ModelingToolkit.jl, ii) implement parameter fitting based on spectral dynamic causal modeling (sDCM) using the Laplace approximation, analogous to MATLAB implementation in SPM, and iii) leverage Julia's unique strengths to increase accuracy and speed by employing Automatic Differentiation during the fitting procedure. To illustrate the utility of our flexible modular approach, we provide a method to improve correction for fMRI scanner field strengths (1.5T, 3T, 7T) when fitting models to real data.",
+  "link": "https://doi.org/10.1162/imag.a.88"
+}

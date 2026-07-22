@@ -1,0 +1,14 @@
+{
+  "doi": "10.2307/2290964",
+  "doi_url": "https://doi.org/10.2307/2290964",
+  "title": "Time Series Prediction: Forecasting the Future and Understanding the Past. Proceedings of the NATO Advanced Research Workshop on a Comparative Time Series Analysis Held in Santa Fe, New Mexico, 14-17 May 1992.",
+  "year": "1994",
+  "journal": "Journal of the American Statistical Association",
+  "authors": [
+    "KK",
+    "Andreas S. Weigend",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "The book is a summary of a time series forecasting competition that was held a number of years ago. The competition used four different kinds of time series (for example, one data set was chaotic from measurements of a laser, and another was a multidimensional physiological times series of heart beats and respiration, etc.). The strength of the book lies in that it represents several ways to approach real time series prediction strategies in a concrete way - Invaluable, especially to researchers who may be just beginning.",
+  "link": "https://doi.org/10.2307/2290964"
+}

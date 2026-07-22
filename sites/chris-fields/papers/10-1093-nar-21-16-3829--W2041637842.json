@@ -1,0 +1,17 @@
+{
+  "doi": "10.1093/nar/21.16.3829",
+  "doi_url": "https://doi.org/10.1093/nar/21.16.3829",
+  "title": "A quality control algorithm for DNA sequencing projects",
+  "year": "1993",
+  "journal": "Nucleic Acids Research",
+  "authors": [
+    "Owen White",
+    "Ted Dunning",
+    "Granger Sutton",
+    "Mark D. Adams",
+    "J. Craig Venter",
+    "Chris Fields"
+  ],
+  "abstract": "Heterologous DNA sequences from rearrangements with the genomes of host cells, genomic fragments from hybrid cells, or impure tissue sources can threaten the purity of libraries that are derived from RNA or DNA. Hybridization methods can only detect contaminants from known or suspected heterologous sources, and whole library screening is technically very difficult. Detection of contaminating heterologous clones by sequence alignment is only possible when related sequences are present in a known database. We have developed a statistical test to identify heterologous sequences that is based on the differences in hexamer composition of DNA from different organisms. This test does not require that sequences similar to potential heterologous contaminants are present in the database, and can in principle detect contamination by previously unknown organisms. We have applied this test to the major public expressed sequence tag (EST) data sets to evaluate its utility as a quality control measure and a peer evaluation tool. There is detectable heterogeneity in most human and C.elegans EST data sets but it is not apparently associated with cross-species contamination. However, there is direct evidence for both yeast and bacterial sequence contamination in some public database sequences annotated as human. Results obtained with the hexamer test have been confirmed with similarity searches using sequences from the relevant data sets.",
+  "link": "https://doi.org/10.1093/nar/21.16.3829"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.1523/jneurosci.1447-24.2025",
+  "doi_url": "https://doi.org/10.1523/jneurosci.1447-24.2025",
+  "title": "The Functional Anatomy of Nociception: Effective Connectivity in Chronic Pain and Placebo Response",
+  "year": "2025",
+  "journal": "Journal of Neuroscience",
+  "authors": [
+    "Sanjeev Nara",
+    "Marwan N. Baliki",
+    "Karl Friston",
+    "Dipanjan Ray"
+  ],
+  "abstract": "Chronic pain presents a widespread and complex clinical puzzle, necessitating theoretical approaches. This study expands upon our evolving comprehension of the brain’s top-down information processing, encompassing functions such as prediction, expectation, and attention. These processes are believed to play a substantial role in shaping both chronic pain and placebo responses. To examine hierarchical cortical processing in pain, we define a minimal cortical pain network comprising the lateral frontal pole, the primary somatosensory cortex, and posterior insula. Using spectral dynamic causal modeling on resting-state functional magnetic resonance imaging data, we compare effective connectivity among these regions in chronic osteoarthritic patients ( n = 54) and healthy controls ( n = 18), and further analyze differences in placebo responders and non-responders within the patient group. Our findings reveal distinct patterns of altered top-down, bottom-up, and recurrent (i.e., intrinsic) effective connectivity within the network in chronic pain and placebo response. Specifically, recurrent connectivity within the lateral frontal pole becomes more inhibitory, while backward connectivity (higher-to-lower cortical regions) decreases in both pain perceivers and placebo responders. Conversely, forward connections show opposite patterns: nociception is associated with more excitatory (disinhibited) connections, whereas placebo responses correspond to more inhibitory forward connections. The associated effect sizes were sufficiently large to survive a leave-one-out cross-validation analysis of predictive validity. The observed alterations are consistent with predictive processing accounts of placebo effects and chronic pain. Overall, effective extrinsic and intrinsic connectivity among cortical regions involved in pain processing emerge as potentially valuable and quantifiable markers of pain perception and placebo response.",
+  "link": "https://doi.org/10.1523/jneurosci.1447-24.2025"
+}

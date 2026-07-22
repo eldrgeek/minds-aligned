@@ -1,0 +1,16 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Learning to Prove with Tactics",
+  "year": "2018",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Thibault Gauthier",
+    "Cezary Kaliszyk",
+    "Josef Urban",
+    "Ramana Kumar",
+    "Michael Norrish"
+  ],
+  "abstract": "We implement a automated tactical prover TacticToe on top of the HOL4 interactive theorem prover. TacticToe learns from human proofs which mathematical technique is suitable in each proof situation. This knowledge is then used in a Monte Carlo tree search algorithm to explore promising tactic-level proof paths. On a single CPU, with a time limit of 60 seconds, TacticToe proves 66.4 percent of the 7164 theorems in HOL4's standard library, whereas E prover with auto-schedule solves 34.5 percent. The success rate rises to 69.0 percent by combining the results of TacticToe and E prover.",
+  "link": "https://openalex.org/W2795795481"
+}

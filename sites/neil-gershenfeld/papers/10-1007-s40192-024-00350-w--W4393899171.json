@@ -1,0 +1,17 @@
+{
+  "doi": "10.1007/s40192-024-00350-w",
+  "doi_url": "https://doi.org/10.1007/s40192-024-00350-w",
+  "title": "Online Measurement for Parameter Discovery in Fused Filament Fabrication",
+  "year": "2024",
+  "journal": "Integrating materials and manufacturing innovation",
+  "authors": [
+    "Jake Robert Read",
+    "Jonathan E. Seppala",
+    "Filippos Tourlomousis",
+    "James A. Warren",
+    "Nicole Bakker",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "To describe a new method for the automatic generation of process parameters for fused filament fabrication (FFF) across varying machines and materials. We use an instrumented extruder to fit a function that maps nozzle pressures across varying flow rates and temperatures for a given machine and material configuration. We then develop a method to extract real parameters for flow rate and temperature using relative pressures and temperature offsets. Our method allows us to successfully find process parameters, using one set of input parameters, across all of the machine and material configurations that we tested, even in materials that we had never printed before. Rather than using direct parameters in FFF printing, which is time-consuming to tune and modify, it is possible to deploy machine-generated data that captures the fundamental phenomenology of FFF to automatically select parameters.",
+  "link": "https://doi.org/10.1007/s40192-024-00350-w"
+}

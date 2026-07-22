@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/biocas.2008.4696906",
+  "doi_url": "https://doi.org/10.1109/biocas.2008.4696906",
+  "title": "Analog Logic Automata",
+  "year": "2008",
+  "journal": null,
+  "authors": [
+    "Kailiang Chen",
+    "Jonathan Leu",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Analog logic circuits work on digital problems using an analog representation of the digital variables, relaxing the state space of the digital system from the vertices of a hypercube to the interior. This lets us gain speed, power, and accuracy over digital implementations. Logic automata are distributed, scalable and programmable digital computation media with local connections and logic operations. Here we propose analog logic automata (ALA), which relax binary constraints on logic automata states and introduce programmability into analog logic circuits. The localized interaction and scalability of the ALA provide a new way to do neuromorphic engineering, enabling systematic designs in a digital work flow. Low-power, biomedical, decoding and communication applications are described and a 3times3 ALA chip is prototyped, which works at 50 kHz, with a power consumption of 64 muW. With the chip configured as a programmable noise-locked loop (NLL), we obtain a bit error rate (BER) of 1E-7 at an SNR of -1.13 dB.",
+  "link": "https://doi.org/10.1109/biocas.2008.4696906"
+}

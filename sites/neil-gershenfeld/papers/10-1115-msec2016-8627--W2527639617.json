@@ -1,0 +1,14 @@
+{
+  "doi": "10.1115/msec2016-8627",
+  "doi_url": "https://doi.org/10.1115/msec2016-8627",
+  "title": "Automated Assembly of Electronic Digital Materials",
+  "year": "2016",
+  "journal": "Volume 2: Materials; Biomanufacturing; Properties, Applications and Systems; Sustainable Manufacturing",
+  "authors": [
+    "Will Langford",
+    "Amanda Ghassaei",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Interest in additive manufacturing has recently been spurred by the promise of multi-material printing and the ability to embed functionality and intelligence into objects. Here, we present an alternative to additive manufacturing, introducing an end-to-end workflow in which discrete building blocks are reversibly joined to produce assemblies called digital materials. We describe the design of the bulk-material building blocks and the devices that are assembled from them. Further, we detail the design and implementation of an automated assembler, which takes advantage of the digital material structure to restore positioning errors within a large tolerance. To generate assembly sequences, we use a novel CAD/CAM workflow for designing, simulating, and assembling digital materials. Finally, we evaluate the structures assembled using this process, showing that the joints perform well under varying conditions and that the assembled structures are functionally precise.",
+  "link": "https://doi.org/10.1115/msec2016-8627"
+}

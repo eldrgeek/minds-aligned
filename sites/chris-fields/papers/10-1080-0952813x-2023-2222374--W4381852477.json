@@ -1,0 +1,13 @@
+{
+  "doi": "10.1080/0952813x.2023.2222374",
+  "doi_url": "https://doi.org/10.1080/0952813x.2023.2222374",
+  "title": "Constructing condensed memories in functorial time",
+  "year": "2023",
+  "journal": "Journal of Experimental & Theoretical Artificial Intelligence",
+  "authors": [
+    "Shanna Dobson",
+    "Chris Fields"
+  ],
+  "abstract": "If episodic memory is constructive, experienced time is also a construct. We develop an event-based formalism that replaces the traditional objective, agent-independent notion of time with a constructive, agent-dependent notion of time. We show how to make this agent-dependent time entropic and hence well-defined. We use sheaf-theoretic techniques to render agent-dependent time functorial and to construct episodic memories as sequences of observed and constructed events with well-defined limits that maximise the consistency of categorisations assigned to objects appearing in memories. We then develop a condensed formalism that represents episodic memories as pure constructs from single events. We formulate an empirical hypothesis that human episodic memory implements a particular time-symmetric constructive functor, and discuss possible experimental tests.",
+  "link": "https://doi.org/10.1080/0952813x.2023.2222374"
+}

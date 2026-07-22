@@ -1,0 +1,19 @@
+{
+  "doi": "10.31219/osf.io/74px8",
+  "doi_url": "https://doi.org/10.31219/osf.io/74px8",
+  "title": "Establishing brain states in neuroimaging data",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Zalina Dezhina",
+    "Jonathan Smallwood",
+    "Ting Xu",
+    "Federico Turkheimer",
+    "Rosalyn Moran",
+    "Karl Friston",
+    "Robert Leech",
+    "Erik D. Fagerholm"
+  ],
+  "abstract": "The definition of a brain state remains elusive, with varying interpretations across different sub-fields of neuroscience — from the level of wakefulness in anaesthesia, to activity of individual neurons, voltage in EEG, and blood flow in fMRI. This lack of consensus presents a significant challenge to the development of accurate models of neural dynamics. However, at the foundation of dynamical systems theory lies a definition of what constitutes the 'state' of a system — i.e., something that allows us to say what the system will do next. We propose here to adopt this definition to establish brain states in neuroimaging timeseries by applying Dynamic Causal Modelling (DCM) to low-dimensional embedding of resting and task condition fMRI data. We find that ~90% of subjects in resting conditions are better described by first-order models, whereas ~55% of subjects in task conditions are better described by second-order models. This calls into question the status quo of using first-order equations almost exclusively within computational neuroscience. We show that our approach provides a new perspective on brain states that will aid in the development of models of neural dynamics in a way that can be adapted to different data modalities.",
+  "link": "https://doi.org/10.31219/osf.io/74px8"
+}

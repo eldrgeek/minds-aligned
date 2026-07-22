@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2509.08264",
+  "doi_url": "https://doi.org/10.48550/arxiv.2509.08264",
+  "title": "Hammering Higher Order Set Theory",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chad E. Brown",
+    "Cezary Kaliszyk",
+    "Martin Suda",
+    "Josef Urban"
+  ],
+  "abstract": "We use automated theorem provers to significantly shorten a formal development in higher order set theory. The development includes many standard theorems such as the fundamental theorem of arithmetic and irrationality of square root of two. Higher order automated theorem provers are particularly useful here, since the underlying framework of higher order set theory coincides with the classical extensional higher order logic of (most) higher order automated theorem provers, so no significant translation or encoding is required. Additionally, many subgoals are first order and so first order automated provers often suffice. We compare the performance of different provers on the subgoals generated from the development. We also discuss possibilities for proof reconstruction, i.e., obtaining formal proof terms when an automated theorem prover claims to have proven the subgoal.",
+  "link": "https://doi.org/10.48550/arxiv.2509.08264"
+}

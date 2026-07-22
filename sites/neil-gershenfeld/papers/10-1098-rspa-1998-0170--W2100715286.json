@@ -1,0 +1,15 @@
+{
+  "doi": "10.1098/rspa.1998.0170",
+  "doi_url": "https://doi.org/10.1098/rspa.1998.0170",
+  "title": "Bulk quantum computation with nuclear magnetic resonance: theory and experiment",
+  "year": "1998",
+  "journal": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences",
+  "authors": [
+    "Isaac L. Chuang",
+    "Neil Gershenfeld",
+    "Mark G. Kubinec",
+    "Debbie Leung"
+  ],
+  "abstract": "We show that quantum computation is possible with mixed states instead of pure states as inputs. This is performed by embedding within the mixed state a subspace that transforms like a pure state and that can be identified by labelling it based on logical (spin), temporal, or spatial degrees of freedom. This permits quantum computation to be realized with bulk ensembles far from the ground state. Experimental results are presented for quantum gates and circuits implemented with liquid nuclear magnetic resonance techniques and verified by quantum state tomography.",
+  "link": "https://doi.org/10.1098/rspa.1998.0170"
+}

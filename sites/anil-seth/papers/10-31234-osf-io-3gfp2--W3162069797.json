@@ -1,0 +1,13 @@
+{
+  "doi": "10.31234/osf.io/3gfp2",
+  "doi_url": "https://doi.org/10.31234/osf.io/3gfp2",
+  "title": "Effects of expected task difficulty on metacognitive confidence and multitasking",
+  "year": "2021",
+  "journal": null,
+  "authors": [
+    "Maxine T. Sherman",
+    "Anil K. Seth"
+  ],
+  "abstract": "In daily life, repeated experiences with a task (e.g. driving) will generally result in the development of a belief about one’s ability (“I am a good driver”). Here we ask how such beliefs, termed self-efficacy, interact with metacognitive confidence judgements. Across three pre-registered experiments, participants performed a perceptual discrimination task and reported their decision confidence. We induced contextual beliefs about performance (our operationalisation of self-efficacy) by manipulating the prior probability of an easy or hard trial occurring in each block. In Experiment 1 easy and hard trials generated the same levels of performance (a “subjective difficulty” manipulation), whereas in Experiments 2 and 3 performance differed across difficulty conditions (an “objective difficulty” manipulation). Results showed that context (self-efficacy) and difficulty interacted multiplicatively, consistent with the notion that confidence judgements combine decision evidence with a prior (contextual) belief on being correct. This occurred despite context having no corresponding effect on performance. We reasoned that performing tasks in easy contexts may reduce cognitive “load”, and tested this, in Experiment 3, by instructing participants to perform two tasks concurrently. Consistent with a reduction in load, the effects of context transferred from influencing confidence on our primary task to improving performance on the secondary task. Taken together, these studies reveal that contextual beliefs about performance facilitate multitasking, potentially by reducing the load of tasks believed to be easy, and they extend psychophysical investigations of perceptual decision-making by incorporating ‘higher-order’ beliefs about difficulty context, corresponding to intuitive notions of self-efficacy.",
+  "link": "https://doi.org/10.31234/osf.io/3gfp2"
+}

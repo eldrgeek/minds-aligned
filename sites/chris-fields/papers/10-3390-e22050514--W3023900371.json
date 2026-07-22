@@ -1,0 +1,16 @@
+{
+  "doi": "10.3390/e22050514",
+  "doi_url": "https://doi.org/10.3390/e22050514",
+  "title": "Fact, Fiction, and Fitness",
+  "year": "2020",
+  "journal": "Entropy",
+  "authors": [
+    "Chetan Prakash",
+    "Chris Fields",
+    "Donald D. Hoffman",
+    "Robert Prentner",
+    "Manish Singh"
+  ],
+  "abstract": "A theory of consciousness, whatever else it may do, must address the structure of experience. Our perceptual experiences are richly structured. Simply seeing a red apple, swaying between green leaves on a stout tree, involves symmetries, geometries, orders, topologies, and algebras of events. Are these structures also present in the world, fully independent of their observation? Perceptual theorists of many persuasions-from computational to radical embodied-say yes: perception veridically presents to observers structures that exist in an observer-independent world; and it does so because natural selection shapes perceptual systems to be increasingly veridical. Here we study four structures: total orders, permutation groups, cyclic groups, and measurable spaces. We ask whether the payoff functions that drive evolution by natural selection are homomorphisms of these structures. We prove, in each case, that generically the answer is no: as the number of world states and payoff values go to infinity, the probability that a payoff function is a homomorphism goes to zero. We conclude that natural selection almost surely shapes perceptions of these structures to be non-veridical. This is consistent with the interface theory of perception, which claims that natural selection shapes perceptual systems not to provide veridical perceptions, but to serve as species-specific interfaces that guide adaptive behavior. Our results present a constraint for any theory of consciousness which assumes that structure in perceptual experience is shaped by natural selection.",
+  "link": "https://doi.org/10.3390/e22050514"
+}

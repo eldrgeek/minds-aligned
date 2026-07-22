@@ -1,0 +1,13 @@
+{
+  "doi": "10.1126/science.275.5298.350",
+  "doi_url": "https://doi.org/10.1126/science.275.5298.350",
+  "title": "Bulk Spin-Resonance Quantum Computation",
+  "year": "1997",
+  "journal": "Science",
+  "authors": [
+    "Neil Gershenfeld",
+    "Isaac L. Chuang"
+  ],
+  "abstract": "Quantum computation remains an enormously appealing but elusive goal. It is appealing because of its potential to perform superfast algorithms, such as finding prime factors in polynomial time, but also elusive because of the difficulty of simultaneously manipulating quantum degrees of freedom while preventing environmentally induced decoherence. A new approach to quantum computing is introduced based on the use of multiple-pulse resonance techniques to manipulate the small deviation from equilibrium of the density matrix of a macroscopic ensemble so that it appears to be the density matrix of a much lower dimensional pure state. A complete prescription for quantum computing is given for such a system.",
+  "link": "https://doi.org/10.1126/science.275.5298.350"
+}

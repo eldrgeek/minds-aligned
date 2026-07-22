@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2101.05125",
+  "doi_url": "https://doi.org/10.48550/arxiv.2101.05125",
+  "title": "Formalising Concepts as Grounded Abstractions",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Stephen Clark",
+    "Alexander Lerchner",
+    "Tamara von Glehn",
+    "Olivier Tieleman",
+    "Richard Tanburn",
+    "Misha Dashevskiy",
+    "Matko Bošnjak"
+  ],
+  "abstract": "The notion of concept has been studied for centuries, by philosophers, linguists, cognitive scientists, and researchers in artificial intelligence (Margolis &amp; Laurence, 1999). There is a large literature on formal, mathematical models of concepts, including a whole sub-field of AI -- Formal Concept Analysis -- devoted to this topic (Ganter &amp; Obiedkov, 2016). Recently, researchers in machine learning have begun to investigate how methods from representation learning can be used to induce concepts from raw perceptual data (Higgins, Sonnerat, et al., 2018). The goal of this report is to provide a formal account of concepts which is compatible with this latest work in deep learning. The main technical goal of this report is to show how techniques from representation learning can be married with a lattice-theoretic formulation of conceptual spaces. The mathematics of partial orders and lattices is a standard tool for modelling conceptual spaces (Ch.2, Mitchell (1997), Ganter and Obiedkov (2016)); however, there is no formal work that we are aware of which defines a conceptual lattice on top of a representation that is induced using unsupervised deep learning (Goodfellow et al., 2016). The advantages of partially-ordered lattice structures are that these provide natural mechanisms for use in concept discovery algorithms, through the meets and joins of the lattice.",
+  "link": "https://doi.org/10.48550/arxiv.2101.05125"
+}

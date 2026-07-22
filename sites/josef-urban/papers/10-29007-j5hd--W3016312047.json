@@ -1,0 +1,13 @@
+{
+  "doi": "10.29007/j5hd",
+  "doi_url": "https://doi.org/10.29007/j5hd",
+  "title": "Stateful Premise Selection by Recurrent Neural Networks",
+  "year": "2020",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Bartosz Piotrowski",
+    "Josef Urban"
+  ],
+  "abstract": "In this work we develop a new learning-based method for selecting facts (premises) when proving new goals over large formal libraries. Unlike previous methods that choose sets of facts independently of each other by their rank, the new method uses the notion of state that is updated each time a choice of a fact is made. Our stateful architecture is based on recurrent neural networks which have been recently very successful in stateful tasks such as language translation. The new method is combined with data augmentation techniques, evaluated in several ways on a standard large-theory benchmark and compared to state-of-the-art premise approach based on gradient boosted trees. It is shown to perform significantly better and to solve many new problems.",
+  "link": "https://doi.org/10.29007/j5hd"
+}

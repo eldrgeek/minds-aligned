@@ -1,0 +1,13 @@
+{
+  "doi": "10.2307/3681109",
+  "doi_url": "https://doi.org/10.2307/3681109",
+  "title": "Musical Applications of Electric Field Sensing",
+  "year": "1997",
+  "journal": "Computer Music Journal",
+  "authors": [
+    "Joseph A. Paradiso",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "The Theremin was one of the first electronic musical instruments, yet it provides a degree of expressive real-time control that remains lacking in most modern electronic music interfaces. Underlying the deceptively simple capacitance measurement used by it and its descendants are a number of surprisingly interesting current transport mechanisms that can be used to inexpensively, unobtrusively, robustly, and remotely detect the position of people and objects. We review the relevant physics, describe appropriate measurement instrumentation, and discuss applications that began with capturing virtuosic performance gesture on traditional stringed instruments and evolved into the design of new musical interfaces. 1)",
+  "link": "https://doi.org/10.2307/3681109"
+}

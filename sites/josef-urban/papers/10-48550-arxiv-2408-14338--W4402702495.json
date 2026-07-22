@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2408.14338",
+  "doi_url": "https://doi.org/10.48550/arxiv.2408.14338",
+  "title": "Machine Learning for Quantifier Selection in cvc5",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Jan Jakubův",
+    "Mikoláš Janota",
+    "Jelle Piepenbrock",
+    "Josef Urban"
+  ],
+  "abstract": "In this work we considerably improve the state-of-the-art SMT solving on first-order quantified problems by efficient machine learning guidance of quantifier selection. Quantifiers represent a significant challenge for SMT and are technically a source of undecidability. In our approach, we train an efficient machine learning model that informs the solver which quantifiers should be instantiated and which not. Each quantifier may be instantiated multiple times and the set of the active quantifiers changes as the solving progresses. Therefore, we invoke the ML predictor many times, during the whole run of the solver. To make this efficient, we use fast ML models based on gradient boosting decision trees. We integrate our approach into the state-of-the-art cvc5 SMT solver and show a considerable increase of the system's holdout-set performance after training it on a large set of first-order problems collected from the Mizar Mathematical Library.",
+  "link": "https://doi.org/10.48550/arxiv.2408.14338"
+}

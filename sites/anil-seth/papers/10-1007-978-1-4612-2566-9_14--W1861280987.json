@@ -1,0 +1,12 @@
+{
+  "doi": "10.1007/978-1-4612-2566-9_14",
+  "doi_url": "https://doi.org/10.1007/978-1-4612-2566-9_14",
+  "title": "Turing Machine Characterizations of Feasible Functionals of All Finite Types",
+  "year": "1995",
+  "journal": "Birkhäuser Boston eBooks",
+  "authors": [
+    "Anil K. Seth"
+  ],
+  "abstract": "In this paper we extend the “Oracle Turing Machine” model to compute functionals of all finite types. Using this model we define analogs of class C 1 (type 2 basic feasible functionals), of [11], in all finite types. We get two apparently different classes which we call D and E when C 1 is generalized to finite types. These classes correspond to two different ways of querying higher type inputs. Both these classes are shown to satisfy the necessary conditions proposed by Cook [5], which any class of feasible functionals must satisfy. Class E, as expected, turns out to be the BFF, thus providing a more natural computational characterization of higher type basic feasible functionals. Class D is the same as BFF for type 2, but appears to be larger than BFF for types 3 and above; however, showing separation between these two classes is open. The question, “Is class D larger than class E?” is equivalent to the question “Does computing the indices of subprograms used to query higher type inputs add to the computational power compared to the case when only a fixed finite number of parameterizable functionals are used for querying all higher type inputs? ”. We also briefly touch upon the preservation of higher complexity functional classes by feasible functionals [12].",
+  "link": "https://doi.org/10.1007/978-1-4612-2566-9_14"
+}

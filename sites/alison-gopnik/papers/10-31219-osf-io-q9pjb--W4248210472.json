@@ -1,0 +1,15 @@
+{
+  "doi": "10.31219/osf.io/q9pjb",
+  "doi_url": "https://doi.org/10.31219/osf.io/q9pjb",
+  "title": "Probabilistic Models, Learning Algorithms, Response Variability: Sampling in Cognitive Development",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Elizabeth Bonawitz",
+    "Stephanie Denison",
+    "Thomas L. Griffiths",
+    "Alison Gopnik"
+  ],
+  "abstract": "Although probabilistic models of cognitive development have become increasingly prevalent, one challenge is to account for how children might cope with a potentially vast number of possible hypotheses. We propose that children might address this problem by ‘sampling’ hypotheses from a probability distribution. We discuss empirical results demonstrating signatures of sampling, which offer an explanation for the variability of children's responses. The sampling hypothesis provides an algorithmic account of how children might address computationally intractable problems and suggests a way to make sense of their ‘noisy’ behavior.",
+  "link": "https://doi.org/10.31219/osf.io/q9pjb"
+}

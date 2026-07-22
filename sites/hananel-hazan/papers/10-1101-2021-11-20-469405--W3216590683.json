@@ -1,0 +1,18 @@
+{
+  "doi": "10.1101/2021.11.20.469405",
+  "doi_url": "https://doi.org/10.1101/2021.11.20.469405",
+  "title": "Evolutionary and spike-timing-dependent reinforcement learning train spiking neuronal network motor control",
+  "year": "2021",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Daniel Haşegan",
+    "Matt Deible",
+    "Christopher Earl",
+    "David Donofrio",
+    "Hananel Hazan",
+    "Haroon Anwar",
+    "Samuel A. Neymotin"
+  ],
+  "abstract": "Abstract Despite being biologically unrealistic, artificial neural networks (ANNs) have been successfully trained to perform a wide range of sensory-motor behaviors. In contrast, the performance of more biologically realistic spiking neuronal network (SNN) models trained to perform similar behaviors remains relatively suboptimal. In this work, we aimed at pushing the field of SNNs forward by exploring the potential of different learning mechanisms to achieve optimal performance. Inspired by biological learning mechanisms operating at multiple timescales, we used spike-timing-dependent reinforcement learning (STDP-RL) and evolutionary strategy (EVOL) with SNNs to solve the CartPole reinforcement learning (RL) control problem. Though the role of STDP-RL in biological systems is well established, several other mechanisms, though not fully understood, work in concert during learning in vivo. Recreating accurate models that capture the interaction of STDP-RL with these diverse learning mechanisms is extremely difficult. EVOL is an alternative method, and has been successfully used in many studies to fit model neural responsiveness to electrophysiological recordings and in some cases for classification problems. One advantage of EVOL is that it may not need to capture all interacting components of synaptic plasticity, and thus provides a better alternative to STDP-RL. Here, we compared the performance of each algorithm after training, which revealed EVOL as a powerful method to training SNNs to perform sensory-motor behaviors. Our modeling opens up new capabilities for SNNs in RL and could serve as a testbed for neurobiologists aiming to understand multi-timescale learning mechanisms and dynamics in neuronal circuits.",
+  "link": "https://doi.org/10.1101/2021.11.20.469405"
+}

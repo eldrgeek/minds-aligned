@@ -1,0 +1,14 @@
+{
+  "doi": "10.1101/361543",
+  "doi_url": "https://doi.org/10.1101/361543",
+  "title": "Quantifying metacognitive thresholds using signal-detection theory",
+  "year": "2018",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Maxine T. Sherman",
+    "Anil K. Seth",
+    "Adam B. Barrett"
+  ],
+  "abstract": "Abstract How sure are we about what we know? Confidence, measured via self-report, is often interpreted as a subjective probabilistic estimate on having made a correct judgement. The neurocognitive mechanisms underlying the construction of confidence and the information incorporated into these judgements are of increasing interest. Investigating these mechanisms requires principled and practically applicable measures of confidence and metacognition. Unfortunately, current measures of confidence are subject to distortions from decision biases and task performance. Motivated by a recent signal-detection theoretic behavioural measure of metacognitive sensitivity, known as meta- ď , here we present a quantitative behavioural measure of confidence that is invariant to decision bias and task performance. This measure, which we call m - distance , captures in a principled way the propensity to report decisions with high (or low) confidence. Computational simulations demonstrate the robustness of m - distance to decision bias and task performance, as well as its behaviour under conditions of high and low metacognitive sensitivity and under dual-channel and hierarchical models of metacognition. The introduction of the m - distance measure will enhance systematic quantitative studies of the behavioural expression and neurocognitive basis of subjective confidence.",
+  "link": "https://doi.org/10.1101/361543"
+}

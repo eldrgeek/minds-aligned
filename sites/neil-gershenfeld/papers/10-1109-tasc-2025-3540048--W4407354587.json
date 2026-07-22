@@ -1,0 +1,15 @@
+{
+  "doi": "10.1109/tasc.2025.3540048",
+  "doi_url": "https://doi.org/10.1109/tasc.2025.3540048",
+  "title": "A Compact Bit Serial Memory Cell for Adiabatic Quantum Flux Parametron Register Files",
+  "year": "2025",
+  "journal": "IEEE Transactions on Applied Superconductivity",
+  "authors": [
+    "L. Camron Blackburn",
+    "Alex Wynn",
+    "Karl K. Berggren",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "The Adiabatic Quantum Flux Parametron (AQFP) superconducting logic family is an attractive beyond-CMOS technology due to its extreme energy efficiency. As AQFP circuits become more complex and target applications scale to microprocessors and ASICs, a high performance and area efficient register-level memory design is essential. In this work, we design and implement a 3-bit memory cell based on a simple Set-Reset (SR) latch attached to a shift register feedback loop. This design is more compact than existing AQFP registers that encode data with Data-Enable logic and therefore require larger XOR-style gates for every 1-bit cell (Tsuji et al., 2017). Furthermore, we share layout design and simulation results for scaling this circuit to an 8-bit memory cell and a N-row × M-col × 8-bit register file. By using SR data encoding, we are able to join the cells in an array using more compact AND gates, performing cell-level addressing with two write demuxes and two read decoders. Projecting our initial designs to a 32-word by 8-bit register file, we find that our SR-loop memory array has a 26% decrease in area compared to other state-of-the-art designs.",
+  "link": "https://doi.org/10.1109/tasc.2025.3540048"
+}

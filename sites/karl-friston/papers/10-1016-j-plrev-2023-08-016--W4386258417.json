@@ -1,0 +1,18 @@
+{
+  "doi": "10.1016/j.plrev.2023.08.016",
+  "doi_url": "https://doi.org/10.1016/j.plrev.2023.08.016",
+  "title": "Path integrals, particular kinds, and strange things",
+  "year": "2023",
+  "journal": "Physics of Life Reviews",
+  "authors": [
+    "Karl Friston",
+    "Lancelot Da Costa",
+    "Dalton A R Sakthivadivel",
+    "Conor Heins",
+    "Grigorios A. Pavliotis",
+    "Maxwell J. D. Ramstead",
+    "Thomas Parr"
+  ],
+  "abstract": "This paper describes a path integral formulation of the free energy principle. The ensuing account expresses the paths or trajectories that a particle takes as it evolves over time. The main results are a method or principle of least action that can be used to emulate the behaviour of particles in open exchange with their external milieu. Particles are defined by a particular partition, in which internal states are individuated from external states by active and sensory blanket states. The variational principle at hand allows one to interpret internal dynamics-of certain kinds of particles-as inferring external states that are hidden behind blanket states. We consider different kinds of particles, and to what extent they can be imbued with an elementary form of inference or sentience. Specifically, we consider the distinction between dissipative and conservative particles, inert and active particles and, finally, ordinary and strange particles. Strange particles can be described as inferring their own actions, endowing them with apparent autonomy or agency. In short-of the kinds of particles afforded by a particular partition-strange kinds may be apt for describing sentient behaviour.",
+  "link": "https://doi.org/10.1016/j.plrev.2023.08.016"
+}

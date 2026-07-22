@@ -1,0 +1,13 @@
+{
+  "doi": "10.1115/msec2018-6646",
+  "doi_url": "https://doi.org/10.1115/msec2018-6646",
+  "title": "Towards Continuous Production of Shaped Honeycombs",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Sam Calisch",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Honeycomb sandwich panels are widely used for high performance parts subject to bending loads, but their manufacturing costs remain high. In particular, for parts with non-flat, non-uniform geometry, honeycombs must be machined or thermoformed with great care and expense. The ability to produce shaped honeycombs would allow sandwich panels to replace monolithic parts in a number of high performance, space-constrained applications, while also providing new areas of research for structural optimization, distributed sensing and actuation, and on-site production of infrastructure. Previous work has shown methods of directly producing shaped honeycombs by cutting and folding flat sheets of material. This research extends these methods by demonstrating work towards a continuous process for the cutting and folding steps of this process. An algorithm for producing a manufacturable cut-and-fold pattern from a three-dimensional volume is designed, and a machine for automatically performing the required cutting and parallel folding is proposed and prototyped. The accuracy of the creases placed by this machine is characterized and the impact of creasing order is demonstrated. Finally, a prototype part is produced and future work is sketched towards full process automation.",
+  "link": "https://doi.org/10.1115/msec2018-6646"
+}

@@ -1,0 +1,24 @@
+{
+  "doi": "10.48550/arxiv.2312.07547",
+  "doi_url": "https://doi.org/10.48550/arxiv.2312.07547",
+  "title": "Active Inference and Intentional Behaviour",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Karl Friston",
+    "Tommaso Salvatori",
+    "Takuya Isomura",
+    "Alexander Tschantz",
+    "Alex Kiefer",
+    "Tim Verbelen",
+    "Magnus Koudahl",
+    "Aswin Paul",
+    "Thomas Parr",
+    "Adeel Razi",
+    "Brett J. Kagan",
+    "Christopher L. Buckley",
+    "Maxwell J. D. Ramstead"
+  ],
+  "abstract": "Recent advances in theoretical biology suggest that basal cognition and sentient behaviour are emergent properties of in vitro cell cultures and neuronal networks, respectively. Such neuronal networks spontaneously learn structured behaviours in the absence of reward or reinforcement. In this paper, we characterise this kind of self-organisation through the lens of the free energy principle, i.e., as self-evidencing. We do this by first discussing the definitions of reactive and sentient behaviour in the setting of active inference, which describes the behaviour of agents that model the consequences of their actions. We then introduce a formal account of intentional behaviour, that describes agents as driven by a preferred endpoint or goal in latent state-spaces. We then investigate these forms of (reactive, sentient, and intentional) behaviour using simulations. First, we simulate the aforementioned in vitro experiments, in which neuronal cultures spontaneously learn to play Pong, by implementing nested, free energy minimising processes. The simulations are then used to deconstruct the ensuing predictive behaviour, leading to the distinction between merely reactive, sentient, and intentional behaviour, with the latter formalised in terms of inductive planning. This distinction is further studied using simple machine learning benchmarks (navigation in a grid world and the Tower of Hanoi problem), that show how quickly and efficiently adaptive behaviour emerges under an inductive form of active inference.",
+  "link": "https://doi.org/10.48550/arxiv.2312.07547"
+}

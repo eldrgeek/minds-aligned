@@ -1,0 +1,19 @@
+{
+  "doi": "10.1101/2025.07.10.664116",
+  "doi_url": "https://doi.org/10.1101/2025.07.10.664116",
+  "title": "A Canonical Microcircuit for Estimating Excitation/Inhibition (E/I) Balance",
+  "year": "2025",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Daniel J. Hauke",
+    "Julia Rodriguez-Sanchez",
+    "Hope Oloye",
+    "Lioba C S Berndt",
+    "Dimitris A. Pinotsis",
+    "Karl Friston",
+    "Daniel H. Mathalon",
+    "Rick A. Adams"
+  ],
+  "abstract": "Abstract Excitation/inhibition (E/I) balance is crucial for maintaining healthy brain function and can be disrupted in various neurological and psychiatric disorders. Despite its importance, there are few tools to study E/I balance non-invasively in humans. Here, we propose a canonical microcircuit model to estimate E/I balance from non-invasive magneto- and electroencephalography (M/EEG) recordings by parameterising global pyramidal and inhibitory cell excitability. We first establish that E/I parameters are identifiable and recoverable. We then explore the effects of these new parameters and their interaction with other parameters in a series of simulations. To highlight the clinical relevance of this new model, we simulate changes in E/I balance and their impact on event-related potentials (ERPs) derived from paired-click, passive and active oddball paradigms, which are among the most robust clinical biomarkers of schizophrenia. Our simulations show that a loss of pyramidal cell excitability can explain reduced ERP amplitudes across all three paradigms, mirroring empirical findings in schizophrenia. This method may serve as a computational assay for estimating synaptopathy and E/I balance from non-invasive M/EEG recordings across various clinical conditions thereby advancing efforts to develop personalised interventions to restore E/I balance.",
+  "link": "https://doi.org/10.1101/2025.07.10.664116"
+}

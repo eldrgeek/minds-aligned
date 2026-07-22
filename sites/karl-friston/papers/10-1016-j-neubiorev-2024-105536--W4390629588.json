@@ -1,0 +1,18 @@
+{
+  "doi": "10.1016/j.neubiorev.2024.105536",
+  "doi_url": "https://doi.org/10.1016/j.neubiorev.2024.105536",
+  "title": "Migraine as an allostatic reset triggered by unresolved interoceptive prediction errors",
+  "year": "2024",
+  "journal": "Neuroscience & Biobehavioral Reviews",
+  "authors": [
+    "William Sedley",
+    "Sukhbinder Kumar",
+    "Siobhan Jones",
+    "Andrew R. Levy",
+    "Karl Friston",
+    "Timothy D. Griffiths",
+    "Paul Goldsmith"
+  ],
+  "abstract": "Until now, a satisfying account of the cause and purpose of migraine has remained elusive. We explain migraine within the frameworks of allostasis (the situationally-flexible, forward-looking equivalent of homeostasis) and active inference (interacting with the environment via internally-generated predictions). Due to its multimodality, and long timescales between cause and effect, allostasis is inherently prone to catastrophic error, which might be impossible to correct once fully manifest, an early indicator which is elevated prediction error (discrepancy between prediction and sensory input) associated with internal sensations (interoception). Errors can usually be resolved in a targeted manner by action (correcting the physiological state) or perception (updating predictions in light of sensory input); persistent errors are amplified broadly and multimodally, to prioritise their resolution (the migraine premonitory phase); finally, if still unresolved, progressive amplification renders further changes to internal or external sensory inputs intolerably intense, enforcing physiological stability, and facilitating accurate allostatic prediction updating. As such, migraine is an effective 'failsafe' for allostasis, however it has potential to become excessively triggered, therefore maladaptive.",
+  "link": "https://doi.org/10.1016/j.neubiorev.2024.105536"
+}

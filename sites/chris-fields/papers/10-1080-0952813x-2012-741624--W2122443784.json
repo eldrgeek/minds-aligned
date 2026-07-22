@@ -1,0 +1,12 @@
+{
+  "doi": "10.1080/0952813x.2012.741624",
+  "doi_url": "https://doi.org/10.1080/0952813x.2012.741624",
+  "title": "How humans solve the frame problem",
+  "year": "2013",
+  "journal": "Journal of Experimental & Theoretical Artificial Intelligence",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Both standard formulations of the frame problem and standard solutions implicitly assume that the re-identification of objects as persisting individuals between pre- and post-action contexts is unproblematic. In the case of human beings, this assumption is false: humans dedicate considerable cognitive resources to object re-identification. An analysis of both the phenomenology and neurocognitive implementation of object re-identification is used to show that in humans, all of the information architecturally available to solve the frame problem is in fact deployed for object re-identification. The frame problem is, therefore, equivalent to the object re-identification problem in the case of human problem solving.",
+  "link": "https://doi.org/10.1080/0952813x.2012.741624"
+}

@@ -1,0 +1,19 @@
+{
+  "doi": "10.1007/s00339-023-06755-2",
+  "doi_url": "https://doi.org/10.1007/s00339-023-06755-2",
+  "title": "High aspect ratio diamond nanosecond laser machining",
+  "year": "2023",
+  "journal": "Applied Physics A",
+  "authors": [
+    "Natalie C. Golota",
+    "David Preiss",
+    "Zachary P. Fredin",
+    "Prashant Patil",
+    "Daniel Banks",
+    "Salima Bahri",
+    "Robert G. Griffin",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Laser processing of diamond has become an important technique for fabricating next generation microelectronic and quantum devices. However, the realization of low taper, high aspect ratio structures in diamond remains a challenge. We demonstrate the effects of pulse energy, pulse number and irradiation profile on the achievable aspect ratio with 532 nm nanosecond laser machining. Strong and gentle ablation regimes were observed using percussion hole drilling of type Ib HPHT diamond. Under percussion hole drilling a maximum aspect ratio of 22:1 was achieved with 10,000 pulses. To reach aspect ratios on average 40:1 and up to 66:1, rotary assisted drilling was employed using > 2 M pulse accumulations. We additionally demonstrate methods of obtaining 0.1° taper angles via ramped pulse energy machining in 10:1 aspect ratio tubes. Finally, effects of laser induced damage are studied using confocal Raman spectroscopy with observation of up to 36% increase in tensile strain following strong laser irradiation. However, we report that upon application of 600 °C heat treatment, induced strain is reduced by up to ~ 50% with considerable homogenization of observed strain. Supplementary Information: The online version contains supplementary material available at 10.1007/s00339-023-06755-2.",
+  "link": "https://doi.org/10.1007/s00339-023-06755-2"
+}

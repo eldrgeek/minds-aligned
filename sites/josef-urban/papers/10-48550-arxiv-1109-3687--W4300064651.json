@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1109.3687",
+  "doi_url": "https://doi.org/10.48550/arxiv.1109.3687",
+  "title": "Dependencies in Formal Mathematics: Applications and Extraction for Coq\\n and Mizar",
+  "year": "2011",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Jesse Alama",
+    "Lionel Mamane",
+    "Josef Urban"
+  ],
+  "abstract": "Two methods for extracting detailed formal dependencies from the Coq and\\nMizar system are presented and compared. The methods are used for dependency\\nextraction from two large mathematical repositories: the Coq Repository at\\nNijmegen and the Mizar Mathematical Library. Several applications of the\\ndetailed dependency analysis are described and proposed. Motivated by the\\ndifferent applications, we discuss the various kinds of dependencies that we\\nare interested in,and the suitability of various dependency extraction methods.\\n",
+  "link": "https://doi.org/10.48550/arxiv.1109.3687"
+}

@@ -1,0 +1,16 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Preschoolers search semantic networks in a broader and more variable way than adults: Implications for hypothesis generation",
+  "year": "2026",
+  "journal": "PsyArXiv (OSF Preprints)",
+  "authors": [
+    "Thomas L. Griffiths",
+    "Joshua Abbott",
+    "Elizabeth Bonawitz",
+    "Alison Gopnik",
+    "Caren Walker"
+  ],
+  "abstract": "Here we explore whether adults and children differ in the way they search through a semantic network, and the role those differences may play in hypothesis generation. Participants generated sequential guesses about a novel causal relation. A week later, they completed a similarity spacing task and we measured the average “distance” between guesses. We find that adults show greater dependencies between sequential guesses than preschoolers, and generate a less diverse set of options. These findings may support the idea that development can be viewed as analogous to simulated annealing strategies in machine learning that start “hot” (in early childhood), generating wider and more variable searches, and eventually cool (in adulthood) to generate narrower searches.",
+  "link": "https://openalex.org/W7165272763"
+}

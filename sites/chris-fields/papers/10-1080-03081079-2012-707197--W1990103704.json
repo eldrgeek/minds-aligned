@@ -1,0 +1,12 @@
+{
+  "doi": "10.1080/03081079.2012.707197",
+  "doi_url": "https://doi.org/10.1080/03081079.2012.707197",
+  "title": "A model-theoretic interpretation of environment-induced superselection",
+  "year": "2012",
+  "journal": "International Journal of General Systems",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "The question of what constitutes a ‘system’ is foundational to quantum measurement theory. Environment-induced superselection or ‘einselection’ has been proposed as an observer-independent mechanism by which apparently classical systems ‘emerge’ from physical interactions between degrees of freedom described completely quantum mechanically. It is shown here that einselection can only generate classical systems if the ‘environment’ is assumed a priori to be classical; einselection therefore does not provide an observer-independent mechanism by which classicality can emerge from quantum dynamics. Einselection is then reformulated in terms of positive operator-valued measures acting on a global quantum state. It is shown that this reformulation enables a natural interpretation of apparently classical systems as virtual machines that requires no assumptions beyond those of classical computer science.",
+  "link": "https://doi.org/10.1080/03081079.2012.707197"
+}

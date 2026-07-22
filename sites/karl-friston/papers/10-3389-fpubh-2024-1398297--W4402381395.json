@@ -1,0 +1,13 @@
+{
+  "doi": "10.3389/fpubh.2024.1398297",
+  "doi_url": "https://doi.org/10.3389/fpubh.2024.1398297",
+  "title": "A follow up report validating long term predictions of the COVID-19 epidemic in the UK using a dynamic causal model",
+  "year": "2024",
+  "journal": "Frontiers in Public Health",
+  "authors": [
+    "Cameron Bowie",
+    "Karl Friston"
+  ],
+  "abstract": "Background: This paper asks whether Dynamic Causal modelling (DCM) can predict the long-term clinical impact of the COVID-19 epidemic. DCMs are designed to continually assimilate data and modify model parameters, such as transmissibility of the virus, changes in social distancing and vaccine coverage-to accommodate changes in population dynamics and virus behavior. But as a novel way to model epidemics do they produce valid predictions? We presented DCM predictions 12 months ago, which suggested an increase in viral transmission was accompanied by a reduction in pathogenicity. These changes provided plausible reasons why the model underestimated deaths, hospital admissions and acute-post COVID-19 syndrome by 20%. A further 12-month validation exercise could help to assess how useful such predictions are. Methods: we compared DCM predictions-made in October 2022-with actual outcomes over the 12-months to October 2023. The model was then used to identify changes in COVID-19 transmissibility and the sociobehavioral responses that may explain discrepancies between predictions and outcomes over this period. The model was then used to predict future trends in infections, long-COVID, hospital admissions and deaths over 12-months to October 2024, as a prelude to future tests of predictive validity. Findings: Unlike the previous predictions-which were an underestimate-the predictions made in October 2022 overestimated incidence, death and admission rates. This overestimation appears to have been caused by reduced infectivity of new variants, less movement of people and a higher persistence of immunity following natural infection and vaccination. Interpretation: despite an expressive (generative) model, with time-dependent epidemiological and sociobehavioral parameters, the model overestimated morbidity and mortality. Effectively, the model failed to accommodate the \"law of declining virulence\" over a timescale of years. This speaks to a fundamental issue in long-term forecasting: how to model decreases in virulence over a timescale of years? A potential answer may be available in a year when the predictions for 2024-under a model with slowly accumulating T-cell like immunity-can be assessed against actual outcomes.",
+  "link": "https://doi.org/10.3389/fpubh.2024.1398297"
+}

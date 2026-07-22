@@ -1,0 +1,14 @@
+{
+  "doi": "10.1145/3623263.3629155",
+  "doi_url": "https://doi.org/10.1145/3623263.3629155",
+  "title": "Voxelcopter: Modular Autonomous Aerial Systems",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Sophia Wang",
+    "Miana Smith",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Different unmanned aerial system (UAS) applications, such as military reconnaissance, environmental monitoring, or commercial delivery, require different specifications such as payload weight and travel range, which typically require completely different designs. This means that it is difficult, if not impossible, to easily reconfigure an existing UAS for a new application without the redesign and reconstruction of the system. To facilitate easy reconfiguration of UAS, we present Voxelcopter, a modular construction kit for the rapid-prototyping and rapid assembly of multicopter UAS. We develop basic viable components for flight, including reconfigurable building blocks, termed functional voxels, that assemble into high-stiffness, lightweight structures with integrated power and data, a custom flight controller software library, propellers, and power storage. In this demo, a quadcopter is assembled, and we flight test the resulting vehicle, then disassemble it into components ready for reuse, demonstrating the easy reconfigurability of the system.",
+  "link": "https://doi.org/10.1145/3623263.3629155"
+}

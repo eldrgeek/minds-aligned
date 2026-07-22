@@ -1,0 +1,14 @@
+{
+  "doi": "10.1007/s11229-024-04566-3",
+  "doi_url": "https://doi.org/10.1007/s11229-024-04566-3",
+  "title": "Natural language syntax complies with the free-energy principle",
+  "year": "2024",
+  "journal": "Synthese",
+  "authors": [
+    "Elliot Murphy",
+    "Emma Holmes",
+    "Karl Friston"
+  ],
+  "abstract": "Natural language syntax yields an unbounded array of hierarchically structured expressions. We claim that these are used in the service of active inference in accord with the free-energy principle (FEP). While conceptual advances alongside modelling and simulation work have attempted to connect speech segmentation and linguistic communication with the FEP, we extend this program to the underlying computations responsible for generating syntactic objects. We argue that recently proposed principles of economy in language design-such as \"minimal search\" criteria from theoretical syntax-adhere to the FEP. This affords a greater degree of explanatory power to the FEP-with respect to higher language functions-and offers linguistics a grounding in first principles with respect to computability. While we mostly focus on building new principled conceptual relations between syntax and the FEP, we also show through a sample of preliminary examples how both tree-geometric depth and a Kolmogorov complexity estimate (recruiting a Lempel-Ziv compression algorithm) can be used to accurately predict legal operations on syntactic workspaces, directly in line with formulations of variational free energy minimization. This is used to motivate a general principle of language design that we term Turing-Chomsky Compression (TCC). We use TCC to align concerns of linguists with the normative account of self-organization furnished by the FEP, by marshalling evidence from theoretical linguistics and psycholinguistics to ground core principles of efficient syntactic computation within active inference.",
+  "link": "https://doi.org/10.1007/s11229-024-04566-3"
+}

@@ -1,0 +1,19 @@
+{
+  "doi": "10.48550/arxiv.2409.15532",
+  "doi_url": "https://doi.org/10.48550/arxiv.2409.15532",
+  "title": "A theory of generalised coordinates for stochastic differential equations",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Lancelot Da Costa",
+    "Nathaël Da Costa",
+    "Conor Heins",
+    "Johan Medrano",
+    "Grigorios A. Pavliotis",
+    "Thomas Parr",
+    "Ajith Anil Meera",
+    "Karl Friston"
+  ],
+  "abstract": "Stochastic differential equations are ubiquitous modelling tools in physics and the sciences. In most modelling scenarios, random fluctuations driving dynamics or motion have some non-trivial temporal correlation structure, which renders the SDE non-Markovian; a phenomenon commonly known as ``colored'' noise. Thus, an important objective is to develop effective tools for mathematically and numerically studying (possibly non-Markovian) SDEs. In this report, we formalise a mathematical theory for analysing and numerically studying SDEs based on so-called `generalised coordinates of motion'. Like the theory of rough paths, we analyse SDEs pathwise for any given realisation of the noise, not solely probabilistically. Like the established theory of Markovian realisation, we realise non-Markovian SDEs as a Markov process in an extended space. Unlike the established theory of Markovian realisation however, the Markovian realisations here are accurate on short timescales and may be exact globally in time, when flows and fluctuations are analytic. This theory is exact for SDEs with analytic flows and fluctuations, and is approximate when flows and fluctuations are differentiable. It provides useful analysis tools, which we employ to solve linear SDEs with analytic fluctuations. It may also be useful for studying rougher SDEs, as these may be identified as the limit of smoother ones. This theory supplies effective, computationally straightforward methods for simulation, filtering and control of SDEs; amongst others, we re-derive generalised Bayesian filtering, a state-of-the-art method for time-series analysis. Looking forward, this report suggests that generalised coordinates have far-reaching applications throughout stochastic differential equations.",
+  "link": "https://doi.org/10.48550/arxiv.2409.15532"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Children's Imitation of Action Sequences is Influenced by Statistical Evidence and Inferred Causal Structure",
+  "year": "2010",
+  "journal": "eScholarship (California Digital Library)",
+  "authors": [
+    "Daphna Buchsbaum",
+    "Alison Gopnik",
+    "Thomas L. Griffiths"
+  ],
+  "abstract": "Children are ubiquitous imitators, but how do they decide which actions to imitate?One possibility is that children might learn which actions are necessary to reproduce by observing the contingencies between action sequences and outcomes across repeated observations.We define a Bayesian model that predicts that children will decide whether to imitate part or all of a sequence based on the pattern of statistical evidence.To test this prediction, we conducted an experiment in which preschool children watched an experimenter repeatedly perform sequences of varying actions followed by an outcome.Children's imitation of sequences that produced the outcome increased, in some cases resulting in production of shorter sequences of actions that the children had never seen performed in isolation.This behavior is consistent with our model's predictions, and suggests that children attend to statistical evidence in deciding which actions to imitate, rather than obligately imitating successful actions.",
+  "link": "https://openalex.org/W2768062136"
+}

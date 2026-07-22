@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/icnn.1993.298828",
+  "doi_url": "https://doi.org/10.1109/icnn.1993.298828",
+  "title": "Results of the time series prediction competition at the Santa Fe Institute",
+  "year": "2002",
+  "journal": "IEEE International Conference on Neural Networks",
+  "authors": [
+    "Andreas S. Weigend",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "From August 1991 onward, a set of time series was made generally available at the Santa Fe Institute. Several prediction tasks were specified and advertised. The submissions received before the deadline when the true continuations were revealed are analyzed. One result is that connectionist networks, trained with error backpropagation, outperformed the other methods on all series. Among the architectures that performed best was a time delay neural network (also called finite impulse response network) and a recurrent network, designed to capture the multiple time scales present in currency exchange rates.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX>",
+  "link": "https://doi.org/10.1109/icnn.1993.298828"
+}

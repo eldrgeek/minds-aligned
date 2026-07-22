@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1308.1383",
+  "doi_url": "https://doi.org/10.48550/arxiv.1308.1383",
+  "title": "Imposing system-observer symmetry on the von Neumann description of measurement",
+  "year": "2013",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "By imposing system-observer symmetry on the von Neumann description of measurement, it is shown that the quantum measurement problem is structurally equivalent to a familiar reverse-engineering problem: that of describing the behavior of an arbitrary physical device as algorithm instantiation. It is suggested that this problem can at best be given a relational solution.",
+  "link": "https://doi.org/10.48550/arxiv.1308.1383"
+}

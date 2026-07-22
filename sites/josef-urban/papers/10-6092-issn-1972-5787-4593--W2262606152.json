@@ -1,0 +1,15 @@
+{
+  "doi": "10.6092/issn.1972-5787/4593",
+  "doi_url": "https://doi.org/10.6092/issn.1972-5787/4593",
+  "title": "Hammering towards QED",
+  "year": "2014",
+  "journal": "Radboud Repository (Radboud University)",
+  "authors": [
+    "Jasmin Christian Blanchette",
+    "Cezary Kaliszyk",
+    "Lawrence C. Paulson",
+    "Josef Urban"
+  ],
+  "abstract": "This paper surveys the emerging methods to automate reasoning over large libraries developed with formal proof assistants. We call these methods hammers. They give the authors of formal proofs a strong \"one-stroke\" tool for discharging difficult lemmas without the need for careful and detailed manual programming of proof search. The main ingredients underlying this approach are efficient automatic theorem provers that can cope with hundreds of axioms, suitable translations of richer logics to their formalisms, heuristic and learning methods that select relevant facts from large libraries, and methods that reconstruct the automatically found proofs inside the proof assistants. We outline the history of these methods, explain the main issues and techniques, and show their strength on several large benchmarks. We also discuss the relation of this technology to the QED Manifesto and consider its implications for QED-style efforts.",
+  "link": "https://doi.org/10.6092/issn.1972-5787/4593"
+}

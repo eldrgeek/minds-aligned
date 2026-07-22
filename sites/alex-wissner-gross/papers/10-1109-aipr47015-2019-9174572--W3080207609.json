@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/aipr47015.2019.9174572",
+  "doi_url": "https://doi.org/10.1109/aipr47015.2019.9174572",
+  "title": "Adaptive Online Learning for Human-Robot Teaming in Dynamic Environments",
+  "year": "2019",
+  "journal": null,
+  "authors": [
+    "Alexander D. Wissner‐Gross",
+    "Noah Weston",
+    "Manuel M. Vindiola"
+  ],
+  "abstract": "Robotic and vehicular autonomy in contested, dynamic environments has historically been limited to teleoperation and simple programmed behaviors due to the low survivability of available AI and machine-learning techniques in the face of novel situations. Here we report that recent few-shot machine-learning models trained using interactive, human-centered, vehicular simulations can enable collaborative learning that is both adaptive (dynamically recognizing unfamiliar environmental conditions) and online (learning at each time step). Specifically, we show that our human-machine teaming approach enables simulated vehicles to anticipate novel adversities imposed in real time, both externally by their terrain and internally by their own mechanics, using only images captured by their front-facing cameras. We conclude by discussing the implications of our work for enhancing the future survivability of human-robot teams in large-scale, cluttered, contested environments.",
+  "link": "https://doi.org/10.1109/aipr47015.2019.9174572"
+}

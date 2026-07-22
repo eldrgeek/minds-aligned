@@ -1,0 +1,23 @@
+{
+  "doi": "10.1101/2020.10.07.326892",
+  "doi_url": "https://doi.org/10.1101/2020.10.07.326892",
+  "title": "Genetic requirements for cell division in a genomically minimal cell",
+  "year": "2020",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "James F. Pelletier",
+    "Lijie Sun",
+    "Kim S. Wise",
+    "Nacyra Assad-Garcia",
+    "Bogumil J. Karas",
+    "Thomas J. Deerinck",
+    "Mark H. Ellisman",
+    "Andreas Mershin",
+    "Neil Gershenfeld",
+    "Ray-Yuan Chuang",
+    "John I. Glass",
+    "Elizabeth A. Strychalski"
+  ],
+  "abstract": "Abstract Genomically minimal cells, such as JCVI-syn3.0, offer a platform to clarify genes underlying core physiological processes. While this minimal cell includes genes essential for population growth, the physiology of its single cells remained uncharacterized. To investigate striking morphological variation in JCVI-syn3.0 cells, we present an approach to characterize cell propagation and determine genes affecting cell morphology. Microfluidic chemostats allowed observation of intrinsic cell dynamics resulting in irregular morphologies. The addition of 19 genes not retained in JCVI-syn3.0 generated JCVI-syn3A, which presents significantly less morphological variation than JCVI-syn3.0. We further identified seven of these 19 genes, including two known cell division genes ftsZ and sepF and five genes of unknown function, required together to restore cell morphology and division similar to JCVI-syn1.0. This surprising result emphasizes the polygenic nature of cell morphology, as well as the importance of a Z-ring and membrane properties in the physiology of genomically minimal cells.",
+  "link": "https://doi.org/10.1101/2020.10.07.326892"
+}

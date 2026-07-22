@@ -1,0 +1,15 @@
+{
+  "doi": "10.1093/braincomms/fcad132",
+  "doi_url": "https://doi.org/10.1093/braincomms/fcad132",
+  "title": "A parahippocampal-sensory Bayesian vicious circle generates pain or tinnitus: a source-localized EEG study",
+  "year": "2023",
+  "journal": "Brain Communications",
+  "authors": [
+    "Dirk De Ridder",
+    "Karl Friston",
+    "William Sedley",
+    "Sven Vanneste"
+  ],
+  "abstract": "Pain and tinnitus share common pathophysiological mechanisms, clinical features, and treatment approaches. A source-localized resting-state EEG study was conducted in 150 participants: 50 healthy controls, 50 pain, and 50 tinnitus patients. Resting-state activity as well as functional and effective connectivity was computed in source space. Pain and tinnitus were characterized by increased theta activity in the pregenual anterior cingulate cortex, extending to the lateral prefrontal cortex and medial anterior temporal lobe. Gamma-band activity was increased in both auditory and somatosensory cortex, irrespective of the pathology, and extended to the dorsal anterior cingulate cortex and parahippocampus. Functional and effective connectivity were largely similar in pain and tinnitus, except for a parahippocampal-sensory loop that distinguished pain from tinnitus. In tinnitus, the effective connectivity between parahippocampus and auditory cortex is bidirectional, whereas the effective connectivity between parahippocampus and somatosensory cortex is unidirectional. In pain, the parahippocampal-somatosensory cortex is bidirectional, but parahippocampal auditory cortex unidirectional. These modality-specific loops exhibited theta-gamma nesting. Applying a Bayesian brain model of brain functioning, these findings suggest that the phenomenological difference between auditory and somatosensory phantom percepts result from a vicious circle of belief updating in the context of missing sensory information. This finding may further our understanding of multisensory integration and speaks to a universal treatment for pain and tinnitus-by selectively disrupting parahippocampal-somatosensory and parahippocampal-auditory theta-gamma activity and connectivity.",
+  "link": "https://doi.org/10.1093/braincomms/fcad132"
+}

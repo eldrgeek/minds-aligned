@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.8374262",
+  "doi_url": "https://doi.org/10.5281/zenodo.8374262",
+  "title": "Hierarchical generative modelling for autonomous robots",
+  "year": "2023",
+  "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+    "Kai Yuan",
+    "Noor Sajid",
+    "Karl Friston",
+    "Zhibin Li"
+  ],
+  "abstract": "This is the dataset accompanying the paper \"Hierarchical generative modelling for autonomous robots\" by Yuan et al.",
+  "link": "https://doi.org/10.5281/zenodo.8374262"
+}

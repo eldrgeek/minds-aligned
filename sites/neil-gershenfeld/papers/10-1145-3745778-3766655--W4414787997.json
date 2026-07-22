@@ -1,0 +1,21 @@
+{
+  "doi": "10.1145/3745778.3766655",
+  "doi_url": "https://doi.org/10.1145/3745778.3766655",
+  "title": "MechStyle: Augmenting Generative AI with Mechanical Simulation to Create Stylized and Structurally Viable 3D Models",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "Faraz Faruqi",
+    "Amira Abdel-Rahman",
+    "Leandra Tejedor",
+    "Martin Nisser",
+    "Jiaji Li",
+    "Vrushank Phadnis",
+    "Varun Jampani",
+    "Neil Gershenfeld",
+    "Megan Hofmann",
+    "Stefanie Mueller"
+  ],
+  "abstract": "Recent developments in Generative AI enable creators to stylize 3D models based on text prompts. These methods change the 3D model geometry, which can compromise the model’s structural integrity once fabricated. We present MechStyle, a system that enables creators to stylize 3D printable models while preserving their structural integrity. MechStyle accomplishes this by augmenting the Generative AI-based stylization process with feedback from a Finite Element Analysis (FEA) simulation. As the stylization process modifies the geometry to approximate the desired style, feedback from the FEA simulation reduces modifications to regions with increased stress. We evaluate the effectiveness of FEA simulation feedback in the augmented stylization process by comparing three stylization control strategies. We also investigate the time efficiency of our approach by comparing three adaptive scheduling strategies. Finally, we demonstrate MechStyle’s user interface that allows users to generate stylized and structurally viable 3D models and provide five example applications.",
+  "link": "https://doi.org/10.1145/3745778.3766655"
+}

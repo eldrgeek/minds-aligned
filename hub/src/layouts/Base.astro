@@ -1,5 +1,5 @@
 ---
-import { FeedbackWidget, SocietyBar } from '@soma/feedback/components'
+import { FeedbackWidget, SocietyBar, AIHost, JoinBar } from '@soma/feedback/components'
 
 interface Props {
   title: string;
@@ -37,6 +37,7 @@ const { title, description = "Society of Minds Aligned — a living, queryable w
       </a>
       <div class="flex items-center gap-6 text-xs font-mono uppercase tracking-label text-muted">
         <a href="/" class="hover:text-cream transition-colors">Home</a>
+        <a href="/soma2026/" class="hover:text-cream transition-colors">SOMA 2026</a>
         <a href="/about/" class="hover:text-cream transition-colors">About</a>
       </div>
     </div>
@@ -59,7 +60,11 @@ const { title, description = "Society of Minds Aligned — a living, queryable w
     </div>
   </footer>
 
-  <SocietyBar />
+  <AIHost slug="minds-aligned-hub" />
+
+  <JoinBar site="minds-aligned-hub" />
+
+    <SocietyBar />
 
   <FeedbackWidget site="minds-aligned-hub" />
 </body>

@@ -1,0 +1,14 @@
+{
+  "doi": "10.1016/j.jocs.2023.102198",
+  "doi_url": "https://doi.org/10.1016/j.jocs.2023.102198",
+  "title": "Mesoscale material modeling with memoryless isotropic point particles",
+  "year": "2023",
+  "journal": "Journal of Computational Science",
+  "authors": [
+    "Erik Strand",
+    "Filippos Tourlomousis",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "There has been a proliferation of particle systems developed to model complex systems. These are attractive because they are mesh-free, avoiding issues associated with solver remeshing and convergence. They have however fragmented into niches, using increasingly complex particles that introduce internal degrees of freedom and external solver coupling. We show that, contrary to prior assumptions in the literature, memoryless isotropic point particles can model properties including anisotropy, hysteresis, and failure solely through the statistics of their distributions. The resulting models offer compact code that is straightforward to accelerate and port, can span between micro- and macro-structure, require few parameters to set up a simulation, and unlike high-dimensional machine learning models they use a low-dimensional representation that can be efficiently learned. Rather than deriving them as approximations to either molecular dynamics or partial differential equations we investigate how these models can be found directly, and illustrate this with both qualitative comparisons of phenomenology and quantitative comparisons of predictions.",
+  "link": "https://doi.org/10.1016/j.jocs.2023.102198"
+}

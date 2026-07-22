@@ -1,0 +1,17 @@
+{
+  "doi": "10.4230/lipics.itp.2022.16",
+  "doi_url": "https://doi.org/10.4230/lipics.itp.2022.16",
+  "title": "The Isabelle ENIGMA",
+  "year": "2022",
+  "journal": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+  "authors": [
+    "Zarathustra A. Goertzel",
+    "Jan Jakubův",
+    "Cezary Kaliszyk",
+    "Miroslav Olšák",
+    "Jelle Piepenbrock",
+    "Josef Urban"
+  ],
+  "abstract": "We significantly improve the performance of the E automated theorem prover on the Isabelle Sledgehammer problems by combining learning and theorem proving in several ways. In particular, we develop targeted versions of the ENIGMA guidance for the Isabelle problems, targeted versions of neural premise selection, and targeted strategies for E. The methods are trained in several iterations over hundreds of thousands untyped and typed first-order problems extracted from Isabelle. Our final best single-strategy ENIGMA and premise selection system improves the best previous version of E by 25.3% in 15 seconds, outperforming also all other previous ATP and SMT systems.",
+  "link": "https://doi.org/10.4230/lipics.itp.2022.16"
+}

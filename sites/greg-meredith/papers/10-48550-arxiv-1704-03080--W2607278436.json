@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1704.03080",
+  "doi_url": "https://doi.org/10.48550/arxiv.1704.03080",
+  "title": "Representing operational semantics with enriched Lawvere theories",
+  "year": "2017",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Michael Stay",
+    "Lucius Gregory Meredith"
+  ],
+  "abstract": "Many term calculi, like lambda calculus or pi calculus, involve binders for names, and the mathematics of bound variable names is subtle. Schoenfinkel introduced the SKI combinator calculus in 1924 to clarify the role of quantified variables in intuitionistic logic by eliminating them. Yoshida demonstrated how to eliminate the bound names coming from the input prefix in the asynchronous pi calculus, but her combinators still depend on the new operator to bind names. Recently, Meredith and Stay showed how to modify Yoshida's combinators by replacing new and replication with reflective operators to provide the first combinator calculus with no bound names into which the asynchronous pi calculus has a faithful embedding. Here we provide an alternative set of combinators built from SKI plus reflection that also eliminates all nominal phenomena, yet provides a faithful embedding of a reflective higher-order pi calculus. We show that with the nominal features effectively eliminated as syntactic sugar, multisorted Lawvere theories enriched over graphs suffice to capture the operational semantics of the calculus.",
+  "link": "https://doi.org/10.48550/arxiv.1704.03080"
+}

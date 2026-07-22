@@ -1,0 +1,13 @@
+{
+  "doi": "10.3389/fpubh.2022.1108886",
+  "doi_url": "https://doi.org/10.3389/fpubh.2022.1108886",
+  "title": "Using a Dynamic Causal Model to validate previous predictions and offer a 12-month forecast of the long-term effects of the COVID-19 epidemic in the UK",
+  "year": "2023",
+  "journal": "Frontiers in Public Health",
+  "authors": [
+    "Cameron Bowie",
+    "Karl Friston"
+  ],
+  "abstract": "Background: Predicting the future UK COVID-19 epidemic provides a baseline of a vaccine-only mitigation policy from which to judge the effects of additional public health interventions. A previous 12-month prediction of the size of the epidemic to October 2022 underestimated its sequelae by a fifth. This analysis seeks to explain the reasons for the underestimation before offering new long-term predictions. Methods: A Dynamic Causal Model was used to identify changes in COVID-19 transmissibility and the public's behavioral response in the 12-months to October 2022. The model was then used to predict the future trends in infections, long-COVID, hospital admissions and deaths over 12-months to October 2023. Findings: The model estimated that the secondary attack rate increased from 0.4 to 0.5, the latent period shortened from 2.7 to 2.6 and the incubation period shortened from 2.0 to 1.95 days between October 2021 and October 2022. During this time the model also estimated that antibody immunity waned from 177 to 160 days and T-cell immunity from 205 to 180 days. This increase in transmissibility was associated with a reduction in pathogenicity with the proportion of infections developing acute respiratory distress syndrome falling for 6-2% in the same twelve-month period. Despite the wave of infections, the public response was to increase the tendency to expose themselves to a high-risk environment (e.g., leaving home) each day from 33-58% in the same period.The predictions for October 2023 indicate a wave of infections three times larger this coming year than last year with significant health and economic consequences such as 120,000 additional COVID-19 related deaths, 800,000 additional hospital admissions and 3.5 million people suffering acute-post-COVID-19 syndrome lasting more than 12 weeks. Interpretation: The increase in transmissibility together with the public's response provide plausible explanations for why the model underestimated the 12-month predictions to October 2022. The 2023 projection could well-underestimate the predicted substantial next wave of COVID-19 infection. Vaccination alone will not control the epidemic. The UK COVID-19 epidemic is not over. The results call for investment in precautionary public health interventions.",
+  "link": "https://doi.org/10.3389/fpubh.2022.1108886"
+}

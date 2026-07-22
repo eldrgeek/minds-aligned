@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2310.14810",
+  "doi_url": "https://doi.org/10.48550/arxiv.2310.14810",
+  "title": "Neural representation in active inference: using generative models to interact with -- and understand -- the lived world",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Giovanni Pezzulo",
+    "Leo D’Amato",
+    "Francesco Mannella",
+    "Matteo Priorelli",
+    "Toon Van de Maele",
+    "Ivilin Peev Stoianov",
+    "Karl Friston"
+  ],
+  "abstract": "This paper considers neural representation through the lens of active inference, a normative framework for understanding brain function. It delves into how living organisms employ generative models to minimize the discrepancy between predictions and observations (as scored with variational free energy). The ensuing analysis suggests that the brain learns generative models to navigate the world adaptively, not (or not solely) to understand it. Different living organisms may possess an array of generative models, spanning from those that support action-perception cycles to those that underwrite planning and imagination; namely, from \"explicit\" models that entail variables for predicting concurrent sensations, like objects, faces, or people - to \"action-oriented models\" that predict action outcomes. It then elucidates how generative models and belief dynamics might link to neural representation and the implications of different types of generative models for understanding an agent's cognitive capabilities in relation to its ecological niche. The paper concludes with open questions regarding the evolution of generative models and the development of advanced cognitive abilities - and the gradual transition from \"pragmatic\" to \"detached\" neural representations. The analysis on offer foregrounds the diverse roles that generative models play in cognitive processes and the evolution of neural representation.",
+  "link": "https://doi.org/10.48550/arxiv.2310.14810"
+}

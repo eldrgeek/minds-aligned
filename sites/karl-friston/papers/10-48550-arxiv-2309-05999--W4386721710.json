@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2309.05999",
+  "doi_url": "https://doi.org/10.48550/arxiv.2309.05999",
+  "title": "Life-inspired Interoceptive Artificial Intelligence for Autonomous and Adaptive Agents",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Sung‐Woo Lee",
+    "Younghyun Oh",
+    "Hyunhoe An",
+    "Hyebhin Yoon",
+    "Karl Friston",
+    "Seok‐Jun Hong",
+    "Choong‐Wan Woo"
+  ],
+  "abstract": "Building autonomous -- i.e., choosing goals based on one's needs -- and adaptive -- i.e., surviving in ever-changing environments -- agents has been a holy grail of artificial intelligence (AI). A living organism is a prime example of such an agent, offering important lessons about adaptive autonomy. Here, we focus on interoception, a process of monitoring one's internal environment to keep it within certain bounds, which underwrites the survival of an organism. To develop AI with interoception, we need to factorize the state variables representing internal environments from external environments and adopt life-inspired mathematical properties of internal environment states. This paper offers a new perspective on how interoception can help build autonomous and adaptive agents by integrating the legacy of cybernetics with recent advances in theories of life, reinforcement learning, and neuroscience.",
+  "link": "https://doi.org/10.48550/arxiv.2309.05999"
+}

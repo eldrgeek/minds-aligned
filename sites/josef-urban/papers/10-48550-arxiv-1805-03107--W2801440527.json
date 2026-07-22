@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1805.03107",
+  "doi_url": "https://doi.org/10.48550/arxiv.1805.03107",
+  "title": "Machine Learning Guidance and Proof Certification for Connection Tableaux",
+  "year": "2018",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Michael Färber",
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "Connection calculi allow for very compact implementations of goal-directed proof search. We give an overview of our work related to connection tableaux calculi: First, we show optimised functional implementations of clausal and nonclausal proof search, including a consistent Skolemisation procedure for machine learning. Then, we show two guidance methods based on machine learning, namely reordering of proof steps with Naive Bayesian probablities, and expansion of a proof search tree with Monte Carlo Tree Search. Finally, we give a translation of connection proofs to LK, enabling proof certification and automatic proof search in interactive theorem provers.",
+  "link": "https://doi.org/10.48550/arxiv.1805.03107"
+}

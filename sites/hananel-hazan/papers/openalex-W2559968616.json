@@ -1,0 +1,16 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Towards Classifying Human Phonemes without Encodings via Spatiotemporal Liquid State Machines",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Alex Frid",
+    "Edmond J. Safra",
+    "Hananel Hazan",
+    "Lorrey L. Lokey",
+    "Larry M. Manevitz"
+  ],
+  "abstract": "Abstract — Classifying human production of phonemes without additional encoding is accomplished at the level of about 77% using a version of reservoir computing. So far this has been accomplished with: (1) artificial data (2) artificial noise (designed to mimic natural noise) (3) natural human data with artificial noise (4) natural human data with its natural noise and variance albeit for certain phonemes. This mechanism, unlike most other methods is done without any encoding of the signal; and without changing time into space; but instead uses the Liquid State Machine paradigm which is an abstraction of natural cortical arrangements. The data is entered as an analogue signal without any modifications. This means that the methodology is close to “natural” biological mechanisms. Keywords - Liquid State Machine, speech synthesis, classification, Machine Learning I. I NTRODUCTION Recently, we showed that liquid state machines [1] can be adapted to give robust pattern recognition of temporal patterns [2]. Moreover we showed how certain natural modifications in the neurons enables the liquid state machine to compute on complex continuous real valued patterns without the need for discretization and digital encoding [3]. In attempting to apply this technique to signal processing on phoneme recognition from a continuous voice signal, we found this to be intractable; because of problems in both making the system accurate while maintaining good generalizability properties. It seems that the combination of the separability of the liquid with the digital encoding conflict with the generalizability. Current machine learning and other techniques are fairly accurate in classifying phonemes after substantial preprocessing. However this is not a very natural methodology and cannot be related to human decoding of speech. In this work we investigate whether recent spatiotemporal methodologies can successfully decode the raw speech signal into phonemes without such special preprocessing as depicted in Figure 1. Our methodology uses a recent robust version of Liquid State Machines [4]. We have successfully shown that the method (i) can decode and categorize synthetic signals which are statistically similar to natural voiced phonemes and (ii) can successfully decode and categorize artificially induced noisy versions of those signals and thus has good generalization capabilities. (iii) Can successfully classify between three representative phonetic groups of vowels (the front, mid and back groups) to 77% level. The phonemes were extracted from natural speech recorded in TIMIT Acoustic-Phonetic Continuous Speech Corpus [5].",
+  "link": "https://openalex.org/W2559968616"
+}

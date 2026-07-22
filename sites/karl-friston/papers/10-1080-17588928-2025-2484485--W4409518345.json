@@ -1,0 +1,14 @@
+{
+  "doi": "10.1080/17588928.2025.2484485",
+  "doi_url": "https://doi.org/10.1080/17588928.2025.2484485",
+  "title": "Beyond Markov: Transformers, memory, and attention",
+  "year": "2025",
+  "journal": "Cognitive Neuroscience",
+  "authors": [
+    "Thomas Parr",
+    "Giovanni Pezzulo",
+    "Karl Friston"
+  ],
+  "abstract": "This paper asks what predictive processing models of brain function can learn from the success of transformer architectures. We suggest that the reason transformer architectures have been successful is that they implicitly commit to a non-Markovian generative model - in which we need memory to contextualize our current observations and make predictions about the future. Interestingly, both the notions of working memory in cognitive science and transformer architectures rely heavily upon the concept of attention. We will argue that the move beyond Markov is crucial in the construction of generative models capable of dealing with much of the sequential data - and certainly language - that our brains contend with. We characterize two broad approaches to this problem - deep temporal hierarchies and autoregressive models - with transformers being an example of the latter. Our key conclusions are that transformers benefit heavily from their use of embedding spaces that place strong metric priors on an implicit latent variable and utilize this metric to direct a form of attention that highlights the most relevant, and not only the most recent, previous elements in a sequence to help predict the next.",
+  "link": "https://doi.org/10.1080/17588928.2025.2484485"
+}

@@ -1,0 +1,17 @@
+{
+  "doi": "10.48550/arxiv.2307.14804",
+  "doi_url": "https://doi.org/10.48550/arxiv.2307.14804",
+  "title": "Collective behavior from surprise minimization",
+  "year": "2023",
+  "journal": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+  "authors": [
+    "Conor Heins",
+    "Beren Millidge",
+    "Lancelot Da Costa",
+    "Richard P. Mann",
+    "Karl Friston",
+    "Iain D. Couzin"
+  ],
+  "abstract": "Collective motion is ubiquitous in nature; groups of animals, such as fish, birds, and ungulates appear to move as a whole, exhibiting a rich behavioral repertoire that ranges from directed movement to milling to disordered swarming. Typically, such macroscopic patterns arise from decentralized, local interactions among constituent components (e.g., individual fish in a school). Preeminent models of this process describe individuals as self-propelled particles, subject to self-generated motion and 'social forces' such as short-range repulsion and long-range attraction or alignment. However, organisms are not particles; they are probabilistic decision-makers. Here, we introduce an approach to modelling collective behavior based on active inference. This cognitive framework casts behavior as the consequence of a single imperative: to minimize surprise. We demonstrate that many empirically-observed collective phenomena, including cohesion, milling and directed motion, emerge naturally when considering behavior as driven by active Bayesian inference -- without explicitly building behavioral rules or goals into individual agents. Furthermore, we show that active inference can recover and generalize the classical notion of social forces as agents attempt to suppress prediction errors that conflict with their expectations. By exploring the parameter space of the belief-based model, we reveal non-trivial relationships between the individual beliefs and group properties like polarization and the tendency to visit different collective states. We also explore how individual beliefs about uncertainty determine collective decision-making accuracy. Finally, we show how agents can update their generative model over time, resulting in groups that are collectively more sensitive to external fluctuations and encode information more robustly.",
+  "link": "https://doi.org/10.48550/arxiv.2307.14804"
+}

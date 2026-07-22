@@ -1,0 +1,17 @@
+{
+  "doi": "10.31234/osf.io/nqtep_v1",
+  "doi_url": "https://doi.org/10.31234/osf.io/nqtep_v1",
+  "title": "Prediction as the Fourth ‘P’ of Persistent Postural Perceptual Dizziness: An Active Inference Model",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "David Herdman",
+    "William Sedley",
+    "Toby J. Ellmers",
+    "Sanjay Manohar",
+    "Karl Friston",
+    "Diego Kaski"
+  ],
+  "abstract": "Persistent Postural Perceptual Dizziness (PPPD) is a common and disabling chronic disorder, comprising core symptom clusters involving perceived (i.e., subjective) unsteadiness during upright posture and intolerance for self- and visual motion. There are diagnostic criteria, conceptual models and therapeutic approaches to managing specific components of PPPD, such as physiotherapy, cognitive behavioural therapy and anti-depressant medication. However, no diagnostic tests or unifying neurobiological basis for the condition exists. PPPD has been viewed as a subtype of functional neurological disorder (FND), sharing some similarities in altered brain function and behaviour, but lacks other hallmarks of FND. Here, using the framework of Active Inference - in which both action and perception are based on internal predictions about the state of the body and the world and their precision (estimated reliability) - we define a singular neurobiological process responsible for core PPPD symptoms: namely, a failure to attenuate precision-weighted prediction error (PWPE) during self-motion, leading to subjective postural instability. Specifically, self-motion prediction errors per se are not increased, but their precision weighting is, thereby reducing the relative precision of self-motion predictions. More simply, this reflects a shift of operating mode from top-down, efficient ‘autopilot’ to a ‘feedback’ mode, dominated by bottom-up sensory processing errors. Ordinarily, experience-dependent learning naturally produces a drift to the autopilot mode, but we present four processes - each potentially present in any individual and characterised by a positive feedback loop - that keep the system stuck in a feedback mode, resulting in PPPD: elevated attention/vigilance; perceptual inferences of imbalance; preventative or corrective movement behaviours; and over-reliance on visual inputs. This model can form the basis of tools for clinical assessment and management. Finally, the foundation of our model – on defined and measurable neurobiological processes – affords testable hypotheses for investigative work and lends itself to computational modelling. A modified version of the model can also explain other forms of chronic dizziness without structural causes, like Mal de débarquement syndrome (MdDS), or ‘unexplained dizziness’ in later life.",
+  "link": "https://doi.org/10.31234/osf.io/nqtep_v1"
+}

@@ -1,0 +1,28 @@
+{
+  "doi": "10.48550/arxiv.2102.02926",
+  "doi_url": "https://doi.org/10.48550/arxiv.2102.02926",
+  "title": "Alchemy: A benchmark and analysis toolkit for meta-reinforcement\\n learning agents",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Jane X. Wang",
+    "Michael King",
+    "Nicolas Porcel",
+    "Zeb Kurth‐Nelson",
+    "Tina Zhu",
+    "Charlie Deck",
+    "Peter Choy",
+    "Mary Cassin",
+    "Malcolm Reynolds",
+    "Francis Song",
+    "Gavin Buttimore",
+    "David Reichert",
+    "Neil C. Rabinowitz",
+    "Löıc Matthey",
+    "Demis Hassabis",
+    "Alexander Lerchner",
+    "Matthew Botvinick"
+  ],
+  "abstract": "There has been rapidly growing interest in meta-learning as a method for\\nincreasing the flexibility and sample efficiency of reinforcement learning. One\\nproblem in this area of research, however, has been a scarcity of adequate\\nbenchmark tasks. In general, the structure underlying past benchmarks has\\neither been too simple to be inherently interesting, or too ill-defined to\\nsupport principled analysis. In the present work, we introduce a new benchmark\\nfor meta-RL research, emphasizing transparency and potential for in-depth\\nanalysis as well as structural richness. Alchemy is a 3D video game,\\nimplemented in Unity, which involves a latent causal structure that is\\nresampled procedurally from episode to episode, affording structure learning,\\nonline inference, hypothesis testing and action sequencing based on abstract\\ndomain knowledge. We evaluate a pair of powerful RL agents on Alchemy and\\npresent an in-depth analysis of one of these agents. Results clearly indicate a\\nfrank and specific failure of meta-learning, providing validation for Alchemy\\nas a challenging benchmark for meta-RL. Concurrent with this report, we are\\nreleasing Alchemy as public resource, together with a suite of analysis tools\\nand sample agent trajectories.\\n",
+  "link": "https://doi.org/10.48550/arxiv.2102.02926"
+}

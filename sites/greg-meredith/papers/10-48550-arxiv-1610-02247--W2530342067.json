@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1610.02247",
+  "doi_url": "https://doi.org/10.48550/arxiv.1610.02247",
+  "title": "Logic as a distributive law",
+  "year": "2016",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Mike Stay",
+    "Lucius Gregory Meredith"
+  ],
+  "abstract": "We present an algorithm for deriving a spatial-behavioral type system from a formal presentation of a computational calculus. Given a 2-monad Calc: Catv$\\to$ Cat for the free calculus on a category of terms and rewrites and a 2-monad BoolAlg for the free Boolean algebra on a category, we get a 2-monad Form = BoolAlg + Calc for the free category of formulae and proofs. We also get the 2-monad BoolAlg $\\circ$ Calc for subsets of terms. The interpretation of formulae is a natural transformation $\\interp{-}$: Form $\\Rightarrow$ BoolAlg $\\circ$ Calc defined by the units and multiplications of the monads and a distributive law transformation $δ$: Calc $\\circ$ BoolAlg $\\Rightarrow$ BoolAlg $\\circ$ Calc. This interpretation is consistent both with the Curry-Howard isomorphism and with realizability. We give an implementation of the \"possibly\" modal operator parametrized by a two-hole term context and show that, surprisingly, the arrow type constructor in the $λ$-calculus is a specific case. We also exhibit nontrivial formulae encoding confinement and liveness properties for a reflective higher-order variant of the $π$-calculus.",
+  "link": "https://doi.org/10.48550/arxiv.1610.02247"
+}

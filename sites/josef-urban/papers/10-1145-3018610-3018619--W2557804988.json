@@ -1,0 +1,13 @@
+{
+  "doi": "10.1145/3018610.3018619",
+  "doi_url": "https://doi.org/10.1145/3018610.3018619",
+  "title": "BliStrTune: hierarchical invention of theorem proving strategies",
+  "year": "2016",
+  "journal": null,
+  "authors": [
+    "Jan Jakubův",
+    "Josef Urban"
+  ],
+  "abstract": "Inventing targeted proof search strategies for specific problem sets is a difficult task. State-of-the-art automated theorem provers (ATPs) such as E allow a large number of user-specified proof search strategies described in a rich domain specific language. Several machine learning methods that invent strategies automatically for ATPs were proposed previously. One of them is the Blind Strategymaker (BliStr), a system for automated invention of ATP strategies.",
+  "link": "https://doi.org/10.1145/3018610.3018619"
+}

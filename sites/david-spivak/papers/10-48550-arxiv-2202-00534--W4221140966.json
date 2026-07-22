@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2202.00534",
+  "doi_url": "https://doi.org/10.48550/arxiv.2202.00534",
+  "title": "A reference for categorical structures on $\\mathbf{Poly}$",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak"
+  ],
+  "abstract": "In this document, we collect a list of categorical structures on the category $\\mathbf{Poly}$ of polynomial functors. There is no implied claim that this list is in any way complete. It includes: infinitely many monoidal structures, all but one of which is symmetric, closed, and distributes over $+$, several of which interact duoidally; it also includes a right-coclosure and two indexed left coclosures; it also includes various adjunctions of which $\\mathbf{Poly}$ is a part, including the free monad and cofree comonad and their interaction with various monoidal structures.",
+  "link": "https://doi.org/10.48550/arxiv.2202.00534"
+}

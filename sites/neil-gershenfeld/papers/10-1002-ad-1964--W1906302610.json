@@ -1,0 +1,16 @@
+{
+  "doi": "10.1002/ad.1964",
+  "doi_url": "https://doi.org/10.1002/ad.1964",
+  "title": "Macrofabrication with Digital Materials: Robotic Assembly",
+  "year": "2015",
+  "journal": "Architectural Design",
+  "authors": [
+    "Neil Gershenfeld",
+    "Matthew Carney",
+    "Benjamin Jenett",
+    "Sam Calisch",
+    "Spencer Wilson"
+  ],
+  "abstract": "Rapid‐prototyping processes are being extended to increasingly large scales, including 3D printing from gantries, and robotic arms for cutting, milling and winding. These all use designs that are digital, but materials that are not: they are continuously deposited or removed. Neil Gershenfeld, Matthew Carney, Benjamin Jenett, Sam Calisch and Spencer Wilson of the MIT Center for Bits and Atoms explore the implications of the use of digital materials, reversibly assembled from a discrete set of parts with a discrete set of relative positions and orientations, for applications on scales ranging from aerostructures to geoprinting. Here, they discuss the production of the parts, the modelling of structures made with them, and their automated assembly.",
+  "link": "https://doi.org/10.1002/ad.1964"
+}

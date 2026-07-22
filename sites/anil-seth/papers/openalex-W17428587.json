@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Visual binding, reentry, and neuronal synchrony ina physically situated brain-based device",
+  "year": "2003",
+  "journal": null,
+  "authors": [
+    "Anil K. Seth",
+    "Jeffrey L. McKinstry",
+    "Gerald M. Edelman",
+    "Jeffrey L. Krichmar"
+  ],
+  "abstract": "By constructing and analyzing a physically\nsituated brain-based device (i.e. a device\nwith sensors and actuators whose behavior\nis guided by a simulated nervous system),\nwe show that reentrant connectivity and dynamic\nsynchronization can provide an effective\nmechanism for binding the visual features\nof objects.",
+  "link": "https://openalex.org/W17428587"
+}

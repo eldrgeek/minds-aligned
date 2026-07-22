@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1908.02202",
+  "doi_url": "https://doi.org/10.48550/arxiv.1908.02202",
+  "title": "Generalized Lens Categories via functors $\\\\mathcal{C}^{\\\\rm\\n op}\\\\to\\\\mathsf{Cat}$",
+  "year": "2019",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak"
+  ],
+  "abstract": "Lenses have a rich history and have recently received a great deal of\\nattention from applied category theorists. We generalize the notion of lens by\\ndefining a category $\\\\mathsf{Lens}_F$ for any category $\\\\mathcal{C}$ and\\nfunctor $F\\\\colon \\\\mathcal{C}^{\\\\rm op}\\\\to\\\\mathsf{Cat}$, using a variant of the\\nGrothendieck construction. All of the mathematics in this note is\\nstraightforward; the purpose is simply to see lenses in a broader context where\\nsome closely-related examples, such as ringed spaces and open continuous\\ndynamical systems, can be included.\\n",
+  "link": "https://doi.org/10.48550/arxiv.1908.02202"
+}

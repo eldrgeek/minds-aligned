@@ -1,0 +1,14 @@
+{
+  "doi": "10.1017/cbo9780511731525.013",
+  "doi_url": "https://doi.org/10.1017/cbo9780511731525.013",
+  "title": "Introduction to Part II: computational neuroscience models",
+  "year": "2011",
+  "journal": "Cambridge University Press eBooks",
+  "authors": [
+    "Tony J. Prescott",
+    "Joanna J. Bryson",
+    "Anil K. Seth"
+  ],
+  "abstract": "A central and largely unsolved problem in the brain sciences is to understand the functional architecture of the vertebrate nervous system. Many questions about this architecture revolve around the issue of action selection. Because it is a fundamental property of neurons to be selective with regard to the patterns of input activity to which they respond, claims that particular brain subsystems are specifically or preferentially involved in the selection of action, as distinct to other aspects of control, must meet more stringent requirements (see below). It is also by no means inevitable that the functional decomposition of the brain will contain specialist action-selection mechanisms (see Seth, this volume). Appropriate behavioural switching could be a global property of nervous system function, and of its embedding in a body and environment, that cannot be attributed to specific subcomponents of brain architecture. In other words, it is plausible that an animal may ‘flip’ from one integrated pattern of behavioural output to another without some identifiable internal ‘switch’ being thrown. On the other hand, theoretical arguments can be presented, based for instance on the benefits that accrue from modularity (Bryson, 2005; Prescott et al., 1999; Wagner and Altenberg, 1996), to suggest that biological control systems may include specialised action-selection components. Hence, one important debate in this field is whether there are specialised mechanisms for action selection in animal nervous systems, and, if so, where these might be found (see also Prescott, 2007, for an evolutionary perspective on this question).",
+  "link": "https://doi.org/10.1017/cbo9780511731525.013"
+}

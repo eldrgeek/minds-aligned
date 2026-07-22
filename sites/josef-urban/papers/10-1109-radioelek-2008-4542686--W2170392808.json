@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/radioelek.2008.4542686",
+  "doi_url": "https://doi.org/10.1109/radioelek.2008.4542686",
+  "title": "OFDM PAPR Reduction by Partial Transmit Sequences and Simplified Clipping with Bounded Distortion",
+  "year": "2008",
+  "journal": null,
+  "authors": [
+    "Josef Urban",
+    "Roman Maršálek"
+  ],
+  "abstract": "This paper is focused in the domain of peak to average power ratio (PAPR) reduction of orthogonal frequency division multiplex (OFDM) signals. Combination of partial transmit sequences (PTS) and simplified clipping and filtering with bounded distortion (SCAFBD) is proposed. The first mentioned method is distortionless, but needs to transmit a side information in every OFDM symbol. The second method introduces signal distortion. The combination of methods results in better PAPR reduction and lower bit error rate (BER). The performance is evaluated in AWGN channel.",
+  "link": "https://doi.org/10.1109/radioelek.2008.4542686"
+}

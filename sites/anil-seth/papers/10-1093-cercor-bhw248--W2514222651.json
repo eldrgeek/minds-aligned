@@ -1,0 +1,21 @@
+{
+  "doi": "10.1093/cercor/bhw248",
+  "doi_url": "https://doi.org/10.1093/cercor/bhw248",
+  "title": "Three-Dimensional Digital Template Atlas of the Macaque Brain",
+  "year": "2016",
+  "journal": "Cerebral Cortex",
+  "authors": [
+    "Colin Reveley",
+    "Audrūnas Gruslys",
+    "Frank Q. Ye",
+    "Daniel Glen",
+    "Jason Samaha",
+    "Brian E. Russ",
+    "Ziad S. Saad",
+    "Anil K. Seth",
+    "David A. Leopold",
+    "Kadharbatcha S. Saleem"
+  ],
+  "abstract": "We present a new 3D template atlas of the anatomical subdivisions of the macaque brain, which is based on and aligned to the magnetic resonance imaging (MRI) data set and histological sections of the Saleem and Logothetis atlas. We describe the creation and validation of the atlas that, when registered with macaque structural or functional MRI scans, provides a straightforward means to estimate the boundaries between architectonic areas, either in a 3D volume with different planes of sections, or on an inflated brain surface (cortical flat map). As such, this new template atlas is intended for use as a reference standard for macaque brain research. Atlases and templates are available as both volumes and surfaces in standard NIFTI and GIFTI formats.",
+  "link": "https://doi.org/10.1093/cercor/bhw248"
+}

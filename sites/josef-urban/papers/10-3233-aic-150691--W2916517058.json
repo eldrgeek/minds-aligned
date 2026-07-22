@@ -1,0 +1,13 @@
+{
+  "doi": "10.3233/aic-150691",
+  "doi_url": "https://doi.org/10.3233/aic-150691",
+  "title": "The CADE-25 Automated Theorem Proving system competition – CASC-25",
+  "year": "2016",
+  "journal": "AI Communications",
+  "authors": [
+    "Geoff Sutcliffe",
+    "Josef Urban"
+  ],
+  "abstract": "The CADE ATP System Competition (CASC) is an annual evaluation of fully automatic, classical logic Automated Theorem Proving (ATP) systems. CASC-25 was the twentieth competition in the CASC series. Twenty-seven ATP systems and system variants competed in the various competition divisions. An outlin e of the competition design, and a commentated summary of the results, are presented.",
+  "link": "https://doi.org/10.3233/aic-150691"
+}

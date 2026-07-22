@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.19192869",
+  "doi_url": "https://doi.org/10.5281/zenodo.19192869",
+  "title": "Data and analysis code: Investigating the role of sensorimotor spatial dependencies in shaping conscious access to virtual 3D objects",
+  "year": "2023",
+  "journal": "Open MIND",
+  "authors": [
+    "Paweł Motyka",
+    "David J. Schwartzman",
+    "Anil K. Seth",
+    "Keisuke Suzuki"
+  ],
+  "abstract": "Data and analysis code accompanying the study on sensorimotor spatial dependencies and conscious access to virtual 3D objects. Includes raw and preprocessed behavioral data, R analysis scripts, and R Markdown reports.",
+  "link": "https://doi.org/10.5281/zenodo.19192869"
+}

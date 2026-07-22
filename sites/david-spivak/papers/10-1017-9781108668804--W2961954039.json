@@ -1,0 +1,13 @@
+{
+  "doi": "10.1017/9781108668804",
+  "doi_url": "https://doi.org/10.1017/9781108668804",
+  "title": "An Invitation to Applied Category Theory: Seven Sketches in Compositionality",
+  "year": "2019",
+  "journal": null,
+  "authors": [
+    "Brendan Fong",
+    "David I. Spivak"
+  ],
+  "abstract": "Category theory is unmatched in its ability to organize and layer abstractions and to find commonalities between structures of all sorts. No longer the exclusive preserve of pure mathematicians, it is now proving itself to be a powerful tool in science, informatics, and industry. By facilitating communication between communities and building rigorous bridges between disparate worlds, applied category theory has the potential to be a major organizing force. This book offers a self-contained tour of applied category theory. Each chapter follows a single thread motivated by a real-world application and discussed with category-theoretic tools. We see data migration as an adjoint functor, electrical circuits in terms of monoidal categories and operads, and collaborative design via enriched profunctors. All the relevant category theory, from simple to sophisticated, is introduced in an accessible way with many examples and exercises, making this an ideal guide even for those without experience of university-level mathematics.",
+  "link": "https://doi.org/10.1017/9781108668804"
+}

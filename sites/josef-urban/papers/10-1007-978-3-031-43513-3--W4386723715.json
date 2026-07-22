@@ -1,0 +1,13 @@
+{
+  "doi": "10.1007/978-3-031-43513-3",
+  "doi_url": "https://doi.org/10.1007/978-3-031-43513-3",
+  "title": "Automated Reasoning with Analytic Tableaux and Related Methods",
+  "year": "2023",
+  "journal": "Lecture notes in computer science",
+  "authors": [
+    "Revantha Ramanayake",
+    "Josef Urban"
+  ],
+  "abstract": "These open access proceedings present research on theoretical foundations, implementation techniques, etc. of tableaux-based reasoning.",
+  "link": "https://doi.org/10.1007/978-3-031-43513-3"
+}

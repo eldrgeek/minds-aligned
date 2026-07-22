@@ -1,0 +1,14 @@
+{
+  "doi": "10.31234/osf.io/f7aeb_v2",
+  "doi_url": "https://doi.org/10.31234/osf.io/f7aeb_v2",
+  "title": "Intrinsic biases are under (meta)cognitive control",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "Clémence Compain",
+    "Anil K. Seth",
+    "Maxine T. Sherman"
+  ],
+  "abstract": "Individuals often exhibit decision biases when making forced-choice decisions, but are such biases under cognitive control? In this pre-registered study, we asked whether decision biases in a simple perceptual task can be reduced on instruction. Furthermore, we asked whether intentionally reducing decision biases improves metacognitive performance – the ability to infer one’s own choice accuracy. 69 participants performed an online numerosity discrimination task in which participants had to report whether there were more horizontal or more vertical lines presented in an imaginary grid, followed by subjective decision confidence. “Baseline” decision bias was defined as the participants’ decision bias after one block. Participants in the experimental group were informed of their bias in the first half of the experiment and were then asked to reduce that bias in the second half. Their behaviour was compared to that of participants from both an active control group (told to reduce their error rate, rather than bias) and a passive one (no instruction). Results showed that, relative to the passive control, decision bias can indeed be reduced on instruction, and that this occurs in a non-trivial fashion. Though participants in the active control group also reduced their bias (without explicit instruction to do so), analyses revealed that the decision strategy underlying this behaviour differed substantially from that of the experimental group. No effects on metacognitive performance were found. Altogether these results suggest that for low-stakes decisions, people can control their intrinsic decision biases once they are informed of them, regardless of how well they can infer their decision accuracy.",
+  "link": "https://doi.org/10.31234/osf.io/f7aeb_v2"
+}

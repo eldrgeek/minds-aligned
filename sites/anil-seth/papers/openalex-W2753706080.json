@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Reply to Stokes and Purdon: A study of problems encountered in Granger causality analysis from a neuroscience perspective",
+  "year": "2017",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Lionel Barnett",
+    "Adam B. Barrett",
+    "Anil K. Seth"
+  ],
+  "abstract": "Stokes and Purdon [1] raise several concerns about the use of Granger-Geweke causality (GGC) analysis in neuroscience. They make two primary claims: (i) that GGC estimates may be severely biased or of high variance, and (ii) that GGC fails to reveal the full structural/causal mechanisms of a system. Unfortunately, these claims rest, respectively, on an incomplete evaluation of the literature and a misconception about what GGC can be said to measure. \r\n[1] Patrick A. Stokes and Patrick. L. Purdon (2017), A study of problems encountered in Granger causality analysis from a neuroscience perspective, Proc. Natl. Acad. Sci. USA, 114(34):7063-7072.",
+  "link": "https://openalex.org/W2753706080"
+}

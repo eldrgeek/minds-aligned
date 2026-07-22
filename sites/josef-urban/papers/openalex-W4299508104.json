@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Extending E Prover with Similarity Based Clause Selection Strategies",
+  "year": "2016",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Jakub\\r{u}v, Jan",
+    "Josef Urban"
+  ],
+  "abstract": "E prover is a state-of-the-art theorem prover for first-order logic with equality. E prover is built around a saturation loop, where new clauses are derived by inference rules from previously derived clauses. Selection of clauses for the inference provides the main source of non-determinism and an important choice-point of the loop where the right choice can dramatically influence the proof search. In this work we extend E Prover with several new clause selection strategies based on similarity of a clause with the conjecture. In particular, clauses which are more related to the conjecture are preferred. We implement different strategies that define the relationship with a conjecture in different ways. We provide an implementation of the proposed selection strategies and we evaluate their efficiency on an extensive benchmark set.",
+  "link": "https://openalex.org/W4299508104"
+}

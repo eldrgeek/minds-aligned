@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2109.14123",
+  "doi_url": "https://doi.org/10.48550/arxiv.2109.14123",
+  "title": "Regular Calculi I: Graphical Regular Logic",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Tslil Clingman",
+    "Brendan Fong",
+    "David I. Spivak"
+  ],
+  "abstract": "What is ergonomic syntax for relations? In this first paper in a series of two, to answer the question we define regular calculi: a suitably structured functor from a category representing the syntax of regular logic to the category of posets, that takes each object to the poset of relations on that type. We introduce two major classes of examples, regular calculi corresponding to regular theories, and regular calculi corresponding to regular categories. For working in regular calculi, we present a graphical framework which takes as primitive the various moves of regular logic. Our main theorem for regular calculi is a syntax-semantics $2$-dimensional adjunction to regular categories.",
+  "link": "https://doi.org/10.48550/arxiv.2109.14123"
+}

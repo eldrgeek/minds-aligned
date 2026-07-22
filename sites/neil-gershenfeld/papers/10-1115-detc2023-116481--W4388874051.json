@@ -1,0 +1,16 @@
+{
+  "doi": "10.1115/detc2023-116481",
+  "doi_url": "https://doi.org/10.1115/detc2023-116481",
+  "title": "Kirigami Corrugations: Strong, Modular, and Programmable Plate Lattices",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Alfonso Parra Rubio",
+    "Klara Mundilova",
+    "David Preiss",
+    "Erik D. Demaine",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Abstract Plate lattices are high-performance lightweight structures, exhibiting up to twice the yield strength and stiffness compared to truss lattices of similar geometric arrangement and relative density. Although they are of great interest for research and structural engineering applications, their complex manufacturing and assembly processes limit their practical use, with sandwich panels being an exception. This paper presents a novel approach to the design and modular assembly of folded custom 3-dimensional plate lattices as structural corrugations for use in structural engineering and robotics applications. The plate lattice structural corrugation uses a building block strategy and incorporates custom modified unit cells based on the Miura-ori. This transformation involves expanding the top and bottom zig-zag crease lines into facets and orienting them in space. The resulting modified pattern is referred to as the Kirigami Expanded Miura. The unique structure of these lattices not only provides exceptional mechanical performance as static structures, but also allows for the design of anisotropies in their flexural stiffness by alternating between the Maxwell criterion on bending-dominated or stretchdominated cells. These anisotropies can have value differences of up to 24 with the same geometry, making them ideal for robotic morphing applications. We validate our proposed technology by characterizing the mechanical performance of this new building system and comparing it with state-of-the-art corrugations. We demonstrate the potential of this approach by designing, manufacturing, and modularly assembling multiple structures and robots with single and double curvature.",
+  "link": "https://doi.org/10.1115/detc2023-116481"
+}

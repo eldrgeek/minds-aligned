@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2501.14298",
+  "doi_url": "https://doi.org/10.48550/arxiv.2501.14298",
+  "title": "Whether a quantum computation employs nonlocal resources is operationally undecidable",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook",
+    "Antonino Marcianò",
+    "Emanuele Zappala"
+  ],
+  "abstract": "Computational complexity characterizes the usage of spatial and temporal resources by computational processes. In the classical theory of computation, e.g. in the Turing Machine model, computational processes employ only local space and time resources, and their resource usage can be accurately measured by us as users. General relativity and quantum theory, however, introduce the possibility of computational processes that employ nonlocal spatial or temporal resources. While the space and time complexity of classical computing can be given a clear operational meaning, this is no longer the case in any setting involving nonlocal resources. In such settings, theoretical analyses of resource usage cease to be reliable indicators of practical computational capability. We prove that the verifier (C) in a multiple interactive provers with shared entanglement (MIP*) protocol cannot operationally demonstrate that the \"multiple\" provers are independent, i.e. cannot operationally distinguish a MIP* machine from a monolithic quantum computer. Thus C cannot operationally distinguish a MIP* machine from a quantum TM, and hence cannot operationally demonstrate the solution to arbitrary problems in RE. Any claim that a MIP* machine has solved a TM-undecidable problem is, therefore, circular, as the problem of deciding whether a physical system is a MIP* machine is itself TM-undecidable. Consequently, despite the space and time complexity of classical computing having a clear operational meaning, this is no longer the case in any setting involving nonlocal resources. In such settings, theoretical analyses of resource usage cease to be reliable indicators of practical computational capability. This has practical consequences when assessing newly proposed computational frameworks based on quantum theories.",
+  "link": "https://doi.org/10.48550/arxiv.2501.14298"
+}

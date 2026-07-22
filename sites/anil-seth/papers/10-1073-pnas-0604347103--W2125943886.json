@@ -1,0 +1,15 @@
+{
+  "doi": "10.1073/pnas.0604347103",
+  "doi_url": "https://doi.org/10.1073/pnas.0604347103",
+  "title": "Theories and measures of consciousness: An extended framework",
+  "year": "2006",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Anil K. Seth",
+    "Eugene M. Izhikevich",
+    "George N. Reeke",
+    "Gerald M. Edelman"
+  ],
+  "abstract": "A recent theoretical emphasis on complex interactions within neural systems underlying consciousness has been accompanied by proposals for the quantitative characterization of these interactions. In this article, we distinguish key aspects of consciousness that are amenable to quantitative measurement from those that are not. We carry out a formal analysis of the strengths and limitations of three quantitative measures of dynamical complexity in the neural systems underlying consciousness: neural complexity, information integration, and causal density. We find that no single measure fully captures the multidimensional complexity of these systems, and all of these measures have practical limitations. Our analysis suggests guidelines for the specification of alternative measures which, in combination, may improve the quantitative characterization of conscious neural systems. Given that some aspects of consciousness are likely to resist quantification altogether, we conclude that a satisfactory theory is likely to be one that combines both qualitative and quantitative elements.",
+  "link": "https://doi.org/10.1073/pnas.0604347103"
+}

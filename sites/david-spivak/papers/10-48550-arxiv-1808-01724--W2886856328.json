@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1808.01724",
+  "doi_url": "https://doi.org/10.48550/arxiv.1808.01724",
+  "title": "Evaluating the Pixel Array Method as Applied to Partial Differential Equations",
+  "year": "2018",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Cynthia T. Liu",
+    "David I. Spivak"
+  ],
+  "abstract": "The Pixel Array (PA) Method, originally introduced by Spivak et. al., is a fast method for solving nonlinear or linear systems. One of its distinguishing features is that it presents all solutions within a bounding box, represented by a plot whose axes are the values of \"exposed variables.\" Here we develop a set-theoretic variant of the PA method, named the Pixel Array Solution-Set (PASS) method, that gives PA access to \"hidden variables\" whose values are not displayed on plot axes. We evaluate the effectiveness of PASS at numerically finding steady states for several partial differential equations. We discretize several one-dimensional solved reaction-diffusion equations, such as the Fisher equation and the Benjamin-Bona-Mohany equation, using finite differences. Then, we run PASS on each equation, and determine whether it successfully finds all boundary conditions for which a numerical steady state might exist. Then we verify whether the steady states found by PASS are correct. Finally, we discuss the benefits and weaknesses of PASS.",
+  "link": "https://doi.org/10.48550/arxiv.1808.01724"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.1037/0012-1649.37.5.620",
+  "doi_url": "https://doi.org/10.1037/0012-1649.37.5.620",
+  "title": "Causal learning mechanisms in very young children: Two-, three-, and four-year-olds infer causal relations from patterns of variation and covariation.",
+  "year": "2001",
+  "journal": "Developmental Psychology",
+  "authors": [
+    "Alison Gopnik",
+    "David M. Sobel",
+    "Laura Schulz",
+    "Clark Glymour"
+  ],
+  "abstract": "Three studies investigated whether young children make accurate causal inferences on the basis of patterns of variation and covariation. Children were presented with a new causal relation by means of a machine called the \"blicket detector.\" Some objects, but not others, made the machine light up and play music. In the first 2 experiments, children were told that \"blickets make the machine go\" and were then asked to identify which objects were \"blickets.\" Two-, 3-, and 4-year-old children were shown various patterns of variation and covariation between two different objects and the activation of the machine. All 3 age groups took this information into account in their causal judgments about which objects were blickets. In a 3rd experiment, 3- and 4-year-old children used the information when they were asked to make the machine stop. These results are related to Bayes-net causal graphical models of causal learning.",
+  "link": "https://doi.org/10.1037/0012-1649.37.5.620"
+}

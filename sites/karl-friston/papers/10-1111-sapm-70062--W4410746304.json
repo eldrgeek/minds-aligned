@@ -1,0 +1,19 @@
+{
+  "doi": "10.1111/sapm.70062",
+  "doi_url": "https://doi.org/10.1111/sapm.70062",
+  "title": "A Theory of Generalized Coordinates for Stochastic Differential Equations",
+  "year": "2025",
+  "journal": "Studies in Applied Mathematics",
+  "authors": [
+    "Lancelot Da Costa",
+    "Lancelot Da Costa",
+    "Conor Heins",
+    "Johan Medrano",
+    "Grigorios A. Pavliotis",
+    "Thomas Parr",
+    "Ajith Anil Meera",
+    "Karl Friston"
+  ],
+  "abstract": "ABSTRACT Stochastic differential equations are ubiquitous modeling tools in applied mathematics and the sciences. In most modeling scenarios, random fluctuations driving dynamics or motion have some nontrivial temporal correlation structure, which renders the SDE non‐Markovian; a phenomenon commonly known as ‘colored’’ noise. Thus, an important objective is to develop effective tools for mathematically and numerically studying (possibly non‐Markovian) SDEs. In this paper, we formalize a mathematical theory for analyzing and numerically studying SDEs based on so‐called “generalized coordinates of motion.” Like the theory of rough paths, we analyze SDEs pathwise for any given realization of the noise, not solely probabilistically. Like the established theory of Markovian realization, we realize non‐Markovian SDEs as a Markov process in an extended space. Unlike the established theory of Markovian realization however, the Markovian realizations here are accurate on short timescales and may be exact globally in time, when flows and fluctuations are analytic. This theory is exact for SDEs with analytic flows and fluctuations, and is approximate when flows and fluctuations are differentiable. It provides useful analysis tools, which we employ to solve linear SDEs with analytic fluctuations. It may also be useful for studying rougher SDEs, as these may be identified as the limit of smoother ones. This theory supplies effective, computationally straightforward methods for simulation, filtering and control of SDEs; among others, we rederive generalized Bayesian filtering, a state‐of‐the‐art method for time‐series analysis. Looking forward, this paper suggests that generalized coordinates have far‐reaching applications throughout stochastic differential equations.",
+  "link": "https://doi.org/10.1111/sapm.70062"
+}

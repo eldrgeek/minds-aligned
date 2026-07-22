@@ -1,0 +1,16 @@
+{
+  "doi": "10.3389/frsc.2025.1571613",
+  "doi_url": "https://doi.org/10.3389/frsc.2025.1571613",
+  "title": "Agentic rulebooks using active inference: an artificial intelligence application for environmental sustainability",
+  "year": "2025",
+  "journal": "Frontiers in Sustainable Cities",
+  "authors": [
+    "Axel Constant",
+    "Mahault Albarracin",
+    "Marco Perin",
+    "Hari Thiruvengada",
+    "Karl Friston"
+  ],
+  "abstract": "Artificial intelligence (AI) is increasingly proposed as a solution to environmental sustainability challenges, with applications aimed at optimizing resource utilization and energy consumption. However, AI technologies also have significant negative environmental impacts. This duality underscores the need to critically evaluate AI's role in sustainable practices. One example of AI's application in sustainability is the Occupant Controlled Smart Thermostat (OCST). These systems optimize indoor temperature management by responding to dynamic signals, such as energy price fluctuations, which reflect power grid stress. Accordingly, regulatory frameworks have mandated performance standards for such technologies to ensure effective demand responsiveness. While OCSTs are effective in managing energy demand through predefined norms like price signals, their current designs often fail to accommodate the complex interplay of conflicting priorities, such as user comfort and grid optimization, particularly in uncertain climatic conditions. For instance, extreme weather events can amplify energy demands and user needs, necessitating a more context sensitive approach. This adaptability requires OCSTs to dynamically shift between multiple normative constraints (i.e., norms), such as prioritizing userdefined temperature settings over price-based energy restrictions when contextually appropriate. In this paper, we propose an innovative approach that combines the theory of active inference from theoretical neuroscience and robotics with a rulebook formalism to enhance the decision-making capabilities of autonomous AI agents. Using simulation studies, we demonstrate how these AI agents can resolve conflicts among norms under environmental uncertainty. A minimal use case is presented, where an OCST must decide whether to warm a room based on two conflicting rules: a “price” rule that restricts energy use above a cost threshold and a “need” rule that prioritizes maintaining the user's desired temperature. Our findings illustrate the potential for advanced AI-driven OCST systems to navigate conflicting norms, enabling more resilient and user-centered solutions to sustainable energy challenges.",
+  "link": "https://doi.org/10.3389/frsc.2025.1571613"
+}

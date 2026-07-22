@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2506.07253",
+  "doi_url": "https://doi.org/10.48550/arxiv.2506.07253",
+  "title": "Transient Dynamics in Lattices of Differentiating Ring Oscillators",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Peter DelMastro",
+    "Arjun Karuvally",
+    "Hananel Hazan",
+    "Hava T. Siegelmann",
+    "Edward A. Rietman"
+  ],
+  "abstract": "Recurrent neural networks (RNNs) are machine learning models widely used for learning temporal relationships. Current state-of-the-art RNNs use integrating or spiking neurons -- two classes of computing units whose outputs depend directly on their internal states -- and accordingly there is a wealth of literature characterizing the behavior of large networks built from these neurons. On the other hand, past research on differentiating neurons, whose outputs are computed from the derivatives of their internal states, remains limited to small hand-designed networks with fewer than one-hundred neurons. Here we show via numerical simulation that large lattices of differentiating neuron rings exhibit local neural synchronization behavior found in the Kuramoto model of interacting oscillators. We begin by characterizing the periodic orbits of uncoupled rings, herein called ring oscillators. We then show the emergence of local correlations between oscillators that grow over time when these rings are coupled together into lattices. As the correlation length grows, transient dynamics arise in which large regions of the lattice settle to the same periodic orbit, and thin domain boundaries separate adjacent, out-of-phase regions. The steady-state scale of these correlated regions depends on how the neurons are shared between adjacent rings, which suggests that lattices of differentiating ring oscillator might be tuned to be used as reservoir computers. Coupled with their simple circuit design and potential for low-power consumption, differentiating neural nets therefore represent a promising substrate for neuromorphic computing that will enable low-power AI applications.",
+  "link": "https://doi.org/10.48550/arxiv.2506.07253"
+}

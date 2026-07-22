@@ -1,0 +1,32 @@
+{
+  "doi": "10.21105/joss.08103",
+  "doi_url": "https://doi.org/10.21105/joss.08103",
+  "title": "SPM 25: open source neuroimaging analysis software",
+  "year": "2025",
+  "journal": "The Journal of Open Source Software",
+  "authors": [
+    "Tim M. Tierney",
+    "Nicholas Alexander",
+    "John Ashburner",
+    "Nicole Labra Avila",
+    "Yaël Balbastre",
+    "Gareth R. Barnes",
+    "Yulia Bezsudnova",
+    "Mikael Brudfors",
+    "Korbinian Eckstein",
+    "Guillaume Flandin",
+    "Karl Friston",
+    "Amirhossein Jafarian",
+    "Olivia S. Kowalczyk",
+    "Vladimir Litvak",
+    "Johan Medrano",
+    "Stephanie Mellor",
+    "George O’Neill",
+    "Thomas Parr",
+    "Adeel Razi",
+    "Ryan C. Timms",
+    "Peter Zeidman"
+  ],
+  "abstract": "Statistical Parametric Mapping (SPM) is an integrated set of methods for testing hypotheses about the brain's structure and function, using data from imaging devices.These methods are implemented in an open source software package, SPM, which has been in continuous development for more than 30 years by an international community of developers.This paper reports the release of SPM 25.01, a major new version of the software that incorporates novel analysis methods, optimisations of existing methods, as well as improved practices for open science and software development.",
+  "link": "https://doi.org/10.21105/joss.08103"
+}

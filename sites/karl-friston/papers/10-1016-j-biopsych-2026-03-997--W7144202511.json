@@ -1,0 +1,27 @@
+{
+  "doi": "10.1016/j.biopsych.2026.03.997",
+  "doi_url": "https://doi.org/10.1016/j.biopsych.2026.03.997",
+  "title": "Insula Structure Is Linked to Autonomic Cardiac Dysregulation in Depression",
+  "year": "2026",
+  "journal": "Biological Psychiatry",
+  "authors": [
+    "Alan S.R. Fermin",
+    "Hui-Ling Chan",
+    "Masahiro Takamura",
+    "Naho Ichikawa",
+    "Satoshi Yokoyama",
+    "Atsuo Yoshino",
+    "Junichiro Yoshimoto",
+    "Takafumi Sasaoka",
+    "Toshiharu Kamishikiryo",
+    "Yuki Mitsuyama",
+    "Shin Hattori",
+    "Hugo Critchley",
+    "Karl Friston",
+    "Maro G. Machizawa",
+    "Shigeto Yamawaki",
+    "Go Okada"
+  ],
+  "abstract": "BACKGROUND: Major depressive disorder (MDD), characterized primarily by mood disturbances, is also accompanied by abnormal cardiovascular functioning. However, the neuroanatomical substrates underlying this cardiovascular dysfunction remain elusive. METHODS: In this study, we investigated the neuroanatomical foundations of cardiac dysfunction in MDD. Using magnetic resonance imaging, we examined differences in gray matter volume (GMV) between patients with MDD (n = 81) and healthy control (HC) participants (n = 104) in regions implicated in cardiovascular regulation, notably the insula, anterior cingulate cortex (ACC), thalamus, and brainstem nuclei. Photoplethysmography signals acquired during a 10-minute resting state provided data to investigate group differences in heart rate variability (HRV) metrics (e.g., heart rate, low- and high-frequency components). Correlations and mixed-effect linear regression models tested the strength of group differences in the association between HRV metrics and regional GMV. Mediation analyses evaluated whether GMV mediated the observed group differences in HRV. RESULTS: Patients with MDD had faster heart rates and reduced HRV compared with HC participants. Neuroanatomically, patients with MDD manifested significantly reduced GMV across the insula, ACC, hippocampus, thalamus, and cerebellum. Negative correlations between insula GMV and HRV metrics were found in HC participants but not in patients with MDD. Regression models confirmed a stronger association between insula volume and HRV metrics in HC participants. Mediation analyses revealed that differences in cardiac measures explain the reduced insula GMV differences between diagnostic groups. CONCLUSIONS: These findings reveal a disrupted heart-brain relationship in MDD, notably a link between cardiac dysregulation and reduced insula volume. This highlights the importance of potential body-brain targets for therapeutic intervention in mood disorders.",
+  "link": "https://doi.org/10.1016/j.biopsych.2026.03.997"
+}

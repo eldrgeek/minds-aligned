@@ -1,0 +1,16 @@
+{
+  "doi": "10.18653/v1/w18-5454",
+  "doi_url": "https://doi.org/10.18653/v1/w18-5454",
+  "title": "Exploiting Attention to Reveal Shortcomings in Memory Models",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Kaylee Burns",
+    "Aida Nematzadeh",
+    "Erin Grant",
+    "Alison Gopnik",
+    "Thomas L. Griffiths"
+  ],
+  "abstract": "The decision making processes of deep networks are difficult to understand and while their accuracy often improves with increased architectural complexity, so too does their opacity. Practical use of machine learning models, especially for question and answering applications, demands a system that is interpretable. We analyze the attention of a memory network model to reconcile contradictory performance on a challenging questionanswering dataset that is inspired by theoryof-mind experiments. We equate success on questions to task classification, which explains not only test-time failures but also how well the model generalizes to new training conditions.",
+  "link": "https://doi.org/10.18653/v1/w18-5454"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Zusammenspiel von Problemlösestrategien und Theorie-Entwicklung: ein Ansatz zur Simulation",
+  "year": "1995",
+  "journal": "Social Science Open Access Repository (GESIS – Leibniz Institute for the Social Sciences)",
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "In dieser Arbeit wird ein Ansatz aufgezeigt, bei dem die Entwicklung von Theorien unter dem Einfluß verschiedener Problemlösestrategien durch den Einsatz von computer-basierter Simulation untersucht werden kann. Um Simulationen auf einem Rechner durchführen zu können, wird ein Simulationsmodell benötigt, das, formuliert in einer geeigneten Programmiersprache, die\\nrelevanten Aspekte repräsentiert, die bei der Entwicklung von Theorien eine Rolle spielen. In der vorliegenden Arbeit wird bei der Beschreibung von Theorien auf den strukturalistischen Theorienbegriff zurückgegriffen. Mit diesem Theoriebegriff können Problemarten definiert werden, die es im Verlauf der wissenschaftlichen Entwicklung zu lösen gibt. Solche Problemarten erwachsen aus der Behauptung, daß eine Anwendung zu einem Modell einer Theorie paßt und diese Passung sich konsistent zu anderen Theorien verhält. Mit dem strukturalistischen Theoriebegriff und den Problemarten ist eine Beschreibung des statischen Zustandes einer Theorie gegeben. Auf dieser Basis können nun Strategien formuliert werden, die die Lösung der Probleme steuern. Eine solche Strategie gibt Regeln an, die bestimmen, welche Probleme als nächstes zu lösen versucht werden und welche Konsequenzen sich aus dem positiven oder negativen Ergebnis eines Lösungsversuchs resultieren. Diese Konsequenzen führen zur Veränderung der betroffenen Theorien und bewirken damit ihre dynamische Entwicklung. Im Rahmen eines Simulationsmodells können solche Strategien aufgestellt und ihr Verlauf anhand verschiedener Beispiele verfolgt werden. Ein entsprechendes Simulationsprogramm wurde als Prototyp entwickelt.",
+  "link": "https://openalex.org/W1626293839"
+}

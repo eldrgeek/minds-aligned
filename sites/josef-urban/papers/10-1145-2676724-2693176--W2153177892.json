@@ -1,0 +1,14 @@
+{
+  "doi": "10.1145/2676724.2693176",
+  "doi_url": "https://doi.org/10.1145/2676724.2693176",
+  "title": "Certified Connection Tableaux Proofs for HOL Light and TPTP",
+  "year": "2015",
+  "journal": null,
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban",
+    "J Vyskočil"
+  ],
+  "abstract": "In recent years, the Metis prover based on ordered paramodulation and model elimination has replaced the earlier built-in methods for general-purpose proof automation in HOL4 and Isabelle/HOL. In the annual CASC competition, the leanCoP system based on connection tableaux has however performed better than Metis. In this paper we show how the leanCoP's core algorithm can be implemented inside HOL Light. leanCoP's flagship feature, namely its minimalistic core, results in a very simple proof system. This plays a crucial role in extending the MESON proof reconstruction mechanism to connection tableaux proofs, providing an implementation of leanCoP that certifies its proofs. We discuss the differences between our direct implementation using an explicit Prolog stack,to the continuation passing implementation of MESON present in HOL Light and compare their performance on all core HOL Light goals. The resulting prover can be also used as a general purpose TPTP prover. We compare its performance against the resolution based Metis on TPTP and other interesting datasets.",
+  "link": "https://doi.org/10.1145/2676724.2693176"
+}

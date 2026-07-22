@@ -1,0 +1,18 @@
+{
+  "doi": "10.54116/jbdai.v4i1.80",
+  "doi_url": "https://doi.org/10.54116/jbdai.v4i1.80",
+  "title": "Benchmarking Open Source Vector Databases",
+  "year": "2026",
+  "journal": "Journal of Big Data and Artificial Intelligence",
+  "authors": [
+    "Jeet Patel",
+    "Akshaya Dol",
+    "Arun Chand",
+    "Selim Soufargi",
+    "Sulimon Sattari",
+    "Maira Khwaja",
+    "Reza Rassool"
+  ],
+  "abstract": "Vector databases are a critical component of modern RAG systems, yet their scale performance characteristics are not sufficiently characterized. This paper evaluates the scalability, latency, throughput, and operational stability of seven widely used production vector databases such as FAISS, Chroma, Qdrant, Weaviate, Milvus, OpenSearch, and PGVector-across corpus sizes ranging from 175 to 2.2 million vector chunks, to provide practical guidance for system selection under real-world constraints. We conducted a controlled benchmarking study using N = 10 independent trials per configuration. Query latency, throughput, ingestion performance, retrieval quality, and resource utilization are measured under consistent hardware, workload, and indexing settings. All databases are evaluated using identical embeddings and Top-k retrieval parameters, with cold-start conditions enforced to eliminate cross-run caching effects. Variability is quantified using standard deviation and coefficient of variation to assess performance stability. Statistical outliers identified using modified Z-score methodology (threshold: |Z| &gt; 3.5) are removed to distinguish transient cold-start behavior from steady-state performance. The results reveal distinct performance regimes across systems and a critical cold-start phenomenon. Chroma exhibits near-constant-time query behavior ( = 0.02), achieving a latency of 7.7-8.4 ms and supporting up to 141 queries per second at medium scale. Chroma achieves exceptional consistency (CV = 2.3% after removing 2 cold-start outliers, 8.8× improvement over raw variance) . PGVector with HNSW indexing achieves sub-10 ms latency and more than 100 queries per second at the 50k scale, outperforming all dedicated vector databases except Chroma. FAISS demonstrates strong sub-linear scaling (α = 0.48) up to 2.2 million chunks with low variability (CV = 2.5%). We further quantify an HNSW warm-up effect, observing latency reductions of up to 74% as corpus size increases from 1k to 50k chunks. Most significantly, N=10 sampling with outlier removal reveals dramatic improvements in ingestion consistency: Qdrant CV 123% → 1.0% (122× improvement), Weaviate 107% → 0.8% (133× improvement), OpenSearch 93% → 0.4% (232× improvement). Resource analysis shows similar memory footprints (12-16 GB) across systems. Together, these findings clarify scalability limits, performance trade-offs, and the critical role of cold-start transient detection in vector database benchmarking.",
+  "link": "https://doi.org/10.54116/jbdai.v4i1.80"
+}

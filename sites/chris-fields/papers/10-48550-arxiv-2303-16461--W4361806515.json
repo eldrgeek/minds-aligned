@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2303.16461",
+  "doi_url": "https://doi.org/10.48550/arxiv.2303.16461",
+  "title": "Communication protocols and QECCs from the perspective of TQFT, Part I: Constructing LOCC protocols and QECCs from TQFTs",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook",
+    "Antonino Marcianò"
+  ],
+  "abstract": "Topological quantum field theories (TQFTs) provide a general, minimal-assumption language for describing quantum-state preparation and measurement. They therefore provide a general language in which to express multi-agent communication protocols, e.g. local operations, classical communication (LOCC) protocols. Here we construct LOCC protocols using TQFT, and show that LOCC protocols generically induce quantum error-correcting codes (QECCs). Using multi-observer scenarios described by quantum Darwinism and Bell/EPR experiments as examples, we show how these LOCC-induced QECCs effectively convert entanglement into classical redundancy. In the accompanying Part II, we show that such QECCs can be regarded as implementing, or inducing the emergence of, spacetimes on the boundaries between interacting systems. We investigate this connection between inter-agent communication and spacetime using BF and Chern-Simons theories, and then using topological M-theory.",
+  "link": "https://doi.org/10.48550/arxiv.2303.16461"
+}

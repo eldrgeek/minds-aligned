@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Musical Instruments, Models, and Machines.",
+  "year": "1996",
+  "journal": "APS",
+  "authors": [
+    "Neil Gershenfeld"
+  ],
+  "abstract": "A musical instrument is an analog computer. It integrates equations of motion based on applied boundary conditions and generates acoustic and tactile outputs. Understanding why the equations of motion is liked is a very hard problem, fabricating traditional instruments that duplicate desired equations of motion is a hard problem, but using new technology to emulate and generalize them is an increasingly easy problem. The remarkable confluence of sensing, modeling, computing, and communications that is blurring the distinction between using wood and strings or silicon to solve the same equations will be discussed. This includes ideas such as the active remote interrogation of passive structures for sensing, state‐space reconstruction for building observational nonlinear models, cellular automata methods for efficient first‐principles solution of continuum equations, and tools for real‐time computing and communications on general‐purpose platforms.",
+  "link": "https://openalex.org/W3013259776"
+}

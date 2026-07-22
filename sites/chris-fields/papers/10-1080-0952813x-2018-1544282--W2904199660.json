@@ -1,0 +1,13 @@
+{
+  "doi": "10.1080/0952813x.2018.1544282",
+  "doi_url": "https://doi.org/10.1080/0952813x.2018.1544282",
+  "title": "A mosaic of Chu spaces and Channel Theory I: Category-theoretic concepts and tools",
+  "year": "2018",
+  "journal": "Journal of Experimental & Theoretical Artificial Intelligence",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook"
+  ],
+  "abstract": "Chu Spaces and Channel Theory are well-established areas of investigation in the general context of category theory when applied to semantically-based information flow. In this Part I of a two-part work, we review a range of related concepts and examples showing how these methods can be applied to logic and computer science, including Formal Concept Analysis, distributed systems and ontology development. We also discuss spatial coarse-graining in relationship to information, and in this direction we establish some basic simplicial and categorical techniques which will supplement the other methods of this Part I when they are applied to characterise visual object identification and the inference of mereological (i.e. part-whole) complexity in Part II.",
+  "link": "https://doi.org/10.1080/0952813x.2018.1544282"
+}

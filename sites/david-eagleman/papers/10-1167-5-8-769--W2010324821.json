@@ -1,0 +1,15 @@
+{
+  "doi": "10.1167/5.8.769",
+  "doi_url": "https://doi.org/10.1167/5.8.769",
+  "title": "Illusory reversal of action and sensation elicits neural conflict response",
+  "year": "2005",
+  "journal": "Journal of Vision",
+  "authors": [
+    "Chess Stetson",
+    "Xiaojiang Cui",
+    "P. Read Montague",
+    "David M. Eagleman"
+  ],
+  "abstract": "After participants adapted to a delay between their keypress and a flash, they experienced the illusory perception the flashes appearing at shorter delays preceded their keypress. When participants perceived these illusory reversals, BOLD signal increased in the dorsal anterior cingulate cortex, as compared to trials in which the participants perceived the veridical timing. This activation suggests conflict between two timing representation in the brain - one which adapts to the delay between action and effect, and one which does not. Other areas activated in this task - including the insula, inferior frontal gyrus and supramarginal gyrus - may be locations involved in time perception. We show that these areas may relate to a new psychophysical finding: humans have poor interval determination between action and effect up to 120 ms after they perform an action. That is, although motor-sensory intervals were judged accurately if the flash came from −200 to 0 ms before their keypress, interval determination of a flash from 0 to 120 ms after their keypress was impaired: all intervals in this region were reported to be close to 0 ms. The onset and offset of this 120 ms period could be shifted by adapting participants to a frequent 100 ms delay between their keypress and a flash. Collectively, these results indicate a plastic mechanism by which organisms can quickly recalibrate motor-sensory timing.",
+  "link": "https://doi.org/10.1167/5.8.769"
+}

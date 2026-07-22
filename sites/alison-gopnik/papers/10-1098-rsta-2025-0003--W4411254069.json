@@ -1,0 +1,15 @@
+{
+  "doi": "10.1098/rsta.2025.0003",
+  "doi_url": "https://doi.org/10.1098/rsta.2025.0003",
+  "title": "Empowerment gain and causal model construction: children and adults are sensitive to controllability and variability in their causal interventions",
+  "year": "2026",
+  "journal": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+  "authors": [
+    "Eunice Yiu",
+    "Kelsey Allen",
+    "Shiry Ginosar",
+    "Alison Gopnik"
+  ],
+  "abstract": "Learning about the causal structure of the world is a fundamental problem for human cognition. Causal models and especially causal learning have proved to be difficult for large pretrained models using standard techniques of deep learning. In contrast, cognitive scientists have applied advances in our formal understanding of causation in computer science, particularly within the causal Bayes net formalism, to understand human causal learning. In the very different tradition of reinforcement learning (RL), researchers have described an intrinsic reward signal called 'empowerment' which maximizes mutual information between actions and their outcomes. Empowerment may be an important bridge between classical Bayesian causal learning and RL and may help to characterize causal learning in humans and enable it in machines. If an agent learns an accurate causal world model, they will necessarily increase their empowerment, and increasing empowerment will lead to a more accurate causal world model. Empowerment may also explain distinctive features of children's causal learning, as well as providing a more tractable computational account of how that learning is possible. In an empirical study, we systematically test how children and adults use cues to empowerment to infer causal relations and design effective causal interventions. This article is part of the theme issue 'World models in natural and artificial intelligence'.",
+  "link": "https://doi.org/10.1098/rsta.2025.0003"
+}

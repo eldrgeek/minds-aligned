@@ -1,0 +1,20 @@
+{
+  "doi": "10.1371/journal.pone.0318863",
+  "doi_url": "https://doi.org/10.1371/journal.pone.0318863",
+  "title": "Testing the role of spontaneous activity in visuospatial perception with patterned optogenetics",
+  "year": "2025",
+  "journal": "PLoS ONE",
+  "authors": [
+    "Kengo Takahashi",
+    "Samuel Pontes Quero",
+    "Julien Fiorilli",
+    "Davide Benedetti",
+    "Rafael Yuste",
+    "Karl Friston",
+    "Giulio Tononi",
+    "Cyriel M. A. Pennartz",
+    "Umberto Olcese"
+  ],
+  "abstract": "A major debate in the field of consciousness pertains to whether neuronal activity or rather the causal structure of neural circuits underlie the generation of conscious experience. The former position is held by theoretical accounts of consciousness based on the predictive processing framework (such as neurorepresentationalism and active inference), while the latter is posited by the integrated information theory. This protocol describes an experiment, part of a larger adversarial collaboration, that was designed to address this question through a combination of behavioral tests in mice, functional imaging, patterned optogenetics and electrophysiology. The experiment will directly test if optogenetic inactivation of a portion of the visual cortex not responding to behaviorally relevant stimuli will affect the perception of the spatial distribution of these stimuli, even when the neurons being inactivated display no or very low spiking activity, so low that it does not induce a significant effect on other cortical areas. The results of the experiment will be compared against theoretical predictions, and will provide a major contribution towards understanding what the neuronal substrate of consciousness is.",
+  "link": "https://doi.org/10.1371/journal.pone.0318863"
+}

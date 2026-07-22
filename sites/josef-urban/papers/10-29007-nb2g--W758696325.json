@@ -1,0 +1,13 @@
+{
+  "doi": "10.29007/nb2g",
+  "doi_url": "https://doi.org/10.29007/nb2g",
+  "title": "Learning from Multiple Proofs: First Experiments",
+  "year": "2018",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Daniel Kuehlwein",
+    "Josef Urban"
+  ],
+  "abstract": "Mathematical textbooks typically present only one proof for most of the theorems. However, there are infinitely many proofs for each theorem in first-order logic, and mathematicians are often aware of (and even invent new) important alternative proofs and use such knowledge for (lateral) thinking about new problems. In this paper we start exploring how the explicit knowledge of multiple (human and ATP) proofs of the same theorem can be used in learning-based premise selection algorithms in large-theory mathematics. Several methods and their combinations are defined, and their effect on the ATP performance is evaluated on the MPTP2078 large-theory benchmark. Our first findings are that the proofs used for learning significantly influence the number of problems solved, and that the quality of the proofs is more important than the quantity.",
+  "link": "https://doi.org/10.29007/nb2g"
+}

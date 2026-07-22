@@ -1,0 +1,17 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "New Directions in EEG Measurement: an Investigation into the Fidelity of Electrical Potential Sensor Signals",
+  "year": "2014",
+  "journal": "Sussex Research Online (University of Sussex)",
+  "authors": [
+    "Mohsen Fatoorechi",
+    "David J. Schwartzman",
+    "H. Prance",
+    "Jim Parkinson",
+    "Anil K. Seth",
+    "R. J. Prance"
+  ],
+  "abstract": "Abstract: Low frequency noise performance is the key indicator in determining the signal to noise ratio of a capacitively coupled sensor when used to acquire electroencephalogram signals. For this reason, a prototype Electric Potential Sensor device based on an auto-zero operational amplifier has been developed and evaluated. The absence of 1/f noise in these devices makes them ideal for use with signal frequencies ~10 Hz or less. The active electrodes are designed to be physically and electrically robust and chemically and biochemically inert. They are electrically insulated (anodized) and have diameters of 12 mm or 18 mm. In both cases, the sensors are housed in inert stainless steel machined housings with the electronics fabricated in surface mount components on a printed circuit board compatible with epoxy potting compounds. Potted sensors are designed to be immersed in alcohol for sterilization purposes. A comparative study was conducted with a commercial wet gel electrode system. These studies comprised measurements of both free running electroencephalogram and Event Related Potentials. Quality of the recorded electroencephalogram was assessed using three methods of inspection of raw signal, comparing signal to noise ratios, and Event Related Potentials noise analysis. A strictly comparable signal to noise ratio was observed and the overall conclusion from these comparative studies is that",
+  "link": "https://openalex.org/W572684617"
+}

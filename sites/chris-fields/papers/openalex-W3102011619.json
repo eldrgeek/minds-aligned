@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "If Physics Is an Information Science, What Is an Observer?",
+  "year": "2012",
+  "journal": null,
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Interpretations of quantum theory have traditionally assumed a “Galilean” observer, a bare “point of view” implemented physically by a quantum system. This paper investigates the consequences of replacing such an informationally-impoverished observer with an observer that satisfies the requirements of classical automata theory, i.e., an observer that encodes sufficient prior information to identify the system being observed and recognize its acceptable states. It shows that with reasonable assumptions about the physical dynamics of information channels, the observations recorded by such an observer will display the typical characteristics predicted by quantum theory, without requiring any specific assumptions about the observer’s physical implementation.",
+  "link": "https://openalex.org/W3102011619"
+}

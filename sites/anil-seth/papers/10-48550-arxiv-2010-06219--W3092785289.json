@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2010.06219",
+  "doi_url": "https://doi.org/10.48550/arxiv.2010.06219",
+  "title": "Investigating the Scalability and Biological Plausibility of the Activation Relaxation Algorithm",
+  "year": "2020",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Beren Millidge",
+    "Alexander Tschantz",
+    "Anil K. Seth",
+    "Christopher L. Buckley"
+  ],
+  "abstract": "The recently proposed Activation Relaxation (AR) algorithm provides a simple and robust approach for approximating the backpropagation of error algorithm using only local learning rules. Unlike competing schemes, it converges to the exact backpropagation gradients, and utilises only a single type of computational unit and a single backwards relaxation phase. We have previously shown that the algorithm can be further simplified and made more biologically plausible by (i) introducing a learnable set of backwards weights, which overcomes the weight-transport problem, and (ii) avoiding the computation of nonlinear derivatives at each neuron. However, tthe efficacy of these simplifications has, so far, only been tested on simple multi-layer-perceptron (MLP) networks. Here, we show that these simplifications still maintain performance using more complex CNN architectures and challenging datasets, which have proven difficult for other biologically-plausible schemes to scale to. We also investigate whether another biologically implausible assumption of the original AR algorithm -- the frozen feedforward pass -- can be relaxed without damaging performance.",
+  "link": "https://doi.org/10.48550/arxiv.2010.06219"
+}

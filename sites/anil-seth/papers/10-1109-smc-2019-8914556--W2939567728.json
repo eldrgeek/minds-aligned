@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/smc.2019.8914556",
+  "doi_url": "https://doi.org/10.1109/smc.2019.8914556",
+  "title": "Inferring the temporal structure of directed functional connectivity in neural systems: some extensions to Granger causality",
+  "year": "2019",
+  "journal": null,
+  "authors": [
+    "Lionel Barnett",
+    "Anil K. Seth"
+  ],
+  "abstract": "Neural processes in the brain operate at a range of temporal scales. Granger causality, the most widely-used neuroscientific tool for inference of directed functional connectivity from neurophsyiological data, is traditionally deployed in the form of one-step-ahead prediction regardless of the data sampling rate, and as such yields only limited insight into the temporal structure of the underlying neural processes. We introduce Granger causality variants based on multi-step, infinite-future and single-lag prediction, which facilitate a more detailed and systematic temporal analysis of information flow in the brain.",
+  "link": "https://doi.org/10.1109/smc.2019.8914556"
+}

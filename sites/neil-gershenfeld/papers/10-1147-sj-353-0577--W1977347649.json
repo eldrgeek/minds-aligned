@@ -1,0 +1,12 @@
+{
+  "doi": "10.1147/sj.353.0577",
+  "doi_url": "https://doi.org/10.1147/sj.353.0577",
+  "title": "Signal entropy and the thermodynamics of computation",
+  "year": "1996",
+  "journal": "IBM Systems Journal",
+  "authors": [
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Electronic computers currently have many orders of magnitude more thermodynamic degrees of freedom than information-bearing ones (bits). Because of this, these levels of description are usually considered separately as hardware and software, but as devices approach fundamental physical limits these will become comparable and must be understood together. Using some simple test problems, I explore the connection between the information in a computation and the thermodynamic properties of a system that can implement it, and outline the features of a unified theory of the degrees of freedom in a computer.",
+  "link": "https://doi.org/10.1147/sj.353.0577"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "High level cognitive information processing in neural networks",
+  "year": "1992",
+  "journal": null,
+  "authors": [
+    "John A. Barnden",
+    "Chris Fields"
+  ],
+  "abstract": "Two related research efforts were addressed: (1) high-level connectionist cognitive modeling; and (2) local neural circuit modeling. The goals of the first effort were to develop connectionist models of high-level cognitive processes such as problem solving or natural language understanding, and to understand the computational requirements of such models. The goals of the second effort were to develop biologically-realistic model of local neural circuits, and to understand the computational behavior of such models. In keeping with the nature of NASA's Innovative Research Program, all the work conducted under the grant was highly innovative. For instance, the following ideas, all summarized, are contributions to the study of connectionist/neural networks: (1) the temporal-winner-take-all, relative-position encoding, and pattern-similarity association techniques; (2) the importation of logical combinators into connection; (3) the use of analogy-based reasoning as a bridge across the gap between the traditional symbolic paradigm and the connectionist paradigm; and (4) the application of connectionism to the domain of belief representation/reasoning. The work on local neural circuit modeling also departs significantly from the work of related researchers. In particular, its concentration on low-level neural phenomena that could support high-level cognitive processing is unusual within the area of biological local circuit modeling, and also serves to expand the horizons of the artificial neural net field.",
+  "link": "https://openalex.org/W764470327"
+}

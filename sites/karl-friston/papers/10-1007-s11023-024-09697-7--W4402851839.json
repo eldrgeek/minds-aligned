@@ -1,0 +1,14 @@
+{
+  "doi": "10.1007/s11023-024-09697-7",
+  "doi_url": "https://doi.org/10.1007/s11023-024-09697-7",
+  "title": "The Inherent Normativity of Concepts",
+  "year": "2024",
+  "journal": "Minds and Machines",
+  "authors": [
+    "Wing Yi So",
+    "Karl Friston",
+    "Victorita Neacsu"
+  ],
+  "abstract": "Abstract Concept normativity is a prominent subject of inquiry in the philosophical literature on the nature of concepts. Concepts are said to be normative, in that the use of concepts to categorise is associated with an evaluation of the appropriateness of such categorisation measured against some objective external standard. Two broad groups of views have emerged in accounting for the normativity of concepts: a weaker view traces such normativity to the social practice in which the agent using the concept is embedded, while a stronger view traces such normativity to a first-person capacity of reflection. However, both views have drawbacks: the weaker view seems not to do justice to the basic sense of normativity associated with an individual agent using a concept, while the stronger view ties such normativity with the first-person conscious evaluation, which appears to be too strong. Here, we propose a different view of concepts using principles from the Active Inference framework. We reconceive concepts, defining them as Bayesian beliefs—that is, conditional probability distributions—that represent causes and contingencies in the world, their form grounded in the exchange between the agent and its environment. This allows us to present a different view on the source of normativity, with an emphasis on the structure of the agent itself as well as its interaction with the environment. On the Active Inference view, concepts are normative in that they are intrinsically connected to the self-evidencing nature of an agent, whose very structure implies an evaluation of the concepts it employs.",
+  "link": "https://doi.org/10.1007/s11023-024-09697-7"
+}

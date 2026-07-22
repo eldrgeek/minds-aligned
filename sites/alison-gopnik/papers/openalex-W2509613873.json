@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Bayes and Blickets: Effects of Knowledge on Causal Induction in Children and Adults",
+  "year": "2011",
+  "journal": null,
+  "authors": [
+    "Thomas L. Griffiths",
+    "David M. Sobel",
+    "Joshua B. Tenenbaum",
+    "Alison Gopnik"
+  ],
+  "abstract": "People are adept at inferring novel causal relations, even from only a few observations. Prior knowledge about the probability of encountering causal relations of various types and the nature of the mechanisms relating causes and effects plays a crucial role in these inferences. We test a formal account of how this knowledge can be used and acquired, based on analyzing causal induction as Bayesian inference. Five studies explored the predictions of this account with adults and 4-year-olds, using tasks in which participants learned about the causal properties of a set of objects. The studies varied the two factors that our Bayesian approach predicted should be relevant to causal induction: the prior probability with which causal relations exist, and the assumption of a deterministic or a probabilistic relation between cause and effect. Adults ’ judgments (Experiments 1, 2, and 4) were in close correspondence with the quantitative predictions of the model, and children’s judgments (Experiments 3 and 5) agreed qualitatively with this account.",
+  "link": "https://openalex.org/W2509613873"
+}

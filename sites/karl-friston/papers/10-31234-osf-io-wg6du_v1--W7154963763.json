@@ -1,0 +1,20 @@
+{
+  "doi": "10.31234/osf.io/wg6du_v1",
+  "doi_url": "https://doi.org/10.31234/osf.io/wg6du_v1",
+  "title": "Protocol for measuring the effects of cortical scotoma on visual space perception",
+  "year": "2026",
+  "journal": null,
+  "authors": [
+    "Andrew Haun",
+    "Elena Monai",
+    "Wei Hau Lew",
+    "Daejoon Hwang",
+    "Giulio Tononi",
+    "Karl Friston",
+    "Cyriel Pennartz",
+    "Melanie Boly",
+    "Eli Peli"
+  ],
+  "abstract": "We aim to investigate the spatial experience of patients with chronic scotomas caused by lesion to early visual cortex, including primary visual cortex (V1) and adjacent extrastriate visual areas. These experiments are conducted as part of an adversarial collaboration testing contrasting theories of consciousness: Integrated Information Theory (IIT) and two Predictive Processing accounts, Active Inference (AI) and Neurorepresentationalism (NREP). The central question is whether lesions to early visual cortex alter the experienced extent of visual space itself, or instead primarily disrupt stimulus content within an otherwise preserved visual space. To address this, we use paradigms in which patients estimate distances or spatial extents that either span a scotomatous region or fall entirely within intact visual field locations. Psychometric functions relating perceived and physical extent are modeled to estimate shifts in the point of subjective equality (PSE). According to IIT, lesions to early visual cortex, including V1 and occipital exstrastriate cortex, should lead to systematic reductions in perceived spatial extent across the scotoma (negative PSE shifts), reflecting a contraction of experienced space. In contrast, Predictive Processing accounts posit that higher-level predictive mechanisms preserve spatial structure despite loss of early input, predicting little or no systematic contraction (with NREP allowing limited context-dependent effects). By quantifying distortions in perceived spatial extent, this protocol aims to distinguish between these competing theoretical predictions.",
+  "link": "https://doi.org/10.31234/osf.io/wg6du_v1"
+}

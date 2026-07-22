@@ -1,0 +1,16 @@
+{
+  "doi": "10.1038/srep46421",
+  "doi_url": "https://doi.org/10.1038/srep46421",
+  "title": "Increased spontaneous MEG signal diversity for psychoactive doses of ketamine, LSD and psilocybin",
+  "year": "2017",
+  "journal": "Scientific Reports",
+  "authors": [
+    "Michael Schartner",
+    "Robin Carhart‐Harris",
+    "Adam B. Barrett",
+    "Anil K. Seth",
+    "Suresh Muthukumaraswamy"
+  ],
+  "abstract": "What is the level of consciousness of the psychedelic state? Empirically, measures of neural signal diversity such as entropy and Lempel-Ziv (LZ) complexity score higher for wakeful rest than for states with lower conscious level like propofol-induced anesthesia. Here we compute these measures for spontaneous magnetoencephalographic (MEG) signals from humans during altered states of consciousness induced by three psychedelic substances: psilocybin, ketamine and LSD. For all three, we find reliably higher spontaneous signal diversity, even when controlling for spectral changes. This increase is most pronounced for the single-channel LZ complexity measure, and hence for temporal, as opposed to spatial, signal diversity. We also uncover selective correlations between changes in signal diversity and phenomenological reports of the intensity of psychedelic experience. This is the first time that these measures have been applied to the psychedelic state and, crucially, that they have yielded values exceeding those of normal waking consciousness. These findings suggest that the sustained occurrence of psychedelic phenomenology constitutes an elevated level of consciousness - as measured by neural signal diversity.",
+  "link": "https://doi.org/10.1038/srep46421"
+}

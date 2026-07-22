@@ -1,0 +1,16 @@
+{
+  "doi": "10.31219/osf.io/wh2pr_v1",
+  "doi_url": "https://doi.org/10.31219/osf.io/wh2pr_v1",
+  "title": "How the hypothesis space is represented. Evidence from young children’s active search and predictions in a multiple-cue inference task",
+  "year": "2020",
+  "journal": null,
+  "authors": [
+    "Azzurra Ruggeri",
+    "Angela M. Jones",
+    "Thorsten Pachur",
+    "Alison Gopnik",
+    "Douglas Markant"
+  ],
+  "abstract": "To successfully navigate in an uncertain world, one has to learn the relationship between cues (e.g., symptoms) and an outcome (e.g., disease). During this learning, it is sometimes possible to actively manipulate the cue values, allowing one to test hypotheses about this relationship directly. Across two studies, we investigated how 5- to 7-year-olds select cue configurations when learning cue-outcome relationships and how they are guided by representations of the hypothesis space regarding these relationships. In our task, children selected which monster pairs to see running in a race, allowing them to learn how two cues (the color and shape of monsters) predicted the relative speed of the monsters; subsequently, they made predictions about the speed of new monsters. Using computational modeling, we compared several models in their ability to capture children’s responses. We found that young children’s search was most consistent with a model that assumed reliance on a hypothesis space represented in terms of the relative speed of individual monsters. However, when memory aids were provided during search, 7-year-olds were best described by a model that assumes reliance on a more efficient, high-level representation that organizes the hypothesis space based on abstracted cue-outcome relationships. Our results highlight the guiding role of hypothesis-space representations for search during learning, suggest that young children already spontaneously abstract hypothesis-space representations, and provide the first evidence for a shift between search and test in terms of the hypothesis-space structures on which children rely when navigating in an uncertain world.",
+  "link": "https://doi.org/10.31219/osf.io/wh2pr_v1"
+}

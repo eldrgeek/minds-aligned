@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/radioelek.2007.371658",
+  "doi_url": "https://doi.org/10.1109/radioelek.2007.371658",
+  "title": "PAPR Reduction by Combination of Interleaving with Repeated Clipping and Filtering in OFDM",
+  "year": "2007",
+  "journal": null,
+  "authors": [
+    "Josef Urban",
+    "Roman Maršálek"
+  ],
+  "abstract": "The major disadvantage of orthogonal frequency division multiplex (OFDM) is the high peak to average power ratio (PAPR) of the transmitted signal. The main idea of this paper is to use a combination of two appropriate methods. First is the distortionless method using data interleaving. Second is the distortion method of repeated clipping and filtering. This combination expects better PAPR reduction than both separatelly used methods. It is shown that the combination of interleaving with repeated clipping and filtering gives lower PAPR than the repeated clipping and filtering alone.",
+  "link": "https://doi.org/10.1109/radioelek.2007.371658"
+}

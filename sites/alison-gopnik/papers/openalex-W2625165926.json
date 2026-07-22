@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Preschoolers sample from probability distributions",
+  "year": "2010",
+  "journal": "eScholarship (California Digital Library)",
+  "authors": [
+    "Stephanie Denison",
+    "Elizabeth Bonawitz",
+    "Alison Gopnik",
+    "Thomas L. Griffiths"
+  ],
+  "abstract": "Researchers in both educational and developmental psychology have suggested that children are not particularly adept hypothesis testers, and that their behavior can often appear irrational.However, a growing body of research also suggests that people do engage in rational inference on a variety of tasks.Recently researchers have begun testing the idea that reasoners may be sampling hypotheses from an internal probability distribution when making inferences.If children are reasoning in this way, this might help to explain some seemingly irrational behavior seen in previous experiments.Forty 4-year-olds were tested on a probabilistic inference task that required them to make repeated guesses about which of two types of blocks had been randomly sampled from a population.Results suggest that children can sample from a probability distribution as evidenced by the fact that, as a group, they engaged in probability matching and that the dependency between successive guesses decreased over time.",
+  "link": "https://openalex.org/W2625165926"
+}

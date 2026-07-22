@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1109.0616",
+  "doi_url": "https://doi.org/10.48550/arxiv.1109.0616",
+  "title": "ATP and Presentation Service for Mizar Formalizations",
+  "year": "2011",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Josef Urban",
+    "Piotr Rudnicki",
+    "Geoff Sutcliffe"
+  ],
+  "abstract": "This paper describes the Automated Reasoning for Mizar (MizAR) service, which integrates several automated reasoning, artificial intelligence, and presentation tools with Mizar and its authoring environment. The service provides ATP assistance to Mizar authors in finding and explaining proofs, and offers generation of Mizar problems as challenges to ATP systems. The service is based on a sound translation from the Mizar language to that of first-order ATP systems, and relies on the recent progress in application of ATP systems in large theories containing tens of thousands of available facts. We present the main features of MizAR services, followed by an account of initial experiments in finding proofs with the ATP assistance. Our initial experience indicates that the tool offers substantial help in exploring the Mizar library and in preparing new Mizar articles.",
+  "link": "https://doi.org/10.48550/arxiv.1109.0616"
+}

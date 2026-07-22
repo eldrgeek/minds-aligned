@@ -1,0 +1,16 @@
+{
+  "doi": "10.1557/s43578-025-01651-2",
+  "doi_url": "https://doi.org/10.1557/s43578-025-01651-2",
+  "title": "Computational metrology for materials",
+  "year": "2025",
+  "journal": "Journal of materials research/Pratt's guide to venture capital sources",
+  "authors": [
+    "James A. Warren",
+    "Jake Robert Read",
+    "Jonathan E. Seppala",
+    "Erik Strand",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Advanced materials hold great promise, but their adoption is impeded by the challenges of developing, characterizing, and modeling them, then of designing, processing, and producing something with them. Even if the results are open, the means to do each of these steps are typically proprietary and segregated. We show how principles of open-source software and hardware can be used to develop open instrumentation for materials science, so that a measurement can be accompanied by a complete computational description of how to reproduce it. And then we show how this approach can be extended to effectively measure predictive computational models rather than just model parameters. We refer to these interrelated concepts as \"computational metrology.\" These are illustrated with examples including a 3D printer that can do rheological characterization of unfamiliar and variable materials. Graphical abstract: A demonstration of computational metrology is shown through the development of a Rheoprinter (left) that combines off-the-shelf printer components with custom instrumentation. At right, a model made by the Rheoprinter to predict relative nozzle pressures as a function of material flow rate and nozzle temperature.",
+  "link": "https://doi.org/10.1557/s43578-025-01651-2"
+}

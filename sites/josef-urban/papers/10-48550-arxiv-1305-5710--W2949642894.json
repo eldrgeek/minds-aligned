@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.1305.5710",
+  "doi_url": "https://doi.org/10.48550/arxiv.1305.5710",
+  "title": "Formal Mathematics on Display: A Wiki for Flyspeck",
+  "year": "2013",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Carst Tankink",
+    "Cezary Kaliszyk",
+    "Josef Urban",
+    "Herman Geuvers"
+  ],
+  "abstract": "The Agora system is a prototype \"Wiki for Formal Mathematics\", with an aim to support developing and documenting large formalizations of mathematics in a proof assistant. The functions implemented in Agora include in-browser editing, strong AI/ATP proof advice, verification, and HTML rendering. The HTML rendering contains hyperlinks and provides on-demand explanation of the proof state for each proof step. In the present paper we show the prototype Flyspeck Wiki as an instance of Agora for HOL Light formalizations. The wiki can be used for formalizations of mathematics and for writing informal wiki pages about mathematics. Such informal pages may contain islands of formal text, which is used here for providing an initial cross-linking between Hales's informal Flyspeck book, and the formal Flyspeck development. The Agora platform intends to address distributed wiki-style collaboration on large formalization projects, in particular both the aspect of immediate editing, verification and rendering of formal code, and the aspect of gradual and mutual refactoring and correspondence of the initial informal text and its formalization. Here, we highlight these features within the Flyspeck Wiki.",
+  "link": "https://doi.org/10.48550/arxiv.1305.5710"
+}

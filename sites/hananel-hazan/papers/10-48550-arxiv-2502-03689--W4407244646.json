@@ -1,0 +1,27 @@
+{
+  "doi": "10.48550/arxiv.2502.03689",
+  "doi_url": "https://doi.org/10.48550/arxiv.2502.03689",
+  "title": "Stop treating `AGI' as the north-star goal of AI research",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Borhane Blili-Hamelin",
+    "Christopher Graziul",
+    "Leif Hancox-Li",
+    "Hananel Hazan",
+    "El-Mhamdi, El-Mahdi",
+    "Avijit Ghosh",
+    "Katherine Heller",
+    "Metcalf, Jacob",
+    "Fabrício Murai",
+    "Eryk Salvaggio",
+    "Andrew Smart",
+    "Todd Snider",
+    "Mariame Tighanimine",
+    "Talia Ringer",
+    "Margaret Mitchell",
+    "Shiri Dori-Hacohen"
+  ],
+  "abstract": "The AI research community plays a vital role in shaping the scientific, engineering, and societal goals of AI research. In this position paper, we argue that focusing on the highly contested topic of `artificial general intelligence' (`AGI') undermines our ability to choose effective goals. We identify six key traps -- obstacles to productive goal setting -- that are aggravated by AGI discourse: Illusion of Consensus, Supercharging Bad Science, Presuming Value-Neutrality, Goal Lottery, Generality Debt, and Normalized Exclusion. To avoid these traps, we argue that the AI research community needs to (1) prioritize specificity in engineering and societal goals, (2) center pluralism about multiple worthwhile approaches to multiple valuable goals, and (3) foster innovation through greater inclusion of disciplines and communities. Therefore, the AI research community needs to stop treating `AGI' as the north-star goal of AI research.",
+  "link": "https://doi.org/10.48550/arxiv.2502.03689"
+}

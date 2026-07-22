@@ -1,0 +1,14 @@
+{
+  "doi": "10.48448/fyd3-m175",
+  "doi_url": "https://doi.org/10.48448/fyd3-m175",
+  "title": "Understand Intrinsic Motivation in Causal Learning Through Exploration",
+  "year": "2025",
+  "journal": "Underline Science Inc.",
+  "authors": [
+    "Cognitive Science Society 2025",
+    "Fei Dai",
+    "Alison Gopnik"
+  ],
+  "abstract": "Intrinsic motivation plays a crucial role in shaping exploration and learning, yet its specific contributions to causal discovery remain underexplored. This study examines the impact of three intrinsic motivation metrics—entropy, information gain, and empowerment—on causal learning outcomes. Across two experiments, participants engaged in interactive tasks requiring them to infer causal structures through exploration. Results indicate that information gain and empowerment significantly predict learning success, whereas broad, undirected exploration (entropy) does not. These findings suggest that learners optimize causal discovery by prioritizing actions that maximize information and control, rather than engaging in indiscriminate exploration. Our study offers insights into how strategic exploration facilitates causal reasoning and how these principles can be applied to machine learning.",
+  "link": "https://doi.org/10.48448/fyd3-m175"
+}

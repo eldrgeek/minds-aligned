@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Low-Complexity LFSR Synchronization by Forward-Only Message Passing",
+  "year": "2003",
+  "journal": null,
+  "authors": [
+    "Benjamin Vigoda",
+    "Justin Dauwels",
+    "Neil Gershenfeld",
+    "Hans‐Andrea Loeliger"
+  ],
+  "abstract": "Gershenfeld and Grinstein showed that a modulated linear-feedback shiftregister (LFSR) sequence can be synchronized by feeding the modulated sequence into an analog version of the LFSR. In this paper, a similar algorithm for synchronizing a LFSR sequence disturbed by additive white Gaussian noise is derived as forward-only message passing through the corresponding factor graph.",
+  "link": "https://openalex.org/W193966052"
+}

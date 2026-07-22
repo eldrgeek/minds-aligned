@@ -1,0 +1,18 @@
+{
+  "doi": "10.1371/journal.pone.0042493",
+  "doi_url": "https://doi.org/10.1371/journal.pone.0042493",
+  "title": "Multi-Neuronal Refractory Period Adapts Centrally Generated Behaviour to Reward",
+  "year": "2012",
+  "journal": "PLoS ONE",
+  "authors": [
+    "Christopher A. Harris",
+    "Christopher L. Buckley",
+    "Thomas Nowotny",
+    "Peter A. Passaro",
+    "Anil K. Seth",
+    "György Kemenes",
+    "Michael O’Shea"
+  ],
+  "abstract": "Oscillating neuronal circuits, known as central pattern generators (CPGs), are responsible for generating rhythmic behaviours such as walking, breathing and chewing. The CPG model alone however does not account for the ability of animals to adapt their future behaviour to changes in the sensory environment that signal reward. Here, using multi-electrode array (MEA) recording in an established experimental model of centrally generated rhythmic behaviour we show that the feeding CPG of Lymnaea stagnalis is itself associated with another, and hitherto unidentified, oscillating neuronal population. This extra-CPG oscillator is characterised by high population-wide activity alternating with population-wide quiescence. During the quiescent periods the CPG is refractory to activation by food-associated stimuli. Furthermore, the duration of the refractory period predicts the timing of the next activation of the CPG, which may be minutes into the future. Rewarding food stimuli and dopamine accelerate the frequency of the extra-CPG oscillator and reduce the duration of its quiescent periods. These findings indicate that dopamine adapts future feeding behaviour to the availability of food by significantly reducing the refractory period of the brain's feeding circuitry.",
+  "link": "https://doi.org/10.1371/journal.pone.0042493"
+}

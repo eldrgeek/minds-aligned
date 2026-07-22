@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.2306.04025",
+  "doi_url": "https://doi.org/10.48550/arxiv.2306.04025",
+  "title": "Designing explainable artificial intelligence with active inference: A framework for transparent introspection and decision-making",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Mahault Albarracin",
+    "Inês Hipólito",
+    "Safae Essafi Tremblay",
+    "Jason G. Fox",
+    "Gabriel René",
+    "Karl Friston",
+    "Maxwell J. D. Ramstead"
+  ],
+  "abstract": "This paper investigates the prospect of developing human-interpretable, explainable artificial intelligence (AI) systems based on active inference and the free energy principle. We first provide a brief overview of active inference, and in particular, of how it applies to the modeling of decision-making, introspection, as well as the generation of overt and covert actions. We then discuss how active inference can be leveraged to design explainable AI systems, namely, by allowing us to model core features of ``introspective'' processes and by generating useful, human-interpretable models of the processes involved in decision-making. We propose an architecture for explainable AI systems using active inference. This architecture foregrounds the role of an explicit hierarchical generative model, the operation of which enables the AI system to track and explain the factors that contribute to its own decisions, and whose structure is designed to be interpretable and auditable by human users. We outline how this architecture can integrate diverse sources of information to make informed decisions in an auditable manner, mimicking or reproducing aspects of human-like consciousness and introspection. Finally, we discuss the implications of our findings for future research in AI, and the potential ethical considerations of developing AI systems with (the appearance of) introspective capabilities.",
+  "link": "https://doi.org/10.48550/arxiv.2306.04025"
+}

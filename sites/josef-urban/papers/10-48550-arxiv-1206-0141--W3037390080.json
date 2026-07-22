@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1206.0141",
+  "doi_url": "https://doi.org/10.48550/arxiv.1206.0141",
+  "title": "Parallelizing Mizar",
+  "year": "2012",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "This paper surveys and describes the implementation of parallelization of the Mizar proof checking and of related Mizar utilities. The implementation makes use of Mizar's compiler-like division into several relatively independent passes, with typically quite different processing speeds. The information produced in earlier (typically much faster) passes can be used to parallelize the later (typically much slower) passes. The parallelization now works by splitting the formalization into a suitable number of pieces that are processed in parallel, assembling from them together the required results. The implementation is evaluated on examples from the Mizar library, and future extensions are discussed.",
+  "link": "https://doi.org/10.48550/arxiv.1206.0141"
+}

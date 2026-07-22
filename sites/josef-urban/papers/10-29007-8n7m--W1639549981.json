@@ -1,0 +1,12 @@
+{
+  "doi": "10.29007/8n7m",
+  "doi_url": "https://doi.org/10.29007/8n7m",
+  "title": "BliStr: The Blind Strategymaker",
+  "year": "2018",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "BliStr is a system that automatically develops strong targetted theorem-proving strategies for the E prover on a large set of diverse problems. The main idea is to interleave (i) iterated low-timelimit local search for new strategies on small sets of similar easy problems with (ii) higher-timelimit evaluation of the new strategies on all problems. The accumulated results of the global higher-timelimit runs are used to define and evolve the notion of \"similar easy problems'\", and to control the evolution of the next strategy. The technique significantly strengthened the set of E strategies used by the MaLARea, E-MaLeS, and E systems in the CASC@Turing 2012 competition, particularly in the Mizar division. Similar improvement was obtained on the problems created from the Flyspeck corpus.",
+  "link": "https://doi.org/10.29007/8n7m"
+}

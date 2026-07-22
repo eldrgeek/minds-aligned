@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Content-based encoding of mathematical and code libraries",
+  "year": "2011",
+  "journal": "Radboud Repository (Radboud University)",
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "This is a proposal for content-based canonical naming of mathematical objects aimed at semantic machine processing, and an initial investigation of how useful it can be, how similar it is to other approaches, what disadvantages and limitations it has, and how it could be extended. 1",
+  "link": "https://openalex.org/W2109470903"
+}

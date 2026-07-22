@@ -1,0 +1,18 @@
+{
+  "doi": "10.3389/fnins.2023.1212549",
+  "doi_url": "https://doi.org/10.3389/fnins.2023.1212549",
+  "title": "Self-regulation learning as active inference: dynamic causal modeling of an fMRI neurofeedback task",
+  "year": "2023",
+  "journal": "Frontiers in Neuroscience",
+  "authors": [
+    "Gabriela Vargas",
+    "David Araya",
+    "Pradyumna Sepúlveda",
+    "María Rodriguez-Fernández",
+    "Karl Friston",
+    "Ranganatha Sitaram",
+    "Wael El‐Deredy"
+  ],
+  "abstract": "Introduction: Learning to self-regulate brain activity by neurofeedback has been shown to lead to changes in the brain and behavior, with beneficial clinical and non-clinical outcomes. Neurofeedback uses a brain-computer interface to guide participants to change some feature of their brain activity. However, the neural mechanism of self-regulation learning remains unclear, with only 50% of the participants succeeding in achieving it. To bridge this knowledge gap, our study delves into the neural mechanisms of self-regulation learning via neurofeedback and investigates the brain processes associated with successful brain self-regulation. Methods: We study the neural underpinnings of self-regulation learning by employing dynamical causal modeling (DCM) in conjunction with real-time functional MRI data. The study involved a cohort of 18 participants undergoing neurofeedback training targeting the supplementary motor area. A critical focus was the comparison between top-down hierarchical connectivity models proposed by Active Inference and alternative bottom-up connectivity models like reinforcement learning. Results: Our analysis revealed a crucial distinction in brain connectivity patterns between successful and non-successful learners. Particularly, successful learners evinced a significantly stronger top-down effective connectivity towards the target area implicated in self-regulation. This heightened top-down network engagement closely resembles the patterns observed in goal-oriented and cognitive control studies, shedding light on the intricate cognitive processes intertwined with self-regulation learning. Discussion: The findings from our investigation underscore the significance of cognitive mechanisms in the process of self-regulation learning through neurofeedback. The observed stronger top-down effective connectivity in successful learners indicates the involvement of hierarchical cognitive control, which aligns with the tenets of Active Inference. This study contributes to a deeper understanding of the neural dynamics behind successful self-regulation learning and provides insights into the potential cognitive architecture underpinning this process.",
+  "link": "https://doi.org/10.3389/fnins.2023.1212549"
+}

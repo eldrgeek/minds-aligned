@@ -1,0 +1,13 @@
+{
+  "doi": "10.52842/conf.acadia.2018.066",
+  "doi_url": "https://doi.org/10.52842/conf.acadia.2018.066",
+  "title": "Mods: Browser-Based Rapid Prototyping Workflow Composition",
+  "year": "2018",
+  "journal": "ACADIA quarterly",
+  "authors": [
+    "Nadya Peek",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Software is shared through files and libraries, but workflows are not. To be able to share workflows for rapid automation, we developed an extensible environment for running CAD, CAM, and machine control. We present Mods, a browser-based environment for data handling, toolpath planning, and machine execution. Users compose modules (either existing modules or new modules they contribute) into workflows for machine automation sequences in a dataflow environment. The modules themselves run client side, implementing the functions used by the modules (such as toolpath planning algorithms or image analysis) in JavaScript, which runs in the browser. The physical machines are connected to a JavaScript server, which listens to commands from the client over a WebSocket connection. Together, these software modules make up an extensible and simple-to-use alternative to traditional CAD/CAM machine control environments.",
+  "link": "https://doi.org/10.52842/conf.acadia.2018.066"
+}

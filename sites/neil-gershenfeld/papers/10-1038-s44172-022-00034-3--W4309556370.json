@@ -1,0 +1,16 @@
+{
+  "doi": "10.1038/s44172-022-00034-3",
+  "doi_url": "https://doi.org/10.1038/s44172-022-00034-3",
+  "title": "Self-replicating hierarchical modular robotic swarms",
+  "year": "2022",
+  "journal": "Communications Engineering",
+  "authors": [
+    "Amira Abdel-Rahman",
+    "Christopher Cameron",
+    "Benjamin Jenett",
+    "Miana Smith",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Abstract Modular robotic systems built of reconfigurable components offer an efficient and versatile alternative to traditional monolithic robots. However, as modular systems scale up, construction efficiency is compromised due to an increase in travel time and path planning complexity. Here we introduce a discrete modular material-robot system that is capable of serial, recursive (making more robots), and hierarchical (making larger robots) assembly. This is accomplished by discretizing the construction into a feedstock of simple primitive building blocks which can be re-configured to create a wide range of functionality. The discretization significantly simplifies the swarm’s navigation, error correction, and coordination. The component composition is supported by an algorithm to compile the building blocks into swarms and plan the optimal construction path. Our approach challenges the convention that larger constructions need larger machines to build them, and could be applied in areas that today either require substantial capital investments for fixed infrastructure or are altogether unfeasible.",
+  "link": "https://doi.org/10.1038/s44172-022-00034-3"
+}

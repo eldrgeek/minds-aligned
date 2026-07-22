@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2309.12095",
+  "doi_url": "https://doi.org/10.48550/arxiv.2309.12095",
+  "title": "Bayesian sparsification for deep neural networks with Bayesian model reduction",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Dimitrije Marković",
+    "Karl Friston",
+    "Stefan J. Kiebel"
+  ],
+  "abstract": "Deep learning's immense capabilities are often constrained by the complexity of its models, leading to an increasing demand for effective sparsification techniques. Bayesian sparsification for deep learning emerges as a crucial approach, facilitating the design of models that are both computationally efficient and competitive in terms of performance across various deep learning applications. The state-of-the-art -- in Bayesian sparsification of deep neural networks -- combines structural shrinkage priors on model weights with an approximate inference scheme based on stochastic variational inference. However, model inversion of the full generative model is exceptionally computationally demanding, especially when compared to standard deep learning of point estimates. In this context, we advocate for the use of Bayesian model reduction (BMR) as a more efficient alternative for pruning of model weights. As a generalization of the Savage-Dickey ratio, BMR allows a post-hoc elimination of redundant model weights based on the posterior estimates under a straightforward (non-hierarchical) generative model. Our comparative study highlights the advantages of the BMR method relative to established approaches based on hierarchical horseshoe priors over model weights. We illustrate the potential of BMR across various deep learning architectures, from classical networks like LeNet to modern frameworks such as Vision Transformers and MLP-Mixers.",
+  "link": "https://doi.org/10.48550/arxiv.2309.12095"
+}

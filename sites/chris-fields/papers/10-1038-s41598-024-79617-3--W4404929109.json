@@ -1,0 +1,22 @@
+{
+  "doi": "10.1038/s41598-024-79617-3",
+  "doi_url": "https://doi.org/10.1038/s41598-024-79617-3",
+  "title": "Examining the effects of biofield therapy through simultaneous assessment of electrophysiological and cellular outcomes",
+  "year": "2024",
+  "journal": "Scientific Reports",
+  "authors": [
+    "Lorenzo Cohen",
+    "Arnaud Delorme",
+    "Andrew Cusimano",
+    "Sharmistha Chakraborty",
+    "Phuong Nguyen",
+    "Defeng Deng",
+    "Shafaqmuhammad Iqbal",
+    "Monica Nelson",
+    "Daoyan Wei",
+    "Chris Fields",
+    "Peiying Yang"
+  ],
+  "abstract": "In this case study, a self-described biofield therapy (BT) practitioner (participant) took part in multiple ( n = 60) treatment and control (non-treatment) sessions under double-blind conditions. During the treatment phases, the participant provided BT treatment at a distance of about 12 inches from the cells, alternating with rest phases where no such efforts were made. Human pancreatic cancer cell activity was assessed using three markers – cytoskeleton changes (tubulin and β-actin) and Ca 2+ uptake. The study examined changes in the participant’s physiological parameters including electroencephalogram (EEG) and heart rate measures during the treatment of: (1) live cells and (2) either dead cells or medium only with no cells (control group). Changes in cellular outcomes and if there was an association between the participant’s physiological parameters and cellular outcomes were examined. The experimental setup was a 2 × 2 design, contrasting cell type (live vs. control) against session type (treatment vs. non-treatment). Parallel sham-treated control cells were examined for changes in the cell parameters over time while controlling for the presence of a person in front of the cells mimicking the distance and movements of the participant. The participant’s physiological data, including 64-channel EEG and heart rate, were continuously monitored throughout these sessions. We observed significant ( p < 0.01) spectral changes in the participant’s EEG during BT treatment in all frequency bands of interest, as well as in heart rate variability (HRV) (RMSSD measure; p < 0.01). We also observed significant differences in beta and gamma EEG and HRV (pNN50 measure) when the participant treated live but not control cells ( p = 0.02). However, no interaction between treatment and cell type (live vs. dead cells/medium-no cells) was observed. We observed Ca 2+ uptake increased over time during both BT and sham treatment, but the increase was significantly less for the BT group relative to the sham-treatment controls ( p = 0.03). When using Granger causality to assess causal directional associations between cell markers and participant’s physiological parameters, EEG measurements showed significant bidirectional causal effects with cell metrics, especially β-actin and intracellular Ca 2+ levels ( p < 0.000001). These outcomes suggest a complex relationship between physiological responses and cellular effects during BT treatment sessions. Given the study’s limitations, follow-up investigations are warranted.",
+  "link": "https://doi.org/10.1038/s41598-024-79617-3"
+}

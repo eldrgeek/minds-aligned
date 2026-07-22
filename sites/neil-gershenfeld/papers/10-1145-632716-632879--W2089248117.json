@@ -1,0 +1,13 @@
+{
+  "doi": "10.1145/632716.632879",
+  "doi_url": "https://doi.org/10.1145/632716.632879",
+  "title": "TouchTags",
+  "year": "1999",
+  "journal": null,
+  "authors": [
+    "Benjamin Vigoda",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Information can be stored in inexpensive electronic \"tag\" microchips which can be embedded in physical objects. We have invented a new tag reader technology which allows information to be transferred into or out of these tag microchips through the human body via touch. Our technology has enabled us to create a novel user interface which can recognize when physical icons are touched, and a wearable system that can inventory packages when they are touched.",
+  "link": "https://doi.org/10.1145/632716.632879"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2304.10010",
+  "doi_url": "https://doi.org/10.48550/arxiv.2304.10010",
+  "title": "Separability, Contextuality, and the Quantum Frame Problem",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields",
+    "James F. Glazebrook"
+  ],
+  "abstract": "We study the relationship between assumptions of state separability and both preparation and measurement contextuality, and the relationship of both of these to the frame problem, the problem of predicting what does not change in consequence of an action. We state a quantum analog of the latter and prove its undecidability. We show how contextuality is generically induced in state preparation and measurement by basis choice, thermodynamic exchange, and the imposition of a priori causal models, and how fine-tuning assumptions appear ubiquitously in settings characterized as non-contextual.",
+  "link": "https://doi.org/10.48550/arxiv.2304.10010"
+}

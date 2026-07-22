@@ -1,0 +1,16 @@
+{
+  "doi": "10.1109/prni.2011.16",
+  "doi_url": "https://doi.org/10.1109/prni.2011.16",
+  "title": "Learning BOLD Response in fMRI by Reservoir Computing",
+  "year": "2011",
+  "journal": null,
+  "authors": [
+    "Paolo Avesani",
+    "Hananel Hazan",
+    "Ester Koilis",
+    "Larry M. Manevitz",
+    "Diego Sona"
+  ],
+  "abstract": "This work proposes a model-free approach to fMRI-based brain mapping where the BOLD response is learnt from data rather than assumed in advance. For each voxel, a paired sequence of stimuli and fMRI recording is given to a supervised learning process. The result is a voxel-wise model of the expected BOLD response related to a set of stimuli. Differently from standard brain mapping techniques, where voxel relevance is assessed by fitting an hemodynamic response function, we argue that relevant voxels can be filtered according to the prediction accuracy of a learning model. In this work we present a computational architecture based on reservoir computing which combines a Liquid State Machine with a Multi-Layer Perceptron. An empirical analysis on synthetic data shows how the learning process can be robust with respect to noise artificially added to the signal. A similar investigation on real fMRI data provides a prediction of BOLD response whose accuracy allows for discriminating between relevant and irrelevant voxels.",
+  "link": "https://doi.org/10.1109/prni.2011.16"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2410.08373",
+  "doi_url": "https://doi.org/10.48550/arxiv.2410.08373",
+  "title": "Dynamic task delegation for hierarchical agents",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Sophie Libkind",
+    "David I. Spivak"
+  ],
+  "abstract": "This is the fourth installment in a series of papers offering models of hierarchical structure for dynamical systems, using the language of polynomial functors. The operad underlying the symmetric monoidal category $(\\mathbf{Poly}, \\otimes, \\mathcal{y})$ can be viewed as defining the behavior of hierarchical delegation. In particular, a morphism $\\mathbf{Poly}(p_1 \\otimes \\cdots \\otimes p_m, q)$ turns the outputs of subordinates with interfaces $p_i$ into the output of an agent with interface $q$ and turns a task given to the agent into a task for each of the subordinates. In this article, we extend the framework so that subordinates may be invoked asynchronously depending on the outcomes of other subordinates. We prove that the free (co)monad (co)monad extends to a (co)monad on $\\mathbf{Org}$. From the perspective of programs/pattern, this extension implies the existence of a $\\mathbf{Cat}$-enriched operad $\\mathbf{Org}_\\mathfrak{m}$, and from the perspective of behavior/matter, it implies the existence of a $\\mathbf{Cat}$-enriched operad $\\mathbf{Org}^\\mathfrak{c}$. Second, we crispen the relationship between the programmatic and behavioral perspectives via a functor $[-, t] \\colon \\mathbf{Org}_{\\mathfrak{m}}^\\textrm{op} \\to \\mathbf{Org}^\\mathfrak{c}$ for any polynomial monad $t$.",
+  "link": "https://doi.org/10.48550/arxiv.2410.08373"
+}

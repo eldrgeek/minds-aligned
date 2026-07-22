@@ -1,0 +1,20 @@
+{
+  "doi": "10.31234/osf.io/ce3zb",
+  "doi_url": "https://doi.org/10.31234/osf.io/ce3zb",
+  "title": "Predictive vs. Prospective Control: Clarifying the Terms of the Debate",
+  "year": "2024",
+  "journal": null,
+  "authors": [
+    "Andrew D. Wilson",
+    "Gavin Buckingham",
+    "Joost C. Dessing",
+    "Otto Lappi",
+    "Karl Friston",
+    "Inês Hipólito",
+    "Maxwell J. D. Ramstead",
+    "Warren Mansell",
+    "Rob Gray"
+  ],
+  "abstract": "A central question in motor control is whether that control is predictive or prospective. However, these terms are used widely and inconsistently throughout the literature, which makes it hard for research to reliably build or be challenged. Our goal is to clearly identify the ways in which these terms get used, and to identify what each approach commits to as a theory of motor control. We have identified three notions of predictive control (Perception-Action, Predictive Processing, and the Free Energy Principle) and two of prospective control (Perceptual Control Theory, and Ecological Psychology), and here we briefly discuss what each entails, with reference to key literature and examples. We hope that this guide will help researchers be clear about exactly which approach they are taking, and how they have engaged with the key elements of their chosen approach.",
+  "link": "https://doi.org/10.31234/osf.io/ce3zb"
+}

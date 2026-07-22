@@ -1,0 +1,16 @@
+{
+  "doi": "10.21236/ada446242",
+  "doi_url": "https://doi.org/10.21236/ada446242",
+  "title": "Technology Evaluation for Paintable Computing and Paintable Displays RF Nixel Seedling",
+  "year": "2006",
+  "journal": null,
+  "authors": [
+    "Ara N. Knaian",
+    "D. Greenspan",
+    "William Butera",
+    "Joseph M. Jacobson",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Abstract : A paintable computer uses thousands or millions of identical autonomous microsystems. The microsystems are fabricated using a high-volume batch process, mixed with paint and coated onto a surface. Self-assembling code allows the microsystems to act in concert to provide a useful function. MIT staff constructed and programmed a lab-scale prototype paintable display with 1000 semi-autonomous nodes. Also, MIT staff constructed a functional prototype demonstrating power distribution to randomly oriented millimeter scale semiconductor devices. MIT staff performed a series of basic engineering calculations to determine the feasibility of paintable systems with thousands of mm (expn 3) microsystems, including how to power them, manufacture them, and provide communications between them. Based on these calculations, a paintable display, powered by a zinc-air battery for 8 hours, or externally powered by capacitive coupling, appears feasible in principle, with an estimated paint manufacturing cost of $0.40 I cm2 of 0.5 mm resolution color display paint.",
+  "link": "https://doi.org/10.21236/ada446242"
+}

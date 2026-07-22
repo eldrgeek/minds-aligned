@@ -1,0 +1,16 @@
+{
+  "doi": "10.1103/physrevlett.111.177203",
+  "doi_url": "https://doi.org/10.1103/physrevlett.111.177203",
+  "title": "Information Flow in a Kinetic Ising Model Peaks in the Disordered Phase",
+  "year": "2013",
+  "journal": "Physical Review Letters",
+  "authors": [
+    "Lionel Barnett",
+    "Joseph T. Lizier",
+    "Michael Harré",
+    "Anil K. Seth",
+    "Terry Bossomaier"
+  ],
+  "abstract": "There is growing evidence that for a range of dynamical systems featuring complex interactions between large ensembles of interacting elements, mutual information peaks at order-disorder phase transitions. We conjecture that, by contrast, information flow in such systems will generally peak strictly on the disordered side of a phase transition. This conjecture is verified for a ferromagnetic 2D lattice Ising model with Glauber dynamics and a transfer entropy-based measure of systemwide information flow. Implications of the conjecture are considered, in particular, that for a complex dynamical system in the process of transitioning from disordered to ordered dynamics (a mechanism implicated, for example, in financial market crashes and the onset of some types of epileptic seizures); information dynamics may be able to predict an imminent transition.",
+  "link": "https://doi.org/10.1103/physrevlett.111.177203"
+}

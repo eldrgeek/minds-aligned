@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "The evolution of complexity and the value of variability",
+  "year": "1998",
+  "journal": null,
+  "authors": [
+    "Anil K. Seth"
+  ],
+  "abstract": "The hypothesis that environmental variability promotes the evolution of organism complexity is explored and illustrated, in two contexts. A coevolutionary `Iterated Prisoner&amp;apos;s Dilemma&amp;apos; (IPD) ecology, populated by strategies determined by variable length genotypes, provides a quantitative demonstration, and an example from evolutionary robotics (ER) provides a more qualitative and naturalistic exploration. In the ER example, the above hypothesis is illustrated in real environments, and the organism complexity is seen in robots exhibiting relatively complex behaviours and neural dynamics. Implications are drawn for the emergence of complexity in general, and also for artificial evolution as a design methodology. Introduction The general principle that there is organism complexity by virtue of environmental complexity, has a substantial historical pedigree. This is prominent in the work of Ashby (1952), and, earlier, Dewey (1929), and has enjoyed more recent attention from Godfrey-Smith ...",
+  "link": "https://openalex.org/W1486883175"
+}

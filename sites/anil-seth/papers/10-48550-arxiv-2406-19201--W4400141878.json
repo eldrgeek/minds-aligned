@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2406.19201",
+  "doi_url": "https://doi.org/10.48550/arxiv.2406.19201",
+  "title": "Evolving reservoir computers reveals bidirectional coupling between predictive power and emergent dynamics",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Hanna M. Tolle",
+    "Andrea I. Luppi",
+    "Anil K. Seth",
+    "Pedro A. M. Mediano"
+  ],
+  "abstract": "Biological neural networks can perform complex computations to predict their environment, far above the limited predictive capabilities of individual neurons. While conventional approaches to understanding these computations often focus on isolating the contributions of single neurons, here we argue that a deeper understanding requires considering emergent dynamics - dynamics that make the whole system \"more than the sum of its parts\". Specifically, we examine the relationship between prediction performance and emergence by leveraging recent quantitative metrics of emergence, derived from Partial Information Decomposition, and by modelling the prediction of environmental dynamics in a bio-inspired computational framework known as reservoir computing. Notably, we reveal a bidirectional coupling between prediction performance and emergence, which generalises across task environments and reservoir network topologies, and is recapitulated by three key results: 1) Optimising hyperparameters for performance enhances emergent dynamics, and vice versa; 2) Emergent dynamics represent a near sufficient criterion for prediction success in all task environments, and an almost necessary criterion in most environments; 3) Training reservoir computers on larger datasets results in stronger emergent dynamics, which contain task-relevant information crucial for performance. Overall, our study points to a pivotal role of emergence in facilitating environmental predictions in a bio-inspired computational architecture.",
+  "link": "https://doi.org/10.48550/arxiv.2406.19201"
+}

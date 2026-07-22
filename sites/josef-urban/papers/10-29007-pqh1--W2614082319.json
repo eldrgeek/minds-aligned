@@ -1,0 +1,13 @@
+{
+  "doi": "10.29007/pqh1",
+  "doi_url": "https://doi.org/10.29007/pqh1",
+  "title": "Experiments with State-of-the-art Automated Provers on Problems in Tarskian Geometry",
+  "year": "2018",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Josef Urban",
+    "Robert Veroff"
+  ],
+  "abstract": "We describe our experiments with several state-of-the-art automated theorem provers on the problems in Tarskian Geometry created by Beeson and Wos. In comparison to the manually-guided Otter proofs by Beeson and Wos, we can solve a large number of problems fully automatically, in particular thanks to the recent large-theory reasoning methods.",
+  "link": "https://doi.org/10.29007/pqh1"
+}

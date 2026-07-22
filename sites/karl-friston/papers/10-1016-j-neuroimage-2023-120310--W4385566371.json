@@ -1,0 +1,14 @@
+{
+  "doi": "10.1016/j.neuroimage.2023.120310",
+  "doi_url": "https://doi.org/10.1016/j.neuroimage.2023.120310",
+  "title": "A primer on Variational Laplace (VL)",
+  "year": "2023",
+  "journal": "NeuroImage",
+  "authors": [
+    "Peter Zeidman",
+    "Karl Friston",
+    "Thomas Parr"
+  ],
+  "abstract": "This article details a scheme for approximate Bayesian inference, which has underpinned thousands of neuroimaging studies since its introduction 15 years ago. Variational Laplace (VL) provides a generic approach to fitting linear or non-linear models, which may be static or dynamic, returning a posterior probability density over the model parameters and an approximation of log model evidence, which enables Bayesian model comparison. VL applies variational Bayesian inference in conjunction with quadratic or Laplace approximations of the evidence lower bound (free energy). Importantly, update equations do not need to be derived for each model under consideration, providing a general method for fitting a broad class of models. This primer is intended for experimenters and modellers who may wish to fit models to data using variational Bayesian methods, without assuming previous experience of variational Bayes or machine learning. Accompanying code demonstrates how to fit different kinds of model using the reference implementation of the VL scheme in the open-source Statistical Parametric Mapping (SPM) software package. In addition, we provide a standalone software function that does not require SPM, in order to ease translation to other fields, together with detailed pseudocode. Finally, the supplementary materials provide worked derivations of the key equations.",
+  "link": "https://doi.org/10.1016/j.neuroimage.2023.120310"
+}

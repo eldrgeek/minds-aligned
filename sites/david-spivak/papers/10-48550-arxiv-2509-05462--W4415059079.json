@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2509.05462",
+  "doi_url": "https://doi.org/10.48550/arxiv.2509.05462",
+  "title": "The compact double category $\\mathbf{Int}(\\mathbf{Poly}_*)$ models control flow and data transformations",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Grigory Kondyrev",
+    "David I. Spivak"
+  ],
+  "abstract": "Hasegawa showed that control flow in programming languages -- while loops and if-then-else statements -- can be modeled using traced cocartesian categories, such as the category $\\mathbf{Set}_*$ of pointed sets. In this paper we define an operad $\\mathscr{W}$ of wiring diagrams that provides syntax for categories whose control flow moreover includes data transformations, including deleting, duplicating, permuting, and applying pre-specified functions to variables. In the most basic version, the operad underlies $\\mathbf{Int}(\\mathbf{Poly}_*)$, where $\\mathbf{Int}(\\mathscr{T})$ denotes the free compact category on a traced category $\\mathscr{T}$, as defined by Joyal, Street, and Verity; to do so, we show that $\\mathbf{Poly}_*$, as well as any multivariate version of it, is traced. We show moreover that whenever $\\mathscr{T}$ is uniform -- a condition also defined by Hasegawa and satisfied by $\\mathbf{Int}(\\mathscr{T})$ -- the resulting $\\mathbf{Int}$-construction extends to a double category $\\mathbb{I}\\mathbf{nt}(\\mathscr{T})$, which is compact in the sense of Patterson. Finally, we define a universal property of the double category $\\mathbb{I}\\mathbf{nt}(\\mathbf{Poly}_*)$ and $\\mathbb{I}\\mathbf{nt}(\\mathbf{Set}_*)$ by which one can track trajectories as they move through the control flow associated to a wiring diagram.",
+  "link": "https://doi.org/10.48550/arxiv.2509.05462"
+}

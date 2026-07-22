@@ -1,0 +1,12 @@
+{
+  "doi": "10.5594/j15017",
+  "doi_url": "https://doi.org/10.5594/j15017",
+  "title": "Timely and Secure: Realtime Challenges in Securing Realworld Content Delivery Networks",
+  "year": "2008",
+  "journal": "SMPTE Motion Imaging Journal",
+  "authors": [
+    "Reza Rassool"
+  ],
+  "abstract": "Packets of media data delivered on cue across an internet protocol (IP) network comprise the IPTV system. Encryption, authentication, and key distribution are the mainstays of digital rights management (DRM) and conditional access (CA) securing these networks. In the traditional DVB CA security model, entitlement control messages (ECM) and entitlement management messages (EMM) are inserted into an encrypted MPEG stream. These messages are received in a timely manner by a subscriber device, to enable it to access the stream data. Additionally, however, water-marking, fingerprinting, and digital copy protection augment the security of IPTV. All these extra packets and processes introduce measurable temporal distortions in bandwidth, latency, and jitter to the smooth flowing of entertainment content to subscribers. Whereas basic realtime requirements stem from linear broadcast applications, file-based delivery imposes a new set of constraints that challenge engineers to deliver content in a secure and timely manner. File-based distribution calls for security processing that scales, persists and is faster than realtime. This paper quantifies the potential temporal distortions in the DVB CA security model, detailing the perceptible effects on audio video sync, channel change time, temporal jitter, and latency.",
+  "link": "https://doi.org/10.5594/j15017"
+}

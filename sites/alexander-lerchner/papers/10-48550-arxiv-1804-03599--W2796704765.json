@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.1804.03599",
+  "doi_url": "https://doi.org/10.48550/arxiv.1804.03599",
+  "title": "Understanding disentangling in $\\beta$-VAE",
+  "year": "2018",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Christopher Burgess",
+    "Irina Higgins",
+    "Arka Pal",
+    "Löıc Matthey",
+    "Nick Watters",
+    "Guillaume Desjardins",
+    "Alexander Lerchner"
+  ],
+  "abstract": "We present new intuitions and theoretical assessments of the emergence of\\ndisentangled representation in variational autoencoders. Taking a\\nrate-distortion theory perspective, we show the circumstances under which\\nrepresentations aligned with the underlying generative factors of variation of\\ndata emerge when optimising the modified ELBO bound in $\\\\beta$-VAE, as training\\nprogresses. From these insights, we propose a modification to the training\\nregime of $\\\\beta$-VAE, that progressively increases the information capacity of\\nthe latent code during training. This modification facilitates the robust\\nlearning of disentangled representations in $\\\\beta$-VAE, without the previous\\ntrade-off in reconstruction accuracy.\\n",
+  "link": "https://doi.org/10.48550/arxiv.1804.03599"
+}

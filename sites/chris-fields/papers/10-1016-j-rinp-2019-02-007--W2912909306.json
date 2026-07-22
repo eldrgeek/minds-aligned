@@ -1,0 +1,12 @@
+{
+  "doi": "10.1016/j.rinp.2019.02.007",
+  "doi_url": "https://doi.org/10.1016/j.rinp.2019.02.007",
+  "title": "Decoherence as a sequence of entanglement swaps",
+  "year": "2019",
+  "journal": "Results in Physics",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Standard semi-classical models of decoherence do not take explicit account of the classical information required to specify the system - environment boundary. I show that this information can be represented as a finite set of reference eigenvalues that must be encoded by any observer, including any apparatus, able to distinguish the system from its environment. When the information required for system identification is accounted for in this way, decoherence can be described as a sequence of entanglement swaps between reference and pointer components of the system and their respective environments. Doing so removes the need for the a priori assumptions of ontic boundaries required by semi-classical models.",
+  "link": "https://doi.org/10.1016/j.rinp.2019.02.007"
+}

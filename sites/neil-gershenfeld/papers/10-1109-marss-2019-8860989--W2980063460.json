@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/marss.2019.8860989",
+  "doi_url": "https://doi.org/10.1109/marss.2019.8860989",
+  "title": "A Discretely Assembled Walking Motor",
+  "year": "2019",
+  "journal": null,
+  "authors": [
+    "Will Langford",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We introduce a discrete approach to robotic construction that enables the integration of structure, mechanism, and actuation and offers a promising route to on-demand robot fabrication. We demonstrate this with the assembly of a centimeter-scale Discretely Assembled Walking Motor (DAWM) capable of producing large scale linear or rotary motion from five millimeter-scale part types. The five part types each embody a limited capability including rigid (strut and node), flexural, magnetic, or coil. Through their arrangement in a three-dimensional lattice, we demonstrate the assembly of actuated mechanical degrees-of-freedom in a useful small-scale machine. This work extends prior research in discrete material systems with the inclusion of flexural and actuation components. Actuation is accomplished with the use of voice coil actuator components that produce up to 42mN of force and strokes of 2mm. This performance compares well with other millimeter scale actuators and provides sufficient force to lift 28 connected nodes in our assembled lattice, or 7 other actuator components. DAWM is capable of stepping at rates of up to 35Hz, resulting in velocities of up to 25mm/s. Multiple DAWM systems can be stacked to add force and can be driven in-phase or out-of-phase to produce intermittent or continuous force, respectively. This approach to robot fabrication discretizes robotic systems at a much finer granularity than prior work in modular robotics and demonstrates the possibility of assembling useful small-scale machines from a limited set of standard part types.",
+  "link": "https://doi.org/10.1109/marss.2019.8860989"
+}

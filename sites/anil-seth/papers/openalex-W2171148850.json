@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Measuring emergence via nonlinear Granger causality",
+  "year": "2008",
+  "journal": "INDIGO (University of Illinois at Chicago)",
+  "authors": [
+    "Anil K. Seth"
+  ],
+  "abstract": "The concept of emergence is central to artificial life and complexity science, yet quantitative, intuitive, and easy-to-apply measures of emergence are surprisingly lacking. Here, I introduce a just such a measure, G-emergence, which operationalizes the notion that an emergent process is both dependent upon and autonomous from its underlying causal factors. G-emergence is based on a nonlinear time series analysis adapted from ‘Granger causality’ and it provides a measure not only of emergence but also of apparent ‘downward causation’. I illustrate the measure by application to a canonical example of emergence, an agent-based simulation of bird flocking, and I discuss its potential impact on perhaps the most challenging of all scientific problems involving emergence: consciousness.",
+  "link": "https://openalex.org/W2171148850"
+}

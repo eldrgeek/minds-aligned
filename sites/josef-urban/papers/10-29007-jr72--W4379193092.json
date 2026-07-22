@@ -1,0 +1,15 @@
+{
+  "doi": "10.29007/jr72",
+  "doi_url": "https://doi.org/10.29007/jr72",
+  "title": "A Mathematical Benchmark for Inductive Theorem Provers",
+  "year": "2023",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Thibault Gauthier",
+    "Chad E. Brown",
+    "Mikoláš Janota",
+    "Josef Urban"
+  ],
+  "abstract": "We present a benchmark of 29687 problems derived from the On-Line Encyclopedia of Integer Sequences (OEIS). Each problem expresses the equivalence of two syntactically different programs generating the same OEIS sequence. Such programs were conjectured by a learning-guided synthesis system using a language with looping operators. The operators implement recursion, and thus many of the proofs require induction on natural numbers. The benchmark contains problems of varying difficulty from a wide area of mathematical domains. We believe that these characteristics will make it an effective judge for the progress of inductive theorem provers in this domain for years to come.",
+  "link": "https://doi.org/10.29007/jr72"
+}

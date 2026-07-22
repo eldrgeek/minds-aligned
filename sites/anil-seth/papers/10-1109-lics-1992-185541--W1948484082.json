@@ -1,0 +1,12 @@
+{
+  "doi": "10.1109/lics.1992.185541",
+  "doi_url": "https://doi.org/10.1109/lics.1992.185541",
+  "title": "There is no recursive axiomatization for feasible functionals of type 2",
+  "year": "2003",
+  "journal": null,
+  "authors": [
+    "Anil K. Seth"
+  ],
+  "abstract": "The author shows a class of type-two feasible functionals, C/sub 2/, that satisfies Cook's conditions, (1990) and cannot be expressed as the lambda closure of type-one poly-time functions and any recursively enumerable set of type-two feasible functionals. Further, no class of total type-two functionals containing this class is representable as the lambda closure of a recursively enumerable set of type-two total computable functionals and type-one poly-time functions. The definition of C/sub 2/ provides a clear computational procedure for functionals of C/sub 2/. Using functionals of class C/sub 2/ a more general notion of polynomial-time reducibility between two arbitrary type-one functions can be introduced.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX>",
+  "link": "https://doi.org/10.1109/lics.1992.185541"
+}

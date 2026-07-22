@@ -1,0 +1,13 @@
+{
+  "doi": "10.1093/bioinformatics/6.3.263",
+  "doi_url": "https://doi.org/10.1093/bioinformatics/6.3.263",
+  "title": "gm: a practical tool for automating DNA sequence analysis",
+  "year": "1990",
+  "journal": "Computer applications in the biosciences",
+  "authors": [
+    "Chris Fields",
+    "Carol Soderlund"
+  ],
+  "abstract": "The gm (gene modeler) program automates the identification of candidate genes in anonymous, genomic DNA sequence data. gm accepts sequence data, organism-specific consensus matrices and codon asymmetry tables, and a set of parameters as input; it returns a set of models describing the structures of candidate genes in the sequence and a corresponding set of predicted amino acid sequences as output, gm is implemented in C, and has been tested on Sun, VAX, Sequent, MIPS and Cray computers. It is capable of analyzing sequences of several kilobases containing multi-exon genes in less than 1 min execution time on a Sun 4/60.",
+  "link": "https://doi.org/10.1093/bioinformatics/6.3.263"
+}

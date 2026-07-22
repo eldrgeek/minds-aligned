@@ -1,0 +1,15 @@
+{
+  "doi": "10.5334/cpsy.94",
+  "doi_url": "https://doi.org/10.5334/cpsy.94",
+  "title": "Inferring trajectories of psychotic disorders using dynamic causal modeling",
+  "year": "2023",
+  "journal": "Computational Psychiatry",
+  "authors": [
+    "Jingwen Jin",
+    "Peter Zeidman",
+    "Karl Friston",
+    "Roman Kotov"
+  ],
+  "abstract": "Introduction: Illness course plays a crucial role in delineating psychiatric disorders. However, existing nosologies consider only its most basic features (e.g., symptom sequence, duration). We developed a Dynamic Causal Model (DCM) that characterizes course patterns more fully using dense timeseries data. This foundational study introduces the new modeling approach and evaluates its validity using empirical and simulated data. Methods: A three-level DCM was constructed to model how latent dynamics produce symptoms of depression, mania, and psychosis. This model was fit to symptom scores of nine patients collected prospectively over four years, following first hospitalization. Simulated subjects based on these empirical data were used to evaluate model parameters at the subject-level. At the group-level, we tested the accuracy with which the DCM can estimate the latent course patterns using Parametric Empirical Bayes (PEB) and leave-one-out cross-validation. Results: Analyses of empirical data showed that DCM accurately captured symptom trajectories for all nine subjects. Simulation results showed that parameters could be estimated accurately (correlations between generative and estimated parameters >= 0.76). Moreover, the model could distinguish different latent course patterns, with PEB correctly assigning simulated patients for eight of nine course patterns. When testing any pair of two specific course patterns using leave-one-out cross-validation, 30 out of 36 pairs showed a moderate or high out-of-samples correlation between the true group-membership and the estimated group-membership values. Conclusion: DCM has been widely used in neuroscience to infer latent neuronal processes from neuroimaging data. Our findings highlight the potential of adopting this methodology for modeling symptom trajectories to explicate nosologic entities, temporal patterns that define them, and facilitate personalized treatment.",
+  "link": "https://doi.org/10.5334/cpsy.94"
+}

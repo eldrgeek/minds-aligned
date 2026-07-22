@@ -1,0 +1,13 @@
+{
+  "doi": "10.3390/jmmp4010019",
+  "doi_url": "https://doi.org/10.3390/jmmp4010019",
+  "title": "Performance Comparison of Subtractive and Additive Machine Tools for Meso-Micro Machining",
+  "year": "2020",
+  "journal": "Journal of Manufacturing and Materials Processing",
+  "authors": [
+    "Liu",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Several series of experiments were conducted to compare the performance of selected sets of subtractive and additive machine tools for meso-micro machining. Under the MicroCutting Project, meso-micro machining of a reference part was conducted to compare the performance of several machine tools. A prototype flexure of the microspline of an asteroid gripper under development at NASA/JPL was selected as the reference part for the project. Several academic, research institutes, and industrial firms were among the collaborators participating in the project. Both subtractive and additive machine tools were used, including abrasive waterjets, CNC milling, lasers, 3D printing, and laser powder bed fusion. Materials included aluminum, stainless steel, and nonmetal resins. Each collaborator produced the reference part in its facility using materials most suitable for their tools. The finished parts were inspected qualitatively and quantitatively at OMAX Corporation. The performance of the participating machine tools was then compared based on the results of the inspection. Test results show that the two top performers for this test part are the CNC precision milling and micro abrasive waterjet. For machining a single flexure, the CNC precision milling had a slight edge over the micro abrasive waterjet machining in terms of part accuracy and edge quality. The advantages disappear or the trend even reverses when stack machining with taper compensation is adopted for the micro abrasive waterjet.",
+  "link": "https://doi.org/10.3390/jmmp4010019"
+}

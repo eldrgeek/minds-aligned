@@ -1,0 +1,12 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Quantum theory of the classical \"black box\"",
+  "year": "2014",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Human beings do not observe world from outside, but rather are fully embedded in it. The sciences, however, often give observer both a god's eye perspective and substantial a~priori knowledge. Motivated by W. Ross Ashby's statement, the theory of Black Box is merely theory of real objects or systems, when close attention is given to question, relating object and observer, about what information comes from object, and how it is obtained (Introduction to Cybernetics, 1956, p. 110), I develop here an alternate picture of world as a black box to which observer is coupled. Within this framework I prove purely-classical analogs of no-go theorems of quantum theory. Focussing on question of identifying macroscopic objects, such as laboratory apparatus or even other observers, I show that standard quantum formalism of superposition is required to adequately represent classical information that an observer can obtain. I relate these results to supporting considerations from evolutionary biology, cognitive and developmental psychology, and artificial intelligence.",
+  "link": "https://openalex.org/W2466648404"
+}

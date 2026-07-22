@@ -1,0 +1,13 @@
+{
+  "doi": "10.1117/12.2015756",
+  "doi_url": "https://doi.org/10.1117/12.2015756",
+  "title": "Participatory telerobotics",
+  "year": "2013",
+  "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "Alexander D. Wissner‐Gross",
+    "Timothy Sullivan"
+  ],
+  "abstract": "We present a novel “participatory telerobotics” system that generalizes the existing concept of participatory sensing to include real-time teleoperation and telepresence by treating humans with mobile devices as ad-hoc telerobots. In our approach, operators or analysts first choose a desired location for remote surveillance or activity from a live geographic map and are then automatically connected via a coordination server to the nearest available trusted human. That human’s device is then activated and begins recording and streaming back to the operator a live audiovisual feed for telepresence, while allowing the operator in turn to request complex teleoperative motions or actions from the human. Supported action requests currently include walking, running, leaning, and turning, all with controllable magnitudes and directions. Compliance with requests is automatically measured and scored in real time by fusing information received from the device’s onboard sensors, including its accelerometers, gyroscope, magnetometer, GPS receiver, and cameras. Streams of action requests are visually presented by each device to its human in the form of an augmented reality game that rewards prompt physical compliance while remaining tolerant of network latency. Because of its ability to interactively elicit physical knowledge and operations through ad-hoc collaboration, we anticipate that our participatory telerobotics system will have immediate applications in the intelligence, retail, healthcare, security, and travel industries.",
+  "link": "https://doi.org/10.1117/12.2015756"
+}

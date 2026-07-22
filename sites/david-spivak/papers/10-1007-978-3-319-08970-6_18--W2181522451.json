@@ -1,0 +1,14 @@
+{
+  "doi": "10.1007/978-3-319-08970-6_18",
+  "doi_url": "https://doi.org/10.1007/978-3-319-08970-6_18",
+  "title": "Experience Implementing a Performant Category-Theory Library in Coq",
+  "year": "2014",
+  "journal": "Lecture notes in computer science",
+  "authors": [
+    "Jason Gross",
+    "Adam Chlipala",
+    "David I. Spivak"
+  ],
+  "abstract": "",
+  "link": "https://doi.org/10.1007/978-3-319-08970-6_18"
+}

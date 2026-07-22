@@ -1,0 +1,17 @@
+{
+  "doi": "10.1109/38.674972",
+  "doi_url": "https://doi.org/10.1109/38.674972",
+  "title": "Electric field sensing for graphical interfaces",
+  "year": "1998",
+  "journal": "IEEE Computer Graphics and Applications",
+  "authors": [
+    "Joshua R. Smith",
+    "Tom White",
+    "Chris Dodge",
+    "Joseph A. Paradiso",
+    "Neil Gershenfeld",
+    "David Allport"
+  ],
+  "abstract": "The earliest bit-mapped graphical computers have progressed to bring real-time 3D rendering and digital video to the desktop, but the common physical interface remains unchanged from the first workstations. As a result, many applications, such as modeling or navigating in virtual worlds, are often limited not by processing speed but by the users' difficulty in conveying desired actions to the computer. We outline the theory and implementation of low-frequency electric fields as sensing techniques, then present a range of applications developed for interacting with computer graphics.",
+  "link": "https://doi.org/10.1109/38.674972"
+}

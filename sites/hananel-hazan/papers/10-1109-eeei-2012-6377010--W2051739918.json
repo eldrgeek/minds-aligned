@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/eeei.2012.6377010",
+  "doi_url": "https://doi.org/10.1109/eeei.2012.6377010",
+  "title": "Temporal pattern recognition via temporal networks of temporal neurons",
+  "year": "2012",
+  "journal": null,
+  "authors": [
+    "Alex Frid",
+    "Hananel Hazan",
+    "Larry M. Manevitz"
+  ],
+  "abstract": "We show that real valued continuous functions can be recognized in a reliable way, with good generalization ability using an adapted version of the Liquid State Machine (LSM) that receives direct real valued input. Furthermore this system works without the necessity of preliminary extraction of signal processing features. This avoids the necessity of discretization and encoding that has plagued earlier attempts on this process. We show this is effective on a simulated signal designed to have the properties of a physical trace of human speech. The main changes to the basic liquid state machine paradigm are (i) external stimulation to neurons by normalized real values and (ii) adaptation of the integrate and fire neurons in the liquid to have a history dependent sliding threshold (iii) topological constraints on the network connectivity.",
+  "link": "https://doi.org/10.1109/eeei.2012.6377010"
+}

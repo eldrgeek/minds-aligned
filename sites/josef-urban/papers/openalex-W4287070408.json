@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Learning Theorem Proving Components",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chvalovsk\\'y, Karel",
+    "Jakub\\r{u}v, Jan",
+    "Ol\\v{s}\\'ak, Miroslav",
+    "Josef Urban"
+  ],
+  "abstract": "Saturation-style automated theorem provers (ATPs) based on the given clause procedure are today the strongest general reasoners for classical first-order logic. The clause selection heuristics in such systems are, however, often evaluating clauses in isolation, ignoring other clauses. This has changed recently by equipping the E/ENIGMA system with a graph neural network (GNN) that chooses the next given clause based on its evaluation in the context of previously selected clauses. In this work, we describe several algorithms and experiments with ENIGMA, advancing the idea of contextual evaluation based on learning important components of the graph of clauses.",
+  "link": "https://openalex.org/W4287070408"
+}

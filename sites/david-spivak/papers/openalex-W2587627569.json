@@ -1,0 +1,17 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Operadic Analysis of Distributed Systems",
+  "year": "2015",
+  "journal": null,
+  "authors": [
+    "Kevin Schweiker",
+    "Srivatsan Varadarajan",
+    "David I. Spivak",
+    "Patrick Schultz",
+    "Ryan Wisnesky",
+    "Piergiuseppe Di Marco"
+  ],
+  "abstract": "Establishing an assurance claim for a distributed safety critical system has proven extremely difficult. Developing and documenting the evidence needed to support a claim requires diverse models and abstractions of system properties to capture behaviors, understand error propagation, and evaluate the interactions with other systems and humans. The ability to scale and merge these diverse models and abstractions within a sound mathematical framework is the subject of this technical report. Category theory is one promising approach for this mathematical framework. A higher category theory known as operad theory is described and used to evaluate the effects of disruptions and failures of NextGen communication channels on the safe separation of aircraft within the National Airspace (NAS).",
+  "link": "https://openalex.org/W2587627569"
+}

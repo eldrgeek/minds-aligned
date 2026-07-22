@@ -1,0 +1,16 @@
+{
+  "doi": "10.1109/iswc.1997.629919",
+  "doi_url": "https://doi.org/10.1109/iswc.1997.629919",
+  "title": "Intrabody buses for data and power",
+  "year": "2002",
+  "journal": null,
+  "authors": [
+    "E. Rehmi Post",
+    "M. Reynolds",
+    "Mike Gray",
+    "Joseph A. Paradiso",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "While wearable computers are empowering fashion accessories, they bring with them a tangle of wires which connect their parts. As these subsystems begin to decouple and operate on less power, it becomes possible to wirelessly distribute their required data and power using to the wearer's body. We have demonstrated systems that transmit and receive both data and power, and are working to combine the two.",
+  "link": "https://doi.org/10.1109/iswc.1997.629919"
+}

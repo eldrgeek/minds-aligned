@@ -1,0 +1,20 @@
+{
+  "doi": "10.1016/j.neuroimage.2023.120193",
+  "doi_url": "https://doi.org/10.1016/j.neuroimage.2023.120193",
+  "title": "Neurochemistry-enriched dynamic causal models of magnetoencephalography, using magnetic resonance spectroscopy",
+  "year": "2023",
+  "journal": "NeuroImage",
+  "authors": [
+    "Amirhossein Jafarian",
+    "Laura E. Hughes",
+    "Natalie Adams",
+    "Juliette H. Lanskey",
+    "Michelle Naessens",
+    "Matthew A Rouse",
+    "Alexander G. Murley",
+    "Karl Friston",
+    "James B. Rowe"
+  ],
+  "abstract": "We present a hierarchical empirical Bayesian framework for testing hypotheses about neurotransmitters' concertation as empirical prior for synaptic physiology using ultra-high field magnetic resonance spectroscopy (7T-MRS) and magnetoencephalography data (MEG). A first level dynamic causal modelling of cortical microcircuits is used to infer the connectivity parameters of a generative model of individuals' neurophysiological observations. At the second level, individuals' 7T-MRS estimates of regional neurotransmitter concentration supply empirical priors on synaptic connectivity. We compare the group-wise evidence for alternative empirical priors, defined by monotonic functions of spectroscopic estimates, on subsets of synaptic connections. For efficiency and reproducibility, we used Bayesian model reduction (BMR), parametric empirical Bayes and variational Bayesian inversion. In particular, we used Bayesian model reduction to compare alternative model evidence of how spectroscopic neurotransmitter measures inform estimates of synaptic connectivity. This identifies the subset of synaptic connections that are influenced by individual differences in neurotransmitter levels, as measured by 7T-MRS. We demonstrate the method using resting-state MEG (i.e., task-free recording) and 7T-MRS data from healthy adults. Our results confirm the hypotheses that GABA concentration influences local recurrent inhibitory intrinsic connectivity in deep and superficial cortical layers, while glutamate influences the excitatory connections between superficial and deep layers and connections from superficial to inhibitory interneurons. Using within-subject split-sampling of the MEG dataset (i.e., validation by means of a held-out dataset), we show that model comparison for hypothesis testing can be highly reliable. The method is suitable for applications with magnetoencephalography or electroencephalography, and is well-suited to reveal the mechanisms of neurological and psychiatric disorders, including responses to psychopharmacological interventions.",
+  "link": "https://doi.org/10.1016/j.neuroimage.2023.120193"
+}

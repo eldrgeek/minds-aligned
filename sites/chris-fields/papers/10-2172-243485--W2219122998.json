@@ -1,0 +1,12 @@
+{
+  "doi": "10.2172/243485",
+  "doi_url": "https://doi.org/10.2172/243485",
+  "title": "Identification of genes in anonymous DNA sequences. Annual performance report, February 1, 1991--January 31, 1992",
+  "year": "1996",
+  "journal": null,
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "The objective of this project is the development of practical software to automate the identification of genes in anonymous DNA sequences from the human, and other higher eukaryotic genomes. A software system for automated sequence analysis, gm (gene modeler) has been designed, implemented, tested, and distributed to several dozen laboratories worldwide. A significantly faster, more robust, and more flexible version of this software, gm 2.0 has now been completed, and is being tested by operational use to analyze human cosmid sequence data. A range of efforts to further understand the features of eukaryoyic gene sequences are also underway. This progress report also contains papers coming out of the project including the following: gm: a Tool for Exploratory Analysis of DNA Sequence Data; The Human THE-LTR(O) and MstII Interspersed Repeats are subfamilies of a single widely distruted highly variable repeat family; Information contents and dinucleotide compostions of plant intron sequences vary with evolutionary origin; Splicing signals in Drosophila: intron size, information content, and consensus sequences; Integration of automated sequence analysis into mapping and sequencing projects; Software for the C. elegans genome project.",
+  "link": "https://doi.org/10.2172/243485"
+}

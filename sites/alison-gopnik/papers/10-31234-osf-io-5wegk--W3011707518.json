@@ -1,0 +1,15 @@
+{
+  "doi": "10.31234/osf.io/5wegk",
+  "doi_url": "https://doi.org/10.31234/osf.io/5wegk",
+  "title": "Preschoolers search longer when there is more information to be gained",
+  "year": "2019",
+  "journal": null,
+  "authors": [
+    "Eric Schulz",
+    "Madeline Pelz",
+    "Alison Gopnik",
+    "Azzurra Ruggeri"
+  ],
+  "abstract": "What drives human search in situations with sparse rewards? We let preschoolers (age 24-52 months) play a game in which they had to search for an animal and measured their persistence in the absence of explicit rewards. Crucially, we either told children which animal they were searching for (known animal condition), so that they gained no additional information when finding it, or we told them that it could be one out of eight different animals (unknown animal condition), so that they gained additional information when finding it. Although none of the children could actually find an animal, no matter how long they searched, our results indicate that the unknown animal group was more persistent in their search. These results enrich our understanding of children’s motivation in scenarios with sparse rewards and inform research on artificially intelligent agents facing similar environments.",
+  "link": "https://doi.org/10.31234/osf.io/5wegk"
+}

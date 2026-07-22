@@ -1,0 +1,13 @@
+{
+  "doi": "10.1167/9.8.1089",
+  "doi_url": "https://doi.org/10.1167/9.8.1089",
+  "title": "Using the proliferation effect to study subjective duration at brief timescales",
+  "year": "2010",
+  "journal": "Journal of Vision",
+  "authors": [
+    "Vani Pariyadath",
+    "David M. Eagleman"
+  ],
+  "abstract": "Brief events are sometimes perceived to last longer or shorter in duration than others of equal length. For example, if an oddball is presented within a visual train of repeated stimuli, participants report that the oddball appears longer in duration than the repeated stimulus even if they are physically of equal duration. We have hypothesized that subjective duration distortions are a consequence of differential neural responses to repeated versus novel stimuli (Eagleman, 2008; Pariyadath & Eagleman, 2007, 2008). As seen in EEG, fMRI and single-cell electrophysiology, the neural response to a stimulus diminishes with repeated presentation, an effect known as repetition suppression. We have leveraged the effects of repetition on the subjective duration of brief stimuli to develop a new psychophysical paradigm that we term the proliferation effect. When a single letter of the alphabet was serially flashed onto different locations on the screen, several letters appeared to be present on the screen simultaneously due to persistence of vision. Participants' estimates of how many letters they perceived on the screen at any instant of time were significantly lower when the same letter was flashed repeatedly than when different, randomized letters were used for each flash. This result suggests that the persistence of vision contracts for repeated stimuli. Because of their very rapid time scale, these experiments demonstrate that subjective duration can be computed without explicit temporal judgments. Finally, the proliferation effect gives us a rapid, non-invasive tool to test the integrity of repetition suppression in patient populations with repetition deficits such as schizophrenia.",
+  "link": "https://doi.org/10.1167/9.8.1089"
+}

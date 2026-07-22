@@ -1,0 +1,13 @@
+{
+  "doi": "10.1007/s11786-014-0182-0",
+  "doi_url": "https://doi.org/10.1007/s11786-014-0182-0",
+  "title": "HOL(y)Hammer: Online ATP Service for HOL Light",
+  "year": "2014",
+  "journal": "Mathematics in Computer Science",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "HOL(y)Hammer is an online AI/ATP service for formal (computer-understandable) mathematics encoded in the HOL Light system. The service allows its users to upload and automatically process an arbitrary formal development (project) based on HOL Light, and to attack arbitrary conjectures that use the concepts defined in some of the uploaded projects. For that, the service uses several automated reasoning systems combined with several premise selection methods trained on all the project proofs. The projects that are readily available on the server for such query answering include the recent versions of the Flyspeck, Multivariate Analysis and Complex Analysis libraries. The service runs on a 48-CPU server, currently employing in parallel for each task 7 AI/ATP combinations and 4 decision procedures that contribute to its overall performance. The system is also available for local installation by interested users, who can customize it for their own proof development. An Emacs interface allowing parallel asynchronous queries to the service is also provided. The overall structure of the service is outlined, problems that arise and their solutions are discussed, and an initial account of using the system is given.",
+  "link": "https://doi.org/10.1007/s11786-014-0182-0"
+}

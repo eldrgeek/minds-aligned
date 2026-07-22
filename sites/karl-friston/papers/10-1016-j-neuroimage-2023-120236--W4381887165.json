@@ -1,0 +1,21 @@
+{
+  "doi": "10.1016/j.neuroimage.2023.120236",
+  "doi_url": "https://doi.org/10.1016/j.neuroimage.2023.120236",
+  "title": "Multi-modal and multi-model interrogation of large-scale functional brain networks",
+  "year": "2023",
+  "journal": "NeuroImage",
+  "authors": [
+    "Francesca Castaldo",
+    "Francisco Páscoa dos Santos",
+    "Ryan C. Timms",
+    "Joana Cabral",
+    "Jakub Vohryzek",
+    "Gustavo Deco",
+    "Mark W. Woolrich",
+    "Karl Friston",
+    "Paul F. M. J. Verschure",
+    "Vladimir Litvak"
+  ],
+  "abstract": "Existing whole-brain models are generally tailored to the modelling of a particular data modality (e.g., fMRI or MEG/EEG). We propose that despite the differing aspects of neural activity each modality captures, they originate from shared network dynamics. Building on the universal principles of self-organising delay-coupled nonlinear systems, we aim to link distinct features of brain activity - captured across modalities - to the dynamics unfolding on a macroscopic structural connectome. To jointly predict connectivity, spatiotemporal and transient features of distinct signal modalities, we consider two large-scale models - the Stuart Landau and Wilson and Cowan models - which generate short-lived 40 Hz oscillations with varying levels of realism. To this end, we measure features of functional connectivity and metastable oscillatory modes (MOMs) in fMRI and MEG signals - and compare them against simulated data. We show that both models can represent MEG functional connectivity (FC), functional connectivity dynamics (FCD) and generate MOMs to a comparable degree. This is achieved by adjusting the global coupling and mean conduction time delay and, in the WC model, through the inclusion of balance between excitation and inhibition. For both models, the omission of delays dramatically decreased the performance. For fMRI, the SL model performed worse for FCD and MOMs, highlighting the importance of balanced dynamics for the emergence of spatiotemporal and transient patterns of ultra-slow dynamics. Notably, optimal working points varied across modalities and no model was able to achieve a correlation with empirical FC higher than 0.4 across modalities for the same set of parameters. Nonetheless, both displayed the emergence of FC patterns that extended beyond the constraints of the anatomical structure. Finally, we show that both models can generate MOMs with empirical-like properties such as size (number of brain regions engaging in a mode) and duration (continuous time interval during which a mode appears). Our results demonstrate the emergence of static and dynamic properties of neural activity at different timescales from networks of delay-coupled oscillators at 40 Hz. Given the higher dependence of simulated FC on the underlying structural connectivity, we suggest that mesoscale heterogeneities in neural circuitry may be critical for the emergence of parallel cross-modal functional networks and should be accounted for in future modelling endeavours.",
+  "link": "https://doi.org/10.1016/j.neuroimage.2023.120236"
+}

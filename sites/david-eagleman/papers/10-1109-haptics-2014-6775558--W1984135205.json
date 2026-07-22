@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/haptics.2014.6775558",
+  "doi_url": "https://doi.org/10.1109/haptics.2014.6775558",
+  "title": "[D79] A vibrotactile sensory substitution device for the deaf and profoundly hearing impaired",
+  "year": "2014",
+  "journal": null,
+  "authors": [
+    "Scott D. Novich",
+    "David M. Eagleman"
+  ],
+  "abstract": "There are at least 2 million functionally deaf individuals in the United States alone and an estimated 53 million worldwide. The cochlear implant (CI) is an effective solution for regaining hearing capabilities for certain populations within this group, but not for all. First, CIs are expensive, ranging from $40,000 to $90,000 depending on the age of the recipient. This places CIs out of economic reach for many. Second, CIs require invasive surgery. Third, there is low efficacy of late CI implantation in early-onset deaf adults. Given these considerations, there are millions of deaf individuals who would benefit from a hearing replacement that has low cost, does not involve an invasive procedure, and may have a higher efficacy for early-onset deaf adults. To this end, we are developing a low-cost, non-invasive, plasticity-based solution to deliver auditory information to the brain. Specifically, we are developing a “vibratory vest” by which auditory information is captured, digitally processed, and delivered to the skin of the torso using small vibratory motors. The term for such a Technologynique is sensory substitution, and has previously proven successful in allowing those who are blind to have visual experience through the tongue or skin. In this poster, we will present our fully functional, real-time, Bluetooth-operated prototype, and demonstrate our results from several speech perception experiments.",
+  "link": "https://doi.org/10.1109/haptics.2014.6775558"
+}

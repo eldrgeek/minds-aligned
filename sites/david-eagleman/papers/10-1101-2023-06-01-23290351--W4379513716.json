@@ -1,0 +1,15 @@
+{
+  "doi": "10.1101/2023.06.01.23290351",
+  "doi_url": "https://doi.org/10.1101/2023.06.01.23290351",
+  "title": "Cross-modal sensory boosting to improve high-frequency hearing loss",
+  "year": "2023",
+  "journal": "medRxiv",
+  "authors": [
+    "Izzy Kohler",
+    "Michael V. Perrotta",
+    "Tiago Ferreira",
+    "David M. Eagleman"
+  ],
+  "abstract": "Abstract High frequency hearing loss is one of the most common problems in the aging population and with those who have a history of exposure to loud noises. To address high-frequency hearing loss, we developed a multi-motor wristband that uses machine learning to listen for specific high frequency phonemes. The wristband vibrates in spatially unique locations to represent which phoneme was present, in real time. We recruited 16 participants with high frequency hearing loss and asked them to wear the wristband for six weeks. Their degree of disability associated with hearing loss was measured weekly using the Abbreviated Profile of Hearing Aid Benefit (APHAB). Our findings show that vibrotactile sensory substitution delivered by a wristband that produces spatially distinguishable vibrations in correspondence with high frequency phonemes helps individuals with high frequency hearing loss improve their understanding of verbal communication. We find that vibrotactile feedback provides benefits whether or not a person wears hearing aids, albeit in slightly different ways. Finally, our results also demonstrate that individuals with the greatest difficulty understanding speech prior to the study experience the greatest amount of benefit from vibrotactile feedback.",
+  "link": "https://doi.org/10.1101/2023.06.01.23290351"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/arftg.1999.327337",
+  "doi_url": "https://doi.org/10.1109/arftg.1999.327337",
+  "title": "Inference based modeling of nonlinear microwave devices",
+  "year": "1999",
+  "journal": null,
+  "authors": [
+    "Bernd Schöner",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We present an inference-based algorithm for modeling complex non-linear systems, that integrates current approaches to modeling of microwave devices within a generalized framework. Familiar techniques for characterizing linear and non-linear systems are embedded in an automated non-linear weighting mechanism, so that globally complex behavior is approximated by simple local models.",
+  "link": "https://doi.org/10.1109/arftg.1999.327337"
+}

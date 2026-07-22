@@ -1,0 +1,14 @@
+{
+  "doi": "10.1109/lics.2019.8785665",
+  "doi_url": "https://doi.org/10.1109/lics.2019.8785665",
+  "title": "Backprop as Functor: A compositional perspective on supervised learning",
+  "year": "2019",
+  "journal": null,
+  "authors": [
+    "Brendan Fong",
+    "David I. Spivak",
+    "Rémy Tuyéras"
+  ],
+  "abstract": "A supervised learning algorithm searches over a set of functions <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$A\\rightarrow B$</tex> parametrised by a space <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$P$</tex> to find the best approximation to some ideal function <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$f:A\\rightarrow B$</tex> . It does this by taking examples <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(a, f(a))\\in A\\times B$</tex> , and updating the parameter according to some rule. We define a category where these update rules may be composed, and show that gradient descent-with respect to a fixed step size and an error function satisfying a certain property-defines a monoidal functor from a category of parametrised functions to this category of update rules. A key contribution is the notion of request function. This provides a structural perspective on backpropagation, giving a broad generalisation of neural networks and linking it with structures from bidirectional programming and open games.",
+  "link": "https://doi.org/10.1109/lics.2019.8785665"
+}

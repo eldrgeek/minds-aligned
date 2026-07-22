@@ -1,0 +1,20 @@
+{
+  "doi": "10.48550/arxiv.2303.06686",
+  "doi_url": "https://doi.org/10.48550/arxiv.2303.06686",
+  "title": "MizAR 60 for Mizar 50",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Jan Jakubův",
+    "Karel Chvalovský",
+    "Zarathustra Goertzel",
+    "Cezary Kaliszyk",
+    "Mirek Olšák",
+    "Bartosz Piotrowski",
+    "Stephan Schulz",
+    "Martin Suda",
+    "Josef Urban"
+  ],
+  "abstract": "As a present to Mizar on its 50th anniversary, we develop an AI/TP system that automatically proves about 60\\% of the Mizar theorems in the hammer setting. We also automatically prove 75\\% of the Mizar theorems when the automated provers are helped by using only the premises used in the human-written Mizar proofs. We describe the methods and large-scale experiments leading to these results. This includes in particular the E and Vampire provers, their ENIGMA and Deepire learning modifications, a number of learning-based premise selection methods, and the incremental loop that interleaves growing a corpus of millions of ATP proofs with training increasingly strong AI/TP systems on them. We also present a selection of Mizar problems that were proved automatically.",
+  "link": "https://doi.org/10.48550/arxiv.2303.06686"
+}

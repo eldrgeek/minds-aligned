@@ -1,0 +1,13 @@
+{
+  "doi": "10.1201/9780429493362-15",
+  "doi_url": "https://doi.org/10.1201/9780429493362-15",
+  "title": "The Future of Time Series: Learning and Understanding",
+  "year": "2018",
+  "journal": null,
+  "authors": [
+    "Neil Gershenfeld",
+    "Andreas S. Weigend"
+  ],
+  "abstract": "&quot;Understanding&quot; and &quot;learning&quot; are two complementary approaches taken to analyze an unfamiliar time series. Understanding is based on explicit mathematical insight into how systems behave, and learning is based on algorithms that can emulate the structure in a time series. Time series analysis has three goals: forecasting, modelling, and characterization. This chapter focuses on a competition run through the Santa Fe Institute in which participants from a range of relevant disciplines applied a variety of time series analysis tools to a small group of common data sets in order to help make meaningful comparisons among their approaches. It describes the design and the results of this competition and reviews the historical and theoretical backgrounds necessary to understand the successful entries. Global computer networks offer a mechanism for the disjoint communities to attack common problems through the widespread exchange of data and information.",
+  "link": "https://doi.org/10.1201/9780429493362-15"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.1209.3914",
+  "doi_url": "https://doi.org/10.48550/arxiv.1209.3914",
+  "title": "Theorem Proving in Large Formal Mathematics as an Emerging AI Field",
+  "year": "2012",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Josef Urban",
+    "J Vyskočil"
+  ],
+  "abstract": "In the recent years, we have linked a large corpus of formal mathematics with automated theorem proving (ATP) tools, and started to develop combined AI/ATP systems working in this setting. In this paper we first relate this project to the earlier large-scale automated developments done by Quaife with McCune's Otter system, and to the discussions of the QED project about formalizing a significant part of mathematics. Then we summarize our adventure so far, argue that the QED dreams were right in anticipating the creation of a very interesting semantic AI field, and discuss its further research directions.",
+  "link": "https://doi.org/10.48550/arxiv.1209.3914"
+}

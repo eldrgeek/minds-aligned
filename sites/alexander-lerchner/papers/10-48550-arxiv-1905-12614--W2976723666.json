@@ -1,0 +1,18 @@
+{
+  "doi": "10.48550/arxiv.1905.12614",
+  "doi_url": "https://doi.org/10.48550/arxiv.1905.12614",
+  "title": "Unsupervised Model Selection for Variational Disentangled Representation Learning",
+  "year": "2019",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Sunny Duan",
+    "Löıc Matthey",
+    "André Saraiva",
+    "Nicholas Watters",
+    "Christopher Burgess",
+    "Alexander Lerchner",
+    "Irina Higgins"
+  ],
+  "abstract": "Disentangled representations have recently been shown to improve fairness, data efficiency and generalisation in simple supervised and reinforcement learning tasks. To extend the benefits of disentangled representations to more complex domains and practical applications, it is important to enable hyperparameter tuning and model selection of existing unsupervised approaches without requiring access to ground truth attribute labels, which are not available for most datasets. This paper addresses this problem by introducing a simple yet robust and reliable method for unsupervised disentangled model selection. Our approach, Unsupervised Disentanglement Ranking (UDR), leverages the recent theoretical results that explain why variational autoencoders disentangle (Rolinek et al, 2019), to quantify the quality of disentanglement by performing pairwise comparisons between trained model representations. We show that our approach performs comparably to the existing supervised alternatives across 5,400 models from six state of the art unsupervised disentangled representation learning model classes. Furthermore, we show that the ranking produced by our approach correlates well with the final task performance on two different domains.",
+  "link": "https://doi.org/10.48550/arxiv.1905.12614"
+}

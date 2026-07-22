@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Initial Experiments with TPTP-style Automated Theorem Provers on ACL2 Problems",
+  "year": "2014",
+  "journal": "TU/e Research Portal",
+  "authors": [
+    "Sebastiaan J. C. Joosten",
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "This paper reports our initial experiments with using external ATP on some corpora built with the ACL2 system. This is intended to provide the first estimate about the usefulness of such external reasoning and AI systems for solving ACL2 problems.",
+  "link": "https://openalex.org/W3144643740"
+}

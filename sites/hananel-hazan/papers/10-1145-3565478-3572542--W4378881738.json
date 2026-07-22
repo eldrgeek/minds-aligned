@@ -1,0 +1,17 @@
+{
+  "doi": "10.1145/3565478.3572542",
+  "doi_url": "https://doi.org/10.1145/3565478.3572542",
+  "title": "Circuit Optimization Techniques for Efficient Ex-Situ Training of Robust Memristor Based Liquid State Machine",
+  "year": "2022",
+  "journal": null,
+  "authors": [
+    "Alex Henderson",
+    "Chris Yakopcic",
+    "Steven D. Harbour",
+    "Tarek A. Taha",
+    "Cory Merkel",
+    "Hananel Hazan"
+  ],
+  "abstract": "Spiking neural network hardware offers a high performance, power-efficient and robust platform for the processing of complex data. Many of these systems require supervised learning, which poses a challenge when using gradient-based algorithms due to the discontinuous properties of SNNs. Memristor based hardware can offer gains in portability, power reduction, and throughput efficiency when compared to pure CMOS. This paper proposes a memristor-based spiking liquid state machine (LSM). The inherent dynamics of the LSM permit the use of supervised learning without backpropagation for weight updates. To carry out the design space evaluation of the LSM for optimal hardware performance, several temporal signal classification tasks are performed. It is found that the binary neuron activations in the output layer improve testing accuracy by 3.7% and 5% for classification, while reducing training time. A power and energy analysis of the proposed hardware is presented, resulting in an approximately 50% reduction in power consumption and cycle energy.",
+  "link": "https://doi.org/10.1145/3565478.3572542"
+}

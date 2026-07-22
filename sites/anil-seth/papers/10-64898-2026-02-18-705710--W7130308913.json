@@ -1,0 +1,16 @@
+{
+  "doi": "10.64898/2026.02.18.705710",
+  "doi_url": "https://doi.org/10.64898/2026.02.18.705710",
+  "title": "A Large-Scale Computer-Vision Mapping of the Geometric Structures of Stroboscopically-Induced Visual Hallucinations",
+  "year": "2026",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Ethan Grove",
+    "Trevor Hewitt",
+    "Anil K. Seth",
+    "Fiona Macpherson",
+    "David J. Schwartzman"
+  ],
+  "abstract": "Abstract Visual hallucinations (VHs) occur across psychedelic states and diverse psychiatric and neurological conditions, yet their phenomenology remains difficult to characterise. Empirical research on VHs is hindered by the lack of large-scale phenomenological datasets, which limits both mechanistic accounts and the systematic characterisation of when and how they arise. Stroboscopic light stimulation (SLS) viewed with closed eyes provides a reliable, non-pharmacological method of inducing VHs in healthy populations. These hallucinations typically consist of vivid colours and dynamic geometric patterns that resemble simple VHs described in both psychedelic and clinical contexts, suggesting partially overlapping neural mechanisms. We developed and applied an unsupervised computer-vision pipeline to analyse a large dataset of 10,598 drawings made following exposure to hallucination-inducing SLS. These drawings were produced by attendees of Dreamachine, a large-scale public installation designed to elicit stroboscopically induced visual hallucinations (SIVHs). We extracted feature embeddings with a self-supervised deep vision transformer, then applied dimensionality reduction and density-based clustering to identify recurrent visual motifs in a data-driven manner. The majority of drawings contained geometric forms, consistent with prior observations of simple VHs under SLS. However, we also identified novel and underreported geometric formations, such as concentric squares, crosses, hyperbolic patterns, and other geometries. Our results show how an unsupervised computer-vision pipeline can organise large, openly shared phenomenological datasets into interpretable classes. By mapping the diversity of simple geometric VHs at scale, this work places new constraints on existing theoretical accounts and motivates targeted experimental work linking SLS parameters, neural dynamics, and geometric visual hallucinations.",
+  "link": "https://doi.org/10.64898/2026.02.18.705710"
+}

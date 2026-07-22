@@ -1,0 +1,15 @@
+{
+  "doi": "10.1002/advs.202415272",
+  "doi_url": "https://doi.org/10.1002/advs.202415272",
+  "title": "Laser‐Enabled Fabrication of Flexible Printed Electronics with Integrated Functional Devices",
+  "year": "2025",
+  "journal": "Advanced Science",
+  "authors": [
+    "Wedyan Babatain",
+    "Christine Park",
+    "Hiroshi Ishii",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "Abstract The demand for flexible and printed electronics in wearable and soft robotics applications has increased the need for scalable, additive manufacturing processes. However, traditional printed circuit board manufacturing involves complex, multistep processes, is limited to certain substrates, and faces challenges in integrating functional devices. Here, an additive, laser‐enabled process is introduced for fabricating flexible, double‐sided printed electronics leveraging laser‐induced graphene (LIG) as a seed layer for selective copper electrodeposition (E‐LIG). This technique enables precise conductive circuit patterning down to 50 µm and is reliable via formation in a single streamlined process. E‐LIG supports transfer to various substrates, allowing for large‐area electronics up to 100 cm 2 , broadening applications in large‐scale interfaces. Functional LIG device integration, including sensors and actuators, directly interfaced with control circuits on a single substrate is demonstrated. Applications such as real‐time graphical output and interactive interfacing showcase the method's versatility. E‐LIG exhibits repairability for on‐demand restoration of damaged circuits, enhancing durability and offering a scalable, cost‐effective solution for multifunctional printed electronics.",
+  "link": "https://doi.org/10.1002/advs.202415272"
+}

@@ -1,0 +1,18 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Just do it? Investigating the gap between prediction and action in toddlers’ causal inferences",
+  "year": "2018",
+  "journal": "OSF Preprints (OSF Preprints)",
+  "authors": [
+    "James Woodward",
+    "Alison Gopnik",
+    "Andrew N. Meltzoff",
+    "Laura Schulz",
+    "Darlene Ferranti",
+    "Rebecca Saxe",
+    "Elizabeth Bonawitz"
+  ],
+  "abstract": "Adults’ causal representations integrate information about predictive relations and the possibility of effective intervention; if one event reliably predicts another, adults can represent the possibility that acting to bring about the first event might generate the second. Here we show that although toddlers (mean age: 24 months) readily learn predictive relationships between physically connected events, they do not spontaneously initiate one event to try to generate the second (although older children, mean age: 47 months, do; Experiments 1 and 2). Toddlers succeed only when the events are initiated by a dispositional agent (Experiment 3), when the events involve direct contact between objects (Experiment 4), or when the events are described using causal language (Experiment 5). This suggests that causal language may help children extend their initial causal representations beyond agent-initiated and direct contact events.",
+  "link": "https://openalex.org/W7160472274"
+}

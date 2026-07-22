@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.1911.04873",
+  "doi_url": "https://doi.org/10.48550/arxiv.1911.04873",
+  "title": "Can Neural Networks Learn Symbolic Rewriting?",
+  "year": "2019",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Bartosz Piotrowski",
+    "Josef Urban",
+    "Chad E. Brown",
+    "Cezary Kaliszyk"
+  ],
+  "abstract": "This work investigates if the current neural architectures are adequate for learning symbolic rewriting. Two kinds of data sets are proposed for this research -- one based on automated proofs and the other being a synthetic set of polynomial terms. The experiments with use of the current neural machine translation models are performed and its results are discussed. Ideas for extending this line of research are proposed, and its relevance is motivated.",
+  "link": "https://doi.org/10.48550/arxiv.1911.04873"
+}

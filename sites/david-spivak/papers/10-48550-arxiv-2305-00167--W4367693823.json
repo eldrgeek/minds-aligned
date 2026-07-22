@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2305.00167",
+  "doi_url": "https://doi.org/10.48550/arxiv.2305.00167",
+  "title": "Structures on Categories of Polynomials",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Brandon T. Shapiro",
+    "David I. Spivak"
+  ],
+  "abstract": "We define the monoidal category $(Poly_E,y,\\triangleleft)$ of polynomials under composition in any category $E$ with finite limits, including both cartesian and vertical morphisms of polynomials, and generalize to this setting the Dirichlet tensor product of polynomials $\\otimes$, duoidality of $\\otimes$ and $\\triangleleft$, closure of $\\otimes$, and coclosures of $\\triangleleft$. We also prove that $\\triangleleft$-comonoids in $Poly_E$ are precisely the internal categories in $E$ whose source morphism is exponentiable, generalizing a result of Ahman-Uustalu equating categories with polynomial comonads, and show that coalgebras in this setting correspond to internal copresheaves. Finally, the double category of ``typed'' polynomials in $E$ is recovered using $\\triangleleft$-bicomodules in $Poly_E$.",
+  "link": "https://doi.org/10.48550/arxiv.2305.00167"
+}

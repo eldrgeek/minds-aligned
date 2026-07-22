@@ -1,0 +1,13 @@
+{
+  "doi": "10.4204/eptcs.323.14",
+  "doi_url": "https://doi.org/10.4204/eptcs.323.14",
+  "title": "String Diagrams for Regular Logic (Extended Abstract)",
+  "year": "2020",
+  "journal": "Electronic Proceedings in Theoretical Computer Science",
+  "authors": [
+    "Brendan Fong",
+    "David I. Spivak"
+  ],
+  "abstract": "Regular logic can be regarded as the internal language of regular categories, but the logic itself is generally not given a categorical treatment. In this paper, we understand the syntax and proof rules of regular logic in terms of the free regular category FRg(T) on a set T. From this point of view, regular theories are certain monoidal 2-functors from a suitable 2-category of contexts -- the 2-category of relations in FRg(T) -- to that of posets. Such functors assign to each context the set of formulas in that context, ordered by entailment. We refer to such a 2-functor as a regular calculus because it naturally gives rise to a graphical string diagram calculus in the spirit of Joyal and Street. We shall show that every natural category has an associated regular calculus, and conversely from every regular calculus one can construct a regular category.",
+  "link": "https://doi.org/10.4204/eptcs.323.14"
+}

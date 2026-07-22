@@ -1,0 +1,18 @@
+{
+  "doi": "10.1109/hpec43674.2020.9286236",
+  "doi_url": "https://doi.org/10.1109/hpec43674.2020.9286236",
+  "title": "Discrete Integrated Circuit Electronics (DICE)",
+  "year": "2020",
+  "journal": null,
+  "authors": [
+    "Zach Fredin",
+    "Jiří Zemánek",
+    "L. Camron Blackburn",
+    "Erik Strand",
+    "Amira Abdel-Rahman",
+    "Premila Rowles",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We introduce DICE (Discrete Integrated Circuit Electronics). Rather than separately develop chips, packages, boards, blades, and systems, DICE spans these scales in a direct-write process with the three-dimensional assembly of computational building blocks. We present DICE parts, discuss their assembly, programming, and design workflow, illustrate applications in machine learning and high performance computing, and project performance.",
+  "link": "https://doi.org/10.1109/hpec43674.2020.9286236"
+}

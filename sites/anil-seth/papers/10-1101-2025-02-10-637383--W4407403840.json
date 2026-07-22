@@ -1,0 +1,25 @@
+{
+  "doi": "10.1101/2025.02.10.637383",
+  "doi_url": "https://doi.org/10.1101/2025.02.10.637383",
+  "title": "Hemispherotomy: a cortical island of sleep-like activity in awake humans",
+  "year": "2025",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Michele Colombo",
+    "Jacopo Favaro",
+    "Ezequiel Mikulan",
+    "Andrea Pigorini",
+    "Flavia Maria Zauli",
+    "Ivana Sartori",
+    "Piergiorgio d’Orio",
+    "Laura Castana",
+    "Irene Toldo",
+    "Stefano Sartori",
+    "Simone Sarasso",
+    "Tim Bayne",
+    "Anil K. Seth",
+    "Marcello Massimini"
+  ],
+  "abstract": "Abstract Hemispherotomy is a neurosurgical procedure for treating refractory epilepsy, which entails disconnecting a significant portion of the cortex, potentially encompassing an entire hemisphere, from its cortical and subcortical connections. While this intervention prevents the spread of seizures, it raises important questions. Given the complete isolation from sensory-motor pathways, it remains unclear whether the disconnected cortex retains any form of inaccessible awareness. More broadly, the activity patterns that large portions of the deafferented cortex can sustain in awake humans remain poorly understood. We address these questions by exploring for the first time the electrophysiological state of the isolated cortex before and after surgery in ten awake pediatric patients. Post-surgery, the isolated cortex exhibited prominent slow oscillations (&lt;2 Hz) and a broad-band shift in power spectral density from high to low frequencies. This resulted in a marked decrease of the spectral exponent, a validated consciousness marker, indicating broad-band slowing characteristic of unconscious states. When compared with a reference pediatric sample across the sleep-wake cycle, the spectral exponent of the contralateral cortex aligned with wakefulness, whereas that of the isolated cortex was consistent with deep NREM sleep. However, spindles did not emerge in the isolated cortex due to the lack of subcortical inputs, constituting a fundamental difference from physiological sleep. These findings demonstrate a unihemispheric sleep-like state during wakefulness, challenging the possibility that hemispherotomy might lead to inaccessible “islands of awareness.” Moreover, the persistence of sleep-like patterns years after disconnection provides unique insights into the electrophysiological effects of disconnections in the human brain.",
+  "link": "https://doi.org/10.1101/2025.02.10.637383"
+}

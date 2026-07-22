@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.1502.05947",
+  "doi_url": "https://doi.org/10.48550/arxiv.1502.05947",
+  "title": "Functorial Data Migration: From Theory to Practice",
+  "year": "2015",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Ryan Wisnesky",
+    "David I. Spivak",
+    "Patrick Schultz",
+    "Eswaran Subrahmanian"
+  ],
+  "abstract": "In this paper we describe a functorial data migration scenario about the manufacturing service capability of a distributed supply chain. The scenario is a category-theoretic analog of an OWL ontology-based semantic enrichment scenario developed at the National Institute of Standards and Technology (NIST). The scenario is presented using, and is included with, the open-source FQL tool, available for download at categoricaldata.net/fql.html.",
+  "link": "https://doi.org/10.48550/arxiv.1502.05947"
+}

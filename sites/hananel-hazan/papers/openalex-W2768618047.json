@@ -1,0 +1,13 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "ROBOTS WITH BIOLOGICAL BRAINS: AUTONOMY AND LIABILITY OF A SEMI-ARTIFICIAL LIFE FORM",
+  "year": "2017",
+  "journal": "The Lawyer Quarterly",
+  "authors": [
+    "Alžběta Krausová",
+    "Hananel Hazan"
+  ],
+  "abstract": "Hybrid IT systems with biological brains (hybrots) enhance our understanding of brain functioning. However, given their specific form of existence and their ability to act autonomously to a certain degree, they raise questions regarding attributing liability in case they cause damage. The aim of this paper is to suggest a scheme for attributing liability to these systems while taking into account liability issues related to artificial intelligence. Firstly, the paper describes the technology of hybrid systems, its history, state of the art as well as its technological constraints. Next, general social and ethical aspects of the technology are briefly described. Finally, the paper describes the main problems related to liability of hybrid systems and sets out criteria for determining liability for damages caused by hybrots.",
+  "link": "https://openalex.org/W2768618047"
+}

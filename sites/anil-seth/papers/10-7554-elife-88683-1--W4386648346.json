@@ -1,0 +1,19 @@
+{
+  "doi": "10.7554/elife.88683.1",
+  "doi_url": "https://doi.org/10.7554/elife.88683.1",
+  "title": "Spectrally and temporally resolved estimation of neural signal diversity",
+  "year": "2023",
+  "journal": null,
+  "authors": [
+    "Pedro A. M. Mediano",
+    "Fernando E. Rosas",
+    "Andrea I. Luppi",
+    "Valdas Noreika",
+    "Anil K. Seth",
+    "Robin Carhart‐Harris",
+    "L. D. Barnett",
+    "Daniel Bor"
+  ],
+  "abstract": "Abstract Quantifying the complexity of neural activity has provided fundamental insights into cognition, consciousness, and clinical conditions. However, the most widely used approach to estimate the complexity of neural dynamics, Lempel-Ziv complexity (LZ), has fundamental limitations that substantially restrict its domain of applicability. In this article we leverage the information-theoretic foundations of LZ to overcome these limitations by introducing a complexity estimator based on state-space models —which we dub Complexity via State-space Entropy Rate (CSER). While having a performance equivalent to LZ in discriminating states of consciousness, CSER boasts two crucial advantages: 1) CSER offers a principled decomposition into spectral components, which allows us to rigorously investigate the relationship between complexity and spectral power; and 2) CSER provides a temporal resolution two orders of magnitude better than LZ, which allows complexity analyses of e.g. event-locked neural signals. As a proof of principle, we use MEG, EEG and ECoG datasets of humans and monkeys to show that CSER identifies the gamma band as the main driver of complexity changes across states of consciousness; and reveals early entropy increases that precede the standard ERP in an auditory mismatch negativity paradigm by approximately 20ms. Overall, by overcoming the main limitations of LZ and substantially extending its range of applicability, CSER opens the door to novel investigations on the fine-grained spectral and temporal structure of the signal complexity associated with cognitive processes and conscious states.",
+  "link": "https://doi.org/10.7554/elife.88683.1"
+}

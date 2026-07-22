@@ -1,0 +1,12 @@
+{
+  "doi": "10.1147/sj.393.0932",
+  "doi_url": "https://doi.org/10.1147/sj.393.0932",
+  "title": "Everything, the universe, and life",
+  "year": "2000",
+  "journal": "IBM Systems Journal",
+  "authors": [
+    "Neil Gershenfeld"
+  ],
+  "abstract": "The previous MIT Media Laboratory special issue <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> of the IBM Systems Journal closed with a group of papers describing an emerging physical science effort in the Media Lab. These inverted the historical focus of the Media Lab, which was on the revolutionary implications of a digital representation for freeing the content of information from the constraints of its physical representation. When the Media Lab was founded, the debate over the frame size and rate for the next video standard was widely seen as a matter of great significance; the Lab argued instead that a scalable encoding would allow a television set to be downloaded with a TV signal to match the needs of the signal and its viewer. This once-radical idea is now ubiquitous in streaming digital media.",
+  "link": "https://doi.org/10.1147/sj.393.0932"
+}

@@ -1,0 +1,16 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Cerebellar glomeruli: Can limited extracellular calcium propagate information among distant synapses?",
+  "year": "2007",
+  "journal": null,
+  "authors": [
+    "David M. Eagleman",
+    "Olivier J. M. D. Coenen",
+    "Vladimir Mitsner",
+    "Thomas M. Bartol",
+    "Terrence J. Sejnowski"
+  ],
+  "abstract": "*Contributed equally to this work. A class of synaptic learning models – in which presynaptic terminals have access to a weighted sum of the postsynaptic activity – has traditionally been dismissed as biologically unfeasible. This rejection is not surprising under traditional notions of synaptic connectivity, since postsynaptic cell bodies may be far apart, and there are no backwards signals known to sum activity in a terminal-specific manner. However, many synapses in the CNS become specialized by glial cell ensheathment1. We suggest that such ensheathment may force neighboring cellular elements to share a limited resource:extracellular calcium2-4. We propose the novel theory that certain glomeruli are configured so that the instantaneous external calcium concentration will encode the level of spike activity in postsynaptic cells. We concentrate on the specialized glomeruli that exist in the cerebellum at the interface of the mossy fiber and granule cell layers. Here, dendrites from scores of granule cells swirl around a mossy fiber terminal, and the whole structure is tightly ensheathed in an astrocyte5-6. Simulations demonstrate that the calcium concentration is indeed proportional to a sum of postsynaptic activity in the granule cells. We demonstrate that these extracellular calcium changes are interpretable from an information-processing point of view, generating a novel learning rule for control of plasticity at the mossy fiber/granule cell synapse. This learning rule",
+  "link": "https://openalex.org/W85248257"
+}

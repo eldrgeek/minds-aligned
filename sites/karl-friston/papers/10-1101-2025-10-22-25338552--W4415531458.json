@@ -1,0 +1,21 @@
+{
+  "doi": "10.1101/2025.10.22.25338552",
+  "doi_url": "https://doi.org/10.1101/2025.10.22.25338552",
+  "title": "GABAergic regulation of action-outcome priors in conditions associated with frontotemporal degeneration",
+  "year": "2025",
+  "journal": "medRxiv",
+  "authors": [
+    "R Williams",
+    "Michelle Naessens",
+    "Emily Todd",
+    "Robert Durcan",
+    "David J. Whiteside",
+    "Juliette H. Lanskey",
+    "Amirhossein Jafarian",
+    "Karl Friston",
+    "Laura E. Hughes",
+    "James B. Rowe"
+  ],
+  "abstract": "Abstract Rationale Apathy is a common symptom in many neurological and psychiatric conditions, associated with poor prognosis and increased caregiver burden. There are currently no proven treatments, in part due to a lack of mechanistic understanding. We have proposed a novel framework for apathy, based on the failure of active inference due to imprecise priors on the outcome of actions. The loss of precision on action outcomes causes apathy by reducing the expected difference between the state of the world following action versus non-action. Here we test the hypothesis that the loss of prior precision on action outcomes is reversible and mediated neuronally by GABAergic gain on the superficial pyramidal neurons in a prefrontal-motor decision-making hierarchy. We test this in a healthy cohort and people with two syndromes associated with frontotemporal lobar degeneration. Methods Twenty healthy controls, twenty people with behavioural variant frontotemporal dementia (bvFTD) and twenty people with progressive supranuclear palsy (PSP) took part in a randomised placebo-controlled double-blind trial using zolpidem, an established GABAA agonist. This study was registered with ISRCTN registry ( ISRCTN10616794 ). We use the ‘Goal Prior Assay’ task and dynamic causal modelling of MEG resting-state data to explore the cognitive and neural concomitants of prior precision, and the effect of GABAergic regulation on both prior precision and superficial pyramidal gain. Apathy was primarily assessed with the Apathy Evaluation Scale (Self and Carer). Principal analyses were conducted using Bayesian statistics, supplemented by classical frequentist tests. Results Forty-three participants (20 controls and 23 patients) were included in the final analysis. We found strong evidence for a difference in measures of apathy (B&gt;1000, p&lt;0.001) and prior precision (B=20.4, p&lt;0.01) between healthy controls and people with bvFTD and PSP. This difference in prior precision was not found in the drug condition (B=0.86, p=0.11). There was strong evidence of a correlation between apathy and prior precision across groups (B&gt;100, p&lt;0.001). Dynamic causal modelling of MEG resting-state data confirmed reductions in gain on the prefrontal superficial pyramidal neurons in patients. The prefrontal superficial pyramidal gain was partially restored on zolpidem and linked to participants’ prior precision on their action outcomes. Conclusion We confirm that apathy in conditions associated with frontotemporal lobar degeneration is underwritten by a reduction in prior precision on action outcomes, mediated by reduced synaptic gain of prefrontal superficial pyramidal neurons. GABAergic regulation using zolpidem partially restores prior precision by acting on this gain and reinstating neuronal message-passing within the prefrontal-motor decision-making hierarchy.",
+  "link": "https://doi.org/10.1101/2025.10.22.25338552"
+}

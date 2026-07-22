@@ -1,0 +1,13 @@
+{
+  "doi": "10.1109/tai.1990.130404",
+  "doi_url": "https://doi.org/10.1109/tai.1990.130404",
+  "title": "A knowledge-driven methodology for eliciting and restructuring software requirements for distributed design",
+  "year": "2002",
+  "journal": "[1990] Proceedings of the 2nd International IEEE Conference on Tools for Artificial Intelligence",
+  "authors": [
+    "Patrick O. Bobbie",
+    "Josef Urban"
+  ],
+  "abstract": "Some important issues in engineering the requirements of a distributed software system and methods that facilitate software system design for distributed or parallel implementations are discussed. The issues are presented from a knowledge engineering perspective and are divided into four levels: acquisition; representation; structuring; and design. The acquisition level entails the methods for eliciting system requirements data (attributes and relationships of software entities) from the end-user group using a model of context classes. The representation level deals with the language paradigm for representing the attributes and relationships of the software entities. The structuring level addresses methods for rearranging and grouping the software objects of the context classes into related clusters. The design level deals with methods for mapping or transforming the clusters of software objects into specification modules to facilitate distributed design. To this end, the design level uses an object-based paradigm for specifying the attributes and abstract behavior of the objects within the modules.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX>",
+  "link": "https://doi.org/10.1109/tai.1990.130404"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.4230/lipics.itp.2026.31",
+  "doi_url": "https://doi.org/10.4230/lipics.itp.2026.31",
+  "title": "130k Lines of Formal Topology in Two Weeks: Simple and Cheap Autoformalization for Everyone? (Short Paper)",
+  "year": "2026",
+  "journal": "Dagstuhl Research Online Publication Server",
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "This is a brief description of a project that has already autoformalized a large portion of the general topology from the Munkres textbook (which has in total 241 pages in 7 chapters and 39 sections). The project has been running since November 21, 2025 and has as of January 4, 2026, produced 160k lines of formalized topology. Most of it (about 130k lines) have been done in two weeks, from December 22 to January 4, for an LLM subscription cost of about $100. This includes a 3k-line proof of Urysohn’s lemma, a 2k-line proof of Urysohn’s Metrization theorem, over 10k-line proof of the Tietze extension theorem, and many more (in total over 1.5k lemmas/theorems). The approach is quite simple and cheap: build a long-running feedback loop between an LLM and a reasonably fast proof checker equipped with a core foundational library. The LLM is now instantiated as ChatGPT (mostly 5.2) or Claude Sonnet (4.5) run through the respective Codex or Claude Code command line interfaces. The proof checker is Chad Brown’s higher-order set theory system Megalodon, and the core library is Brown’s formalization of basic set theory and surreal numbers (including reals, etc). The rest is some prompt engineering and technical choices which we describe here. Based on the fast progress, low cost, virtually unknown ITP/library, and the simple setup available to everyone, we believe that (auto)formalization may become quite easy and ubiquitous in 2026, regardless of which proof assistant is used.",
+  "link": "https://doi.org/10.4230/lipics.itp.2026.31"
+}

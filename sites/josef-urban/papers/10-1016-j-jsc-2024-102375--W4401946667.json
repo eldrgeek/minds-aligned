@@ -1,0 +1,17 @@
+{
+  "doi": "10.1016/j.jsc.2024.102375",
+  "doi_url": "https://doi.org/10.1016/j.jsc.2024.102375",
+  "title": "Invariant neural architecture for learning term synthesis in instantiation proving",
+  "year": "2024",
+  "journal": "Journal of Symbolic Computation",
+  "authors": [
+    "Jelle Piepenbrock",
+    "Josef Urban",
+    "Konstantin Korovin",
+    "Miroslav Olšák",
+    "Tom Heskes",
+    "Mikoláš Janota"
+  ],
+  "abstract": "The development of strong CDCL-based propositional (SAT) solvers has greatly advanced several areas of automated reasoning (AR). One of the directions in AR is therefore to make use of SAT solvers in expressive formalisms such as first-order logic, for which large corpora of general mathematical problems exist today. This is possible due to Herbrand's theorem, which allows reduction of first-order problems to propositional problems by instantiation. The core challenge is synthesizing the appropriate instances from the typically infinite Herbrand universe. In this work, we develop a machine learning system targeting this task, addressing its combinatorial and invariance properties. In particular, we develop a GNN2RNN architecture based on a graph neural network (GNN) that learns from problems and their solutions independently of many symmetries and symbol names (addressing the abundance of Skolems), combined with a recurrent neural network (RNN) that proposes for each clause its instantiations. The architecture is then combined with an efficient ground solver and, starting with zero knowledge, iteratively trained on a large corpus of mathematical problems. We show that the system is capable of solving many problems by such educated guessing, finding proofs for 32.12% of the training set. The final trained system solves 19.74% of the unseen test data on its own. We also observe that the trained system finds solutions that the iProver and CVC5 systems did not find.",
+  "link": "https://doi.org/10.1016/j.jsc.2024.102375"
+}

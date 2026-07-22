@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.1903.10579",
+  "doi_url": "https://doi.org/10.48550/arxiv.1903.10579",
+  "title": "Categorical Data Integration for Computational Science",
+  "year": "2019",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Kristopher Brown",
+    "David I. Spivak",
+    "Ryan Wisnesky"
+  ],
+  "abstract": "Categorical Query Language is an open-source query and data integration scripting language that can be applied to common challenges in the field of computational science. We discuss how the structure-preserving nature of CQL data migrations protect those who publicly share data from the misinterpretation of their data. Likewise, this feature of CQL migrations allows those who draw from public data sources to be sure only data which meets their specification will actually be transferred. We argue some open problems in the field of data sharing in computational science are addressable by working within this paradigm of functorial data migration. We demonstrate these tools by integrating data from the Open Quantum Materials Database with some alternative materials databases.",
+  "link": "https://doi.org/10.48550/arxiv.1903.10579"
+}

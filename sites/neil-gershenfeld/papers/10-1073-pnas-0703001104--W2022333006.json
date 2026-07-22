@@ -1,0 +1,15 @@
+{
+  "doi": "10.1073/pnas.0703001104",
+  "doi_url": "https://doi.org/10.1073/pnas.0703001104",
+  "title": "Ultra-small-sample molecular structure detection using microslot waveguide nuclear spin resonance",
+  "year": "2007",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+    "Yael Maguire",
+    "Isaac L. Chuang",
+    "Shuguang Zhang",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "We here report on the design of a planar microslot waveguide NMR probe with an induction element that can be fabricated at scales from centimeters to nanometers to allow analysis of biomolecules at nano- or picomole quantities, reducing the required amount of materials by several orders of magnitude. This device demonstrates the highest signal-to-noise ratio for a planar detector to date, measured by using the anomeric proton signal from a 15.6-nmol sample of sucrose. This probe had a linewidth of 1.1 Hz for pure water without susceptibility matching. Analysis of 1.57 nmol of ribonuclease-A shows high sensitivity in one- and two-dimensional NMR spectra. Along with reducing required sample volumes, this integrated geometry can be packed in parallel arrays and combined with microfluidic systems. Further development of this device may have broad implications not only for advancing our understanding of many intractable protein structures and their folding, molecular interactions, and dynamic behaviors, but also for high-sensitivity diagnosis of a number of protein conformational diseases.",
+  "link": "https://doi.org/10.1073/pnas.0703001104"
+}

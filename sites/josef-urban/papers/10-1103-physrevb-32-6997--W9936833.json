@@ -1,0 +1,12 @@
+{
+  "doi": "10.1103/physrevb.32.6997",
+  "doi_url": "https://doi.org/10.1103/physrevb.32.6997",
+  "title": "Automated Reasoning for Mizar: Artificial Intelligence through Knowledge Exchange.",
+  "year": "2008",
+  "journal": "Physical review. B, Condensed matter",
+  "authors": [
+    "Josef Urban"
+  ],
+  "abstract": "This paper gives an overview of the existing link between the Mizar project for formalization of mathematics and Automated Reasoning tools (mainly the Automated Theorem Provers (ATPs)). It explains the motivation for this work, gives an overview of the translation method, discusses the projects and works that are based on it, and possible future projects and directions. 1",
+  "link": "https://doi.org/10.1103/physrevb.32.6997"
+}

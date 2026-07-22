@@ -1,0 +1,27 @@
+{
+  "doi": "10.1002/hbm.70234",
+  "doi_url": "https://doi.org/10.1002/hbm.70234",
+  "title": "Neurophysiological Progression in Alzheimer's Disease: Insights From Dynamic Causal Modelling of Longitudinal Magnetoencephalography",
+  "year": "2025",
+  "journal": "Human Brain Mapping",
+  "authors": [
+    "Amirhossein Jafarian",
+    "Melek Karadag Assem",
+    "Ece Kocagöncü",
+    "Juliette H. Lanskey",
+    "Haddy K. S. Fye",
+    "Rebecca Williams",
+    "Andrew J. Quinn",
+    "Jemma Pitt",
+    "Vanessa Raymont",
+    "Stephen L. Lowe",
+    "Krish D. Singh",
+    "Mark W. Woolrich",
+    "Anna C. Nobre",
+    "Richard N. Henson",
+    "Karl Friston",
+    "James B. Rowe"
+  ],
+  "abstract": "Neurodegenerative diseases, including Alzheimer's disease, are characterised by selective neuronal vulnerability with regional, laminar, cellular and neurotransmitter specificity. The regional losses of neurons and their synapses are associated with neurophysiological changes and cognitive decline. Hypotheses related to these mechanisms can be tested and compared by dynamic causal modelling (DCM) of human neuroimaging data, including magnetoencephalography (MEG). In this paper, we use DCM of cross-spectral densities to model changes between baseline and follow-up data in cortical regions of the default mode network, to characterise longitudinal changes in cortical microcircuits and their connectivity underlying resting-state MEG. Twenty-nine people with amyloid-positive mild cognitive impairment and Alzheimer's disease early dementia were studied at baseline and after an average interval of 16 months. To study longitudinal changes induced by Alzheimer's disease, we evaluate three complementary sets of DCM: (i) with regional specificity, of the contributions of neurons to measurements to accommodate regional variability in disease burden; (ii) with dual parameterisation of excitatory neurotransmission, motivated by preclinical and clinical evidence of distinct effects of disease on AMPA versus NMDA type glutamate receptors; and (iii) with constraints to test specific clinical hypothesis about the effects of disease-progression. Bayesian model selection at the group level confirmed evidence for regional specificity of the effects of Alzheimer's disease, with evidence for selective changes in NMDA neurotransmission, and progressive changes in connectivity within and between Precuneus and medial prefrontal cortex. Moreover, alterations in effective connectivity vary in accordance with individual differences in cognitive decline during follow-up. These applications of DCM enrich the mechanistic understanding of the pathophysiology of human Alzheimer's disease and inform experimental medicine studies of novel therapies. More generally, longitudinal DCM provides a potential platform for natural history and interventional studies of neurodegenerative and neuropsychiatric diseases, with selective neuronal vulnerability.",
+  "link": "https://doi.org/10.1002/hbm.70234"
+}

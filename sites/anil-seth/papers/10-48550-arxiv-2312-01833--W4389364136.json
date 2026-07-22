@@ -1,0 +1,15 @@
+{
+  "doi": "10.48550/arxiv.2312.01833",
+  "doi_url": "https://doi.org/10.48550/arxiv.2312.01833",
+  "title": "Minimum-phase property of the hemodynamic response function, and implications for Granger Causality in fMRI",
+  "year": "2023",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Leonardo Novelli",
+    "Lionel Barnett",
+    "Anil K. Seth",
+    "Adeel Razi"
+  ],
+  "abstract": "Granger Causality (GC) is widely used in neuroimaging to estimate directed statistical dependence among brain regions using time series of brain activity. An important issue is that functional MRI (fMRI) measures brain activity indirectly via the blood-oxygen-level-dependent (BOLD) signal, which affects the temporal structure of the signals and distorts GC estimates. However, some notable applications of GC are not concerned with the GC magnitude but its statistical significance. This is the case for network inference, which aims to build a statistical model of the system based on directed relationships among its elements. The critical question for the viability of network inference in fMRI is whether the hemodynamic response function (HRF) and its variability across brain regions introduce spurious relationships, i.e., statistically significant GC values between BOLD signals, even if the GC between the neuronal signals is zero. It has been mathematically proven that such spurious statistical relationships are not induced if the HRF is minimum-phase, i.e., if both the HRF and its inverse are stable (producing finite responses to finite inputs). However, whether the HRF is minimum-phase has remained contentious. Here, we address this issue using multiple realistic biophysical models from the literature and studying their transfer functions. We find that these models are minimum-phase for a wide range of physiologically plausible parameter values. Therefore, statistical testing of GC is plausible even if the HRF varies across brain regions, with the following limitations. First, the minimum-phase condition is violated for parameter combinations that generate an initial dip in the HRF, confirming a previous mathematical proof. Second, the slow sampling of the BOLD signal (in seconds) compared to the timescales of neural signal propagation (milliseconds) may still introduce spurious GC.",
+  "link": "https://doi.org/10.48550/arxiv.2312.01833"
+}

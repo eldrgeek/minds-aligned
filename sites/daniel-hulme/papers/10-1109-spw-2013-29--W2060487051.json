@@ -1,0 +1,16 @@
+{
+  "doi": "10.1109/spw.2013.29",
+  "doi_url": "https://doi.org/10.1109/spw.2013.29",
+  "title": "On Bad Randomness and Cloning of Contactless Payment and Building Smart Cards",
+  "year": "2013",
+  "journal": null,
+  "authors": [
+    "Nicolas T. Courtois",
+    "Daniel Hulme",
+    "Kumail Hussain",
+    "Jerzy Gawinecki",
+    "Marek Grajek"
+  ],
+  "abstract": "In this paper we study the randomness of some random numbers found in real-life smart card products. We have studied a number of symmetric keys, codes and random nonces in the most prominent contactless smart cards used in buildings, small payments and public transportation used by hundreds of millions of people every day. Furthermore we investigate a number of technical questions in order to see to what extent the vulnerabilities we have discovered could be exploited by criminals. In particular we look at the case MiFare Classic cards, of which some two hundred million are still in use worldwide. We have examined some 50 real-life cards from different countries to discover that it is not entirely clear if what was previously written about this topic is entirely correct. These facts are highly relevant to the practical feasibility of card cloning in order to enter some buildings, make small purchases or in public transportation in many countries. We also show examples of serious security issues due to poor entropy with another very popular contactless smart card used in many buildings worldwide.",
+  "link": "https://doi.org/10.1109/spw.2013.29"
+}

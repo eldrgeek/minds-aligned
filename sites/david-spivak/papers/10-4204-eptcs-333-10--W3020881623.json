@@ -1,0 +1,15 @@
+{
+  "doi": "10.4204/eptcs.333.10",
+  "doi_url": "https://doi.org/10.4204/eptcs.333.10",
+  "title": "A Compositional Sheaf-Theoretic Framework for Event-Based Systems",
+  "year": "2021",
+  "journal": "Electronic Proceedings in Theoretical Computer Science",
+  "authors": [
+    "Gioele Zardini",
+    "David I. Spivak",
+    "Andrea Censi",
+    "Emilio Frazzoli"
+  ],
+  "abstract": "A compositional sheaf-theoretic framework for the modeling of complex event-based systems is presented. We show that event-based systems are machines, with inputs and outputs, and that they can be composed with machines of different types, all within a unified, sheaf-theoretic formalism. We take robotic systems as an exemplar of complex systems and rigorously describe actuators, sensors, and algorithms using this framework.",
+  "link": "https://doi.org/10.4204/eptcs.333.10"
+}

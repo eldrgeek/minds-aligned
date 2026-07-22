@@ -1,0 +1,19 @@
+{
+  "doi": "10.48550/arxiv.2410.00258",
+  "doi_url": "https://doi.org/10.48550/arxiv.2410.00258",
+  "title": "Possible Principles for Aligned Structure Learning Agents",
+  "year": "2024",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Lancelot Da Costa",
+    "Tomáš Gavenčiak",
+    "David C. Hyland",
+    "Mandana Samiei",
+    "Cristian Dragos-Manta",
+    "Candice Pattisapu",
+    "Adeel Razi",
+    "Karl Friston"
+  ],
+  "abstract": "This paper offers a roadmap for the development of scalable aligned artificial intelligence (AI) from first principle descriptions of natural intelligence. In brief, a possible path toward scalable aligned AI rests upon enabling artificial agents to learn a good model of the world that includes a good model of our preferences. For this, the main objective is creating agents that learn to represent the world and other agents' world models; a problem that falls under structure learning (a.k.a. causal representation learning or model discovery). We expose the structure learning and alignment problems with this goal in mind, as well as principles to guide us forward, synthesizing various ideas across mathematics, statistics, and cognitive science. 1) We discuss the essential role of core knowledge, information geometry and model reduction in structure learning, and suggest core structural modules to learn a wide range of naturalistic worlds. 2) We outline a way toward aligned agents through structure learning and theory of mind. As an illustrative example, we mathematically sketch Asimov's Laws of Robotics, which prescribe agents to act cautiously to minimize the ill-being of other agents. We supplement this example by proposing refined approaches to alignment. These observations may guide the development of artificial intelligence in helping to scale existing -- or design new -- aligned structure learning systems.",
+  "link": "https://doi.org/10.48550/arxiv.2410.00258"
+}

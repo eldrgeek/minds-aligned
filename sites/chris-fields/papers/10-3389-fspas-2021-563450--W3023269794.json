@@ -1,0 +1,19 @@
+{
+  "doi": "10.3389/fspas.2021.563450",
+  "doi_url": "https://doi.org/10.3389/fspas.2021.563450",
+  "title": "Generalized Holographic Principle, Gauge Invariance and the Emergence of Gravity à la Wilczek",
+  "year": "2021",
+  "journal": "Frontiers in Astronomy and Space Sciences",
+  "authors": [
+    "Andrea Addazi",
+    "Pisin Chen",
+    "Filippo Fabrocini",
+    "Chris Fields",
+    "Enrico Greco",
+    "Matteo Lulli",
+    "Antonino Marcianò",
+    "Roman Pasechnik"
+  ],
+  "abstract": "We show that a generalized version of the holographic principle can be derived from the Hamiltonian description of information flow within a quantum system that maintains a separable state. We then show that this generalized holographic principle entails a general principle of gauge invariance. When this is realized in an ambient Lorentzian space-time, gauge invariance under the Poincaré group is immediately achieved. We apply this pathway to retrieve the action of gravity. The latter is cast à la Wilczek through a similar formulation derived by MacDowell and Mansouri, which involves the representation theory of the Lie groups SO <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" id=\"m1\"><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>3,2</mml:mn></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math> and SO <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" id=\"m2\"><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>4,1</mml:mn></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math> .",
+  "link": "https://doi.org/10.3389/fspas.2021.563450"
+}

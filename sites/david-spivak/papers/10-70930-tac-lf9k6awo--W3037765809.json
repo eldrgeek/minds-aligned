@@ -1,0 +1,15 @@
+{
+  "doi": "10.70930/tac/lf9k6awo",
+  "doi_url": "https://doi.org/10.70930/tac/lf9k6awo",
+  "title": "Algebraic Databases",
+  "year": "2017",
+  "journal": "Theory and applications of categories",
+  "authors": [
+    "Patrick Schultz",
+    "David I. Spivak",
+    "Christina Vasilakopoulou",
+    "Ryan Wisnesky"
+  ],
+  "abstract": "Databases have been studied category-theoretically for decades.While mathematically elegant, previous categorical models have typically struggled with representing concrete data such as integers or strings.In the present work, we propose an extension of the earlier set-valued functor model, making use of multi-sorted algebraic theories (a.k.a.Lawvere theories) to incorporate concrete data in a principled way.This approach easily handles missing information (null values), and also allows constraints and queries to make use of operations on data, such as multiplication or comparison of numbers, helping to bridge the gap between traditional databases and programming languages.We also show how all of the components of our model including schemas, instances, change-of-schema functors, and queries t into a single double categorical structure called a proarrow equipment (a.k.a.framed bicategory).10 Implementation 612 A Componentwise composition and exponentiation in",
+  "link": "https://doi.org/10.70930/tac/lf9k6awo"
+}

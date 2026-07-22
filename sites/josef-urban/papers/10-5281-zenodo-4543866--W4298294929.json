@@ -1,0 +1,13 @@
+{
+  "doi": "10.5281/zenodo.4543866",
+  "doi_url": "https://doi.org/10.5281/zenodo.4543866",
+  "title": "FEMaLeCoP: Fairly Efficient Machine Learning Connection Prover",
+  "year": "2015",
+  "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "FEMaLeCoP is a connection tableau theorem prover based<br> on leanCoP which uses efficient implementation of internal learning-<br> based guidance for extension steps. Despite the fact that exhaustive use<br> of such internal guidance can incur a significant slowdown of the raw<br> inferencing process, FEMaLeCoP trained on related proofs can prove<br> many problems that cannot be solved by leanCoP. In particular on the<br> MPTP2078 benchmark, FEMaLeCoP adds 90 (15.7%) more problems to<br> the 574 problems that are provable by leanCoP. FEMaLeCoP is thus the<br> first AI/ATP system convincingly demonstrating that guiding the internal inference algorithms of theorem provers by knowledge learned from<br> previous proofs can significantly improve the performance of the provers.<br> This paper describes the system, discusses the technology developed, and<br> evaluates the system.",
+  "link": "https://doi.org/10.5281/zenodo.4543866"
+}

@@ -1,0 +1,13 @@
+{
+  "doi": "10.29007/sqh9",
+  "doi_url": "https://doi.org/10.29007/sqh9",
+  "title": "Initial Experiments with External Provers and Premise Selection on HOL Light Corpora",
+  "year": "2018",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "This paper reports our initial experiments with using external ATP and premise selection methods on some corpora built with the HOL Light system. The testing is done in three different settings, corresponding to those used earlier for evaluating such methods on the Mizar/MML corpus. This is intended to provide the first estimate about the usefulness of such external reasoning and AI systems for solving problems over HOL Light and its libraries.",
+  "link": "https://doi.org/10.29007/sqh9"
+}

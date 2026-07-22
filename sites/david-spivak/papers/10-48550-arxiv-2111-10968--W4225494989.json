@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2111.10968",
+  "doi_url": "https://doi.org/10.48550/arxiv.2111.10968",
+  "title": "Functorial aggregation",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak",
+    "Garner, Richard",
+    "Fairbanks, Aaron David"
+  ],
+  "abstract": "We study polynomial comonads and polynomial bicomodules. Polynomial comonads amount to categories. Polynomial bicomodules between categories amount to parametric right adjoint functors between corresponding copresheaf categories. These may themselves be understood as generalized polynomial functors. They are also called data migration functors because of applications in categorical database theory. We investigate several universal constructions in the framed bicategory of categories, retrofunctors, and parametric right adjoints. We then use the theory we develop to model database aggregation alongside querying, all within this rich ecosystem.",
+  "link": "https://doi.org/10.48550/arxiv.2111.10968"
+}

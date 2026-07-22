@@ -1,1 +1,2222 @@
-[]
+[
+  {
+    "slug": "10-1001-jama-1915-02580200021005--W1967500031",
+    "doi": "10.1001/jama.1915.02580200021005",
+    "doi_url": "https://doi.org/10.1001/jama.1915.02580200021005",
+    "title": "METHODS OF WEIGHING PARTS OF THE LIVING HUMAN BODY",
+    "year": "1915",
+    "journal": "Journal of the American Medical Association",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "The problem which I essayed to solve can be better understood if I recite the course of reasoning I followed: A man weighing 150 pounds is placed on a certain diet and he gains 10 pounds. The question arises, How can we locate the gain? In other words: How have the 10 pounds distributed themselves over the body? Have they spread themselves uniformly through the body or not? If the additional mass has not been distributed uniformly, is there a definite relative increase in the various sections of the body? Have 3 pounds been added to the upper extremity and 7 pounds to the lower extremity or vice versa? The same question is, of course, applicable to a man who has lost 10 pounds. As far as I could trace in the available literature, not only has there never been made an attempt to solve this problem, but it has",
+    "link": "https://doi.org/10.1001/jama.1915.02580200021005"
+  },
+  {
+    "slug": "10-1002-adem-201200109--W2086238435",
+    "doi": "10.1002/adem.201200109",
+    "doi_url": "https://doi.org/10.1002/adem.201200109",
+    "title": "Category Theory Based Solution for the Building Block Replacement Problem in Materials Design",
+    "year": "2012",
+    "journal": "Advanced Engineering Materials",
+    "authors": [
+      "Tristan Giesa",
+      "David I. Spivak",
+      "Markus J. Buehler"
+    ],
+    "abstract": "Abstract An important objective in materials design is to develop a systematic methodology for replacing unavailable or expensive material building blocks by simpler and abundant ones, while maintaining or improving the functionality of the material. The mathematical field of category theory provides a formal specification language which lies at the heart of such a methodology. In this paper, we apply material ologs, category‐theoretic descriptions of hierarchical materials, to rigorously define a process by which material building blocks can be replaced by others while maintaining large‐scale properties, to the extent possible. We demonstrate the implementation of this approach by using algebraic techniques to predict concrete conditions needed for building block replacement. As an example, we specify structure–function relationships in two systems: a laminated composite and a structure–function analogue, a fruit salad. In both systems we illustrate how ologs provide us with a mathematical tool that allows us to replace one building block with others to achieve approximately the same functionality, and how to use them to model and design seemingly distinct physical systems with a consistent mathematical framework.",
+    "link": "https://doi.org/10.1002/adem.201200109"
+  },
+  {
+    "slug": "10-1007-978-3-030-00704-1--W4240738883",
+    "doi": "10.1007/978-3-030-00704-1",
+    "doi_url": "https://doi.org/10.1007/978-3-030-00704-1",
+    "title": "Temporal Type Theory",
+    "year": "2019",
+    "journal": "Progress in computer science and applied logic",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-030-00704-1"
+  },
+  {
+    "slug": "10-1007-978-3-030-00704-1_1--W4242164989",
+    "doi": "10.1007/978-3-030-00704-1_1",
+    "doi_url": "https://doi.org/10.1007/978-3-030-00704-1_1",
+    "title": "Introduction",
+    "year": "2019",
+    "journal": "Progress in computer science and applied logic",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-030-00704-1_1"
+  },
+  {
+    "slug": "10-1007-978-3-030-00704-1_2--W2914591427",
+    "doi": "10.1007/978-3-030-00704-1_2",
+    "doi_url": "https://doi.org/10.1007/978-3-030-00704-1_2",
+    "title": "The Interval Domain",
+    "year": "2019",
+    "journal": "Progress in computer science and applied logic",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-030-00704-1_2"
+  },
+  {
+    "slug": "10-1007-978-3-030-00704-1_3--W4250199398",
+    "doi": "10.1007/978-3-030-00704-1_3",
+    "doi_url": "https://doi.org/10.1007/978-3-030-00704-1_3",
+    "title": "Translation Invariance",
+    "year": "2019",
+    "journal": "Progress in computer science and applied logic",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-030-00704-1_3"
+  },
+  {
+    "slug": "10-1007-978-3-030-00704-1_4--W4230437032",
+    "doi": "10.1007/978-3-030-00704-1_4",
+    "doi_url": "https://doi.org/10.1007/978-3-030-00704-1_4",
+    "title": "Logical Preliminaries",
+    "year": "2019",
+    "journal": "Progress in computer science and applied logic",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-030-00704-1_4"
+  },
+  {
+    "slug": "10-1007-978-3-030-00704-1_5--W4235278011",
+    "doi": "10.1007/978-3-030-00704-1_5",
+    "doi_url": "https://doi.org/10.1007/978-3-030-00704-1_5",
+    "title": "Axiomatics",
+    "year": "2019",
+    "journal": "Progress in computer science and applied logic",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-030-00704-1_5"
+  },
+  {
+    "slug": "10-1007-978-3-030-00704-1_6--W2912552923",
+    "doi": "10.1007/978-3-030-00704-1_6",
+    "doi_url": "https://doi.org/10.1007/978-3-030-00704-1_6",
+    "title": "Semantics and Soundness",
+    "year": "2019",
+    "journal": "Progress in computer science and applied logic",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-030-00704-1_6"
+  },
+  {
+    "slug": "10-1007-978-3-030-00704-1_7--W2914179247",
+    "doi": "10.1007/978-3-030-00704-1_7",
+    "doi_url": "https://doi.org/10.1007/978-3-030-00704-1_7",
+    "title": "Local Numeric Types and Derivatives",
+    "year": "2019",
+    "journal": "Progress in computer science and applied logic",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-030-00704-1_7"
+  },
+  {
+    "slug": "10-1007-978-3-030-00704-1_8--W4234527180",
+    "doi": "10.1007/978-3-030-00704-1_8",
+    "doi_url": "https://doi.org/10.1007/978-3-030-00704-1_8",
+    "title": "Applications",
+    "year": "2019",
+    "journal": "Progress in computer science and applied logic",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-030-00704-1_8"
+  },
+  {
+    "slug": "10-1007-978-3-319-08970-6_18--W2181522451",
+    "doi": "10.1007/978-3-319-08970-6_18",
+    "doi_url": "https://doi.org/10.1007/978-3-319-08970-6_18",
+    "title": "Experience Implementing a Performant Category-Theory Library in Coq",
+    "year": "2014",
+    "journal": "Lecture notes in computer science",
+    "authors": [
+      "Jason Gross",
+      "Adam Chlipala",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-319-08970-6_18"
+  },
+  {
+    "slug": "10-1007-978-3-319-27683-0_9--W2963574586",
+    "doi": "10.1007/978-3-319-27683-0_9",
+    "doi_url": "https://doi.org/10.1007/978-3-319-27683-0_9",
+    "title": "Type Theoretical Databases",
+    "year": "2015",
+    "journal": "Lecture notes in computer science",
+    "authors": [
+      "Henrik Forssell",
+      "Håkon Robbestad Gylterud",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-319-27683-0_9"
+  },
+  {
+    "slug": "10-1007-978-3-319-72044-9_5--W2773791902",
+    "doi": "10.1007/978-3-319-72044-9_5",
+    "doi_url": "https://doi.org/10.1007/978-3-319-72044-9_5",
+    "title": "Algebraic Model Management: A Survey",
+    "year": "2017",
+    "journal": "Lecture notes in computer science",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak",
+      "Ryan Wisnesky"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-319-72044-9_5"
+  },
+  {
+    "slug": "10-1007-s10485-019-09565-x--W2525803243",
+    "doi": "10.1007/s10485-019-09565-x",
+    "doi_url": "https://doi.org/10.1007/s10485-019-09565-x",
+    "title": "Dynamical Systems and Sheaves",
+    "year": "2019",
+    "journal": "Applied Categorical Structures",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak",
+      "Christina Vasilakopoulou"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/s10485-019-09565-x"
+  },
+  {
+    "slug": "10-1007-s10817-022-09634-2--W4283829443",
+    "doi": "10.1007/s10817-022-09634-2",
+    "doi_url": "https://doi.org/10.1007/s10817-022-09634-2",
+    "title": "Fast Left Kan Extensions Using the Chase",
+    "year": "2022",
+    "journal": "Journal of Automated Reasoning",
+    "authors": [
+      "J. Meyers",
+      "David I. Spivak",
+      "Ryan Wisnesky"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/s10817-022-09634-2"
+  },
+  {
+    "slug": "10-1016-j-commatsci-2019-04-002--W2924952803",
+    "doi": "10.1016/j.commatsci.2019.04.002",
+    "doi_url": "https://doi.org/10.1016/j.commatsci.2019.04.002",
+    "title": "Categorical data integration for computational science",
+    "year": "2019",
+    "journal": "Computational Materials Science",
+    "authors": [
+      "Kristopher Brown",
+      "David I. Spivak",
+      "Ryan Wisnesky"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.commatsci.2019.04.002"
+  },
+  {
+    "slug": "10-1016-j-ic-2012-05-001--W1620763508",
+    "doi": "10.1016/j.ic.2012.05.001",
+    "doi_url": "https://doi.org/10.1016/j.ic.2012.05.001",
+    "title": "Functorial data migration",
+    "year": "2012",
+    "journal": "Information and Computation",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.ic.2012.05.001"
+  },
+  {
+    "slug": "10-1016-j-jpaa-2016-10-009--W2279823847",
+    "doi": "10.1016/j.jpaa.2016.10.009",
+    "doi_url": "https://doi.org/10.1016/j.jpaa.2016.10.009",
+    "title": "String diagrams for traced and compact categories are oriented 1-cobordisms",
+    "year": "2017",
+    "journal": "Journal of Pure and Applied Algebra",
+    "authors": [
+      "David I. Spivak",
+      "Patrick Schultz",
+      "Dylan Rupel"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.jpaa.2016.10.009"
+  },
+  {
+    "slug": "10-1016-j-jpaa-2019-02-014--W2809155339",
+    "doi": "10.1016/j.jpaa.2019.02.014",
+    "doi_url": "https://doi.org/10.1016/j.jpaa.2019.02.014",
+    "title": "Hypergraph categories",
+    "year": "2019",
+    "journal": "Journal of Pure and Applied Algebra",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.jpaa.2019.02.014"
+  },
+  {
+    "slug": "10-1016-j-jpaa-2025-107883--W3215987556",
+    "doi": "10.1016/j.jpaa.2025.107883",
+    "doi_url": "https://doi.org/10.1016/j.jpaa.2025.107883",
+    "title": "Functorial aggregation",
+    "year": "2025",
+    "journal": "Journal of Pure and Applied Algebra",
+    "authors": [
+      "David I. Spivak",
+      "Richard Garner",
+      "Aaron David Fairbanks"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.jpaa.2025.107883"
+  },
+  {
+    "slug": "10-1016-j-nantod-2012-09-001--W2058788751",
+    "doi": "10.1016/j.nantod.2012.09.001",
+    "doi_url": "https://doi.org/10.1016/j.nantod.2012.09.001",
+    "title": "Materials by design: Merging proteins and music",
+    "year": "2012",
+    "journal": "Nano Today",
+    "authors": [
+      "Joyce Wong",
+      "John McDonald",
+      "Micki Taylor-Pinney",
+      "David I. Spivak",
+      "David L. Kaplan",
+      "Markus J. Buehler"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.nantod.2012.09.001"
+  },
+  {
+    "slug": "10-1017-9781009576734--W4414540097",
+    "doi": "10.1017/9781009576734",
+    "doi_url": "https://doi.org/10.1017/9781009576734",
+    "title": "Polynomial Functors",
+    "year": "2025",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Nelson Niu",
+      "David I. Spivak"
+    ],
+    "abstract": "Everywhere one looks, one finds dynamic interacting systems: entities expressing and receiving signals between each other and acting and evolving accordingly over time. In this book, the authors give a new syntax for modeling such systems, describing a mathematical theory of interfaces and the way they connect. The discussion is guided by a rich mathematical structure called the category of polynomial functors. The authors synthesize current knowledge to provide a grounded introduction to the material, starting with set theory and building up to specific cases of category-theoretic concepts such as limits, adjunctions, monoidal products, closures, comonoids, comodules, and bicomodules. The text interleaves rigorous mathematical theory with concrete applications, providing detailed examples illustrated with graphical notation as well as exercises with solutions. Graduate students and scholars from a diverse array of backgrounds will appreciate this common language by which to study interactive systems categorically.",
+    "link": "https://doi.org/10.1017/9781009576734"
+  },
+  {
+    "slug": "10-1017-9781108668804--W2961954039",
+    "doi": "10.1017/9781108668804",
+    "doi_url": "https://doi.org/10.1017/9781108668804",
+    "title": "An Invitation to Applied Category Theory: Seven Sketches in Compositionality",
+    "year": "2019",
+    "journal": null,
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "Category theory is unmatched in its ability to organize and layer abstractions and to find commonalities between structures of all sorts. No longer the exclusive preserve of pure mathematicians, it is now proving itself to be a powerful tool in science, informatics, and industry. By facilitating communication between communities and building rigorous bridges between disparate worlds, applied category theory has the potential to be a major organizing force. This book offers a self-contained tour of applied category theory. Each chapter follows a single thread motivated by a real-world application and discussed with category-theoretic tools. We see data migration as an adjoint functor, electrical circuits in terms of monoidal categories and operads, and collaborative design via enriched profunctors. All the relevant category theory, from simple to sophisticated, is introduced in an accessible way with many examples and exercises, making this an ideal guide even for those without experience of university-level mathematics.",
+    "link": "https://doi.org/10.1017/9781108668804"
+  },
+  {
+    "slug": "10-1017-9781108668804--W4210262431",
+    "doi": "10.1017/9781108668804",
+    "doi_url": "https://doi.org/10.1017/9781108668804",
+    "title": "An Invitation to Applied Category Theory",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "Category theory is unmatched in its ability to organize and layer abstractions and to find commonalities between structures of all sorts. No longer the exclusive preserve of pure mathematicians, it is now proving itself to be a powerful tool in science, informatics, and industry. By facilitating communication between communities and building rigorous bridges between disparate worlds, applied category theory has the potential to be a major organizing force. This book offers a self-contained tour of applied category theory. Each chapter follows a single thread motivated by a real-world application and discussed with category-theoretic tools. We see data migration as an adjoint functor, electrical circuits in terms of monoidal categories and operads, and collaborative design via enriched profunctors. All the relevant category theory, from simple to sophisticated, is introduced in an accessible way with many examples and exercises, making this an ideal guide even for those without experience of university-level mathematics.",
+    "link": "https://doi.org/10.1017/9781108668804"
+  },
+  {
+    "slug": "10-1017-9781108668804-001--W4248971969",
+    "doi": "10.1017/9781108668804.001",
+    "doi_url": "https://doi.org/10.1017/9781108668804.001",
+    "title": "Preface",
+    "year": "2019",
+    "journal": null,
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.001"
+  },
+  {
+    "slug": "10-1017-9781108668804-002--W3149210416",
+    "doi": "10.1017/9781108668804.002",
+    "doi_url": "https://doi.org/10.1017/9781108668804.002",
+    "title": "Generative Effects: Orders and Galois Connections",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.002"
+  },
+  {
+    "slug": "10-1017-9781108668804-003--W3166928429",
+    "doi": "10.1017/9781108668804.003",
+    "doi_url": "https://doi.org/10.1017/9781108668804.003",
+    "title": "Resource Theories: Monoidal Preorders and Enrichment",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.003"
+  },
+  {
+    "slug": "10-1017-9781108668804-004--W3090880924",
+    "doi": "10.1017/9781108668804.004",
+    "doi_url": "https://doi.org/10.1017/9781108668804.004",
+    "title": "Databases: Categories, Functors, and Universal Constructions",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.004"
+  },
+  {
+    "slug": "10-1017-9781108668804-005--W3040398058",
+    "doi": "10.1017/9781108668804.005",
+    "doi_url": "https://doi.org/10.1017/9781108668804.005",
+    "title": "Collaborative Design: Profunctors, Categorification, and Monoidal Categories",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.005"
+  },
+  {
+    "slug": "10-1017-9781108668804-006--W4237768519",
+    "doi": "10.1017/9781108668804.006",
+    "doi_url": "https://doi.org/10.1017/9781108668804.006",
+    "title": "Signal Flow Graphs: Props, Presentations, and Proofs",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.006"
+  },
+  {
+    "slug": "10-1017-9781108668804-007--W4252772371",
+    "doi": "10.1017/9781108668804.007",
+    "doi_url": "https://doi.org/10.1017/9781108668804.007",
+    "title": "Electric Circuits: Hypergraph Categories and Operads",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.007"
+  },
+  {
+    "slug": "10-1017-9781108668804-008--W4250103193",
+    "doi": "10.1017/9781108668804.008",
+    "doi_url": "https://doi.org/10.1017/9781108668804.008",
+    "title": "Logic of Behavior: Sheaves, Toposes, and Internal Languages",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.008"
+  },
+  {
+    "slug": "10-1017-9781108668804-009--W4230711385",
+    "doi": "10.1017/9781108668804.009",
+    "doi_url": "https://doi.org/10.1017/9781108668804.009",
+    "title": "Exercise Solutions",
+    "year": "2019",
+    "journal": null,
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.009"
+  },
+  {
+    "slug": "10-1017-9781108668804-010--W4241524213",
+    "doi": "10.1017/9781108668804.010",
+    "doi_url": "https://doi.org/10.1017/9781108668804.010",
+    "title": "References",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.010"
+  },
+  {
+    "slug": "10-1017-9781108668804-011--W4244823159",
+    "doi": "10.1017/9781108668804.011",
+    "doi_url": "https://doi.org/10.1017/9781108668804.011",
+    "title": "Index",
+    "year": "2019",
+    "journal": "Cambridge University Press eBooks",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "A summary is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "link": "https://doi.org/10.1017/9781108668804.011"
+  },
+  {
+    "slug": "10-1021-acsbiomaterials-5b00251--W2511646750",
+    "doi": "10.1021/acsbiomaterials.5b00251",
+    "doi_url": "https://doi.org/10.1021/acsbiomaterials.5b00251",
+    "title": "Matriarch: A Python Library for Materials Architecture",
+    "year": "2015",
+    "journal": "ACS Biomaterials Science & Engineering",
+    "authors": [
+      "Tristan Giesa",
+      "Ravi Jagadeesan",
+      "David I. Spivak",
+      "Markus J. Buehler"
+    ],
+    "abstract": "Biological materials, such as proteins, often have a hierarchical structure ranging from basic building blocks at the nanoscale (e.g., amino acids) to assembled structures at the macroscale (e.g., fibers). Current software for materials engineering allows the user to specify polypeptide chains and simple secondary structures prior to molecular dynamics simulation, but is not flexible in terms of the geometric arrangement of unequilibrated structures. Given some knowledge of a larger-scale structure, instructing the software to create it can be very difficult and time-intensive. To this end, the present paper reports a mathematical language, using category theory, to describe the architecture of a material, i.e., its set of building blocks and instructions for combining them. While this framework applies to any hierarchical material, here we concentrate on proteins. We implement this mathematical language as an open-source Python library called Matriarch. It is a domain-specific language that gives the user the ability to create almost arbitrary structures with arbitrary amino acid sequences and, from them, generate Protein Data Bank (PDB) files. In this way, Matriarch is more powerful than commercial software now available. Matriarch can be used in tandem with molecular dynamics simulations and helps engineers design and modify biologically inspired materials based on their desired functionality. As a case study, we use our software to alter both building blocks and building instructions for tropocollagen, and determine their effect on its structure and mechanical properties.",
+    "link": "https://doi.org/10.1021/acsbiomaterials.5b00251"
+  },
+  {
+    "slug": "10-1037-ccp0000154--W2582653275",
+    "doi": "10.1037/ccp0000154",
+    "doi_url": "https://doi.org/10.1037/ccp0000154",
+    "title": "Decentering in the process of cultivating mindfulness: An experience-sampling study in time and context.",
+    "year": "2017",
+    "journal": "Journal of Consulting and Clinical Psychology",
+    "authors": [
+      "Adi Shoham",
+      "Pavel Goldstein",
+      "Ravit Oren",
+      "David I. Spivak",
+      "Amit Bernstein"
+    ],
+    "abstract": "OBJECTIVE: Through intensive experience sampling, we studied the practice and development of mindfulness as a dynamic process in time and context. We focused on role(s) and salutary function(s) of mindfulness and decentering for emotional experience over the course of mindfulness practice and development. METHOD: (SD) = 25.05 (3.26) years, participated in a 1-month, 6-session, Mahasi-based mindfulness-training intervention (Mahasi, 1978). We collected 52 digital experience samples of mindfulness, decentering, and emotional experience, in the context of daily living and meditative states, over the course of the program. RESULTS: Data were analyzed via time-varying effects models (TVEMs) and mixed-linear models (MLMs) within a single-subject, multiple-baseline experimental design. First, over the course of the intervention, participants grew more mindful and decentered in daily living and meditative states. Second, the association between mindfulness and decentering was significant in daily living, although the magnitude of this association was stronger in meditative states. Third, we observed the same contextualized pattern of relations between mindfulness and emotional valence (happy > sad) as well as arousal (calm > nervous). Finally, whereas decentering mediated the effect of mindfulness on reduced emotional arousal in meditative states, it did not similarly mediate the effect of mindfulness on positive emotional valence. CONCLUSIONS: The present findings illustrate the insights that may be gained about mindfulness mechanisms broadly and decentering specifically through the study of mindfulness as a dynamic, contextualized developmental process over time. (PsycINFO Database Record",
+    "link": "https://doi.org/10.1037/ccp0000154"
+  },
+  {
+    "slug": "10-1063-1-2222081--W2021613497",
+    "doi": "10.1063/1.2222081",
+    "doi_url": "https://doi.org/10.1063/1.2222081",
+    "title": "Anomaly-free sets of fermions",
+    "year": "2006",
+    "journal": "Journal of Mathematical Physics",
+    "authors": [
+      "Puneet Batra",
+      "Bogdan A. Dobrescu",
+      "David I. Spivak"
+    ],
+    "abstract": "We present new techniques for finding anomaly-free sets of fermions. Although the anomaly cancellation conditions typically include cubic equations with integer variables that cannot be solved in general, we prove by construction that any chiral set of fermions can be embedded in a larger set of fermions which is chiral and anomaly-free. Applying these techniques to extensions of the standard model, we find anomaly-free models that have arbitrary quark and lepton charges under an additional U(1) gauge group.",
+    "link": "https://doi.org/10.1063/1.2222081"
+  },
+  {
+    "slug": "10-1088-0957-4484-27-2-024002--W2399216786",
+    "doi": "10.1088/0957-4484/27/2/024002",
+    "doi_url": "https://doi.org/10.1088/0957-4484/27/2/024002",
+    "title": "Categorical prototyping: incorporating molecular mechanisms into 3D printing",
+    "year": "2015",
+    "journal": "Nanotechnology",
+    "authors": [
+      "Dieter B. Brommer",
+      "Tristan Giesa",
+      "David I. Spivak",
+      "Markus J. Buehler"
+    ],
+    "abstract": "We apply the mathematical framework of category theory to articulate the precise relation between the structure and mechanics of a nanoscale system in a macroscopic domain. We maintain the chosen molecular mechanical properties from the nanoscale to the continuum scale. Therein we demonstrate a procedure to 'protoype a model', as category theory enables us to maintain certain information across disparate fields of study, distinct scales, or physical realizations. This process fits naturally with prototyping, as a prototype is not a complete product but rather a reduction to test a subset of properties. To illustrate this point, we use large-scale multi-material printing to examine the scaling of the elastic modulus of 2D carbon allotropes at the macroscale and validate our printed model using experimental testing. The resulting hand-held materials can be examined more readily, and yield insights beyond those available in the original digital representations. We demonstrate this concept by twisting the material, a test beyond the scope of the original model. The method developed can be extended to other methods of additive manufacturing.",
+    "link": "https://doi.org/10.1088/0957-4484/27/2/024002"
+  },
+  {
+    "slug": "10-1090-proc-14834--W2884707905",
+    "doi": "10.1090/proc/14834",
+    "doi_url": "https://doi.org/10.1090/proc/14834",
+    "title": "Decomposition-space slices are toposes",
+    "year": "2020",
+    "journal": "Proceedings of the American Mathematical Society",
+    "authors": [
+      "Joachim Kock",
+      "David I. Spivak"
+    ],
+    "abstract": "We show that the category of decomposition spaces and CULF maps is locally a topos. Precisely, the slice category over any decomposition space <inline-formula content-type=\"math/mathml\"> <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"script upper D\"> <mml:semantics> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi class=\"MJX-tex-caligraphic\" mathvariant=\"script\">D</mml:mi> </mml:mrow> <mml:annotation encoding=\"application/x-tex\">\\mathcal {D}</mml:annotation> </mml:semantics> </mml:math> </inline-formula> is a presheaf topos, namely <inline-formula content-type=\"math/mathml\"> <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"sans-serif upper D sans-serif e sans-serif c sans-serif o sans-serif m sans-serif p Subscript slash script upper D Baseline asymptotically-equals sans-serif upper P sans-serif s sans-serif h left-parenthesis t w script upper D right-parenthesis\"> <mml:semantics> <mml:mrow> <mml:msub> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi mathvariant=\"sans-serif\">D</mml:mi> <mml:mi mathvariant=\"sans-serif\">e</mml:mi> <mml:mi mathvariant=\"sans-serif\">c</mml:mi> <mml:mi mathvariant=\"sans-serif\">o</mml:mi> <mml:mi mathvariant=\"sans-serif\">m</mml:mi> <mml:mi mathvariant=\"sans-serif\">p</mml:mi> </mml:mrow> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mo>/</mml:mo> </mml:mrow> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi class=\"MJX-tex-caligraphic\" mathvariant=\"script\">D</mml:mi> </mml:mrow> </mml:mrow> </mml:msub> <mml:mo> ≃ </mml:mo> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi mathvariant=\"sans-serif\">P</mml:mi> <mml:mi mathvariant=\"sans-serif\">s</mml:mi> <mml:mi mathvariant=\"sans-serif\">h</mml:mi> </mml:mrow> <mml:mo stretchy=\"false\">(</mml:mo> <mml:mi>tw</mml:mi> <mml:mo> ⁡ </mml:mo> <mml:mrow class=\"MJX-TeXAtom-ORD\"> <mml:mi class=\"MJX-tex-caligraphic\" mathvariant=\"script\">D</mml:mi> </mml:mrow> <mml:mo stretchy=\"false\">)</mml:mo> </mml:mrow> <mml:annotation encoding=\"application/x-tex\">\\mathsf {Decomp}_{/\\mathcal {D}}\\simeq \\mathsf {Psh}(\\operatorname {tw} \\mathcal {D})</mml:annotation> </mml:semantics> </mml:math> </inline-formula> .",
+    "link": "https://doi.org/10.1090/proc/14834"
+  },
+  {
+    "slug": "10-1093-comnet-cnw022--W2963051982",
+    "doi": "10.1093/comnet/cnw022",
+    "doi_url": "https://doi.org/10.1093/comnet/cnw022",
+    "title": "Nesting of dynamical systems and mode-dependent networks",
+    "year": "2016",
+    "journal": "Journal of Complex Networks",
+    "authors": [
+      "David I. Spivak",
+      "Joshua Tan"
+    ],
+    "abstract": "For many networks, the connection pattern (often called the topology) can vary in time, depending on the changing state of the modules within the network. This paper addresses the issue of nesting such mode-dependent networks, in which a local network can be abstracted as a single module in a larger network. Each module in the network represents a dynamical system, whose behaviour includes repeatedly updating its communicative mode, and these mode in turn dictate the connection pattern. It is in this way that the dynamics of the modules controls the topology of the networks at all levels. This paper provides a formal semantics, using the category-theoretic framework of operads and their algebras, to capture the nesting property and dynamics of mode-dependent networks. We provide a detailed running example to ground the mathematics.",
+    "link": "https://doi.org/10.1093/comnet/cnw022"
+  },
+  {
+    "slug": "10-1093-logcom-exaa009--W1828748280",
+    "doi": "10.1093/logcom/exaa009",
+    "doi_url": "https://doi.org/10.1093/logcom/exaa009",
+    "title": "Type theoretical databases",
+    "year": "2020",
+    "journal": "Journal of Logic and Computation",
+    "authors": [
+      "Henrik Forssell",
+      "Håkon Robbestad Gylterud",
+      "David I. Spivak"
+    ],
+    "abstract": "Abstract We show how the display-map category of finite (symmetric) simplicial complexes can be seen as representing the totality of database schemas and instances in a single mathematical structure. We give a sound interpretation of a certain dependent type theory in this model and show how it allows for the syntactic specification of schemas and instances and the manipulation of the same with the usual type-theoretic operations.",
+    "link": "https://doi.org/10.1093/logcom/exaa009"
+  },
+  {
+    "slug": "10-1093-oso-9780198748991-003-0016--W2241403022",
+    "doi": "10.1093/oso/9780198748991.003.0016",
+    "doi_url": "https://doi.org/10.1093/oso/9780198748991.003.0016",
+    "title": "Categories as Mathematical Models",
+    "year": "2018",
+    "journal": "Oxford University Press eBooks",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Category theory is presented as a mathematical modelling framework that highlights the relationships between objects, rather than the objects in themselves. A working definition of model is given, and several examples of mathematical objects, such as vector spaces, groups, and dynamical systems, are considered as categorical models.",
+    "link": "https://doi.org/10.1093/oso/9780198748991.003.0016"
+  },
+  {
+    "slug": "10-1109-aero58975-2024-10521207--W4396875938",
+    "doi": "10.1109/aero58975.2024.10521207",
+    "doi_url": "https://doi.org/10.1109/aero58975.2024.10521207",
+    "title": "Network Storage Analysis via Semiring Geometry",
+    "year": "2024",
+    "journal": null,
+    "authors": [
+      "William Bernardoni",
+      "Robert Kassouf-Short",
+      "Robert Cardona",
+      "Brian Heller",
+      "Justin Curry",
+      "David I. Spivak",
+      "Juan A. Fraire"
+    ],
+    "abstract": "The long-term goal of space networking studies is to provide the foundation needed to support a Solar System Internet (SSI). We anticipate that such an SSI would be composed of science and exploration satellites, ground stations, routing satellites, and ultimately humans and robots on the surfaces of different planets throughout our solar system. Interplanetary communications networks will need to handle the delays, disruptions, and disconnections inherent to space communications. The architecture of Delay Tolerant Networking (DTN) provides protocols and strategies to support these communications plans. At its core, DTN relies on a store-carry-forward approach to provide robust communications in the presence of delays and disruptions.In the past, routing models in DTN have focused on the forwarding aspects of store-carry-forward. Methods such as Contact Graph Routing, Contact Multigraph Routing, and Probabilistic Routing Protocol using the History of Encounters and Transitivity (PRoPHET) provide solutions for how to choose where to forward bundles through a network. However, these routing models often function bundle-by-bundle allowing them to set aside storage needs for each node. In order to bring our vision of a SSI to reality, we will need to be able to predict and incorporate storage needs that satellites and rovers will require. Modeling and predicting storage needs is the first step to being able to optimize storage needs and also optimize communication footprints on the size, mass, and power needs of future satellites.In this paper, we introduce a novel semiring model for contact-based routing protocols that includes a means of determining storage needs. Through proper analysis of the semiring structure, we show how to determine optimal storage structures in satellite networks. In addition, we run our analysis on simulated satellite networks to demonstrate the potential for working with these semiring models in a computational framework. We conclude by indicating future directions for semiring analysis is space communications.",
+    "link": "https://doi.org/10.1109/aero58975.2024.10521207"
+  },
+  {
+    "slug": "10-1109-iros51168-2021-9636497--W3028274592",
+    "doi": "10.1109/iros51168.2021.9636497",
+    "doi_url": "https://doi.org/10.1109/iros51168.2021.9636497",
+    "title": "Monitoring and Diagnosability of Perception Systems",
+    "year": "2021",
+    "journal": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "authors": [
+      "Pasquale Antonante",
+      "David I. Spivak",
+      "Luca Carlone"
+    ],
+    "abstract": "Perception is a critical component of high-integrity applications of robotics and autonomous systems, such as self-driving vehicles. In these applications, failure of perception systems may put human life at risk, and a broad adoption of these technologies requires the development of methodologies to guarantee and monitor safe operation. Despite the paramount importance of perception systems, currently there is no formal approach for system-level monitoring. In this work, we propose a mathematical model for runtime monitoring and fault detection and identification in perception systems. Towards this goal, we draw connections with the literature on diagnosability in multiprocessor systems, and generalize it to account for modules with heterogeneous outputs that interact over time. The resulting temporal diagnostic graphs (i) provide a framework to reason over the consistency of perception outputs –across modules and over time– thus enabling fault detection, (ii) allow us to establish formal guarantees on the maximum number of faults that can be uniquely identified in a given perception system, and (iii) enable the design of efficient algorithms for fault identification. We demonstrate our monitoring system, dubbed PerSyS, in realistic simulations using the LGSVL self-driving simulator and the Apollo Auto autonomy software stack, and show that PerSyS is able to detect failures in challenging scenarios (including scenarios that have caused self-driving car accidents in recent years), and is able to correctly identify faults while entailing a minimal computation overhead (< 5 ms on a single-core CPU).",
+    "link": "https://doi.org/10.1109/iros51168.2021.9636497"
+  },
+  {
+    "slug": "10-1109-lics-2019-8785665--W2770981215",
+    "doi": "10.1109/lics.2019.8785665",
+    "doi_url": "https://doi.org/10.1109/lics.2019.8785665",
+    "title": "Backprop as Functor: A compositional perspective on supervised learning",
+    "year": "2019",
+    "journal": null,
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak",
+      "Rémy Tuyéras"
+    ],
+    "abstract": "A supervised learning algorithm searches over a set of functions <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$A\\rightarrow B$</tex> parametrised by a space <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$P$</tex> to find the best approximation to some ideal function <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$f:A\\rightarrow B$</tex> . It does this by taking examples <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(a, f(a))\\in A\\times B$</tex> , and updating the parameter according to some rule. We define a category where these update rules may be composed, and show that gradient descent-with respect to a fixed step size and an error function satisfying a certain property-defines a monoidal functor from a category of parametrised functions to this category of update rules. A key contribution is the notion of request function. This provides a structural perspective on backpropagation, giving a broad generalisation of neural networks and linking it with structures from bidirectional programming and open games.",
+    "link": "https://doi.org/10.1109/lics.2019.8785665"
+  },
+  {
+    "slug": "10-1109-syseng-2016-7753120--W2345892226",
+    "doi": "10.1109/syseng.2016.7753120",
+    "doi_url": "https://doi.org/10.1109/syseng.2016.7753120",
+    "title": "Pixel matrices: An elementary technique for solving nonlinear systems",
+    "year": "2016",
+    "journal": null,
+    "authors": [
+      "David I. Spivak",
+      "Dominique Ernadote",
+      "Omar Hammammi"
+    ],
+    "abstract": "A new technique for approximating the entire solution set, in any bounding box, for a nonlinear system of relations (nonlinear equations, inequalities, etc. involving algebraic, smooth, or even continuous functions) is presented. The technique is to first plot each function as a pixel matrix, and to then perform a sequence of basic matrix operations, as dictated by how variables are shared by the relations in the system. The result is a pixel matrix graphing the approximated simultaneous solution set for the system.",
+    "link": "https://doi.org/10.1109/syseng.2016.7753120"
+  },
+  {
+    "slug": "10-1115-1-4034268--W2503508924",
+    "doi": "10.1115/1.4034268",
+    "doi_url": "https://doi.org/10.1115/1.4034268",
+    "title": "Using Category Theory to Facilitate Multiple Manufacturing Service Database Integration",
+    "year": "2016",
+    "journal": "Journal of Computing and Information Science in Engineering",
+    "authors": [
+      "Ryan Wisnesky",
+      "Spencer Breiner",
+      "Albert Jones",
+      "David I. Spivak",
+      "Eswaran Subrahmanian"
+    ],
+    "abstract": "The goal of this paper is to illustrate the use of category theory (CT) as a basis for the integration of manufacturing service databases. In this paper, we use as our reference prior work by Kulvatunyou et al. (2013, “An Analysis of OWL-Based Semantic Mediation Approaches to Enhance Manufacturing Service Capability Models,” Int. J. Comput. Integr. Manuf., 27(9), pp. 803–823) on the use of web ontology language (OWL)-based semantic web tools to study the integration of different manufacturing service capability (MSC) databases using a generic-model approach that they propose in their paper. We approach the same task using a different set of tools, specifically CT and FQL, a functorial query language based on categorical mathematics. This work demonstrates the potential utility of category-theoretic information management tools and illustrates some advantages of categorical techniques for the integration and evolution of databases. We conclude by making the case that a category-theoretic approach can provide a more flexible and robust approach to integration of existing and evolving information.",
+    "link": "https://doi.org/10.1115/1.4034268"
+  },
+  {
+    "slug": "10-1142-9789814749411_0053--W2329366179",
+    "doi": "10.1142/9789814749411_0053",
+    "doi_url": "https://doi.org/10.1142/9789814749411_0053",
+    "title": "WORKSHOP ON TOPOLOGY AND ABSTRACT ALGEBRA FOR BIOMEDICINE",
+    "year": "2015",
+    "journal": null,
+    "authors": [
+      "Eric Neumann",
+      "Svetlana Lockwood",
+      "Bala Krishnamoorthy",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1142/9789814749411_0053"
+  },
+  {
+    "slug": "10-1142-s0219199716500474--W2288848236",
+    "doi": "10.1142/s0219199716500474",
+    "doi_url": "https://doi.org/10.1142/s0219199716500474",
+    "title": "Homotopy composition of cospans",
+    "year": "2016",
+    "journal": "Communications in Contemporary Mathematics",
+    "authors": [
+      "Joachim Kock",
+      "David I. Spivak"
+    ],
+    "abstract": "It is well known that the category of finite sets and cospans, composed by pushout, contains the universal special commutative Frobenius algebra. In this paper, we observe that the same construction yields also general commutative Frobenius algebras, if just the pushouts are changed to homotopy pushouts.",
+    "link": "https://doi.org/10.1142/s0219199716500474"
+  },
+  {
+    "slug": "10-1145-2815072-2815075--W2000500583",
+    "doi": "10.1145/2815072.2815075",
+    "doi_url": "https://doi.org/10.1145/2815072.2815075",
+    "title": "Relational foundations for functorial data migration",
+    "year": "2015",
+    "journal": null,
+    "authors": [
+      "David I. Spivak",
+      "Ryan Wisnesky"
+    ],
+    "abstract": "We study the data transformation capabilities associated with schemas that are presented by directed multi-graphs and path equations. Unlike most approaches which treat graph-based schemas as abbreviations for relational schemas, we treat graph-based schemas as categories. A schema S is a finitely-presented category, and the collection of all S-instances forms a category, S-inst. A functor F between schemas S and T, which can be generated from a visual mapping between graphs, induces three adjoint data migration functors, Sigma_F : S-inst -> T-inst, Pi_F : S-inst -> T-inst, and Delta_F : T-inst -> S-inst. We present an algebraic query language FQL based on these functors, prove that FQL is closed under composition, prove that FQL can be implemented with the select-project-product-union relational algebra (SPCU) extended with a key-generation operation, and prove that SPCU can be implemented with FQL.",
+    "link": "https://doi.org/10.1145/2815072.2815075"
+  },
+  {
+    "slug": "10-1155-2019-6803526--W2966473719",
+    "doi": "10.1155/2019/6803526",
+    "doi_url": "https://doi.org/10.1155/2019/6803526",
+    "title": "Memoryless Systems Generate the Class of all Discrete Systems",
+    "year": "2019",
+    "journal": "International Journal of Mathematics and Mathematical Sciences",
+    "authors": [
+      "Erwan Beurier",
+      "Dominique Pastor",
+      "David I. Spivak"
+    ],
+    "abstract": "Automata are machines, which receive inputs, accordingly update their internal state, and produce output, and are a common abstraction for the basic building blocks used in engineering and science to describe and design complex systems. These arbitrarily simple machines can be wired together—so that the output of one is passed to another as its input—to form more complex machines. Indeed, both modern computers and biological systems can be described in this way, as assemblies of transistors or assemblies of simple cells. The complexity is in the network, i.e., the connection patterns between simple machines. The main result of this paper is to show that the range of simplicity for parts as compared to the complexity for wholes is in some sense complete: the most complex automaton can be obtained by wiring together direct-output memoryless components. The model we use—discrete-time automata sending each other messages from a fixed set of possibilities—is certainly more appropriate for computer systems than for biological systems. However, the result leads one to wonder what might be the simplest sort of machines, broadly construed, that can be assembled to produce the behaviour found in biological systems, including the brain.",
+    "link": "https://doi.org/10.1155/2019/6803526"
+  },
+  {
+    "slug": "10-1215-00127094-2010-021--W2167716795",
+    "doi": "10.1215/00127094-2010-021",
+    "doi_url": "https://doi.org/10.1215/00127094-2010-021",
+    "title": "Derived smooth manifolds",
+    "year": "2010",
+    "journal": "Duke Mathematical Journal",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "We define a simplicial category called the category of derived manifolds. It contains the category of smooth manifolds as a full discrete subcategory, and it is closed under taking arbitrary intersections in a manifold. A derived manifold is a space together with a sheaf of local C∞-rings that is obtained by patching together homotopy zero sets of smooth functions on Euclidean spaces. We show that derived manifolds come equipped with a stable normal bundle and can be imbedded into Euclidean space. We define a cohomology theory called derived cobordism, and use a Pontrjagin-Thom argument to show that the derived cobordism theory is isomorphic to the classical cobordism theory. This allows us to define fundamental classes in cobordism for all derived manifolds. In particular, the intersection A∩B of submanifolds A,B⊂X exists on the categorical level in our theory, and a cup product formula [A]⌣[B]=[A∩B] holds, even if the submanifolds are not transverse. One can thus consider the theory of derived manifolds as a categorification of intersection theory.",
+    "link": "https://doi.org/10.1215/00127094-2010-021"
+  },
+  {
+    "slug": "10-1371-journal-pone-0023911--W2166712553",
+    "doi": "10.1371/journal.pone.0023911",
+    "doi_url": "https://doi.org/10.1371/journal.pone.0023911",
+    "title": "Category Theoretic Analysis of Hierarchical Protein Materials and Social Networks",
+    "year": "2011",
+    "journal": "PLoS ONE",
+    "authors": [
+      "David I. Spivak",
+      "Tristan Giesa",
+      "Elizabeth Wood",
+      "Markus J. Buehler"
+    ],
+    "abstract": "Materials in biology span all the scales from Angstroms to meters and typically consist of complex hierarchical assemblies of simple building blocks. Here we describe an application of category theory to describe structural and resulting functional properties of biological protein materials by developing so-called ologs. An olog is like a \"concept web\" or \"semantic network\" except that it follows a rigorous mathematical formulation based on category theory. This key difference ensures that an olog is unambiguous, highly adaptable to evolution and change, and suitable for sharing concepts with other olog. We consider simple cases of beta-helical and amyloid-like protein filaments subjected to axial extension and develop an olog representation of their structural and resulting mechanical properties. We also construct a representation of a social network in which people send text-messages to their nearest neighbors and act as a team to perform a task. We show that the olog for the protein and the olog for the social network feature identical category-theoretic representations, and we proceed to precisely explicate the analogy or isomorphism between them. The examples presented here demonstrate that the intrinsic nature of a complex system, which in particular includes a precise relationship between structure and function at different hierarchical levels, can be effectively represented by an olog. This, in turn, allows for comparative studies between disparate materials or fields of application, and results in novel approaches to derive functionality in the design of de novo hierarchical systems. We discuss opportunities and challenges associated with the description of complex biological materials by using ologs as a powerful tool for analysis and design in the context of materiomics, and we present the potential impact of this approach for engineering, life sciences, and medicine.",
+    "link": "https://doi.org/10.1371/journal.pone.0023911"
+  },
+  {
+    "slug": "10-1371-journal-pone-0024274--W1987993132",
+    "doi": "10.1371/journal.pone.0024274",
+    "doi_url": "https://doi.org/10.1371/journal.pone.0024274",
+    "title": "Ologs: A Categorical Framework for Knowledge Representation",
+    "year": "2012",
+    "journal": "PLoS ONE",
+    "authors": [
+      "David I. Spivak",
+      "Robert E. Kent"
+    ],
+    "abstract": "In this paper we introduce the olog, or ontology log, a category-theoretic model for knowledge representation (KR). Grounded in formal mathematics, ologs can be rigorously formulated and cross-compared in ways that other KR models (such as semantic networks) cannot. An olog is similar to a relational database schema; in fact an olog can serve as a data repository if desired. Unlike database schemas, which are generally difficult to create or modify, ologs are designed to be user-friendly enough that authoring or reconfiguring an olog is a matter of course rather than a difficult chore. It is hoped that learning to author ologs is much simpler than learning a database definition language, despite their similarity. We describe ologs carefully and illustrate with many examples. As an application we show that any primitive recursive function can be described by an olog. We also show that ologs can be aligned or connected together into a larger network using functors. The various methods of information flow and institutions can then be used to integrate local and global world-views. We finish by providing several different avenues for future research.",
+    "link": "https://doi.org/10.1371/journal.pone.0024274"
+  },
+  {
+    "slug": "10-18653-v1-w16-3609--W2566531585",
+    "doi": "10.18653/v1/w16-3609",
+    "doi_url": "https://doi.org/10.18653/v1/w16-3609",
+    "title": "Classifying Emotions in Customer Support Dialogues in Social Media",
+    "year": "2016",
+    "journal": null,
+    "authors": [
+      "Jonathan Herzig",
+      "Guy Feigenblat",
+      "Michal Shmueli-Scheuer",
+      "David Konopnicki",
+      "Anat Rafaeli",
+      "Daniel Altman",
+      "David I. Spivak"
+    ],
+    "abstract": "Jonathan Herzig, Guy Feigenblat, Michal Shmueli-Scheuer, David Konopnicki, Anat Rafaeli, Daniel Altman, David Spivak. Proceedings of the 17th Annual Meeting of the Special Interest Group on Discourse and Dialogue. 2016.",
+    "link": "https://doi.org/10.18653/v1/w16-3609"
+  },
+  {
+    "slug": "10-2118-10785-pa--W1982674263",
+    "doi": "10.2118/10785-pa",
+    "doi_url": "https://doi.org/10.2118/10785-pa",
+    "title": "Unsteady-State Pressure Response Due to Production With a Slotted Liner Completion",
+    "year": "1983",
+    "journal": "Journal of Petroleum Technology",
+    "authors": [
+      "David I. Spivak",
+      "Roland N. Horne"
+    ],
+    "abstract": "Summary The transient behaviour of production from a well with a slotted liner has been solved analytically by the source function method. The unsteady-state pressure response was examined as a function of slot frequency and slot pressure response was examined as a function of slot frequency and slot length, with a penetration ratio of 1:2. The results indicate that limited entry into the well causes skin effects. However, the effects become negligible when three or more slots are distributed around the circumference of the liner. For more than three slots, the well effectively behaves like a continuous-surface cylindrical source (or a line source well, depending on time and location). We conclude that there is likely to be little reduction in flow efficiency in an ideal slotted liner completion, unless some slots are clogged. Introduction A well is completed with a slotted liner when sand problems occur, mainly in unconsolidated formations. The slotted liner is a preperforated tubing. Usually, the slots are milled and machined in vertical rows, parallel to the axis of the pipe. The most common patterns of slot arrangement are staggered vertical, multiple staggered vertical, and horizontal (Fig. 1). Standard spacing of slots is 6 in. between the slots in each vertical row, while their length is usually 1 1/2 to 2 in., depending on their width. The common practice is to specify two rows for each inch of nominal pipe diameter. An analytical solution to the problem of transient pressure response due to production through a liner with staggered vertical rows of slots was found. The technique used was the source function method suggested by Gringarten and Ramey. It applies the use of a line source of finite length that in turn represents one of the systems of slots. The solution technique was verified by comparison with the continuous-surface cylinder solution in the case of a large number of vertical rows of slots. No storage or damaged zone effects were considered. Problem Description Problem Description Consider an infinite, homogeneous, and isotropic porous medium. The transient (unsteady-state) flow of a slightly compressible fluid is governed by the diffusivity equation ............................(1) where = is the diffusivity term. The solution to a particular problem is determined by the initial and boundary conditions. One of the problem is determined by the initial and boundary conditions. One of the most well-known solutions is Kelvin's instantaneous point source function, ............................(2) Eq. 2 represents the pressure drop created at Point M in a reservoir of infinite extent by an instantaneous point source of strength q at Point P, distance d from Point M (Fig. 2). JPT p. 1366",
+    "link": "https://doi.org/10.2118/10785-pa"
+  },
+  {
+    "slug": "10-21236-ada543905--W101332057",
+    "doi": "10.21236/ada543905",
+    "doi_url": "https://doi.org/10.21236/ada543905",
+    "title": "Categorical Information Theory",
+    "year": "2011",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Abstract : This report will summarize my progress toward fulfilling the goals of ONR grant N000141010841 (Categorical Information Theory) during the first year performance period, June 15, 2010 through June 15, 2011. During this time, I have been hosted as a postdoctoral associate in the mathematics department at the Massachusetts Institute of Technology under Professor Haynes Miller. The Technical Proposal for this grant can be found online at: http://math.mit.edu/-dspivakk/informatics/technical proposal2010.pdf.",
+    "link": "https://doi.org/10.21236/ada543905"
+  },
+  {
+    "slug": "10-2140-agt-2011-11-225--W2085018767",
+    "doi": "10.2140/agt.2011.11.225",
+    "doi_url": "https://doi.org/10.2140/agt.2011.11.225",
+    "title": "Rigidification of quasi-categories",
+    "year": "2011",
+    "journal": "Algebraic & Geometric Topology",
+    "authors": [
+      "Daniel Dugger",
+      "David I. Spivak"
+    ],
+    "abstract": "We give a new construction for rigidifying a quasi-category into a simplicial category, and prove that it is weakly equivalent to the rigidification given by Lurie. Our construction comes from the use of necklaces, which are simplicial sets obtained by stringing simplices together. As an application of these methods, we use our model to reprove some basic facts from Lurie [13] about the rigidification process. 55U40; 18G30, 18B99",
+    "link": "https://doi.org/10.2140/agt.2011.11.225"
+  },
+  {
+    "slug": "10-4204-eptcs-323-14--W3085954997",
+    "doi": "10.4204/eptcs.323.14",
+    "doi_url": "https://doi.org/10.4204/eptcs.323.14",
+    "title": "String Diagrams for Regular Logic (Extended Abstract)",
+    "year": "2020",
+    "journal": "Electronic Proceedings in Theoretical Computer Science",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "Regular logic can be regarded as the internal language of regular categories, but the logic itself is generally not given a categorical treatment. In this paper, we understand the syntax and proof rules of regular logic in terms of the free regular category FRg(T) on a set T. From this point of view, regular theories are certain monoidal 2-functors from a suitable 2-category of contexts -- the 2-category of relations in FRg(T) -- to that of posets. Such functors assign to each context the set of formulas in that context, ordered by entailment. We refer to such a 2-functor as a regular calculus because it naturally gives rise to a graphical string diagram calculus in the spirit of Joyal and Street. We shall show that every natural category has an associated regular calculus, and conversely from every regular calculus one can construct a regular category.",
+    "link": "https://doi.org/10.4204/eptcs.323.14"
+  },
+  {
+    "slug": "10-4204-eptcs-333--W3125083901",
+    "doi": "10.4204/eptcs.333",
+    "doi_url": "https://doi.org/10.4204/eptcs.333",
+    "title": "Proceedings of the 3rd Annual International Applied Category Theory Conference 2020",
+    "year": "2021",
+    "journal": "Electronic Proceedings in Theoretical Computer Science",
+    "authors": [
+      "David I. Spivak",
+      "Jamie Vicary"
+    ],
+    "abstract": "The third annual International Applied Category Theory Conference (ACT2020) was planned to take place at MIT in Cambridge, Massachusetts USA. However, the global COVID-19 pandemic made the prospect of holding a large in-person meeting impossible, and the event was thus held completely online. Holding the talks online had the new benefits of reducing carbon footprint, being inclusive of people from more parts of the world, and producing higher-quality video talks, which have been posted online for posterity. The ACT2020 contributions spanned a broad spectrum of application areas, including databases, dynamical systems, functional programming, game theory, lenses, neuroscience, probabilistic programming, natural language processing, quantum mechanics, and cyberphysical systems. Papers featured a broad range of categorical techniques. Papers in this Proceedings volume represents about half of the talks presented at ACT2020. Being included in the proceedings vs. not is not an indication of talk quality, but instead almost exclusively the choice of the authors, e.g. to present work already published elsewhere.",
+    "link": "https://doi.org/10.4204/eptcs.333"
+  },
+  {
+    "slug": "10-4204-eptcs-333-0--W3121791452",
+    "doi": "10.4204/eptcs.333.0",
+    "doi_url": "https://doi.org/10.4204/eptcs.333.0",
+    "title": "Proceedings of the 3rd Annual International Applied Category Theory Conference 2020",
+    "year": "2021",
+    "journal": "Electronic Proceedings in Theoretical Computer Science",
+    "authors": [
+      "David I. Spivak",
+      "Jamie Vicary"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.4204/eptcs.333.0"
+  },
+  {
+    "slug": "10-4204-eptcs-333-10--W3020881623",
+    "doi": "10.4204/eptcs.333.10",
+    "doi_url": "https://doi.org/10.4204/eptcs.333.10",
+    "title": "A Compositional Sheaf-Theoretic Framework for Event-Based Systems",
+    "year": "2021",
+    "journal": "Electronic Proceedings in Theoretical Computer Science",
+    "authors": [
+      "Gioele Zardini",
+      "David I. Spivak",
+      "Andrea Censi",
+      "Emilio Frazzoli"
+    ],
+    "abstract": "A compositional sheaf-theoretic framework for the modeling of complex event-based systems is presented. We show that event-based systems are machines, with inputs and outputs, and that they can be composed with machines of different types, all within a unified, sheaf-theoretic formalism. We take robotic systems as an exemplar of complex systems and rigorously describe actuators, sensors, and algorithms using this framework.",
+    "link": "https://doi.org/10.4204/eptcs.333.10"
+  },
+  {
+    "slug": "10-4204-eptcs-372-2--W3134681674",
+    "doi": "10.4204/eptcs.372.2",
+    "doi_url": "https://doi.org/10.4204/eptcs.372.2",
+    "title": "Learners' Languages",
+    "year": "2022",
+    "journal": "Electronic Proceedings in Theoretical Computer Science",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "In \"Backprop as functor\", the authors show that the fundamental elements of deep learning -- gradient descent and backpropagation -- can be conceptualized as a strong monoidal functor Para(Euc)$\\to$Learn from the category of parameterized Euclidean spaces to that of learners, a category developed explicitly to capture parameter update and backpropagation. It was soon realized that there is an isomorphism Learn$\\cong$Para(Slens), where Slens is the symmetric monoidal category of simple lenses as used in functional programming. In this note, we observe that Slens is a full subcategory of Poly, the category of polynomial functors in one variable, via the functor $A\\mapsto Ay^A$. Using the fact that (Poly,$\\otimes$) is monoidal closed, we show that a map $A\\to B$ in Para(Slens) has a natural interpretation in terms of dynamical systems (more precisely, generalized Moore machines) whose interface is the internal-hom type $[Ay^A,By^B]$. Finally, we review the fact that the category p-Coalg of dynamical systems on any $p \\in$ Poly forms a topos, and consider the logical propositions that can be stated in its internal language. We give gradient descent as an example, and we conclude by discussing some directions for future work.",
+    "link": "https://doi.org/10.4204/eptcs.372.2"
+  },
+  {
+    "slug": "10-4204-eptcs-372-20--W4307867696",
+    "doi": "10.4204/eptcs.372.20",
+    "doi_url": "https://doi.org/10.4204/eptcs.372.20",
+    "title": "Temporal Landscapes: A Graphical Logic of Behavior",
+    "year": "2022",
+    "journal": "Electronic Proceedings in Theoretical Computer Science",
+    "authors": [
+      "Brendan Fong",
+      "Alberto Speranzon",
+      "David I. Spivak"
+    ],
+    "abstract": "We present an elementary introduction to a new logic for reasoning about behaviors that occur over time. This logic is based on temporal type theory. The syntax of the logic is similar to the usual first-order logic; what differs is the notion of truth value. Instead of reasoning about whether formulas are true or false, our logic reasons about temporal landscapes. A temporal landscape may be thought of as representing the set of durations over which a statement is true. To help understand the practical implications of this approach, we give a wide variety of examples where this logic is used to reason about autonomous agents.",
+    "link": "https://doi.org/10.4204/eptcs.372.20"
+  },
+  {
+    "slug": "10-4204-eptcs-380-11--W4385349607",
+    "doi": "10.4204/eptcs.380.11",
+    "doi_url": "https://doi.org/10.4204/eptcs.380.11",
+    "title": "Dynamic Operads, Dynamic Categories: From Deep Learning to Prediction Markets",
+    "year": "2023",
+    "journal": "Electronic Proceedings in Theoretical Computer Science",
+    "authors": [
+      "Brandon T. Shapiro",
+      "David I. Spivak"
+    ],
+    "abstract": "Natural organized systems adapt to internal and external pressures and this happens at all levels of the abstraction hierarchy. Wanting to think clearly about this idea motivates our paper, and so the idea is elaborated extensively in the introduction, which should be broadly accessible to a philosophically-interested audience. In the remaining sections, we turn to more compressed category theory. We define the monoidal double category Org of dynamic organizations, we provide definitions of Org-enriched, or dynamic, categorical structures -- e.g. dynamic categories, operads, and monoidal categories -- and we show how they instantiate the motivating philosophical ideas. We give two examples of dynamic categorical structures: prediction markets as a dynamic operad and deep learning as a dynamic monoidal category.",
+    "link": "https://doi.org/10.4204/eptcs.380.11"
+  },
+  {
+    "slug": "10-4204-eptcs-380-19--W4385342820",
+    "doi": "10.4204/eptcs.380.19",
+    "doi_url": "https://doi.org/10.4204/eptcs.380.19",
+    "title": "Polynomial Functors and Shannon Entropy",
+    "year": "2023",
+    "journal": "Electronic Proceedings in Theoretical Computer Science",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Past work shows that one can associate a notion of Shannon entropy to a Dirichlet polynomial, regarded as an empirical distribution. Indeed, entropy can be extracted from any d:Dir by a two-step process, where the first step is a rig homomorphism out of Dir, the *set* of Dirichlet polynomials, with rig structure given by standard addition and multiplication. In this short note, we show that this rig homomorphism can be upgraded to a rig *functor*, when we replace the set of Dirichlet polynomials by the *category* of ordinary (Cartesian) polynomials. In the Cartesian case, the process has three steps. The first step is a rig functor PolyCart -> Poly sending a polynomial p to (dp)y, where dp is the derivative of p. The second is a rig functor Poly -> Set x Set^op, sending a polynomial q to the pair (q(1),Gamma(q)), where Gamma(q)=Poly(q,y) can be interpreted as the global sections of q viewed as a bundle, and q(1) as its base. To make this precise we define what appears to be a new distributive monoidal structure on Set x Set^op, which can be understood geometrically in terms of rectangles. The last step, as for Dirichlet polynomials, is simply to extract the entropy as a real number from a pair of sets (A,B); it is given by log A - log B^(1/A) and can be thought of as the log aspect ratio of the rectangle.",
+    "link": "https://doi.org/10.4204/eptcs.380.19"
+  },
+  {
+    "slug": "10-4204-eptcs-429-1--W4414402205",
+    "doi": "10.4204/eptcs.429.1",
+    "doi_url": "https://doi.org/10.4204/eptcs.429.1",
+    "title": "Pattern Runs on Matter: The Free Monad Monad as a Module over the Cofree Comonad Comonad",
+    "year": "2025",
+    "journal": "Electronic Proceedings in Theoretical Computer Science",
+    "authors": [
+      "Sophie Libkind",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.4204/eptcs.429.1"
+  },
+  {
+    "slug": "10-46298-entics-16885--W4403810511",
+    "doi": "10.46298/entics.16885",
+    "doi_url": "https://doi.org/10.46298/entics.16885",
+    "title": "Polynomial Universes in Homotopy Type Theory",
+    "year": "2025",
+    "journal": "Electronic Notes in Theoretical Informatics and Computer Science",
+    "authors": [
+      "C. B. Aberlé",
+      "David I. Spivak"
+    ],
+    "abstract": "Awodey, later with Newstead, showed how polynomial functors with extra structure (termed ``natural models'') hold within them the categorical semantics for dependent type theory. Their work presented these ideas clearly but ultimately led them outside of the usual category of polynomial functors to a particular \\emph{tricategory} of polynomials in order to explain all of the structure possessed by such models. This paper builds off that work -- explicating the categorical semantics of dependent type theory by axiomatizing them entirely in terms of the usual category of polynomial functors. In order to handle the higher-categorical coherences required for such an explanation, we work with polynomial functors in the language of Homotopy Type Theory (HoTT), which allows for higher-dimensional structures to be expressed purely within this category. The move to HoTT moreover enables us to express a key additional condition on polynomial functors -- \\emph{univalence} -- which is sufficient to guarantee that models of type theory expressed as univalent polynomials satisfy all higher coherences of their corresponding algebraic structures, purely in virtue of being closed under the usual constructors of dependent type theory. We call polynomial functors satisfying this condition \\emph{polynomial universes}. As an example of the simplification to the theory of natural models this enables, we highlight the fact that a polynomial universe being closed under dependent product types implies the existence of a distributive law of monads, which witnesses the usual distributivity of dependent products over dependent sums.",
+    "link": "https://doi.org/10.46298/entics.16885"
+  },
+  {
+    "slug": "10-48550-arxiv-0810-5174--W3033383644",
+    "doi": "10.48550/arxiv.0810.5174",
+    "doi_url": "https://doi.org/10.48550/arxiv.0810.5174",
+    "title": "Derived Smooth Manifolds",
+    "year": "2008",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "We define a simplicial category called the category of derived manifolds. It contains the category of smooth manifolds as a full discrete subcategory, and it is closed under taking arbitrary intersections in a manifold. A derived manifold is a space together with a sheaf of local $C^\\infty$-rings that is obtained by patching together homotopy zero-sets of smooth functions on Euclidean spaces. We show that derived manifolds come equipped with a stable normal bundle and can be imbedded into Euclidean space. We define a cohomology theory called derived cobordism, and use a Pontrjagin-Thom argument to show that the derived cobordism theory is isomorphic to the classical cobordism theory. This allows us to define fundamental classes in cobordism for all derived manifolds. In particular, the intersection $A\\cap B$ of submanifolds $A,B\\subset X$ exists on the categorical level in our theory, and a cup product formula $$[A]\\smile[B]=[A\\cap B]$$ holds, even if the submanifolds are not transverse. One can thus consider the theory of derived manifolds as a {\\em categorification} of intersection theory.",
+    "link": "https://doi.org/10.48550/arxiv.0810.5174"
+  },
+  {
+    "slug": "10-48550-arxiv-0904-2012--W3037561223",
+    "doi": "10.48550/arxiv.0904.2012",
+    "doi_url": "https://doi.org/10.48550/arxiv.0904.2012",
+    "title": "Simplicial Databases",
+    "year": "2009",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "In this paper, we define a category DB, called the category of simplicial databases, whose objects are databases and whose morphisms are data-preserving maps. Along the way we give a precise formulation of the category of relational databases, and prove that it is a full subcategory of DB. We also prove that limits and colimits always exist in DB and that they correspond to queries such as select, join, union, etc. One feature of our construction is that the schema of a simplicial database has a natural geometric structure: an underlying simplicial set. The geometry of a schema is a way of keeping track of relationships between distinct tables, and can be thought of as a system of foreign keys. The shape of a schema is generally intuitive (e.g. the schema for round-trip flights is a circle consisting of an edge from $A$ to $B$ and an edge from $B$ to $A$), and as such, may be useful for analyzing data. We give several applications of our approach, as well as possible advantages it has over the relational model. We also indicate some directions for further research.",
+    "link": "https://doi.org/10.48550/arxiv.0904.2012"
+  },
+  {
+    "slug": "10-48550-arxiv-0909-4314--W2148331931",
+    "doi": "10.48550/arxiv.0909.4314",
+    "doi_url": "https://doi.org/10.48550/arxiv.0909.4314",
+    "title": "Higher-dimensional models of networks",
+    "year": "2009",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Networks are often studied as graphs, where the vertices stand for entities in the world and the edges stand for connections between them. While relatively easy to study, graphs are often inadequate for modeling real-world situations, especially those that include contexts of more than two entities. For these situations, one typically uses hypergraphs or simplicial complexes. In this paper, we provide a precise framework in which graphs, hypergraphs, simplicial complexes, and many other categories, all of which model higher graphs, can be studied side-by-side. We show how to transform a hypergraph into its nearest simplicial analogue, for example. Our framework includes many new categories as well, such as one that models broadcasting networks. We give several examples and applications of these ideas.",
+    "link": "https://doi.org/10.48550/arxiv.0909.4314"
+  },
+  {
+    "slug": "10-48550-arxiv-1003-2682--W1834608635",
+    "doi": "10.48550/arxiv.1003.2682",
+    "doi_url": "https://doi.org/10.48550/arxiv.1003.2682",
+    "title": "Table manipulation in simplicial databases",
+    "year": "2010",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "In \\cite{Spi}, we developed a category of databases in which the schema of a database is represented as a simplicial set. Each simplex corresponds to a table in the database. There, our main concern was to find a categorical formulation of databases; the simplicial nature of the schemas was to some degree unexpected and unexploited. In the present note, we show how to use this geometric formulation effectively on a computer. If we think of each simplex as a polygonal tile, we can imagine assembling custom databases by mixing and matching tiles. Queries on this database can be performed by drawing paths through the resulting tile formations, selecting records at the start-point of this path and retrieving corresponding records at its end-point.",
+    "link": "https://doi.org/10.48550/arxiv.1003.2682"
+  },
+  {
+    "slug": "10-48550-arxiv-1009-1166--W2951469116",
+    "doi": "10.48550/arxiv.1009.1166",
+    "doi_url": "https://doi.org/10.48550/arxiv.1009.1166",
+    "title": "Functorial Data Migration",
+    "year": "2010",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "In this paper we present a simple database definition language: that of categories and functors. A database schema is a small category and an instance is a set-valued functor on it. We show that morphisms of schemas induce three \"data migration functors\", which translate instances from one schema to the other in canonical ways. These functors parameterize projections, unions, and joins over all tables simultaneously and can be used in place of conjunctive and disjunctive queries. We also show how to connect a database and a functional programming language by introducing a functorial connection between the schema and the category of types for that language. We begin the paper with a multitude of examples to motivate the definitions, and near the end we provide a dictionary whereby one can translate database concepts into category-theoretic concepts and vice-versa.",
+    "link": "https://doi.org/10.48550/arxiv.1009.1166"
+  },
+  {
+    "slug": "10-48550-arxiv-1209-1011--W1604874971",
+    "doi": "10.48550/arxiv.1209.1011",
+    "doi_url": "https://doi.org/10.48550/arxiv.1209.1011",
+    "title": "Kleisli Database Instances",
+    "year": "2012",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "We use monads to relax the atomicity requirement for data in a database. Depending on the choice of monad, the database fields may contain generalized values such as lists or sets of values, or they may contain exceptions such as various types of nulls. The return operation for monads ensures that any ordinary database instance will count as one of these generalized instances, and the bind operation ensures that generalized values behave well under joins of foreign key sequences. Different monads allow for vastly different types of information to be stored in the database. For example, we show that classical concepts like Markov chains, graphs, and finite state automata are each perfectly captured by a different monad on the same schema.",
+    "link": "https://doi.org/10.48550/arxiv.1209.1011"
+  },
+  {
+    "slug": "10-48550-arxiv-1302-6946--W20101561",
+    "doi": "10.48550/arxiv.1302.6946",
+    "doi_url": "https://doi.org/10.48550/arxiv.1302.6946",
+    "title": "Category theory for scientists (Old version)",
+    "year": "2013",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "There are many books designed to introduce category theory to either a mathematical audience or a computer science audience. In this book, our audience is the broader scientific community. We attempt to show that category theory can be applied throughout the sciences as a framework for modeling phenomena and communicating results. In order to target the scientific audience, this book is example-based rather than proof-based. For example, monoids are framed in terms of agents acting on objects, sheaves are introduced with primary examples coming from geography, and colored operads are discussed in terms of their ability to model self-similarity. A new version with solutions to exercises will be available through MIT Press.",
+    "link": "https://doi.org/10.48550/arxiv.1302.6946"
+  },
+  {
+    "slug": "10-48550-arxiv-1305-0297--W1857886188",
+    "doi": "10.48550/arxiv.1305.0297",
+    "doi_url": "https://doi.org/10.48550/arxiv.1305.0297",
+    "title": "The operad of wiring diagrams: formalizing a graphical language for databases, recursion, and plug-and-play circuits",
+    "year": "2013",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Wiring diagrams, as seen in digital circuits, can be nested hierarchically and thus have an aspect of self-similarity. We show that wiring diagrams form the morphisms of an operad $\\mcT$, capturing this self-similarity. We discuss the algebra $\\Rel$ of mathematical relations on $\\mcT$, and in so doing use wiring diagrams as a graphical language with which to structure queries on relational databases. We give the example of circuit diagrams as a special case. We move on to show how plug-and-play devices and also recursion can be formulated in the operadic framework as well. Throughout we include many examples and figures.",
+    "link": "https://doi.org/10.48550/arxiv.1305.0297"
+  },
+  {
+    "slug": "10-48550-arxiv-1307-6894--W1541203236",
+    "doi": "10.48550/arxiv.1307.6894",
+    "doi_url": "https://doi.org/10.48550/arxiv.1307.6894",
+    "title": "The operad of temporal wiring diagrams: formalizing a graphical language for discrete-time processes",
+    "year": "2013",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Dylan Rupel",
+      "David I. Spivak"
+    ],
+    "abstract": "We investigate the hierarchical structure of processes using the mathematical theory of operads. Information or material enters a given process as a stream of inputs, and the process converts it to a stream of outputs. Output streams can then be supplied to other processes in an organized manner, and the resulting system of interconnected processes can itself be considered a macro process. To model the inherent structure in this kind of system, we define an operad $\\mathcal{W}$ of black boxes and directed wiring diagrams, and we define a $\\mathcal{W}$-algebra $\\mathcal{P}$ of processes (which we call propagators, after Radul and Sussman). Previous operadic models of wiring diagrams use undirected wires without length, useful for modeling static systems of constraints, whereas we use directed wires with length, useful for modeling dynamic flows of information. We give multiple examples throughout to ground the ideas.",
+    "link": "https://doi.org/10.48550/arxiv.1307.6894"
+  },
+  {
+    "slug": "10-48550-arxiv-1401-7694--W2949519281",
+    "doi": "10.48550/arxiv.1401.7694",
+    "doi_url": "https://doi.org/10.48550/arxiv.1401.7694",
+    "title": "Experience Implementing a Performant Category-Theory Library in Coq",
+    "year": "2014",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Jason Gross",
+      "Adam Chlipala",
+      "David I. Spivak"
+    ],
+    "abstract": "We describe our experience implementing a broad category-theory library in Coq. Category theory and computational performance are not usually mentioned in the same breath, but we have needed substantial engineering effort to teach Coq to cope with large categorical constructions without slowing proof script processing unacceptably. In this paper, we share the lessons we have learned about how to represent very abstract mathematical objects and arguments in Coq and how future proof assistants might be designed to better support such reasoning. One particular encoding trick to which we draw attention allows category-theoretic arguments involving duality to be internalized in Coq's logic with definitional equality. Ours may be the largest Coq development to date that uses the relatively new Coq version developed by homotopy type theorists, and we reflect on which new features were especially helpful.",
+    "link": "https://doi.org/10.48550/arxiv.1401.7694"
+  },
+  {
+    "slug": "10-48550-arxiv-1408-1598--W2962868940",
+    "doi": "10.48550/arxiv.1408.1598",
+    "doi_url": "https://doi.org/10.48550/arxiv.1408.1598",
+    "title": "Algebras of Open Dynamical Systems on the Operad of Wiring Diagrams",
+    "year": "2014",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Dmitry Vagner",
+      "David I. Spivak",
+      "Eugene Lerman"
+    ],
+    "abstract": "In this paper, we use the language of operads to study open dynamical systems. More specifically, we study the algebraic nature of assembling complex dynamical systems from an interconnection of simpler ones. The syntactic architecture of such interconnections is encoded using the visual language of wiring diagrams. We define the symmetric monoidal category W, from which we may construct an operad O(W), whose objects are black boxes with input and output ports, and whose morphisms are wiring diagrams, thus prescribing the algebraic rules for interconnection. We then define two W-algebras, G and L, which associate semantic content to the structures in W. Respectively, they correspond to general and to linear systems of differential equations, in which an internal state is controlled by inputs and produces outputs. As an example, we use these algebras to formalize the classical problem of systems of tanks interconnected by pipes, and hence make explicit the algebraic relationships among systems at different levels of granularity.",
+    "link": "https://doi.org/10.48550/arxiv.1408.1598"
+  },
+  {
+    "slug": "10-48550-arxiv-1409-6067--W4302590493",
+    "doi": "10.48550/arxiv.1409.6067",
+    "doi_url": "https://doi.org/10.48550/arxiv.1409.6067",
+    "title": "Categories as mathematical models",
+    "year": "2014",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Written to be contributed as the \"mathematical modeling\" chapter of a book, edited by Elaine Landry, to be titled \"Categories for the Working Philosopher\". In this chapter, category theory is presented as a mathematical modeling framework that highlights the relationships between objects, rather than the objects in themselves. A working definition of model is given, and several examples of mathematical objects, such as vector spaces, groups, and dynamical systems, are considered as categorical models.",
+    "link": "https://doi.org/10.48550/arxiv.1409.6067"
+  },
+  {
+    "slug": "10-48550-arxiv-1502-05947--W1759456168",
+    "doi": "10.48550/arxiv.1502.05947",
+    "doi_url": "https://doi.org/10.48550/arxiv.1502.05947",
+    "title": "Functorial Data Migration: From Theory to Practice",
+    "year": "2015",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Ryan Wisnesky",
+      "David I. Spivak",
+      "Patrick Schultz",
+      "Eswaran Subrahmanian"
+    ],
+    "abstract": "In this paper we describe a functorial data migration scenario about the manufacturing service capability of a distributed supply chain. The scenario is a category-theoretic analog of an OWL ontology-based semantic enrichment scenario developed at the National Institute of Standards and Technology (NIST). The scenario is presented using, and is included with, the open-source FQL tool, available for download at categoricaldata.net/fql.html.",
+    "link": "https://doi.org/10.48550/arxiv.1502.05947"
+  },
+  {
+    "slug": "10-48550-arxiv-1502-07380--W1520399885",
+    "doi": "10.48550/arxiv.1502.07380",
+    "doi_url": "https://doi.org/10.48550/arxiv.1502.07380",
+    "title": "Nesting of dynamic systems and mode-dependent networks",
+    "year": "2015",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak",
+      "Joshua Tan"
+    ],
+    "abstract": "For many networks, the connection pattern (often called the topology) can vary in time, depending on the changing state, or mode, of the modules within the network. For example, \"airplane mode\" is the name for one communicative mode of a modern cellphone, in which it will not connect with any cellphone towers; thus the topology of the cellular network is dependent on the modes of its modules. This paper addresses the issue of nesting such mode-dependent networks, in which a local network can be abstracted as a single module in a larger network. Each module in the network represents a dynamic system, whose behavior includes repeatedly updating its communicative mode. It is in this way that the dynamics of the modules controls the topology of the networks at all levels. This paper provides a formal semantics, using the category-theoretic framework of operads and their algebras, to capture the nesting property and dynamics of mode-dependent networks. We provide a detailed running example to ground the mathematics.",
+    "link": "https://doi.org/10.48550/arxiv.1502.07380"
+  },
+  {
+    "slug": "10-48550-arxiv-1503-08326--W2238207481",
+    "doi": "10.48550/arxiv.1503.08326",
+    "doi_url": "https://doi.org/10.48550/arxiv.1503.08326",
+    "title": "Toward formalizing ologs: Linguistic structures, instantiations, and mappings",
+    "year": "2015",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Marco A. Pérez",
+      "David I. Spivak"
+    ],
+    "abstract": "We define the notion of linguistic structure on a small category, in order to provide a more formal description of ontology logs, also known as ologs, introduced by R. E. Kent and D. I. Spivak in their paper \"Ologs: A categorical framework for knowledge representation.\" In particular, we construct a bicategory $\\mathsf{Eng}$, of English noun phrases and verb phrases, endorsed as functional by varying sets of authors. An olog is then defined as a lax functor to $\\mathsf{Eng}$. We then present a new notion of linguistic functor, which extends Spivak's notion of meaningful functors. Finally, we discuss the relationship between ologs and databases in this context.",
+    "link": "https://doi.org/10.48550/arxiv.1503.08326"
+  },
+  {
+    "slug": "10-48550-arxiv-1511-06459--W2271552969",
+    "doi": "10.48550/arxiv.1511.06459",
+    "doi_url": "https://doi.org/10.48550/arxiv.1511.06459",
+    "title": "QINL: Query-integrated Languages",
+    "year": "2015",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak",
+      "Ryan Wisnesky"
+    ],
+    "abstract": "We describe an alternative solution to the impedance-mismatch problem between programming and query languages: rather than embed queries in a programming language, as done in LINQ systems, we embed programs in a query language, and dub the result QINL.",
+    "link": "https://doi.org/10.48550/arxiv.1511.06459"
+  },
+  {
+    "slug": "10-48550-arxiv-1512-00802--W2258159692",
+    "doi": "10.48550/arxiv.1512.00802",
+    "doi_url": "https://doi.org/10.48550/arxiv.1512.00802",
+    "title": "The steady states of coupled dynamical systems compose according to matrix arithmetic",
+    "year": "2015",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Open dynamical systems are mathematical models of machines that take input, change their internal state, and produce output. For example, one may model anything from neurons to robots in this way. Several open dynamical systems can be arranged in series, in parallel, and with feedback to form a new dynamical system---this is called compositionality---and the process can be repeated in a fractal-like manner to form more complex systems of systems. One issue is that as larger systems are created, their state space grows exponentially. In this paper a technique for calculating the steady states of an interconnected system of systems, in terms of the steady states of its component dynamical systems, is provided. These are organized into \"steady state matrices\" which generalize bifurcation diagrams. It is shown that the compositionality structure of dynamical systems fits with the familiar monoidal structure for the steady state matrices, where serial, parallel, and feedback composition of matrices correspond to multiplication, Kronecker product, and partial trace operations. The steady state matrices of dynamical systems respect this compositionality structure, exponentially reducing the complexity involved in studying the steady states of composite dynamical systems.",
+    "link": "https://doi.org/10.48550/arxiv.1512.00802"
+  },
+  {
+    "slug": "10-48550-arxiv-1512-00802--W4297693258",
+    "doi": "10.48550/arxiv.1512.00802",
+    "doi_url": "https://doi.org/10.48550/arxiv.1512.00802",
+    "title": "The steady states of coupled dynamical systems compose according to\\n matrix arithmetic",
+    "year": "2015",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Open dynamical systems are mathematical models of machines that take input,\\nchange their internal state, and produce output. For example, one may model\\nanything from neurons to robots in this way. Several open dynamical systems can\\nbe arranged in series, in parallel, and with feedback to form a new dynamical\\nsystem---this is called compositionality---and the process can be repeated in a\\nfractal-like manner to form more complex systems of systems. One issue is that\\nas larger systems are created, their state space grows exponentially.\\n In this paper a technique for calculating the steady states of an\\ninterconnected system of systems, in terms of the steady states of its\\ncomponent dynamical systems, is provided. These are organized into \"steady\\nstate matrices\" which generalize bifurcation diagrams. It is shown that the\\ncompositionality structure of dynamical systems fits with the familiar monoidal\\nstructure for the steady state matrices, where serial, parallel, and feedback\\ncomposition of matrices correspond to multiplication, Kronecker product, and\\npartial trace operations. The steady state matrices of dynamical systems\\nrespect this compositionality structure, exponentially reducing the complexity\\ninvolved in studying the steady states of composite dynamical systems.\\n",
+    "link": "https://doi.org/10.48550/arxiv.1512.00802"
+  },
+  {
+    "slug": "10-48550-arxiv-1602-01017--W2270959447",
+    "doi": "10.48550/arxiv.1602.01017",
+    "doi_url": "https://doi.org/10.48550/arxiv.1602.01017",
+    "title": "An algebra of open continuous time dynamical systems and networks",
+    "year": "2016",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Eugene Lerman",
+      "David I. Spivak"
+    ],
+    "abstract": "Many systems of interest in science and engineering are made up of interacting subsystems. These subsystems, in turn, could be made up of collections of smaller interacting subsystems and so on. In a series of papers David Spivak with collaborators formalized these kinds of structures (systems of systems) as algebras over presentable colored operads. It is also very useful to consider maps between dynamical systems. This amounts to viewing dynamical systems as objects in an appropriate category. This is the point taken by DeVille and Lerman in the study of dynamics on networks. The goal of this paper is to describe an algebraic structure that encompasses both approaches to systems of systems. To this end we replace the monoidal category of wiring diagrams by a monoidal double category whose objects are surjective submersions. This allows us, on one hand, build new large open systems out of collections of smaller open subsystems and on the other keep track of maps between open systems. As a special case we recover the results of DeVille and Lerman on fibrations of networks of manifolds.",
+    "link": "https://doi.org/10.48550/arxiv.1602.01017"
+  },
+  {
+    "slug": "10-48550-arxiv-1609-00061--W2509972842",
+    "doi": "10.48550/arxiv.1609.00061",
+    "doi_url": "https://doi.org/10.48550/arxiv.1609.00061",
+    "title": "Pixel Arrays: A fast and elementary method for solving nonlinear systems",
+    "year": "2016",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak",
+      "Magdalen R. C. Dobson",
+      "Sapna Kumari",
+      "Lawrence Wu"
+    ],
+    "abstract": "We present a new method, called the pixel array method, for approximating all solutions in a bounding box for an arbitrary nonlinear system of relations. In contrast with other solvers, our approach requires that the user must specify which variables are to be exposed, and which are to be left latent. The entire solution set is then obtained---in terms of these exposed variables---by performing a series of array multiplications on the $n_i$-dimensional plots of the individual relations $R_i$. This procedure introduces no false negatives and is much faster than Newton-based solvers. The key is the unexposed variables, which Newton methods can make no use of. In fact, we found that with even a single unexposed variable our method was more than 10x faster than Julia's NLsolve. Due to its relative simplicity, the pixel array method is also applicable to a broader class of systems than Newton-based solvers are. The purpose of this article is to give an account of this new method.",
+    "link": "https://doi.org/10.48550/arxiv.1609.00061"
+  },
+  {
+    "slug": "10-48550-arxiv-1710-10258--W2765356358",
+    "doi": "10.48550/arxiv.1710.10258",
+    "doi_url": "https://doi.org/10.48550/arxiv.1710.10258",
+    "title": "Temporal Type Theory: A topos-theoretic approach to systems and behavior",
+    "year": "2017",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak"
+    ],
+    "abstract": "This book introduces a temporal type theory, the first of its kind as far as we know. It is based on a standard core, and as such it can be formalized in a proof assistant such as Coq or Lean by adding a number of axioms. Well-known temporal logics---such as Linear and Metric Temporal Logic (LTL and MTL)---embed within the logic of temporal type theory. The types in this theory represent \"behavior types\". The language is rich enough to allow one to define arbitrary hybrid dynamical systems, which are mixtures of continuous dynamics---e.g. as described by a differential equation---and discrete jumps. In particular, the derivative of a continuous real-valued function is internally defined. We construct a semantics for the temporal type theory in the topos of sheaves on a translation-invariant quotient of the standard interval domain. In fact, domain theory plays a recurring role in both the semantics and the type theory.",
+    "link": "https://doi.org/10.48550/arxiv.1710.10258"
+  },
+  {
+    "slug": "10-48550-arxiv-1802-03080--W2786154455",
+    "doi": "10.48550/arxiv.1802.03080",
+    "doi_url": "https://doi.org/10.48550/arxiv.1802.03080",
+    "title": "Abstraction, Composition and Contracts: A Sheaf Theoretic Approach",
+    "year": "2018",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Alberto Speranzon",
+      "David I. Spivak",
+      "Srivatsan Varadarajan"
+    ],
+    "abstract": "Complex systems of systems (SoS) are characterized by multiple interconnected subsystems. Typically, each subsystem is designed and analyzed using methodologies and formalisms that are specific to the particular subsystem model of computation considered --- Petri nets, continuous time ODEs, nondeterministic automata, to name a few. When interconnecting subsystems, a designer needs to choose, based on the specific subsystems models, a common abstraction framework to analyze the composition. In this paper we introduce a new framework for abstraction, composition and analysis of SoS that builds on results and methods developed in sheaf theory, category theory and topos theory. In particular, we will be modeling behaviors of systems using sheaves, leverage category theoretic methods to define wiring diagrams and formalize composition and, by establishing a connection with topos theory, define a formal (intuitionistic/constructive) logic with a sound sheaf semantics",
+    "link": "https://doi.org/10.48550/arxiv.1802.03080"
+  },
+  {
+    "slug": "10-48550-arxiv-1803-05316--W2789380954",
+    "doi": "10.48550/arxiv.1803.05316",
+    "doi_url": "https://doi.org/10.48550/arxiv.1803.05316",
+    "title": "Seven Sketches in Compositionality: An Invitation to Applied Category Theory",
+    "year": "2018",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "This book is an invitation to discover advanced topics in category theory through concrete, real-world examples. It aims to give a tour: a gentle, quick introduction to guide later exploration. The tour takes place over seven sketches, each pairing an evocative application, such as databases, electric circuits, or dynamical systems, with the exploration of a categorical structure, such as adjoint functors, enriched categories, or toposes. No prior knowledge of category theory is assumed. A feedback form for typos, comments, questions, and suggestions is available here: https://docs.google.com/document/d/160G9OFcP5DWT8Stn7TxdVx83DJnnf7d5GML0_FOD5Wg/edit",
+    "link": "https://doi.org/10.48550/arxiv.1803.05316"
+  },
+  {
+    "slug": "10-48550-arxiv-1803-05316--W4295187716",
+    "doi": "10.48550/arxiv.1803.05316",
+    "doi_url": "https://doi.org/10.48550/arxiv.1803.05316",
+    "title": "Seven Sketches in Compositionality: An Invitation to Applied Category\\n Theory",
+    "year": "2018",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "This book is an invitation to discover advanced topics in category theory\\nthrough concrete, real-world examples. It aims to give a tour: a gentle, quick\\nintroduction to guide later exploration. The tour takes place over seven\\nsketches, each pairing an evocative application, such as databases, electric\\ncircuits, or dynamical systems, with the exploration of a categorical\\nstructure, such as adjoint functors, enriched categories, or toposes.\\n No prior knowledge of category theory is assumed.\\n A feedback form for typos, comments, questions, and suggestions is available\\nhere:\\nhttps://docs.google.com/document/d/160G9OFcP5DWT8Stn7TxdVx83DJnnf7d5GML0_FOD5Wg/edit\\n",
+    "link": "https://doi.org/10.48550/arxiv.1803.05316"
+  },
+  {
+    "slug": "10-48550-arxiv-1806-08304--W4293392492",
+    "doi": "10.48550/arxiv.1806.08304",
+    "doi_url": "https://doi.org/10.48550/arxiv.1806.08304",
+    "title": "Hypergraph Categories",
+    "year": "2018",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "Hypergraph categories have been rediscovered at least five times, under various names, including well-supported compact closed categories, dgs-monoidal categories, and dungeon categories. Perhaps the reason they keep being reinvented is two-fold: there are many applications---including to automata, databases, circuits, linear relations, graph rewriting, and belief propagation---and yet the standard definition is so involved and ornate as to be difficult to find in the literature. Indeed, a hypergraph category is, roughly speaking, a \"symmetric monoidal category in which each object is equipped with the structure of a special commutative Frobenius monoid, satisfying certain coherence conditions\". Fortunately, this description can be simplified a great deal: a hypergraph category is simply a \"cospan-algebra\". The goal of this paper is to remove the scare-quotes and make the previous statement precise. We prove two main theorems. First is a coherence theorem for hypergraph categories, which says that every hypergraph category is equivalent to an objectwise-free hypergraph category. Second, we prove that the category of objectwise-free hypergraph categories is equivalent to the category of cospan-algebras.",
+    "link": "https://doi.org/10.48550/arxiv.1806.08304"
+  },
+  {
+    "slug": "10-48550-arxiv-1808-01724--W2886856328",
+    "doi": "10.48550/arxiv.1808.01724",
+    "doi_url": "https://doi.org/10.48550/arxiv.1808.01724",
+    "title": "Evaluating the Pixel Array Method as Applied to Partial Differential Equations",
+    "year": "2018",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Cynthia T. Liu",
+      "David I. Spivak"
+    ],
+    "abstract": "The Pixel Array (PA) Method, originally introduced by Spivak et. al., is a fast method for solving nonlinear or linear systems. One of its distinguishing features is that it presents all solutions within a bounding box, represented by a plot whose axes are the values of \"exposed variables.\" Here we develop a set-theoretic variant of the PA method, named the Pixel Array Solution-Set (PASS) method, that gives PA access to \"hidden variables\" whose values are not displayed on plot axes. We evaluate the effectiveness of PASS at numerically finding steady states for several partial differential equations. We discretize several one-dimensional solved reaction-diffusion equations, such as the Fisher equation and the Benjamin-Bona-Mohany equation, using finite differences. Then, we run PASS on each equation, and determine whether it successfully finds all boundary conditions for which a numerical steady state might exist. Then we verify whether the steady states found by PASS are correct. Finally, we discuss the benefits and weaknesses of PASS.",
+    "link": "https://doi.org/10.48550/arxiv.1808.01724"
+  },
+  {
+    "slug": "10-48550-arxiv-1808-01724--W4289709043",
+    "doi": "10.48550/arxiv.1808.01724",
+    "doi_url": "https://doi.org/10.48550/arxiv.1808.01724",
+    "title": "Evaluating the Pixel Array Method as Applied to Partial Differential\\n Equations",
+    "year": "2018",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Cynthia T. Liu",
+      "David I. Spivak"
+    ],
+    "abstract": "The Pixel Array (PA) Method, originally introduced by Spivak et. al., is a\\nfast method for solving nonlinear or linear systems. One of its distinguishing\\nfeatures is that it presents all solutions within a bounding box, represented\\nby a plot whose axes are the values of \"exposed variables.\" Here we develop a\\nset-theoretic variant of the PA method, named the Pixel Array Solution-Set\\n(PASS) method, that gives PA access to \"hidden variables\" whose values are not\\ndisplayed on plot axes. We evaluate the effectiveness of PASS at numerically\\nfinding steady states for several partial differential equations. We discretize\\nseveral one-dimensional solved reaction-diffusion equations, such as the Fisher\\nequation and the Benjamin-Bona-Mohany equation, using finite differences. Then,\\nwe run PASS on each equation, and determine whether it successfully finds all\\nboundary conditions for which a numerical steady state might exist. Then we\\nverify whether the steady states found by PASS are correct. Finally, we discuss\\nthe benefits and weaknesses of PASS.\\n",
+    "link": "https://doi.org/10.48550/arxiv.1808.01724"
+  },
+  {
+    "slug": "10-48550-arxiv-1811-00420--W3040425581",
+    "doi": "10.48550/arxiv.1811.00420",
+    "doi_url": "https://doi.org/10.48550/arxiv.1811.00420",
+    "title": "Behavioral Mereology (Proofs and Properties)",
+    "year": "2018",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David Jaz Myers",
+      "David I. Spivak"
+    ],
+    "abstract": "Mereology is the study of parts and the relationships that hold between them. We introduce a behavioral approach to mereology, in which systems and their parts are known only by the types of behavior they can exhibit. Our discussion is formally topos-theoretic, and agnostic to the topos, providing maximal generality; however, by using only its internal logic we can hide the details and readers may assume a completely elementary set-theoretic discussion. We consider the relationship between various parts of a whole in terms of how behavioral constraints are passed between them, and give an inter-modal logic that generalizes the usual alethic modalities in the setting of symmetric accessibility.",
+    "link": "https://doi.org/10.48550/arxiv.1811.00420"
+  },
+  {
+    "slug": "10-48550-arxiv-1812-05765--W2904087444",
+    "doi": "10.48550/arxiv.1812.05765",
+    "doi_url": "https://doi.org/10.48550/arxiv.1812.05765",
+    "title": "Graphical Regular Logic",
+    "year": "2018",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "Regular logic can be regarded as the internal language of regular categories, but the logic itself is generally not given a categorical treatment. In this paper, we understand the syntax and proof rules of regular logic in terms of the free regular category $\\mathsf{FRg}(\\mathrm{T})$ on a set $\\mathrm{T}$. From this point of view, regular theories are certain monoidal 2-functors from a suitable 2-category of contexts---the 2-category of relations in $\\mathsf{FRg}(\\mathrm{T})$---to the 2-category of posets. Such functors assign to each context the set of formulas in that context, ordered by entailment. We refer to such a 2-functor as a regular calculus because it naturally gives rise to a graphical string diagram calculus in the spirit of Joyal and Street. Our key aim to prove that the category of regular categories is essentially reflective in that of regular calculi. Along the way, we demonstrate how to use this graphical calculus.",
+    "link": "https://doi.org/10.48550/arxiv.1812.05765"
+  },
+  {
+    "slug": "10-48550-arxiv-1903-10579--W2950428792",
+    "doi": "10.48550/arxiv.1903.10579",
+    "doi_url": "https://doi.org/10.48550/arxiv.1903.10579",
+    "title": "Categorical Data Integration for Computational Science",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Kristopher Brown",
+      "David I. Spivak",
+      "Ryan Wisnesky"
+    ],
+    "abstract": "Categorical Query Language is an open-source query and data integration scripting language that can be applied to common challenges in the field of computational science. We discuss how the structure-preserving nature of CQL data migrations protect those who publicly share data from the misinterpretation of their data. Likewise, this feature of CQL migrations allows those who draw from public data sources to be sure only data which meets their specification will actually be transferred. We argue some open problems in the field of data sharing in computational science are addressable by working within this paradigm of functorial data migration. We demonstrate these tools by integrating data from the Open Quantum Materials Database with some alternative materials databases.",
+    "link": "https://doi.org/10.48550/arxiv.1903.10579"
+  },
+  {
+    "slug": "10-48550-arxiv-1904-01081--W4288378230",
+    "doi": "10.48550/arxiv.1904.01081",
+    "doi_url": "https://doi.org/10.48550/arxiv.1904.01081",
+    "title": "Temporal Landscapes: A Graphical Logic of Behavior",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "Alberto Speranzon",
+      "David I. Spivak"
+    ],
+    "abstract": "We present an elementary introduction to a new logic for reasoning about behaviors that occur over time. This logic is based on temporal type theory. The syntax of the logic is similar to the usual first-order logic; what differs is the notion of truth value. Instead of reasoning about whether formulas are true or false, our logic reasons about temporal landscapes. A temporal landscape may be thought of as representing the set of durations over which a statement is true. To help understand the practical implications of this approach, we give a wide variety of examples where this logic is used to reason about autonomous agents.",
+    "link": "https://doi.org/10.48550/arxiv.1904.01081"
+  },
+  {
+    "slug": "10-48550-arxiv-1908-02202--W2964664814",
+    "doi": "10.48550/arxiv.1908.02202",
+    "doi_url": "https://doi.org/10.48550/arxiv.1908.02202",
+    "title": "Generalized Lens Categories via functors $\\mathcal{C}^{\\rm op}\\to\\mathsf{Cat}$",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Lenses have a rich history and have recently received a great deal of attention from applied category theorists. We generalize the notion of lens by defining a category $\\mathsf{Lens}_F$ for any category $\\mathcal{C}$ and functor $F\\colon \\mathcal{C}^{\\rm op}\\to\\mathsf{Cat}$, using a variant of the Grothendieck construction. All of the mathematics in this note is straightforward; the purpose is simply to see lenses in a broader context where some closely-related examples, such as ringed spaces and open continuous dynamical systems, can be included.",
+    "link": "https://doi.org/10.48550/arxiv.1908.02202"
+  },
+  {
+    "slug": "10-48550-arxiv-1908-02202--W4288266665",
+    "doi": "10.48550/arxiv.1908.02202",
+    "doi_url": "https://doi.org/10.48550/arxiv.1908.02202",
+    "title": "Generalized Lens Categories via functors $\\\\mathcal{C}^{\\\\rm\\n op}\\\\to\\\\mathsf{Cat}$",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Lenses have a rich history and have recently received a great deal of\\nattention from applied category theorists. We generalize the notion of lens by\\ndefining a category $\\\\mathsf{Lens}_F$ for any category $\\\\mathcal{C}$ and\\nfunctor $F\\\\colon \\\\mathcal{C}^{\\\\rm op}\\\\to\\\\mathsf{Cat}$, using a variant of the\\nGrothendieck construction. All of the mathematics in this note is\\nstraightforward; the purpose is simply to see lenses in a broader context where\\nsome closely-related examples, such as ringed spaces and open continuous\\ndynamical systems, can be included.\\n",
+    "link": "https://doi.org/10.48550/arxiv.1908.02202"
+  },
+  {
+    "slug": "10-48550-arxiv-1908-02633--W2965901565",
+    "doi": "10.48550/arxiv.1908.02633",
+    "doi_url": "https://doi.org/10.48550/arxiv.1908.02633",
+    "title": "Supplying bells and whistles in symmetric monoidal categories",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "It is common to encounter symmetric monoidal categories $\\mathcal{C}$ for which every object is equipped with an algebraic structure, in a way that is compatible with the monoidal product and unit in $\\mathcal{C}$. We define this formally and say that $\\mathcal{C}$ supplies the algebraic structure. For example, the category $\\mathsf{Rel}$ of relations between sets has monoidal structures given by both cartesian product and disjoint union, and with respect to either one it supplies comonoids. We prove several facts about the notion of supply, e.g. that the associators, unitors, and braiding of $\\mathcal{C}$ are automatically homomorphisms for any supply, as are the coherence isomorphisms for any strong symmetric monoidal functor that preserve supplies. We also show that any supply of structure in a symmetric monoidal category can be extended to a supply of that structure on its strictification.",
+    "link": "https://doi.org/10.48550/arxiv.1908.02633"
+  },
+  {
+    "slug": "10-48550-arxiv-1909-00069--W2971761055",
+    "doi": "10.48550/arxiv.1909.00069",
+    "doi_url": "https://doi.org/10.48550/arxiv.1909.00069",
+    "title": "Regular and relational categories: Revisiting 'Cartesian bicategories I'",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "Regular logic is the fragment of first order logic generated by $=$, $\\top$, $\\wedge$, and $\\exists$. A key feature of this logic is that it is the minimal fragment required to express composition of binary relations; another is that it is the internal logic of regular categories. The link between these two facts is that in any regular category, one may construct a notion of binary relation using jointly-monic spans; this results in what is known as the bicategory of relations of the regular category. In this paper we provide a direct axiomatization of bicategories of relations, which we term relational po-categories, reinterpreting the earlier work of Carboni and Walters along these lines. Our main contribution is an explicit proof that the 2-category of regular categories is equivalent to that of relational po-categories. Throughout, we emphasize the graphical nature of relational po-categories.",
+    "link": "https://doi.org/10.48550/arxiv.1909.00069"
+  },
+  {
+    "slug": "10-48550-arxiv-2003-04827--W3011940842",
+    "doi": "10.48550/arxiv.2003.04827",
+    "doi_url": "https://doi.org/10.48550/arxiv.2003.04827",
+    "title": "Dirichlet Polynomials form a Topos",
+    "year": "2020",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak",
+      "David Jaz Myers"
+    ],
+    "abstract": "One can think of power series or polynomials in one variable, such as $P(x)=2x^3+x+5$, as functors from the category $\\mathsf{Set}$ of sets to itself; these are known as polynomial functors. Denote by $\\mathsf{Poly}_{\\mathsf{Set}}$ the category of polynomial functors on $\\mathsf{Set}$ and natural transformations between them. The constants $0,1$ and operations $+,\\times$ that occur in $P(x)$ are actually the initial and terminal objects and the coproduct and product in $\\mathsf{Poly}_{\\mathsf{Set}}$. Just as the polynomial functors on $\\mathsf{Set}$ are the copresheaves that can be written as sums of representables, one can express any Dirichlet series, e.g.\\ $\\sum_{n=0}^\\infty n^x$, as a coproduct of representable presheaves. A Dirichlet polynomial is a finite Dirichlet series, that is, a finite sum of representables $n^x$. We discuss how both polynomial functors and their Dirichlet analogues can be understood in terms of bundles, and go on to prove that the category of Dirichlet polynomials is an elementary topos.",
+    "link": "https://doi.org/10.48550/arxiv.2003.04827"
+  },
+  {
+    "slug": "10-48550-arxiv-2004-04183--W3016198869",
+    "doi": "10.48550/arxiv.2004.04183",
+    "doi_url": "https://doi.org/10.48550/arxiv.2004.04183",
+    "title": "Dirichlet Functors are Contravariant Polynomial Functors",
+    "year": "2020",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David Jaz Myers",
+      "David I. Spivak"
+    ],
+    "abstract": "Polynomial functors are sums of covariant representable functors from the category of sets to itself. They have a robust theory with many applications -- from operads and opetopes to combinatorial species. In this paper, we define a contravariant analogue of polynomial functors: Dirichlet functors. We develop the basic theory of Dirichlet functors, and relate them to their covariant analogues.",
+    "link": "https://doi.org/10.48550/arxiv.2004.04183"
+  },
+  {
+    "slug": "10-48550-arxiv-2005-01894--W3021991498",
+    "doi": "10.48550/arxiv.2005.01894",
+    "doi_url": "https://doi.org/10.48550/arxiv.2005.01894",
+    "title": "Poly: An abundant categorical setting for mode-dependent dynamics",
+    "year": "2020",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Dynamical systems---by which we mean machines that take time-varying input, change their state, and produce output---can be wired together to form more complex systems. Previous work has shown how to allow collections of machines to reconfigure their wiring diagram dynamically, based on their collective state. This notion was called \"mode dependence\", and while the framework was compositional (forming an operad of re-wiring diagrams and algebra of mode-dependent dynamical systems on it), the formulation itself was more \"creative\" than it was natural. In this paper we show that the theory of mode-dependent dynamical systems can be more naturally recast within the category Poly of polynomial functors. This category is almost superlatively abundant in its structure: for example, it has \\emph{four} interacting monoidal structures $(+,\\times,\\otimes,\\circ)$, two of which ($\\times,\\otimes$) are monoidal closed, and the comonoids for $\\circ$ are precisely categories in the usual sense. We discuss how the various structures in Poly show up in the theory of dynamical systems. We also show that the usual coalgebraic formalism for dynamical systems takes place within Poly. Indeed one can see coalgebras as special dynamical systems---ones that do not record their history---formally analogous to contractible groupoids as special categories.",
+    "link": "https://doi.org/10.48550/arxiv.2005.01894"
+  },
+  {
+    "slug": "10-48550-arxiv-2009-06836--W3107904919",
+    "doi": "10.48550/arxiv.2009.06836",
+    "doi_url": "https://doi.org/10.48550/arxiv.2009.06836",
+    "title": "String Diagrams for Regular Logic (Extended Abstract)",
+    "year": "2020",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "Regular logic can be regarded as the internal language of regular categories, but the logic itself is generally not given a categorical treatment. In this paper, we understand the syntax and proof rules of regular logic in terms of the free regular category FRg(T) on a set T. From this point of view, regular theories are certain monoidal 2-functors from a suitable 2-category of contexts -- the 2-category of relations in FRg(T) -- to that of posets. Such functors assign to each context the set of formulas in that context, ordered by entailment. We refer to such a 2-functor as a regular calculus because it naturally gives rise to a graphical string diagram calculus in the spirit of Joyal and Street. We shall show that every natural category has an associated regular calculus, and conversely from every regular calculus one can construct a regular category.",
+    "link": "https://doi.org/10.48550/arxiv.2009.06836"
+  },
+  {
+    "slug": "10-48550-arxiv-2101-10485--W3020915645",
+    "doi": "10.48550/arxiv.2101.10485",
+    "doi_url": "https://doi.org/10.48550/arxiv.2101.10485",
+    "title": "A Compositional Sheaf-Theoretic Framework for Event-Based Systems",
+    "year": "2021",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Gioele Zardini",
+      "David I. Spivak",
+      "Andrea Censi",
+      "Emilio Frazzoli"
+    ],
+    "abstract": "A compositional sheaf-theoretic framework for the modeling of complex event-based systems is presented. We show that event-based systems are machines, with inputs and outputs, and that they can be composed with machines of different types, all within a unified, sheaf-theoretic formalism. We take robotic systems as an exemplar of complex systems and rigorously describe actuators, sensors, and algorithms using this framework.",
+    "link": "https://doi.org/10.48550/arxiv.2101.10485"
+  },
+  {
+    "slug": "10-48550-arxiv-2101-10490--W3152048205",
+    "doi": "10.48550/arxiv.2101.10490",
+    "doi_url": "https://doi.org/10.48550/arxiv.2101.10490",
+    "title": "Behavioral Mereology: A Modal Logic for Passing Constraints",
+    "year": "2021",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David Jaz Myers",
+      "David I. Spivak"
+    ],
+    "abstract": "Mereology is the study of parts and the relationships that hold between them. We introduce a behavioral approach to mereology, in which systems and their parts are known only by the types of behavior they can exhibit. Our discussion is formally topos-theoretic, and agnostic to the topos, providing maximal generality; however, by using only its internal logic we can hide the details and readers may assume a completely elementary set-theoretic discussion. We consider the relationship between various parts of a whole in terms of how behavioral constraints are passed between them, and give an inter-modal logic that generalizes the usual alethic modalities in the setting of symmetric accessibility.",
+    "link": "https://doi.org/10.48550/arxiv.2101.10490"
+  },
+  {
+    "slug": "10-48550-arxiv-2101-12046--W3141450870",
+    "doi": "10.48550/arxiv.2101.12046",
+    "doi_url": "https://doi.org/10.48550/arxiv.2101.12046",
+    "title": "Wiring diagrams as normal forms for computing in symmetric monoidal categories",
+    "year": "2021",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Evan Patterson",
+      "David I. Spivak",
+      "Dmitry Vagner"
+    ],
+    "abstract": "Applications of category theory often involve symmetric monoidal categories (SMCs), in which abstract processes or operations can be composed in series and parallel. However, in 2020 there remains a dearth of computational tools for working with SMCs. We present an \"unbiased\" approach to implementing symmetric monoidal categories, based on an operad of directed, acyclic wiring diagrams. Because the interchange law and other laws of a SMC hold identically in a wiring diagram, no rewrite rules are needed to compare diagrams. We discuss the mathematics of the operad of wiring diagrams, as well as its implementation in the software package Catlab.",
+    "link": "https://doi.org/10.48550/arxiv.2101.12046"
+  },
+  {
+    "slug": "10-48550-arxiv-2109-14123--W3203295803",
+    "doi": "10.48550/arxiv.2109.14123",
+    "doi_url": "https://doi.org/10.48550/arxiv.2109.14123",
+    "title": "Regular Calculi I: Graphical Regular Logic",
+    "year": "2021",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Tslil Clingman",
+      "Brendan Fong",
+      "David I. Spivak"
+    ],
+    "abstract": "What is ergonomic syntax for relations? In this first paper in a series of two, to answer the question we define regular calculi: a suitably structured functor from a category representing the syntax of regular logic to the category of posets, that takes each object to the poset of relations on that type. We introduce two major classes of examples, regular calculi corresponding to regular theories, and regular calculi corresponding to regular categories. For working in regular calculi, we present a graphical framework which takes as primitive the various moves of regular logic. Our main theorem for regular calculi is a syntax-semantics $2$-dimensional adjunction to regular categories.",
+    "link": "https://doi.org/10.48550/arxiv.2109.14123"
+  },
+  {
+    "slug": "10-48550-arxiv-2111-01297--W3208136520",
+    "doi": "10.48550/arxiv.2111.01297",
+    "doi_url": "https://doi.org/10.48550/arxiv.2111.01297",
+    "title": "Deep neural networks as nested dynamical systems",
+    "year": "2021",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak",
+      "Timothy Hosgood"
+    ],
+    "abstract": "There is an analogy that is often made between deep neural networks and actual brains, suggested by the nomenclature itself: the \"neurons\" in deep neural networks should correspond to neurons (or nerve cells, to avoid confusion) in the brain. We claim, however, that this analogy doesn't even type check: it is structurally flawed. In agreement with the slightly glib summary of Hebbian learning as \"cells that fire together wire together\", this article makes the case that the analogy should be different. Since the \"neurons\" in deep neural networks are managing the changing weights, they are more akin to the synapses in the brain; instead, it is the wires in deep neural networks that are more like nerve cells, in that they are what cause the information to flow. An intuition that nerve cells seem like more than mere wires is exactly right, and is justified by a precise category-theoretic analogy which we will explore in this article. Throughout, we will continue to highlight the error in equating artificial neurons with nerve cells by leaving \"neuron\" in quotes or by calling them artificial neurons. We will first explain how to view deep neural networks as nested dynamical systems with a very restricted sort of interaction pattern, and then explain a more general sort of interaction for dynamical systems that is useful throughout engineering, but which fails to adapt to changing circumstances. As mentioned, an analogy is then forced upon us by the mathematical formalism in which they are both embedded. We call the resulting encompassing generalization deeply interacting learning systems: they have complex interaction as in control theory, but adaptation to circumstances as in deep neural networks.",
+    "link": "https://doi.org/10.48550/arxiv.2111.01297"
+  },
+  {
+    "slug": "10-48550-arxiv-2111-10968--W4225494989",
+    "doi": "10.48550/arxiv.2111.10968",
+    "doi_url": "https://doi.org/10.48550/arxiv.2111.10968",
+    "title": "Functorial aggregation",
+    "year": "2021",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak",
+      "Garner, Richard",
+      "Fairbanks, Aaron David"
+    ],
+    "abstract": "We study polynomial comonads and polynomial bicomodules. Polynomial comonads amount to categories. Polynomial bicomodules between categories amount to parametric right adjoint functors between corresponding copresheaf categories. These may themselves be understood as generalized polynomial functors. They are also called data migration functors because of applications in categorical database theory. We investigate several universal constructions in the framed bicategory of categories, retrofunctors, and parametric right adjoints. We then use the theory we develop to model database aggregation alongside querying, all within this rich ecosystem.",
+    "link": "https://doi.org/10.48550/arxiv.2111.10968"
+  },
+  {
+    "slug": "10-48550-arxiv-2112-11518--W4226247925",
+    "doi": "10.48550/arxiv.2112.11518",
+    "doi_url": "https://doi.org/10.48550/arxiv.2112.11518",
+    "title": "Collectives: Compositional protocols for contributions and returns",
+    "year": "2021",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Nelson Niu",
+      "David I. Spivak"
+    ],
+    "abstract": "We introduce a concept called a collective: an interface with a protocol for aggregating contributions and distributing returns. Through such a protocol, many members may participate in a mutual endeavor. We present a variety of real-world examples of collectives to explore the many kinds of things that members can contribute (such as time, work, ideas, or resources) as well as the many ways these contributions can be aggregated and returns distributed. In addition, we illustrate several ways in which new collectives can be constructed from old, alluding to the fact that all these constructions have a natural mathematical description within the category of polynomial functors equipped with a certain monoidal structure.",
+    "link": "https://doi.org/10.48550/arxiv.2112.11518"
+  },
+  {
+    "slug": "10-48550-arxiv-2201-12878--W4226478107",
+    "doi": "10.48550/arxiv.2201.12878",
+    "doi_url": "https://doi.org/10.48550/arxiv.2201.12878",
+    "title": "Polynomial Functors and Shannon Entropy",
+    "year": "2022",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Past work shows that one can associate a notion of Shannon entropy to a Dirichlet polynomial, regarded as an empirical distribution. Indeed, entropy can be extracted from any d:Dir by a two-step process, where the first step is a rig homomorphism out of Dir, the *set* of Dirichlet polynomials, with rig structure given by standard addition and multiplication. In this short note, we show that this rig homomorphism can be upgraded to a rig *functor*, when we replace the set of Dirichlet polynomials by the *category* of ordinary (Cartesian) polynomials. In the Cartesian case, the process has three steps. The first step is a rig functor PolyCart -&gt; Poly sending a polynomial p to (dp)y, where dp is the derivative of p. The second is a rig functor Poly -&gt; Set x Set^op, sending a polynomial q to the pair (q(1),Gamma(q)), where Gamma(q)=Poly(q,y) can be interpreted as the global sections of q viewed as a bundle, and q(1) as its base. To make this precise we define what appears to be a new distributive monoidal structure on Set x Set^op, which can be understood geometrically in terms of rectangles. The last step, as for Dirichlet polynomials, is simply to extract the entropy as a real number from a pair of sets (A,B); it is given by log A - log B^(1/A) and can be thought of as the log aspect ratio of the rectangle.",
+    "link": "https://doi.org/10.48550/arxiv.2201.12878"
+  },
+  {
+    "slug": "10-48550-arxiv-2202-00534--W4221140966",
+    "doi": "10.48550/arxiv.2202.00534",
+    "doi_url": "https://doi.org/10.48550/arxiv.2202.00534",
+    "title": "A reference for categorical structures on $\\mathbf{Poly}$",
+    "year": "2022",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "In this document, we collect a list of categorical structures on the category $\\mathbf{Poly}$ of polynomial functors. There is no implied claim that this list is in any way complete. It includes: infinitely many monoidal structures, all but one of which is symmetric, closed, and distributes over $+$, several of which interact duoidally; it also includes a right-coclosure and two indexed left coclosures; it also includes various adjunctions of which $\\mathbf{Poly}$ is a part, including the free monad and cofree comonad and their interaction with various monoidal structures.",
+    "link": "https://doi.org/10.48550/arxiv.2202.00534"
+  },
+  {
+    "slug": "10-48550-arxiv-2205-02425--W4229054284",
+    "doi": "10.48550/arxiv.2205.02425",
+    "doi_url": "https://doi.org/10.48550/arxiv.2205.02425",
+    "title": "Fast Left Kan Extensions Using The Chase",
+    "year": "2022",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "J. Meyers",
+      "David I. Spivak",
+      "Ryan Wisnesky"
+    ],
+    "abstract": "We show how computation of left Kan extensions can be reduced to computation of free models of cartesian (finite-limit) theories. We discuss how the standard and parallel chase compute weakly free models of regular theories and free models of cartesian theories, and compare the concept of \"free model\" with a similar concept from database theory known as \"universal model\". We prove that, as algorithms for computing finite free models of cartesian theories, the standard and parallel chase are complete under fairness assumptions. Finally, we describe an optimized implementation of the parallel chase specialized to left Kan extensions that achieves an order of magnitude improvement in our performance benchmarks compared to the next fastest left Kan extension algorithm we are aware of.",
+    "link": "https://doi.org/10.48550/arxiv.2205.02425"
+  },
+  {
+    "slug": "10-48550-arxiv-2205-03906--W4280542629",
+    "doi": "10.48550/arxiv.2205.03906",
+    "doi_url": "https://doi.org/10.48550/arxiv.2205.03906",
+    "title": "Dynamic Operads, Dynamic Categories: From Deep Learning to Prediction Markets",
+    "year": "2022",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brandon T. Shapiro",
+      "David I. Spivak"
+    ],
+    "abstract": "Natural organized systems adapt to internal and external pressures and this happens at all levels of the abstraction hierarchy. Wanting to think clearly about this idea motivates our paper, and so the idea is elaborated extensively in the introduction, which should be broadly accessible to a philosophically-interested audience. In the remaining sections, we turn to more compressed category theory. We define the monoidal double category Org of dynamic organizations, we provide definitions of Org-enriched, or dynamic, categorical structures -- e.g. dynamic categories, operads, and monoidal categories -- and we show how they instantiate the motivating philosophical ideas. We give two examples of dynamic categorical structures: prediction markets as a dynamic operad and deep learning as a dynamic monoidal category.",
+    "link": "https://doi.org/10.48550/arxiv.2205.03906"
+  },
+  {
+    "slug": "10-48550-arxiv-2210-01962--W4303449615",
+    "doi": "10.48550/arxiv.2210.01962",
+    "doi_url": "https://doi.org/10.48550/arxiv.2210.01962",
+    "title": "Duoidal Structures for Compositional Dependence",
+    "year": "2022",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brandon T. Shapiro",
+      "David I. Spivak"
+    ],
+    "abstract": "We provide a categorical framework for mathematical objects for which there is both a sort of \"independent\" and \"dependent\" composition. Namely we model them as duoidal categories in which both monoidal structures share a unit and the first is symmetric. We construct the free such category and observe that it is a full subcategory of the category of finite posets. Indeed each algebraic expression in the two monoidal operators corresponds to the poset built by taking disjoint unions and joins of the singleton poset. We characterize these \"expressible\" posets as precisely those which contain no \"zig-zags.\" We then move on to describe categories equipped with $n$-ary operations for each $n$-element finite poset; we refer to them as \"dependence categories\" since they allow for combinations of objects based on any network of dependencies between them. These structures model various sorts of dependence including the space-like and time-like juxtaposition of weighted probability distributions in relativistic spacetime, which we model using polynomial endofunctors on the category of sets, as well as the runtimes for multiple computer programs run in parallel and series, which we model using the tropical semiring structure on nonnegative real numbers. With these examples in mind, we conclude by describing ways in which morphisms in a partial monoidal category can be \"decorated\" in a coherent manner by objects in a dependence category, such as labeling a network of parallel programs with their runtimes.",
+    "link": "https://doi.org/10.48550/arxiv.2210.01962"
+  },
+  {
+    "slug": "10-48550-arxiv-2304-14950--W4367628360",
+    "doi": "10.48550/arxiv.2304.14950",
+    "doi_url": "https://doi.org/10.48550/arxiv.2304.14950",
+    "title": "Dynamic Tracing: a graphical language for rewriting protocols",
+    "year": "2023",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Kristopher Brown",
+      "David I. Spivak"
+    ],
+    "abstract": "The category Set_* of sets and partial functions is well-known to be traced monoidal, meaning that a partial function S+U -/-&gt; T+U can be coherently transformed into a partial function S -/-&gt; T. This transformation is generally described in terms of an implicit procedure that must be run. We make this procedure explicit by enriching the traced category in Cat#, the symmetric monoidal category of categories and cofunctors: each hom-category has such procedures as objects, and advancement through the procedures as arrows. We also generalize to traced Kleisli categories beyond Set_*, providing a conjectural trace operator for the Kleisli category of any polynomial monad of the form t+1. The main motivation for this work is to give a formal and graphical syntax for performing sophisticated computations powered by graph rewriting, which is itself a graphical language for data transformation.",
+    "link": "https://doi.org/10.48550/arxiv.2304.14950"
+  },
+  {
+    "slug": "10-48550-arxiv-2305-00167--W4367693823",
+    "doi": "10.48550/arxiv.2305.00167",
+    "doi_url": "https://doi.org/10.48550/arxiv.2305.00167",
+    "title": "Structures on Categories of Polynomials",
+    "year": "2023",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brandon T. Shapiro",
+      "David I. Spivak"
+    ],
+    "abstract": "We define the monoidal category $(Poly_E,y,\\triangleleft)$ of polynomials under composition in any category $E$ with finite limits, including both cartesian and vertical morphisms of polynomials, and generalize to this setting the Dirichlet tensor product of polynomials $\\otimes$, duoidality of $\\otimes$ and $\\triangleleft$, closure of $\\otimes$, and coclosures of $\\triangleleft$. We also prove that $\\triangleleft$-comonoids in $Poly_E$ are precisely the internal categories in $E$ whose source morphism is exponentiable, generalizing a result of Ahman-Uustalu equating categories with polynomial comonads, and show that coalgebras in this setting correspond to internal copresheaves. Finally, the double category of ``typed'' polynomials in $E$ is recovered using $\\triangleleft$-bicomodules in $Poly_E$.",
+    "link": "https://doi.org/10.48550/arxiv.2305.00167"
+  },
+  {
+    "slug": "10-48550-arxiv-2305-02571--W4372272966",
+    "doi": "10.48550/arxiv.2305.02571",
+    "doi_url": "https://doi.org/10.48550/arxiv.2305.02571",
+    "title": "All Concepts are $\\mathbb{C}\\mathbf{at}^\\#$",
+    "year": "2023",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Lynch, Owen",
+      "Brandon T. Shapiro",
+      "David I. Spivak"
+    ],
+    "abstract": "We show that the double category $\\mathbb{C}\\mathbf{at}^\\#$ of comonoids in the category of polynomial functors (previously shown by Ahman-Uustalu and Garner to be equivalent to the double category of categories, cofunctors, and prafunctors) contains several formal settings for basic category theory and has subcategories equivalent to both the double category $\\mathbb{O}\\mathbf{rg}$ of dynamic rewiring systems and the double category $\\mathbb{P}\\mathbf{oly}_{\\mathcal{E}}$ of generalized polynomials in a finite limit category $\\mathcal{E}$. Also serving as a natural setting for categorical database theory and generalized higher category theory, $\\mathbb{C}\\mathbf{at}^\\#$ at once hosts models of a wide range of concepts from the theory and applications of polynomial functors and category theory.",
+    "link": "https://doi.org/10.48550/arxiv.2305.02571"
+  },
+  {
+    "slug": "10-48550-arxiv-2312-00990--W4389363163",
+    "doi": "10.48550/arxiv.2312.00990",
+    "doi_url": "https://doi.org/10.48550/arxiv.2312.00990",
+    "title": "Polynomial Functors: A Mathematical Theory of Interaction",
+    "year": "2023",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Nelson Niu",
+      "David I. Spivak"
+    ],
+    "abstract": "This monograph is a study of the category of polynomial endofunctors on the category of sets and its applications to modeling interaction protocols and dynamical systems. We assume basic categorical background and build the categorical theory from the ground up, highlighting pictorical techniques and concrete examples to build intuition and provide applications.",
+    "link": "https://doi.org/10.48550/arxiv.2312.00990"
+  },
+  {
+    "slug": "10-48550-arxiv-2404-16321--W4395686817",
+    "doi": "10.48550/arxiv.2404.16321",
+    "doi_url": "https://doi.org/10.48550/arxiv.2404.16321",
+    "title": "Pattern Runs on Matter: The Free Monad Monad as a Module over the Cofree Comonad Comonad",
+    "year": "2024",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Sophie Libkind",
+      "David I. Spivak"
+    ],
+    "abstract": "Interviews run on people, programs run on operating systems, voting schemes run on voters, games run on players. Each of these is an example of the abstraction pattern runs on matter. Pattern determines the decision tree that governs how a situation can unfold, while matter responds with decisions at each juncture. In this article, we will give a straightforward and concrete construction of the free monad monad for the category of polynomial functors with the substitution monoidal product. Although the free monad has been well-studied in other contexts, the construction we give is streamlined and explicitly illustrates how the free monad represents terminating decision trees. We will also explore the naturally arising interaction between the free monad and cofree comonad. Again, while the interaction itself is known, the perspective we take is the free monad as a module over the cofree comonad. Lastly, we will give four applications of the module action to interviews, computer programs, voting, and games. In each example, we will see how the free monad represents pattern, the cofree comonad represents matter, and the module action represents runs on.",
+    "link": "https://doi.org/10.48550/arxiv.2404.16321"
+  },
+  {
+    "slug": "10-48550-arxiv-2405-13157--W4398795063",
+    "doi": "10.48550/arxiv.2405.13157",
+    "doi_url": "https://doi.org/10.48550/arxiv.2405.13157",
+    "title": "A Polynomial Construction of Nerves for Higher Categories",
+    "year": "2024",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brandon T. Shapiro",
+      "David I. Spivak"
+    ],
+    "abstract": "We show that the construction due to Leinster and Weber of a generalized Lawvere theory for a familially representable monad on a (co)presheaf category, and the associated ``nerve'' functor from monad algebras to (co)presheaves, have an elegant categorical description in the double category $\\mathbb{C}\\mathbf{at}^{\\#}$ of categories, cofunctors, familial functors, and transformations. In $\\mathbb{C}\\mathbf{at}^{\\#}$, which also arises from comonoids in the category of polynomial functors, both a familial monad and a (co)presheaf it acts on can be modeled as horizontal morphisms; from this perspective, the theory category associated to the monad is built using left Kan extension in the category of endomorphisms, and the nerve functor is modeled by a single composition of horizontal morphisms in $\\mathbb{C}\\mathbf{at}^{\\#}$. For the free category monad $path$ on graphs, this provides a new construction of the simplex category as $Δ:= \\lens{path}{path \\circ path}$. We also explore the free Eilenberg-Moore completion of $\\mathbb{C}\\mathbf{at}^{\\#}$, in which constructions such as the free symmetric monoidal category monad on $\\mathbf{Cat}$ can modeled using the rich language of polynomial functors.",
+    "link": "https://doi.org/10.48550/arxiv.2405.13157"
+  },
+  {
+    "slug": "10-48550-arxiv-2407-01849--W4400377755",
+    "doi": "10.48550/arxiv.2407.01849",
+    "doi_url": "https://doi.org/10.48550/arxiv.2407.01849",
+    "title": "What kind of linearly distributive category do polynomial functors form?",
+    "year": "2024",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak",
+      "Priyaa Varshinee Srinivasan"
+    ],
+    "abstract": "This paper has two purposes. The first is to extend the theory of linearly distributive categories by considering the structures that emerge in a special case: the normal duoidal category $(\\mathsf{Poly} ,\\mathcal{y}, \\otimes, \\triangleleft )$ of polynomial functors under Dirichlet and substitution product. This is an isomix LDC which is neither $*$-autonomous nor fully symmetric. The additional structures of interest here are a closure for $\\otimes$ and a co-closure for $\\triangleleft$, making $\\mathsf{Poly}$ a bi-closed LDC, which is a notion we introduce in this paper. The second purpose is to use $\\mathsf{Poly}$ as a source of examples and intuition about various structures that can occur in the setting of LDCs, including duals, cores, linear monoids, and others, as well as how these generalize to the non-symmetric setting. To that end, we characterize the linearly dual objects in $\\mathsf{Poly}$: every linear polynomial has a right dual which is a representable. It turns out that the linear and representable polynomials also form the left and right cores of $\\mathsf{Poly}$. Finally, we provide examples of linear monoids, linear comonoids, and linear bialgebras in $\\mathsf{Poly}$.",
+    "link": "https://doi.org/10.48550/arxiv.2407.01849"
+  },
+  {
+    "slug": "10-48550-arxiv-2410-08373--W4403444158",
+    "doi": "10.48550/arxiv.2410.08373",
+    "doi_url": "https://doi.org/10.48550/arxiv.2410.08373",
+    "title": "Dynamic task delegation for hierarchical agents",
+    "year": "2024",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Sophie Libkind",
+      "David I. Spivak"
+    ],
+    "abstract": "This is the fourth installment in a series of papers offering models of hierarchical structure for dynamical systems, using the language of polynomial functors. The operad underlying the symmetric monoidal category $(\\mathbf{Poly}, \\otimes, \\mathcal{y})$ can be viewed as defining the behavior of hierarchical delegation. In particular, a morphism $\\mathbf{Poly}(p_1 \\otimes \\cdots \\otimes p_m, q)$ turns the outputs of subordinates with interfaces $p_i$ into the output of an agent with interface $q$ and turns a task given to the agent into a task for each of the subordinates. In this article, we extend the framework so that subordinates may be invoked asynchronously depending on the outcomes of other subordinates. We prove that the free (co)monad (co)monad extends to a (co)monad on $\\mathbf{Org}$. From the perspective of programs/pattern, this extension implies the existence of a $\\mathbf{Cat}$-enriched operad $\\mathbf{Org}_\\mathfrak{m}$, and from the perspective of behavior/matter, it implies the existence of a $\\mathbf{Cat}$-enriched operad $\\mathbf{Org}^\\mathfrak{c}$. Second, we crispen the relationship between the programmatic and behavioral perspectives via a functor $[-, t] \\colon \\mathbf{Org}_{\\mathfrak{m}}^\\textrm{op} \\to \\mathbf{Org}^\\mathfrak{c}$ for any polynomial monad $t$.",
+    "link": "https://doi.org/10.48550/arxiv.2410.08373"
+  },
+  {
+    "slug": "10-48550-arxiv-2503-21974--W4416374865",
+    "doi": "10.48550/arxiv.2503.21974",
+    "doi_url": "https://doi.org/10.48550/arxiv.2503.21974",
+    "title": "Categories by Kan extension",
+    "year": "2025",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Categories can be identified -- up to isomorphism -- with polynomial comonads on Set. The left Kan extension of a functor along itself is always a comonad -- called the density comonad -- so it defines a category when its carrier is polynomial. We provide a number of generalizations of this to produce new categories from old, as well as from distributive laws of monads over comonads. For example, all Lawvere theories, all product completions of small categories, and the simplicial indexing category $Δ^{op}$ arise in this way. Another, seemingly much less well-known, example constructs a so-called selection category from a polynomial comonad in a way that's somehow dual to the construction of a Lawvere theory category from a monad; we'll discuss this in more detail. Along the way, we will see various constructions of non-polynomial comonads as well.",
+    "link": "https://doi.org/10.48550/arxiv.2503.21974"
+  },
+  {
+    "slug": "10-48550-arxiv-2509-05462--W4415059079",
+    "doi": "10.48550/arxiv.2509.05462",
+    "doi_url": "https://doi.org/10.48550/arxiv.2509.05462",
+    "title": "The compact double category $\\mathbf{Int}(\\mathbf{Poly}_*)$ models control flow and data transformations",
+    "year": "2025",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Grigory Kondyrev",
+      "David I. Spivak"
+    ],
+    "abstract": "Hasegawa showed that control flow in programming languages -- while loops and if-then-else statements -- can be modeled using traced cocartesian categories, such as the category $\\mathbf{Set}_*$ of pointed sets. In this paper we define an operad $\\mathscr{W}$ of wiring diagrams that provides syntax for categories whose control flow moreover includes data transformations, including deleting, duplicating, permuting, and applying pre-specified functions to variables. In the most basic version, the operad underlies $\\mathbf{Int}(\\mathbf{Poly}_*)$, where $\\mathbf{Int}(\\mathscr{T})$ denotes the free compact category on a traced category $\\mathscr{T}$, as defined by Joyal, Street, and Verity; to do so, we show that $\\mathbf{Poly}_*$, as well as any multivariate version of it, is traced. We show moreover that whenever $\\mathscr{T}$ is uniform -- a condition also defined by Hasegawa and satisfied by $\\mathbf{Int}(\\mathscr{T})$ -- the resulting $\\mathbf{Int}$-construction extends to a double category $\\mathbb{I}\\mathbf{nt}(\\mathscr{T})$, which is compact in the sense of Patterson. Finally, we define a universal property of the double category $\\mathbb{I}\\mathbf{nt}(\\mathbf{Poly}_*)$ and $\\mathbb{I}\\mathbf{nt}(\\mathbf{Set}_*)$ by which one can track trajectories as they move through the control flow associated to a wiring diagram.",
+    "link": "https://doi.org/10.48550/arxiv.2509.05462"
+  },
+  {
+    "slug": "10-48550-arxiv-hep-ph-0510181--W4296582355",
+    "doi": "10.48550/arxiv.hep-ph/0510181",
+    "doi_url": "https://doi.org/10.48550/arxiv.hep-ph/0510181",
+    "title": "Anomaly-Free Sets of Fermions",
+    "year": "2005",
+    "journal": "University of North Texas Digital Library (University of North Texas)",
+    "authors": [
+      "Puneet Batra",
+      "Bogdan A. Dobrescu",
+      "David I. Spivak"
+    ],
+    "abstract": "We present new techniques for finding anomaly-free sets of fermions. Although the anomaly cancellation conditions typically include cubic equations with integer variables that cannot be solved in general, we prove by construction that any chiral set of fermions can be embedded in a larger set of fermions which is chiral and anomaly-free. Applying these techniques to extensions of the Standard Model, we find anomaly-free models that have arbitrary quark and lepton charges under an additional U(1) gauge group.",
+    "link": "https://doi.org/10.48550/arxiv.hep-ph/0510181"
+  },
+  {
+    "slug": "10-51885-1561-4212_2024_2_124--W4401425533",
+    "doi": "10.51885/1561-4212_2024_2_124",
+    "doi_url": "https://doi.org/10.51885/1561-4212_2024_2_124",
+    "title": "DESIGNING A DATABASE FOR AN AVALANCHE ACTIVITY MONITORING SYSTEM IN THE EAST KAZAKHSTAN REGION",
+    "year": "2024",
+    "journal": "Bulletin of D Serikbayev EKTU",
+    "authors": [
+      "Natalya Denissova",
+      "Ye. Fedkin",
+      "Ye. Mashayev",
+      "David I. Spivak",
+      "O. O. Petrova"
+    ],
+    "abstract": "Для проведения мониторинга и прогнозирования лавинной активности необхо-дима обработка больших данных, причем формирование данных может происходить из разных источников: метеорологические данные из открытых баз данных (БД) регионального уровня  Национальной гидрометеорологической службы Казахстана, международного уровня  World Weather Information Service, данные спутников Sentinel (Европейского космического агентства), данные с оперативных журналов ТОО «Казселезащита», данные приборов учетов, установленных на лавинных участках, метаданные (фото, видео материалы и 3D-модели склонов) и другие. Важной задачей для дальнейшего прогнозирования лавинной активности является правильное проектирование БД лавиносборов. В данном исследовании спроектирована инфологическая модель БД, что позволит в дальнейшем применять традиционные методы прогнозирования схода лавин и методов машинного обучения. В результате нами были выявлены информационные объекты (сущности) и построена инфологическая модель БД (ЕR-диаграмма), на основе которых спроектирована БД для системы мониторинга и прогнозирования лавинной активности ВКО. Также определены источники данных и технологии получения данных.",
+    "link": "https://doi.org/10.51885/1561-4212_2024_2_124"
+  },
+  {
+    "slug": "10-70930-tac-7tz1nkbd--W2278964162",
+    "doi": "10.70930/tac/7tz1nkbd",
+    "doi_url": "https://doi.org/10.70930/tac/7tz1nkbd",
+    "title": "Algebras of open dynamical systems on the operad of wiring diagrams",
+    "year": "2015",
+    "journal": "Theory and applications of categories",
+    "authors": [
+      "Dmitry Vagner",
+      "David I. Spivak",
+      "Eugene Lerman"
+    ],
+    "abstract": "In this paper, we use the language of operads to study open dynamical systems.More specifically, we study the algebraic nature of assembling complex dynamical systems from an interconnection of simpler ones.The syntactic architecture of such interconnections is encoded using the visual language of wiring diagrams.We define the symmetric monoidal category W, from which we may construct an operad OW, whose objects are black boxes with input and output ports, and whose morphisms are wiring diagrams, thus prescribing the algebraic rules for interconnection.We then define two W-algebras G and L, which associate semantic content to the structures in W. Respectively, they correspond to general and to linear systems of differential equations, in which an internal state is controlled by inputs and produces outputs.As an example, we use these algebras to formalize the classical problem of systems of tanks interconnected by pipes, and hence make explicit the algebraic relationships among systems at different levels of granularity.",
+    "link": "https://doi.org/10.70930/tac/7tz1nkbd"
+  },
+  {
+    "slug": "10-70930-tac-lf9k6awo--W3037765809",
+    "doi": "10.70930/tac/lf9k6awo",
+    "doi_url": "https://doi.org/10.70930/tac/lf9k6awo",
+    "title": "Algebraic Databases",
+    "year": "2017",
+    "journal": "Theory and applications of categories",
+    "authors": [
+      "Patrick Schultz",
+      "David I. Spivak",
+      "Christina Vasilakopoulou",
+      "Ryan Wisnesky"
+    ],
+    "abstract": "Databases have been studied category-theoretically for decades.While mathematically elegant, previous categorical models have typically struggled with representing concrete data such as integers or strings.In the present work, we propose an extension of the earlier set-valued functor model, making use of multi-sorted algebraic theories (a.k.a.Lawvere theories) to incorporate concrete data in a principled way.This approach easily handles missing information (null values), and also allows constraints and queries to make use of operations on data, such as multiplication or comparison of numbers, helping to bridge the gap between traditional databases and programming languages.We also show how all of the components of our model including schemas, instances, change-of-schema functors, and queries t into a single double categorical structure called a proarrow equipment (a.k.a.framed bicategory).10 Implementation 612 A Componentwise composition and exponentiation in",
+    "link": "https://doi.org/10.70930/tac/lf9k6awo"
+  },
+  {
+    "slug": "openalex-W1534669799",
+    "doi": null,
+    "doi_url": null,
+    "title": "Pressure analysis for horizontal wells",
+    "year": "1988",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://openalex.org/W1534669799"
+  },
+  {
+    "slug": "openalex-W2149583542",
+    "doi": null,
+    "doi_url": null,
+    "title": "Quasi-smooth Derived Manifolds",
+    "year": "2007",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "products; for example the zeroset of a smooth function on a manifold is not necessarily a manifold, and the non-transverse intersection of submanifolds is",
+    "link": "https://openalex.org/W2149583542"
+  },
+  {
+    "slug": "openalex-W2150688657",
+    "doi": null,
+    "doi_url": null,
+    "title": "A Purely Equational Formalism for Functorial Data Migration.",
+    "year": "2015",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak",
+      "Patrick Schultz",
+      "Ryan Wisnesky"
+    ],
+    "abstract": "In this paper we describe a simple equational formalism for expressing functorial data migration. A graphical IDE and implementation of this formalism are available at categoricaldata.net/fql.html.",
+    "link": "https://openalex.org/W2150688657"
+  },
+  {
+    "slug": "openalex-W2543272449",
+    "doi": null,
+    "doi_url": null,
+    "title": "The Category of Sets",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "This chapter contains sections titled: 2.1 Sets and functions, 2.2 Commutative diagrams, 2.3 Ologs",
+    "link": "https://openalex.org/W2543272449"
+  },
+  {
+    "slug": "openalex-W2545315426",
+    "doi": null,
+    "doi_url": null,
+    "title": "Fundamental Considerations in Set",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "This chapter contains sections titled: 3.1 Products and coproducts, 3.2 Finite limits in Set, 3.3 Finite colimits in Set, 3.4 Other notions in Set",
+    "link": "https://openalex.org/W2545315426"
+  },
+  {
+    "slug": "openalex-W2546473088",
+    "doi": null,
+    "doi_url": null,
+    "title": "Basic Category Theory",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "This chapter contains sections titled: 5.1 Categories and functors, 5.2 Common categories and functors from pure math, 5.3 Natural transformations, 5.4 Categories and schemas are equivalent, Cat ≃ Sch",
+    "link": "https://openalex.org/W2546473088"
+  },
+  {
+    "slug": "openalex-W2547793816",
+    "doi": null,
+    "doi_url": null,
+    "title": "Categories and Functors, Without Admitting It",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "This chapter contains sections titled: 4.1 Monoids, 4.2 Groups, 4.3 Graphs, 4.4 Orders, 4.5 Databases: schemas and instances",
+    "link": "https://openalex.org/W2547793816"
+  },
+  {
+    "slug": "openalex-W2550035168",
+    "doi": null,
+    "doi_url": null,
+    "title": "Fundamental Considerations of Categories",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://openalex.org/W2550035168"
+  },
+  {
+    "slug": "openalex-W2555572202",
+    "doi": null,
+    "doi_url": null,
+    "title": "Categories at Work",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "This chapter contains sections titled: 7.1 Adjoint functors, 7.2 Categories of functors, 7.3 Monads, 7.4 Operads",
+    "link": "https://openalex.org/W2555572202"
+  },
+  {
+    "slug": "openalex-W2587627569",
+    "doi": null,
+    "doi_url": null,
+    "title": "Operadic Analysis of Distributed Systems",
+    "year": "2015",
+    "journal": null,
+    "authors": [
+      "Kevin Schweiker",
+      "Srivatsan Varadarajan",
+      "David I. Spivak",
+      "Patrick Schultz",
+      "Ryan Wisnesky",
+      "Piergiuseppe Di Marco"
+    ],
+    "abstract": "Establishing an assurance claim for a distributed safety critical system has proven extremely difficult. Developing and documenting the evidence needed to support a claim requires diverse models and abstractions of system properties to capture behaviors, understand error propagation, and evaluate the interactions with other systems and humans. The ability to scale and merge these diverse models and abstractions within a sound mathematical framework is the subject of this technical report. Category theory is one promising approach for this mathematical framework. A higher category theory known as operad theory is described and used to evaluate the effects of disruptions and failures of NextGen communication channels on the safe separation of aircraft within the National Airspace (NAS).",
+    "link": "https://openalex.org/W2587627569"
+  },
+  {
+    "slug": "openalex-W2784088211",
+    "doi": null,
+    "doi_url": null,
+    "title": "Category theory for scientists",
+    "year": "2013",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "The goal of this class is to prove that category theory is a powerful language for understanding and formalizing common scientific models. The power of the language will be tested by its ability to penetrate into taken-for-granted ideas, either by exposing existing weaknesses or flaws in our understanding, or by highlighting hidden commonalities across scientific fields.",
+    "link": "https://openalex.org/W2784088211"
+  },
+  {
+    "slug": "openalex-W2899153467",
+    "doi": null,
+    "doi_url": null,
+    "title": "Behavioral Mereology",
+    "year": "2018",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "David Jaz Myers",
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://openalex.org/W2899153467"
+  },
+  {
+    "slug": "openalex-W2901077336",
+    "doi": null,
+    "doi_url": null,
+    "title": "Categorical approach to agent interaction",
+    "year": "2018",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://openalex.org/W2901077336"
+  },
+  {
+    "slug": "openalex-W2926991544",
+    "doi": null,
+    "doi_url": null,
+    "title": "Temporal Landscapes: A Graphical Temporal Logic for Reasoning",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Brendan Fong",
+      "Alberto Speranzon",
+      "David I. Spivak"
+    ],
+    "abstract": "We present an elementary introduction to a new logic for reasoning about behaviors that occur over time. This logic is based on temporal type theory. The syntax of the logic is similar to the usual first-order logic; what differs is the notion of truth value. Instead of reasoning about whether formulas are true or false, our logic reasons about temporal landscapes. A temporal landscape may be thought of as representing the set of durations over which a statement is true. To help understand the practical implications of this approach, we give a wide variety of examples where this logic is used to reason about autonomous systems.",
+    "link": "https://openalex.org/W2926991544"
+  },
+  {
+    "slug": "openalex-W2953839118",
+    "doi": null,
+    "doi_url": null,
+    "title": "Memoryless systems generate the class of all discrete systems (Extended abstract)",
+    "year": "2019",
+    "journal": "HAL (Le Centre pour la Communication Scientifique Directe)",
+    "authors": [
+      "Erwan Beurier",
+      "Dominique Pastor",
+      "David I. Spivak"
+    ],
+    "abstract": "International audience",
+    "link": "https://openalex.org/W2953839118"
+  },
+  {
+    "slug": "openalex-W2970135757",
+    "doi": null,
+    "doi_url": null,
+    "title": "Generalized Lens Categories via functors C op → Cat.",
+    "year": "2019",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "",
+    "link": "https://openalex.org/W2970135757"
+  },
+  {
+    "slug": "openalex-W3023056865",
+    "doi": null,
+    "doi_url": null,
+    "title": "Matriarch: A Python Library for Materials Architecture",
+    "year": "2015",
+    "journal": "DSpace@MIT (Massachusetts Institute of Technology)",
+    "authors": [
+      "David I. Spivak",
+      "Tristan Giesa",
+      "Ravi Jagadeesan",
+      "Markus J. Buehler"
+    ],
+    "abstract": "Biological materials, such as proteins, often have a hierarchical structure ranging from basic building blocks at the nanoscale (e.g., amino acids) to assembled structures at the macroscale (e.g., fibers). Current software for materials engineering allows the user to specify polypeptide chains and simple secondary structures prior to molecular dynamics simulation, but is not flexible in terms of the geometric arrangement of unequilibrated structures. Given some knowledge of a larger-scale structure, instructing the software to create it can be very difficult and time-intensive. To this end, the present paper reports a mathematical language, using category theory, to describe the architecture of a material, i.e., its set of building blocks and instructions for combining them. While this framework applies to any hierarchical material, here we concentrate on proteins. We implement this mathematical language as an open-source Python library called Matriarch. It is a domain-specific language that gives the user the ability to create almost arbitrary structures with arbitrary amino acid sequences and, from them, generate Protein Data Bank (PDB) files. In this way, Matriarch is more powerful than commercial software now available. Matriarch can be used in tandem with molecular dynamics simulations and helps engineers design and modify biologically inspired materials based on their desired functionality. As a case study, we use our software to alter both building blocks and building instructions for tropocollagen, and determine their effect on its structure and mechanical properties.",
+    "link": "https://openalex.org/W3023056865"
+  },
+  {
+    "slug": "openalex-W3101721510",
+    "doi": null,
+    "doi_url": null,
+    "title": "Reoccurring Patterns in Hierarchical Protein Materials and Music: The Power of Analogies",
+    "year": "2011",
+    "journal": null,
+    "authors": [
+      "Tristan Giesa",
+      "David I. Spivak",
+      "Markus J. Buehler",
+      "Springer Science+business Media",
+      "T. Giesa",
+      "D. I. Spivak",
+      "M. J. Buehler"
+    ],
+    "abstract": "Abstract Complex hierarchical structures composed of simple nanoscale building blocks form the basis of most biological materials. Here, we demonstrate how analogies between seemingly different fields enable the understanding of general principles by which functional properties in hierarchical systems emerge, similar to an analogy learning process. Specifically, natural hierarchical materials like spider silk exhibit properties comparable to classical music in terms of their hierarchical structure and function. As a comparative tool, here, we apply hierarchical ontology logs that follow a rigorous mathematical formulation based on category theory to provide an insightful system representation by expressing knowledge in a conceptual map. We",
+    "link": "https://openalex.org/W3101721510"
+  },
+  {
+    "slug": "openalex-W3102550479",
+    "doi": null,
+    "doi_url": null,
+    "title": "DATABASE QUERIES AND CONSTRAINTS VIA LIFTING PROBLEMS",
+    "year": "2016",
+    "journal": null,
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "Abstract. Previous work has demonstrated that categories are useful and expressive models for databases. In the present paper we build on that model, showing that certain queries and constraints correspond to lifting problems, as found in modern approaches to algebraic topology. In our formulation, each so-called SPARQL graph pattern query corresponds to a category-theoretic lifting problem, whereby the set of solutions to the query is precisely the set of lifts. We interpret constraints within the same formalism and then investigate some basic properties of queries and constraints. In particular, to any database pi we can associate a certain derived database Qry(pi) of queries on pi. As an application, we explain how giving users access to certain parts of Qry(pi), rather than direct access to pi, improves ones ability to manage the impact of schema evolution. Contents",
+    "link": "https://openalex.org/W3102550479"
+  },
+  {
+    "slug": "openalex-W7166900552",
+    "doi": null,
+    "doi_url": null,
+    "title": "Compositional Dynamics in Learning and Mechanics",
+    "year": "2026",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "David I. Spivak"
+    ],
+    "abstract": "We give a single compositional setting in which gradient-based learning and Hamiltonian-style mechanics appear as functorial semantics. The syntax is an operad Arr whose objects are input-output interfaces (pairs of manifolds) and whose morphisms are *smooth adaptive arrangements*, which consist of a reactive parameter space, a lens given by smooth output and input maps, and a real-valued potential. The main technical result of the paper is what we call *lens internalization*, a lax symmetric monoidal functor Lens(C) $\\to$ C associated to any symmetric monoidal closed category C. Using it, we provide two functors $Φ_\\text{phase}$, $Φ_\\text{conf}$: Arr $\\to$ PC into the 2-category of polynomial coalgebras -- input-output discrete dynamical systems -- which we take as the semantics category. $Φ_\\text{phase}$ stores both position and momentum, whereas $Φ_\\text{conf}$ stores only position. When applied to a parameterized function, $Φ_\\text{conf}$ recovers the gradient descent training algorithm, with backpropagation as the lens' backward pass. When applied to harmonic particles wired together -- in series, or according to any finite directed graph -- one diagram yields two different regimes, both of which are governed by the graph Laplacian: $Φ_\\text{phase}$ gives the discrete wave equation, which is conservative and second-order, and $Φ_\\text{conf}$ gives the discrete heat equation, which is dissipative and first-order. They are two semantics of one adaptive arrangement, e.g. with the same potential in each case. And because Arr is an operad, such diagrams nest -- larger systems wired from smaller ones -- and each semantics assembles a system's dynamics functorially from its parts. These dynamics are moreover executable: a parameterized neural network and a graph of particles both compile, by the same construction, to explicit state machines one can run.",
+    "link": "https://openalex.org/W7166900552"
+  }
+]

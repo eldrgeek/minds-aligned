@@ -1,0 +1,15 @@
+{
+  "doi": "10.1101/2024.12.06.627165",
+  "doi_url": "https://doi.org/10.1101/2024.12.06.627165",
+  "title": "Stimulus-repetition effects on macaque V1 and V4 microcircuits explain gamma-synchronization increase",
+  "year": "2024",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "Christini Katsanevaki",
+    "Conrado A. Bosman",
+    "Karl Friston",
+    "Pascal Fries"
+  ],
+  "abstract": "Abstract Under natural conditions, animals repeatedly encounter the same visual scenes, objects or patterns repeatedly. These repetitions constitute statistical regularities, which the brain captures in an internal model through learning. A signature of such learning in primate visual areas V1 and V4 is the gradual strengthening of gamma synchronization. We used a V1-V4 Dynamic Causal Model (DCM) to explain visually induced responses in early and late epochs from a sequence of several hundred grating presentations. The DCM reproduced the empirical increase in local and inter-areal gamma synchronization, revealing specific intrinsic connectivity effects that could explain the phenomenon. In a sensitivity analysis, the isolated modulation of several connection strengths induced increased gamma. Comparison of alternative models showed that empirical gamma increases are better explained by (1) repetition effects in both V1 and V4 intrinsic connectivity (alone or together with extrinsic) than in extrinsic connectivity alone, and (2) repetition effects on V1 and V4 population input rather than output gain. The best input gain model included effects in V1 granular and superficial excitatory populations and in V4 granular and deep excitatory populations. Our findings are consistent with gamma reflecting bottom-up signal precision, which increases with repetition and, therefore, with predictability and learning. Highlights We model learning effects in macaque visual cortex using Dynamic Causal Modeling. Microcircuit-level changes explain the repetition-induced gamma increases. The best models include changes 1) within V1 and V4 and 2) in neuronal input gain. Gamma may reflect bottom-up signal precision.",
+  "link": "https://doi.org/10.1101/2024.12.06.627165"
+}

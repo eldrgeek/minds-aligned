@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.quant-ph/0210078",
+  "doi_url": "https://doi.org/10.48550/arxiv.quant-ph/0210078",
+  "title": "Using unitary operations to preserve quantum states in the presence of relaxation",
+  "year": "2002",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Benjamin Recht",
+    "Yael Maguire",
+    "Seth Lloyd",
+    "Isaac L. Chuang",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "When a quantum system interacts with an external environment, it undergoes the loss of quantum correlation (decoherence) and the loss of energy (relaxation) and eventually all of the quantum information becomes classical. Here we show a general principle to use unitary operations to establish and preserve particular non-equilibrium states in arbitrary relaxing quantum systems. We elucidate these concepts with examples of state preservation in one-spin and two-spin entangled systems.",
+  "link": "https://doi.org/10.48550/arxiv.quant-ph/0210078"
+}

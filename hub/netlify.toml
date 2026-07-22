@@ -1,0 +1,39 @@
+# Hub deploy config. Present so a `netlify deploy` run from hub/ does not inherit the
+# monorepo root netlify.toml — and so the edge function below is actually discovered.
+# The root config's [[edge_functions]] block was NOT picked up on a `--filter hub` deploy;
+# the function has to live under the directory the deploy runs from.
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Chora, the hub's AI host. Edge, not serverless: the inference upstream runs ~9s with
+# outliers past 20s, and Free-plan serverless functions are capped at 10s.
+[[edge_functions]]
+  path = "/api/ask"
+  function = "ask"
+
+# @soma/onboard is a workspace `file:` dependency whose real path escapes this deploy
+# root (../../soma-platform/packages/soma-onboard). The default bundler ships node_modules
+# as-is, and a symlink pointing outside the root arrives broken — the function 502'd with
+# "Cannot find module '@soma/onboard'". esbuild inlines the dependency into the bundle
+# instead, so we consume the canonical package (§4) without vendoring a fork of it.
+[functions]
+  node_bundler = "esbuild"
+
+# SOMA Onboard — QR / link / email invitations into the constellation.
+# One splat function serves every route; see hub/netlify/functions/onboard.js.
+# NOTE the ordering constraint: /api/ask is an edge function and edge functions run
+# BEFORE redirects, so this rule cannot shadow it. Keeping onboard under its own
+# /api/onboard/ prefix makes that independent of Netlify's precedence rules anyway.
+[[redirects]]
+  from = "/api/onboard/*"
+  to = "/.netlify/functions/onboard/:splat"
+  status = 200
+
+# Invite links carry the inviter's code in the path (/join/MIKEWOLF?ch=…), so every
+# /join/* URL has to serve the one static join page, which reads the code back out.
+[[redirects]]
+  from = "/join/*"
+  to = "/join/index.html"
+  status = 200

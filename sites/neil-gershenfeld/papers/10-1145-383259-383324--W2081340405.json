@@ -1,0 +1,16 @@
+{
+  "doi": "10.1145/383259.383324",
+  "doi_url": "https://doi.org/10.1145/383259.383324",
+  "title": "An immersive, multi-user, musical stage environment",
+  "year": "2001",
+  "journal": null,
+  "authors": [
+    "Matthew S. Reynolds",
+    "Bernd Schöner",
+    "Joey Richards",
+    "Kelly Dobson",
+    "Neil Gershenfeld"
+  ],
+  "abstract": "A multi-user, polyphonic sensor stage environment that maps position and gestures of up to four performers to the pitch and articulation of distinct notes is presented. The design seeks to provide multiple players on a stage with the feeling of a traditional acoustic instrument by giving them complete control over the instrument's expressive parameters and a clear causal connection between their actions and the resulting sound. The positions of the performers are determined by a custom ultrasonic tracking system, while hand motions are measured by custom-made gloves containing accelerometer units. Furthermore, juggling clubs are illuminated dynamically to make complex juggling patterns more apparent. The system is currently on tour with the Flying Karamazov Brothers juggling troupe.",
+  "link": "https://doi.org/10.1145/383259.383324"
+}

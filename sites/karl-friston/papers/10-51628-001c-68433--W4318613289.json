@@ -1,0 +1,18 @@
+{
+  "doi": "10.51628/001c.68433",
+  "doi_url": "https://doi.org/10.51628/001c.68433",
+  "title": "Frontal effective connectivity increases with task demands and time on task: a Dynamic Causal Model of electrocorticogram in macaque monkeys",
+  "year": "2023",
+  "journal": "Neurons Behavior Data analysis and Theory",
+  "authors": [
+    "Katharina Wegner",
+    "Charles Wilson",
+    "Emmanuel Procyk",
+    "Karl Friston",
+    "Frederik Van de Steen",
+    "Dimitris A. Pinotsis",
+    "Daniele Marinazzo"
+  ],
+  "abstract": "We apply Dynamic Causal Models to electrocorticogram recordings from two macaque monkeys performing a problem-solving task that engages working memory, and induces time-on-task effects. We thus provide a computational account of changes in effective connectivity within two regions of the fronto-parietal network, the dorsolateral prefrontal cortex and the pre-supplementary motor area. We find that forward connections between the two regions increased in strength when task demands increased, and as the experimental session progressed. Similarities in the effects of task demands and time on task allow us to interpret changes in frontal connectivity in terms of increased attentional effort allocation that compensates cognitive fatigue.",
+  "link": "https://doi.org/10.51628/001c.68433"
+}

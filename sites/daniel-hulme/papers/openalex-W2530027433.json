@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Building and Transport Cards: Attacks and Defences",
+  "year": "2012",
+  "journal": null,
+  "authors": [
+    "Nicolas T. Courtois",
+    "Kamakshi Gupta",
+    "Daniel Hulme"
+  ],
+  "abstract": "- Why so many systems are still vulnerable to attacks? - What some application designers have done wrong and which applications are quite secure though using the same chip? - What are the key security engineering principles for designing such contact-less access control and payment systems? - What are the defences which are still in place and are they effective?",
+  "link": "https://openalex.org/W2530027433"
+}

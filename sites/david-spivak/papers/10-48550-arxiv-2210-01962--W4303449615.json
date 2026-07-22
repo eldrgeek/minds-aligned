@@ -1,0 +1,13 @@
+{
+  "doi": "10.48550/arxiv.2210.01962",
+  "doi_url": "https://doi.org/10.48550/arxiv.2210.01962",
+  "title": "Duoidal Structures for Compositional Dependence",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Brandon T. Shapiro",
+    "David I. Spivak"
+  ],
+  "abstract": "We provide a categorical framework for mathematical objects for which there is both a sort of \"independent\" and \"dependent\" composition. Namely we model them as duoidal categories in which both monoidal structures share a unit and the first is symmetric. We construct the free such category and observe that it is a full subcategory of the category of finite posets. Indeed each algebraic expression in the two monoidal operators corresponds to the poset built by taking disjoint unions and joins of the singleton poset. We characterize these \"expressible\" posets as precisely those which contain no \"zig-zags.\" We then move on to describe categories equipped with $n$-ary operations for each $n$-element finite poset; we refer to them as \"dependence categories\" since they allow for combinations of objects based on any network of dependencies between them. These structures model various sorts of dependence including the space-like and time-like juxtaposition of weighted probability distributions in relativistic spacetime, which we model using polynomial endofunctors on the category of sets, as well as the runtimes for multiple computer programs run in parallel and series, which we model using the tropical semiring structure on nonnegative real numbers. With these examples in mind, we conclude by describing ways in which morphisms in a partial monoidal category can be \"decorated\" in a coherent manner by objects in a dependence category, such as labeling a network of parallel programs with their runtimes.",
+  "link": "https://doi.org/10.48550/arxiv.2210.01962"
+}

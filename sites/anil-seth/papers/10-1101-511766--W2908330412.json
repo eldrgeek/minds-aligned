@@ -1,0 +1,17 @@
+{
+  "doi": "10.1101/511766",
+  "doi_url": "https://doi.org/10.1101/511766",
+  "title": "Increased spontaneous EEG signal diversity during stroboscopically-induced altered states of consciousness",
+  "year": "2019",
+  "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "authors": [
+    "David J. Schwartzman",
+    "Michael Schartner",
+    "Benjamin B. Ador",
+    "Francesca Simonelli",
+    "Acer Yu-Chan Chang",
+    "Anil K. Seth"
+  ],
+  "abstract": "Abstract What are the global neuronal signatures of altered states of consciousness (ASC)? Recently, increases in neural signal diversity, compared to those found in wakeful rest, have been reported during psychedelic states. Neural signal diversity has previously been identified as a robust signature of the state of consciousness, showing lower scores during sleep or anaesthesia compared to wakeful rest. The increased neural signal diversity during psychedelic states raises the additional possibility that it may also reflect the increased diversity of subjective experiences associated with these states. However, psychedelic states involve widespread neuropsychopharmacological changes, only some of which may be associated with altered phenomenology. Therefore, we used stroboscopic stimulation to induce non-pharmacological altered states of consciousness while measuring the diversity of EEG signals. Stroboscopic stimulation caused substantial increases in the intensity and range of subjective experiences, with reports of both simple and complex visual hallucinations. These experiences were accompanied by increases in EEG signal diversity scores (measured using Lempel-Ziv complexity) exceeding those associated with wakeful rest, in line with studies of the psychedelic state. Our findings support the proposal that EEG signal diversity reflects the diversity of subjective experience that is associated with different states of consciousness.",
+  "link": "https://doi.org/10.1101/511766"
+}

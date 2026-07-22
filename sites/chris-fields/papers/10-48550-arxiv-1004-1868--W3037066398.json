@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.1004.1868",
+  "doi_url": "https://doi.org/10.48550/arxiv.1004.1868",
+  "title": "Decompositional equivalence",
+  "year": "2010",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chris Fields"
+  ],
+  "abstract": "Both classical and quantum mechanics assume that physical laws are invariant under changes in the way that the world is labeled. This Principle of Decompositional Equivalence is formalized, and shown to forbid finite experimental demonstrations that given pointer states |p1&gt; and |p2&gt; refer to the same physical system S. It is then shown that any extra-theoretical assumption that given pointer states |p1&gt; and |p2&gt; with indistinguishable coefficients in a Schmidt basis for the universe refer to the same physical system S is stronger than the assumption of classicality. Standard interpretations of quantum mechanics make such as assumption in analyzing measurement; hence they are logically inconsistent.",
+  "link": "https://doi.org/10.48550/arxiv.1004.1868"
+}

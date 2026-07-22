@@ -1,0 +1,17 @@
+{
+  "doi": "10.5281/zenodo.8332911",
+  "doi_url": "https://doi.org/10.5281/zenodo.8332911",
+  "title": "Code and data for \"Attentional effects on local V1 microcircuits explain selective V1-V4 communication\"",
+  "year": "2023",
+  "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+    "Christini Katsanevaki",
+    "André M. Bastos",
+    "Hayriye Cagnan",
+    "Conrado A. Bosman",
+    "Karl Friston",
+    "Pascal Fries"
+  ],
+  "abstract": "Code and data to replicate the analysis and figures of the publication \"Attentional effects on local V1 microcircuits explain selective V1-V4 communication\"",
+  "link": "https://doi.org/10.5281/zenodo.8332911"
+}

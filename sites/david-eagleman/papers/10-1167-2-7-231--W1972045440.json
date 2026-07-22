@@ -1,0 +1,14 @@
+{
+  "doi": "10.1167/2.7.231",
+  "doi_url": "https://doi.org/10.1167/2.7.231",
+  "title": "The perceived brightness of a flash can be influenced by temporal properties of its neighbors",
+  "year": "2010",
+  "journal": "Journal of Vision",
+  "authors": [
+    "David M. Eagleman",
+    "J. E. Jacobson",
+    "Terrence J. Sejnowski"
+  ],
+  "abstract": "The perceived brightness of an object depends on the spatial relationships it has with its neighbors (e.g., brightness induction). We examined whether perceived brightness of a briefly flashed object depends on its temporal relationships with its neighbors. Two gray disks were flashed on either side of a fixation point: one flash lasted for 14 ms (‘brief’); the other lasted for 500 ms (‘long’). Observers reported which flash appeared brighter. When the flashes had simultaneous onset against a dark background, subjects report the brief flash dimmer than the long flash, consistent with the Broca-Sulzer effect. However, when the flashes had simultaneous offset, the brief flash now appeared brighter. The perceived brightness of the brief flash increased monotonically and non-linearly with increasing SOA. When the background was made higher luminance than the flashes, results were reversed: now an onset-matched brief flash appeared brighter, an offset-matched brief flash appeared dimmer. When two brief flashes are presented — one aligned with onset, the other with offset of the long flash — a comparison between them bares the same result: the onset-matched flashed is seen as dimmer than the offset-matched flash. Our results suggest that brightness properties of the brief flashes are temporally integrated with the background, and that the integration time window can be shortened by a salient offset signal nearby. Consistent with this explanation, the differential effect was lost when the flashes were isoluminant with a colored background. We present a model of the neural substrate underlying this phenomenon. Further, we ask whether we are aware of certain kinds of brightness changes, or instead only are aware of the result of integrations over these changes. Our results indicate that we are aware of integrations, and that the duration of the integration window may be changed by salient temporal events in neighboring locations in the visual scene.",
+  "link": "https://doi.org/10.1167/2.7.231"
+}

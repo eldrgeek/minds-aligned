@@ -1,0 +1,16 @@
+{
+  "doi": "10.48550/arxiv.2508.07115",
+  "doi_url": "https://doi.org/10.48550/arxiv.2508.07115",
+  "title": "Sensory robustness through top-down feedback and neural stochasticity in recurrent vision models",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Antonino Greco",
+    "M. D’Alessandro",
+    "Karl Friston",
+    "Giovanni Pezzulo",
+    "Markus Siegel"
+  ],
+  "abstract": "Biological systems leverage top-down feedback for visual processing, yet most artificial vision models succeed in image classification using purely feedforward or recurrent architectures, calling into question the functional significance of descending cortical pathways. Here, we trained convolutional recurrent neural networks (ConvRNN) on image classification in the presence or absence of top-down feedback projections to elucidate the specific computational contributions of those feedback pathways. We found that ConvRNNs with top-down feedback exhibited remarkable speed-accuracy trade-off and robustness to noise perturbations and adversarial attacks, but only when they were trained with stochastic neural variability, simulated by randomly silencing single units via dropout. By performing detailed analyses to identify the reasons for such benefits, we observed that feedback information substantially shaped the representational geometry of the post-integration layer, combining the bottom-up and top-down streams, and this effect was amplified by dropout. Moreover, feedback signals coupled with dropout optimally constrained network activity onto a low-dimensional manifold and encoded object information more efficiently in out-of-distribution regimes, with top-down information stabilizing the representational dynamics at the population level. Together, these findings uncover a dual mechanism for resilient sensory coding. On the one hand, neural stochasticity prevents unit-level co-adaptation albeit at the cost of more chaotic dynamics. On the other hand, top-down feedback harnesses high-level information to stabilize network activity on compact low-dimensional manifolds.",
+  "link": "https://doi.org/10.48550/arxiv.2508.07115"
+}

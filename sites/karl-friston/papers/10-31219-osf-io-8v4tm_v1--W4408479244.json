@@ -1,0 +1,17 @@
+{
+  "doi": "10.31219/osf.io/8v4tm_v1",
+  "doi_url": "https://doi.org/10.31219/osf.io/8v4tm_v1",
+  "title": "Mapping conservative Fokker–Planck entropy in neural systems",
+  "year": "2024",
+  "journal": null,
+  "authors": [
+    "Erik D. Fagerholm",
+    "Gregory Scott",
+    "Robert Leech",
+    "Federico Turkheimer",
+    "Karl Friston",
+    "Milan Brázdil"
+  ],
+  "abstract": "Mapping the flow of information through the networks of the brain remains one of the most important challenges in computational neuroscience. In certain cases, this flow can be approximated by considering just two contributing factors—a predictable drift and a randomized diffusion. We show here that the uncertainty associated with such a drift-diffusion process can be calculated in terms of the entropy associated with the Fokker–Planck equation. This entropic evolution comprises two components: an irreversible entropic spread that always increases over time and a reversible entropic current that can increase or decrease locally within the system. We apply this dynamic entropy decomposition to two-photon imaging data collected in the murine visual cortex. Our analysis reveals maps of conserved entropic flow emanating from lateromedial, anterolateral, and rostrolateral regions toward the primary visual cortex (V1). These results highlight the role of V1 as an entropic sink, facilitating the redistribution of information throughout the visual cortex. These findings offer new insights into the hierarchical organization of cortical processing and provide a framework for exploring information dynamics in complex dynamical systems.",
+  "link": "https://doi.org/10.31219/osf.io/8v4tm_v1"
+}

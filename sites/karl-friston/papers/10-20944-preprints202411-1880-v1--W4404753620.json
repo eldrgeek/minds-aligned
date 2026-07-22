@@ -1,0 +1,17 @@
+{
+  "doi": "10.20944/preprints202411.1880.v1",
+  "doi_url": "https://doi.org/10.20944/preprints202411.1880.v1",
+  "title": "Introducing ActiveInference.jl: A Julia Library for Simulation and Parameter Estimation with Active Inference Models",
+  "year": "2024",
+  "journal": "Preprints.org",
+  "authors": [
+    "Samuel William Nehrer",
+    "Jonathan Ehrenreich Laursen",
+    "Conor Heins",
+    "Karl Friston",
+    "Christoph Mathys",
+    "Peter Thestrup Waade"
+  ],
+  "abstract": "We introduce a new software package for the Julia programming language, the library ActiveInference.jl. To make active inference agents with Partially-Observable Markov Decision Process (POMDP) generative models available to the growing research community using Julia, we re-implemented the pymdp library for Python. ActiveInference.jl is compatible with cutting-edge Julia libraries designed for cognitive and behavioral modeling as it is used in computational psychiatry, cognitive science, and neuroscience. This means that POMDP active inference models can now easily be fit to empirically observed behavior, using sampling as well as variational methods. In this article, we show how ActiveInference.jl makes building POMDP active inference models straightforward, and how it enables researchers to use them for simulation as well as fitting them to data or to do model comparison.",
+  "link": "https://doi.org/10.20944/preprints202411.1880.v1"
+}

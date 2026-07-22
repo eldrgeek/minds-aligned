@@ -1,0 +1,12 @@
+{
+  "doi": "10.48550/arxiv.2201.12878",
+  "doi_url": "https://doi.org/10.48550/arxiv.2201.12878",
+  "title": "Polynomial Functors and Shannon Entropy",
+  "year": "2022",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "David I. Spivak"
+  ],
+  "abstract": "Past work shows that one can associate a notion of Shannon entropy to a Dirichlet polynomial, regarded as an empirical distribution. Indeed, entropy can be extracted from any d:Dir by a two-step process, where the first step is a rig homomorphism out of Dir, the *set* of Dirichlet polynomials, with rig structure given by standard addition and multiplication. In this short note, we show that this rig homomorphism can be upgraded to a rig *functor*, when we replace the set of Dirichlet polynomials by the *category* of ordinary (Cartesian) polynomials. In the Cartesian case, the process has three steps. The first step is a rig functor PolyCart -&gt; Poly sending a polynomial p to (dp)y, where dp is the derivative of p. The second is a rig functor Poly -&gt; Set x Set^op, sending a polynomial q to the pair (q(1),Gamma(q)), where Gamma(q)=Poly(q,y) can be interpreted as the global sections of q viewed as a bundle, and q(1) as its base. To make this precise we define what appears to be a new distributive monoidal structure on Set x Set^op, which can be understood geometrically in terms of rectangles. The last step, as for Dirichlet polynomials, is simply to extract the entropy as a real number from a pair of sets (A,B); it is given by log A - log B^(1/A) and can be thought of as the log aspect ratio of the rectangle.",
+  "link": "https://doi.org/10.48550/arxiv.2201.12878"
+}

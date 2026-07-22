@@ -1,0 +1,13 @@
+{
+  "doi": "10.1093/med/9780197640654.003.0071",
+  "doi_url": "https://doi.org/10.1093/med/9780197640654.003.0071",
+  "title": "Computational Psychiatry and the Bayesian Brain",
+  "year": "2025",
+  "journal": null,
+  "authors": [
+    "Karl Friston",
+    "Xiaosi Gu"
+  ],
+  "abstract": "Abstract Computational psychiatry is a burgeoning field that uses formal models of brain function to characterize the mechanisms of psychopathology, with the hope that these mechanistic views can generate objective and predictive targets for treatment and intervention. This chapter introduces relevant key concepts and rationale relevant for computational psychiatry. It focuses on the Bayesian brain framework as an example to demonstrate how computational theories and models can account for false beliefs observed across many mental disorders. This framework is also compared with other formal theories of the brain. Specifically, the chapter reviews findings on delusions in schizophrenia as an example of false sensory inference; it also uses false interoceptive and interpersonal inference in autism to demonstrate the impact of faulty inference during neurodevelopment. The chapter concludes by summarizing the status quo of the field and noting future directions of research.",
+  "link": "https://doi.org/10.1093/med/9780197640654.003.0071"
+}

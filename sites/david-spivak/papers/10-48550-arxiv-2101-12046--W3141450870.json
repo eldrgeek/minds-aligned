@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2101.12046",
+  "doi_url": "https://doi.org/10.48550/arxiv.2101.12046",
+  "title": "Wiring diagrams as normal forms for computing in symmetric monoidal categories",
+  "year": "2021",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Evan Patterson",
+    "David I. Spivak",
+    "Dmitry Vagner"
+  ],
+  "abstract": "Applications of category theory often involve symmetric monoidal categories (SMCs), in which abstract processes or operations can be composed in series and parallel. However, in 2020 there remains a dearth of computational tools for working with SMCs. We present an \"unbiased\" approach to implementing symmetric monoidal categories, based on an operad of directed, acyclic wiring diagrams. Because the interchange law and other laws of a SMC hold identically in a wiring diagram, no rewrite rules are needed to compare diagrams. We discuss the mathematics of the operad of wiring diagrams, as well as its implementation in the software package Catlab.",
+  "link": "https://doi.org/10.48550/arxiv.2101.12046"
+}

@@ -1,0 +1,12 @@
+{
+  "doi": "10.7551/mitpress/3120.003.0050",
+  "doi_url": "https://doi.org/10.7551/mitpress/3120.003.0050",
+  "title": "Unorthodox Optimal Foraging Theory",
+  "year": "2000",
+  "journal": "The MIT Press eBooks",
+  "authors": [
+    "Anil K. Seth"
+  ],
+  "abstract": "As the Simulation of Adaptive Behaviour (SAB) field continues to mature, it is essential that general methodological positions become elaborated into practical programmes of research. This paper describes how a particular flavour of SAB modelling - the use of genetic algorithms to design situated agent (animat) architectures - can effectively complement `optimal foraging theory&amp;apos;, as it is understood in theoretical biology. This allows several fundamental problems that arise directly out of the framework of orthodox optimal foraging theory to be addressed, but, as with any trade-off, is not without disadvantages of its own. 1. Introduction This paper considers the methodological potential of a set of models at one intersection of the overlapping fields of artificial life (AL) and the simulation of adaptive behaviour (SAB). These models, which for want of an appropriate existing term shall be called Individual-based Optimal Situated (IOS) models, derive from the larger clas...",
+  "link": "https://doi.org/10.7551/mitpress/3120.003.0050"
+}

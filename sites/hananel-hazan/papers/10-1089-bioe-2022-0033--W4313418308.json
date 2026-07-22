@@ -1,0 +1,13 @@
+{
+  "doi": "10.1089/bioe.2022.0033",
+  "doi_url": "https://doi.org/10.1089/bioe.2022.0033",
+  "title": "Exploring the Behavior of Bioelectric Circuits Using Evolution Heuristic Search",
+  "year": "2022",
+  "journal": "Bioelectricity",
+  "authors": [
+    "Hananel Hazan",
+    "Michael Levin"
+  ],
+  "abstract": "Characteristic spatial differences of cellular resting potential across tissues have been shown to act as instructive bioelectric prepatterns regulating embryonic and regenerative morphogenesis, as well as cancer suppression. Indeed, modulation of bioelectric patterns via specific ion channel-targeting drugs, channel misexpression, or optogenetics has been used to control growth and form in vitro , showing promise in regenerative medicine and synthetic bioengineering. Repair of defects, injury, and transformation requires quantitative understanding of bioelectric dynamics within tissues so that these can be modulated toward desired outcomes in organ patterning or the creation of entirely novel synthetic constructs. The major gap in the discovery of interventions for rational control of organ-level outcomes is the inability to predict large-scale bioelectric patterns—their emergence from symmetry breaking (given a set of channels expressed on the tissue) and their change as a function of time under specific bioelectrical interventions. It is thus essential to develop machine learning and other computational tools to help human scientists identify bioelectric states with desirable properties. In this study, we tested the ability of a heuristic search algorithm to explore the parameter space of bioelectrical circuits by adjusting the parameters of simulated cells. We show that while bioelectrical space is not easy to search, it does contain parameter sets that encode rich and interesting patterning behaviors. We demonstrate proof of principle of using a computational search platform to identify circuits with desired properties, as a first step toward the design of machine learning tools for improved bioelectric control of growth and form.",
+  "link": "https://doi.org/10.1089/bioe.2022.0033"
+}

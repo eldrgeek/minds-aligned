@@ -1,0 +1,14 @@
+{
+  "doi": "10.48550/arxiv.2509.08267",
+  "doi_url": "https://doi.org/10.48550/arxiv.2509.08267",
+  "title": "Exploring Formal Math on the Blockchain: An Explorer for Proofgold",
+  "year": "2025",
+  "journal": "arXiv (Cornell University)",
+  "authors": [
+    "Chad E. Brown",
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "Proofgold is a blockchain that supports formalized mathematics alongside standard cryptocurrency functionality. It incorporates logical constructs into the blockchain, including declarations of formal theories, definitions, propositions and proofs. It also supports placing and collecting bounties on proving these propositions, incentivizing the development of the formal libraries contained in Proofgold. In this paper, we present a web-based blockchain explorer for Proofgold. The system exposes not only the usual transactional data but also the formal mathematical components embedded in the chain and allows some interaction with them. The explorer allows users to inspect blocks, transactions, and addresses, as well as formal objects: theories, definitions, theorems and their proofs. We also support the submission of transactions to the blockchain using our interface. We describe the system architecture and its integration with the Proofgold Lava software, highlighting how the explorer supports navigation of formal content and facilitates mathematical knowledge management in a decentralized setting, as well as a number of formalizations in category theory done in the system.",
+  "link": "https://doi.org/10.48550/arxiv.2509.08267"
+}

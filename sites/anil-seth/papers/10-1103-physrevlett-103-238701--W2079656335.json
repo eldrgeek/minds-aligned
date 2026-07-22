@@ -1,0 +1,14 @@
+{
+  "doi": "10.1103/physrevlett.103.238701",
+  "doi_url": "https://doi.org/10.1103/physrevlett.103.238701",
+  "title": "Granger Causality and Transfer Entropy Are Equivalent for Gaussian Variables",
+  "year": "2009",
+  "journal": "Physical Review Letters",
+  "authors": [
+    "Lionel Barnett",
+    "Adam B. Barrett",
+    "Anil K. Seth"
+  ],
+  "abstract": "Granger causality is a statistical notion of causal influence based on prediction via vector autoregression. Developed originally in the field of econometrics, it has since found application in a broader arena, particularly in neuroscience. More recently transfer entropy, an information-theoretic measure of time-directed information transfer between jointly dependent processes, has gained traction in a similarly wide field. While it has been recognized that the two concepts must be related, the exact relationship has until now not been formally described. Here we show that for Gaussian variables, Granger causality and transfer entropy are entirely equivalent, thus bridging autoregressive and information-theoretic approaches to data-driven causal inference.",
+  "link": "https://doi.org/10.1103/physrevlett.103.238701"
+}

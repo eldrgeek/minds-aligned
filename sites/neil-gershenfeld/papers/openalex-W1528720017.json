@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "Electropermanent magnetic connectors and actuators: devices and their application in programmable matter",
+  "year": "2010",
+  "journal": null,
+  "authors": [
+    "Daniela Rus",
+    "Neil Gershenfeld",
+    "Ara N. Knaian"
+  ],
+  "abstract": "Programmable matter is a digital material having computation, sensing, and actuation capabilities as continuous properties active over its whole extent. To make programmable matter economical to fabricate, we want to use electromagnetic direct drive, rather than clockwork, to actuate the particles. Previous attempts to fabricate small scale (below one centimeter) robotic systems with electromagnetic direct-drive have typically run into problems with insufficient force or torque, excessive power consumption and heat generation (for magnetic-drive systems), or high-voltage requirements, humidity sensitivity, and air breakdown. (for electrostatic-drive systems) The electropermanent magnet is a solid-state device whose external magnetic flux can be stably switched on and off by a discrete electrical pulse. Electropermanent magnets can provide low-power connection and actuation for programmable matter and other small-scale robotic systems. The first chapter covers the electropermanent magnet, its physics, scaling, fabrication, and our experimental device performance data. The second introduces the idea of electropermanent actuators, covers their fundamental limits and scaling, and shows prototype devices and performance measurements. The third chapter describes the smart pebbles system, which consists of 12-mm cubes that can form shapes by stochastic self-assembly and self-disassembly. The fourth chapter describes the millibot, a continuous chain of programmable matter which forms shapes by folding. (Copies available exclusively from MIT Libraries, Rm. 14-0551, Cambridge, MA 02139-4307. Ph. 617-253-5668; Fax 617-253-1690.)",
+  "link": "https://openalex.org/W1528720017"
+}

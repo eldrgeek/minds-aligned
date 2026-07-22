@@ -1,0 +1,15 @@
+{
+  "doi": "10.1007/978-3-031-43369-6_13",
+  "doi_url": "https://doi.org/10.1007/978-3-031-43369-6_13",
+  "title": "Learning Proof Transformations and Its Applications in Interactive Theorem Proving",
+  "year": "2023",
+  "journal": "Lecture notes in computer science",
+  "authors": [
+    "Liao Zhang",
+    "Lasse Blaauwbroek",
+    "Cezary Kaliszyk",
+    "Josef Urban"
+  ],
+  "abstract": "Abstract Interactive theorem provers are today increasingly used to certify mathematical theories. To formally prove a theorem, reasoning procedures called tactics are invoked successively on the proof states starting with the initial theorem statement, transforming them into subsequent intermediate goals, and ultimately discharging all proof obligations. In this work, we develop and experimentally evaluate approaches that predict the most likely tactics that will achieve particular desired transformations of proof states. First, we design several characterizations to efficiently capture the semantics of the proof transformations. Then we use them to create large datasets on which we train state-of-the-art random forests and language models. The trained models are evaluated experimentally, and we show that our best model is able to guess the right tactic for a given proof transformation in 74% of the cases. Finally, we use the trained methods in two applications: proof shortening and tactic suggesting. To the best of our knowledge, this is the first time that tactic synthesis is trained on proof transformations and assists interactive theorem proving in these ways.",
+  "link": "https://doi.org/10.1007/978-3-031-43369-6_13"
+}

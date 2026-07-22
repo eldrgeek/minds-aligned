@@ -1,0 +1,13 @@
+{
+  "doi": "10.4204/eptcs.333",
+  "doi_url": "https://doi.org/10.4204/eptcs.333",
+  "title": "Proceedings of the 3rd Annual International Applied Category Theory Conference 2020",
+  "year": "2021",
+  "journal": "Electronic Proceedings in Theoretical Computer Science",
+  "authors": [
+    "David I. Spivak",
+    "Jamie Vicary"
+  ],
+  "abstract": "The third annual International Applied Category Theory Conference (ACT2020) was planned to take place at MIT in Cambridge, Massachusetts USA. However, the global COVID-19 pandemic made the prospect of holding a large in-person meeting impossible, and the event was thus held completely online. Holding the talks online had the new benefits of reducing carbon footprint, being inclusive of people from more parts of the world, and producing higher-quality video talks, which have been posted online for posterity. The ACT2020 contributions spanned a broad spectrum of application areas, including databases, dynamical systems, functional programming, game theory, lenses, neuroscience, probabilistic programming, natural language processing, quantum mechanics, and cyberphysical systems. Papers featured a broad range of categorical techniques. Papers in this Proceedings volume represents about half of the talks presented at ACT2020. Being included in the proceedings vs. not is not an indication of talk quality, but instead almost exclusively the choice of the authors, e.g. to present work already published elsewhere.",
+  "link": "https://doi.org/10.4204/eptcs.333"
+}

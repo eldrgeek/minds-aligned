@@ -1,0 +1,14 @@
+{
+  "doi": "10.29007/xghj",
+  "doi_url": "https://doi.org/10.29007/xghj",
+  "title": "Automated Invention of Strategies and Term Orderings for Vampire",
+  "year": "2018",
+  "journal": "EPiC series in computing",
+  "authors": [
+    "Jan Jakubův",
+    "Martin Suda",
+    "Josef Urban"
+  ],
+  "abstract": "In this work we significantly increase the performance of the Vampire and E automated theorem provers (ATPs) on a set of loop theory problems. This is done by developing EmpireTune, an AI system that automatically invents targeted search strategies for Vampire and E. EmpireTune extends previous strategy invention systems in several ways. We have developed support for the Vampire prover, further extended Vampire by new mechanisms for specifying term orderings, and EmpireTune can now automatically invent suitable term ordering for classes of problems. We describe the motivation behind these additions, their implementation in Vampire and EmpireTune, and evaluate the systems with very good results on the AIM (loop theory) ATP benchmark.",
+  "link": "https://doi.org/10.29007/xghj"
+}
