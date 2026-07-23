@@ -6,7 +6,12 @@
 # Four checks per property, all against production:
 #   HTTP   page returns 200
 #   HOST   the AI host widget is mounted (soma-guide.js + <slug>-host.js in the markup)
-#   ASK    POST /api/ask returns a real grounded answer (not a fallback string)
+#   ASK    POST /api/ask returns a real grounded answer. Distinguishes:
+#            ok     — grounded answer with passages retrieved
+#            FALLBK — inference upstream down (widget wired, no answer)
+#            THIN   — 200 with prose but retrieved=0 or the host pleads ignorance of its
+#                     own corpus (the silent retrieval miss that used to pass as ok)
+#            EMPTY  — nothing came back
 #   CHIP   the soma-feedback widget is mounted
 #   SOMA   the SocietyBar links to the SOMA 2026 page
 #   JOIN   the SOMA-onboard affordance is mounted (JoinBar → hub /join/)
@@ -50,16 +55,29 @@ for row in "${PROPS[@]}"; do
     -H 'Content-Type: application/json' \
     -d "{\"question\":$(printf '%s' "$question" | python3 -c 'import json,sys; print(json.dumps(sys.stdin.read()))'),\"persona\":\"$host\"}")
 
-  answer=$(printf '%s' "$resp" | python3 -c 'import json,sys
-try:
-    d=json.load(sys.stdin); print((d.get("answer") or "")[:400])
+  answer=$(printf '%s' "$resp" | python3 -c '
+import json, sys
+try: print(((json.load(sys.stdin).get("answer") or "")[:400]).replace("\n"," "))
 except Exception: print("")' 2>/dev/null)
+  # The retrieval count is the tell that a "200 with prose" is actually a retrieval miss —
+  # the failure mode that slipped through before: joschese returned a fluent "I don't see
+  # that in the archive" with retrieved=0 while the archive held the answer, and a checker
+  # that only looked at HTTP + fallback-string passed it.
+  retrieved=$(printf '%s' "$resp" | python3 -c '
+import json, sys
+try:
+    r = json.load(sys.stdin).get("retrieved")
+    print("-" if r is None else r)
+except Exception: print("-")' 2>/dev/null)
 
-  # A fallback string means the widget is wired but the answer never came.
   if [ -z "$answer" ]; then
-    ASK=EMPTY
+    ASK=EMPTY                                          # widget wired, nothing came back
   elif grep -qE "can't reach the knowledge|couldn't complete that just now" <<< "$answer"; then
-    ASK=FALLBK
+    ASK=FALLBK                                         # inference upstream down
+  elif [ "$retrieved" = "0" ]; then
+    ASK=THIN                                           # answered, but retrieved NOTHING — retrieval miss
+  elif grep -qiE "don't see|do not see|don't have (any|a )|no (relevant )?passages|not in the archive|isn't in (this|the) archive" <<< "$answer"; then
+    ASK=THIN                                           # host is pleading ignorance about its own corpus
   else
     ASK=ok
   fi
