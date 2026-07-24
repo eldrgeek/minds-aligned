@@ -199,6 +199,114 @@ export const roster: Thinker[] = [
     glyph: "JU",
     bio: "Automated reasoning, formal mathematics, and AI systems that collaborate with humans on proofs.",
   },
+
+  // ── Added 2026-07-23 from the live AGI-26 program (SCHEDULE-2026-07-22.md). ──
+  // These are presenters (keynote / talk / paper / demo). Pure moderators and press
+  // (Julian Issa, Gerrit De Vynck, Haley Lowy, Catherine McMillan, Kai Bickle) and the
+  // unverified "Gem from Midnight" were deliberately left OFF the public roster.
+  // Dossiers + archive-triage: SOMA/agi26-trip/NEW-SPEAKERS-DOSSIERS-2026-07-23.md.
+  // Four are archive-BUILD candidates (Lipson, Pavone, Iklé, Perrier) — flagged below;
+  // NONE gets a published archive site until a second verification sweep (Gemini's own
+  // caveat: single-pass research). No subsiteUrl until then.
+  {
+    name: "Hod Lipson",
+    slug: "hod-lipson",
+    affiliation: "Columbia University — Creative Machines Lab",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "HL",
+    bio: "Evolutionary robotics and machine self-modeling — robots that build internal self-simulations to adapt and repair. AGI-26: \"Machine consciousness: can robots imagine themselves?\" [archive-BUILD candidate]",
+  },
+  {
+    name: "Marco Pavone",
+    slug: "marco-pavone",
+    affiliation: "NVIDIA (Head of Autonomous Systems) / Stanford",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "MP",
+    bio: "Algorithmic robotics, safety-critical control, and foundation models for Physical AI — grounding digital minds safely into physical, multi-agent environments. [archive-BUILD candidate]",
+  },
+  {
+    name: "Matt Iklé",
+    slug: "matt-ikle",
+    affiliation: "SingularityNET / TrueAGI — AGI-26 chair",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "MI",
+    bio: "Mathematician and co-architect of OpenCog Hyperon; co-author of Probabilistic Logic Networks — formal, auditable inference under uncertainty. Conference chair. [archive-BUILD candidate]",
+  },
+  {
+    name: "Andrew Kemendo",
+    slug: "andrew-kemendo",
+    affiliation: "AGI Society — AGI-26 co-chair",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "AK",
+    bio: "Technology executive and former USAF intelligence officer; the monitoring, evaluation, and safety side of AGI. Co-presents the AGI Society vision on independent oversight.",
+  },
+  {
+    name: "Elija Perrier",
+    slug: "elija-perrier",
+    affiliation: "Quantum information & AGI governance",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "EP",
+    bio: "Quantum machine learning and the governance of superintelligence — identity, self-modification, and the thermodynamic limits of intelligence. AGI-26: three papers + BGI Labs fireside. [archive-BUILD candidate]",
+  },
+  {
+    name: "Will Gebhard",
+    slug: "will-gebhard",
+    affiliation: "AGI-26 Rising Presenter",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "WG",
+    bio: "Spiking representation learning — energy-efficient, substrate-level neuromorphic architectures. Early-career; footprint is the talk itself.",
+  },
+  {
+    name: "Khellar Crawford",
+    slug: "khellar-crawford",
+    affiliation: "OmegaClaw",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "KC",
+    bio: "Proto-AGI applications demo (OmegaClaw). See SOMA/agi26-trip/omegaclaw-tech-brief.md.",
+  },
+  {
+    name: "Kennedy Schaal",
+    slug: "kennedy-schaal",
+    affiliation: "Rejuve.Bio",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "KS",
+    bio: "Longevity and bio-AI (Rejuve.Bio, SingularityNET-adjacent). AGI-26 proto-AGI applications demo.",
+  },
+  {
+    name: "Chris Kudla",
+    slug: "chris-kudla",
+    affiliation: "Mind Children Robotics",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "CK",
+    bio: "Embodied robotics — the Codey demonstration (Mind Children Robotics).",
+  },
+  {
+    name: "Andrew Melnychuk-Oseen",
+    slug: "andrew-melnychuk-oseen",
+    affiliation: "Saaga Solve",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "AM",
+    bio: "Applied proto-AGI — \"Enlightenment 2.0\" (Saaga Solve).",
+  },
+  {
+    name: "Michael Miller",
+    slug: "michael-miller",
+    affiliation: "Constructivist AI",
+    tier: "keynote",
+    accent: "teal",
+    glyph: "MM",
+    bio: "Piagetian / constructivist approaches to machine cognition — demo \"Building Sentient Beings.\"",
+  },
 ];
 
 export const anchors = roster.filter(t => t.tier === 'anchor');
