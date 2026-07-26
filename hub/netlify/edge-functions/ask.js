@@ -121,6 +121,20 @@ export default async (request) => {
     if (!res.ok) {
       const detail = await res.text().catch(() => '');
       console.warn('[ask] infer service', res.status, detail.slice(0, 300));
+
+      /* 429 = the shared daily question pool is dry, not an outage — pass the real
+       * meaning through instead of the generic "can't reach" message (review
+       * finding 4, 2026-07-26 hardening pass; same branch as _shared/host/ask-edge.js —
+       * the hub's ask.js is hand-maintained, build-hosts.mjs does not regenerate it). */
+      if (res.status === 429) {
+        return json(429, {
+          error: 'daily_pool_exhausted',
+          answer:
+            persona +
+            " has answered the maximum number of questions for today across the whole SOMA estate — the pool resets at midnight Pacific. The roster below still works — every card links straight to that thinker's archive.",
+        });
+      }
+
       return json(502, {
         error: 'inference_unavailable',
         answer:
