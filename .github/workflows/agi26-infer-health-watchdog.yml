@@ -1,0 +1,102 @@
+name: AGI-26 infer health watchdog
+
+# Hits the canonical inference service's /health endpoint every 5 minutes and
+# posts a Pulse Zero action card if it's down or unreachable. Added for the
+# AGI-26 conference travel window (2026-07-27..30), when Mike's Mac — the
+# usual place a Mac-side cron/launchd health check would run — is traveling
+# and can't be relied on to stay awake. GitHub Actions runs this instead;
+# it's the shared infra fix from the 2026-07-26 hardening pass, see
+# _estate/verification/2026-07-26-agi-inference-review.md.
+#
+# Dedup: uses a stable dedupe_key so repeated failures update one open card
+# in place (Pulse Zero PATCHes an existing open card with the same key)
+# instead of spamming the board every 5 minutes. On recovery, the workflow
+# also resolves the card so it doesn't sit open once the service is back.
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check /infer/health
+        id: health
+        run: |
+          set -uo pipefail
+          resp=$(curl -s -m 15 -w '\n%{http_code}' https://vpsmikewolf.duckdns.org/infer/health || echo -e "\n000")
+          code=$(echo "$resp" | tail -1)
+          body=$(echo "$resp" | sed '$d')
+          echo "http_code=$code" >> "$GITHUB_OUTPUT"
+          ok=$(echo "$body" | python3 -c 'import json,sys
+try:
+    d = json.load(sys.stdin)
+    print("true" if d.get("ok") else "false")
+except Exception:
+    print("false")' 2>/dev/null || echo "false")
+          echo "ok=$ok" >> "$GITHUB_OUTPUT"
+          echo "body=$(echo "$body" | head -c 300)" >> "$GITHUB_OUTPUT"
+          echo "health check: http=$code ok=$ok body=$(echo "$body" | head -c 300)"
+
+      - name: Post/refresh Pulse card on failure
+        if: steps.health.outputs.ok != 'true'
+        env:
+          PULSE_ZERO_SERVICE_KEY: ${{ secrets.PULSE_ZERO_SERVICE_KEY }}
+          HTTP_CODE: ${{ steps.health.outputs.http_code }}
+          BODY: ${{ steps.health.outputs.body }}
+        run: |
+          set -uo pipefail
+          SB_URL="https://omfwcodoimjmbrhssvfl.supabase.co"
+          DEDUPE_KEY="agi26-infer-health-down"
+
+          existing=$(curl -s "$SB_URL/rest/v1/pulse_cards?app_id=eq.pulse-zero&status=eq.open&dedupe_key=eq.$DEDUPE_KEY&limit=1" \
+            -H "apikey: $PULSE_ZERO_SERVICE_KEY" -H "Authorization: Bearer $PULSE_ZERO_SERVICE_KEY")
+          card_id=$(echo "$existing" | python3 -c 'import json,sys
+d=json.load(sys.stdin)
+print(d[0]["id"] if d else "")' 2>/dev/null || echo "")
+
+          payload=$(python3 -c '
+import json, os
+print(json.dumps({
+    "title": "AGI-26 infer service is down — check the Mac/VPS",
+    "why": "GitHub Actions watchdog: /infer/health returned http=" + os.environ.get("HTTP_CODE","?") + " " + os.environ.get("BODY",""),
+    "steps": "1. ssh -i ~/.ssh/id_ed25519_vps_clean ubuntu@vpsmikewolf.duckdns.org\n2. pm2 logs soma-infer --lines 50\n3. curl https://vpsmikewolf.duckdns.org/infer/health\n4. pm2 restart soma-infer if needed",
+    "url": "https://vpsmikewolf.duckdns.org/infer/health",
+}))')
+
+          if [ -n "$card_id" ]; then
+            curl -s -X PATCH "$SB_URL/rest/v1/pulse_cards?id=eq.$card_id" \
+              -H "apikey: $PULSE_ZERO_SERVICE_KEY" -H "Authorization: Bearer $PULSE_ZERO_SERVICE_KEY" \
+              -H "Content-Type: application/json" -H "Prefer: return=minimal" \
+              -d "{\"payload\": $payload}"
+            echo "updated existing card $card_id"
+          else
+            curl -s -X POST "$SB_URL/rest/v1/pulse_cards" \
+              -H "apikey: $PULSE_ZERO_SERVICE_KEY" -H "Authorization: Bearer $PULSE_ZERO_SERVICE_KEY" \
+              -H "Content-Type: application/json" -H "Prefer: return=minimal" \
+              -d "{\"app_id\": \"pulse-zero\", \"type\": \"action\", \"status\": \"open\", \"created_by\": \"gh-action:agi26-infer-health-watchdog\", \"dedupe_key\": \"$DEDUPE_KEY\", \"payload\": $payload}"
+            echo "posted new card"
+          fi
+
+      - name: Resolve card on recovery
+        if: steps.health.outputs.ok == 'true'
+        env:
+          PULSE_ZERO_SERVICE_KEY: ${{ secrets.PULSE_ZERO_SERVICE_KEY }}
+        run: |
+          set -uo pipefail
+          SB_URL="https://omfwcodoimjmbrhssvfl.supabase.co"
+          DEDUPE_KEY="agi26-infer-health-down"
+          existing=$(curl -s "$SB_URL/rest/v1/pulse_cards?app_id=eq.pulse-zero&status=eq.open&dedupe_key=eq.$DEDUPE_KEY&limit=1" \
+            -H "apikey: $PULSE_ZERO_SERVICE_KEY" -H "Authorization: Bearer $PULSE_ZERO_SERVICE_KEY")
+          card_id=$(echo "$existing" | python3 -c 'import json,sys
+d=json.load(sys.stdin)
+print(d[0]["id"] if d else "")' 2>/dev/null || echo "")
+          if [ -n "$card_id" ]; then
+            curl -s -X PATCH "$SB_URL/rest/v1/pulse_cards?id=eq.$card_id" \
+              -H "apikey: $PULSE_ZERO_SERVICE_KEY" -H "Authorization: Bearer $PULSE_ZERO_SERVICE_KEY" \
+              -H "Content-Type: application/json" -H "Prefer: return=minimal" \
+              -d '{"status": "resolved", "resolved_note": "auto-resolved: /infer/health returned ok=true on a later check"}'
+            echo "resolved recovered card $card_id"
+          fi
