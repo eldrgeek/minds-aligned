@@ -1,6 +1,6 @@
 ---
 // Base layout for Michael Levin subsite
-import { BackToHub, FeedbackWidget, SocietyBar, AIHost, JoinBar } from '@soma/feedback/components'
+import { BackToHub, FeedbackWidget, SocietyBar, AIHost, JoinBar , PageQR } from '@soma/feedback/components'
 
 interface Props {
   title: string
@@ -31,6 +31,9 @@ const { title, hubUrl } = Astro.props
     <JoinBar site="michael-levin" />
 
     <SocietyBar />
+
+
+    <PageQR />
 
     <FeedbackWidget site="michael-levin" />
   </body>

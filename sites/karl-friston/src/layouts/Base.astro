@@ -1,5 +1,5 @@
 ---
-import { FeedbackWidget, SocietyBar, AIHost, JoinBar } from '@soma/feedback/components'
+import { FeedbackWidget, SocietyBar, AIHost, JoinBar , PageQR } from '@soma/feedback/components'
 interface Props {
   title: string;
   description?: string;
@@ -96,6 +96,9 @@ const { title, description = "Publication archive and grounded AI guide for Karl
   <JoinBar site="karl-friston" />
 
     <SocietyBar />
+
+
+    <PageQR />
 
   <FeedbackWidget site="karl-friston" />
 </body>

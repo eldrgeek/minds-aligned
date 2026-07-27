@@ -87,6 +87,32 @@ cannot import the workspace package.
 
 **SOMA-app status (verified 2026-07-15):** all 13 live properties (hub + 10 monorepo thinker sites + Levinese + Joscha) carry the canonical `soma-feedback` widget (SOMA-APP-STANDARD §8) at the shared-layout level, so every page inherits it. App identity is the bare thinker slug (`site="karl-friston"`, `site="minds-aligned-hub"`, etc.) — the pre-existing convention from an earlier pass, kept rather than introduced-anew. `soma-ship-check.py` passes hard checks on all 13. Widget source: `packages/feedback` workspace package inside this monorepo (imported via `@soma/feedback/components`); Levinese/Joscha vendor the standalone JS/CSS directly since they're outside the monorepo and can't reach the workspace package. `sites/michael-levin` and `sites/joscha-bach` remain undeployed stubs — not wired for a live deploy, only patched for build-parity. Full report: `SOMA/audits/20260715T0633XX-agi2026-soma-apps.md`.
 
+## Page QR codes (2026-07-27)
+
+Every page on all thirteen properties carries a QR code that leads back to **that page** —
+the conference-floor handoff: open a thinker's archive on a laptop, they scan the strip at
+the bottom of the page and walk away with it on their phone. Tapping the code enlarges it
+to ~420px so it can be scanned across a table.
+
+- **Source:** `packages/feedback/src/page-qr/page-qr.src.js` (widget + `qrcode` encoder).
+- **Rebuild + distribute:** `node packages/feedback/src/page-qr/build.mjs [slug ...]` —
+  esbuild-bundles to a single 29 KB IIFE and writes `public/js/soma-page-qr.js` into the
+  hub, every `sites/<slug>/` with a `Base.astro`, and `~/Projects/Levinese` +
+  `~/Projects/Joscha`. **Never hand-edit the generated copies.**
+- **Wiring:** `PageQR.astro` in `packages/feedback` (a script tag) rendered by every
+  monorepo layout; the same tag inlined by hand in Levinese/Joscha, same reason as JoinBar.
+- **Why the URL is read at runtime, not baked in at build:** several `sites/*/astro.config.mjs`
+  still carry the dead `https://<slug>.agi-2026.netlify.app` pattern in `site:`, and the hub
+  sets no `site:` at all, so build-time URLs would be wrong on most properties. Reading
+  `window.location` is right on every property, on deploy previews, and after a domain move.
+  (Those stale `site:` values are still worth fixing for canonical/sitemap purposes — the QR
+  no longer depends on them.)
+- **Excluded by design:** the Netlify CMS shells at `/admin/` on Levinese/Joscha — backend,
+  not a conference page.
+- **Verified live 2026-07-27** by decoding the rendered SVG on the deployed pages (jsQR over
+  a canvas rasterization) and comparing to `location.href`: exact match on hub and thinker
+  pages, sub-pages included.
+
 **Depends on / used by:** reuses the `Levinese`/`Joscha` Astro+Tailwind template for per-thinker subsites (here named for the thinker, e.g. `sites/michael-levin`).
 
 **Gotchas**

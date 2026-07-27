@@ -1,0 +1,14 @@
+---
+// PageQR.astro
+// Bottom-of-page strip carrying a QR code that leads back to this very page —
+// the conference-floor affordance: show a thinker their archive on a laptop,
+// they scan the strip and leave with it on their phone. Tap to enlarge.
+//
+// The widget is a vendored, self-contained script (encoder included) rather
+// than a bundled import, because the two properties outside this monorepo
+// (Levinese, Joscha) must carry the identical thing and cannot reach the
+// workspace package. Regenerate every copy with:
+//   node packages/feedback/src/page-qr/build.mjs
+---
+
+<script is:inline defer src="/js/soma-page-qr.js"></script>
