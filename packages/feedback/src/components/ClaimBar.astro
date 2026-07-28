@@ -1,0 +1,83 @@
+---
+// ClaimBar.astro
+// The "is this you?" affordance, carried by every AGI-26 thinker archive.
+//
+// Every room in this constellation was built out of a living person's published work
+// without asking them first. That is defensible — it's all public, the host is named for
+// a concept rather than for the person, and it says in its first breath that it isn't
+// them — but it is still a thing done TO someone rather than WITH them. This bar is the
+// door back: it lands on a note at mike-wolf.com/agi/yours/<slug>/ offering to hand the
+// room over — their voice, their instructions, their veto — or to take it down.
+//
+// Deliberately gold, not the JoinBar's blue: "join the constellation" and "this is about
+// you specifically" are different asks and shouldn't read as one row of buttons.
+//
+// The note lives on mike-wolf.com rather than on the hub because the offer is Mike's
+// personally — there is a named human on the other end of it, not a platform.
+
+interface Props {
+  /** Thinker slug — must match a directory under mike-wolf.com/agi/yours/. */
+  slug: string
+  /** Display name, as that person would write it. */
+  name: string
+  noteBase?: string
+}
+
+const { slug, name, noteBase = 'https://mike-wolf.com/agi/yours' } = Astro.props
+---
+
+<div class="claim-bar">
+  <a class="claim-bar__cta" href={`${noteBase}/${slug}/`}>
+    <span class="claim-bar__q">Are you {name}?</span>
+    <span class="claim-bar__rest">Or know {name}? We'd like to hand this room over. &rarr;</span>
+  </a>
+</div>
+
+<style>
+  .claim-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background: #0a0f1a;
+    padding: 0.9rem 1.5rem 1rem;
+    text-align: center;
+  }
+
+  .claim-bar__cta {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.42rem;
+    padding: 0.5rem 1.3rem;
+    border: 1px solid rgba(201, 162, 39, 0.45);
+    border-radius: 999px;
+    color: #c9a227;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+
+  .claim-bar__q {
+    font-weight: 600;
+  }
+
+  .claim-bar__rest {
+    font-weight: 400;
+    opacity: 0.72;
+  }
+
+  .claim-bar__cta:hover {
+    background: rgba(201, 162, 39, 0.12);
+    border-color: #c9a227;
+    color: #e0be4d;
+  }
+
+  @media (max-width: 520px) {
+    .claim-bar__cta {
+      flex-direction: column;
+      gap: 0.15rem;
+      border-radius: 14px;
+      line-height: 1.45;
+    }
+  }
+</style>
