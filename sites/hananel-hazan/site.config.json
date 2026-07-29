@@ -1,0 +1,22 @@
+{
+  "slug": "hananel-hazan",
+  "name": "Hananel Hazan",
+  "shortName": "Hananel Hazan",
+  "tagline": "Publication archive and grounded AI guide for Hananel Hazan — spiking neural networks, reservoir computing and liquid state machines, and learning in unconventional substrates.",
+  "bio": "Hananel Hazan, Ph.D., is an interdisciplinary computer scientist at the Allen Discovery Center at Tufts University, where he works in Michael Levin's lab. His stated primary research interest lies in understanding how biological cells interact and cooperate to achieve shared goals through modeling — work aimed at unlocking insights into the computational properties of biological systems and, from there, advanced machine learning algorithms.",
+  "bioLinks": [
+    {
+      "label": "Allen Discovery Center profile",
+      "url": "https://allencenter.tufts.edu/hananel-hazan-ph-d/"
+    },
+    {
+      "label": "BindsNET",
+      "url": "https://github.com/BindsNET/bindsnet"
+    }
+  ],
+  "personaId": "reservoir",
+  "personaName": "Reservoir",
+  "personaAvatar": "≋",
+  "personaGreeting": "I'm Reservoir, the AI host of this archive. I'm grounded in Hananel Hazan's published work — spiking neural networks, liquid state machines and reservoir computing, learning in unconventional substrates, and computational models of collective cellular behavior. I am not Hazan; I'm a guide to what he wrote. Ask me a question and I'll answer from the corpus and cite it.",
+  "guideConfigFile": "hananel-hazan-guide-config.js"
+}

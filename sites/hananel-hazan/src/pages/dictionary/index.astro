@@ -1,0 +1,143 @@
+---
+import Base from '../../layouts/Base.astro';
+import papersData from '../../data/papers.json';
+
+type Paper = {
+  slug: string;
+  title?: string;
+  year?: string | number | null;
+  journal?: string | null;
+  doi_url?: string | null;
+  link?: string | null;
+};
+
+const papers = papersData as Paper[];
+const normalise = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+/* Prefer the version of record over the preprint duplicate when both are indexed. */
+const byTitle = new Map<string, Paper>();
+for (const p of papers) {
+  const k = normalise(p.title || '');
+  const existing = byTitle.get(k);
+  const isPreprint = /arxiv|biorxiv|zenodo/i.test(String(p.journal || ''));
+  if (!existing || (!isPreprint && /arxiv|biorxiv|zenodo/i.test(String(existing.journal || '')))) {
+    byTitle.set(k, p);
+  }
+}
+
+/* Every entry below is a standard definition of a term as the field uses it, paired
+ * with a paper IN THIS ARCHIVE where Hazan works with it. The definitions are not
+ * quotations of Hazan and are not attributed to him; the citation is the claim. */
+const entries = [
+  {
+    term: 'Reservoir computing',
+    body:
+      'A family of recurrent-network methods in which a large, fixed, randomly connected dynamical system — the reservoir — projects an input into a high-dimensional state, and only a simple readout is trained. The reservoir is not learned; its dynamics are the computation.',
+    see: 'Stability and Topology in Reservoir Computing',
+  },
+  {
+    term: 'Liquid state machine (LSM)',
+    body:
+      'The spiking-neuron form of reservoir computing: a recurrent pool of spiking neurons whose transient activity — the "liquid" — encodes the recent history of an input stream, read out by a trained classifier. Introduced by Maass and colleagues; Hazan works on them, and has since 2010.',
+    see: 'Topological constraints and robustness in liquid state machines',
+  },
+  {
+    term: 'Topological constraint',
+    body:
+      'A restriction on how the units inside a reservoir may connect to one another — for instance, wiring that respects locality on a lattice rather than connecting at random. A recurring result in this archive is that such constraints bear on how robust the reservoir is to damage in its own components.',
+    see: 'Topological constraints and robustness in liquid state machines',
+  },
+  {
+    term: 'Spiking neural network (SNN)',
+    body:
+      'A neural network whose units communicate with discrete, time-stamped events (spikes) rather than continuous activation values, so that timing itself carries information. The dominant substrate across this corpus.',
+    see: 'Locally connected spiking neural networks for unsupervised feature learning',
+  },
+  {
+    term: 'BindsNET',
+    body:
+      'The open-source spiking-neural-network simulation project Hazan led — described on his Allen Discovery Center profile as "a state-of-the-art framework designed for rapid constructions of rich simulations of spiking networks." The 0.3.4 release deposit in this corpus lists him first among its contributors.',
+    see: null,
+    href: 'https://doi.org/10.5281/zenodo.20695115',
+    hrefLabel: 'BindsNET/bindsnet: 0.3.4 (software release record)',
+  },
+  {
+    term: 'Dynamic clamp',
+    body:
+      'An electrophysiology technique in which a computer reads a living neuron’s membrane potential and injects a current calculated in real time, letting an experimenter add a simulated ion conductance to a real cell. Used here to map the excitability phase diagram of the Hodgkin–Huxley model.',
+    see: 'Dynamic clamp constructed phase diagram for the Hodgkin and Huxley model of excitability',
+  },
+  {
+    term: 'Closed-loop experiment',
+    body:
+      'An experimental setup in which stimulation delivered to living tissue depends on what that tissue just did — recording and stimulation joined in a real-time loop rather than run open-loop. Hazan built such a platform for cortical neuronal networks at the Technion.',
+    see: 'Closed Loop Experiment Manager (CLEM)—An Open and Inexpensive Solution for Multichannel Electrophysiological Recordings and Closed Loop Experiments',
+  },
+  {
+    term: 'Bioelectric circuit',
+    body:
+      'A network of cells coupled by voltage state and ion-channel dynamics, treated as a computational circuit that carries information above the level of the single cell. The seam between this archive and Michael Levin’s work on collective and basal intelligence.',
+    see: 'Exploring the Behavior of Bioelectric Circuits Using Evolution Heuristic Search',
+  },
+  {
+    term: 'Evolutionary heuristic search',
+    body:
+      'Optimisation by maintaining a population of candidate solutions and iteratively selecting, recombining, and perturbing them — used in this archive both to train spiking networks and to probe the behaviour space of bioelectric circuits.',
+    see: 'Training spiking neuronal networks to perform motor control using reinforcement and evolutionary learning',
+  },
+  {
+    term: 'Memristor',
+    body:
+      'A two-terminal device whose resistance depends on the history of charge that has passed through it, making it a candidate physical substrate for synaptic weight. Applied here to building a liquid state machine in hardware with in-situ training.',
+    see: 'Memristor Based Liquid State Machine With Method for In-Situ Training',
+  },
+].map(e => ({
+  ...e,
+  paper: e.see ? byTitle.get(normalise(e.see)) : undefined,
+  href: (e as { href?: string }).href,
+  hrefLabel: (e as { hrefLabel?: string }).hrefLabel,
+}));
+---
+<Base title="Dictionary" description="Concept dictionary for the Hananel Hazan archive — reservoir computing, liquid state machines, spiking networks, and bioelectric circuits, each pointed at a paper in the corpus.">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 pt-12 pb-20">
+    <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-3">Dictionary</p>
+    <h1 class="font-serif text-3xl sm:text-4xl font-medium text-ink mb-4">Concept dictionary</h1>
+    <p class="text-muted leading-relaxed mb-3">
+      The vocabulary you need to read this archive. Each entry is the term as the field
+      uses it, paired with a paper in the corpus where Hazan works with it.
+    </p>
+    <p class="text-muted/70 text-sm leading-relaxed mb-10">
+      The definitions are ours, written to get you into the papers &mdash; they are not
+      quotations of Hazan. The citation under each one is the part that is his.
+    </p>
+
+    <dl class="divide-y divide-border">
+      {entries.map(e => (
+        <div class="py-6">
+          <dt class="font-serif text-xl font-medium text-ink mb-2">{e.term}</dt>
+          <dd class="text-muted leading-relaxed text-sm mb-3">{e.body}</dd>
+          {e.paper && (
+            <dd class="text-xs">
+              <span class="text-muted/60 font-mono uppercase tracking-wide mr-2">In the corpus</span>
+              {(e.paper.doi_url || e.paper.link) ? (
+                <a href={e.paper.doi_url || e.paper.link!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">
+                  {e.paper.title} ({e.paper.year}) ↗
+                </a>
+              ) : (
+                <span class="text-muted">{e.paper.title} ({e.paper.year})</span>
+              )}
+            </dd>
+          )}
+          {!e.paper && e.href && (
+            <dd class="text-xs">
+              <span class="text-muted/60 font-mono uppercase tracking-wide mr-2">In the corpus</span>
+              <a href={e.href} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">{e.hrefLabel} ↗</a>
+            </dd>
+          )}
+        </div>
+      ))}
+    </dl>
+
+    <a href="/corpus/" class="inline-block mt-10 text-accent hover:text-accent-mid text-sm font-medium">Browse the full corpus →</a>
+  </div>
+</Base>

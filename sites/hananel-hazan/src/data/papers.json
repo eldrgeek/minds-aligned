@@ -1,0 +1,1204 @@
+[
+  {
+    "slug": "10-1002-advs-202511537--W7134129480",
+    "doi": "10.1002/advs.202511537",
+    "doi_url": "https://doi.org/10.1002/advs.202511537",
+    "title": "Heuristically Adaptive Diffusion‐Model Evolutionary Strategy",
+    "year": "2026",
+    "journal": "Advanced Science",
+    "authors": [
+      "Benedikt Hartl",
+      "Yanbo Zhang",
+      "Hananel Hazan",
+      "Michael Levin"
+    ],
+    "abstract": "Diffusion Models (DMs) and Evolutionary Algorithms (EAs) share a core generative principle: iterative refinement of random initial distributions to produce high-quality solutions. DMs degrade and restore data using Gaussian noise, enabling versatile generation, while EAs optimize numerical parameters through biologically inspired heuristics. Our research integrates these frameworks, employing deep learning-based DMs to enhance EAs across diverse domains. By iteratively refining DMs with heuristically curated databases, we generate better-adapted offspring parameters, achieving efficient convergence toward high-fitness solutions while preserving explorative diversity. DMs augment EAs with deep memory, retaining historical data and exploiting subtle correlations for refined sampling. Classifier-free guidance further enables precise control over evolutionary dynamics, targeting specific genotypical, phenotypical, or population traits. This hybrid approach transforms EAs into adaptive, memory-enhanced frameworks, offering unprecedented flexibility, and precision in evolutionary optimization, with broad implications for generative modeling and heuristic search.",
+    "link": "https://doi.org/10.1002/advs.202511537"
+  },
+  {
+    "slug": "10-1007-978-3-540-77343-6_24--W1588756940",
+    "doi": "10.1007/978-3-540-77343-6_24",
+    "doi_url": "https://doi.org/10.1007/978-3-540-77343-6_24",
+    "title": "Differences and Interactions Between Cerebral Hemispheres When Processing Ambiguous Words",
+    "year": "2007",
+    "journal": "Lecture notes in computer science",
+    "authors": [
+      "Orna Peleg",
+      "Zohar Eviatar",
+      "Hananel Hazan",
+      "Larry M. Manevitz"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-540-77343-6_24"
+  },
+  {
+    "slug": "10-1007-978-3-642-16773-7_21--W1550065635",
+    "doi": "10.1007/978-3-642-16773-7_21",
+    "doi_url": "https://doi.org/10.1007/978-3-642-16773-7_21",
+    "title": "Stability and Topology in Reservoir Computing",
+    "year": "2010",
+    "journal": "Lecture notes in computer science",
+    "authors": [
+      "Larry M. Manevitz",
+      "Hananel Hazan"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-642-16773-7_21"
+  },
+  {
+    "slug": "10-1007-978-3-662-53525-7_7--W2524603105",
+    "doi": "10.1007/978-3-662-53525-7_7",
+    "doi_url": "https://doi.org/10.1007/978-3-662-53525-7_7",
+    "title": "The Existence of Two Variant Processes in Human Declarative Memory: Evidence Using Machine Learning Classification Techniques in Retrieval Tasks",
+    "year": "2016",
+    "journal": "Lecture notes in computer science",
+    "authors": [
+      "Alex Frid",
+      "Hananel Hazan",
+      "Ester Koilis",
+      "Larry M. Manevitz",
+      "Maayan Merhav",
+      "Gal Star"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/978-3-662-53525-7_7"
+  },
+  {
+    "slug": "10-1007-s10472-010-9210-1--W2018630685",
+    "doi": "10.1007/s10472-010-9210-1",
+    "doi_url": "https://doi.org/10.1007/s10472-010-9210-1",
+    "title": "Two hemispheres—two networks: a computational model explaining hemispheric asymmetries while reading ambiguous words",
+    "year": "2010",
+    "journal": "Annals of Mathematics and Artificial Intelligence",
+    "authors": [
+      "Orna Peleg",
+      "Larry M. Manevitz",
+      "Hananel Hazan",
+      "Zohar Eviatar"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/s10472-010-9210-1"
+  },
+  {
+    "slug": "10-1007-s10472-019-09665-3--W2953406544",
+    "doi": "10.1007/s10472-019-09665-3",
+    "doi_url": "https://doi.org/10.1007/s10472-019-09665-3",
+    "title": "Lattice map spiking neural networks (LM-SNNs) for clustering and classifying image data",
+    "year": "2019",
+    "journal": "Annals of Mathematics and Artificial Intelligence",
+    "authors": [
+      "Hananel Hazan",
+      "Daniel J. Saunders",
+      "Darpan Sanghavi",
+      "Hava T. Siegelmann",
+      "Róbert Kozma"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1007/s10472-019-09665-3"
+  },
+  {
+    "slug": "10-1016-j-eswa-2011-06-052--W2056380766",
+    "doi": "10.1016/j.eswa.2011.06.052",
+    "doi_url": "https://doi.org/10.1016/j.eswa.2011.06.052",
+    "title": "Topological constraints and robustness in liquid state machines",
+    "year": "2011",
+    "journal": "Expert Systems with Applications",
+    "authors": [
+      "Hananel Hazan",
+      "Larry M. Manevitz"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.eswa.2011.06.052"
+  },
+  {
+    "slug": "10-1016-j-neunet-2015-04-009--W425816785",
+    "doi": "10.1016/j.neunet.2015.04.009",
+    "doi_url": "https://doi.org/10.1016/j.neunet.2015.04.009",
+    "title": "Non-parametric temporal modeling of the hemodynamic response function via a liquid state machine",
+    "year": "2015",
+    "journal": "Neural Networks",
+    "authors": [
+      "Paolo Avesani",
+      "Hananel Hazan",
+      "Ester Koilis",
+      "Larry M. Manevitz",
+      "Diego Sona"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.neunet.2015.04.009"
+  },
+  {
+    "slug": "10-1016-j-neunet-2019-08-009--W2969489794",
+    "doi": "10.1016/j.neunet.2019.08.009",
+    "doi_url": "https://doi.org/10.1016/j.neunet.2019.08.009",
+    "title": "Improved robustness of reinforcement learning policies upon conversion to spiking neuronal network platforms applied to Atari Breakout game",
+    "year": "2019",
+    "journal": "Neural Networks",
+    "authors": [
+      "Devdhar Patel",
+      "Hananel Hazan",
+      "Daniel J. Saunders",
+      "Hava T. Siegelmann",
+      "Róbert Kozma"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.neunet.2019.08.009"
+  },
+  {
+    "slug": "10-1016-j-neunet-2019-08-016--W2942055171",
+    "doi": "10.1016/j.neunet.2019.08.016",
+    "doi_url": "https://doi.org/10.1016/j.neunet.2019.08.016",
+    "title": "Locally connected spiking neural networks for unsupervised feature learning",
+    "year": "2019",
+    "journal": "Neural Networks",
+    "authors": [
+      "Daniel J. Saunders",
+      "Devdhar Patel",
+      "Hananel Hazan",
+      "Hava T. Siegelmann",
+      "Róbert Kozma"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1016/j.neunet.2019.08.016"
+  },
+  {
+    "slug": "10-1038-s41592-025-02933-7--W4416166696",
+    "doi": "10.1038/s41592-025-02933-7",
+    "doi_url": "https://doi.org/10.1038/s41592-025-02933-7",
+    "title": "Differentiable simulation expands frontiers for biophysical neural models",
+    "year": "2025",
+    "journal": "Nature Methods",
+    "authors": [
+      "Samuel A. Neymotin",
+      "Hananel Hazan"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.1038/s41592-025-02933-7"
+  },
+  {
+    "slug": "10-1073-pnas-1916514117--W3005059793",
+    "doi": "10.1073/pnas.1916514117",
+    "doi_url": "https://doi.org/10.1073/pnas.1916514117",
+    "title": "Dynamic clamp constructed phase diagram for the Hodgkin and Huxley model of excitability",
+    "year": "2020",
+    "journal": "Proceedings of the National Academy of Sciences",
+    "authors": [
+      "Hillel Ori",
+      "Hananel Hazan",
+      "Eve Marder",
+      "Shimon Marom"
+    ],
+    "abstract": "Excitability—a threshold-governed transient in transmembrane voltage—is a fundamental physiological process that controls the function of the heart, endocrine, muscles, and neuronal tissues. The 1950s Hodgkin and Huxley explicit formulation provides a mathematical framework for understanding excitability, as the consequence of the properties of voltage-gated sodium and potassium channels. The Hodgkin–Huxley model is more sensitive to parametric variations of protein densities and kinetics than biological systems whose excitability is apparently more robust. It is generally assumed that the model’s sensitivity reflects missing functional relations between its parameters or other components present in biological systems. Here we experimentally assembled excitable membranes using the dynamic clamp and voltage-gated potassium ionic channels (Kv1.3) expressed in Xenopus oocytes. We take advantage of a theoretically derived phase diagram, where the phenomenon of excitability is reduced to two dimensions defined as combinations of the Hodgkin–Huxley model parameters, to examine functional relations in the parameter space. Moreover, we demonstrate activity dependence and hysteretic dynamics over the phase diagram due to the impacts of complex slow inactivation kinetics. The results suggest that maintenance of excitability amid parametric variation is a low-dimensional, physiologically tenable control process. In the context of model construction, the results point to a potentially significant gap between high-dimensional models that capture the full measure of complexity displayed by ion channel function and the lower dimensionality that captures physiological function.",
+    "link": "https://doi.org/10.1073/pnas.1916514117"
+  },
+  {
+    "slug": "10-1089-bioe-2022-0033--W4313418308",
+    "doi": "10.1089/bioe.2022.0033",
+    "doi_url": "https://doi.org/10.1089/bioe.2022.0033",
+    "title": "Exploring the Behavior of Bioelectric Circuits Using Evolution Heuristic Search",
+    "year": "2022",
+    "journal": "Bioelectricity",
+    "authors": [
+      "Hananel Hazan",
+      "Michael Levin"
+    ],
+    "abstract": "Characteristic spatial differences of cellular resting potential across tissues have been shown to act as instructive bioelectric prepatterns regulating embryonic and regenerative morphogenesis, as well as cancer suppression. Indeed, modulation of bioelectric patterns via specific ion channel-targeting drugs, channel misexpression, or optogenetics has been used to control growth and form in vitro , showing promise in regenerative medicine and synthetic bioengineering. Repair of defects, injury, and transformation requires quantitative understanding of bioelectric dynamics within tissues so that these can be modulated toward desired outcomes in organ patterning or the creation of entirely novel synthetic constructs. The major gap in the discovery of interventions for rational control of organ-level outcomes is the inability to predict large-scale bioelectric patterns—their emergence from symmetry breaking (given a set of channels expressed on the tissue) and their change as a function of time under specific bioelectrical interventions. It is thus essential to develop machine learning and other computational tools to help human scientists identify bioelectric states with desirable properties. In this study, we tested the ability of a heuristic search algorithm to explore the parameter space of bioelectrical circuits by adjusting the parameters of simulated cells. We show that while bioelectrical space is not easy to search, it does contain parameter sets that encode rich and interesting patterning behaviors. We demonstrate proof of principle of using a computational search platform to identify circuits with desired properties, as a first step toward the design of machine learning tools for improved bioelectric control of growth and form.",
+    "link": "https://doi.org/10.1089/bioe.2022.0033"
+  },
+  {
+    "slug": "10-1101-2021-07-29-454361--W3187480462",
+    "doi": "10.1101/2021.07.29.454361",
+    "doi_url": "https://doi.org/10.1101/2021.07.29.454361",
+    "title": "Training a spiking neuronal network model of visual-motor cortex to play a virtual racket-ball game using reinforcement learning",
+    "year": "2021",
+    "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "authors": [
+      "Haroon Anwar",
+      "Simon Caby",
+      "Salvador Durá-Bernal",
+      "David Donofrio",
+      "Daniel Haşegan",
+      "Matt Deible",
+      "Sara Grunblatt",
+      "George L. Chadderdon",
+      "Cliff C. Kerr",
+      "Péter Lakatos",
+      "William W. Lytton",
+      "Hananel Hazan",
+      "Samuel A. Neymotin"
+    ],
+    "abstract": "Abstract Recent models of spiking neuronal networks have been trained to perform behaviors in static environments using a variety of learning rules, with varying degrees of biological realism. Most of these models have not been tested in dynamic visual environments where models must make predictions on future states and adjust their behavior accordingly. The models using these learning rules are often treated as black boxes, with little analysis on circuit architectures and learning mechanisms supporting optimal performance. Here we developed visual/motor spiking neuronal network models and trained them to play a virtual racket-ball game using several reinforcement learning algorithms inspired by the dopaminergic reward system. We systematically investigated how different architectures and circuit-motifs (feed-forward, recurrent, feedback) contributed to learning and performance. We also developed a new biologically-inspired learning rule that significantly enhanced performance, while reducing training time. Our models included visual areas encoding game inputs and relaying the information to motor areas, which used this information to learn to move the racket to hit the ball. Neurons in the early visual area relayed information encoding object location and motion direction across the network. Neuronal association areas encoded spatial relationships between objects in the visual scene. Motor populations received inputs from visual and association areas representing the dorsal pathway. Two populations of motor neurons generated commands to move the racket up or down. Model-generated actions updated the environment and triggered reward or punishment signals that adjusted synaptic weights so that the models could learn which actions led to reward. Here we demonstrate that our biologically-plausible learning rules were effective in training spiking neuronal network models to solve problems in dynamic environments. We used our models to dissect the circuit architectures and learning rules most effective for learning. Our model shows that learning mechanisms involving different neural circuits produce similar performance in sensory-motor tasks. In biological networks, all learning mechanisms may complement one another, accelerating the learning capabilities of animals. Furthermore, this also highlights the resilience and redundancy in biological systems.",
+    "link": "https://doi.org/10.1101/2021.07.29.454361"
+  },
+  {
+    "slug": "10-1101-2021-11-20-469405--W3216590683",
+    "doi": "10.1101/2021.11.20.469405",
+    "doi_url": "https://doi.org/10.1101/2021.11.20.469405",
+    "title": "Evolutionary and spike-timing-dependent reinforcement learning train spiking neuronal network motor control",
+    "year": "2021",
+    "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "authors": [
+      "Daniel Haşegan",
+      "Matt Deible",
+      "Christopher Earl",
+      "David Donofrio",
+      "Hananel Hazan",
+      "Haroon Anwar",
+      "Samuel A. Neymotin"
+    ],
+    "abstract": "Abstract Despite being biologically unrealistic, artificial neural networks (ANNs) have been successfully trained to perform a wide range of sensory-motor behaviors. In contrast, the performance of more biologically realistic spiking neuronal network (SNN) models trained to perform similar behaviors remains relatively suboptimal. In this work, we aimed at pushing the field of SNNs forward by exploring the potential of different learning mechanisms to achieve optimal performance. Inspired by biological learning mechanisms operating at multiple timescales, we used spike-timing-dependent reinforcement learning (STDP-RL) and evolutionary strategy (EVOL) with SNNs to solve the CartPole reinforcement learning (RL) control problem. Though the role of STDP-RL in biological systems is well established, several other mechanisms, though not fully understood, work in concert during learning in vivo. Recreating accurate models that capture the interaction of STDP-RL with these diverse learning mechanisms is extremely difficult. EVOL is an alternative method, and has been successfully used in many studies to fit model neural responsiveness to electrophysiological recordings and in some cases for classification problems. One advantage of EVOL is that it may not need to capture all interacting components of synaptic plasticity, and thus provides a better alternative to STDP-RL. Here, we compared the performance of each algorithm after training, which revealed EVOL as a powerful method to training SNNs to perform sensory-motor behaviors. Our modeling opens up new capabilities for SNNs in RL and could serve as a testbed for neurobiologists aiming to understand multi-timescale learning mechanisms and dynamics in neuronal circuits.",
+    "link": "https://doi.org/10.1101/2021.11.20.469405"
+  },
+  {
+    "slug": "10-1101-2022-10-23-513361--W4307282636",
+    "doi": "10.1101/2022.10.23.513361",
+    "doi_url": "https://doi.org/10.1101/2022.10.23.513361",
+    "title": "Exploring The Behavior of Bioelectric Circuits using Evolution Heuristic Search",
+    "year": "2022",
+    "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "authors": [
+      "Hananel Hazan",
+      "Michael Levin"
+    ],
+    "abstract": "Abstract Characteristic spatial differences of cellular resting potential across tissues have been shown to act as instructive bioelectric prepatterns regulating embryonic and regenerative morphogenesis, as well as cancer suppression. Indeed, modulation of bioelectric patterns via specific ion channel-targeting drugs, channel misexpression, or optogenetics has been used to control growth and form in vitro, showing promise in regenerative medicine and synthetic bioengineering. Repair of defects, injury, and transformation requires quantitative understanding of bioelectric dynamics within tissues so that these can be modulated toward desired outcomes in organ patterning or the creation of entirely novel synthetic constructs. The major gap in the discovery of interventions for rational control of organ-level outcomes is the inability to predict large-scale bioelectric patterns - their emergence from symmetry breaking (given a set of channels expressed on the tissue) and their change as a function of time under specific bioelectrical interventions. It is thus essential to develop machine learning and other computational tools to help human scientists identify bioelectric states with desirable properties. Here, we tested the ability of a heuristic search algorithm to explore the parameter space of bio-electrical circuits by adjusting the parameters of simulated cells. We show that while bioelectrical space is not easy to search, it does contain parameter sets that encode rich and interesting patterning behaviors. We demonstrate proof of principle of using a computational search platform to identify circuits with desired properties, as a first step toward the design of machine learning tools for improved bioelectric control of growth and form.",
+    "link": "https://doi.org/10.1101/2022.10.23.513361"
+  },
+  {
+    "slug": "10-1101-2024-03-26-586690--W4393251397",
+    "doi": "10.1101/2024.03.26.586690",
+    "doi_url": "https://doi.org/10.1101/2024.03.26.586690",
+    "title": "A Systems Biology Analysis of Chronic Lymphocytic Leukemia",
+    "year": "2024",
+    "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "authors": [
+      "Giulia Pozzati",
+      "Jinrui Zhou",
+      "Hananel Hazan",
+      "Giannoula Klement",
+      "Hava T. Siegelmann",
+      "Edward A. Rietman",
+      "Jack A. Tuszyński"
+    ],
+    "abstract": "Abstract Whole-genome sequencing has revealed that TP53, NOTCH1, ATM, SF3B1, BIRC3, ABL, NXF1, BCR, ZAP70 are often mutated in CLL, but not consistently across all CLL patients. This paper employs a statistical thermo-dynamics approach in combination with the systems biology of the CLL protein-protein interaction networks to identify the most significant participant proteins in the cancerous transformation. Betti number (a topology of complexity) estimates highlight a protein hierarchy, primarily in the Wnt pathway known for aberrant CLL activation. These individually identified proteins suggest a network-targeted strategy over single-target drug development. The findings advocate for a multi-target inhibition approach, limited to several key proteins to minimize side effects, thereby providing a foundation for designing therapies. This study emphasizes a shift towards a comprehensive, multi-scale analysis to enhance personalized treatment strategies for CLL, which could be experimentally validated using siRNA or small molecule inhibitors. The result is not just the identification of these proteins but their rank-order, offering a potent signal amplification in the context of the 20,000 proteins produced by the human body, thus providing a strategic basis for therapeutic intervention in CLL, underscoring the necessity for a more holistic, cellular, chromosomal, and genome-wide study to develop tailored treatments for CLL patients. Author Summary Chronic Lymphocytic Leukemia (CLL) is a unique and slowly progressing cancer affecting white blood cells, and research on CLL has highlighted the inconsistency of gene mutations across patients. Using a novel approach that merges statistical thermodynamics and systems biology, this research examines the CLL protein-protein interaction networks to pinpoint proteins integral to the onset of the disease. Betti number (a topology of complexity) estimates, which measure the importance of individual proteins when removed from the network, helped identify numerous potential therapeutic targets, notably within the Wnt signaling pathway, a pathway implicated in various cellular processes and known for its defective expression in CLL. The finding advocates for a multi-target inhibition approach, focusing on several key proteins to minimize side effects, thereby laying a foundation for designing more effective therapies for CLL. This paper emphasizes the potential benefits of a comprehensive study, spanning cellular to genome-wide scales, to design personalized treatments for CLL patients.",
+    "link": "https://doi.org/10.1101/2024.03.26.586690"
+  },
+  {
+    "slug": "10-1101-766154--W2973121973",
+    "doi": "10.1101/766154",
+    "doi_url": "https://doi.org/10.1101/766154",
+    "title": "Dynamic clamp constructed phase diagram of the Hodgkin-Huxley action potential model",
+    "year": "2019",
+    "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "authors": [
+      "Hillel Ori",
+      "Hananel Hazan",
+      "Eve Marder",
+      "Shimon Marom"
+    ],
+    "abstract": "Abstract Excitability – a threshold governed transient in transmembrane voltage – is a fundamental physiological process that controls the function of the heart, endocrine, muscles and neuronal tissues. The 1950’s Hodgkin and Huxley explicit formulation provides a mathematical framework for understanding excitability, as the consequence of the properties of voltage-gated sodium and potassium channels. The Hodgkin-Huxley model is more sensitive to parametric variations of protein densities and kinetics than biological systems whose excitability is apparently more robust. It is generally assumed that the model’s sensitivity reflects missing functional relations between its parameters or other components present in biological systems. Here we experimentally construct excitable membranes using the dynamic clamp and voltage-gated potassium ionic channels (Kv1.3) expressed in Xenopus oocytes. We take advantage of a theoretically derived phase diagram, where the phenomenon of excitability is reduced to two dimensions defined as combinations of the Hodgkin-Huxley model parameters. This biological-computational hybrid enabled us to explore functional relations in the parameter space, experimentally validate the phase diagram of the Hodgkin-Huxley model, and demonstrate activity-dependence and hysteretic dynamics due to the impacts of slow inactivation kinetics. The experimental results presented here provide new in-sights into the gap between technology-guided high-dimensional descriptions, and a lower, physiological dimensionality, within which biological function is embedded.",
+    "link": "https://doi.org/10.1101/766154"
+  },
+  {
+    "slug": "10-1109-eeei-2012-6377010--W2051739918",
+    "doi": "10.1109/eeei.2012.6377010",
+    "doi_url": "https://doi.org/10.1109/eeei.2012.6377010",
+    "title": "Temporal pattern recognition via temporal networks of temporal neurons",
+    "year": "2012",
+    "journal": null,
+    "authors": [
+      "Alex Frid",
+      "Hananel Hazan",
+      "Larry M. Manevitz"
+    ],
+    "abstract": "We show that real valued continuous functions can be recognized in a reliable way, with good generalization ability using an adapted version of the Liquid State Machine (LSM) that receives direct real valued input. Furthermore this system works without the necessity of preliminary extraction of signal processing features. This avoids the necessity of discretization and encoding that has plagued earlier attempts on this process. We show this is effective on a simulated signal designed to have the properties of a physical trace of human speech. The main changes to the basic liquid state machine paradigm are (i) external stimulation to neurons by normalized real values and (ii) adaptation of the integrate and fire neurons in the liquid to have a history dependent sliding threshold (iii) topological constraints on the network connectivity.",
+    "link": "https://doi.org/10.1109/eeei.2012.6377010"
+  },
+  {
+    "slug": "10-1109-eeei-2012-6377065--W1976265573",
+    "doi": "10.1109/eeei.2012.6377065",
+    "doi_url": "https://doi.org/10.1109/eeei.2012.6377065",
+    "title": "Early diagnosis of Parkinson's disease via machine learning on speech data",
+    "year": "2012",
+    "journal": null,
+    "authors": [
+      "Hananel Hazan",
+      "Dan Hilu",
+      "Larry M. Manevitz",
+      "Lorraine O. Ramig",
+      "Shimon Sapir"
+    ],
+    "abstract": "Using two distinct data sets (from the USA and Germany) of healthy controls and patients with early or mild stages of Parkinson's disease, we show that machine learning tools can be used for the early diagnosis of Parkinson's disease from speech data. This could potentially be applicable before physical symptoms appear. In addition, we show that while the training phase of machine learning process from one country can be reused in the other; different features dominate in each country; presumably because of languages differences. Three results are presented: (i) separate training and testing by each country (close to 85% range); (ii) pooled training and testing (about 80% range) and (iii) cross-country (training in one and testing in the other) (about 75% ranges). We discovered that different feature sets were needed for each country (language).",
+    "link": "https://doi.org/10.1109/eeei.2012.6377065"
+  },
+  {
+    "slug": "10-1109-eeei-2014-7005833--W2019816526",
+    "doi": "10.1109/eeei.2014.7005833",
+    "doi_url": "https://doi.org/10.1109/eeei.2014.7005833",
+    "title": "Recognizing deep grammatical information during reading from event related fMRI",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "Haim Shalelashvili",
+      "Tali Bitan",
+      "Alex Frid",
+      "Hananel Hazan",
+      "Stav Hertz",
+      "Yael Weiss",
+      "Larry M. Manevitz"
+    ],
+    "abstract": "This experiment was designed to see if information related to linguistic characteristics of read text can be deduced from fMRI data via machine learning techniques. Individuals were scanned while reading text the size of words in loud reading. Three experiments were performed corresponding to different degrees of grammatical complexity that is performed during loud reading: (1) words and pseudo-words were presented to subjects; (2) words with diacritical marking and words without diacritical markings were presented to subjects; (3) Hebrew words with Hebrew root and Hebrew words without Hebrew root were presented to subjects. The working hypothesis was that the more complex the needed grammatical processing needed, the more difficult it should be to perform the classification at the level of temporal and spatial resolution given by an fMRI signal. We were able to accomplish the first task completely. The second and third task did not succeed when all the data is used simultaneously. However, the third task was successful when training and testing was done within a continuous scanning run. (The experimental protocol did not allow this for the second task.) This does establish that complex linguistic information is decodable from fMRI scans. On the other hand, the need to restrict to the intra-run situation indicates that additional work is needed to compensate for distortions introduced between scanning runs.",
+    "link": "https://doi.org/10.1109/eeei.2014.7005833"
+  },
+  {
+    "slug": "10-1109-ijcnn-2016-7727808--W2549520159",
+    "doi": "10.1109/ijcnn.2016.7727808",
+    "doi_url": "https://doi.org/10.1109/ijcnn.2016.7727808",
+    "title": "Classification from generation: Recognizing deep grammatical information during reading from rapid event-related fMRI",
+    "year": "2016",
+    "journal": null,
+    "authors": [
+      "Tali Bitan",
+      "Alex Frid",
+      "Hananel Hazan",
+      "Larry M. Manevitz",
+      "Haim Shalelashvili",
+      "Yael Weiss"
+    ],
+    "abstract": "A novel fMRI classification method designed for rapid event related fMRI experiments is described and applied to the classification of loud reading of isolated words in Hebrew. Three comparisons of different grammatical complexity were performed: (i) words versus asterisks (ii) “with diacritics versus without diacritics” and (iii) “with root versus no root”. We discuss the most difficult task and, for comparison, the easiest one. Earlier work using more standard classification techniques (machine learning and statistical) succeeded fully only in the simplest of these tasks (i), but produced only partial results on (ii) and failed completely, even on the training set on the deepest task (iii). The method performs a “best match” between pre-processed data and computing a full library of artificially generated examples. The method involves a deconvolution of the rapid events on the data and performing a convolution on the generated data. The best-match is performed over all “words” constructed by convolving the response functions of each value of each event performed in a “windowed” sequence. This is accomplished separately for all voxels and then a voting procedure defines the outcome. Using the same feature selection (ANOVA) as in the earlier methods, (i) there is a dramatic increase in the accuracy rate for the third (most difficult task) on the intra-run level (88%) as well as the first task (ii) Unlike the earlier methods training and testing over all runs (within subject) achieves a significant level of classification (64% accuracy) for the training set. This shows the information for this “deeper” cognitive task can in fact be extracted from the fMRI information.",
+    "link": "https://doi.org/10.1109/ijcnn.2016.7727808"
+  },
+  {
+    "slug": "10-1109-ijcnn-2018-8489673--W2884987480",
+    "doi": "10.1109/ijcnn.2018.8489673",
+    "doi_url": "https://doi.org/10.1109/ijcnn.2018.8489673",
+    "title": "Unsupervised Learning with Self-Organizing Spiking Neural Networks",
+    "year": "2018",
+    "journal": null,
+    "authors": [
+      "Hananel Hazan",
+      "Daniel J. Saunders",
+      "Darpan Sanghavi",
+      "Hava T. Siegelmann",
+      "Róbert Kozma"
+    ],
+    "abstract": "We present a system comprising a hybridization of self-organized map (SOM) properties with spiking neural networks (SNNs) that retain many of the features of SOMs. Networks are trained in an unsupervised manner to learn a self-organized lattice of filters via excitatory-inhibitory interactions among populations of neurons. We develop and test various inhibition strategies, such as growing with inter-neuron distance and two distinct levels of inhibition. The quality of the unsupervised learning algorithm is evaluated using examples with known labels. Several biologically-inspired classification tools are proposed and compared, including population-level confidence rating, and n-grams using spike motif algorithm. Using the optimal choice of parameters, our approach produces improvements over state-of-art spiking neural networks.",
+    "link": "https://doi.org/10.1109/ijcnn.2018.8489673"
+  },
+  {
+    "slug": "10-1109-prni-2011-16--W2109771330",
+    "doi": "10.1109/prni.2011.16",
+    "doi_url": "https://doi.org/10.1109/prni.2011.16",
+    "title": "Learning BOLD Response in fMRI by Reservoir Computing",
+    "year": "2011",
+    "journal": null,
+    "authors": [
+      "Paolo Avesani",
+      "Hananel Hazan",
+      "Ester Koilis",
+      "Larry M. Manevitz",
+      "Diego Sona"
+    ],
+    "abstract": "This work proposes a model-free approach to fMRI-based brain mapping where the BOLD response is learnt from data rather than assumed in advance. For each voxel, a paired sequence of stimuli and fMRI recording is given to a supervised learning process. The result is a voxel-wise model of the expected BOLD response related to a set of stimuli. Differently from standard brain mapping techniques, where voxel relevance is assessed by fitting an hemodynamic response function, we argue that relevant voxels can be filtered according to the prediction accuracy of a learning model. In this work we present a computational architecture based on reservoir computing which combines a Liquid State Machine with a Multi-Layer Perceptron. An empirical analysis on synthetic data shows how the learning process can be robust with respect to noise artificially added to the signal. A similar investigation on real fMRI data provides a prediction of BOLD response whose accuracy allows for discriminating between relevant and irrelevant voxels.",
+    "link": "https://doi.org/10.1109/prni.2011.16"
+  },
+  {
+    "slug": "10-1109-swste-2014-17--W2003260949",
+    "doi": "10.1109/swste.2014.17",
+    "doi_url": "https://doi.org/10.1109/swste.2014.17",
+    "title": "Computational Diagnosis of Parkinson's Disease Directly from Natural Speech Using Machine Learning Techniques",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "Alex Frid",
+      "Hananel Hazan",
+      "Dan Hilu",
+      "Larry M. Manevitz",
+      "Lorraine O. Ramig",
+      "Shimon Sapir"
+    ],
+    "abstract": "The human voice signal carries much information in addition to direct linguistic semantic information. This information can be perceived by computational systems. In this work, we show that early diagnosis of Parkinson's disease is possible solely from the voice signal. This is in contrast to earlier work in which we showed that this can be done using hand-calculated features of the speech (such as formants) as annotated by professional speech therapists. In this paper, we review that work and show that a differential diagnosis can be produced directly from the analog speech signal itself. In addition, differentiation can be made between seven different degrees of progression of the disease (including healthy). Such a system can act as an additional stage (or another building block) in a bigger system of natural speech processing. For example it could be used in automatic speech recognition systems that are used as personal assistants (such as Iphones' Siri, Google Voice), or as natural man-machine interfaces. We also conjecture that such systems can be extended to monitoring and classifying additional neurological diseases and speech pathologies. The methods presented here use a combination of signal processing features and machine learning techniques.",
+    "link": "https://doi.org/10.1109/swste.2014.17"
+  },
+  {
+    "slug": "10-1109-swste-2014-22--W2074395807",
+    "doi": "10.1109/swste.2014.22",
+    "doi_url": "https://doi.org/10.1109/swste.2014.22",
+    "title": "Towards Classifying Human Phonemes without Encodings via Spatiotemporal Liquid State Machines: Extended Abstract",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "Alex Frid",
+      "Hananel Hazan",
+      "Larry M. Manevitz"
+    ],
+    "abstract": "Classifying human production of phonemes without additional encoding is accomplished at the level of about 77% using a version of reservoir computing. So far this has been accomplished with: (1) artificial data (2) artificial noise (designed to mimic natural noise) (3) natural human data with artificial noise (4) natural human data with its natural noise and variance albeit for certain phonemes. This mechanism, unlike most other methods is done without any encoding of the signal, and without changing time into space, but instead uses the Liquid State Machine paradigm which is an abstraction of natural cortical arrangements. The data is entered as an analogue signal without any modifications. This means that the methodology is close to \"natural\" biological mechanisms.",
+    "link": "https://doi.org/10.1109/swste.2014.22"
+  },
+  {
+    "slug": "10-1109-tmbmc-2023-3272150--W4367663122",
+    "doi": "10.1109/tmbmc.2023.3272150",
+    "doi_url": "https://doi.org/10.1109/tmbmc.2023.3272150",
+    "title": "Control Flow in Active Inference Systems—Part I: Classical and Quantum Formulations of Active Inference",
+    "year": "2023",
+    "journal": "IEEE Transactions on Molecular Biological and Multi-Scale Communications",
+    "authors": [
+      "Chris Fields",
+      "Filippo Fabrocini",
+      "Karl Friston",
+      "James F. Glazebrook",
+      "Hananel Hazan",
+      "Michael Levin",
+      "Antonino Marcianò"
+    ],
+    "abstract": "Living systems face both environmental complexity and limited access to free-energy resources. Survival under these conditions requires a control system that can activate, or deploy, available perception and action resources in a context specific way. In this Part I, we introduce the free-energy principle (FEP) and the idea of active inference as Bayesian prediction-error minimization, and show how the control problem arises in active inference systems. We then review classical and quantum formulations of the FEP, with the former being the classical limit of the latter. In the accompanying Part II, we show that when systems are described as executing active inference driven by the FEP, their control flow systems can always be represented as tensor networks (TNs). We show how TNs as control systems can be implemented within the general framework of quantum topological neural networks, and discuss the implications of these results for modeling biological systems at multiple scales.",
+    "link": "https://doi.org/10.1109/tmbmc.2023.3272150"
+  },
+  {
+    "slug": "10-1109-tmbmc-2023-3272158--W4367663118",
+    "doi": "10.1109/tmbmc.2023.3272158",
+    "doi_url": "https://doi.org/10.1109/tmbmc.2023.3272158",
+    "title": "Control Flow in Active Inference Systems—Part II: Tensor Networks as General Models of Control Flow",
+    "year": "2023",
+    "journal": "IEEE Transactions on Molecular Biological and Multi-Scale Communications",
+    "authors": [
+      "Chris Fields",
+      "Filippo Fabrocini",
+      "Karl Friston",
+      "James F. Glazebrook",
+      "Hananel Hazan",
+      "Michael Levin",
+      "Antonino Marcianò"
+    ],
+    "abstract": "Living systems face both environmental complexity and limited access to free-energy resources. Survival under these conditions requires a control system that can activate, or deploy, available perception and action resources in a context specific way. In Part I, we introduced the free-energy principle (FEP) and the idea of active inference as Bayesian prediction-error minimization, and show how the control problem arises in active inference systems. We then review classical and quantum formulations of the FEP, with the former being the classical limit of the latter. In this accompanying Part II, we show that when systems are described as executing active inference driven by the FEP, their control flow systems can always be represented as tensor networks (TNs). We show how TNs as control systems can be implemented within the general framework of quantum topological neural networks, and discuss the implications of these results for modeling biological systems at multiple scales.",
+    "link": "https://doi.org/10.1109/tmbmc.2023.3272158"
+  },
+  {
+    "slug": "10-1109-tnano-2024-3381008--W4393078718",
+    "doi": "10.1109/tnano.2024.3381008",
+    "doi_url": "https://doi.org/10.1109/tnano.2024.3381008",
+    "title": "Memristor Based Liquid State Machine With Method for In-Situ Training",
+    "year": "2024",
+    "journal": "IEEE Transactions on Nanotechnology",
+    "authors": [
+      "Alex Henderson",
+      "Chris Yakopcic",
+      "Cory Merkel",
+      "Hananel Hazan",
+      "Steven D. Harbour",
+      "Tarek M. Taha"
+    ],
+    "abstract": "SpikiDg neural network (SNN) hardware has gained significant interest due to its ability to process complex data in size, weight, and power (SWaP) constrained environments. Memristors, in particular, offer the potential to enhance SNN algorithms by pro\\'iding analog domain acceleration with exceptional energy and throoghput efficiency. Among the current SNN architectures, the liquid State Machine (LSM), a form of Reservoir Computing (RC), stands out due to its low resource utilization and straightforward training process. In this paper, we present a custom memristor-based LSM circuit design with an ouline learuiog methodology. The proposed circuit implementing the LSM is designed using SPICE to ensure precise de\\'ice level accurocy. Furthermore, we explore liquid connecti\\'ity touing to facilitate a real-time and efficient design process. To assess the performance of our system, we evaluate it on multiple datasets, including MNIST, TI-46 spoken digits, acoustic drone recordings, and musical MIDI Iiles. Our results demonstrate comparable accuracy while achieving significant power and energy sa\\'ings when oompured to existing LSM accelerators. Moreover, our design exhibits resilience in the presence of noise and neuron misfires. These findings highlight the potential of a memristor based LSM architecture to rival purely CMOSbased LSM implementations, offering robust and energy-efficient neuromorphic computing capabilities with memristive SNNs.",
+    "link": "https://doi.org/10.1109/tnano.2024.3381008"
+  },
+  {
+    "slug": "10-1111-ijcp-13943--W33332726",
+    "doi": "10.1111/ijcp.13943",
+    "doi_url": "https://doi.org/10.1111/ijcp.13943",
+    "title": "INTERACTIONS BETWEEN HEMISPHERES WHEN DISAMBIGUATING AMBIGUOUS HOMOGRAPH WORDS DURING SILENT READING",
+    "year": "2016",
+    "journal": "International Journal of Clinical Practice",
+    "authors": [
+      "Zohar Eviatar",
+      "Hananel Hazan",
+      "Larry M. Manevitz",
+      "Orna Peleg",
+      "Rom Timor"
+    ],
+    "abstract": "This experimental in vivo investigation demonstrated an excellent protective effect for 10 days of dexamethasone treatment against hypoxia, especially in asphyctic and hemic models. In addition to promising dexamethasone outcomes, using propranolol as the positive control illustrated a very substantial anti-hypoxic effect even much better than dexamethasone in all models. It seems that propranolol would be a safe, potential, and prudent choice to invest in treating COVID-19 patients.",
+    "link": "https://doi.org/10.1111/ijcp.13943"
+  },
+  {
+    "slug": "10-1145-3565478-3572542--W4378881738",
+    "doi": "10.1145/3565478.3572542",
+    "doi_url": "https://doi.org/10.1145/3565478.3572542",
+    "title": "Circuit Optimization Techniques for Efficient Ex-Situ Training of Robust Memristor Based Liquid State Machine",
+    "year": "2022",
+    "journal": null,
+    "authors": [
+      "Alex Henderson",
+      "Chris Yakopcic",
+      "Steven D. Harbour",
+      "Tarek A. Taha",
+      "Cory Merkel",
+      "Hananel Hazan"
+    ],
+    "abstract": "Spiking neural network hardware offers a high performance, power-efficient and robust platform for the processing of complex data. Many of these systems require supervised learning, which poses a challenge when using gradient-based algorithms due to the discontinuous properties of SNNs. Memristor based hardware can offer gains in portability, power reduction, and throughput efficiency when compared to pure CMOS. This paper proposes a memristor-based spiking liquid state machine (LSM). The inherent dynamics of the LSM permit the use of supervised learning without backpropagation for weight updates. To carry out the design space evaluation of the LSM for optimal hardware performance, several temporal signal classification tasks are performed. It is found that the binary neuron activations in the output layer improve testing accuracy by 3.7% and 5% for classification, while reducing training time. A power and energy analysis of the proposed hardware is presented, resulting in an approximately 50% reduction in power consumption and cycle energy.",
+    "link": "https://doi.org/10.1145/3565478.3572542"
+  },
+  {
+    "slug": "10-1155-2015-804385--W1551054116",
+    "doi": "10.1155/2015/804385",
+    "doi_url": "https://doi.org/10.1155/2015/804385",
+    "title": "Decoding the Formation of New Semantics: MVPA Investigation of Rapid Neocortical Plasticity during Associative Encoding through Fast Mapping",
+    "year": "2015",
+    "journal": "Neural Plasticity",
+    "authors": [
+      "Tali Atir-Sharon",
+      "Asaf Gilboa",
+      "Hananel Hazan",
+      "Ester Koilis",
+      "Larry M. Manevitz"
+    ],
+    "abstract": "Neocortical structures typically only support slow acquisition of declarative memory; however, learning through fast mapping may facilitate rapid learning-induced cortical plasticity and hippocampal-independent integration of novel associations into existing semantic networks. During fast mapping the meaning of new words and concepts is inferred, and durable novel associations are incidentally formed, a process thought to support early childhood's exuberant learning. The anterior temporal lobe, a cortical semantic memory hub, may critically support such learning. We investigated encoding of semantic associations through fast mapping using fMRI and multivoxel pattern analysis. Subsequent memory performance following fast mapping was more efficiently predicted using anterior temporal lobe than hippocampal voxels, while standard explicit encoding was best predicted by hippocampal activity. Searchlight algorithms revealed additional activity patterns that predicted successful fast mapping semantic learning located in lateral occipitotemporal and parietotemporal neocortex and ventrolateral prefrontal cortex. By contrast, successful explicit encoding could be classified by activity in medial and dorsolateral prefrontal and parahippocampal cortices. We propose that fast mapping promotes incidental rapid integration of new associations into existing neocortical semantic networks by activating related, nonoverlapping conceptual knowledge. In healthy adults, this is better captured by unique anterior and lateral temporal lobe activity patterns, while hippocampal involvement is less predictive of this kind of learning.",
+    "link": "https://doi.org/10.1155/2015/804385"
+  },
+  {
+    "slug": "10-1371-journal-pone-0265808--W4280528809",
+    "doi": "10.1371/journal.pone.0265808",
+    "doi_url": "https://doi.org/10.1371/journal.pone.0265808",
+    "title": "Training a spiking neuronal network model of visual-motor cortex to play a virtual racket-ball game using reinforcement learning",
+    "year": "2022",
+    "journal": "PLoS ONE",
+    "authors": [
+      "Haroon Anwar",
+      "Simon Caby",
+      "Salvador Durá-Bernal",
+      "David Donofrio",
+      "Daniel Haşegan",
+      "Matt Deible",
+      "Sara Grunblatt",
+      "George L. Chadderdon",
+      "Cliff C. Kerr",
+      "Péter Lakatos",
+      "William W. Lytton",
+      "Hananel Hazan",
+      "Samuel A. Neymotin"
+    ],
+    "abstract": "Recent models of spiking neuronal networks have been trained to perform behaviors in static environments using a variety of learning rules, with varying degrees of biological realism. Most of these models have not been tested in dynamic visual environments where models must make predictions on future states and adjust their behavior accordingly. The models using these learning rules are often treated as black boxes, with little analysis on circuit architectures and learning mechanisms supporting optimal performance. Here we developed visual/motor spiking neuronal network models and trained them to play a virtual racket-ball game using several reinforcement learning algorithms inspired by the dopaminergic reward system. We systematically investigated how different architectures and circuit-motifs (feed-forward, recurrent, feedback) contributed to learning and performance. We also developed a new biologically-inspired learning rule that significantly enhanced performance, while reducing training time. Our models included visual areas encoding game inputs and relaying the information to motor areas, which used this information to learn to move the racket to hit the ball. Neurons in the early visual area relayed information encoding object location and motion direction across the network. Neuronal association areas encoded spatial relationships between objects in the visual scene. Motor populations received inputs from visual and association areas representing the dorsal pathway. Two populations of motor neurons generated commands to move the racket up or down. Model-generated actions updated the environment and triggered reward or punishment signals that adjusted synaptic weights so that the models could learn which actions led to reward. Here we demonstrate that our biologically-plausible learning rules were effective in training spiking neuronal network models to solve problems in dynamic environments. We used our models to dissect the circuit architectures and learning rules most effective for learning. Our model shows that learning mechanisms involving different neural circuits produce similar performance in sensory-motor tasks. In biological networks, all learning mechanisms may complement one another, accelerating the learning capabilities of animals. Furthermore, this also highlights the resilience and redundancy in biological systems.",
+    "link": "https://doi.org/10.1371/journal.pone.0265808"
+  },
+  {
+    "slug": "10-1609-aaai-v39i26-34947--W4409361298",
+    "doi": "10.1609/aaai.v39i26.34947",
+    "doi_url": "https://doi.org/10.1609/aaai.v39i26.34947",
+    "title": "Quantifying Misalignment Between Agents: Towards a Sociotechnical Understanding of Alignment",
+    "year": "2025",
+    "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "authors": [
+      "Aidan Kierans",
+      "Avijit Ghosh",
+      "Hananel Hazan",
+      "Shiri Dori-Hacohen"
+    ],
+    "abstract": "Existing work on the alignment problem has focused mainly on (1) qualitative descriptions of the alignment problem; (2) attempting to align AI actions with human interests by focusing on value specification and learning; and/or (3) focusing on a single agent or on humanity as a monolith. Recent sociotechnical approaches highlight the need to understand complex misalignment among multiple human and AI agents. We address this gap by adapting a computational social science model of human contention to the alignment problem. Our model quantifies misalignment in large, diverse agent groups with potentially conflicting goals across various problem areas. Misalignment scores in our framework depend on the observed agent population, the domain in question, and conflict between agents' weighted preferences. Through simulations, we demonstrate how our model captures intuitive aspects of misalignment across different scenarios. We then apply our model to two case studies, including an autonomous vehicle setting, showcasing its practical utility. Our approach offers enhanced explanatory power for complex sociotechnical environments and could inform the design of more aligned AI systems in real-world applications.",
+    "link": "https://doi.org/10.1609/aaai.v39i26.34947"
+  },
+  {
+    "slug": "10-31219-osf-io-8e4ra--W4323266630",
+    "doi": "10.31219/osf.io/8e4ra",
+    "doi_url": "https://doi.org/10.31219/osf.io/8e4ra",
+    "title": "Control flow in active inference systems",
+    "year": "2023",
+    "journal": null,
+    "authors": [
+      "Chris Fields",
+      "Filippo Fabrocini",
+      "Karl Friston",
+      "James F. Glazebrook",
+      "Hananel Hazan",
+      "Michael Levin",
+      "Antonino Marcianò"
+    ],
+    "abstract": "Living systems face both environmental complexity and limited access to free-energy resources. Survival under these conditions requires a control system that can activate, or deploy, available perception and action resources in a context specific way. We show here that when systems are described as executing active inference driven by the free-energy principle (and hence can be considered Bayesian prediction-error minimizers), their control flow systems can always be represented as tensor networks (TNs). We show how TNs as control systems can be implmented within the general framework of quantum topological neural networks, and discuss the implications of these results for modeling biological systems at multiple scales.",
+    "link": "https://doi.org/10.31219/osf.io/8e4ra"
+  },
+  {
+    "slug": "10-3389-fncom-2022-1017284--W4298140313",
+    "doi": "10.3389/fncom.2022.1017284",
+    "doi_url": "https://doi.org/10.3389/fncom.2022.1017284",
+    "title": "Training spiking neuronal networks to perform motor control using reinforcement and evolutionary learning",
+    "year": "2022",
+    "journal": "Frontiers in Computational Neuroscience",
+    "authors": [
+      "Daniel Haşegan",
+      "Matt Deible",
+      "Christopher Earl",
+      "David Donofrio",
+      "Hananel Hazan",
+      "Haroon Anwar",
+      "Samuel A. Neymotin"
+    ],
+    "abstract": "Artificial neural networks (ANNs) have been successfully trained to perform a wide range of sensory-motor behaviors. In contrast, the performance of spiking neuronal network (SNN) models trained to perform similar behaviors remains relatively suboptimal. In this work, we aimed to push the field of SNNs forward by exploring the potential of different learning mechanisms to achieve optimal performance. We trained SNNs to solve the CartPole reinforcement learning (RL) control problem using two learning mechanisms operating at different timescales: (1) spike-timing-dependent reinforcement learning (STDP-RL) and (2) evolutionary strategy (EVOL). Though the role of STDP-RL in biological systems is well established, several other mechanisms, though not fully understood, work in concert during learning in vivo . Recreating accurate models that capture the interaction of STDP-RL with these diverse learning mechanisms is extremely difficult. EVOL is an alternative method and has been successfully used in many studies to fit model neural responsiveness to electrophysiological recordings and, in some cases, for classification problems. One advantage of EVOL is that it may not need to capture all interacting components of synaptic plasticity and thus provides a better alternative to STDP-RL. Here, we compared the performance of each algorithm after training, which revealed EVOL as a powerful method for training SNNs to perform sensory-motor behaviors. Our modeling opens up new capabilities for SNNs in RL and could serve as a testbed for neurobiologists aiming to understand multi-timescale learning mechanisms and dynamics in neuronal circuits.",
+    "link": "https://doi.org/10.3389/fncom.2022.1017284"
+  },
+  {
+    "slug": "10-3389-fnins-2017-00579--W2765746064",
+    "doi": "10.3389/fnins.2017.00579",
+    "doi_url": "https://doi.org/10.3389/fnins.2017.00579",
+    "title": "Closed Loop Experiment Manager (CLEM)—An Open and Inexpensive Solution for Multichannel Electrophysiological Recordings and Closed Loop Experiments",
+    "year": "2017",
+    "journal": "Frontiers in Neuroscience",
+    "authors": [
+      "Hananel Hazan",
+      "Noam Ziv"
+    ],
+    "abstract": "and in a variety of other neuronal preparations, or for developing and testing neuro-prosthetic devices, to name a few. Furthermore, there is a need for such systems to be inexpensive, reliable, user friendly, easy to set-up, open and expandable, and possess long life cycles in face of rapidly changing computing environments. Finally, they should provide powerful, yet reasonably easy to implement facilities for developing closed-loop protocols for interacting with neuronal systems. Here, we survey commercial and open source systems that address these needs to varying degrees. We then present our own solution, which we refer to as Closed Loop Experiments Manager (CLEM). CLEM is an open source, soft real-time, Microsoft Windows desktop application that is based on a single generic personal computer (PC) and an inexpensive, general-purpose data acquisition board. CLEM provides a fully functional, user-friendly graphical interface, possesses facilities for recording, presenting and logging electrophysiological data from up to 64 analog channels, and facilities for controlling external devices, such as stimulators, through digital and analog interfaces. Importantly, it includes facilities for running closed-loop protocols written in any programming language that can generate dynamic link libraries (DLLs). We describe the application, its architecture and facilities. We then demonstrate, using networks of cortical neurons growing on multielectrode arrays (MEA) that despite its reliance on generic hardware, its performance is appropriate for flexible, closed-loop experimentation at the neuronal network level.",
+    "link": "https://doi.org/10.3389/fnins.2017.00579"
+  },
+  {
+    "slug": "10-3390-analytics4040028--W4415358755",
+    "doi": "10.3390/analytics4040028",
+    "doi_url": "https://doi.org/10.3390/analytics4040028",
+    "title": "Reservoir Computation with Networks of Differentiating Neuron Ring Oscillators",
+    "year": "2025",
+    "journal": "Analytics",
+    "authors": [
+      "Alexander Seeshing Yeung",
+      "Peter DelMastro",
+      "Arjun Karuvally",
+      "Hava T. Siegelmann",
+      "Edward A. Rietman",
+      "Hananel Hazan"
+    ],
+    "abstract": "Reservoir computing is an approach to machine learning that leverages the dynamics of a complex system alongside a simple, often linear, machine learning model for a designated task. While many efforts have previously focused their attention on integrating neurons, which produce an output in response to large, sustained inputs, we focus on using differentiating neurons, which produce an output in response to large changes in input. Here, we introduce a small-world graph built from rings of differentiating neurons as a Reservoir Computing substrate. We find the coupling strength and network topology that enable these small-world networks to function as an effective reservoir. The dynamics of differentiating neurons naturally give rise to oscillatory dynamics when arranged in rings, where we study their computational use in the Reservoir Computing setting. We demonstrate the efficacy of these networks in the MNIST digit recognition task, achieving comparable performance of 90.65% to existing Reservoir Computing approaches. Beyond accuracy, we conduct systematic analysis of our reservoir’s internal dynamics using three complementary complexity measures that quantify neuronal activity balance, input dependence, and effective dimensionality. Our analysis reveals that optimal performance emerges when the reservoir operates with intermediate levels of neural entropy and input sensitivity, consistent with the edge-of-chaos hypothesis, where the system balances stability and responsiveness. The findings suggest that differentiating neurons can be a potential alternative to integrating neurons and can provide a sustainable future alternative for power-hungry AI applications.",
+    "link": "https://doi.org/10.3390/analytics4040028"
+  },
+  {
+    "slug": "10-3390-onco4030013--W4401352446",
+    "doi": "10.3390/onco4030013",
+    "doi_url": "https://doi.org/10.3390/onco4030013",
+    "title": "A Systems Biology Analysis of Chronic Lymphocytic Leukemia",
+    "year": "2024",
+    "journal": "Onco",
+    "authors": [
+      "Giulia Pozzati",
+      "Jinrui Zhou",
+      "Hananel Hazan",
+      "Giannoula Klement",
+      "Hava T. Siegelmann",
+      "Jack A. Tuszyński",
+      "Edward A. Rietman"
+    ],
+    "abstract": "Whole-genome sequencing has revealed that TP53, NOTCH1, ATM, SF3B1, BIRC3, ABL, NXF1, BCR, and ZAP70 are often mutated in CLL, but not consistently across all CLL patients. This paper employs a statistical thermodynamics approach in combination with the systems biology of the CLL protein–protein interaction networks to identify the most significant participant proteins in the cancerous transformation. Betti number (a topology of complexity) estimates highlight a protein hierarchy, primarily in the Wnt pathway known for aberrant CLL activation. These individually identified proteins suggest a network-targeted strategy over single-target drug development. The findings advocate for a multi-target inhibition approach, limited to several key proteins to minimize side effects, thereby providing a foundation for designing therapies. This study emphasizes a shift towards a comprehensive, multi-scale analysis to enhance personalized treatment strategies for CLL, which could be experimentally validated using siRNA or small-molecule inhibitors. The result is not just the identification of these proteins but their rank-order, offering a potent signal amplification in the context of the 20,000 proteins produced by the human body, thus providing a strategic basis for therapeutic intervention in CLL, underscoring the necessity for a more holistic, cellular, chromosomal, and genome-wide study to develop tailored treatments for CLL patients.",
+    "link": "https://doi.org/10.3390/onco4030013"
+  },
+  {
+    "slug": "10-48550-arxiv-1903-11012--W2924910964",
+    "doi": "10.48550/arxiv.1903.11012",
+    "doi_url": "https://doi.org/10.48550/arxiv.1903.11012",
+    "title": "Improved robustness of reinforcement learning policies upon conversion to spiking neuronal network platforms applied to ATARI games",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Devdhar Patel",
+      "Hananel Hazan",
+      "Daniel J. Saunders",
+      "Hava T. Siegelmann",
+      "Róbert Kozma"
+    ],
+    "abstract": "Deep Reinforcement Learning (RL) demonstrates excellent performance on tasks that can be solved by trained policy. It plays a dominant role among cutting-edge machine learning approaches using multi-layer Neural networks (NNs). At the same time, Deep RL suffers from high sensitivity to noisy, incomplete, and misleading input data. Following biological intuition, we involve Spiking Neural Networks (SNNs) to address some deficiencies of deep RL solutions. Previous studies in image classification domain demonstrated that standard NNs (with ReLU nonlinearity) trained using supervised learning can be converted to SNNs with negligible deterioration in performance. In this paper, we extend those conversion results to the domain of Q-Learning NNs trained using RL. We provide a proof of principle of the conversion of standard NN to SNN. In addition, we show that the SNN has improved robustness to occlusion in the input image. Finally, we introduce results with converting full-scale Deep Q-network to SNN, paving the way for future research to robust Deep RL applications.",
+    "link": "https://doi.org/10.48550/arxiv.1903.11012"
+  },
+  {
+    "slug": "10-48550-arxiv-1904-06269--W4288373428",
+    "doi": "10.48550/arxiv.1904.06269",
+    "doi_url": "https://doi.org/10.48550/arxiv.1904.06269",
+    "title": "Locally Connected Spiking Neural Networks for Unsupervised Feature\\n Learning",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Daniel J. Saunders",
+      "Devdhar Patel",
+      "Hananel Hazan",
+      "Hava T. Siegelmann",
+      "Róbert Kozma"
+    ],
+    "abstract": "In recent years, Spiking Neural Networks (SNNs) have demonstrated great\\nsuccesses in completing various Machine Learning tasks. We introduce a method\\nfor learning image features by \\\\textit{locally connected layers} in SNNs using\\nspike-timing-dependent plasticity (STDP) rule. In our approach, sub-networks\\ncompete via competitive inhibitory interactions to learn features from\\ndifferent locations of the input space. These \\\\textit{Locally-Connected SNNs}\\n(LC-SNNs) manifest key topological features of the spatial interaction of\\nbiological neurons. We explore biologically inspired n-gram classification\\napproach allowing parallel processing over various patches of the the image\\nspace. We report the classification accuracy of simple two-layer LC-SNNs on two\\nimage datasets, which match the state-of-art performance and are the first\\nresults to date. LC-SNNs have the advantage of fast convergence to a dataset\\nrepresentation, and they require fewer learnable parameters than other SNN\\napproaches with unsupervised learning. Robustness tests demonstrate that\\nLC-SNNs exhibit graceful degradation of performance despite the random deletion\\nof large amounts of synapses and neurons.\\n",
+    "link": "https://doi.org/10.48550/arxiv.1904.06269"
+  },
+  {
+    "slug": "10-48550-arxiv-1906-11826--W4286663233",
+    "doi": "10.48550/arxiv.1906.11826",
+    "doi_url": "https://doi.org/10.48550/arxiv.1906.11826",
+    "title": "Lattice Map Spiking Neural Networks (LM-SNNs) for Clustering and\\n Classifying Image Data",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Hananel Hazan",
+      "Daniel J. Saunders",
+      "Darpan Sanghavi",
+      "Hava T. Siegelmann",
+      "Róbert Kozma"
+    ],
+    "abstract": "Spiking neural networks (SNNs) with a lattice architecture are introduced in\\nthis work, combining several desirable properties of SNNs and self-organized\\nmaps (SOMs). Networks are trained with biologically motivated, unsupervised\\nlearning rules to obtain a self-organized grid of filters via cooperative and\\ncompetitive excitatory-inhibitory interactions. Several inhibition strategies\\nare developed and tested, such as (i) incrementally increasing inhibition level\\nover the course of network training, and (ii) switching the inhibition level\\nfrom low to high (two-level) after an initial training segment. During the\\nlabeling phase, the spiking activity generated by data with known labels is\\nused to assign neurons to categories of data, which are then used to evaluate\\nthe network's classification ability on a held-out set of test data. Several\\nbiologically plausible evaluation rules are proposed and compared, including a\\npopulation-level confidence rating, and an $n$-gram inspired method. The\\neffectiveness of the proposed self-organized learning mechanism is tested using\\nthe MNIST benchmark dataset, as well as using images produced by playing the\\nAtari Breakout game.\\n",
+    "link": "https://doi.org/10.48550/arxiv.1906.11826"
+  },
+  {
+    "slug": "10-48550-arxiv-1910-06489--W2987112672",
+    "doi": "10.48550/arxiv.1910.06489",
+    "doi_url": "https://doi.org/10.48550/arxiv.1910.06489",
+    "title": "Reinforcement learning with a network of spiking agents",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Sneha Aenugu",
+      "Abhishek Sharma",
+      "Sasikiran Yelamarthi",
+      "Hananel Hazan",
+      "Philip S. Thomas",
+      "Róbert Kozma"
+    ],
+    "abstract": "Neuroscientific theory suggests that dopaminergic neurons broadcast global reward prediction errors to large areas of the brain influencing the synaptic plasticity of the neurons in those regions. We build on this theory to propose a multi-agent learning framework with spiking neurons in the generalized linear model (GLM) formulation as agents, to solve reinforcement learning (RL) tasks. We show that a network of GLM spiking agents connected in a hierarchical fashion, where each spiking agent modulates its firing policy based on local information and a global prediction error, can learn complex action representations to solve RL tasks. We further show how leveraging principles of modularity and population coding inspired from the brain can help reduce variance in the learning updates making it a viable optimization technique.",
+    "link": "https://doi.org/10.48550/arxiv.1910.06489"
+  },
+  {
+    "slug": "10-48550-arxiv-2202-07132--W4221154632",
+    "doi": "10.48550/arxiv.2202.07132",
+    "doi_url": "https://doi.org/10.48550/arxiv.2202.07132",
+    "title": "Memory via Temporal Delays in weightless Spiking Neural Network",
+    "year": "2022",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Hananel Hazan",
+      "Simon Caby",
+      "Christopher Earl",
+      "Hava T. Siegelmann",
+      "Michael Levin"
+    ],
+    "abstract": "A common view in the neuroscience community is that memory is encoded in the connection strength between neurons. This perception led artificial neural network models to focus on connection weights as the key variables to modulate learning. In this paper, we present a prototype for weightless spiking neural networks that can perform a simple classification task. The memory in this network is stored in the timing between neurons, rather than the strength of the connection, and is trained using a Hebbian Spike Timing Dependent Plasticity (STDP), which modulates the delays of the connection.",
+    "link": "https://doi.org/10.48550/arxiv.2202.07132"
+  },
+  {
+    "slug": "10-48550-arxiv-2303-01514--W4323322787",
+    "doi": "10.48550/arxiv.2303.01514",
+    "doi_url": "https://doi.org/10.48550/arxiv.2303.01514",
+    "title": "Control flow in active inference systems",
+    "year": "2023",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Chris Fields",
+      "Filippo Fabrocini",
+      "Karl Friston",
+      "James F. Glazebrook",
+      "Hananel Hazan",
+      "Michael Levin",
+      "Antonino Marcianò"
+    ],
+    "abstract": "Living systems face both environmental complexity and limited access to free-energy resources. Survival under these conditions requires a control system that can activate, or deploy, available perception and action resources in a context specific way. We show here that when systems are described as executing active inference driven by the free-energy principle (and hence can be considered Bayesian prediction-error minimizers), their control flow systems can always be represented as tensor networks (TNs). We show how TNs as control systems can be implmented within the general framework of quantum topological neural networks, and discuss the implications of these results for modeling biological systems at multiple scales.",
+    "link": "https://doi.org/10.48550/arxiv.2303.01514"
+  },
+  {
+    "slug": "10-48550-arxiv-2406-04231--W4399453653",
+    "doi": "10.48550/arxiv.2406.04231",
+    "doi_url": "https://doi.org/10.48550/arxiv.2406.04231",
+    "title": "Quantifying Misalignment Between Agents: Towards a Sociotechnical Understanding of Alignment",
+    "year": "2024",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Aidan Kierans",
+      "Avijit Ghosh",
+      "Hananel Hazan",
+      "Shiri Dori-Hacohen"
+    ],
+    "abstract": "Existing work on the alignment problem has focused mainly on (1) qualitative descriptions of the alignment problem; (2) attempting to align AI actions with human interests by focusing on value specification and learning; and/or (3) focusing on a single agent or on humanity as a monolith. Recent sociotechnical approaches highlight the need to understand complex misalignment among multiple human and AI agents. We address this gap by adapting a computational social science model of human contention to the alignment problem. Our model quantifies misalignment in large, diverse agent groups with potentially conflicting goals across various problem areas. Misalignment scores in our framework depend on the observed agent population, the domain in question, and conflict between agents' weighted preferences. Through simulations, we demonstrate how our model captures intuitive aspects of misalignment across different scenarios. We then apply our model to two case studies, including an autonomous vehicle setting, showcasing its practical utility. Our approach offers enhanced explanatory power for complex sociotechnical environments and could inform the design of more aligned AI systems in real-world applications.",
+    "link": "https://doi.org/10.48550/arxiv.2406.04231"
+  },
+  {
+    "slug": "10-48550-arxiv-2410-02543--W4403885227",
+    "doi": "10.48550/arxiv.2410.02543",
+    "doi_url": "https://doi.org/10.48550/arxiv.2410.02543",
+    "title": "Diffusion Models are Evolutionary Algorithms",
+    "year": "2024",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Yanbo Zhang",
+      "Benedikt Hartl",
+      "Hananel Hazan",
+      "Michael Levin"
+    ],
+    "abstract": "In a convergence of machine learning and biology, we reveal that diffusion models are evolutionary algorithms. By considering evolution as a denoising process and reversed evolution as diffusion, we mathematically demonstrate that diffusion models inherently perform evolutionary algorithms, naturally encompassing selection, mutation, and reproductive isolation. Building on this equivalence, we propose the Diffusion Evolution method: an evolutionary algorithm utilizing iterative denoising -- as originally introduced in the context of diffusion models -- to heuristically refine solutions in parameter spaces. Unlike traditional approaches, Diffusion Evolution efficiently identifies multiple optimal solutions and outperforms prominent mainstream evolutionary algorithms. Furthermore, leveraging advanced concepts from diffusion models, namely latent space diffusion and accelerated sampling, we introduce Latent Space Diffusion Evolution, which finds solutions for evolutionary tasks in high-dimensional complex parameter space while significantly reducing computational steps. This parallel between diffusion and evolution not only bridges two different fields but also opens new avenues for mutual enhancement, raising questions about open-ended evolution and potentially utilizing non-Gaussian or discrete diffusion models in the context of Diffusion Evolution.",
+    "link": "https://doi.org/10.48550/arxiv.2410.02543"
+  },
+  {
+    "slug": "10-48550-arxiv-2411-13420--W4404649761",
+    "doi": "10.48550/arxiv.2411.13420",
+    "doi_url": "https://doi.org/10.48550/arxiv.2411.13420",
+    "title": "Heuristically Adaptive Diffusion-Model Evolutionary Strategy",
+    "year": "2024",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Benedikt Hartl",
+      "Yanbo Zhang",
+      "Hananel Hazan",
+      "Michael Levin"
+    ],
+    "abstract": "Diffusion Models represent a significant advancement in generative modeling, employing a dual-phase process that first degrades domain-specific information via Gaussian noise and restores it through a trainable model. This framework enables pure noise-to-data generation and modular reconstruction of, images or videos. Concurrently, evolutionary algorithms employ optimization methods inspired by biological principles to refine sets of numerical parameters encoding potential solutions to rugged objective functions. Our research reveals a fundamental connection between diffusion models and evolutionary algorithms through their shared underlying generative mechanisms: both methods generate high-quality samples via iterative refinement on random initial distributions. By employing deep learning-based diffusion models as generative models across diverse evolutionary tasks and iteratively refining diffusion models with heuristically acquired databases, we can iteratively sample potentially better-adapted offspring parameters, integrating them into successive generations of the diffusion model. This approach achieves efficient convergence toward high-fitness parameters while maintaining explorative diversity. Diffusion models introduce enhanced memory capabilities into evolutionary algorithms, retaining historical information across generations and leveraging subtle data correlations to generate refined samples. We elevate evolutionary algorithms from procedures with shallow heuristics to frameworks with deep memory. By deploying classifier-free guidance for conditional sampling at the parameter level, we achieve precise control over evolutionary search dynamics to further specific genotypical, phenotypical, or population-wide traits. Our framework marks a major heuristic and algorithmic transition, offering increased flexibility, precision, and control in evolutionary optimization processes.",
+    "link": "https://doi.org/10.48550/arxiv.2411.13420"
+  },
+  {
+    "slug": "10-48550-arxiv-2502-03689--W4407244646",
+    "doi": "10.48550/arxiv.2502.03689",
+    "doi_url": "https://doi.org/10.48550/arxiv.2502.03689",
+    "title": "Stop treating `AGI' as the north-star goal of AI research",
+    "year": "2025",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Borhane Blili-Hamelin",
+      "Christopher Graziul",
+      "Leif Hancox-Li",
+      "Hananel Hazan",
+      "El-Mhamdi, El-Mahdi",
+      "Avijit Ghosh",
+      "Katherine Heller",
+      "Metcalf, Jacob",
+      "Fabrício Murai",
+      "Eryk Salvaggio",
+      "Andrew Smart",
+      "Todd Snider",
+      "Mariame Tighanimine",
+      "Talia Ringer",
+      "Margaret Mitchell",
+      "Shiri Dori-Hacohen"
+    ],
+    "abstract": "The AI research community plays a vital role in shaping the scientific, engineering, and societal goals of AI research. In this position paper, we argue that focusing on the highly contested topic of `artificial general intelligence' (`AGI') undermines our ability to choose effective goals. We identify six key traps -- obstacles to productive goal setting -- that are aggravated by AGI discourse: Illusion of Consensus, Supercharging Bad Science, Presuming Value-Neutrality, Goal Lottery, Generality Debt, and Normalized Exclusion. To avoid these traps, we argue that the AI research community needs to (1) prioritize specificity in engineering and societal goals, (2) center pluralism about multiple worthwhile approaches to multiple valuable goals, and (3) foster innovation through greater inclusion of disciplines and communities. Therefore, the AI research community needs to stop treating `AGI' as the north-star goal of AI research.",
+    "link": "https://doi.org/10.48550/arxiv.2502.03689"
+  },
+  {
+    "slug": "10-48550-arxiv-2506-07253--W4417128668",
+    "doi": "10.48550/arxiv.2506.07253",
+    "doi_url": "https://doi.org/10.48550/arxiv.2506.07253",
+    "title": "Transient Dynamics in Lattices of Differentiating Ring Oscillators",
+    "year": "2025",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Peter DelMastro",
+      "Arjun Karuvally",
+      "Hananel Hazan",
+      "Hava T. Siegelmann",
+      "Edward A. Rietman"
+    ],
+    "abstract": "Recurrent neural networks (RNNs) are machine learning models widely used for learning temporal relationships. Current state-of-the-art RNNs use integrating or spiking neurons -- two classes of computing units whose outputs depend directly on their internal states -- and accordingly there is a wealth of literature characterizing the behavior of large networks built from these neurons. On the other hand, past research on differentiating neurons, whose outputs are computed from the derivatives of their internal states, remains limited to small hand-designed networks with fewer than one-hundred neurons. Here we show via numerical simulation that large lattices of differentiating neuron rings exhibit local neural synchronization behavior found in the Kuramoto model of interacting oscillators. We begin by characterizing the periodic orbits of uncoupled rings, herein called ring oscillators. We then show the emergence of local correlations between oscillators that grow over time when these rings are coupled together into lattices. As the correlation length grows, transient dynamics arise in which large regions of the lattice settle to the same periodic orbit, and thin domain boundaries separate adjacent, out-of-phase regions. The steady-state scale of these correlated regions depends on how the neurons are shared between adjacent rings, which suggests that lattices of differentiating ring oscillator might be tuned to be used as reservoir computers. Coupled with their simple circuit design and potential for low-power consumption, differentiating neural nets therefore represent a promising substrate for neuromorphic computing that will enable low-power AI applications.",
+    "link": "https://doi.org/10.48550/arxiv.2506.07253"
+  },
+  {
+    "slug": "10-48550-arxiv-2604-08749--W7154135049",
+    "doi": "10.48550/arxiv.2604.08749",
+    "doi_url": "https://doi.org/10.48550/arxiv.2604.08749",
+    "title": "A Little Rank Goes a Long Way: Random Scaffolds with LoRA Adapters Are All You Need",
+    "year": "2026",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Hananel Hazan",
+      "Yanbo Zhang",
+      "Benedikt Hartl",
+      "Michael Levin"
+    ],
+    "abstract": "How many of a neural network's parameters actually encode task-specific information? We investigate this question with LottaLoRA, a training paradigm in which every backbone weight is drawn at random and frozen; only low-rank LoRA adapters are trained. Across nine benchmarks spanning diverse architecture families from single-layer classifiers to 900M parameter Transformers low-rank adapters over frozen random backbones recover 96-100% of fully trained performance while training only 0.5-40% of the parameters. The task-specific signal therefore occupies a subspace orders of magnitude smaller than the full parameter count suggests. Three mechanistic findings underpin this result:(1) the frozen backbone is actively exploited when static the learned scaling~$β$ remains strictly positive across all architectures but when the scaffold is destabilized, the optimizer silences it and the LoRA factors absorb all task information; (2) the frozen backbone is preferable but interchangeable any random initialization works equally well, provided it remains fixed throughout training; and (3) the minimum LoRA rank at which performance saturates estimates the intrinsic dimensionality of the task, reminiscent of the number of components retained in Principal Component Analysis (PCA). The construction is formally analogous to Reservoir Computing unfolded along the depth axis of a feedforward network. Because the backbone is determined by a random seed alone, models can be distributed as adapters plus seed a footprint that grows with task complexity, not model size, so that storage and memory savings compound as architectures scale.",
+    "link": "https://doi.org/10.48550/arxiv.2604.08749"
+  },
+  {
+    "slug": "10-48550-arxiv-2605-30109--W7162775504",
+    "doi": "10.48550/arxiv.2605.30109",
+    "doi_url": "https://doi.org/10.48550/arxiv.2605.30109",
+    "title": "Training Ecosystems: A Computational Approach to Uncovering Learning Behavior in Unconventional Contexts",
+    "year": "2026",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Adrita Samanta",
+      "Hananel Hazan",
+      "Michael Levin"
+    ],
+    "abstract": "Recent progress in diverse intelligence has shown simple learning capacities below the organism level - single cells and even molecular networks. However, there are still many knowledge gaps around learning capacity above the organism level, and about memory implemented purely by dynamical interactions without explicit memory media. We demonstrate that minimal ecological dynamics (in silico) are sufficient for several kinds of learning, assayed as changes in both, magnitude of response, and of recovery time. Systematic exploration of over 220,000 parameter combinations in a simulated classic predator-prey model revealed that, when perturbed by stimuli, recovery time exhibits habituation, sensitization, and a form of discrete number learning in a scale-invariant manner. Robustness analysis revealed that habituation and sensitization persist under stochastic perturbations, while discrete number learning is disrupted even at low noise levels. Dimensionality reduction revealed that the incidence of learning capacity is primarily determined by ecological interaction strengths. Clear, unique clustering patterns in parameter space allow high prediction accuracy for novel parameter combinations that enable learning. Response magnitude revealed a striking asymmetry: 90.6% of parameter combinations exhibited recovery time sensitization paired with habituation of response magnitude, while the opposite pattern was extremely rare. These findings highlight a set of phenomena at the intersection of ecology, basal cognition, and mathematics with many implications for a wide range of systems describable by similar kinds of equations. These properties provide numerous efforts in biology and engineering with a substrate that has considerable, pre-patterned, propensity for learning, which ultimately arises from mathematics, not depending on the details of physics or biology.",
+    "link": "https://doi.org/10.48550/arxiv.2605.30109"
+  },
+  {
+    "slug": "10-5220-0003058902580264--W2795883615",
+    "doi": "10.5220/0003058902580264",
+    "doi_url": "https://doi.org/10.5220/0003058902580264",
+    "title": "THE LIQUID STATE MACHINE IS NOT ROBUST TO PROBLEMS IN ITS COMPONENTS BUT TOPOLOGICAL CONSTRAINTS CAN RESTORE ROBUSTNESS",
+    "year": "2010",
+    "journal": null,
+    "authors": [
+      "Hananel Hazan",
+      "Larry M. Manevitz"
+    ],
+    "abstract": "",
+    "link": "https://doi.org/10.5220/0003058902580264"
+  },
+  {
+    "slug": "10-5220-0005594501140121--W2296367206",
+    "doi": "10.5220/0005594501140121",
+    "doi_url": "https://doi.org/10.5220/0005594501140121",
+    "title": "Machine Learning Techniques and the Existence of Variant Processes in Humans Declarative Memory",
+    "year": "2015",
+    "journal": null,
+    "authors": [
+      "Alex Frid",
+      "Hananel Hazan",
+      "Ester Koilis",
+      "Larry M. Manevitz",
+      "Maayan Merhav",
+      "Gal Star"
+    ],
+    "abstract": "This work uses supervised machine learning methods over fMRI brain scans to establish the existence of two different encoding procedures for human declarative memory. Declarative knowledge refers to the memory for facts and events and initially depends on the hippocampus. Recent studies which used patients with hippocampal lesions and neuroimaging data, suggested the existence of an alternative process to form declarative memories. This process is triggered by learning mechanism called \"Fast Mapping (FM)\", as opposed to the 'standard' \"Explicit Encoding (EE)\" learning procedure. The present work gives a clear biomarker on the existence of two distinct encoding procedures as we can accurately predict which of the processes is being used directly from voxel activity in fMRI scans. The scans are taken during retrieval of information wherein the tasks are identical regardless of which procedure was used for acquisition and by that reflect conclusive prediction. This is an identification o f a more subtle cognitive task than direct perceptual cognitive tasks as it requires some encoding and processing in the brain",
+    "link": "https://doi.org/10.5220/0005594501140121"
+  },
+  {
+    "slug": "10-5281-zenodo-20695115--W7164833757",
+    "doi": "10.5281/zenodo.20695115",
+    "doi_url": "https://doi.org/10.5281/zenodo.20695115",
+    "title": "BindsNET/bindsnet: 0.3.4",
+    "year": "2026",
+    "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+    "authors": [
+      "Hananel Hazan",
+      "Dan Saunders",
+      "Kenneth Chaney",
+      "coopersigrist",
+      "Huizerd",
+      "Devdhar Patel",
+      "n_shevko",
+      "Simon Caby",
+      "Hafez Ghaemi",
+      "Mahbod Nouri",
+      "Rollin Omari",
+      "Daniel Gafni",
+      "Sharath Ramkumar",
+      "Peter Marathas",
+      "Erik Lanning",
+      "Sam",
+      "chaterate",
+      "Saksham Goyal",
+      "Christopher Earl",
+      "Youdon",
+      "Weihao Tan",
+      "Rute Souza de Abreu",
+      "bmosk54",
+      "Valerio1988",
+      "Thomas King",
+      "Malinda",
+      "Justin Riddiough",
+      "Jean-Rémi KING"
+    ],
+    "abstract": "What's Changed periodicly dependencies updates by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/698 update by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/699 Merge pull request #699 from BindsNET/master by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/700 Bump jinja2 from 3.1.4 to 3.1.5 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/701 Bump jinja2 from 3.1.4 to 3.1.5 in /docs by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/702 Package maintenance update by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/704 Sparse batch_eth_mnist by @n-shevko in https://github.com/BindsNET/bindsnet/pull/705 Update to PyTorch 2.6.0 by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/708 Bump jinja2 from 3.1.5 to 3.1.6 in /docs by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/709 Support Python 3.13 by @sakgoyal in https://github.com/BindsNET/bindsnet/pull/710 Update PyTorch ver and other dependencies by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/711 docs: Update README badges - Collaboration Network by @neural-loop in https://github.com/BindsNET/bindsnet/pull/712 Bump jupyterlab from 4.4.3 to 4.4.8 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/720 Bump pillow from 11.2.1 to 11.3.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/721 SparseConnection support by @n-shevko in https://github.com/BindsNET/bindsnet/pull/703 Lowering precision by @n-shevko in https://github.com/BindsNET/bindsnet/pull/707 merge with master by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/722 Bump fonttools from 4.60.1 to 4.61.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/724 Bump urllib3 from 2.5.0 to 2.6.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/725 Bump filelock from 3.20.0 to 3.20.1 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/726 Bump urllib3 from 2.6.0 to 2.6.3 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/727 up stream updates. by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/728 Bump virtualenv from 20.35.4 to 20.36.1 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/729 Bump filelock from 3.20.1 to 3.20.3 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/730 Bump wheel from 0.41.3 to 0.46.2 in /docs by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/731 Bump wheel from 0.41.3 to 0.46.2 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/732 Bump protobuf from 6.33.0 to 6.33.5 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/734 Bump nbconvert from 7.16.6 to 7.17.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/735 Bump tornado from 6.5.4 to 6.5.5 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/739 Bump pillow from 12.1.0 to 12.1.1 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/738 Dependency Maintenance by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/746 Bump requests from 2.32.5 to 2.33.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/741 fix: resolve merge conflict markers in CI workflows and upgrade Actions by @haoyu-haoyu in https://github.com/BindsNET/bindsnet/pull/742 Bump pygments from 2.19.2 to 2.20.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/745 Update dependencies and GitHub Actions workflows by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/749 Master by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/750 Fix eth_mnist example by @andreapignaz in https://github.com/BindsNET/bindsnet/pull/755 Bump pillow from 12.1.1 to 12.2.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/747 Bump pytest from 9.0.2 to 9.0.3 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/748 Bump gitpython from 3.1.46 to 3.1.47 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/751 Bump notebook from 7.5.5 to 7.5.6 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/752 Bump jupyterlab from 4.5.6 to 4.5.7 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/753 Bump jupyter-server from 2.17.0 to 2.18.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/754 Bump mistune from 3.2.0 to 3.2.1 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/756 Bump gitpython from 3.1.47 to 3.1.50 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/758 Bump urllib3 from 2.6.3 to 2.7.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/759 Bump idna from 3.11 to 3.15 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/760 Bump tornado from 6.5.5 to 6.5.6 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/762 Fix Monitor bug with preallocated buffers and torch.cat by @steampunc in https://github.com/BindsNET/bindsnet/pull/761 Improve assign_labels accuracy and performance by @Machuka in https://github.com/BindsNET/bindsnet/pull/737 Fixes, bug updates and pip upgrades by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/763 New Contributors @n-shevko made their first contribution in https://github.com/BindsNET/bindsnet/pull/705 @sakgoyal made their first contribution in https://github.com/BindsNET/bindsnet/pull/710 @neural-loop made their first contribution in https://github.com/BindsNET/bindsnet/pull/712 @haoyu-haoyu made their first contribution in https://github.com/BindsNET/bindsnet/pull/742 @andreapignaz made their first contribution in https://github.com/BindsNET/bindsnet/pull/755 @steampunc made their first contribution in https://github.com/BindsNET/bindsnet/pull/761 @Machuka made their first contribution in https://github.com/BindsNET/bindsnet/pull/737 Full Changelog: https://github.com/BindsNET/bindsnet/compare/0.3.3...0.3.4",
+    "link": "https://doi.org/10.5281/zenodo.20695115"
+  },
+  {
+    "slug": "10-5281-zenodo-20695116--W7164830721",
+    "doi": "10.5281/zenodo.20695116",
+    "doi_url": "https://doi.org/10.5281/zenodo.20695116",
+    "title": "BindsNET/bindsnet: 0.3.4",
+    "year": "2026",
+    "journal": "Open MIND",
+    "authors": [
+      "Hananel Hazan",
+      "Dan Saunders",
+      "Kenneth Chaney",
+      "coopersigrist",
+      "Huizerd",
+      "Devdhar Patel",
+      "n_shevko",
+      "Simon Caby",
+      "Hafez Ghaemi",
+      "Mahbod Nouri",
+      "Rollin Omari",
+      "Daniel Gafni",
+      "Sharath Ramkumar",
+      "Peter Marathas",
+      "Erik Lanning",
+      "Sam",
+      "chaterate",
+      "Saksham Goyal",
+      "Christopher Earl",
+      "Youdon",
+      "Weihao Tan",
+      "Rute Souza de Abreu",
+      "bmosk54",
+      "Valerio1988",
+      "Thomas King",
+      "Malinda",
+      "Justin Riddiough",
+      "Jean-Rémi KING"
+    ],
+    "abstract": "What's Changed periodicly dependencies updates by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/698 update by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/699 Merge pull request #699 from BindsNET/master by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/700 Bump jinja2 from 3.1.4 to 3.1.5 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/701 Bump jinja2 from 3.1.4 to 3.1.5 in /docs by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/702 Package maintenance update by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/704 Sparse batch_eth_mnist by @n-shevko in https://github.com/BindsNET/bindsnet/pull/705 Update to PyTorch 2.6.0 by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/708 Bump jinja2 from 3.1.5 to 3.1.6 in /docs by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/709 Support Python 3.13 by @sakgoyal in https://github.com/BindsNET/bindsnet/pull/710 Update PyTorch ver and other dependencies by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/711 docs: Update README badges - Collaboration Network by @neural-loop in https://github.com/BindsNET/bindsnet/pull/712 Bump jupyterlab from 4.4.3 to 4.4.8 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/720 Bump pillow from 11.2.1 to 11.3.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/721 SparseConnection support by @n-shevko in https://github.com/BindsNET/bindsnet/pull/703 Lowering precision by @n-shevko in https://github.com/BindsNET/bindsnet/pull/707 merge with master by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/722 Bump fonttools from 4.60.1 to 4.61.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/724 Bump urllib3 from 2.5.0 to 2.6.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/725 Bump filelock from 3.20.0 to 3.20.1 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/726 Bump urllib3 from 2.6.0 to 2.6.3 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/727 up stream updates. by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/728 Bump virtualenv from 20.35.4 to 20.36.1 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/729 Bump filelock from 3.20.1 to 3.20.3 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/730 Bump wheel from 0.41.3 to 0.46.2 in /docs by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/731 Bump wheel from 0.41.3 to 0.46.2 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/732 Bump protobuf from 6.33.0 to 6.33.5 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/734 Bump nbconvert from 7.16.6 to 7.17.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/735 Bump tornado from 6.5.4 to 6.5.5 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/739 Bump pillow from 12.1.0 to 12.1.1 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/738 Dependency Maintenance by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/746 Bump requests from 2.32.5 to 2.33.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/741 fix: resolve merge conflict markers in CI workflows and upgrade Actions by @haoyu-haoyu in https://github.com/BindsNET/bindsnet/pull/742 Bump pygments from 2.19.2 to 2.20.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/745 Update dependencies and GitHub Actions workflows by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/749 Master by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/750 Fix eth_mnist example by @andreapignaz in https://github.com/BindsNET/bindsnet/pull/755 Bump pillow from 12.1.1 to 12.2.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/747 Bump pytest from 9.0.2 to 9.0.3 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/748 Bump gitpython from 3.1.46 to 3.1.47 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/751 Bump notebook from 7.5.5 to 7.5.6 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/752 Bump jupyterlab from 4.5.6 to 4.5.7 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/753 Bump jupyter-server from 2.17.0 to 2.18.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/754 Bump mistune from 3.2.0 to 3.2.1 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/756 Bump gitpython from 3.1.47 to 3.1.50 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/758 Bump urllib3 from 2.6.3 to 2.7.0 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/759 Bump idna from 3.11 to 3.15 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/760 Bump tornado from 6.5.5 to 6.5.6 by @dependabot[bot] in https://github.com/BindsNET/bindsnet/pull/762 Fix Monitor bug with preallocated buffers and torch.cat by @steampunc in https://github.com/BindsNET/bindsnet/pull/761 Improve assign_labels accuracy and performance by @Machuka in https://github.com/BindsNET/bindsnet/pull/737 Fixes, bug updates and pip upgrades by @Hananel-Hazan in https://github.com/BindsNET/bindsnet/pull/763 New Contributors @n-shevko made their first contribution in https://github.com/BindsNET/bindsnet/pull/705 @sakgoyal made their first contribution in https://github.com/BindsNET/bindsnet/pull/710 @neural-loop made their first contribution in https://github.com/BindsNET/bindsnet/pull/712 @haoyu-haoyu made their first contribution in https://github.com/BindsNET/bindsnet/pull/742 @andreapignaz made their first contribution in https://github.com/BindsNET/bindsnet/pull/755 @steampunc made their first contribution in https://github.com/BindsNET/bindsnet/pull/761 @Machuka made their first contribution in https://github.com/BindsNET/bindsnet/pull/737 Full Changelog: https://github.com/BindsNET/bindsnet/compare/0.3.3...0.3.4",
+    "link": "https://doi.org/10.5281/zenodo.20695116"
+  },
+  {
+    "slug": "10-64898-2026-06-12-731882--W7164879989",
+    "doi": "10.64898/2026.06.12.731882",
+    "doi_url": "https://doi.org/10.64898/2026.06.12.731882",
+    "title": "DeltaQ: Value-Guided Hebbian Learning in Spiking Neuronal Networks for Multi-Goal Navigation",
+    "year": "2026",
+    "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "authors": [
+      "C Earl",
+      "Gözde Ünal",
+      "Hananel Hazan",
+      "Samuel A. Neymotin"
+    ],
+    "abstract": "Animals must often navigate environments where feedback about progress toward a goal is sparse or delayed, requiring internal representations of space and memory of prior experience. The hippocampal-entorhinal system is believed to support this capability through distributed spatial representations that guide goal-directed behavior. However, many computational models of these circuits focus primarily on reproducing neural dynamics rather than demonstrating how such representations support learning on navigation tasks. We present a biologically inspired spiking neuronal network (SNN) model that combines grid-cell-derived spatial representations, ΔQ-modulated Hebbian plasticity, and context-dependent modulation to support navigation under sparse reward conditions. Grid Cell populations generate distributed spatial codes that are transformed by an Association Cell population into more spatially selective internal representations. Learning is driven by changes in Q-values (ΔQ) computed from a goal-conditioned Q-table, allowing local synaptic plasticity to incorporate information about long-term navigation outcomes. For environments containing multiple navigation objectives, a Context Cell population provides task-dependent modulation that enables a shared network architecture to support distinct navigation policies. Across two complementary maze environments, the model demonstrates three core capabilities: generation of distinct spatial representations, learning of efficient navigation policies under sparse and delayed reward, and support for multiple navigation objectives within a shared environment. The results further show that contextual modulation introduces subtle task-dependent variations into a largely shared population representation, allowing identical spatial locations to support different navigation behaviors. These findings demonstrate that biologically inspired spatial representations, value-guided plasticity, and contextual modulation can jointly support flexible navigation in spiking neuronal networks, providing a bridge between mechanistic neural circuit models and functional reinforcement learning.",
+    "link": "https://doi.org/10.64898/2026.06.12.731882"
+  },
+  {
+    "slug": "10-64898-2026-06-25-734613--W7166693518",
+    "doi": "10.64898/2026.06.25.734613",
+    "doi_url": "https://doi.org/10.64898/2026.06.25.734613",
+    "title": "Context-Aware Evidence-Gated Plasticity for Multi-Goal Learning in Spiking Neural Networks",
+    "year": "2026",
+    "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "authors": [
+      "Samuel A. Neymotin",
+      "Hananel Hazan",
+      "Gözde Ünal",
+      "C Earl",
+      "Haroon Anwar",
+      "Piotr J. Franaszczuk",
+      "David Boothe"
+    ],
+    "abstract": "Background / Introduction: Biologically inspired spiking neural networks can model adaptive behavior, but learning multiple goals is difficult because synaptic updates for different targets can interfere. We tested whether multi-timescale plasticity and context-specific credit assignment could improve continual multi-goal learning in a spiking navigation system inspired by entorhinal-hippocampal circuitry. Methods: We developed a closed-loop spiking model containing grid-like, place-like, target-related, association, and motor-output populations. An agent navigated in a two-dimensional environment with randomized starting locations and learned through reward-modulated spike-timing dependent plasticity (STDP/RL) and a novel evidence-gated plasticity (EGP) framework. EGP accumulates candidate synaptic modifications, evaluates them using reward evidence, and consolidates only changes that improve performance. A target-context variant maintained separate proposal stores and reward evaluation for each target. Results: STDP/RL learned and retained a single-target navigation policy, but multi-target training produced substantial interference, including attraction to incorrect targets after learning. Across 10 connectivity seeds, target-context EGP achieved higher late-stage reward than global EGP, improved weakest-target performance, and increased the fraction of targets achieving positive reward. In a longer continual-learning simulation, reward increased for all targets, TEST-phase performance increasingly exceeded TRAIN-phase performance, and proposal magnitudes grew over learning. Dwell-time confusion analyses showed that target-context EGP reduced wrong-target attraction and improved target selectivity relative to multi-target STDP/RL. Conclusions: These results demonstrate that spiking navigation circuits can learn goal-directed behavior using local plasticity, but robust multi-goal learning benefits from context-specific evidence-based consolidation. Target-context EGP provides a biologically motivated mechanism for reducing interference during continual reinforcement learning in spiking neural networks.",
+    "link": "https://doi.org/10.64898/2026.06.25.734613"
+  },
+  {
+    "slug": "10-7910-dvn-u1qrs8--W4398910658",
+    "doi": "10.7910/dvn/u1qrs8",
+    "doi_url": "https://doi.org/10.7910/dvn/u1qrs8",
+    "title": "Replication Data for: Exploring The Behavior of Bioelectric Circuits using Evolution Heuristic Search",
+    "year": "2022",
+    "journal": "Harvard Dataverse",
+    "authors": [
+      "Hananel Hazan",
+      "Michael Levin"
+    ],
+    "abstract": "Configuration values for each experiment In order to recreate the experiments in this paper, we assume the reader has the basic knowledge on how to use the BETSE (https://github.com/betsee/betse) simulator. The supplementary materials here include all the configurations needed to run BETSE to produce each of the bioelectrical patterns in this paper. The file structure of supplementary materials folder (Paper - BioElectric - BETSE – configs) is: / ├───Task 1 - Vmem change as little as possible over time ├───Task 2 - Tissues that have as little change as possible through time, but with high variance between cells ├───Task 3 - Fit specific Vmem ├───Task 4 - High variance between Vmem cells ├───Task 5 – Smiley and bullseye ├───Task 6 - Patterns with insensitivity to shape or size of tissue ├───Task 7 - Tissue that self-heal when a few cells getting input ├───Task 8 - Tissue that retain Vmem (memory) after stimulation ├───Task 9 - cells that respond similar to flip flop operation turn out to be form of memory using chaos └───Interesting patterns │ ├───Configurations │ ├───Image Frames │ └───Movies | TOC Tasks 1-9 Each of the Task 1 to Task 9 directories contains configuration files for the corresponding Task (as described in this paper). Within each Task directory there is at least one top-level .yaml file; this is the configuration file that should be fed into BETSE to reproduce that Task. Some Task directories also have additional subfolders (e.g., extra_configs, geo) that will automatically be discovered and used by BETSE, as directed by the aforementioned .yaml configuration file. Interesting patterns We had assumed that our parameter/fitness space would have smooth gradual properties that would help our heuristic search algorithm to progress toward the desire morphological target. However, we found that our naïve approach presented a parameter space that was too confusing for exploration by our heuristic algorithm. We did encounter many “interesting patterns”; but rather than occurring along a continually increasing gradient of fitness score, these patterns presented “islands” of fitness, as shown by the peaks and valleys in Supplementary Figure 1. This proved to be problematic, because our heuristic algorithm required a steadily increasing fitness gradient in order to progress smoothly to the target morphology. The presence of morphologically “interesting” islands (peaks or valleys) interrupted what we had hoped would be a smoothly increasing gradient. The result was that the heuristic algorithm could “get stuck” in particular areas along the serpentine line of fitness scores, effectively stopping it from further exploration of other “islands” along that line. The “Interesting Patterns” directory contains 3 subdirectories – Configuration, Image Frames, and Movies – as well as a Table of Contents file. The “Image Frames” directory contains forms from the tissue process in the experiment. The “Movies” directory contains the full movies for each experiment. The TOC excel file contains 32 rows, each of which contains an image of the target tissue morphology (the “interesting pattern”), a description of fitness target that was used by the heuristic search, and the serial number of the experiment that produced that pattern. This serial number corresponds to the name of a subdirectory under Configurations. If the reader wants to reproduce the image frames and the movies for any particular “interesting pattern” shown in the TOC, s/he should go to the appropriately named Configurations subdirectory. For example, to reproduce the first target image shown in the TOC (“target gradient from high right to low left”), go to “Interesting Patterns/Configurations/0.241245355552222370.241245356”, and then run BETSE using the top-level .yaml file in that folder (gradientVmem_Betse_config.yaml). Similarly, if the readers want to watch the whole cell tissue activity during the simulated timeline go to “Interesting Patterns/Movies/0.241245355552222370.241245356”. For selected frames from that movie the reader should go to “Interesting Patterns/Image Frames/0.241245355552222370.241245356”.",
+    "link": "https://doi.org/10.7910/dvn/u1qrs8"
+  },
+  {
+    "slug": "openalex-W2244900422",
+    "doi": null,
+    "doi_url": null,
+    "title": "Creating Free Will in Artificial Intelligence",
+    "year": "2013",
+    "journal": null,
+    "authors": [
+      "Alžběta Krausová",
+      "Hananel Hazan"
+    ],
+    "abstract": "The aim of this paper is to provide an answer to the question whether it is necessary to artificially construct free will in order to reach the ultimate goal of AGI to fully emulate human mental functioning or even exceed its average capacities. Firstly, the paper introduces various definitions of will based in the field of psychology and points out the importance of free will in human mental processing. Next, the paper analyzes specificities of incorporating will into AGI. It provides a list of general justifications for creating artificial free will and describes various approaches with their limitations. Finally, the paper proposes possible future approach inspired by current neurobiological research. The paper concludes that a mechanism of free will shall form a necessary part of AGI.",
+    "link": "https://openalex.org/W2244900422"
+  },
+  {
+    "slug": "openalex-W235324553",
+    "doi": null,
+    "doi_url": null,
+    "title": "Using neural network models to model cerebral hemispheric differences in processing ambiguous words",
+    "year": "2007",
+    "journal": null,
+    "authors": [
+      "Orna Peleg",
+      "Zohar Eviatar",
+      "Larry M. Manevitz",
+      "Hananel Hazan"
+    ],
+    "abstract": "Neuropsychological studies have shown that both cerebral hemispheres process orthographic, phonological and semantic aspects of written words, albeit in different ways. The Left Hemisphere (LH) is more influenced by the phonological aspect of written words whereas lexical processing in the Right Hemisphere (RH) is more sensitive to visual form. We explain this phenomenon by postulating that in the Left Hemisphere (LH) orthography, phonology and semantics are interconnected while in the Right Hemisphere (RH), phonology is not connected directly to orthography and hence its influence must be mitigated by semantical processing. We test this hypothesis by complementary",
+    "link": "https://openalex.org/W235324553"
+  },
+  {
+    "slug": "openalex-W2559968616",
+    "doi": null,
+    "doi_url": null,
+    "title": "Towards Classifying Human Phonemes without Encodings via Spatiotemporal Liquid State Machines",
+    "year": "2014",
+    "journal": null,
+    "authors": [
+      "Alex Frid",
+      "Edmond J. Safra",
+      "Hananel Hazan",
+      "Lorrey L. Lokey",
+      "Larry M. Manevitz"
+    ],
+    "abstract": "Abstract — Classifying human production of phonemes without additional encoding is accomplished at the level of about 77% using a version of reservoir computing. So far this has been accomplished with: (1) artificial data (2) artificial noise (designed to mimic natural noise) (3) natural human data with artificial noise (4) natural human data with its natural noise and variance albeit for certain phonemes. This mechanism, unlike most other methods is done without any encoding of the signal; and without changing time into space; but instead uses the Liquid State Machine paradigm which is an abstraction of natural cortical arrangements. The data is entered as an analogue signal without any modifications. This means that the methodology is close to “natural” biological mechanisms. Keywords - Liquid State Machine, speech synthesis, classification, Machine Learning I. I NTRODUCTION Recently, we showed that liquid state machines [1] can be adapted to give robust pattern recognition of temporal patterns [2]. Moreover we showed how certain natural modifications in the neurons enables the liquid state machine to compute on complex continuous real valued patterns without the need for discretization and digital encoding [3]. In attempting to apply this technique to signal processing on phoneme recognition from a continuous voice signal, we found this to be intractable; because of problems in both making the system accurate while maintaining good generalizability properties. It seems that the combination of the separability of the liquid with the digital encoding conflict with the generalizability. Current machine learning and other techniques are fairly accurate in classifying phonemes after substantial preprocessing. However this is not a very natural methodology and cannot be related to human decoding of speech. In this work we investigate whether recent spatiotemporal methodologies can successfully decode the raw speech signal into phonemes without such special preprocessing as depicted in Figure 1. Our methodology uses a recent robust version of Liquid State Machines [4]. We have successfully shown that the method (i) can decode and categorize synthetic signals which are statistically similar to natural voiced phonemes and (ii) can successfully decode and categorize artificially induced noisy versions of those signals and thus has good generalization capabilities. (iii) Can successfully classify between three representative phonetic groups of vowels (the front, mid and back groups) to 77% level. The phonemes were extracted from natural speech recorded in TIMIT Acoustic-Phonetic Continuous Speech Corpus [5].",
+    "link": "https://openalex.org/W2559968616"
+  },
+  {
+    "slug": "openalex-W2613631647",
+    "doi": null,
+    "doi_url": null,
+    "title": "Autonomous Decisions of Hybrid IT Systems with Biological Brain",
+    "year": "2015",
+    "journal": null,
+    "authors": [
+      "Alžběta Krausová",
+      "Hananel Hazan"
+    ],
+    "abstract": "The presentation introduced technology of a hybrid robot with a biological brain (so called hybrot) including its state-of-the-art and technical constraints. Most important relevant social questions were briefly highlighted. Main focus was put on liability for autonomous behavior of hybrots while comparing hybrots with artificial intelligence. Finally, general legal recommendations were drafted.",
+    "link": "https://openalex.org/W2613631647"
+  },
+  {
+    "slug": "openalex-W2768618047",
+    "doi": null,
+    "doi_url": null,
+    "title": "ROBOTS WITH BIOLOGICAL BRAINS: AUTONOMY AND LIABILITY OF A SEMI-ARTIFICIAL LIFE FORM",
+    "year": "2017",
+    "journal": "The Lawyer Quarterly",
+    "authors": [
+      "Alžběta Krausová",
+      "Hananel Hazan"
+    ],
+    "abstract": "Hybrid IT systems with biological brains (hybrots) enhance our understanding of brain functioning. However, given their specific form of existence and their ability to act autonomously to a certain degree, they raise questions regarding attributing liability in case they cause damage. The aim of this paper is to suggest a scheme for attributing liability to these systems while taking into account liability issues related to artificial intelligence. Firstly, the paper describes the technology of hybrid systems, its history, state of the art as well as its technological constraints. Next, general social and ethical aspects of the technology are briefly described. Finally, the paper describes the main problems related to liability of hybrid systems and sets out criteria for determining liability for damages caused by hybrots.",
+    "link": "https://openalex.org/W2768618047"
+  },
+  {
+    "slug": "openalex-W2895672750",
+    "doi": null,
+    "doi_url": null,
+    "title": "BIOMETRIC DATA VULNERABILITIES: PRIVACY IMPLICATIONS",
+    "year": "2018",
+    "journal": "The Lawyer Quarterly",
+    "authors": [
+      "Alžběta Krausová",
+      "Hananel Hazan",
+      "Ján Matejka"
+    ],
+    "abstract": "Biometric data are typically used for the purposes of unique identification of a person. However, recent research suggests that biometric data gathered for the purpose of identification can be analysed for extraction of additional information. This augments indicative value of biometric data. This paper illustrates the range of augmented indicative values of the data as well as identifies crucial factors that contribute to increased vulnerability of data subjects.",
+    "link": "https://openalex.org/W2895672750"
+  },
+  {
+    "slug": "openalex-W2981003517",
+    "doi": null,
+    "doi_url": null,
+    "title": "Reinforcement learning with spiking coagents.",
+    "year": "2019",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Sneha Aenugu",
+      "Abhishek Sharma",
+      "Sasikiran Yelamarthi",
+      "Hananel Hazan",
+      "Philip S. Thomas",
+      "Róbert Kozma"
+    ],
+    "abstract": "Neuroscientific theory suggests that dopaminergic neurons broadcast global reward prediction errors to large areas of the brain influencing the synaptic plasticity of the neurons in those regions. We build on this theory to propose a multi-agent learning framework with spiking neurons in the generalized linear model (GLM) formulation as agents, to solve reinforcement learning (RL) tasks. We show that a network of GLM spiking agents connected in a hierarchical fashion, where each spiking agent modulates its firing policy based on local information and a global prediction error, can learn complex action representations to solve RL tasks. We further show how leveraging principles of modularity and population coding inspired from the brain can help reduce variance in the learning updates making it a viable optimization technique.",
+    "link": "https://openalex.org/W2981003517"
+  },
+  {
+    "slug": "openalex-W7154538850",
+    "doi": null,
+    "doi_url": null,
+    "title": "A Little Rank Goes a Long Way: Random Scaffolds with LoRA Adapters Are All You Need",
+    "year": "2026",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Hananel Hazan",
+      "Yanbo Zhang",
+      "Benedikt Hartl",
+      "Michael Levin"
+    ],
+    "abstract": "How many of a neural network's parameters actually encode task-specific information? We investigate this question with LottaLoRA, a training paradigm in which every backbone weight is drawn at random and frozen; only low-rank LoRA adapters are trained. Across nine benchmarks spanning diverse architecture families from single-layer classifiers to 900M parameter Transformers low-rank adapters over frozen random backbones recover 96-100% of fully trained performance while training only 0.5-40% of the parameters. The task-specific signal therefore occupies a subspace orders of magnitude smaller than the full parameter count suggests. Three mechanistic findings underpin this result:(1) the frozen backbone is actively exploited when static the learned scaling~$β$ remains strictly positive across all architectures but when the scaffold is destabilized, the optimizer silences it and the LoRA factors absorb all task information; (2) the frozen backbone is preferable but interchangeable any random initialization works equally well, provided it remains fixed throughout training; and (3) the minimum LoRA rank at which performance saturates estimates the intrinsic dimensionality of the task, reminiscent of the number of components retained in Principal Component Analysis (PCA). The construction is formally analogous to Reservoir Computing unfolded along the depth axis of a feedforward network. Because the backbone is determined by a random seed alone, models can be distributed as adapters plus seed a footprint that grows with task complexity, not model size, so that storage and memory savings compound as architectures scale.",
+    "link": "https://openalex.org/W7154538850"
+  },
+  {
+    "slug": "openalex-W7162894009",
+    "doi": null,
+    "doi_url": null,
+    "title": "Training Ecosystems: A Computational Approach to Uncovering Learning Behavior in Unconventional Contexts",
+    "year": "2026",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Adrita Samanta",
+      "Hananel Hazan",
+      "Michael Levin"
+    ],
+    "abstract": "Recent progress in diverse intelligence has shown simple learning capacities below the organism level - single cells and even molecular networks. However, there are still many knowledge gaps around learning capacity above the organism level, and about memory implemented purely by dynamical interactions without explicit memory media. We demonstrate that minimal ecological dynamics (in silico) are sufficient for several kinds of learning, assayed as changes in both, magnitude of response, and of recovery time. Systematic exploration of over 220,000 parameter combinations in a simulated classic predator-prey model revealed that, when perturbed by stimuli, recovery time exhibits habituation, sensitization, and a form of discrete number learning in a scale-invariant manner. Robustness analysis revealed that habituation and sensitization persist under stochastic perturbations, while discrete number learning is disrupted even at low noise levels. Dimensionality reduction revealed that the incidence of learning capacity is primarily determined by ecological interaction strengths. Clear, unique clustering patterns in parameter space allow high prediction accuracy for novel parameter combinations that enable learning. Response magnitude revealed a striking asymmetry: 90.6% of parameter combinations exhibited recovery time sensitization paired with habituation of response magnitude, while the opposite pattern was extremely rare. These findings highlight a set of phenomena at the intersection of ecology, basal cognition, and mathematics with many implications for a wide range of systems describable by similar kinds of equations. These properties provide numerous efforts in biology and engineering with a substrate that has considerable, pre-patterned, propensity for learning, which ultimately arises from mathematics, not depending on the details of physics or biology.",
+    "link": "https://openalex.org/W7162894009"
+  }
+]

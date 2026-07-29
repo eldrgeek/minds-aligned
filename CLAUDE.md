@@ -19,6 +19,40 @@ last_reviewed: 2026-06-23
 - gap: orchestrated parallel-worker run (brief → subdir → REPORT) is a recurring pattern across this and `_estate` sweeps.
 - To create a Netlify site, wire GitHub CD, or deploy: use the **`netlify-deploy`** skill (`~/.claude/skills/netlify-deploy/`). It has the expect recipe for the interactive `netlify init` — do NOT pipe input into `netlify init`, it mangles. Driving it with expect is safe/reversible; don't hand deploy steps back to Mike for lack of a TTY.
 
+## ⚠️ NEVER run a bare `netlify deploy` from a `sites/<slug>/` directory
+
+**A near-miss on 2026-07-29: `netlify deploy --prod` run from inside `sites/hananel-hazan/`
+published that site's `dist/` over `minds-aligned.org`.** Caught immediately, rolled back
+via `restoreSiteDeploy` to the prior good deploy `6a68fac23b58d2cc5dc19368`, and verified
+the live page was correct again — but for a few seconds a public domain served the wrong
+site. Nothing was lost; it could easily have been worse and gone unnoticed.
+
+**Why:** the Netlify CLI resolves both the site link and the config from the **git repo
+root**, not your cwd. From `sites/<slug>/` it therefore:
+- takes the **root** `netlify.toml` (`publish = "hub/dist"`, the *hub's* setting),
+- resolves `--dir` **relative to the repo root**, so `--dir=dist` means `agi-2026/dist`,
+- and picks whichever site the **root** is linked to — which is not your subsite.
+
+The per-site generated `netlify.toml` looks correct and is still ignored. The two
+`Error: Error while running build` failures that precede the bad deploy are the tell.
+
+**Always deploy a subsite with an explicit site ID and an absolute path:**
+
+```bash
+netlify deploy --prod \
+  --site=<SITE_UUID> \
+  --dir=/absolute/path/to/sites/<slug>/dist \
+  --no-build
+```
+
+Build first with `npm run build` inside the subsite. Get `<SITE_UUID>` from
+`netlify api listSites` — **not** the site *name*; `listSiteDeploys` and friends 404 on a
+name. Known IDs: `agi26-hananel-hazan` = `208eaa16-daea-4268-aeef-7b273db01c4d`,
+`minds-aligned-soma` (→ minds-aligned.org) = `3dac5361-f1a6-4027-b57c-261984c1371d`.
+
+After any subsite deploy, **check the Production URL the CLI prints** before believing it
+worked. That line is the only thing that reveals a wrong-site publish.
+
 ## Live topology (canonical — verified 2026-07-05)
 
 The hub is NOT a single obvious thing; there are look-alike Netlify projects. Ground truth:

@@ -1,0 +1,336 @@
+---
+import Base from '../layouts/Base.astro';
+import papersData from '../data/papers.json';
+
+type Paper = {
+  slug: string;
+  title?: string;
+  abstract?: string;
+  year?: string | number | null;
+  journal?: string | null;
+  authors?: string[];
+  doi_url?: string | null;
+  link?: string | null;
+};
+
+const papers = papersData as Paper[];
+
+const years = papers
+  .map(p => parseInt(String(p.year ?? ''), 10))
+  .filter(y => Number.isFinite(y) && y > 1900);
+const earliest = Math.min(...years);
+const latest = Math.max(...years);
+
+/* Preprint and version-of-record duplicates are both indexed; resolve a title to the
+ * version of record where one exists, so the links below point at the better artifact.
+ * No counts are derived from this — the archive is not a bibliometric claim. */
+const normalise = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const byTitle = new Map<string, Paper>();
+for (const p of papers) {
+  const k = normalise(p.title || '');
+  const existing = byTitle.get(k);
+  const isPreprint = /arxiv|biorxiv|zenodo/i.test(String(p.journal || ''));
+  const existingIsPreprint = existing ? /arxiv|biorxiv|zenodo/i.test(String(existing.journal || '')) : true;
+  if (!existing || (!isPreprint && existingIsPreprint) || (!existing.doi_url && p.doi_url)) {
+    byTitle.set(k, p);
+  }
+}
+const find = (t: string) => byTitle.get(normalise(t));
+
+/* Selected work. Titles are verbatim from the corpus records; author positions are
+ * stated because they are the honest measure of a contribution. */
+const selected: { title: string; role: string }[] = [
+  { title: 'Stability and Topology in Reservoir Computing', role: 'co-author' },
+  { title: 'Topological constraints and robustness in liquid state machines', role: 'first author, with Larry M. Manevitz' },
+  { title: 'Non-parametric temporal modeling of the hemodynamic response function via a liquid state machine', role: 'second author' },
+  { title: 'Closed Loop Experiment Manager (CLEM)—An Open and Inexpensive Solution for Multichannel Electrophysiological Recordings and Closed Loop Experiments', role: 'first author, with Noam Ziv' },
+  { title: 'Locally connected spiking neural networks for unsupervised feature learning', role: 'third author' },
+  { title: 'Improved robustness of reinforcement learning policies upon conversion to spiking neuronal network platforms applied to Atari Breakout game', role: 'second author' },
+  { title: 'Memory via Temporal Delays in weightless Spiking Neural Network', role: 'first author, with Caby, Earl, Siegelmann and Levin' },
+  { title: 'Exploring the Behavior of Bioelectric Circuits Using Evolution Heuristic Search', role: 'first author, two-author paper with Michael Levin' },
+  { title: 'Control Flow in Active Inference Systems—Part I: Classical and Quantum Formulations of Active Inference', role: 'fifth of seven authors' },
+  { title: 'Diffusion Models are Evolutionary Algorithms', role: 'third author' },
+  { title: 'Reservoir Computation with Networks of Differentiating Neuron Ring Oscillators', role: 'last author' },
+  { title: 'Quantifying Misalignment Between Agents: Towards a Sociotechnical Understanding of Alignment', role: 'third author' },
+  { title: 'Stop treating `AGI\' as the north-star goal of AI research', role: 'fourth of sixteen authors' },
+  { title: 'Training Ecosystems: A Computational Approach to Uncovering Learning Behavior in Unconventional Contexts', role: 'second author, with Samanta and Levin' },
+  { title: 'A Little Rank Goes a Long Way: Random Scaffolds with LoRA Adapters Are All You Need', role: 'first author, with Zhang, Hartl and Levin' },
+  { title: 'Heuristically Adaptive Diffusion‐Model Evolutionary Strategy', role: 'co-author, with Hartl, Zhang and Levin' },
+].map(s => ({ ...s, paper: find(s.title) })).filter(s => s.paper) as
+  { title: string; role: string; paper: Paper }[];
+
+const selectedSorted = selected
+  .slice()
+  .sort((a, b) => (parseInt(String(b.paper.year ?? 0)) || 0) - (parseInt(String(a.paper.year ?? 0)) || 0));
+
+const agiPaper = find("Stop treating `AGI' as the north-star goal of AI research");
+const rankPaper = find('A Little Rank Goes a Long Way: Random Scaffolds with LoRA Adapters Are All You Need');
+const memoryPaper = find('Memory via Temporal Delays in weightless Spiking Neural Network');
+const ecoPaper = find('Training Ecosystems: A Computational Approach to Uncovering Learning Behavior in Unconventional Contexts');
+const bioePaper = find('Exploring the Behavior of Bioelectric Circuits Using Evolution Heuristic Search');
+const lsmPaper = find('Topological constraints and robustness in liquid state machines');
+const clemPaper = find('Closed Loop Experiment Manager (CLEM)—An Open and Inexpensive Solution for Multichannel Electrophysiological Recordings and Closed Loop Experiments');
+const lcsnnPaper = find('Locally connected spiking neural networks for unsupervised feature learning');
+/* The Zenodo software deposit for BindsNET 0.3.4. Two records exist for the same
+ * release; one carries a corrupt journal field, so the DOI is pinned by hand. */
+const bindsnetDoi = 'https://doi.org/10.5281/zenodo.20695115';
+
+const lines = [
+  {
+    title: 'Reservoirs',
+    when: 'Haifa, from 2010',
+    body: 'Reservoir computing and liquid state machines — architectures in which a large, fixed, randomly connected pool of units does the computing through its own dynamics, and only a small readout is trained. Hazan’s early work asks what makes such a reservoir hold up: how topology and stability bear on whether it survives damage to its own components.',
+    link: lsmPaper,
+    linkLabel: 'Topological constraints and robustness in liquid state machines (2011)',
+  },
+  {
+    title: 'Spiking networks',
+    when: 'UMass Amherst',
+    body: 'The same commitment, engineered: spiking neural networks trained by unsupervised, reinforcement, and evolutionary learning, and the open-source toolchain to simulate them. Hazan led BindsNET, described on his Tufts page as “a state-of-the-art framework designed for rapid constructions of rich simulations of spiking networks.”',
+    link: lcsnnPaper,
+    linkLabel: 'Locally connected spiking neural networks for unsupervised feature learning (2019)',
+  },
+  {
+    title: 'Living tissue',
+    when: 'Technion',
+    body: 'Instrumentation for talking to real neurons in real time. At the Technion he built a closed-loop experimental platform for studying cortical neuronal network interactions; the resulting Closed Loop Experiment Manager is published as an open and inexpensive solution for multichannel electrophysiological recording.',
+    link: clemPaper,
+    linkLabel: 'Closed Loop Experiment Manager (CLEM) (2017)',
+  },
+  {
+    title: 'Cells',
+    when: 'Allen Discovery Center, Tufts',
+    body: 'In Michael Levin’s lab the question turns biological. One paper opens by naming the premise it means to drop — “A common view in the neuroscience community is that memory is encoded in the connection strength between neurons” — and stores memory in spike timing instead. Another searches the parameter space of bioelectric circuits for patterning behavior.',
+    link: memoryPaper,
+    linkLabel: 'Memory via Temporal Delays in weightless Spiking Neural Network (2022)',
+  },
+  {
+    title: 'Ecosystems',
+    when: '2026',
+    body: 'Habituation and sensitization located in a predator–prey model. The paper places itself, in its own words, “at the intersection of ecology, basal cognition, and mathematics.” It describes learning-like dynamics in a simulation — and claims nothing stronger than that.',
+    link: ecoPaper,
+    linkLabel: 'Training Ecosystems (2026)',
+  },
+  {
+    title: 'Transformers',
+    when: '2026',
+    body: 'And the 2010 idea comes back. His newest first-author paper freezes a random backbone and trains only low-rank adapters, stating in its own abstract that the construction “is formally analogous to Reservoir Computing unfolded along the depth axis of a feedforward network.”',
+    link: rankPaper,
+    linkLabel: 'A Little Rank Goes a Long Way (2026)',
+  },
+];
+
+const href = (p?: Paper) => (p ? (p.doi_url || p.link || null) : null);
+---
+<Base title="Home" description="Publication archive and grounded AI guide for Hananel Hazan — reservoir computing and liquid state machines, spiking neural networks, and learning in unconventional substrates.">
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12">
+    <div class="max-w-2xl">
+      <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-4">AGI-26 keynote</p>
+      <h1 class="font-serif text-4xl sm:text-5xl font-medium text-ink leading-tight mb-6">
+        Hananel Hazan
+      </h1>
+      <p class="text-lg text-muted leading-relaxed mb-6">
+        Hananel Hazan, Ph.D., is an interdisciplinary computer scientist at the
+        Allen Discovery Center at Tufts University, where he has worked since 2019
+        in Michael Levin&rsquo;s lab.
+      </p>
+      <blockquote class="border-l-2 border-accent/50 pl-4 mb-8 text-muted leading-relaxed">
+        <p class="italic">
+          &ldquo;My primary research interest lies in understanding how biological cells
+          interact and cooperate to achieve shared goals through modeling.&rdquo;
+        </p>
+        <cite class="not-italic text-sm text-muted/70 block mt-2 font-mono">
+          — Hananel Hazan,
+          <a href="https://allencenter.tufts.edu/hananel-hazan-ph-d/" target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">Allen Discovery Center profile</a>
+        </cite>
+      </blockquote>
+      <div class="flex flex-wrap gap-3">
+        <a href="/corpus/" class="inline-flex items-center gap-2 bg-accent text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-accent-mid transition-colors">
+          Browse Corpus
+        </a>
+        <a href="/dictionary/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Dictionary
+        </a>
+        <a href="/ask/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Ask
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-3">One question, five substrates</h2>
+    <p class="text-muted leading-relaxed mb-10 max-w-2xl">
+      Read the archive in order and the same question keeps getting asked of larger and
+      stranger things: <em class="text-ink not-italic">how much competence is already
+      latent in a system&rsquo;s structure, before you train it?</em>
+    </p>
+    <ol class="relative border-l border-border ml-2">
+      {lines.map(l => (
+        <li class="pl-6 pb-9 relative">
+          <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+          <div class="flex items-baseline gap-3 flex-wrap mb-2">
+            <h3 class="font-serif text-xl font-medium text-ink">{l.title}</h3>
+            <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">{l.when}</span>
+          </div>
+          <p class="text-muted text-sm leading-relaxed mb-2 max-w-2xl">{l.body}</p>
+          {href(l.link) && (
+            <a href={href(l.link)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-xs font-medium">
+              {l.linkLabel} ↗
+            </a>
+          )}
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">At a conference called AGI-26</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          Hazan is one of sixteen authors of a 2025 position paper titled
+          <em>&ldquo;Stop treating `AGI&rsquo; as the north-star goal of AI research.&rdquo;</em>
+          The paper argues that &ldquo;focusing on the highly contested topic of `artificial
+          general intelligence&rsquo; (`AGI&rsquo;) undermines our ability to choose effective goals.&rdquo;
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          It names, in its own words, &ldquo;six key traps &mdash; obstacles to productive goal
+          setting &mdash; that are aggravated by AGI discourse: Illusion of Consensus,
+          Supercharging Bad Science, Presuming Value-Neutrality, Goal Lottery, Generality
+          Debt, and Normalized Exclusion,&rdquo; and calls on the community to
+          &ldquo;(1) prioritize specificity in engineering and societal goals, (2) center
+          pluralism about multiple worthwhile approaches to multiple valuable goals, and
+          (3) foster innovation through greater inclusion of disciplines and communities.&rdquo;
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed mb-4">
+          He co-signed it; he did not lead it. We surface it here because he appears on the
+          roster of a conference named for the thing that paper asks the field to stop
+          treating as its north star, and because that is worth a real conversation rather
+          than an omission.
+        </p>
+        {href(agiPaper) && (
+          <a href={href(agiPaper)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Read the paper ↗</a>
+        )}
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">The Levin seam</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          Michael Levin is the most frequent co-author in this archive. The shared work runs
+          from bioelectric circuits explored by evolutionary heuristic search, through
+          control flow in active-inference systems, to diffusion models read as evolutionary
+          algorithms &mdash; the point where Hazan&rsquo;s question about latent structure meets
+          Levin&rsquo;s about collective and basal intelligence.
+        </p>
+        <div class="flex flex-col gap-2 text-sm">
+          {href(bioePaper) && (
+            <a href={href(bioePaper)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid font-medium">
+              Exploring the Behavior of Bioelectric Circuits Using Evolution Heuristic Search ↗
+            </a>
+          )}
+          <a href="https://levinese-preview.netlify.app/" class="text-accent hover:text-accent-mid font-medium">
+            The Michael Levin archive →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-2">Selected work</h2>
+    <p class="text-muted text-sm mb-8 max-w-2xl">
+      {selectedSorted.length} entries drawn from the archive, titled exactly as the records read, with his
+      position in the author list. Everything else &mdash; including earlier Haifa-era work
+      applying machine learning to human neuroimaging and speech data &mdash; is in the
+      <a href="/corpus/" class="text-accent hover:text-accent-mid">corpus</a>.
+    </p>
+    <ol class="divide-y divide-border">
+      {selectedSorted.map(s => (
+        <li class="py-4">
+          <div class="flex items-start gap-3">
+            <span class="font-mono text-xs text-muted/60 mt-1 shrink-0 w-10">{s.paper.year}</span>
+            <div class="min-w-0">
+              {href(s.paper) ? (
+                <a href={href(s.paper)!} target="_blank" rel="noopener noreferrer" class="text-ink font-medium text-sm hover:text-accent transition-colors leading-snug">
+                  {s.paper.title}
+                </a>
+              ) : (
+                <span class="text-ink font-medium text-sm leading-snug">{s.paper.title}</span>
+              )}
+              <div class="flex flex-wrap items-baseline gap-x-3 mt-1">
+                {s.paper.journal && !/open mind/i.test(String(s.paper.journal)) && (
+                  <span class="text-xs text-muted italic">{s.paper.journal}</span>
+                )}
+                <span class="text-xs text-muted/70">{s.role}</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">Background</h2>
+        <dl class="text-sm space-y-3">
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Now</dt>
+            <dd class="text-muted leading-relaxed">
+              Interdisciplinary computer scientist, Allen Discovery Center at Tufts
+              University (since 2019), in Michael Levin&rsquo;s lab.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Previously</dt>
+            <dd class="text-muted leading-relaxed">
+              Postdoctoral Research Associate, College of Information and Computer Sciences,
+              UMass Amherst. Postdoctoral Researcher, Network Biology Research Laboratories,
+              Technion — where he built a closed-loop experimental platform for studying
+              cortical neuronal network interactions.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Education</dt>
+            <dd class="text-muted leading-relaxed">
+              Ph.D. Computer Science (2013), University of Haifa ·
+              M.Sc Computer Science (2007), University of Haifa ·
+              B.A. Exact Sciences (2002), Ashkelon College, Israel.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Software</dt>
+            <dd class="text-muted leading-relaxed">
+              Led <a href="https://github.com/BindsNET/bindsnet" target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">BindsNET</a>,
+              &ldquo;a state-of-the-art framework designed for rapid constructions of rich
+              simulations of spiking networks.&rdquo; He is listed first among the
+              contributors on the
+              <a href={bindsnetDoi} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">0.3.4 release record</a>.
+            </dd>
+          </div>
+        </dl>
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">About this archive</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          This is an independent archive of Hananel Hazan&rsquo;s publication record, built for
+          Society of Minds Aligned and AGI-26. Records span {earliest}&ndash;{latest} and are
+          drawn from OpenAlex; preprints and versions of record are both kept, so the archive
+          is a reading index, not a bibliometric count.
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          Biography, degrees, prior posts, and both direct quotations come from a single
+          source: his
+          <a href="https://allencenter.tufts.edu/hananel-hazan-ph-d/" target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">Allen Discovery Center profile</a>.
+          Nothing here is asserted that neither source supports.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed">
+          Not written by, reviewed by, or endorsed by Hananel Hazan. If you are Hananel and
+          something here is wrong, the feedback control at the bottom of the page reaches us
+          directly &mdash; and the claim bar will hand you the site.
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>

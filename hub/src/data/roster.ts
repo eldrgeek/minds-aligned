@@ -188,7 +188,8 @@ export const roster: Thinker[] = [
     tier: "keynote",
     accent: "teal",
     glyph: "HH",
-    bio: "Computational approaches to biological intelligence, regeneration, and synthetic minds.",
+    bio: "Interdisciplinary computer scientist in Michael Levin's lab — reservoir computing and liquid state machines, spiking neural networks, and learning in unconventional substrates.",
+    subsiteUrl: "https://agi26-hananel-hazan.netlify.app",
   },
   {
     name: "Josef Urban",

@@ -35,6 +35,7 @@ SITES=(
   "david-spivak|9c4a2a7f-dedd-4e00-9dd0-471f9e92ba36|david-spivak|$ROOT/sites/david-spivak"
   "chris-fields|a8447ec3-b842-4a17-99b3-1e622edbad57|chris-fields|$ROOT/sites/chris-fields"
   "alexander-ororbia|f64adb2f-1381-4fd6-9945-0a909c3ab2de|alexander-ororbia|$ROOT/sites/alexander-ororbia"
+  "hananel-hazan|208eaa16-daea-4268-aeef-7b273db01c4d|hananel-hazan|$ROOT/sites/hananel-hazan"
   "levinese|2ab17854-9e22-436b-b916-9f78d1335a54|-|$HOME/Projects/Levinese"
   "joschese|e8b5868e-4dc2-4993-822e-dd97a9c09ac6|-|$HOME/Projects/Joscha"
 )

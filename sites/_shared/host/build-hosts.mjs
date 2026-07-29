@@ -138,10 +138,78 @@ function buildCorpus(slug, host) {
     }
   }
 
-  /* Rank: dictionary terms first (a definition beats an abstract for a concept question),
-   * then anything quotable, then most recent. This ordering is what survives the MAX_DOCS
+  /* Archive readings (2026-07-29): the synthesis a corpus of abstracts cannot contain.
+   * Asked "is there one question running through this whole body of work?", a host with
+   * only papers indexed correctly answers "I don't see that here" — the arc is real but
+   * it is not a document. These files ARE that document.
+   *
+   * They are the archive's interpretation, NOT the subject's claim, and that distinction
+   * is load-bearing: these are living people who may read their own page. The `j` tag
+   * below is what ask-edge.js keys on to attribute them as the archive's reading rather
+   * than the person's words. Never write a reading in the subject's voice; ground every
+   * one in named papers so a reader can check it. */
+  const readingsDir = path.join(siteDir, 'src/content/readings');
+  if (fs.existsSync(readingsDir)) {
+    for (const f of fs.readdirSync(readingsDir).filter((n) => n.endsWith('.md'))) {
+      const raw = fs.readFileSync(path.join(readingsDir, f), 'utf8');
+      const m = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+      if (!m) continue;
+      const pick = (key) => {
+        const hit = m[1].match(new RegExp('^' + key + ':\\s*"?(.*?)"?\\s*$', 'm'));
+        return hit ? hit[1].trim() : '';
+      };
+      const body = m[2].replace(/\s+/g, ' ').trim();
+      if (!body) continue;
+      docs.push({
+        t: pick('title') || f.replace(/\.md$/, ''),
+        y: pick('year') || null,
+        j: 'archive reading',
+        a: body.slice(0, ABSTRACT_CAP),
+        u: pick('source').startsWith('http') ? pick('source') : null,
+      });
+    }
+  }
+
+  /* Dedupe (2026-07-29). OpenAlex returns a record per *version*, so a single paper
+   * arrives two or three times — preprint + version of record, plus "Replication Data
+   * for: <title>" dataset deposits. Observed live on hananel-hazan: one question
+   * returned the same LoRA paper as two of its six citations, halving the effective
+   * retrieval width. TOP_K is small; a duplicate is a citation slot burned.
+   *
+   * Keep the richest version of each title: an abstract beats none, a real journal beats
+   * a preprint server, and a later year breaks the tie. Applies to every site. */
+  const isPreprintVenue = (j) => /arxiv|biorxiv|medrxiv|osf|preprint|zenodo|ssrn/i.test(j || '');
+  const normTitle = (t) =>
+    String(t).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+  const before = docs.length;
+  const byTitle = new Map();
+  for (const d of docs) {
+    /* Dataset/replication deposits are not readable sources — they index as noise. */
+    if (/^replication data for\b|^data (?:set|from)\b|^supplementary (?:data|materials)\b/i.test(d.t)) continue;
+    const key = normTitle(d.t).replace(/^replication data for /, '');
+    const prev = byTitle.get(key);
+    if (!prev) { byTitle.set(key, d); continue; }
+    const better =
+      (!!d.a - !!prev.a) ||
+      (!isPreprintVenue(d.j) - !isPreprintVenue(prev.j)) ||
+      ((d.a || '').length - (prev.a || '').length) ||
+      ((d.y || 0) - (prev.y || 0));
+    if (better > 0) byTitle.set(key, d);
+  }
+  const deduped = [...byTitle.values()];
+  if (deduped.length !== before) {
+    console.log(`  ${slug}: ${before} records → ${deduped.length} unique (dropped ${before - deduped.length} duplicate/dataset)`);
+  }
+  docs.length = 0;
+  docs.push(...deduped);
+
+  /* Rank: archive readings first (they answer the thematic questions nothing else can),
+   * then dictionary terms (a definition beats an abstract for a concept question), then
+   * anything quotable, then most recent. This ordering is what survives the MAX_DOCS
    * cut, so it decides what the host can actually cite. */
-  const rank = (d) => (d.j === 'dictionary term' ? 2 : d.a ? 1 : 0);
+  const rank = (d) =>
+    d.j === 'archive reading' ? 3 : d.j === 'dictionary term' ? 2 : d.a ? 1 : 0;
   docs.sort((a, b) => rank(b) - rank(a) || (b.y || 0) - (a.y || 0));
 
   return {
