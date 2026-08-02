@@ -1,0 +1,25 @@
+# minds-aligned.org — routes to SOMA's AI-facing properties.
+#
+# POLICY (Mike Wolf, 2026-08-02): AI-related work is published as a ROUTE on
+# this front door, not as a new subdomain. A route is cheaper to add than a
+# subdomain, keeps everything under one name people already have, and — the
+# operational reason — costs the Supabase auth allow-list ONE entry
+# (`https://minds-aligned.org/**`) no matter how many apps arrive. That
+# allow-list is hard-capped at 2048 bytes and was at 1948/2048 on 2026-08-02,
+# roughly two more apps from being full.
+#
+# Each app stays its own repo and its own Netlify site, independently
+# deployable; this file only decides what URL the public sees. The apps are
+# built base-path-agnostic (assets relative, function + auth URLs derived from
+# the script's own src), so the same deploy serves correctly at both its
+# netlify.app origin and its route here.
+#
+# To add one: give it a route below, make sure it is base-path-agnostic, and
+# nothing else changes.
+
+# ── a-different-mind — for people who don't use AI and don't want to ───────
+# NOTE: do NOT add a `/a-different-mind -> /a-different-mind/ 301` rule.
+# Netlify normalizes the trailing slash before matching, so that rule matches
+# its own target and 301-loops forever. Verified live 2026-08-02.
+/a-different-mind/*    https://a-different-mind.netlify.app/:splat     200
+/a-different-mind      https://a-different-mind.netlify.app/           200

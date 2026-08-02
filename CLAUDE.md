@@ -19,6 +19,53 @@ last_reviewed: 2026-06-23
 - gap: orchestrated parallel-worker run (brief → subdir → REPORT) is a recurring pattern across this and `_estate` sweeps.
 - To create a Netlify site, wire GitHub CD, or deploy: use the **`netlify-deploy`** skill (`~/.claude/skills/netlify-deploy/`). It has the expect recipe for the interactive `netlify init` — do NOT pipe input into `netlify init`, it mangles. Driving it with expect is safe/reversible; don't hand deploy steps back to Mike for lack of a TTY.
 
+## ⚠️ minds-aligned.org publishes `hub-public/`, NOT `hub/dist` — the root netlify.toml is wrong for it
+
+The root `netlify.toml` says `publish = "hub/dist"`. That is the **hub's** setting
+(`agi2026.netlify.app`). The site linked at the repo root is `minds-aligned-soma`
+(**minds-aligned.org**), whose real publish dir is **`hub-public/`** — a hand-written
+static page, not an Astro build.
+
+Verified 2026-08-02: `hub-public/index.html` is byte-identical to what
+minds-aligned.org serves, while `hub/dist/index.html` is a *completely different site*
+(the old "Home · AGI-26" Astro hub, 45,827 bytes vs the live 23,988). **A bare
+`netlify deploy --prod` from the repo root therefore replaces the front door with the
+wrong site** — the same class of accident as the 07-29 near-miss below, but harder to
+spot because the result still looks like a real AGI-26 page.
+
+Deploy the front door only like this, and diff the live page before and after:
+
+```bash
+netlify deploy --prod \
+  --site=3dac5361-f1a6-4027-b57c-261984c1371d \
+  --dir=/Users/mikewolf/Projects/agi-2026/hub-public \
+  --no-build
+```
+
+The CLI will stop and ask you to pick a monorepo package. Don't answer it — copy
+`hub-public/` to a directory outside the repo and deploy from there with the same
+`--site`. Outside the repo there is no monorepo detection and no config to resolve
+wrongly, which is the entire failure mode.
+
+## AI-related work is published as a ROUTE here, not a new subdomain
+
+**Mike Wolf, 2026-08-02.** A route is cheaper to add than a subdomain, keeps everything
+under a name people already have, and — the operational reason — costs the Supabase auth
+allow-list **one entry** (`https://minds-aligned.org/**`) no matter how many apps arrive.
+That list is hard-capped at 2048 bytes and was at 1948/2048 on 2026-08-02.
+
+Routes live in **`hub-public/_redirects`**. Each app keeps its own repo and its own
+Netlify site and stays independently deployable; that file only decides what the public
+URL is. First adopter: `/a-different-mind/` → `a-different-mind.netlify.app`.
+
+To add one, the app must be **base-path-agnostic**: relative asset paths, and any
+absolute URL it builds (serverless function, auth redirect, invite links) derived from
+its own `<script>`'s `src` rather than `location.pathname`.
+
+**Trap:** you cannot 301 `/app` to `/app/`. Netlify normalizes the trailing slash before
+matching, so the rule matches its own target and loops forever — verified live. Put the
+proxy rules in and let the app canonicalize itself client-side, before its stylesheet.
+
 ## ⚠️ NEVER run a bare `netlify deploy` from a `sites/<slug>/` directory
 
 **A near-miss on 2026-07-29: `netlify deploy --prod` run from inside `sites/hananel-hazan/`
