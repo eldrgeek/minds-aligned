@@ -72,7 +72,26 @@
      */
     signInWithOtp: function (email, options) {
       if (!_client) return Promise.reject(new Error('[SomaAuth] not initialized'));
-      return _client.auth.signInWithOtp({ email: email, options: options || {} });
+      // Route the sign-in redirect through the SOMA auth relay.
+      //
+      // WHY: Supabase's uri_allow_list is capped at 2048 bytes, so these 11 rooms
+      // were covered by a single wildcard, `https://agi26-*.netlify.app/**`.
+      // Supabase globs match MID-LABEL, which meant ANYONE could register a free
+      // `agi26-<anything>.netlify.app` and instantly own a Supabase-blessed
+      // origin that receives real session tokens. Enumerating the 11 rooms
+      // instead needs ~559 bytes and only 79 were free — the wildcard was not
+      // laziness, it was the only thing that fit.
+      //
+      // The relay is one allow-listed origin that validates the real destination
+      // against a database table with no size cap, and it refuses mid-label
+      // wildcards outright. So the rooms are now listed explicitly, by name.
+      var opts = {};
+      for (var k in (options || {})) if (Object.prototype.hasOwnProperty.call(options, k)) opts[k] = options[k];
+      if (opts.emailRedirectTo) {
+        opts.emailRedirectTo =
+          'https://soma-auth-relay.netlify.app/?to=' + encodeURIComponent(opts.emailRedirectTo);
+      }
+      return _client.auth.signInWithOtp({ email: email, options: opts });
     },
 
     signOut: function () {
