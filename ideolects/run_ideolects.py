@@ -33,6 +33,14 @@ THINKERS = {
  "chris-fields":      ("Chris Fields", "quantum information, cognition, observers, Markov blankets, scale-free biology"),
  "david-spivak":      ("David Spivak", "applied category theory, operads, polynomial functors, databases as categories, compositionality"),
  "alexander-ororbia": ("Alexander Ororbia", "neuromorphic computing, predictive coding networks, biologically plausible credit assignment"),
+ # Added 2026-08-11. Of the nine AGI-26 speakers named as "corpora and no ideolect"
+ # on 07-29, Hazan is the ONLY one that actually has the src/data/papers.json this
+ # builder requires (68 papers). The other eight have raw papers/*.json only, and
+ # four of them (Mostaque 3, Rassool 5, Hulme 13, Meredith 13) are too thin to
+ # ground 30 citation-backed terms at all. See README "The other nine thinkers".
+ # NOTE: entry present so the dict is not the blocker; the actual gate is the
+ # faithfulness review the existing 300 terms have never had. Don't build yet.
+ "hananel-hazan":     ("Hananel Hazan", "spiking neural networks, liquid state machines, neuronal learning and plasticity, reinforcement learning in biological networks, evolutionary and neuromorphic computation"),
 }
 
 DENY = ["Bash(git push*)", "Bash(netlify*)", "Bash(vercel*)",
