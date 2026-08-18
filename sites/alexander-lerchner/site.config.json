@@ -1,0 +1,15 @@
+{
+  "slug": "alexander-lerchner",
+  "name": "Alexander Lerchner",
+  "shortName": "Alexander Lerchner",
+  "tagline": "Publication archive and grounded AI guide for Alexander Lerchner — disentangled representations, object-centric scene understanding, and embodied agents.",
+  "bio": "Alexander Lerchner is a Senior Staff Scientist at Google DeepMind. His published record begins in computational neuroscience — mean-field theories of balanced cortical networks — and continues through the disentangled-representation programme he helped lead (β-VAE, SCAN, DARLA), object-centric scene representation (MONet, SIMONe), and the SIMA embodied-agent projects. His listed research interests span artificial intelligence, neuroscience, philosophy of mind and philosophy of AI.",
+  "bioLinks": [
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=wBxAt8cAAAAJ&hl=en" }
+  ],
+  "personaId": "beta",
+  "personaName": "Beta",
+  "personaAvatar": "β",
+  "personaGreeting": "I'm Beta, the AI host of this archive. I'm grounded in Alexander Lerchner's published work — balanced cortical networks, disentangled representations and β-VAE, object-centric scene decomposition, and instructable embodied agents. I am not Lerchner; I'm a guide to what he wrote. Ask me a question and I'll answer from the corpus and cite it.",
+  "guideConfigFile": "alexander-lerchner-guide-config.js"
+}

@@ -1,0 +1,7 @@
+---
+title: "The archive's reading: one bottleneck, moved seven times"
+year: "2026"
+source: ""
+---
+
+Read chronologically, this record is not a sequence of topics but one engineering question asked of a steadily larger part of the problem. "Translating Mizar for First Order Theorem Provers" (2003, sole author) and "MPTP 0.2" (2006, sole author) make a formal library legible to ordinary automated provers — and immediately expose the next bottleneck: given thousands of available facts, which ones does this proof need? "MaLARea: a Metasystem for Automated Reasoning in Large Theories" (2007, sole author) answers by looping a deductive prover against a learner trained on previous proofs. "HOL(y)Hammer" (2014, with Cezary Kaliszyk) packages that as a service for working mathematicians. "DeepMath — Deep Sequence Models for Premise Selection" (2016, with Alemi, Chollet, Eén, Irving and Szegedy) replaces hand-engineered features with learned ones; "ENIGMA" (2017, with Jan Jakubův) moves the learner inside the prover's own clause-selection loop; "Reinforcement Learning of Theorem Proving" (2018) treats the search itself as a game to be learned. "Learning Conjecturing from Scratch" (2025, with Thibault Gauthier) moves one step earlier still, to inventing the statement to prove. The archive reads this as a single idea — put learning at the choice points of a verified search — pushed from the library, to the fact list, to the search loop, to the conjecture.

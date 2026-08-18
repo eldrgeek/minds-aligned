@@ -68,6 +68,7 @@ export const roster: Thinker[] = [
     accent: "teal",
     glyph: "NG",
     bio: "Digital fabrication, programmable matter, and the physical instantiation of computation and intelligence.",
+    subsiteUrl: "https://agi26-neil-gershenfeld.netlify.app",
   },
   {
     name: "Camron Blackburn",
@@ -115,6 +116,7 @@ export const roster: Thinker[] = [
     accent: "teal",
     glyph: "AL",
     bio: "Research on scalable, general agents and architectures that push toward more robust artificial intelligence.",
+    subsiteUrl: "https://agi26-alexander-lerchner.netlify.app",
   },
   {
     name: "Daniel Hulme",
@@ -138,11 +140,12 @@ export const roster: Thinker[] = [
   {
     name: "Alex Wissner-Gross",
     slug: "alex-wissner-gross",
-    affiliation: "Harvard / MIT / Entropica",
+    affiliation: "Physical Superintelligence",
     tier: "keynote",
     accent: "teal",
     glyph: "AW",
     bio: "Physicist and AI researcher focused on causal entropic forces and the emergence of intelligence.",
+    subsiteUrl: "https://agi26-alex-wissner-gross.netlify.app",
   },
   {
     name: "Greg Meredith",
@@ -199,6 +202,7 @@ export const roster: Thinker[] = [
     accent: "teal",
     glyph: "JU",
     bio: "Automated reasoning, formal mathematics, and AI systems that collaborate with humans on proofs.",
+    subsiteUrl: "https://agi26-josef-urban.netlify.app",
   },
 
   // ── Added 2026-07-23 from the live AGI-26 program (SCHEDULE-2026-07-22.md). ──

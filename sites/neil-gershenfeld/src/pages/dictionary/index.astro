@@ -1,0 +1,155 @@
+---
+import Base from '../../layouts/Base.astro';
+import papersData from '../../data/papers.json';
+
+type Paper = {
+  slug: string;
+  title?: string;
+  year?: string | number | null;
+  journal?: string | null;
+  doi_url?: string | null;
+  link?: string | null;
+};
+
+const papers = papersData as Paper[];
+const normalise = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+/* Prefer the version of record over the preprint duplicate when both are indexed. */
+const byTitle = new Map<string, Paper>();
+for (const p of papers) {
+  const k = normalise(p.title || '');
+  const existing = byTitle.get(k);
+  const isPreprint = /arxiv|biorxiv|zenodo/i.test(String(p.journal || ''));
+  if (!existing || (!isPreprint && /arxiv|biorxiv|zenodo/i.test(String(existing.journal || '')))) {
+    byTitle.set(k, p);
+  }
+}
+
+/* Every entry below is a standard definition of a term as the field uses it, paired
+ * with a paper IN THIS ARCHIVE where Gershenfeld works with it. The definitions are not
+ * quotations of Gershenfeld and are not attributed to him; the citation is the claim. */
+const entries = [
+  {
+    term: 'Digital fabrication',
+    body:
+      'Making physical things under direct digital control. The distinction this archive insists on: most "digital" fabrication is digital only in its design — the material is still deposited or cut continuously. Digital fabrication in the strong sense means the material itself is discrete.',
+    see: 'Macrofabrication with Digital Materials: Robotic Assembly',
+  },
+  {
+    term: 'Digital material',
+    body:
+      'A material built from a finite set of discrete, mass-produced parts joined by reversible connections — so that a structure has an exact description, can be assembled and disassembled, and errors can be detected and corrected rather than accumulating. The analogue of coding a signal into symbols.',
+    see: 'Reversibly Assembled Cellular Composite Materials',
+  },
+  {
+    term: 'Voxel',
+    body:
+      'The unit part of a digital material — a single building block of the lattice. Structures, mechanisms, and the robots that assemble them are all made from the same small vocabulary of voxels in this line of work.',
+    see: 'Discretely assembled mechanical metamaterials',
+  },
+  {
+    term: 'Cellular composite',
+    body:
+      'A three-dimensional lattice assembled from carbon-fibre-reinforced polymer parts with integrated mechanical interlocking connections, reported in Science as behaving like an elastic solid with an extremely large modulus for an ultralight material.',
+    see: 'Reversibly Assembled Cellular Composite Materials',
+  },
+  {
+    term: 'Mechanical metamaterial',
+    body:
+      'A material whose useful properties come from the geometry of its cells and how they are arranged, rather than from its bulk chemistry. Historically made as continuous monolithic structures; here made discretely, so the same parts can produce different properties.',
+    see: 'Discretely assembled mechanical metamaterials',
+  },
+  {
+    term: 'Material–robot system',
+    body:
+      'A system in which the robot and the structure are made of the same discrete parts, so the machine can crawl over and extend what it has already built instead of needing a workspace larger than its product.',
+    see: 'Material–Robot System for Assembly of Discrete Cellular Structures',
+  },
+  {
+    term: 'Self-replication (machine)',
+    body:
+      'Machines that build machines — in this corpus, hierarchical part sets aimed at "exponential space exploration via self-replicating spacecraft (known as Von Neumann probes)", and modular robot swarms described as capable of serial, recursive construction.',
+    see: 'Hierarchical assembly of a self-replicating spacecraft',
+  },
+  {
+    term: 'Bits and atoms',
+    body:
+      'The boundary this archive is organised around, and the name of the MIT centre he directs — stated by the centre as the question of how to turn data into things, and things into data.',
+    see: null,
+    href: 'https://cba.mit.edu/about/index.html',
+    hrefLabel: 'MIT Center for Bits and Atoms — about',
+  },
+  {
+    term: 'Thermodynamics of computation',
+    body:
+      'The study of the physical cost of computing. His 1996 paper observes that computers carry "many orders of magnitude more thermodynamic degrees of freedom than information-bearing ones (bits)", and that as devices approach physical limits the two descriptions must be understood together.',
+    see: 'Signal entropy and the thermodynamics of computation',
+  },
+  {
+    term: 'Bulk spin-resonance quantum computation',
+    body:
+      'Doing quantum computation in a room-temperature liquid using nuclear magnetic resonance across an ensemble of molecules, rather than in a single isolated quantum system — the approach he and Isaac Chuang introduced in Science in 1997.',
+    see: 'Bulk Spin-Resonance Quantum Computation',
+  },
+  {
+    term: 'Electric field sensing',
+    body:
+      'Sensing the presence and position of a body by how it perturbs an electric field, allowing ordinary objects and surfaces to notice people without cameras or contact. The Media Lab-era route into "things that think".',
+    see: 'Applying electric field sensing to human-computer interfaces',
+  },
+  {
+    term: 'Bubble logic',
+    body:
+      'Computation performed by bubbles in a microfluidic channel, where the same physical carrier holds both the material being processed and the logic controlling it — an extreme case of the bits-and-atoms boundary.',
+    see: 'Microfluidic Bubble Logic',
+  },
+].map(e => ({
+  ...e,
+  paper: e.see ? byTitle.get(normalise(e.see)) : undefined,
+  href: (e as { href?: string }).href,
+  hrefLabel: (e as { hrefLabel?: string }).hrefLabel,
+}));
+---
+<Base title="Dictionary" description="Concept dictionary for the Neil Gershenfeld archive — digital fabrication, digital materials, discrete assembly, and the physics of computation, each pointed at a paper in the corpus.">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 pt-12 pb-20">
+    <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-3">Dictionary</p>
+    <h1 class="font-serif text-3xl sm:text-4xl font-medium text-ink mb-4">Concept dictionary</h1>
+    <p class="text-muted leading-relaxed mb-3">
+      The vocabulary you need to read this archive. Each entry is the term as the field
+      uses it, paired with a paper in the corpus where Gershenfeld works with it.
+    </p>
+    <p class="text-muted/70 text-sm leading-relaxed mb-10">
+      The definitions are ours, written to get you into the papers &mdash; they are not
+      quotations of Gershenfeld. The citation under each one is the part that is his.
+    </p>
+
+    <dl class="divide-y divide-border">
+      {entries.map(e => (
+        <div class="py-6">
+          <dt class="font-serif text-xl font-medium text-ink mb-2">{e.term}</dt>
+          <dd class="text-muted leading-relaxed text-sm mb-3">{e.body}</dd>
+          {e.paper && (
+            <dd class="text-xs">
+              <span class="text-muted/60 font-mono uppercase tracking-wide mr-2">In the corpus</span>
+              {(e.paper.doi_url || e.paper.link) ? (
+                <a href={e.paper.doi_url || e.paper.link!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">
+                  {e.paper.title} ({e.paper.year}) ↗
+                </a>
+              ) : (
+                <span class="text-muted">{e.paper.title} ({e.paper.year})</span>
+              )}
+            </dd>
+          )}
+          {!e.paper && e.href && (
+            <dd class="text-xs">
+              <span class="text-muted/60 font-mono uppercase tracking-wide mr-2">In the corpus</span>
+              <a href={e.href} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">{e.hrefLabel} ↗</a>
+            </dd>
+          )}
+        </div>
+      ))}
+    </dl>
+
+    <a href="/corpus/" class="inline-block mt-10 text-accent hover:text-accent-mid text-sm font-medium">Browse the full corpus →</a>
+  </div>
+</Base>

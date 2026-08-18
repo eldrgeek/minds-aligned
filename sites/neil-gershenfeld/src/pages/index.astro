@@ -1,0 +1,339 @@
+---
+import Base from '../layouts/Base.astro';
+import papersData from '../data/papers.json';
+
+type Paper = {
+  slug: string;
+  title?: string;
+  abstract?: string;
+  year?: string | number | null;
+  journal?: string | null;
+  authors?: string[];
+  doi_url?: string | null;
+  link?: string | null;
+};
+
+const papers = papersData as Paper[];
+
+const years = papers
+  .map(p => parseInt(String(p.year ?? ''), 10))
+  .filter(y => Number.isFinite(y) && y > 1900);
+const earliest = Math.min(...years);
+const latest = Math.max(...years);
+
+const normalise = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const byTitle = new Map<string, Paper>();
+for (const p of papers) {
+  const k = normalise(p.title || '');
+  const existing = byTitle.get(k);
+  const isPreprint = /arxiv|biorxiv|zenodo|repository|dspace|abstracts/i.test(String(p.journal || ''));
+  const existingIsPreprint = existing ? /arxiv|biorxiv|zenodo|repository|dspace|abstracts/i.test(String(existing.journal || '')) : true;
+  if (!existing || (!isPreprint && existingIsPreprint) || (!existing.doi_url && p.doi_url)) {
+    byTitle.set(k, p);
+  }
+}
+const find = (t: string) => byTitle.get(normalise(t));
+
+/* Author position is derived from each record's own author list rather than asserted by
+ * hand, so a re-harvest cannot leave a stale claim behind. */
+const position = (p?: Paper) => {
+  const au = p?.authors ?? [];
+  const i = au.findIndex(a => /gershenfeld/i.test(a));
+  if (i < 0 || au.length === 0) return '';
+  if (au.length === 1) return 'sole author';
+  if (i === 0) return `first of ${au.length} authors`;
+  if (i === au.length - 1) return `last of ${au.length} authors`;
+  return `author ${i + 1} of ${au.length}`;
+};
+
+const selected = [
+  'Signal entropy and the thermodynamics of computation',
+  'Bulk Spin-Resonance Quantum Computation',
+  'Experimental Implementation of Fast Quantum Searching',
+  'Applying electric field sensing to human-computer interfaces',
+  'When Things Start to Think',
+  'Microfluidic Bubble Logic',
+  'Aligning the representation and reality of computation with asynchronous logic automata',
+  'How to Make Almost Anything',
+  'Reversibly Assembled Cellular Composite Materials',
+  'Macrofabrication with Digital Materials: Robotic Assembly',
+  'Hierarchical assembly of a self-replicating spacecraft',
+  'Discretely assembled mechanical metamaterials',
+  'Discretely assembled walking machines',
+  'Self-replicating hierarchical modular robotic swarms',
+  'Speech to Reality: On-Demand Production using Natural Language, 3D Generative AI, and Discrete Robotic Assembly',
+]
+  .map(t => ({ paper: find(t) }))
+  .filter((s): s is { paper: Paper } => Boolean(s.paper))
+  .map(s => ({ ...s, role: position(s.paper) }));
+
+const selectedSorted = selected
+  .slice()
+  .sort((a, b) => (parseInt(String(b.paper.year ?? 0)) || 0) - (parseInt(String(a.paper.year ?? 0)) || 0));
+
+const entropy = find('Signal entropy and the thermodynamics of computation');
+const nmr = find('Bulk Spin-Resonance Quantum Computation');
+const grover = find('Experimental Implementation of Fast Quantum Searching');
+const efield = find('Applying electric field sensing to human-computer interfaces');
+const cellular = find('Reversibly Assembled Cellular Composite Materials');
+const macro = find('Macrofabrication with Digital Materials: Robotic Assembly');
+const vonneumann = find('Hierarchical assembly of a self-replicating spacecraft');
+const swarms = find('Self-replicating hierarchical modular robotic swarms');
+const speech = find('Speech to Reality: On-Demand Production using Natural Language, 3D Generative AI, and Discrete Robotic Assembly');
+const metamaterials = find('Discretely assembled mechanical metamaterials');
+
+const lines = [
+  {
+    title: 'Physics of computation',
+    when: 'from the 1980s',
+    body: 'The archive opens in experimental physics and dynamical systems, and arrives at a question about computers themselves: they have, in his words, “many orders of magnitude more thermodynamic degrees of freedom than information-bearing ones (bits)” — a gap that closes as devices approach physical limits, at which point hardware and software “must be understood together.”',
+    link: entropy,
+    linkLabel: 'Signal entropy and the thermodynamics of computation (1996)',
+  },
+  {
+    title: 'Quantum computing in a beaker',
+    when: '1997–1998',
+    body: 'With Isaac Chuang, a proposal for doing quantum computation in bulk nuclear magnetic resonance — a room-temperature liquid rather than a single isolated system. The follow-up implements Grover’s search on chloroform molecules and reports “the first complete experimental demonstration of loading an initial state into a quantum computer”.',
+    link: nmr,
+    linkLabel: 'Bulk Spin-Resonance Quantum Computation, Science (1997)',
+  },
+  {
+    title: 'Things that think',
+    when: 'Media Lab, 1990s',
+    body: 'Then the boundary moves outward: electric field sensing that lets ordinary objects notice people, instruments modelled from data, and the argument that computing was about to leave the computer. The book of that argument gives the period its name.',
+    link: efield,
+    linkLabel: 'Applying electric field sensing to human-computer interfaces (1995)',
+  },
+  {
+    title: 'Digital materials',
+    when: '2013',
+    body: 'The pivotal move, and the one that separates this record from 3D printing. Instead of depositing continuous material, build from a discrete set of mass-produced parts that interlock — a lattice you can assemble, disassemble and reuse, reported in Science as “an elastic solid with an extremely large measured modulus for an ultralight material.”',
+    link: cellular,
+    linkLabel: 'Reversibly Assembled Cellular Composite Materials, Science (2013)',
+  },
+  {
+    title: 'The robot that assembles it',
+    when: '2015–2020',
+    body: 'If the material is discrete, the machine that places it can be simple, and can crawl over what it has already built. This line runs through robotic macrofabrication to mechanical metamaterials and walking machines assembled from the same voxel kit as the structure they walk on.',
+    link: metamaterials,
+    linkLabel: 'Discretely assembled mechanical metamaterials, Science Advances (2020)',
+  },
+  {
+    title: 'Machines that make machines',
+    when: '2017–2022',
+    body: 'The end of that logic is self-replication. A hierarchical model for building a spacecraft out of a small part set, aimed at “exponential space exploration via self-replicating spacecraft (known as Von Neumann probes)”; then a robotic swarm reported as “capable of serial, recursive” construction — robots that assemble more robots.',
+    link: swarms,
+    linkLabel: 'Self-replicating hierarchical modular robotic swarms (2022)',
+  },
+  {
+    title: 'Say it and it exists',
+    when: '2024–2025',
+    body: 'And the newest work joins the two threads a conference like this one cares about. Generative AI produces a 3D mesh from speech; the mesh is not directly buildable, so the system converts it into an assembly of discrete parts a robot can actually place. Language in, object out.',
+    link: speech,
+    linkLabel: 'Speech to Reality (2024)',
+  },
+];
+
+const href = (p?: Paper) => (p ? (p.doi_url || p.link || null) : null);
+---
+<Base title="Home" description="Publication archive and grounded AI guide for Neil Gershenfeld — digital fabrication, discrete assembly, digital materials, and the boundary between bits and atoms.">
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12">
+    <div class="max-w-2xl">
+      <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-4">AGI-26 keynote</p>
+      <h1 class="font-serif text-4xl sm:text-5xl font-medium text-ink leading-tight mb-6">
+        Neil Gershenfeld
+      </h1>
+      <p class="text-lg text-muted leading-relaxed mb-6">
+        Neil Gershenfeld is Director of the MIT Center for Bits and Atoms, an
+        interdisciplinary initiative the Center describes as exploring the boundary
+        between computer science and physical science.
+      </p>
+      <blockquote class="border-l-2 border-accent/50 pl-4 mb-8 text-muted leading-relaxed">
+        <p class="italic">
+          &ldquo;How to turn data into things, and things into data.&rdquo;
+        </p>
+        <cite class="not-italic text-sm text-muted/70 block mt-2 font-mono">
+          — the Center for Bits and Atoms, stating its own question,
+          <a href="https://cba.mit.edu/about/index.html" target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">cba.mit.edu</a>
+        </cite>
+      </blockquote>
+      <div class="flex flex-wrap gap-3">
+        <a href="/corpus/" class="inline-flex items-center gap-2 bg-accent text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-accent-mid transition-colors">
+          Browse Corpus
+        </a>
+        <a href="/dictionary/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Dictionary
+        </a>
+        <a href="/ask/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Ask
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-3">One boundary, crossed in both directions</h2>
+    <p class="text-muted leading-relaxed mb-10 max-w-2xl">
+      Read the archive in order and the subject never really changes:
+      <em class="text-ink not-italic">what happens where information meets matter?</em>
+      The answer keeps getting more literal &mdash; from the thermodynamics of a bit, to a
+      molecule used as a computer, to a building assembled the way a message is coded.
+    </p>
+    <ol class="relative border-l border-border ml-2">
+      {lines.map(l => (
+        <li class="pl-6 pb-9 relative">
+          <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+          <div class="flex items-baseline gap-3 flex-wrap mb-2">
+            <h3 class="font-serif text-xl font-medium text-ink">{l.title}</h3>
+            <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">{l.when}</span>
+          </div>
+          <p class="text-muted text-sm leading-relaxed mb-2 max-w-2xl">{l.body}</p>
+          {href(l.link) && (
+            <a href={href(l.link)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-xs font-medium">
+              {l.linkLabel} ↗
+            </a>
+          )}
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">At a conference called AGI-26</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          Most of the roster asks what a mind is or how to build one. This archive asks a
+          question that sits underneath that: what can be <em>made</em>, by what, and how
+          cheaply does the ability to make it spread?
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          The through-line is discretization. Digital communication became reliable when
+          signals were coded into a finite symbol set; this work argues fabrication becomes
+          reliable, reversible and error-correcting for the same reason &mdash; when parts
+          come from a discrete set instead of a continuous deposit. Self-replicating swarms
+          are that argument taken to its end.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed mb-4">
+          The 2024&ndash;2025 papers are where it meets the rest of the conference: a
+          generative model proposes a shape, and the discrete-assembly stack is what makes
+          the proposal buildable.
+        </p>
+        {href(speech) && (
+          <a href={href(speech)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Read Speech to Reality ↗</a>
+        )}
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">A lab, not a solo record</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          After 2013 almost everything here is co-authored with the Center for Bits and
+          Atoms &mdash; Benjamin Jenett, Amira Abdel-Rahman, Kenneth Cheung, Will Langford,
+          Miana Smith, Nadya Peek, Alfonso Parra Rubio and others recur across the discrete
+          assembly line of work. The earlier quantum computing papers are with Isaac L.
+          Chuang, and the time-series work with Andreas Weigend.
+        </p>
+        <div class="flex flex-col gap-2 text-sm">
+          {href(vonneumann) && (
+            <a href={href(vonneumann)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid font-medium">
+              Hierarchical assembly of a self-replicating spacecraft ↗
+            </a>
+          )}
+          <a href="/corpus/" class="text-accent hover:text-accent-mid font-medium">
+            Browse all {papers.length} records &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-2">Selected work</h2>
+    <p class="text-muted text-sm mb-8 max-w-2xl">
+      {selectedSorted.length} entries drawn from the archive, titled exactly as the records read, with his
+      position in the author list computed from each record. Everything else &mdash;
+      including the early physics, the time-series prediction work, and the books in their
+      several translations &mdash; is in the
+      <a href="/corpus/" class="text-accent hover:text-accent-mid">corpus</a>.
+    </p>
+    <ol class="divide-y divide-border">
+      {selectedSorted.map(s => (
+        <li class="py-4">
+          <div class="flex items-start gap-3">
+            <span class="font-mono text-xs text-muted/60 mt-1 shrink-0 w-10">{s.paper.year}</span>
+            <div class="min-w-0">
+              {href(s.paper) ? (
+                <a href={href(s.paper)!} target="_blank" rel="noopener noreferrer" class="text-ink font-medium text-sm hover:text-accent transition-colors leading-snug">
+                  {s.paper.title}
+                </a>
+              ) : (
+                <span class="text-ink font-medium text-sm leading-snug">{s.paper.title}</span>
+              )}
+              <div class="flex flex-wrap items-baseline gap-x-3 mt-1">
+                {s.paper.journal && (
+                  <span class="text-xs text-muted italic">{s.paper.journal}</span>
+                )}
+                <span class="text-xs text-muted/70">{s.role}</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">Background</h2>
+        <dl class="text-sm space-y-3">
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Now</dt>
+            <dd class="text-muted leading-relaxed">
+              Professor at MIT and Director of the Center for Bits and Atoms, which
+              describes itself as an interdisciplinary initiative exploring the boundary
+              between computer science and physical science.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">In this corpus</dt>
+            <dd class="text-muted leading-relaxed">
+              Records from {earliest} to {latest}: early experimental physics and dynamical
+              systems, NMR quantum computing with Isaac L. Chuang, electric field sensing
+              and physics-and-media work, and &mdash; from 2013 &mdash; the discrete
+              assembly programme that dominates the recent record.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Books in the corpus</dt>
+            <dd class="text-muted leading-relaxed">
+              <em>When Things Start to Think</em> and <em>The Nature of Mathematical
+              Modeling</em> appear as reviews and translated editions;
+              <em>Designing Reality</em>, with Alan Gershenfeld and Joel
+              Cutcher-Gershenfeld, appears as a 2017 record.
+            </dd>
+          </div>
+        </dl>
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">About this archive</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          This is an independent archive of Neil Gershenfeld&rsquo;s publication record, built
+          for Society of Minds Aligned and AGI-26. Records span {earliest}&ndash;{latest} and
+          are drawn from OpenAlex; preprints, versions of record, book reviews and
+          translated editions are all kept, so the archive is a reading index, not a
+          bibliometric count.
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          Biography is limited to what his own MIT pages state. The corpus was checked for
+          the name-collision problem that affects common names; every record retained here
+          lists him among its authors.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed">
+          Not written by, reviewed by, or endorsed by Neil Gershenfeld. If you are Neil and
+          something here is wrong, the feedback control at the bottom of the page reaches us
+          directly &mdash; and the claim bar will hand you the site.
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,15 @@
+{
+  "slug": "alex-wissner-gross",
+  "name": "Alex Wissner-Gross",
+  "shortName": "Alex Wissner-Gross",
+  "tagline": "Publication archive and grounded AI guide for Alex Wissner-Gross — causal entropic forces, self-assembly, and intelligence as a physical process.",
+  "bio": "Alex Wissner-Gross describes himself as a physicist, computer scientist, entrepreneur and investor working at the intersection of artificial intelligence and the physical world, and is Founder and Chief Scientist of Physical Superintelligence. His published record is small and unusually wide: dielectrophoretic assembly of nanowires, ensembles of cellular automata, the melting point of ice on diamond, relativistic constraints on statistical arbitrage, and — the paper most cited from it — Causal Entropic Forces, which proposes a formal link between intelligence and entropy maximization.",
+  "bioLinks": [
+    { "label": "alexwg.org", "url": "https://www.alexwg.org/" }
+  ],
+  "personaId": "horizon",
+  "personaName": "Horizon",
+  "personaAvatar": "◷",
+  "personaGreeting": "I'm Horizon, the AI host of this archive, named for the time horizon over which causal entropic forcing counts possible futures. I'm grounded in Alex Wissner-Gross's published work — causal entropic forces, self-assembly and cellular automata, dielectrophoretic nanostructures, and applied machine learning. I am not Wissner-Gross; I'm a guide to what he wrote. Ask me a question and I'll answer from the corpus and cite it.",
+  "guideConfigFile": "alex-wissner-gross-guide-config.js"
+}

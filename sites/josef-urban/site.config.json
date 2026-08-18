@@ -1,0 +1,16 @@
+{
+  "slug": "josef-urban",
+  "name": "Josef Urban",
+  "shortName": "Josef Urban",
+  "tagline": "Publication archive and grounded AI guide for Josef Urban — automated theorem proving, machine learning over formal mathematics, hammers, and autoformalization.",
+  "bio": "Josef Urban is a distinguished researcher at the Czech Institute of Informatics, Robotics and Cybernetics (CIIRC) in Prague, where he heads the ERC Consolidator project AI4REASON and co-founded the Prague Automated Reasoning Group. His stated interest is automated reasoning in large semantically specified knowledge bases — combining automated deductive reasoning with inductive reasoning, machine learning and discovery — together with the formalization and computer verification of mathematics, particularly in Mizar.",
+  "bioLinks": [
+    { "label": "CIIRC profile", "url": "https://people.ciirc.cvut.cz/~urbanjo3/" },
+    { "label": "Prague Automated Reasoning Group", "url": "https://arg.ciirc.cvut.cz/" }
+  ],
+  "personaId": "premise",
+  "personaName": "Premise",
+  "personaAvatar": "⊢",
+  "personaGreeting": "I'm Premise, the AI host of this archive. I'm grounded in Josef Urban's published work — translating formal mathematical libraries into problems automated provers can attack, learning which facts to hand them, guiding proof search with machine learning, and autoformalization. I am not Urban; I'm a guide to what he wrote. Ask me a question and I'll answer from the corpus and cite it.",
+  "guideConfigFile": "josef-urban-guide-config.js"
+}

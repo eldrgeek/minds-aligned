@@ -1,0 +1,342 @@
+---
+import Base from '../layouts/Base.astro';
+import papersData from '../data/papers.json';
+
+type Paper = {
+  slug: string;
+  title?: string;
+  abstract?: string;
+  year?: string | number | null;
+  journal?: string | null;
+  authors?: string[];
+  doi_url?: string | null;
+  link?: string | null;
+};
+
+const papers = papersData as Paper[];
+
+const years = papers
+  .map(p => parseInt(String(p.year ?? ''), 10))
+  .filter(y => Number.isFinite(y) && y > 1900);
+const earliest = Math.min(...years);
+const latest = Math.max(...years);
+
+/* Preprint and version-of-record duplicates are both indexed; resolve a title to the
+ * version of record where one exists, so the links below point at the better artifact.
+ * No counts are derived from this — the archive is not a bibliometric claim. */
+const normalise = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const byTitle = new Map<string, Paper>();
+for (const p of papers) {
+  const k = normalise(p.title || '');
+  const existing = byTitle.get(k);
+  const isPreprint = /arxiv|biorxiv|zenodo|repository|dspace/i.test(String(p.journal || ''));
+  const existingIsPreprint = existing ? /arxiv|biorxiv|zenodo|repository|dspace/i.test(String(existing.journal || '')) : true;
+  if (!existing || (!isPreprint && existingIsPreprint) || (!existing.doi_url && p.doi_url)) {
+    byTitle.set(k, p);
+  }
+}
+const find = (t: string) => byTitle.get(normalise(t));
+
+/* Author position is computed from each record's own author list rather than asserted
+ * by hand — a hand-written position is a claim that can rot when the corpus is
+ * re-harvested; a derived one cannot. */
+const position = (p?: Paper) => {
+  const au = p?.authors ?? [];
+  const i = au.findIndex(a => /urban/i.test(a) && /josef/i.test(a));
+  if (i < 0 || au.length === 0) return '';
+  if (au.length === 1) return 'sole author';
+  if (i === 0) return `first of ${au.length} authors`;
+  if (i === au.length - 1) return `last of ${au.length} authors`;
+  return `author ${i + 1} of ${au.length}`;
+};
+
+const selected = [
+  'Translating Mizar for First Order Theorem Provers',
+  'MPTP 0.2: Design, Implementation, and Initial Experiments',
+  'MaLARea: a Metasystem for Automated Reasoning in Large Theories.',
+  'Premise Selection for Mathematics by Corpus Analysis and Kernel Methods',
+  'HOL(y)Hammer: Online ATP Service for HOL Light',
+  'Learning-Assisted Automated Reasoning with Flyspeck',
+  'Mizar: State-of-the-art and Beyond',
+  'DeepMath - Deep Sequence Models for Premise Selection',
+  'ENIGMA: Efficient Learning-Based Inference Guiding Machine',
+  'Reinforcement Learning of Theorem Proving',
+  'TacticToe: Learning to Prove with Tactics',
+  'Learning Guided Automated Reasoning: A Brief Survey',
+  'Learning Conjecturing from Scratch',
+  'Hammering Higher Order Set Theory',
+  '130k Lines of Formal Topology in Two Weeks: Simple and Cheap Autoformalization for Everyone? (Short Paper)',
+]
+  .map(t => ({ paper: find(t) }))
+  .filter((s): s is { paper: Paper } => Boolean(s.paper))
+  .map(s => ({ ...s, role: position(s.paper) }));
+
+const selectedSorted = selected
+  .slice()
+  .sort((a, b) => (parseInt(String(b.paper.year ?? 0)) || 0) - (parseInt(String(a.paper.year ?? 0)) || 0));
+
+const mptp = find('MPTP 0.2: Design, Implementation, and Initial Experiments');
+const malarea = find('MaLARea: a Metasystem for Automated Reasoning in Large Theories.');
+const holyhammer = find('HOL(y)Hammer: Online ATP Service for HOL Light');
+const deepmath = find('DeepMath - Deep Sequence Models for Premise Selection');
+const enigma = find('ENIGMA: Efficient Learning-Based Inference Guiding Machine');
+const rl = find('Reinforcement Learning of Theorem Proving');
+const conjecturing = find('Learning Conjecturing from Scratch');
+const topology = find('130k Lines of Formal Topology in Two Weeks: Simple and Cheap Autoformalization for Everyone? (Short Paper)');
+const survey = find('Learning Guided Automated Reasoning: A Brief Survey');
+
+const lines = [
+  {
+    title: 'Translation',
+    when: 'Prague, from 2003',
+    body: 'The Mizar Mathematical Library is one of the largest bodies of machine-checked mathematics ever written, and for decades it could only be read by Mizar. Urban’s first system, MPTP, translates it into the first-order format that ordinary automated theorem provers speak — turning a library into a problem set.',
+    link: mptp,
+    linkLabel: 'MPTP 0.2: Design, Implementation, and Initial Experiments (2006)',
+  },
+  {
+    title: 'Selection',
+    when: 'from 2007',
+    body: 'Translation exposes the real bottleneck. Given thousands of available facts, which handful should the prover be given? MaLARea — "a Machine Learner for Automated Reasoning" — loops a deductive prover against a learner that predicts useful premises from previous proofs, each feeding the other.',
+    link: malarea,
+    linkLabel: 'MaLARea: a Metasystem for Automated Reasoning in Large Theories (2007)',
+  },
+  {
+    title: 'Hammers',
+    when: 'with Cezary Kaliszyk',
+    body: 'The same machinery pointed at working mathematicians. A "hammer" takes a goal inside a proof assistant, picks relevant facts, ships them to external provers, and reconstructs what comes back. HOL(y)Hammer put one online as a service for HOL Light; the Flyspeck work measured it against a real, large formalization.',
+    link: holyhammer,
+    linkLabel: 'HOL(y)Hammer: Online ATP Service for HOL Light (2014)',
+  },
+  {
+    title: 'Learning to guide',
+    when: '2016–2018',
+    body: 'Then the learner moves inside the prover. DeepMath — with Alemi, Chollet, Eén, Irving and Szegedy — learns premise selection with neural sequence models, “avoiding the hand-engineered features of existing state-of-the-art models”, and claims in its own abstract to be “the first time deep learning has been applied to theorem proving on a large scale.” ENIGMA then moves the learner inside the prover’s own clause-selection loop.',
+    link: deepmath,
+    linkLabel: 'DeepMath — Deep Sequence Models for Premise Selection (2016)',
+  },
+  {
+    title: 'Search as a game',
+    when: '2018–2020',
+    body: 'If proof search is a sequence of choices, it can be learned the way games are. This work runs Monte-Carlo simulations "guided by reinforcement learning from previous proof attempts", with, in its own words, "practically no domain heuristics"; TacticToe does the tactic-level counterpart inside HOL4.',
+    link: rl,
+    linkLabel: 'Reinforcement Learning of Theorem Proving (2018)',
+  },
+  {
+    title: 'Conjecturing',
+    when: '2025',
+    body: 'The last thing a prover is given is the thing to prove. Working from 16,197 OEIS-derived problems that need both induction and arithmetic, this paper builds a feedback loop that invents the induction predicates itself, reporting 5,565 problems solved against 2,265 for CVC5, Vampire or Z3 given 60 seconds. Its title is the claim: learning conjecturing from scratch.',
+    link: conjecturing,
+    linkLabel: 'Learning Conjecturing from Scratch (2025)',
+  },
+  {
+    title: 'Autoformalization',
+    when: '2026',
+    body: 'And the direction reverses. Rather than translating formal libraries out to provers, this project translates an ordinary textbook in — Munkres’ general topology, 241 pages. The paper reports 160k lines of formalized topology, about 130k of them produced in two weeks, and asks in its title whether this is now cheap enough for everyone.',
+    link: topology,
+    linkLabel: '130k Lines of Formal Topology in Two Weeks (2026)',
+  },
+];
+
+const href = (p?: Paper) => (p ? (p.doi_url || p.link || null) : null);
+---
+<Base title="Home" description="Publication archive and grounded AI guide for Josef Urban — automated theorem proving, machine learning over formal mathematics, hammers, and autoformalization.">
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12">
+    <div class="max-w-2xl">
+      <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-4">AGI-26 keynote</p>
+      <h1 class="font-serif text-4xl sm:text-5xl font-medium text-ink leading-tight mb-6">
+        Josef Urban
+      </h1>
+      <p class="text-lg text-muted leading-relaxed mb-6">
+        Josef Urban is a distinguished researcher at the Czech Institute of Informatics,
+        Robotics and Cybernetics in Prague, where he heads the ERC project AI4REASON and
+        co-founded the Prague Automated Reasoning Group.
+      </p>
+      <blockquote class="border-l-2 border-accent/50 pl-4 mb-8 text-muted leading-relaxed">
+        <p class="italic">
+          &ldquo;Automated deductive reasoning (automated theorem proving), inductive
+          reasoning (machine learning and discovery) and their combining.&rdquo;
+        </p>
+        <cite class="not-italic text-sm text-muted/70 block mt-2 font-mono">
+          — Josef Urban, describing his research interests,
+          <a href="https://people.ciirc.cvut.cz/~urbanjo3/" target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">CIIRC profile</a>
+        </cite>
+      </blockquote>
+      <div class="flex flex-wrap gap-3">
+        <a href="/corpus/" class="inline-flex items-center gap-2 bg-accent text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-accent-mid transition-colors">
+          Browse Corpus
+        </a>
+        <a href="/dictionary/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Dictionary
+        </a>
+        <a href="/ask/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Ask
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-3">One bottleneck, moved seven times</h2>
+    <p class="text-muted leading-relaxed mb-10 max-w-2xl">
+      Read the archive in order and it is the same engineering question, asked of a
+      steadily larger part of the problem: <em class="text-ink not-italic">which of the
+      thousands of things we already know does this proof need?</em> Each answer makes the
+      next bottleneck visible.
+    </p>
+    <ol class="relative border-l border-border ml-2">
+      {lines.map(l => (
+        <li class="pl-6 pb-9 relative">
+          <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+          <div class="flex items-baseline gap-3 flex-wrap mb-2">
+            <h3 class="font-serif text-xl font-medium text-ink">{l.title}</h3>
+            <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">{l.when}</span>
+          </div>
+          <p class="text-muted text-sm leading-relaxed mb-2 max-w-2xl">{l.body}</p>
+          {href(l.link) && (
+            <a href={href(l.link)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-xs font-medium">
+              {l.linkLabel} ↗
+            </a>
+          )}
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">At a conference called AGI-26</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          This archive is unusual on the roster in that its subject matter is
+          <em>checkable</em>. A proof either goes through or it does not, and the machine
+          that checks it does not care who wrote it. Urban&rsquo;s field has spent two decades
+          building learning systems whose output is verified by construction.
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          His 2024 survey with six co-authors states the opportunity plainly: automated
+          provers are &ldquo;in theory capable of proving arbitrarily hard theorems&rdquo; but
+          &ldquo;in practice&hellip; face large combinatorial explosion, and therefore include many
+          heuristics and choice points that considerably influence their performance.&rdquo;
+          Those choice points are where the learning goes.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed mb-4">
+          We surface this because it is a live counter-current to how capability is usually
+          argued about at a conference like this one &mdash; not scale alone, but search
+          plus verification.
+        </p>
+        {href(survey) && (
+          <a href={href(survey)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Read the survey ↗</a>
+        )}
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">A field, not a solo record</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          Most of this archive is co-authored, and the same names recur across
+          decades &mdash; Cezary Kaliszyk above all, then Jan Jakub&uring;v, Ji&rcaron;&iacute; Vysko&ccaron;il, Chad E.
+          Brown, Miroslav Ol&scaron;&aacute;k, Thibault Gauthier. The systems named here are group
+          artifacts with long lives: MPTP, MaLARea, HOL(y)Hammer, ENIGMA and TacticToe all
+          appear across multiple papers and multiple versions.
+        </p>
+        <div class="flex flex-col gap-2 text-sm">
+          {href(enigma) && (
+            <a href={href(enigma)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid font-medium">
+              ENIGMA: Efficient Learning-Based Inference Guiding Machine ↗
+            </a>
+          )}
+          <a href="/corpus/" class="text-accent hover:text-accent-mid font-medium">
+            Browse all {papers.length} records &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-2">Selected work</h2>
+    <p class="text-muted text-sm mb-8 max-w-2xl">
+      {selectedSorted.length} entries drawn from the archive, titled exactly as the records read, with his
+      position in the author list computed from each record. Everything else is in the
+      <a href="/corpus/" class="text-accent hover:text-accent-mid">corpus</a>.
+    </p>
+    <ol class="divide-y divide-border">
+      {selectedSorted.map(s => (
+        <li class="py-4">
+          <div class="flex items-start gap-3">
+            <span class="font-mono text-xs text-muted/60 mt-1 shrink-0 w-10">{s.paper.year}</span>
+            <div class="min-w-0">
+              {href(s.paper) ? (
+                <a href={href(s.paper)!} target="_blank" rel="noopener noreferrer" class="text-ink font-medium text-sm hover:text-accent transition-colors leading-snug">
+                  {s.paper.title}
+                </a>
+              ) : (
+                <span class="text-ink font-medium text-sm leading-snug">{s.paper.title}</span>
+              )}
+              <div class="flex flex-wrap items-baseline gap-x-3 mt-1">
+                {s.paper.journal && (
+                  <span class="text-xs text-muted italic">{s.paper.journal}</span>
+                )}
+                <span class="text-xs text-muted/70">{s.role}</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">Background</h2>
+        <dl class="text-sm space-y-3">
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Now</dt>
+            <dd class="text-muted leading-relaxed">
+              Distinguished researcher, Czech Institute of Informatics, Robotics and
+              Cybernetics (CIIRC), Prague. Heads the ERC Consolidator project AI4REASON;
+              co-founder of the Prague Automated Reasoning Group.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Education</dt>
+            <dd class="text-muted leading-relaxed">
+              Ph.D. Computer Science (2004), Faculty of Mathematics and Physics, Charles
+              University, Prague &middot; M.S. Mathematics (1998), same faculty &middot;
+              B.S. Economics (1995), Faculty of Social Sciences, Charles University.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Systems</dt>
+            <dd class="text-muted leading-relaxed">
+              MPTP (Mizar Problems for Theorem Proving), MaLARea, HOL(y)Hammer with Cezary
+              Kaliszyk, ENIGMA, and TacticToe &mdash; each appearing in this corpus across
+              several papers and versions.
+            </dd>
+          </div>
+        </dl>
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">About this archive</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          This is an independent archive of Josef Urban&rsquo;s publication record, built for
+          Society of Minds Aligned and AGI-26. Records span {earliest}&ndash;{latest} and are
+          drawn from OpenAlex; preprints and versions of record are both kept, so the archive
+          is a reading index, not a bibliometric count.
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          &ldquo;Josef Urban&rdquo; is a common Czech name, and the harvest returned at least four
+          different people who share it. Twenty-one records &mdash; in genetics, polymer
+          chemistry, telecommunications and elsewhere &mdash; were removed by hand and are
+          listed, with the reason, in the archive&rsquo;s exclusion manifest. Biography, degrees
+          and the quotation above come from his
+          <a href="https://people.ciirc.cvut.cz/~urbanjo3/" target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">CIIRC profile</a>.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed">
+          Not written by, reviewed by, or endorsed by Josef Urban. If you are Josef and
+          something here is wrong, the feedback control at the bottom of the page reaches us
+          directly &mdash; and the claim bar will hand you the site.
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>

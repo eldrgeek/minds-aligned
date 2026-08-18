@@ -36,6 +36,10 @@ SITES=(
   "chris-fields|a8447ec3-b842-4a17-99b3-1e622edbad57|chris-fields|$ROOT/sites/chris-fields"
   "alexander-ororbia|f64adb2f-1381-4fd6-9945-0a909c3ab2de|alexander-ororbia|$ROOT/sites/alexander-ororbia"
   "hananel-hazan|208eaa16-daea-4268-aeef-7b273db01c4d|hananel-hazan|$ROOT/sites/hananel-hazan"
+  "josef-urban|08d7cfc0-86a1-4287-ac76-6001face375a|josef-urban|$ROOT/sites/josef-urban"
+  "neil-gershenfeld|96da8ad2-71e0-4af6-9440-ba1a8083b39f|neil-gershenfeld|$ROOT/sites/neil-gershenfeld"
+  "alexander-lerchner|3df1642a-3abd-4ea8-b162-f757a87049b9|alexander-lerchner|$ROOT/sites/alexander-lerchner"
+  "alex-wissner-gross|474be91d-9f2b-4e33-9981-61fc341e20e5|alex-wissner-gross|$ROOT/sites/alex-wissner-gross"
   "levinese|2ab17854-9e22-436b-b916-9f78d1335a54|-|$HOME/Projects/Levinese"
   "joschese|e8b5868e-4dc2-4993-822e-dd97a9c09ac6|-|$HOME/Projects/Joscha"
 )

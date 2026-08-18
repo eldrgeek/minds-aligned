@@ -1,0 +1,301 @@
+[
+  {
+    "slug": "10-1002-9780470429983-ch5--W2188160887",
+    "doi": "10.1002/9780470429983.ch5",
+    "doi_url": "https://doi.org/10.1002/9780470429983.ch5",
+    "title": "Dielectrophoretic Architectures",
+    "year": "2009",
+    "journal": null,
+    "authors": [
+      "Alexander D. Wissner‐Gross"
+    ],
+    "abstract": "This chapter contains sections titled: Introduction to Dielectrophoresis Dielectrophoretic Assembly and Transport of Nanodevices Dielectrophoretic Reconfiguration of Nanodevices Larger-Scale Architectures Conclusions Acknowledgements References",
+    "link": "https://doi.org/10.1002/9780470429983.ch5"
+  },
+  {
+    "slug": "10-1080-17458080600925807--W2033871699",
+    "doi": "10.1080/17458080600925807",
+    "doi_url": "https://doi.org/10.1080/17458080600925807",
+    "title": "Arrays of Cu<sup>2<b>+</b></sup>-complexed organic clusters grown on gold nano dots",
+    "year": "2007",
+    "journal": "Journal of Experimental Nanoscience",
+    "authors": [
+      "A. Hatzor-De Picciotto",
+      "Alexander D. Wissner‐Gross",
+      "G. Lavallee",
+      "Paul S. Weiss"
+    ],
+    "abstract": "Controlled growth of organic multilayers from periodic gold dot arrays on SiO2 surfaces has been used to create complex overlayer structures. Nanosphere lithography (NSL) was first used to produce uniform metal patterns with particle sizes of 40 nm, spaced by gaps of 80 nm. These particles served as the nucleation centers for layer-by-layer growth of organic/metal ion complexes. The resulting structures can either be isolated adsorbed dot structures on a continuous surface or continuous networks of the adsorbed materials with isolated arrays of SiO2 surface dots. Step-by-step organic multilayer growth from small isolated centers enables us to monitor each process step by direct surface imaging techniques. Further metal evaporation and lift-off of the organic layers creates star-shaped gold structures within the original array.",
+    "link": "https://doi.org/10.1080/17458080600925807"
+  },
+  {
+    "slug": "10-1088-0957-4484-17-19-035--W2103513144",
+    "doi": "10.1088/0957-4484/17/19/035",
+    "doi_url": "https://doi.org/10.1088/0957-4484/17/19/035",
+    "title": "Dielectrophoretic reconfiguration of nanowire interconnects",
+    "year": "2006",
+    "journal": "Nanotechnology",
+    "authors": [
+      "Alexander D. Wissner‐Gross"
+    ],
+    "abstract": "Silicon nanowire interconnects are dielectrophoretically assembled, reconfigured, and disassembled between gold electrodes in benzyl alcohol. Assembly of up to 55 µm long nanowires is demonstrated. Conductance enhancement is observed in the presence of single nanowires trapped between submerged electrodes. Phase inversion of electrode potentials allows the reversible reconfiguration of nanowires, either serially or in parallel. For disassembly, high-voltage bursts are observed to detonate trapped nanowires. The reconfiguration of colloidal electronic nanostructures opens up the possibility of nanostructured connection architectures for computation. (Some figures in this article are in colour only in the electronic version) M This article features online multimedia enhancements 1.",
+    "link": "https://doi.org/10.1088/0957-4484/17/19/035"
+  },
+  {
+    "slug": "10-1103-physreve-76-020501--W1987808149",
+    "doi": "10.1103/physreve.76.020501",
+    "doi_url": "https://doi.org/10.1103/physreve.76.020501",
+    "title": "Diamond stabilization of ice multilayers at human body temperature",
+    "year": "2007",
+    "journal": "Physical Review E",
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Efthimios Kaxiras"
+    ],
+    "abstract": "Diamond is a promising material for wear-resistant medical coatings. Here we report a remarkable increase in the melting point of ice resting on a diamond $(111)$ surface modified with a submonolayer of ${\\mathrm{Na}}^{+}$. Our molecular dynamics simulations show that the interfacial ice bilayer melts at a temperature $130\\phantom{\\rule{0.3em}{0ex}}\\mathrm{K}$ higher than in free ice, and relatively thick ice films ($2.6\\phantom{\\rule{0.3em}{0ex}}\\mathrm{nm}$ at $298\\phantom{\\rule{0.3em}{0ex}}\\mathrm{K}$ and $2.2\\phantom{\\rule{0.3em}{0ex}}\\mathrm{nm}$ at $310\\phantom{\\rule{0.3em}{0ex}}\\mathrm{K}$) are stabilized by dipole interactions with the substrate. This unique physical effect may enable biocompatibility-enhancing ice overcoatings for diamond at human body temperature.",
+    "link": "https://doi.org/10.1103/physreve.76.020501"
+  },
+  {
+    "slug": "10-1103-physreve-82-056104--W2028557892",
+    "doi": "10.1103/physreve.82.056104",
+    "doi_url": "https://doi.org/10.1103/physreve.82.056104",
+    "title": "Relativistic statistical arbitrage",
+    "year": "2010",
+    "journal": "Physical Review E",
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Cameron E. Freer"
+    ],
+    "abstract": "Recent advances in high-frequency financial trading have made light propagation delays between geographically separated exchanges relevant. Here we show that there exist optimal locations from which to coordinate the statistical arbitrage of pairs of spacelike separated securities, and calculate a representative map of such locations on Earth. Furthermore, trading local securities along chains of such intermediate locations results in a novel econophysical effect, in which the relativistic propagation of tradable information is effectively slowed or stopped by arbitrage.",
+    "link": "https://doi.org/10.1103/physreve.82.056104"
+  },
+  {
+    "slug": "10-1103-physrevlett-110-168702--W2003624562",
+    "doi": "10.1103/physrevlett.110.168702",
+    "doi_url": "https://doi.org/10.1103/physrevlett.110.168702",
+    "title": "Causal Entropic Forces",
+    "year": "2013",
+    "journal": "Physical Review Letters",
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Cameron E. Freer"
+    ],
+    "abstract": "Recent advances in fields ranging from cosmology to computer science have hinted at a possible deep connection between intelligence and entropy maximization, but no formal physical relationship between them has yet been established. Here, we explicitly propose a first step toward such a relationship in the form of a causal generalization of entropic forces that we find can cause two defining behaviors of the human \"cognitive niche\"-tool use and social cooperation-to spontaneously emerge in simple physical systems. Our results suggest a potentially general thermodynamic model of adaptive behavior as a nonequilibrium process in open systems.",
+    "link": "https://doi.org/10.1103/physrevlett.110.168702"
+  },
+  {
+    "slug": "10-1109-aipr47015-2019-9174572--W3080207609",
+    "doi": "10.1109/aipr47015.2019.9174572",
+    "doi_url": "https://doi.org/10.1109/aipr47015.2019.9174572",
+    "title": "Adaptive Online Learning for Human-Robot Teaming in Dynamic Environments",
+    "year": "2019",
+    "journal": null,
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Noah Weston",
+      "Manuel M. Vindiola"
+    ],
+    "abstract": "Robotic and vehicular autonomy in contested, dynamic environments has historically been limited to teleoperation and simple programmed behaviors due to the low survivability of available AI and machine-learning techniques in the face of novel situations. Here we report that recent few-shot machine-learning models trained using interactive, human-centered, vehicular simulations can enable collaborative learning that is both adaptive (dynamically recognizing unfamiliar environmental conditions) and online (learning at each time step). Specifically, we show that our human-machine teaming approach enables simulated vehicles to anticipate novel adversities imposed in real time, both externally by their terrain and internally by their own mechanics, using only images captured by their front-facing cameras. We conclude by discussing the implications of our work for enhancing the future survivability of human-robot teams in large-scale, cluttered, contested environments.",
+    "link": "https://doi.org/10.1109/aipr47015.2019.9174572"
+  },
+  {
+    "slug": "10-1109-aipr50011-2020-9425050--W3162705815",
+    "doi": "10.1109/aipr50011.2020.9425050",
+    "doi_url": "https://doi.org/10.1109/aipr50011.2020.9425050",
+    "title": "Tamper-Proofing Imagery from Distributed Sensors Using Learned Blockchain Consensus",
+    "year": "2020",
+    "journal": null,
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Jared C. Willard",
+      "Noah Weston"
+    ],
+    "abstract": "Area monitoring using wireless sensor networks that collect imagery and multimodal data from multiple vantage points, while requiring only limited local bandwidth and compute resources, promises improved resilience and scalability over single-camera imagery. However, the distributed nature of such networks can also increase their relative vulnerability to subversion via physical tampering. Here we address that nascent vulnerability by introducing a blockchain application that (1) learns correlations between low-dimensional projections of observed sequences captured by pairs of sensors, and (2) uses those correlations as a baseline for a soft consensus mechanism that identifies potentially compromised sensors with the strongest pairwise statistical anomalies. We then demonstrate our approach in a simulated environment in which a network of virtual cameras are aimed at a common dynamical scene from different vantage points, and show that after a training period of observing baseline behavior followed by the subversion of various numbers of the cameras, our application can correctly identify the cameras that have been compromised. Finally, we explore automated responses to such compromised sensors, including denying them shared resources and services.",
+    "link": "https://doi.org/10.1109/aipr50011.2020.9425050"
+  },
+  {
+    "slug": "10-1109-icalt-2006-1652568--W2161085819",
+    "doi": "10.1109/icalt.2006.1652568",
+    "doi_url": "https://doi.org/10.1109/icalt.2006.1652568",
+    "title": "Preparation of Topical Reading Lists from the Link Structure of Wikipedia",
+    "year": "2006",
+    "journal": null,
+    "authors": [
+      "Alexander D. Wissner‐Gross"
+    ],
+    "abstract": "Personalized reading preparation poses an important challenge for education and continuing education. Using a PageRank derivative and graph distance ordering, we show that personalized background reading lists can be generated automatically from the link structure of Wikipedia. We examine the operation of our new tool in professional, student, and interdisciplinary researcher learning models. Additionally, we present desktop and mobile interfaces for the generated reading lists.",
+    "link": "https://doi.org/10.1109/icalt.2006.1652568"
+  },
+  {
+    "slug": "10-1117-12-2015756--W4230521633",
+    "doi": "10.1117/12.2015756",
+    "doi_url": "https://doi.org/10.1117/12.2015756",
+    "title": "Participatory telerobotics",
+    "year": "2013",
+    "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Timothy Sullivan"
+    ],
+    "abstract": "We present a novel “participatory telerobotics” system that generalizes the existing concept of participatory sensing to include real-time teleoperation and telepresence by treating humans with mobile devices as ad-hoc telerobots. In our approach, operators or analysts first choose a desired location for remote surveillance or activity from a live geographic map and are then automatically connected via a coordination server to the nearest available trusted human. That human’s device is then activated and begins recording and streaming back to the operator a live audiovisual feed for telepresence, while allowing the operator in turn to request complex teleoperative motions or actions from the human. Supported action requests currently include walking, running, leaning, and turning, all with controllable magnitudes and directions. Compliance with requests is automatically measured and scored in real time by fusing information received from the device’s onboard sensors, including its accelerometers, gyroscope, magnetometer, GPS receiver, and cameras. Streams of action requests are visually presented by each device to its human in the form of an augmented reality game that rewards prompt physical compliance while remaining tolerant of network latency. Because of its ability to interactively elicit physical knowledge and operations through ad-hoc collaboration, we anticipate that our participatory telerobotics system will have immediate applications in the intelligence, retail, healthcare, security, and travel industries.",
+    "link": "https://doi.org/10.1117/12.2015756"
+  },
+  {
+    "slug": "10-1117-12-791268--W2050667337",
+    "doi": "10.1117/12.791268",
+    "doi_url": "https://doi.org/10.1117/12.791268",
+    "title": "Multicolor symbology for remotely scannable 2D barcodes",
+    "year": "2007",
+    "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Timothy M. Sullivan"
+    ],
+    "abstract": "There has been much recent interest in mobile systems for augmented reality. However, existing visual tagging solutions are not robust at the low resolutions typical of current camera phones or at the low solid angles needed for \"across-the-room\" reality augmentation. In this paper, we propose a new 2D barcode symbology that uses multiple colors in order to address these challenges. We present preliminary results, showing the detection of example barcodes in this scheme over a range of angles.",
+    "link": "https://doi.org/10.1117/12.791268"
+  },
+  {
+    "slug": "10-1177-1548512921996828--W3135456948",
+    "doi": "10.1177/1548512921996828",
+    "doi_url": "https://doi.org/10.1177/1548512921996828",
+    "title": "Joint sparsity-biased variational graph autoencoders",
+    "year": "2021",
+    "journal": "The Journal of Defense Modeling and Simulation Applications Methodology Technology",
+    "authors": [
+      "Lane Lawley",
+      "Will Frey",
+      "Patrick Mullen",
+      "Alexander D. Wissner‐Gross"
+    ],
+    "abstract": "To bring the full benefits of machine learning to defense modeling and simulation, it is essential to first learn useful representations for sparse graphs consisting of both key entities (vertices) and their relationships (edges). Here, we present a new model, the Joint Sparsity-Biased Variational Graph AutoEncoder (JSBVGAE), capable of learning embedded representations of nodes from which both sparse network topologies and node features can be jointly and accurately reconstructed. We show that our model outperforms the previous state of the art on standard link-prediction and node-classification tasks, and achieves significantly higher whole-network reconstruction accuracy, while reducing the number of trained parameters.",
+    "link": "https://doi.org/10.1177/1548512921996828"
+  },
+  {
+    "slug": "10-1557-proc-1152-tt03-01--W2168495131",
+    "doi": "10.1557/proc-1152-tt03-01",
+    "doi_url": "https://doi.org/10.1557/proc-1152-tt03-01",
+    "title": "Intruder Dynamics on Vibrofluidized Granular Surfaces",
+    "year": "2008",
+    "journal": "Materials Research Society Symposium Proceedings",
+    "authors": [
+      "Alexander D. Wissner‐Gross"
+    ],
+    "abstract": "Granular fluids have received significant attention for their transport characteristics within rigid boundaries. In this work, we study the potential for amorphous granular beds themselves to serve as elastic boundaries for transport and manipulation of surface particles. In particular, we measure the effect of the mass and diameter of an intruding particle, supported and tossed by a periodic vibrofluidized granular bed, on its horizontal self-diffusivity using a two-dimensional hard-sphere molecular dynamics simulation. Intruder mass and diameter scaling exponents are fitted and found to be consistent with dominant Stokes drift. Intruder types favorable for manipulation applications are identified.",
+    "link": "https://doi.org/10.1557/proc-1152-tt03-01"
+  },
+  {
+    "slug": "10-2174-187221008783478644--W2012977382",
+    "doi": "10.2174/187221008783478644",
+    "doi_url": "https://doi.org/10.2174/187221008783478644",
+    "title": "Interrogating Single Molecules",
+    "year": "2008",
+    "journal": "Recent Patents on Nanotechnology",
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Lin Cong"
+    ],
+    "abstract": "The development of nanotechnology relies heavily on the ability to observe and probe at molecular scales. Thus, breakthroughs in instrumentation and techniques play a significant role in the advancement in nanoscience. In this article, we survey recent developments in observing, trapping, and probing single molecules in solution. We give particular attention to patents that cover enabling instrumentation in each of these related areas including, respectively, fluorescence imaging, optical tweezers, and anti-Brownian traps. We conclude by highlighting a broad trend in the literature and patent base from observation toward active interrogation of single molecules in solution.",
+    "link": "https://doi.org/10.2174/187221008783478644"
+  },
+  {
+    "slug": "10-22489-cinc-2020-287--W3119554542",
+    "doi": "10.22489/cinc.2020.287",
+    "doi_url": "https://doi.org/10.22489/cinc.2020.287",
+    "title": "Computational Reconstruction of Electrocardiogram Lead Placement",
+    "year": "2020",
+    "journal": "Computing in cardiology",
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Suraj Kapa",
+      "James Lee",
+      "Desmond Keenan",
+      "Natasha Drapeau",
+      "Kenneth Londoner"
+    ],
+    "abstract": "We present a method for computationally reconstructing the spatial placement of electrocardiogram (ECG) leads using only correlations between their recorded signals and without requiring external calibration or other prior knowledge. We then apply our method to 12-lead ECGs obtained from the training dataset of the PhysioNet 2020 Challenge and examine the association of various cardiac abnormalities with the reconstructed geometries. Finally, we review potential clinical applications of our method, including automated recommendation of optimal lead placement, simplified visual summarization of ECG recordings, and improved automated classification of patient conditions.",
+    "link": "https://doi.org/10.22489/cinc.2020.287"
+  },
+  {
+    "slug": "10-48550-arxiv-0707-3657--W2108602221",
+    "doi": "10.48550/arxiv.0707.3657",
+    "doi_url": "https://doi.org/10.48550/arxiv.0707.3657",
+    "title": "Pattern Formation without Favored Local Interactions",
+    "year": "2007",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Alexander D. Wissner‐Gross"
+    ],
+    "abstract": "Individual cellular automata rules are attractive models for a range of biological and physical self-assembling systems. While coexpression and coevolution are common in such systems, ensembles of cellular automata rules remain poorly understood. Here we report the first known analysis of the equally weighted ensemble of all elementary cellular automata (ECA) rules. Ensemble dynamics reveal persistent, localized, non-interacting patterns, rather than homogenization. The patterns are strongly correlated by velocity and have a quasi-linear dependence on initial conditions. Dispersion from a single initial site generates peaks traveling at low-denominator fractional velocities, some of which are not discernible in individual rules, suggesting collective excitation. Further analysis of the time-evolved rule space shows the 256 ECA rules can be represented by only approximately 111 principal components. These results suggest the rather surprising conclusion that rich self-assembly is possible without favoring particular local interactions.",
+    "link": "https://doi.org/10.48550/arxiv.0707.3657"
+  },
+  {
+    "slug": "openalex-W1617354462",
+    "doi": null,
+    "doi_url": null,
+    "title": "Structure and Complexity in Rule Ensemble Cellular Automata",
+    "year": "2006",
+    "journal": "Bulletin of the American Physical Society",
+    "authors": [
+      "Alexander D. Wissner‐Gross"
+    ],
+    "abstract": "",
+    "link": "https://openalex.org/W1617354462"
+  },
+  {
+    "slug": "openalex-W2963746288",
+    "doi": null,
+    "doi_url": null,
+    "title": "Pattern Formation without Favored Local Interactions",
+    "year": "2008",
+    "journal": null,
+    "authors": [
+      "Alexander D. Wissner‐Gross"
+    ],
+    "abstract": "Individual cellular automata rules are attractive models for a range of biological and physical self-assembling systems. While coexpression and coevolution are common in such systems, ensembles of cellular automata rules remain poorly understood. Here we report the first known analysis of the equally weighted ensemble of all elementary cellular automata (ECA) rules. Ensembledynamicsrevealpersistent, localized, non-interactingpatterns, rather than homogenization. The patterns are strongly correlated by velocity and have a quasi-linear dependence on initial conditions. Dispersion from a single initial site generates peaks traveling at low-denominator fractional velocities, some of which are not discernible in individual rules, suggesting collective excitation. Further analysis of the time-evolved rule space shows the 256 ECArules can be represented by only approximately 111 principal components. These results suggest the rather surprising conclusion that rich self-assembly is possible without favoring particular local interactions.",
+    "link": "https://openalex.org/W2963746288"
+  },
+  {
+    "slug": "openalex-W3142476241",
+    "doi": null,
+    "doi_url": null,
+    "title": "Arrays of Cu2+-complexed organic clusters grown on gold nano dots",
+    "year": "2006",
+    "journal": "2006 NSTI Nanotechnology Conference and Trade Show - NSTI Nanotech 2006 Technical Proceedings",
+    "authors": [
+      "A. Picciotto",
+      "Alexander D. Wissner‐Gross",
+      "G. Lavallee",
+      "Paul S. Weiss"
+    ],
+    "abstract": "",
+    "link": "https://openalex.org/W3142476241"
+  },
+  {
+    "slug": "openalex-W3157731763",
+    "doi": null,
+    "doi_url": null,
+    "title": "A Thermodynamic Model for Behavioral Intelligence",
+    "year": "2012",
+    "journal": "APS March Meeting Abstracts",
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Cameron E. Freer"
+    ],
+    "abstract": "",
+    "link": "https://openalex.org/W3157731763"
+  },
+  {
+    "slug": "openalex-W3209520938",
+    "doi": null,
+    "doi_url": null,
+    "title": "Dielectrophoretic control of semiconductor nanostructure growth and assembly",
+    "year": "2005",
+    "journal": null,
+    "authors": [
+      "Alexander D. Wissner‐Gross",
+      "Charles M. Lieber"
+    ],
+    "abstract": "",
+    "link": "https://openalex.org/W3209520938"
+  }
+]

@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Ask" description="Ask questions grounded in Neil Gershenfeld's published work — answered by Lattice, the AI host of this archive.">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 pt-16 pb-20">
+    <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-3">Ask</p>
+    <h1 class="font-serif text-3xl sm:text-4xl font-medium text-ink mb-4">Ask Lattice</h1>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-ink">Lattice</strong> is the AI host of this archive, named for the
+      discretely assembled lattice &mdash; the structure, and the idea, that runs through
+      the second half of this record.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Open the host with the widget at the bottom-right of any page. It retrieves
+      passages from the papers indexed here and answers from them, with citations.
+    </p>
+    <p class="text-muted leading-relaxed mb-8 text-sm">
+      Lattice is not Neil Gershenfeld and does not speak for him. It is grounded in his
+      published work and nothing else; when the corpus does not cover a question, it
+      should say so rather than invent an answer.
+    </p>
+    <div class="flex flex-wrap gap-3">
+      <a href="/corpus/" class="inline-flex items-center gap-2 bg-accent text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-accent-mid transition-colors">
+        Browse the corpus
+      </a>
+      <a href="/dictionary/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+        Dictionary
+      </a>
+    </div>
+  </div>
+</Base>

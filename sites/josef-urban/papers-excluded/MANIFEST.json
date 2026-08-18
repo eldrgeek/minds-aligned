@@ -1,0 +1,261 @@
+[
+  {
+    "file": "10-1002-pi-4990300112--W1967902187.json",
+    "title": "Poly(methyl methacrylate) and polyacrylonitrile dispersions stabilized by gelatin",
+    "year": "1993",
+    "journal": "Polymer International",
+    "authors": [
+      "Jaroslav Stejskal",
+      "Pavel Kratochvı́l",
+      "Josef Urban",
+      "G. S. Kapur",
+      "Y. Lakshminarayana"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1007-bf00273155--W2022373737.json",
+    "title": "Cell division and sister chromatid exchanges in 45,X/46,X,i(Xq) mosaicism",
+    "year": "1977",
+    "journal": "Human Genetics",
+    "authors": [
+      "Kyra Michalov�",
+      "Jana M�lkov�",
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1016-0032-3861(90)90002-g--W2006241050.json",
+    "title": "Light-scattering characterization of spherical particles prepared by the dispersion polymerization of methyl methacrylate in a non-aqueous medium",
+    "year": "1990",
+    "journal": "Polymer",
+    "authors": [
+      "Jaroslav Stejskal",
+      "Pavel Kratochvi ́l",
+      "Petr Koubi ́k",
+      "Zdeněk Tuzar",
+      "Josef Urban",
+      "Martin Helmstedt",
+      "A. D. Jenkins"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1016-0165-1218(79)90023-5--W2024786752.json",
+    "title": "Sister-chromatid exchanges and chromosal breakage in patients treated with cytostatics",
+    "year": "1979",
+    "journal": "Mutation Research/Genetic Toxicology",
+    "authors": [
+      "Jana Musilová",
+      "K Michalová",
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1109-ims-1991-153683--W2162841144.json",
+    "title": "A method for integrating heterogeneous knowledge-bases",
+    "year": "2002",
+    "journal": null,
+    "authors": [
+      "Patrick O. Bobbie",
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1109-iwssip-2007-4381200--W2078345406.json",
+    "title": "OFDM PAPR reduction by combination of Interleaving with Repeated clipping and filtering",
+    "year": "2007",
+    "journal": null,
+    "authors": [
+      "Josef Urban",
+      "Roman Maršálek"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1109-radioelek-2007-371658--W2028285900.json",
+    "title": "PAPR Reduction by Combination of Interleaving with Repeated Clipping and Filtering in OFDM",
+    "year": "2007",
+    "journal": null,
+    "authors": [
+      "Josef Urban",
+      "Roman Maršálek"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1109-radioelek-2008-4542686--W2170392808.json",
+    "title": "OFDM PAPR Reduction by Partial Transmit Sequences and Simplified Clipping with Bounded Distortion",
+    "year": "2008",
+    "journal": null,
+    "authors": [
+      "Josef Urban",
+      "Roman Maršálek"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1109-tai-1989-65298--W2130052670.json",
+    "title": "A model for understanding complexities of developing large-scale software systems",
+    "year": "2003",
+    "journal": null,
+    "authors": [
+      "Patrick O. Bobbie",
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1109-tai-1990-130404--W2116085007.json",
+    "title": "A knowledge-driven methodology for eliciting and restructuring software requirements for distributed design",
+    "year": "2002",
+    "journal": "[1990] Proceedings of the 2nd International IEEE Conference on Tools for Artificial Intelligence",
+    "authors": [
+      "Patrick O. Bobbie",
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-1135-cccc19900307--W4251867687.json",
+    "title": "Antimycobacterial thiobenzanilides",
+    "year": "1990",
+    "journal": "Collection of Czechoslovak Chemical Communications",
+    "authors": [
+      "Karel Waisser",
+      "N Houngbedji",
+      "Miloš Macháček",
+      "Miroslav Sekera",
+      "Josef Urban",
+      "Z. ODLEROVA"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-48550-arxiv-2201-12266--W4225716852.json",
+    "title": "Six Questions about 6G",
+    "year": "2022",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Kimberley Parsons Trommler",
+      "Matthias Häfner",
+      "Wolfgang Kellerer",
+      "Merz, Peter",
+      "Sigurd Schuster",
+      "Josef Urban",
+      "Uwe Baeder",
+      "Bertram Gunzelmann",
+      "Andreas Kornbichler"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "10-48550-arxiv-2203-13094--W4281384921.json",
+    "title": "Six Insights into 6G: Orientation and Input for Developing Your Strategic 6G Research Plan",
+    "year": "2022",
+    "journal": "arXiv (Cornell University)",
+    "authors": [
+      "Kimberley Parsons Trommler",
+      "Matthias Häfner",
+      "Wolfgang Kellerer",
+      "Peter Merz",
+      "Sigurd Schuster",
+      "Josef Urban",
+      "Uwe Baeder",
+      "Bertram Gunzelmann",
+      "Andreas Kornbichler"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "openalex-W1626293839.json",
+    "title": "Zusammenspiel von Problemlösestrategien und Theorie-Entwicklung: ein Ansatz zur Simulation",
+    "year": "1995",
+    "journal": "Social Science Open Access Repository (GESIS – Leibniz Institute for the Social Sciences)",
+    "authors": [
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "openalex-W2186463849.json",
+    "title": "THE COMBINATION OF CLIPPING AND FILTERING WITH SELECTIVE MAPPING METHODS FOR PEAK TO AVERAGE POWER RATIO REDUCTION IN OFDM",
+    "year": "2009",
+    "journal": null,
+    "authors": [
+      "Josef Urban",
+      "Roman Maršálek"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "openalex-W2233141071.json",
+    "title": "Nejhlubší údolí světa",
+    "year": "1998",
+    "journal": null,
+    "authors": [
+      "Robert Kazík",
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "openalex-W2736918348.json",
+    "title": "Implementation of the phase I of TIGGE [presentation]",
+    "year": "2007",
+    "journal": null,
+    "authors": [
+      "J. Worley",
+      "Josef Urban",
+      "B. Raoult",
+      "Manrique G. Fuentes",
+      "Clemens M. Schuster",
+      "C. Yoksas",
+      "Devin L. Brown"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "openalex-W2919639610.json",
+    "title": "Reakce vybraných odrůd brambor na hustotu porostu",
+    "year": "2011",
+    "journal": "Digital Repository (National Repository of Grey Literature)",
+    "authors": [
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "openalex-W3006023360.json",
+    "title": "Historie fotbalového klubu v Kostelci nad Labem",
+    "year": "2012",
+    "journal": "Digital Repository (National Repository of Grey Literature)",
+    "authors": [
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "openalex-W3009039198.json",
+    "title": "Lucemburkové a Apeninský poloostrov",
+    "year": "2011",
+    "journal": "Digital Repository (National Repository of Grey Literature)",
+    "authors": [
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  },
+  {
+    "file": "openalex-W7135471456.json",
+    "title": "History of football club in Kostelec nad Labem",
+    "year": "2012",
+    "journal": "Digital Repository (National Repository of Grey Literature)",
+    "authors": [
+      "Josef Urban"
+    ],
+    "reason": "no co-author path to the automated-reasoning component; different person of the same name"
+  }
+]

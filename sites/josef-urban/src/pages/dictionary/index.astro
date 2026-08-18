@@ -1,0 +1,153 @@
+---
+import Base from '../../layouts/Base.astro';
+import papersData from '../../data/papers.json';
+
+type Paper = {
+  slug: string;
+  title?: string;
+  year?: string | number | null;
+  journal?: string | null;
+  doi_url?: string | null;
+  link?: string | null;
+};
+
+const papers = papersData as Paper[];
+const normalise = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+/* Prefer the version of record over the preprint duplicate when both are indexed. */
+const byTitle = new Map<string, Paper>();
+for (const p of papers) {
+  const k = normalise(p.title || '');
+  const existing = byTitle.get(k);
+  const isPreprint = /arxiv|biorxiv|zenodo/i.test(String(p.journal || ''));
+  if (!existing || (!isPreprint && /arxiv|biorxiv|zenodo/i.test(String(existing.journal || '')))) {
+    byTitle.set(k, p);
+  }
+}
+
+/* Every entry below is a standard definition of a term as the field uses it, paired
+ * with a paper IN THIS ARCHIVE where Urban works with it. The definitions are not
+ * quotations of Urban and are not attributed to him; the citation is the claim. */
+const entries = [
+  {
+    term: 'Automated theorem prover (ATP)',
+    body:
+      'A program that searches for a proof of a conjecture from a set of axioms with no human in the loop — it either finds one, runs out of time, or reports failure. Powerful in principle and combinatorially explosive in practice, which is the gap most of this archive works in.',
+    see: 'Learning Guided Automated Reasoning: A Brief Survey',
+  },
+  {
+    term: 'Proof assistant (ITP)',
+    body:
+      'The interactive counterpart: a system in which a human writes a proof and the machine checks every step. Mizar, HOL Light, HOL4, Isabelle and Coq all appear in this corpus — a hammer is the bridge from one of these to an ATP.',
+    see: 'Mizar: State-of-the-art and Beyond',
+  },
+  {
+    term: 'Mizar Mathematical Library (MML)',
+    body:
+      'One of the largest bodies of formalized, machine-checked mathematics, written in the Mizar language over decades. It is the substrate for much of this archive: first as something to translate, later as a training set.',
+    see: 'Translating Mizar for First Order Theorem Provers',
+  },
+  {
+    term: 'MPTP',
+    body:
+      'Mizar Problems for Theorem Proving — Urban’s translation of the Mizar library into first-order problems that ordinary automated provers can attempt. The move that turns a library of human proofs into a benchmark and a training corpus.',
+    see: 'MPTP 0.2: Design, Implementation, and Initial Experiments',
+  },
+  {
+    term: 'Premise selection',
+    body:
+      'Choosing which of thousands of available facts to hand a prover for a given conjecture. Called out in this corpus as “one of the main bottlenecks in the formalization of mathematics” — get it wrong and a solvable goal becomes unreachable.',
+    see: 'DeepMath - Deep Sequence Models for Premise Selection',
+  },
+  {
+    term: 'Large-theory reasoning',
+    body:
+      'Automated reasoning in settings where thousands of theorems, definitions and lemmas are available at once and consistently reused, rather than the handful of axioms a classical prover expects. The setting MaLARea was built for.',
+    see: 'MaLARea: a Metasystem for Automated Reasoning in Large Theories.',
+  },
+  {
+    term: 'Hammer',
+    body:
+      'A tool inside a proof assistant that takes the current goal, selects relevant facts, ships the problem to external automated provers, and reconstructs any proof that comes back as a checked proof in the assistant. The user experience of everything above.',
+    see: 'HOL(y)Hammer: Online ATP Service for HOL Light',
+  },
+  {
+    term: 'Clause selection',
+    body:
+      'Inside a saturation-style prover, the repeated choice of which clause to process next — the single most consequential decision in the search loop, and the one ENIGMA learns to make from previous proofs.',
+    see: 'ENIGMA: Efficient Learning-Based Inference Guiding Machine',
+  },
+  {
+    term: 'Tactic',
+    body:
+      'A proof-assistant command that transforms a goal into subgoals — the unit a human actually writes. TacticToe learns, from human proofs, which tactic suits a situation, and searches at that level rather than over raw inference steps.',
+    see: 'TacticToe: Learning to Prove with Tactics',
+  },
+  {
+    term: 'Property-invariant embedding',
+    body:
+      'A way of representing logical formulas for a neural network so that the representation does not depend on the particular names of symbols — so a learner generalizes across problems that use different vocabulary for the same structure.',
+    see: 'Property Invariant Embedding for Automated Reasoning',
+  },
+  {
+    term: 'Conjecturing',
+    body:
+      'Producing the statement to be proved rather than the proof of a given statement — here, learning to invent the induction predicates that hard arithmetic problems need, starting from no examples of them.',
+    see: 'Learning Conjecturing from Scratch',
+  },
+  {
+    term: 'Autoformalization',
+    body:
+      'Translating ordinary mathematical prose into a formal language a proof assistant can check — the reverse direction from MPTP. In this corpus it moves from a neural-machine-translation experiment on Mizar to a textbook of topology formalized at scale.',
+    see: 'Exploration of neural machine translation in autoformalization of mathematics in Mizar',
+  },
+].map(e => ({
+  ...e,
+  paper: e.see ? byTitle.get(normalise(e.see)) : undefined,
+  href: (e as { href?: string }).href,
+  hrefLabel: (e as { hrefLabel?: string }).hrefLabel,
+}));
+---
+<Base title="Dictionary" description="Concept dictionary for the Josef Urban archive — automated theorem proving, premise selection, hammers, and autoformalization, each pointed at a paper in the corpus.">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 pt-12 pb-20">
+    <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-3">Dictionary</p>
+    <h1 class="font-serif text-3xl sm:text-4xl font-medium text-ink mb-4">Concept dictionary</h1>
+    <p class="text-muted leading-relaxed mb-3">
+      The vocabulary you need to read this archive. Each entry is the term as the field
+      uses it, paired with a paper in the corpus where Urban works with it.
+    </p>
+    <p class="text-muted/70 text-sm leading-relaxed mb-10">
+      The definitions are ours, written to get you into the papers &mdash; they are not
+      quotations of Urban. The citation under each one is the part that is his.
+    </p>
+
+    <dl class="divide-y divide-border">
+      {entries.map(e => (
+        <div class="py-6">
+          <dt class="font-serif text-xl font-medium text-ink mb-2">{e.term}</dt>
+          <dd class="text-muted leading-relaxed text-sm mb-3">{e.body}</dd>
+          {e.paper && (
+            <dd class="text-xs">
+              <span class="text-muted/60 font-mono uppercase tracking-wide mr-2">In the corpus</span>
+              {(e.paper.doi_url || e.paper.link) ? (
+                <a href={e.paper.doi_url || e.paper.link!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">
+                  {e.paper.title} ({e.paper.year}) ↗
+                </a>
+              ) : (
+                <span class="text-muted">{e.paper.title} ({e.paper.year})</span>
+              )}
+            </dd>
+          )}
+          {!e.paper && e.href && (
+            <dd class="text-xs">
+              <span class="text-muted/60 font-mono uppercase tracking-wide mr-2">In the corpus</span>
+              <a href={e.href} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">{e.hrefLabel} ↗</a>
+            </dd>
+          )}
+        </div>
+      ))}
+    </dl>
+
+    <a href="/corpus/" class="inline-block mt-10 text-accent hover:text-accent-mid text-sm font-medium">Browse the full corpus →</a>
+  </div>
+</Base>

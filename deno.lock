@@ -13,6 +13,7 @@
       "dependencies": [
         "npm:@astrojs/tailwind@^5.1.3",
         "npm:astro@^4.16.0",
+        "npm:qrcode@^1.5.4",
         "npm:tailwindcss@^3.4.14"
       ]
     },
@@ -31,6 +32,26 @@
         "packageJson": {
           "dependencies": [
             "npm:astro@^4.16.0"
+          ]
+        }
+      },
+      "sites/alex-wissner-gross": {
+        "packageJson": {
+          "dependencies": [
+            "npm:@astrojs/tailwind@^5.1.3",
+            "npm:astro@^4.16.0",
+            "npm:minisearch@^7.2.0",
+            "npm:tailwindcss@^3.4.14"
+          ]
+        }
+      },
+      "sites/alexander-lerchner": {
+        "packageJson": {
+          "dependencies": [
+            "npm:@astrojs/tailwind@^5.1.3",
+            "npm:astro@^4.16.0",
+            "npm:minisearch@^7.2.0",
+            "npm:tailwindcss@^3.4.14"
           ]
         }
       },
@@ -124,11 +145,31 @@
           ]
         }
       },
+      "sites/hananel-hazan": {
+        "packageJson": {
+          "dependencies": [
+            "npm:@astrojs/tailwind@^5.1.3",
+            "npm:astro@^4.16.0",
+            "npm:minisearch@^7.2.0",
+            "npm:tailwindcss@^3.4.14"
+          ]
+        }
+      },
       "sites/joscha-bach": {
         "packageJson": {
           "dependencies": [
             "npm:@astrojs/tailwind@^5.1.3",
             "npm:astro@^4.16.0",
+            "npm:tailwindcss@^3.4.14"
+          ]
+        }
+      },
+      "sites/josef-urban": {
+        "packageJson": {
+          "dependencies": [
+            "npm:@astrojs/tailwind@^5.1.3",
+            "npm:astro@^4.16.0",
+            "npm:minisearch@^7.2.0",
             "npm:tailwindcss@^3.4.14"
           ]
         }
@@ -148,6 +189,16 @@
           "dependencies": [
             "npm:@astrojs/tailwind@^5.1.3",
             "npm:astro@^4.16.0",
+            "npm:tailwindcss@^3.4.14"
+          ]
+        }
+      },
+      "sites/neil-gershenfeld": {
+        "packageJson": {
+          "dependencies": [
+            "npm:@astrojs/tailwind@^5.1.3",
+            "npm:astro@^4.16.0",
+            "npm:minisearch@^7.2.0",
             "npm:tailwindcss@^3.4.14"
           ]
         }

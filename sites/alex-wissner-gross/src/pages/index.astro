@@ -1,0 +1,316 @@
+---
+import Base from '../layouts/Base.astro';
+import papersData from '../data/papers.json';
+
+type Paper = {
+  slug: string;
+  title?: string;
+  abstract?: string;
+  year?: string | number | null;
+  journal?: string | null;
+  authors?: string[];
+  doi_url?: string | null;
+  link?: string | null;
+};
+
+const papers = papersData as Paper[];
+
+const years = papers
+  .map(p => parseInt(String(p.year ?? ''), 10))
+  .filter(y => Number.isFinite(y) && y > 1900);
+const earliest = Math.min(...years);
+const latest = Math.max(...years);
+
+const normalise = (t: string) => t.toLowerCase().replace(/<[^>]*>/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+const byTitle = new Map<string, Paper>();
+for (const p of papers) {
+  const k = normalise(p.title || '');
+  const existing = byTitle.get(k);
+  const isPreprint = /arxiv|abstracts|proceedings/i.test(String(p.journal || ''));
+  const existingIsPreprint = existing ? /arxiv|abstracts|proceedings/i.test(String(existing.journal || '')) : true;
+  if (!existing || (!isPreprint && existingIsPreprint) || (!existing.doi_url && p.doi_url)) {
+    byTitle.set(k, p);
+  }
+}
+const find = (t: string) => byTitle.get(normalise(t));
+
+const position = (p?: Paper) => {
+  const au = p?.authors ?? [];
+  const i = au.findIndex(a => /wissner/i.test(a));
+  if (i < 0 || au.length === 0) return '';
+  if (au.length === 1) return 'sole author';
+  if (i === 0) return `first of ${au.length} authors`;
+  if (i === au.length - 1) return `last of ${au.length} authors`;
+  return `author ${i + 1} of ${au.length}`;
+};
+
+const selected = [
+  'Dielectrophoretic control of semiconductor nanostructure growth and assembly',
+  'Preparation of Topical Reading Lists from the Link Structure of Wikipedia',
+  'Dielectrophoretic reconfiguration of nanowire interconnects',
+  'Pattern Formation without Favored Local Interactions',
+  'Diamond stabilization of ice multilayers at human body temperature',
+  'Multicolor symbology for remotely scannable 2D barcodes',
+  'Intruder Dynamics on Vibrofluidized Granular Surfaces',
+  'Relativistic statistical arbitrage',
+  'A Thermodynamic Model for Behavioral Intelligence',
+  'Participatory telerobotics',
+  'Causal Entropic Forces',
+  'Adaptive Online Learning for Human-Robot Teaming in Dynamic Environments',
+  'Computational Reconstruction of Electrocardiogram Lead Placement',
+  'Tamper-Proofing Imagery from Distributed Sensors Using Learned Blockchain Consensus',
+  'Joint sparsity-biased variational graph autoencoders',
+]
+  .map(t => ({ paper: find(t) }))
+  .filter((s): s is { paper: Paper } => Boolean(s.paper))
+  .map(s => ({ ...s, role: position(s.paper) }));
+
+const selectedSorted = selected
+  .slice()
+  .sort((a, b) => (parseInt(String(b.paper.year ?? 0)) || 0) - (parseInt(String(a.paper.year ?? 0)) || 0));
+
+const nanowire = find('Dielectrophoretic reconfiguration of nanowire interconnects');
+const ca = find('Pattern Formation without Favored Local Interactions');
+const ice = find('Diamond stabilization of ice multilayers at human body temperature');
+const arbitrage = find('Relativistic statistical arbitrage');
+const cef = find('Causal Entropic Forces');
+const wiki = find('Preparation of Topical Reading Lists from the Link Structure of Wikipedia');
+const teaming = find('Adaptive Online Learning for Human-Robot Teaming in Dynamic Environments');
+const thermo = find('A Thermodynamic Model for Behavioral Intelligence');
+
+const lines = [
+  {
+    title: 'Moving matter with fields',
+    when: 'Harvard, 2005–2009',
+    body: 'The record opens in the laboratory: silicon nanowires "dielectrophoretically assembled, reconfigured, and disassembled between gold electrodes", organic clusters grown on gold nanodot arrays. Structures placed by a field rather than by hand — self-assembly with a knob on it.',
+    link: nanowire,
+    linkLabel: 'Dielectrophoretic reconfiguration of nanowire interconnects (2006)',
+  },
+  {
+    title: 'Rules in ensembles',
+    when: '2007–2008',
+    body: 'The same interest, abstracted. Cellular automata are, in his words, "attractive models for a range of biological and physical self-assembling systems" — but real systems coexpress many rules at once, and this paper reports what it calls the first analysis of the equally-weighted ensemble: pattern formation without any favored local interaction.',
+    link: ca,
+    linkLabel: 'Pattern Formation without Favored Local Interactions (2007)',
+  },
+  {
+    title: 'Physics with a purpose',
+    when: '2007–2010',
+    body: 'Then a run of problems that look unrelated and share a method: find the physical constraint nobody costed. Ice on a diamond surface melting well above body temperature. Granular beds treated as elastic boundaries. And the light-speed one — where on Earth to stand to arbitrage two exchanges, given that information cannot outrun c.',
+    link: arbitrage,
+    linkLabel: 'Relativistic statistical arbitrage, Physical Review E (2010)',
+  },
+  {
+    title: 'Intelligence as a force',
+    when: '2012–2013',
+    body: 'The central paper of the archive. It observes that work "ranging from cosmology to computer science" has "hinted at a possible deep connection between intelligence and entropy maximization, but no formal physical relationship between them has yet been established" — and proposes one: a force that acts to keep future options open, over a finite time horizon.',
+    link: cef,
+    linkLabel: 'Causal Entropic Forces, Physical Review Letters (2013)',
+  },
+  {
+    title: 'Systems with people in them',
+    when: '2006–2013',
+    body: 'Running alongside all of it, a quieter line about the interface between people and machines: reading lists generated from the link structure of Wikipedia, barcodes designed to be legible across a room, and "participatory telerobotics" — a system that treats humans carrying mobile devices as ad-hoc telerobots.',
+    link: wiki,
+    linkLabel: 'Preparation of Topical Reading Lists from the Link Structure of Wikipedia (2006)',
+  },
+  {
+    title: 'Deployed learning',
+    when: '2019–2021',
+    body: 'The most recent work is applied and defense-adjacent: few-shot learning for human-robot teaming in contested environments, reconstructing where ECG leads were placed from the signals alone, blockchain consensus to keep distributed sensor imagery tamper-evident, and representation learning over sparse graphs.',
+    link: teaming,
+    linkLabel: 'Adaptive Online Learning for Human-Robot Teaming in Dynamic Environments (2019)',
+  },
+];
+
+const href = (p?: Paper) => (p ? (p.doi_url || p.link || null) : null);
+---
+<Base title="Home" description="Publication archive and grounded AI guide for Alex Wissner-Gross — causal entropic forces, self-assembly, and intelligence as a physical process.">
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12">
+    <div class="max-w-2xl">
+      <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-4">AGI-26 keynote</p>
+      <h1 class="font-serif text-4xl sm:text-5xl font-medium text-ink leading-tight mb-6">
+        Alex Wissner-Gross
+      </h1>
+      <p class="text-lg text-muted leading-relaxed mb-6">
+        Alex Wissner-Gross is Founder and Chief Scientist of Physical Superintelligence,
+        with a doctorate in physics from Harvard and a published record that moves between
+        the laboratory bench and the question of what intelligence is, physically.
+      </p>
+      <blockquote class="border-l-2 border-accent/50 pl-4 mb-8 text-muted leading-relaxed">
+        <p class="italic">
+          &ldquo;A physicist, computer scientist, entrepreneur, and investor working at the
+          intersection of artificial intelligence and the physical world.&rdquo;
+        </p>
+        <cite class="not-italic text-sm text-muted/70 block mt-2 font-mono">
+          — his own description,
+          <a href="https://www.alexwg.org/" target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">alexwg.org</a>
+        </cite>
+      </blockquote>
+      <div class="flex flex-wrap gap-3">
+        <a href="/corpus/" class="inline-flex items-center gap-2 bg-accent text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-accent-mid transition-colors">
+          Browse Corpus
+        </a>
+        <a href="/dictionary/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Dictionary
+        </a>
+        <a href="/ask/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Ask
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-3">A small corpus, deliberately wide</h2>
+    <p class="text-muted leading-relaxed mb-10 max-w-2xl">
+      This is the shortest publication record in the constellation, and reading it in order
+      is unlike reading the others: the topics barely repeat. What repeats is a move &mdash;
+      <em class="text-ink not-italic">take a behaviour everyone treats as given, and find the
+      physical law that already constrains it.</em>
+    </p>
+    <ol class="relative border-l border-border ml-2">
+      {lines.map(l => (
+        <li class="pl-6 pb-9 relative">
+          <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+          <div class="flex items-baseline gap-3 flex-wrap mb-2">
+            <h3 class="font-serif text-xl font-medium text-ink">{l.title}</h3>
+            <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">{l.when}</span>
+          </div>
+          <p class="text-muted text-sm leading-relaxed mb-2 max-w-2xl">{l.body}</p>
+          {href(l.link) && (
+            <a href={href(l.link)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-xs font-medium">
+              {l.linkLabel} ↗
+            </a>
+          )}
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">At a conference called AGI-26</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          Causal Entropic Forces makes an unusual kind of claim for this roster: not that
+          intelligence can be built a particular way, but that it might be a
+          <em>physical</em> quantity &mdash; behaviour that maximizes the diversity of
+          futures still reachable, over some horizon. Adaptive, goal-like conduct falls out
+          of a thermodynamic quantity rather than being programmed in.
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          It is a strong claim and it has been argued with. The archive links the paper, in
+          the venue it was published in, and leaves the argument where it belongs &mdash;
+          with the reader and the literature, not with a summary.
+        </p>
+        {href(cef) && (
+          <a href={href(cef)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Read Causal Entropic Forces ↗</a>
+        )}
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">What this archive can and cannot show</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          A publication record is a partial picture of anyone, and here it is unusually
+          partial: the public work that most people know him for &mdash; talks, a widely
+          read newsletter, company building, and the venture side &mdash; leaves no trace in
+          a citation database. This archive covers the {papers.length} indexed research
+          records and makes no claim to be the rest.
+        </p>
+        <div class="flex flex-col gap-2 text-sm">
+          {href(thermo) && (
+            <a href={href(thermo)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid font-medium">
+              A Thermodynamic Model for Behavioral Intelligence (2012) ↗
+            </a>
+          )}
+          <a href="/corpus/" class="text-accent hover:text-accent-mid font-medium">
+            Browse all {papers.length} records &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-2">Selected work</h2>
+    <p class="text-muted text-sm mb-8 max-w-2xl">
+      {selectedSorted.length} entries drawn from the archive &mdash; nearly the whole of it &mdash; titled exactly as
+      the records read, with his position in the author list computed from each record.
+    </p>
+    <ol class="divide-y divide-border">
+      {selectedSorted.map(s => (
+        <li class="py-4">
+          <div class="flex items-start gap-3">
+            <span class="font-mono text-xs text-muted/60 mt-1 shrink-0 w-10">{s.paper.year}</span>
+            <div class="min-w-0">
+              {href(s.paper) ? (
+                <a href={href(s.paper)!} target="_blank" rel="noopener noreferrer" class="text-ink font-medium text-sm hover:text-accent transition-colors leading-snug">
+                  {s.paper.title}
+                </a>
+              ) : (
+                <span class="text-ink font-medium text-sm leading-snug">{s.paper.title}</span>
+              )}
+              <div class="flex flex-wrap items-baseline gap-x-3 mt-1">
+                {s.paper.journal && (
+                  <span class="text-xs text-muted italic">{s.paper.journal}</span>
+                )}
+                <span class="text-xs text-muted/70">{s.role}</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">Background</h2>
+        <dl class="text-sm space-y-3">
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Now</dt>
+            <dd class="text-muted leading-relaxed">
+              Founder and Chief Scientist of Physical Superintelligence, per his own site.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Education</dt>
+            <dd class="text-muted leading-relaxed">
+              Ph.D. in Physics, Harvard (2007). Triple major at MIT (2003) in physics,
+              electrical science and engineering, and mathematics &mdash; both as stated on
+              alexwg.org.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Recurring collaborator</dt>
+            <dd class="text-muted leading-relaxed">
+              Cameron E. Freer, co-author on both Relativistic statistical arbitrage and
+              Causal Entropic Forces &mdash; the two papers where the method is at its most
+              explicit.
+            </dd>
+          </div>
+        </dl>
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">About this archive</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          This is an independent archive of Alex Wissner-Gross&rsquo;s indexed publication
+          record, built for Society of Minds Aligned and AGI-26. Records span
+          {' '}{earliest}&ndash;{latest} and are drawn from OpenAlex. It is small &mdash;
+          {papers.length} records &mdash; and the site says so rather than padding it.
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          Biography, degrees and the quotation above come from his own site. Patent counts,
+          award tallies and audience figures that appear there are not repeated here: they
+          are self-reported and not independently checkable from this corpus.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed">
+          Not written by, reviewed by, or endorsed by Alex Wissner-Gross. If you are Alex and
+          something here is wrong, the feedback control at the bottom of the page reaches us
+          directly &mdash; and the claim bar will hand you the site.
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>

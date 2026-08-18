@@ -1,0 +1,334 @@
+---
+import Base from '../layouts/Base.astro';
+import papersData from '../data/papers.json';
+
+type Paper = {
+  slug: string;
+  title?: string;
+  abstract?: string;
+  year?: string | number | null;
+  journal?: string | null;
+  authors?: string[];
+  doi_url?: string | null;
+  link?: string | null;
+};
+
+const papers = papersData as Paper[];
+
+const years = papers
+  .map(p => parseInt(String(p.year ?? ''), 10))
+  .filter(y => Number.isFinite(y) && y > 1900);
+const earliest = Math.min(...years);
+const latest = Math.max(...years);
+
+const normalise = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const byTitle = new Map<string, Paper>();
+for (const p of papers) {
+  const k = normalise(p.title || '');
+  const existing = byTitle.get(k);
+  const isPreprint = /arxiv|biorxiv|zenodo|repository|dspace/i.test(String(p.journal || ''));
+  const existingIsPreprint = existing ? /arxiv|biorxiv|zenodo|repository|dspace/i.test(String(existing.journal || '')) : true;
+  if (!existing || (!isPreprint && existingIsPreprint) || (!existing.doi_url && p.doi_url)) {
+    byTitle.set(k, p);
+  }
+}
+const find = (t: string) => byTitle.get(normalise(t));
+
+/* Derived from each record's own author list, not asserted by hand. Worth reading on this
+ * archive in particular: the last-author position recurs, which is the senior/lab-lead
+ * slot in this field's convention. */
+const position = (p?: Paper) => {
+  const au = p?.authors ?? [];
+  const i = au.findIndex(a => /lerchner/i.test(a));
+  if (i < 0 || au.length === 0) return '';
+  if (au.length === 1) return 'sole author';
+  if (i === 0) return `first of ${au.length} authors`;
+  if (i === au.length - 1) return `last of ${au.length} authors`;
+  return `author ${i + 1} of ${au.length}`;
+};
+
+const selected = [
+  'Mean field theory for a balanced hypercolumn model of orientation selectivity in primary visual cortex',
+  'Response variability in balanced cortical networks',
+  'A unifying framework for understanding state-dependent network dynamics in cortex',
+  'Early Visual Concept Learning with Unsupervised Deep Learning',
+  'beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework',
+  'SCAN: Learning Hierarchical Compositional Visual Concepts',
+  'DARLA: Improving Zero-Shot Transfer in Reinforcement Learning',
+  'Understanding disentangling in $\\beta$-VAE',
+  'Towards a Definition of Disentangled Representations',
+  'MONet: Unsupervised Scene Decomposition and Representation',
+  'Multi-Object Representation Learning with Iterative Variational Inference',
+  'SIMONe: View-Invariant, Temporally-Abstracted Object Representations via Unsupervised Video Decomposition',
+  'Alchemy: A benchmark and analysis toolkit for meta-reinforcement learning agents',
+  'Formalising Concepts as Grounded Abstractions',
+  'Scaling Instructable Agents Across Many Simulated Worlds',
+  'SIMA 2: A Generalist Embodied Agent for Virtual Worlds',
+  'From AGI to ASI',
+]
+  .map(t => ({ paper: find(t) }))
+  .filter((s): s is { paper: Paper } => Boolean(s.paper))
+  .map(s => ({ ...s, role: position(s.paper) }));
+
+const selectedSorted = selected
+  .slice()
+  .sort((a, b) => (parseInt(String(b.paper.year ?? 0)) || 0) - (parseInt(String(a.paper.year ?? 0)) || 0));
+
+const hypercolumn = find('Mean field theory for a balanced hypercolumn model of orientation selectivity in primary visual cortex');
+const betavae = find('beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework');
+const scan = find('SCAN: Learning Hierarchical Compositional Visual Concepts');
+const darla = find('DARLA: Improving Zero-Shot Transfer in Reinforcement Learning');
+const definition = find('Towards a Definition of Disentangled Representations');
+const monet = find('MONet: Unsupervised Scene Decomposition and Representation');
+const simone = find('SIMONe: View-Invariant, Temporally-Abstracted Object Representations via Unsupervised Video Decomposition');
+const sima2 = find('SIMA 2: A Generalist Embodied Agent for Virtual Worlds');
+const asi = find('From AGI to ASI');
+
+const lines = [
+  {
+    title: 'Cortex, in equations',
+    when: '2004–2006',
+    body: 'The record opens in computational neuroscience: mean-field theories of balanced cortical networks, worked out so that firing rates and firing correlations can be determined self-consistently "without being restricted to specific neuron models". The question underneath is already a representational one — what does a population of neurons encode, and how stably.',
+    link: hypercolumn,
+    linkLabel: 'Mean field theory for a balanced hypercolumn model (2006)',
+  },
+  {
+    title: 'Factors of variation',
+    when: '2016–2017',
+    body: 'The same question in a deep network. β-VAE adds a single adjustable weight to the variational objective and finds that the latent space separates into independent, interpretable factors — motivated by the argument that learning "an interpretable factorised representation of the independent data generative factors of the world without supervision is an important precursor" for AI that learns and reasons as humans do.',
+    link: betavae,
+    linkLabel: 'β-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework (2017)',
+  },
+  {
+    title: 'Concepts',
+    when: '2017',
+    body: 'If the world runs on "a relatively small set of coherent rules, such as the laws of physics or chemistry", the regularities they produce should be discoverable without supervision and recombinable afterwards. SCAN learns hierarchical compositional concepts on that conjecture; DARLA uses disentangled vision so an agent "learns to see before learning to act", and transfers to domains it was never trained on.',
+    link: scan,
+    linkLabel: 'SCAN: Learning Hierarchical Compositional Visual Concepts (2017)',
+  },
+  {
+    title: 'Saying what it means',
+    when: '2018',
+    body: 'A programme this influential eventually has to define its own term. This paper notes there is "no generally agreed-upon definition of disentangling" and proposes one grounded in symmetry transformations — an unusual move: a lab formalising the concept its own results depend on.',
+    link: definition,
+    linkLabel: 'Towards a Definition of Disentangled Representations (2018)',
+  },
+  {
+    title: 'Objects',
+    when: '2019–2021',
+    body: 'Factors become things. MONet decomposes a scene into entities without supervision, on the argument that "the ability to decompose scenes in terms of abstract building blocks is crucial for general intelligence"; SIMONe extends it to video, inferring objects and viewpoint jointly.',
+    link: monet,
+    linkLabel: 'MONet: Unsupervised Scene Decomposition and Representation (2019)',
+  },
+  {
+    title: 'Agents in worlds',
+    when: '2021–2025',
+    body: 'Then the representations get a body. Alchemy builds a structured task distribution for meta-reinforcement learning; the SIMA project trains agents to follow free-form language instructions across many commercial 3D games, tackling what it calls "a key challenge for creating general AI".',
+    link: sima2,
+    linkLabel: 'SIMA 2: A Generalist Embodied Agent for Virtual Worlds (2025)',
+  },
+  {
+    title: 'The decade ahead',
+    when: '2026',
+    body: 'And the newest record steps back from systems to consequences. A fourteen-author report that opens by observing that human-level AGI "has moved from far-fetched speculation to being a concrete next-decade target for many of the largest AI organisations", and asks what follows.',
+    link: asi,
+    linkLabel: 'From AGI to ASI (2026)',
+  },
+];
+
+const href = (p?: Paper) => (p ? (p.doi_url || p.link || null) : null);
+---
+<Base title="Home" description="Publication archive and grounded AI guide for Alexander Lerchner — disentangled representations, object-centric scene understanding, and embodied agents.">
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12">
+    <div class="max-w-2xl">
+      <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-4">AGI-26 keynote</p>
+      <h1 class="font-serif text-4xl sm:text-5xl font-medium text-ink leading-tight mb-6">
+        Alexander Lerchner
+      </h1>
+      <p class="text-lg text-muted leading-relaxed mb-6">
+        Alexander Lerchner is a Senior Staff Scientist at Google DeepMind, with a record
+        that runs from mean-field theories of cortical networks to the disentangled
+        representations and embodied agents his lab is known for.
+      </p>
+      <blockquote class="border-l-2 border-accent/50 pl-4 mb-8 text-muted leading-relaxed">
+        <p class="italic">
+          &ldquo;Learning an interpretable factorised representation of the independent data
+          generative factors of the world without supervision is an important precursor for
+          the development of artificial intelligence that is able to learn and reason in the
+          same way that humans do.&rdquo;
+        </p>
+        <cite class="not-italic text-sm text-muted/70 block mt-2 font-mono">
+          — opening of β-VAE (2017), on which he is last author
+        </cite>
+      </blockquote>
+      <div class="flex flex-wrap gap-3">
+        <a href="/corpus/" class="inline-flex items-center gap-2 bg-accent text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-accent-mid transition-colors">
+          Browse Corpus
+        </a>
+        <a href="/dictionary/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Dictionary
+        </a>
+        <a href="/ask/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Ask
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-3">One question, from neurons to agents</h2>
+    <p class="text-muted leading-relaxed mb-10 max-w-2xl">
+      Read the archive in order and the subject is always the representation:
+      <em class="text-ink not-italic">what should a system carry about the world, and what
+      makes that carrying good?</em> The systems change — cortical populations, latent
+      variables, objects, agents — and the question does not.
+    </p>
+    <ol class="relative border-l border-border ml-2">
+      {lines.map(l => (
+        <li class="pl-6 pb-9 relative">
+          <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+          <div class="flex items-baseline gap-3 flex-wrap mb-2">
+            <h3 class="font-serif text-xl font-medium text-ink">{l.title}</h3>
+            <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">{l.when}</span>
+          </div>
+          <p class="text-muted text-sm leading-relaxed mb-2 max-w-2xl">{l.body}</p>
+          {href(l.link) && (
+            <a href={href(l.link)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-xs font-medium">
+              {l.linkLabel} ↗
+            </a>
+          )}
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">At a conference called AGI-26</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          The 2026 report in this corpus, <em>From AGI to ASI</em>, is written by fourteen
+          authors including Shane Legg, Marcus Hutter, Joel Z. Leibo, Iason Gabriel and Allan
+          Dafoe. It opens by noting that over the last decade, building human-level AGI
+          &ldquo;has moved from far-fetched speculation to being a concrete next-decade target
+          for many of the largest AI organisations&rdquo;, and that achieving it &ldquo;would have
+          profound and far-reaching impacts on human society&rdquo;.
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          It is the only document in this archive that argues about the destination rather
+          than building a piece of the road, and it is worth reading next to the rest &mdash;
+          two decades of work on what a representation ought to be, by someone now co-signing
+          a report on what comes after human-level.
+        </p>
+        {href(asi) && (
+          <a href={href(asi)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Find the report ↗</a>
+        )}
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">Reading the author lists</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          Almost everything here after 2016 is co-authored, and Lerchner is usually in the
+          last position &mdash; the senior slot in this field&rsquo;s convention. The recurring
+          names are Lo&iuml;c Matthey, Christopher Burgess, Irina Higgins, Matthew Botvinick,
+          Rishabh Kabra and Arka Pal. Two of the most recent entries are the work of a
+          hundred-strong &ldquo;SIMA team&rdquo;.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed mb-4">
+          The site states his position on every selected paper, computed from the record,
+          because on a corpus like this one the position is most of the information.
+        </p>
+        <a href="/corpus/" class="text-accent hover:text-accent-mid font-medium text-sm">
+          Browse all {papers.length} records &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-2">Selected work</h2>
+    <p class="text-muted text-sm mb-8 max-w-2xl">
+      {selectedSorted.length} entries drawn from the archive, titled exactly as the records read, with his
+      position in the author list computed from each record. Everything else is in the
+      <a href="/corpus/" class="text-accent hover:text-accent-mid">corpus</a>.
+    </p>
+    <ol class="divide-y divide-border">
+      {selectedSorted.map(s => (
+        <li class="py-4">
+          <div class="flex items-start gap-3">
+            <span class="font-mono text-xs text-muted/60 mt-1 shrink-0 w-10">{s.paper.year}</span>
+            <div class="min-w-0">
+              {href(s.paper) ? (
+                <a href={href(s.paper)!} target="_blank" rel="noopener noreferrer" class="text-ink font-medium text-sm hover:text-accent transition-colors leading-snug">
+                  {s.paper.title}
+                </a>
+              ) : (
+                <span class="text-ink font-medium text-sm leading-snug">{s.paper.title}</span>
+              )}
+              <div class="flex flex-wrap items-baseline gap-x-3 mt-1">
+                {s.paper.journal && (
+                  <span class="text-xs text-muted italic">{s.paper.journal}</span>
+                )}
+                <span class="text-xs text-muted/70">{s.role}</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">Background</h2>
+        <dl class="text-sm space-y-3">
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Now</dt>
+            <dd class="text-muted leading-relaxed">
+              Senior Staff Scientist, Google DeepMind &mdash; the affiliation given on his
+              own Google Scholar profile, which lists his interests as artificial
+              intelligence, neuroscience, philosophy of mind and philosophy of AI.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">In this corpus</dt>
+            <dd class="text-muted leading-relaxed">
+              Records from {earliest} to {latest}, in two distinct phases: mean-field
+              computational neuroscience with John Hertz and colleagues, and &mdash; from
+              2016 &mdash; representation learning and agents at DeepMind.
+            </dd>
+          </div>
+          <div>
+            <dt class="text-muted/60 font-mono text-xs uppercase tracking-wide">Lines of work</dt>
+            <dd class="text-muted leading-relaxed">
+              Disentangled representations (β-VAE, SCAN, DARLA, and the definitional paper);
+              object-centric scene representation (MONet, SIMONe, PARTS, and the iterative-variational-inference work on multi-object representation); and the
+              Alchemy and SIMA agent projects.
+            </dd>
+          </div>
+        </dl>
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">About this archive</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          This is an independent archive of Alexander Lerchner&rsquo;s publication record, built
+          for Society of Minds Aligned and AGI-26. Records span {earliest}&ndash;{latest} and
+          are drawn from OpenAlex; preprints and versions of record are both kept, so the
+          archive is a reading index, not a bibliometric count. It is the smallest corpus in
+          this constellation and does not pretend otherwise.
+        </p>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          The affiliation and research interests above come from his own Google Scholar
+          profile. Nothing here is asserted that the corpus or that profile does not support
+          &mdash; in particular, the site makes no claim about his views beyond what the
+          papers he co-authored say.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed">
+          Not written by, reviewed by, or endorsed by Alexander Lerchner. If you are
+          Alexander and something here is wrong, the feedback control at the bottom of the
+          page reaches us directly &mdash; and the claim bar will hand you the site.
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>
