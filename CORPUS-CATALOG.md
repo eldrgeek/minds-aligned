@@ -16,6 +16,38 @@ the canonical map; this catalog does not repeat deploy mechanics.
 
 ---
 
+## ⚠️ STATUS UPDATE 2026-08-18 — the numbers below are stale, read this first
+
+The audit under this line was compiled 2026-07-17 and its headline counts no longer hold.
+Since then the Tier-C harvest was largely executed, and four of those names now have live
+archives. Current state, verified 2026-08-18 by direct filesystem count:
+
+- **Live archive + AI host: 17** — the 13 of 2026-07-29 plus **Josef Urban** (212 records,
+  host *Premise*), **Neil Gershenfeld** (195, *Lattice*), **Alexander Lerchner** (53,
+  *Beta*) and **Alex Wissner-Gross** (21, *Horizon*). All four wired into `roster.ts`.
+- **Harvested but too thin to build** — **Daniel Hulme** 13 records, **Greg Meredith** 13,
+  **Reza Rassool** 5, **Emad Mostaque** 3. The 2026-08-10 ideolect audit's gates apply to a
+  site as much as to a dictionary: these need a non-OpenAlex source — talks, blogs, X —
+  before an archive would be anything but a citation veneer. Cards C-04/C-05/C-07/C-09/C-10
+  stand.
+- **Still nothing at all: 2** — **Camron Blackburn** and **Faezeh Habibi**. Both are
+  identity-resolution problems before they are harvest problems. Cards C-03/C-11 stand.
+- **U-01 (video transcripts) is untouched** and remains the largest single gap in the
+  system — 283 video stubs across 12 people, still metadata-only.
+
+**One methodological finding worth carrying into every future harvest.** The Urban pull was
+contaminated by name collision: 21 of 233 records belonged to four *different people* named
+Josef Urban — a clinical geneticist, a polymer chemist, a Brno telecom engineer, and Joseph
+E. Urban the software-engineering academic. `pull_papers.mjs` cannot detect this, and
+neither can a human skimming titles at speed. The audit that works is a **co-author-network
+pass** — seed on domain vocabulary, grow the component by shared co-authors, then inspect
+the residue by hand — and it must run before a corpus is published under a living person's
+name. Excluded records are **moved** to `sites/<slug>/papers-excluded/` with a reason per
+record, never deleted. The same audit run on the other three corpora found nothing, so this
+is a cheap check, not a tax.
+
+---
+
 ## Headline numbers
 
 - **Roster = 20** confirmed AGI-26 keynotes (`BUILD.md`). Of those:
