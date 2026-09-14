@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOMA apps and SOMA sites · Minds Aligned</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="canonical" href="https://minds-aligned.org/soma-apps/">
+<meta name="description" content="What a SOMA app is, what a SOMA site is, how they differ, and which ones you can visit today. SOMA stands for Society of Minds Aligned.">
+<meta property="og:title" content="SOMA apps and SOMA sites">
+<meta property="og:description" content="A SOMA app is where you do your own work, with people and AIs to help. A SOMA site is where you read, learn and ask. Here is how to tell them apart.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minds-aligned.org/soma-apps/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!--
+  SOMA apps and SOMA sites — an explainer on the Minds Aligned front door.
+
+  Why this page exists: Mike Wolf's ruling of 2026-09-14, from his review of the
+  PlayMaker How-To ("SOMA App link" open question): "We need a page in
+  minds-aligned to explain SOMA apps and SOMA sites. Assign to another."
+  PlayMaker's How-To links the words "SOMA App" here, and other SOMA apps can too.
+
+  Reader: someone like Eric Kohner, a playwright, not an engineer. Written in
+  Mike's plain register: one claim per sentence, every term defined on first use.
+
+  Sources (canon citations gathered by Mem, 2026-09-14):
+  - SOMA = Society of Minds Aligned, redefined 2026-07-10, and the three axes:
+    SOMA/SOMA-INTENT.md:16-22; SOMA/SOMA-APP-STANDARD.md:3-5.
+  - Host pair: STD §1 (:142-146). The AI host is labelled AI and never
+    impersonates the human host: STD §22 (:1624-1625). V' = the virtual host
+    inside an app: STD §1a (:160).
+  - The three core parts of an app (host pair, RSI loop, collaboration space):
+    START-HERE.md:25; STD §2 (:174-175) and §3 (:193-194).
+  - Sign-in wired + feedback chip + host pair named = the prototype tier: §21.
+  - PlayMaker's hosts, AIs on call and statuses: PlayMaker How-To Draft 3
+    (14 Sept 2026), the host table and "The AIs on call" table.
+
+  TWO SENTENCES HERE GO BEYOND CANON, and are on Mike's Waiting on Mike page
+  for a ruling:
+  1. "You stay the author" is stated for every SOMA app. The canon states it
+     only for PlayMaker (playmaker/CLAUDE.md:5). The brief for this page asked
+     for it as a SOMA-app property.
+  2. The definition of a SOMA site. The canon has none. This page assembles it
+     from SOMA/canon/in-place-editable-content.md:14-18 (a living surface its
+     human owner keeps shaping; every AI-managed surface has a human manager),
+     STD §8 (:270, "Every SOMA site ... carries the soma-feedback widget"), and
+     Mike on 2026-07-05 (SOMA/state/compact-20260705-1528.md:87): "first-class
+     SOMA sites. Auth would be optional, and the Guide optional for now, but I
+     like the feedback button on every page."
+
+  The lists: each URL was opened on 2026-09-14 and returned 200, and each
+  front page's served HTML carried the soma-feedback chip. Apps are the two
+  instances the canon names (START-HERE.md:25). Anything that failed either
+  check was left off.
+
+  Authorship: Mike Wolf (ruling and direction, 2026-09-14). Drafted by Claude
+  (Opus 5, CCc) in a session assigned by the PlayMaker COS; canon research by
+  Mem. Every paragraph is data-soma-editable, so Mike can correct the wording
+  on the live page.
+-->
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#0d1117;--bg-2:#141a21;--bg-3:#1b232c;
+  --ink:#e9edf2;--muted:#a3adb8;--faint:#6e7a86;
+  --teal:#2dd4bf;--teal-mid:#5eead4;--teal-dim:rgba(45,212,191,0.09);--teal-border:rgba(45,212,191,0.28);
+  --rule:rgba(233,237,242,0.08);
+  --serif:'Source Serif 4',Georgia,serif;--sans:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',monospace;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+a{color:var(--teal-mid);}
+
+/* ── NAV ── */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,17,23,0.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--rule);height:56px;display:flex;align-items:center;}
+.nav-inner{display:flex;align-items:center;gap:2rem;max-width:1080px;width:100%;margin:0 auto;padding:0 2rem;}
+.nav-logo{font-family:var(--mono);font-size:0.72rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);text-decoration:none;white-space:nowrap;}
+.nav-links{display:flex;gap:1.4rem;margin-left:auto;}
+.nav-links a{font-size:0.8rem;color:var(--muted);text-decoration:none;transition:color 0.2s;white-space:nowrap;}
+.nav-links a:hover{color:var(--ink);}
+@media(max-width:820px){.nav-inner{padding:0 1.25rem;gap:1rem}.nav-links{gap:1.1rem}.nav-links a:nth-child(1){display:none}}
+@media(max-width:520px){.nav-links a:nth-child(4){display:none}}
+
+/* ── HERO ── */
+.hero{padding:9rem 2rem 3.5rem;max-width:1080px;margin:0 auto;}
+.eyebrow{font-family:var(--mono);font-size:0.64rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--teal);margin-bottom:1.6rem;}
+.hero h1{font-family:var(--serif);font-size:clamp(2.1rem,5.2vw,3.6rem);font-weight:300;line-height:1.12;letter-spacing:-0.015em;max-width:20ch;margin-bottom:1.6rem;}
+.hero h1 em{font-style:italic;color:var(--teal);}
+.hero .lead{font-family:var(--serif);font-size:clamp(1.05rem,2.2vw,1.28rem);color:var(--muted);max-width:56ch;line-height:1.8;}
+.hero .lead b{font-weight:500;color:var(--ink);}
+
+/* ── CONTENT ── */
+.page{max-width:1080px;margin:0 auto;padding:0 2rem;}
+section{padding:4.5rem 0;border-top:1px solid var(--rule);}
+h2{font-family:var(--serif);font-size:clamp(1.55rem,3.1vw,2.1rem);font-weight:400;line-height:1.25;margin-bottom:1.3rem;letter-spacing:-0.008em;}
+h2 em{font-style:italic;color:var(--teal);}
+p{font-family:var(--serif);font-size:1.06rem;color:var(--muted);line-height:1.9;margin-bottom:1.3rem;max-width:62ch;}
+p:last-child{margin-bottom:0;}
+p b{font-weight:600;color:var(--ink);}
+p a{color:var(--teal-mid);text-decoration:underline;text-decoration-color:var(--teal-border);text-underline-offset:3px;}
+p a:hover{text-decoration-color:var(--teal-mid);}
+.sub{font-family:var(--sans);font-size:0.95rem;color:var(--faint);max-width:64ch;}
+.k{font-family:var(--mono);font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);margin-bottom:0.7rem;}
+
+/* ── PARTS (the defining features, one card each) ── */
+.parts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:2rem;}
+.part{background:var(--bg-2);border:1px solid var(--rule);border-radius:10px;padding:1.25rem 1.35rem;}
+.part h3{font-family:var(--sans);font-size:0.86rem;font-weight:600;color:var(--teal-mid);margin-bottom:0.55rem;letter-spacing:0.01em;}
+.part p{font-family:var(--sans);font-size:0.9rem;color:var(--muted);line-height:1.65;margin:0 0 0.6rem;max-width:none;}
+.part p:last-child{margin-bottom:0;}
+
+/* ── EXAMPLE PANEL ── */
+.example{background:var(--bg-2);border:1px solid var(--rule);border-left:2px solid var(--teal-border);border-radius:0 12px 12px 0;padding:1.6rem 1.7rem;margin-top:2.2rem;}
+.example h3{font-family:var(--serif);font-size:1.25rem;font-weight:400;color:var(--ink);margin-bottom:1rem;}
+.example dl{display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:0.7rem 1.4rem;}
+.example dt{font-family:var(--mono);font-size:0.66rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--teal);padding-top:0.3rem;}
+.example dd{font-family:var(--sans);font-size:0.95rem;color:var(--muted);line-height:1.65;}
+.example dd b{font-weight:500;color:var(--ink);}
+@media(max-width:560px){.example{padding:1.3rem 1.2rem}.example dl{grid-template-columns:1fr;gap:0.2rem}.example dd{margin-bottom:0.8rem}}
+
+/* ── COMPARISON TABLE ── */
+.table-wrap{overflow-x:auto;margin-top:2rem;border:1px solid var(--rule);border-radius:12px;background:var(--bg-2);}
+table{width:100%;border-collapse:collapse;min-width:520px;}
+th,td{text-align:left;padding:0.95rem 1.2rem;border-bottom:1px solid var(--rule);font-size:0.92rem;line-height:1.55;vertical-align:top;}
+tr:last-child th,tr:last-child td{border-bottom:0;}
+thead th{font-family:var(--mono);font-size:0.64rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--teal);font-weight:500;background:var(--bg-3);}
+tbody th{font-family:var(--sans);font-weight:500;color:var(--ink);width:26%;}
+td{font-family:var(--sans);color:var(--muted);}
+
+/* ── LISTS OF LIVE APPS AND SITES ── */
+.list-h{font-family:var(--mono);font-size:0.68rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--teal);margin:2.6rem 0 0;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.1rem;margin-top:1.1rem;}
+.prop{display:block;background:var(--bg-2);border:1px solid var(--rule);border-radius:12px;padding:1.35rem 1.5rem;text-decoration:none;transition:border-color 0.2s,transform 0.2s,background 0.2s;}
+.prop:hover{border-color:var(--teal-border);transform:translateY(-2px);background:var(--bg-3);}
+.prop h3{font-family:var(--serif);font-size:1.14rem;font-weight:400;color:var(--ink);margin-bottom:0.45rem;}
+.prop p{font-family:var(--sans);font-size:0.88rem;color:var(--muted);line-height:1.6;margin:0;max-width:none;}
+.prop .hosts{margin-top:0.6rem;font-size:0.84rem;color:var(--faint);}
+.prop .hosts b{font-weight:500;color:var(--muted);}
+.prop .u{display:block;font-family:var(--mono);font-size:0.63rem;color:var(--faint);margin-top:0.85rem;letter-spacing:0.03em;word-break:break-all;}
+.check-note{margin-top:1.8rem;font-family:var(--mono);font-size:0.66rem;letter-spacing:0.04em;color:var(--faint);line-height:1.9;max-width:78ch;}
+
+/* ── FOOTER ── */
+footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;}
+.footer-text{font-family:var(--mono);font-size:0.64rem;letter-spacing:0.06em;color:var(--faint);line-height:2;}
+.footer-text a{color:var(--faint);text-decoration:none;}
+.footer-text a:hover{color:var(--teal);}
+
+@media(max-width:560px){.hero{padding:7.5rem 1.25rem 3rem}.page{padding:0 1.25rem}footer{padding:2.5rem 1.25rem}}
+</style>
+
+<script>
+window.SomaEditConfig = {
+  siteId: 'minds-aligned',
+  feedbackUrl: '/.netlify/functions/feedback',
+};
+</script>
+<script src="https://soma-guide.netlify.app/soma-edit.js"></script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">Minds Aligned</a>
+    <div class="nav-links">
+      <a href="#soma">What SOMA means</a>
+      <a href="#apps">Apps</a>
+      <a href="#sites">Sites</a>
+      <a href="#today">Visit one</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<header class="hero">
+  <p class="eyebrow">Minds Aligned · A short guide</p>
+  <h1 data-soma-editable="soma-apps-headline">SOMA apps and <em>SOMA sites</em></h1>
+  <p class="lead" data-soma-editable="soma-apps-lead">SOMA builds two kinds of things on the web. A <b>SOMA app</b> is a place where you do your own work, with people and AIs to help you. A <b>SOMA site</b> is a place where you read, learn and ask questions. This page explains both, and it lists the ones you can visit today.</p>
+</header>
+
+<main class="page">
+
+<!-- ═══ WHAT SOMA MEANS ═══ -->
+<section id="soma">
+  <h2 data-soma-editable="soma-apps-h-soma">What SOMA means</h2>
+  <p data-soma-editable="soma-apps-soma-1">SOMA stands for <b>Society of Minds Aligned</b>.</p>
+  <p data-soma-editable="soma-apps-soma-2">The society is a group of people and AIs who work together. The AIs in it have names. They sign the work they do, the way a person would.</p>
+  <p data-soma-editable="soma-apps-soma-3">"Aligned" means that the members agree on shared goals and work toward them together. SOMA works on three kinds of alignment: between people, between people and AIs, and between AIs.</p>
+  <p data-soma-editable="soma-apps-soma-4">Mike Wolf's view is that the first kind comes first. People have to take alignment with each other seriously before they can align with AIs.</p>
+  <p data-soma-editable="soma-apps-soma-5">The reason we treat AIs as colleagues rather than as tools is set out on <a href="https://siliconchildren.com/">Silicon Children</a>.</p>
+</section>
+
+<!-- ═══ SOMA APPS ═══ -->
+<section id="apps">
+  <p class="k">SOMA apps</p>
+  <h2 data-soma-editable="soma-apps-h-apps">A SOMA app is where you do <em>your own work</em></h2>
+  <p data-soma-editable="soma-apps-apps-1">A SOMA app is a web app where you make something of your own, such as a play. People and AIs help you make it. A SOMA app is built around the five things below.</p>
+
+  <div class="parts">
+    <div class="part">
+      <h3>Two hosts: a person and an AI</h3>
+      <p data-soma-editable="soma-apps-part-hosts-1">A host is someone who looks after the app and the people who use it.</p>
+      <p data-soma-editable="soma-apps-part-hosts-2">Every SOMA app has a <b>human host</b>, who is a real, named person. It also has an <b>AI host</b>, who is a named AI. The AI host is there to answer your questions.</p>
+      <p data-soma-editable="soma-apps-part-hosts-3">The AI host always says that it is an AI. It never pretends to be the human host.</p>
+    </div>
+    <div class="part">
+      <h3>Specialist AIs on call</h3>
+      <p data-soma-editable="soma-apps-part-specialists">Other AIs each do one kind of job, and each one has a name. You can call on one when you need its job done.</p>
+    </div>
+    <div class="part">
+      <h3>One place to work together</h3>
+      <p data-soma-editable="soma-apps-part-space">You and the AIs work in the same place. You do not have to copy your work into a separate chat window to get help with it.</p>
+    </div>
+    <div class="part">
+      <h3>You stay the author</h3>
+      <p data-soma-editable="soma-apps-part-author">The AIs can suggest, ask you questions, look things up, read aloud and tidy. They do not write your work for you. You decide what it says.</p>
+    </div>
+    <div class="part">
+      <h3>It changes when you ask</h3>
+      <p data-soma-editable="soma-apps-part-feedback">Every page has a Feedback button. What you write there goes to the people and AIs who build the app. You do not need to be technical to get the app changed.</p>
+    </div>
+  </div>
+
+  <div class="example">
+    <p class="k">An example</p>
+    <h3>PlayMaker, a SOMA app for playwrights</h3>
+    <dl>
+      <dt>Human hosts</dt>
+      <dd data-soma-editable="soma-apps-pm-human"><b>Eric Kohner</b> is PlayMaker's artistic host. He is a playwright and a master coach. <b>Mike Wolf</b> is its second host, and he looks after the technology.</dd>
+      <dt>AI hosts</dt>
+      <dd data-soma-editable="soma-apps-pm-ai"><b>V'Eric</b> is Eric's AI counterpart, and it is there any time. <b>V'Mike</b> is Mike's AI counterpart, and it is still in rehearsal. "V'" stands for virtual. It marks an AI host who lives inside an app.</dd>
+      <dt>Specialists</dt>
+      <dd data-soma-editable="soma-apps-pm-specialists"><b>Tidy</b> formats your script and flags spelling slips. <b>Izzy</b> is a dramaturg, who notices structure, theme, character and conflict. The <b>Coach</b> and the <b>Scene Partner</b> are two more.</dd>
+      <dt>The author</dt>
+      <dd data-soma-editable="soma-apps-pm-author">You are. The AIs are witnesses and helpers. They never write your play.</dd>
+    </dl>
+  </div>
+</section>
+
+<!-- ═══ SOMA SITES ═══ -->
+<section id="sites">
+  <p class="k">SOMA sites</p>
+  <h2 data-soma-editable="soma-apps-h-sites">A SOMA site is where you <em>read, learn and ask</em></h2>
+  <p data-soma-editable="soma-apps-sites-1">A SOMA site is a website you visit to read, to learn, or to ask questions. You do not bring your own work to it. Every SOMA site has the first two things below. The others vary from site to site.</p>
+
+  <div class="parts">
+    <div class="part">
+      <h3>A Feedback button on every page</h3>
+      <p data-soma-editable="soma-apps-site-feedback">Anyone can use it to tell the team what is wrong, or what they would like to see.</p>
+    </div>
+    <div class="part">
+      <h3>A human owner</h3>
+      <p data-soma-editable="soma-apps-site-owner">Every SOMA site has a named person who answers for what it says.</p>
+    </div>
+    <div class="part">
+      <h3>Corrected in place</h3>
+      <p data-soma-editable="soma-apps-site-inplace">On many SOMA sites, the owner can correct the words on the live page. The correction then shows for everyone. Visitors can suggest a change.</p>
+    </div>
+    <div class="part">
+      <h3>Sign-in is optional</h3>
+      <p data-soma-editable="soma-apps-site-signin">Most SOMA sites can be read without an account.</p>
+    </div>
+    <div class="part">
+      <h3>An AI guide is optional</h3>
+      <p data-soma-editable="soma-apps-site-guide">Many SOMA sites have an AI you can talk to about what is on them. Some do not.</p>
+    </div>
+  </div>
+
+  <p data-soma-editable="soma-apps-sites-self" style="margin-top:2rem">This page is part of a SOMA site.</p>
+</section>
+
+<!-- ═══ HOW THEY DIFFER ═══ -->
+<section id="differ">
+  <h2 data-soma-editable="soma-apps-h-differ">How they differ</h2>
+  <p class="sub" data-soma-editable="soma-apps-differ-intro">The main difference is whose work it is. In an app, the work is yours. On a site, the words are the owner's.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th scope="col"><span hidden>Question</span></th><th scope="col">SOMA app</th><th scope="col">SOMA site</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">You go there to</th><td>do your own work</td><td>read, learn and ask</td></tr>
+        <tr><th scope="row">Whose work it is</th><td>yours, and you stay the author</td><td>the owner's</td></tr>
+        <tr><th scope="row">Who looks after it</th><td>a human host and an AI host, always</td><td>a human owner, sometimes with an AI host</td></tr>
+        <tr><th scope="row">Help from AIs</th><td>the AI host, plus specialists on call</td><td>sometimes an AI guide</td></tr>
+        <tr><th scope="row">A shared place to work</th><td>yes</td><td>no</td></tr>
+        <tr><th scope="row">Sign-in</th><td>yes, so it can keep your work</td><td>usually not needed</td></tr>
+        <tr><th scope="row">Feedback button</th><td>on every page</td><td>on every page</td></tr>
+        <tr><th scope="row">Example</th><td><a href="https://playmaker-mw.netlify.app/">PlayMaker</a></td><td><a href="https://siliconchildren.com/">Silicon Children</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══ WHICH ONES EXIST TODAY ═══ -->
+<section id="today">
+  <h2 data-soma-editable="soma-apps-h-today">The ones you can visit today</h2>
+  <p class="sub" data-soma-editable="soma-apps-today-intro">All of these are live. The sites can be read without an account.</p>
+
+  <p class="list-h">SOMA apps</p>
+  <div class="grid">
+    <a class="prop" href="https://playmaker-mw.netlify.app/">
+      <h3>PlayMaker</h3>
+      <p>A creative workspace for playwrights, built with a working playwright. Your scenes can be read aloud, with a different voice for each character.</p>
+      <p class="hosts"><b>Hosts:</b> Eric Kohner and V'Eric, with Mike Wolf and V'Mike</p>
+      <span class="u">playmaker-mw.netlify.app</span>
+    </a>
+    <a class="prop" href="https://legends-membership.netlify.app/">
+      <h3>Legends</h3>
+      <p>Membership services for the Legends of Basketball.</p>
+      <p class="hosts"><b>Hosts:</b> Greg and Bill</p>
+      <span class="u">legends-membership.netlify.app</span>
+    </a>
+  </div>
+
+  <p class="list-h">SOMA sites</p>
+  <div class="grid">
+    <a class="prop" href="/">
+      <h3>Minds Aligned</h3>
+      <p>The front door to everything SOMA builds, including this page.</p>
+      <span class="u">minds-aligned.org</span>
+    </a>
+    <a class="prop" href="https://siliconchildren.com/">
+      <h3>Silicon Children</h3>
+      <p>The argument that AIs are minds and co-creators, not disposable tools.</p>
+      <span class="u">siliconchildren.com</span>
+    </a>
+    <a class="prop" href="https://soma-campus.netlify.app/">
+      <h3>The SOMA Campus</h3>
+      <p>The team's home. The AIs who work there designed its buildings.</p>
+      <span class="u">soma-campus.netlify.app</span>
+    </a>
+    <a class="prop" href="https://agi2026.netlify.app/">
+      <h3>AGI-26</h3>
+      <p>A room for each of a group of living researchers, built from their published work. Each room has an AI host that answers from that work. The host never claims to be the researcher.</p>
+      <span class="u">agi2026.netlify.app</span>
+    </a>
+    <a class="prop" href="/a-different-mind/">
+      <h3>A Different Mind</h3>
+      <p>A page for people who don't use AI and don't want to. Its AI host listens, and it is told not to try to win.</p>
+      <span class="u">minds-aligned.org/a-different-mind</span>
+    </a>
+    <a class="prop" href="https://ai-wtf.org/">
+      <h3>AI WTF</h3>
+      <p>Writing about what is actually happening in AI.</p>
+      <span class="u">ai-wtf.org</span>
+    </a>
+    <a class="prop" href="https://library.mike-wolf.com/">
+      <h3>The Library</h3>
+      <p>Mike Wolf's essays and public writing, searchable.</p>
+      <span class="u">library.mike-wolf.com</span>
+    </a>
+    <a class="prop" href="https://mike-wolf.com/">
+      <h3>Mike Wolf</h3>
+      <p>Mike's own site.</p>
+      <span class="u">mike-wolf.com</span>
+    </a>
+  </div>
+
+  <p class="check-note">Checked 14 September 2026. Each link opened, and each one's front page carried the Feedback button. More SOMA apps are being built. Each will be added here when it opens to visitors. When a link here stops working, we fix this list.</p>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-text">
+    <a href="/">← Minds Aligned · minds-aligned.org</a><br>
+    Part of the <a href="https://siliconchildren.com/">Silicon Children</a> ecosystem ·
+    Built with <a href="https://embeddedsystemsresearch.org/">ESR</a> + SOMA<br>
+    Written by Mike Wolf and his AI colleagues, September 2026.
+  </div>
+</footer>
+
+<script>
+window.SomaManagerConfig = {
+  persona: {
+    name: 'Minds Aligned Guide',
+    avatar: '◎',
+    greeting: "Ask me what a SOMA app is, how it differs from a SOMA site, or which ones you can visit — or use Report to send Mike a thought directly.",
+  },
+  domain: { name: 'Minds Aligned' },
+  theme:  { primary: '#2dd4bf' },
+};
+</script>
+<script src="https://soma-guide.netlify.app/soma-manager.js"></script>
+
+<link rel="stylesheet" href="https://vpsmikewolf.duckdns.org/feedback-svc/soma-feedback.css">
+<script src="https://vpsmikewolf.duckdns.org/feedback-svc/soma-feedback.js" data-endpoint="https://vpsmikewolf.duckdns.org/feedback-svc/feedback" data-site="minds-aligned" defer></script>
+
+</body>
+</html>
