@@ -47,6 +47,25 @@ The CLI will stop and ask you to pick a monorepo package. Don't answer it — co
 `--site`. Outside the repo there is no monorepo detection and no config to resolve
 wrongly, which is the entire failure mode.
 
+**Two more traps, found 2026-09-14 while shipping `/soma-apps/`:**
+- Run the deploy from *inside* the copy (`cd` into it). From anywhere under `~/Projects`,
+  the CLI walks up to `~/Projects/.netlify`. That path is deliberately a file, not a
+  folder, since the stray-link fix. So the CLI stops with
+  `ENOTDIR ... mkdir '/Users/mikewolf/Projects/.netlify/functions-internal'` before it
+  uploads anything.
+- A CLI deploy replaces the site's whole file set. Before deploying, list the live files
+  with `netlify api listSiteFiles --data '{"site_id":"3dac5361-f1a6-4027-b57c-261984c1371d"}'`
+  and check that each one exists in your copy. The 2026-08-02 deploy carried a 622-byte
+  `netlify.toml` that was never committed to `hub-public/` and could not be recovered.
+  The 2026-09-14 deploy (`6aa82edb`) dropped it, after a check that the response headers
+  and the `/a-different-mind/` routes were unchanged. If this site needs a
+  `netlify.toml` again, commit it to `hub-public/`.
+
+`hub-public/soma-apps/index.html` is the SOMA apps and SOMA sites explainer
+(https://minds-aligned.org/soma-apps/). The front-door footer and PlayMaker's How-To link
+to it. Its head comment gives the canon source for each claim, and names the two
+statements still waiting on Mike's ruling.
+
 ## AI-related work is published as a ROUTE here, not a new subdomain
 
 **Mike Wolf, 2026-08-02.** A route is cheaper to add than a subdomain, keeps everything
