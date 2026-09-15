@@ -1,0 +1,33 @@
+title = "agi-2026 gitleaks config"
+
+[extend]
+useDefault = true
+
+# Narrow, VALUE-scoped allows — not a path allow, not a rule allow.
+# Same two values and reasoning as soma-platform/.gitleaks.toml (the SOMA Auth
+# owner), mike-wolf-com/.gitleaks.toml and soma-relay/.gitleaks.toml.
+#
+# 1. The DEAD legacy Supabase anon JWT for the shared SOMA Auth project
+#    (omfwcodoimjmbrhssvfl). Supabase has rejected it since the 2026-07-23 key
+#    rotation (401 "Legacy API keys are disabled", re-checked 2026-09-15). It is
+#    in this repo's history in 15 sites/*/public/js/soma-auth-config.js files:
+#    11 already on origin/master, and 4 in commit 4cab19c (2026-08-18), which
+#    the pre-push secret-gate refused. The working tree no longer carries it.
+#
+# 2. The CURRENT Supabase publishable key for the same project. It is public by
+#    design: it ships in every SOMA Auth client bundle, and RLS gates every
+#    table. gitleaks' generic-api-key rule flags it when it sits in an
+#    `anonKey:` line, which is where every site config keeps it.
+#
+# Only these two exact values are allow-listed. Any other secret-shaped
+# string — a service-role key, a GitHub token, a future rotated key — still
+# trips the gate.
+#
+# Added 2026-09-15 by Claude (Opus 5, CCc) while swapping the dead key out of
+# the AGI-26 archive sites.
+[allowlist]
+description = "SOMA Auth omfwcodoimjmbrhssvfl: dead legacy anon JWT (history-only) + current publishable key (public by design)"
+regexes = [
+  '''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9tZndjb2RvaW1qbWJyaHNzdmZsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA2NzEyNjMsImV4cCI6MjA5NjI0NzI2M30\.8Oe2JABFB5qN2dIFk-rccl7-F5R4YjqsTrGFAqZCAlE''',
+  '''sb_publishable_vi2qDWjozUJ5mi9dwirkLA_rj6UaqLf'''
+]
