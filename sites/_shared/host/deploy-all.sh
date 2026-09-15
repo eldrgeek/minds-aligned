@@ -4,9 +4,19 @@
 #   bash sites/_shared/host/deploy-all.sh            # everything
 #   bash sites/_shared/host/deploy-all.sh gary-marcus karl-friston
 #
-# These sites are NOT git-connected on Netlify (`repo=None` in `netlify sites:list`),
-# so a push does not deploy them — this script is the deploy lane. Two traps it exists
-# to avoid, both of which cost real time on 2026-07-22:
+# The four 2026-08-18 archives (josef-urban, neil-gershenfeld, alexander-lerchner,
+# alex-wissner-gross) are NOT git-connected on Netlify (`repo=None`), so a push does
+# not deploy them — this script is their deploy lane.
+#
+# ⚠ The eleven older archives (alexander-ororbia … karl-friston, hananel-hazan) ARE
+# git-connected since 2026-09-05. Each Netlify site builds from its own repo,
+# eldrgeek/agi26-<slug> (local clone ~/Projects/agi26-<slug>), which holds the BUILT
+# site. Deploying one of them from here publishes a monorepo build that the next push
+# to its repo silently replaces. So change those sites in both places: sites/<slug>
+# here (the source) and ~/Projects/agi26-<slug> (what is live). Found 2026-09-15
+# while swapping the dead Supabase anon key out of all fifteen.
+#
+# Two traps this script exists to avoid, both of which cost real time on 2026-07-22:
 #
 #   1. `--dir dist` is resolved against the GIT ROOT, not the cwd. Always pass an
 #      absolute path, or the deploy dies with "deploy directory has not been found".
