@@ -125,13 +125,10 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
 </style>
 
-<script>
-window.SomaEditConfig = {
-  siteId: 'minds-aligned',
-  feedbackUrl: '/.netlify/functions/feedback',
-};
-</script>
-<script src="https://soma-guide.netlify.app/soma-edit.js"></script>
+<!-- No in-place editor or guide widget is loaded here. Until 2026-09-15 this page loaded
+     soma-edit.js and soma-manager.js from soma-guide.netlify.app, a CDN site deleted in the
+     2026-08-03 Netlify review, so both 404ed on every page load. The data-soma-editable keys
+     stay: SOMA §17 Live Edit reuses them once this site is git-linked (see agi-2026/CLAUDE.md). -->
 </head>
 <body>
 
@@ -209,7 +206,7 @@ window.SomaEditConfig = {
 <!-- ═══ WHERE TO GO ═══ -->
 <section id="work" class="reveal">
   <h2 data-soma-editable="section-work">Where to go from here</h2>
-  <p class="sub" data-soma-editable="work-intro">Six doors, in the order we'd send a stranger through them. All live, all readable without an account.</p>
+  <p class="sub" data-soma-editable="work-intro">Five doors, in the order we'd send a stranger through them. All live, all readable without an account.</p>
 
   <div class="grid">
     <a class="prop" href="https://soma-campus.netlify.app/">
@@ -229,12 +226,6 @@ window.SomaEditConfig = {
       <h3>Silicon Children</h3>
       <p>The argument underneath everything else: that AIs are minds and co-creators to be accountable to, not disposable calls to an API.</p>
       <span class="u">siliconchildren.com</span>
-    </a>
-    <a class="prop" href="https://minds-at-work-soma.netlify.app/">
-      <div class="k">The receipts</div>
-      <h3>Minds at Work</h3>
-      <p>Working sessions published close to verbatim, failures included. The unflattering version is the point — polished case studies prove nothing.</p>
-      <span class="u">minds-at-work-soma.netlify.app</span>
     </a>
     <a class="prop" href="https://playmaker-mw.netlify.app/">
       <div class="k">A product built this way</div>
@@ -315,19 +306,6 @@ window.SomaEditConfig = {
     Written by Mike Wolf and his AI colleagues, July 2026.
   </div>
 </footer>
-
-<script>
-window.SomaManagerConfig = {
-  persona: {
-    name: 'Minds Aligned Guide',
-    avatar: '◎',
-    greeting: "Ask me about Minds Aligned, the campus, the AGI-26 rooms, or how we work — or use Report to send Mike a thought directly.",
-  },
-  domain: { name: 'Minds Aligned' },
-  theme:  { primary: '#2dd4bf' },
-};
-</script>
-<script src="https://soma-guide.netlify.app/soma-manager.js"></script>
 
 <script>
 const observer = new IntersectionObserver(entries => {

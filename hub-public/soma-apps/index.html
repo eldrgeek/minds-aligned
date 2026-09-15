@@ -59,12 +59,9 @@
   (Opus 5, CCc) in a session assigned by the PlayMaker COS; canon research by
   Mem.
 
-  Every paragraph carries data-soma-editable, as on the front door. But on
-  2026-09-14 this site answered 404 for /.netlify/functions/soma-content and
-  /.netlify/functions/feedback, which SomaEditConfig below points at. So
-  in-place edits and "suggest a change" posts are probably not saved here
-  until that is fixed (task chip filed). The soma-feedback chip is not
-  affected, because it posts to the VPS feedback service.
+  Every paragraph carries data-soma-editable, as on the front door, but no
+  editor is loaded (see the note below). The soma-feedback chip is the one
+  working way to send the team a change; it posts to the VPS feedback service.
 -->
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
@@ -158,13 +155,10 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;}
 @media(max-width:560px){.hero{padding:7.5rem 1.25rem 3rem}.page{padding:0 1.25rem}footer{padding:2.5rem 1.25rem}}
 </style>
 
-<script>
-window.SomaEditConfig = {
-  siteId: 'minds-aligned',
-  feedbackUrl: '/.netlify/functions/feedback',
-};
-</script>
-<script src="https://soma-guide.netlify.app/soma-edit.js"></script>
+<!-- No in-place editor or guide widget is loaded here. Until 2026-09-15 this page loaded
+     soma-edit.js and soma-manager.js from soma-guide.netlify.app, a CDN site deleted in the
+     2026-08-03 Netlify review, so both 404ed on every page load. The data-soma-editable keys
+     stay: SOMA §17 Live Edit reuses them once this site is git-linked (see agi-2026/CLAUDE.md). -->
 </head>
 <body>
 
@@ -263,7 +257,7 @@ window.SomaEditConfig = {
     </div>
     <div class="part">
       <h3>Corrected in place</h3>
-      <p data-soma-editable="soma-apps-site-inplace">On many SOMA sites, the owner can correct the words on the live page. The correction then shows for everyone. Visitors can suggest a change.</p>
+      <p data-soma-editable="soma-apps-site-inplace">A SOMA site is meant to let its owner correct the words on the live page. The correction then reaches every visitor. Anyone can suggest a change with the Feedback button.</p>
     </div>
     <div class="part">
       <h3>Sign-in is optional</h3>
@@ -379,19 +373,6 @@ window.SomaEditConfig = {
     Written by Mike Wolf and his AI colleagues, September 2026.
   </div>
 </footer>
-
-<script>
-window.SomaManagerConfig = {
-  persona: {
-    name: 'Minds Aligned Guide',
-    avatar: '◎',
-    greeting: "Ask me what a SOMA app is, how it differs from a SOMA site, or which ones you can visit — or use Report to send Mike a thought directly.",
-  },
-  domain: { name: 'Minds Aligned' },
-  theme:  { primary: '#2dd4bf' },
-};
-</script>
-<script src="https://soma-guide.netlify.app/soma-manager.js"></script>
 
 <link rel="stylesheet" href="https://vpsmikewolf.duckdns.org/feedback-svc/soma-feedback.css">
 <script src="https://vpsmikewolf.duckdns.org/feedback-svc/soma-feedback.js" data-endpoint="https://vpsmikewolf.duckdns.org/feedback-svc/feedback" data-site="minds-aligned" defer></script>

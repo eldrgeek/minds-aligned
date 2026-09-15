@@ -66,6 +66,15 @@ wrongly, which is the entire failure mode.
 to it. Its head comment gives the canon source for each claim, and names the two
 statements still waiting on Mike's ruling.
 
+**In-place editing is not wired on minds-aligned.org (2026-09-15).** Both pages used to
+load `soma-edit.js` and `soma-manager.js` from `soma-guide.netlify.app`. That CDN site was
+deleted in the 2026-08-03 Netlify review, so both scripts 404ed on every page load; they
+are removed. The `data-soma-editable` keys stay, so SOMA §17 Live Edit can reuse them. Live
+Edit's publish step (`copy-canonize`, e.g. `mike-wolf-com/netlify/functions/copy-canonize.mjs`)
+commits the new wording through the GitHub API and relies on Netlify auto-deploying the
+repo, so this site must be git-linked before it can adopt it. Filing edits into
+`site_copy_edits` without that step would be a silent success: nothing applies those rows.
+
 ## AI-related work is published as a ROUTE here, not a new subdomain
 
 **Mike Wolf, 2026-08-02.** A route is cheaper to add than a subdomain, keeps everything
