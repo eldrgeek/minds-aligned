@@ -9,14 +9,20 @@
 # (the feedback chip's same-origin proxy; .cjs because the repo's package.json says
 # "type": "module").
 #
-# No `ignore` command, on purpose. One was tried on 2026-09-16 (skip the deploy when a
-# push touches neither hub-public nor its functions). Netlify compares against the last
-# CACHED build, not the live deploy. So when a Live Edit change put a file back exactly
-# as it was two builds earlier, the deploy was cancelled as "no content change" and the
-# previous wording stayed live. A deploy here has no build step and takes about 16 seconds.
+# `ignore = "exit 1"` means ALWAYS DEPLOY, and it is load-bearing. With a base directory
+# set and no ignore command, Netlify runs its own check: `git diff` between the last
+# CACHED build's commit and this one, limited to the base directory, and cancels the
+# deploy as "no content change" when that diff is empty. It compares with the cached
+# build, not with the live deploy. Found 2026-09-16 in the Live Edit end-to-end test:
+# an edit deployed, then the restore put hub-public/index.html back byte-for-byte as it
+# was one build earlier, the restore's deploy was cancelled, and the test wording stayed
+# live. Any owner who edits a sentence and then changes their mind hits the same thing.
+# A deploy here has no build step and takes about 16 seconds, so always deploying costs
+# nothing worth saving.
 #
 # Added 2026-09-16 (Mike Wolf's estate; Claude Opus 5, CCc).
 [build]
   publish = "."
   command = ""
   functions = "../hub-public-functions"
+  ignore = "exit 1"

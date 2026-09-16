@@ -39,7 +39,9 @@ spot because the result still looks like a real AGI-26 page.
 `../hub-public-functions`) and never the root `netlify.toml`. To ship a change to
 `hub-public/`, push to `master`, then check the deploy reached `ready` and diff the live
 page. Every push to `master` redeploys the front door, including pushes that only touch
-the thinker sites; do not add an `ignore` command (the toml says why).
+the thinker sites. Keep `ignore = "exit 1"` in that toml: without it, Netlify cancels a
+deploy whose `hub-public/` matches the last cached build, even when the live page differs
+(an edit followed by its undo was left live that way on 2026-09-16).
 
 Two consequences:
 - **`master` moves on its own.** Mike's in-place edits (SOMA §17 Live Edit, below) commit
