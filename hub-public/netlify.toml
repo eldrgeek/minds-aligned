@@ -1,0 +1,22 @@
+# minds-aligned.org (Netlify site minds-aligned-soma, 3dac5361-f1a6-4027-b57c-261984c1371d).
+#
+# The site is git-linked to eldrgeek/minds-aligned with BASE DIRECTORY hub-public, so
+# Netlify reads THIS file, not the repo-root netlify.toml (which builds the AGI-26 hub,
+# a different site). A push to master publishes hub-public as-is: no build step.
+#
+# Functions live OUTSIDE the publish directory, so their source is not served as a
+# static file: copy-canonize.mjs (SOMA §17 Live Edit publish) and soma-feedback.cjs
+# (the feedback chip's same-origin proxy; .cjs because the repo's package.json says
+# "type": "module").
+#
+# `ignore` skips the deploy when a push touches neither directory, so commits to the
+# thinker sites elsewhere in this repo do not republish the front door. (Exit 0 = skip,
+# exit 1 = build.) A build with no cache has CACHED_COMMIT_REF == COMMIT_REF, where a
+# bare `git diff --quiet` would skip every first build, so that case always builds.
+#
+# Added 2026-09-16 (Mike Wolf's estate; Claude Opus 5, CCc).
+[build]
+  publish = "."
+  command = ""
+  functions = "../hub-public-functions"
+  ignore = "if [ \"$CACHED_COMMIT_REF\" = \"$COMMIT_REF\" ]; then exit 1; fi; git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ../hub-public-functions"

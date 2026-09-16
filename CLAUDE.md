@@ -33,47 +33,46 @@ minds-aligned.org serves, while `hub/dist/index.html` is a *completely different
 wrong site** — the same class of accident as the 07-29 near-miss below, but harder to
 spot because the result still looks like a real AGI-26 page.
 
-Deploy the front door only like this, and diff the live page before and after:
+**Since 2026-09-16 the front door deploys from git.** `minds-aligned-soma` is linked to
+`eldrgeek/minds-aligned` `master` with **base directory `hub-public`**, so Netlify reads
+`hub-public/netlify.toml` (publish `.`, no build command, functions in
+`../hub-public-functions`) and never the root `netlify.toml`. To ship a change to
+`hub-public/`, push to `master`, then check the deploy reached `ready` and diff the live
+page. The toml's `ignore` command skips deploys for pushes that touch neither directory.
 
-```bash
-netlify deploy --prod \
-  --site=3dac5361-f1a6-4027-b57c-261984c1371d \
-  --dir=/Users/mikewolf/Projects/agi-2026/hub-public \
-  --no-build
-```
-
-The CLI will stop and ask you to pick a monorepo package. Don't answer it — copy
-`hub-public/` to a directory outside the repo and deploy from there with the same
-`--site`. Outside the repo there is no monorepo detection and no config to resolve
-wrongly, which is the entire failure mode.
-
-**Two more traps, found 2026-09-14 while shipping `/soma-apps/`:**
-- Run the deploy from *inside* the copy (`cd` into it). From anywhere under `~/Projects`,
-  the CLI walks up to `~/Projects/.netlify`. That path is deliberately a file, not a
-  folder, since the stray-link fix. So the CLI stops with
-  `ENOTDIR ... mkdir '/Users/mikewolf/Projects/.netlify/functions-internal'` before it
-  uploads anything.
-- A CLI deploy replaces the site's whole file set. Before deploying, list the live files
-  with `netlify api listSiteFiles --data '{"site_id":"3dac5361-f1a6-4027-b57c-261984c1371d"}'`
-  and check that each one exists in your copy. The 2026-08-02 deploy carried a 622-byte
-  `netlify.toml` that was never committed to `hub-public/` and could not be recovered.
-  The 2026-09-14 deploy (`6aa82edb`) dropped it, after a check that the response headers
-  and the `/a-different-mind/` routes were unchanged. If this site needs a
-  `netlify.toml` again, commit it to `hub-public/`.
+Two consequences:
+- **`master` moves on its own.** Mike's in-place edits (SOMA §17 Live Edit, below) commit
+  straight to `master` through the GitHub API. Pull before you push, or the push is
+  rejected as non-fast-forward.
+- **A CLI deploy is now the fallback, not the path.** If you must use one, the 2026-09-14
+  traps still apply: copy `hub-public/` outside `~/Projects`, `cd` into the copy, pass
+  `--site=3dac5361-f1a6-4027-b57c-261984c1371d --dir=<copy> --no-build`, and compare
+  `netlify api listSiteFiles` with the copy first. A CLI deploy does not bundle
+  `hub-public-functions/`, so it would take Live Edit's publish step and the feedback
+  proxy offline until the next git deploy.
 
 `hub-public/soma-apps/index.html` is the SOMA apps and SOMA sites explainer
 (https://minds-aligned.org/soma-apps/). The front-door footer and PlayMaker's How-To link
 to it. Its head comment gives the canon source for each claim, and names the two
 statements still waiting on Mike's ruling.
 
-**In-place editing is not wired on minds-aligned.org (2026-09-15).** Both pages used to
-load `soma-edit.js` and `soma-manager.js` from `soma-guide.netlify.app`. That CDN site was
-deleted in the 2026-08-03 Netlify review, so both scripts 404ed on every page load; they
-are removed. The `data-soma-editable` keys stay, so SOMA §17 Live Edit can reuse them. Live
-Edit's publish step (`copy-canonize`, e.g. `mike-wolf-com/netlify/functions/copy-canonize.mjs`)
-commits the new wording through the GitHub API and relies on Netlify auto-deploying the
-repo, so this site must be git-linked before it can adopt it. Filing edits into
-`site_copy_edits` without that step would be a silent success: nothing applies those rows.
+**In-place editing on minds-aligned.org is SOMA §17 Live Edit (since 2026-09-16).** Both
+pages load it for admins only (`?edit=1`, or an existing SOMA Auth session). An admin
+clicks a sentence, types, and "Make canonical" calls `/api/copy-canonize`
+(`hub-public-functions/copy-canonize.mjs`). That function checks `is_app_admin('minds-aligned')`,
+patches the sentence in `hub-public/*.html` through the GitHub API, and the git-linked
+site republishes. `hub-public/js/live-edit.js` must stay byte-identical to
+`mike-wolf-com/js/live-edit.js` (`shasum` both; SOMA/standards/soma-live-edit/ADOPT.md §5c).
+Netlify env on the site: `GITHUB_TOKEN` (the estate classic PAT, see
+`_estate/KEY-REFRESH-LEDGER.md`) and `SOMA_FEEDBACK_ENDPOINT` (for the chip proxy
+`hub-public-functions/soma-feedback.cjs`). The `data-soma-editable` keys are unused: Live
+Edit matches the sentence itself.
+
+History: until 2026-09-15 both pages loaded `soma-edit.js` and `soma-manager.js` from
+`soma-guide.netlify.app`, a CDN deleted in the 2026-08-03 Netlify review, so both 404ed.
+Until 2026-09-16 the feedback chip loaded from `vpsmikewolf.duckdns.org/feedback-svc/`,
+which by then answered with PlayMaker's HTML page, so the chip was dead too. The chip is
+now served from `hub-public/vendor/soma-feedback/` (SOMA/standards/soma-feedback-proxy).
 
 ## AI-related work is published as a ROUTE here, not a new subdomain
 
