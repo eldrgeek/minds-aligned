@@ -9,14 +9,14 @@
 # (the feedback chip's same-origin proxy; .cjs because the repo's package.json says
 # "type": "module").
 #
-# `ignore` skips the deploy when a push touches neither directory, so commits to the
-# thinker sites elsewhere in this repo do not republish the front door. (Exit 0 = skip,
-# exit 1 = build.) A build with no cache has CACHED_COMMIT_REF == COMMIT_REF, where a
-# bare `git diff --quiet` would skip every first build, so that case always builds.
+# No `ignore` command, on purpose. One was tried on 2026-09-16 (skip the deploy when a
+# push touches neither hub-public nor its functions). Netlify compares against the last
+# CACHED build, not the live deploy. So when a Live Edit change put a file back exactly
+# as it was two builds earlier, the deploy was cancelled as "no content change" and the
+# previous wording stayed live. A deploy here has no build step and takes about 16 seconds.
 #
 # Added 2026-09-16 (Mike Wolf's estate; Claude Opus 5, CCc).
 [build]
   publish = "."
   command = ""
   functions = "../hub-public-functions"
-  ignore = "if [ \"$CACHED_COMMIT_REF\" = \"$COMMIT_REF\" ]; then exit 1; fi; git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ../hub-public-functions"

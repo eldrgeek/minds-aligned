@@ -38,7 +38,8 @@ spot because the result still looks like a real AGI-26 page.
 `hub-public/netlify.toml` (publish `.`, no build command, functions in
 `../hub-public-functions`) and never the root `netlify.toml`. To ship a change to
 `hub-public/`, push to `master`, then check the deploy reached `ready` and diff the live
-page. The toml's `ignore` command skips deploys for pushes that touch neither directory.
+page. Every push to `master` redeploys the front door, including pushes that only touch
+the thinker sites; do not add an `ignore` command (the toml says why).
 
 Two consequences:
 - **`master` moves on its own.** Mike's in-place edits (SOMA §17 Live Edit, below) commit
