@@ -107,6 +107,23 @@ holds the truth. They share only key names, and the check script fails if they
 drift — a page offering a tier the server cannot price turns away someone who
 was willing to pay, silently.
 
+**The offer, decided 2026-09-17 — do not add a tier or a perk without reading
+SUPPORT.md §2.** Two prices per interval ($5/$10 monthly, $50/$100 yearly,
+suggested one marked), plus an open amount with no ceiling, plus per-campaign
+one-time amounts. **Every level gets the same three things** — name on the
+supporters page, mail answered by a person, an occasional note with no promised
+cadence. A higher amount buys more support, not more stuff.
+
+That is load-bearing, not lazy. Two constraints land on it: nothing in this
+estate has ever shipped monthly (work comes in bursts around events), so any
+calendar promise is one that gets missed; and if a campaign ever moves to the
+`org` account, a gift stays fully deductible only if benefits are worth the
+lesser of 2% or $139 — at $120/year that is **$2.40** of room. Early access,
+Discord, scheduled calls, downloads and merch each fail BOTH tests at once.
+Garage Door leads with one-time on purpose: the song is finished and already
+free, so a subscription there would be to the shop, not the song, and the copy
+says so.
+
 **Zero npm dependencies, structurally.** This site deploys `hub-public/` with
 `command = ""` and no package.json in the base directory, so nothing is ever
 installed. An import here that is not a `node:` builtin or a sibling file 502s in
@@ -114,13 +131,14 @@ production and passes every local test. The Stripe SDK would be a build step; on
 form-encoded POST is not.
 
 Env on `minds-aligned-soma`: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`,
-`MA_PRICE_INITIATIVE_{FRIEND,SUPPORTER,PATRON,BENEFACTOR}`, and later
+`MA_PRICE_INITIATIVE_{MONTH_5,MONTH_10,YEAR_50,YEAR_100}`, and later
 `STRIPE_SECRET_KEY_ORG`. `ops/check-support-catalog.mjs` prints which are unset.
 
 [SUPPORT.md](SUPPORT.md) is the companion memo: why a subscription and a
 donation are the same thing to the LLC and not to a 501(c)(3), the private-benefit
 trap in running both under one name, the Patreon arithmetic (~14.1% vs ~4.6%),
-and why the recommendation is a fiscal sponsor before Form 1023.
+and the fiscal-sponsor shortlist with the honest arithmetic (≈20% all-in at
+$1,000/year, so it is worth it for grant eligibility, not for $50 gifts).
 
 ## AI-related work is published as a ROUTE here, not a new subdomain
 
