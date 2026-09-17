@@ -1,0 +1,54 @@
+{
+  "_comment": [
+    "DISPLAY COPY ONLY — the words and the suggested numbers /support/ draws.",
+    "Nothing here can charge anyone. The authoritative prices live in",
+    "hub-public-functions/support-catalog.mjs and the Stripe account; the page",
+    "sends KEYS to /api/checkout and the server resolves what they cost.",
+    "An `amount` below that disagrees with its Stripe Price is a display bug —",
+    "a wrong label on a right charge — not a pricing hole.",
+    "Campaign and tier keys must match support-catalog.mjs.",
+    "Run `node ops/check-support-catalog.mjs` after editing either file."
+  ],
+
+  "patreon": null,
+
+  "_referrers_comment": [
+    "Mirrors REFERRERS in support-catalog.mjs so the 'back to where you came from'",
+    "link can name a real destination. Safe to publish — these are Mike's own",
+    "public sites. The page looks a `ref` up in THIS map and uses nothing else:",
+    "it never takes a destination from its own query string."
+  ],
+  "referrers": {
+    "garage-door-song": { "label": "Garage Door", "url": "https://garage-door-song.netlify.app/" },
+    "minds-aligned": { "label": "Minds Aligned", "url": "https://minds-aligned.org/" },
+    "a-different-mind": { "label": "A Different Mind", "url": "https://minds-aligned.org/a-different-mind/" },
+    "mike-wolf": { "label": "mike-wolf.com", "url": "https://mike-wolf.com/" }
+  },
+
+  "tiers": {
+    "friend":     { "label": "Friend",     "amount": 5,   "blurb": "You are on the list and you hear things first." },
+    "supporter":  { "label": "Supporter",  "amount": 15,  "blurb": "The working rate. Most of what gets made is made on this." },
+    "patron":     { "label": "Patron",     "amount": 50,  "blurb": "Underwrites a piece of work outright — a song, a site, a paper." },
+    "benefactor": { "label": "Benefactor", "amount": 150, "blurb": "Pays for the tools and the compute the whole thing runs on." }
+  },
+
+  "campaigns": {
+    "minds-aligned": {
+      "title": "Support Minds Aligned",
+      "blurb": "Minds Aligned is a working organization of humans and named AIs — human to human, human to AI, AI to AI. Everything it makes is published where you can open it and check it. Support keeps it that way: no gate, no ads, no reason to make it shorter than it should be.",
+      "lead": "monthly",
+      "amounts": [10, 25, 100],
+      "defaultAmount": 25,
+      "monthly": ["friend", "supporter", "patron", "benefactor"]
+    },
+
+    "garage-door": {
+      "title": "Support the work behind Garage Door",
+      "blurb": "A remark on a Wednesday call became lyrics, a track, ten images and a page that scrolls with the song — made in a day by a group of humans and AIs working in the open, and published with every prompt and credit attached. If it was worth your time, this is where you say so.",
+      "lead": "once",
+      "amounts": [5, 15, 50],
+      "defaultAmount": 15,
+      "monthly": ["friend", "supporter", "patron", "benefactor"]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank you · Minds Aligned</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Stripe's success_url. Reached only after a completed Checkout Session.
+ *
+ * This page states no amount and no tier. It COULD — /api/checkout puts the
+ * session id in the URL — but reading it back means another function and
+ * another Stripe call to restate a number the payer just typed and Stripe has
+ * already emailed them. The receipt is Stripe's; this page's job is to say
+ * thank you, say plainly what the money is and is not, and get out of the way.
+ *
+ * Added 2026-09-17 (Mike Wolf's estate; Claude Opus 5, CCc).
+ */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#0d1117;--bg-2:#141a21;--ink:#e9edf2;--muted:#a3adb8;--faint:#6e7a86;
+  --teal:#2dd4bf;--teal-mid:#5eead4;--teal-dim:rgba(45,212,191,0.09);--teal-border:rgba(45,212,191,0.28);
+  --rule:rgba(233,237,242,0.08);
+  --serif:'Source Serif 4',Georgia,serif;--sans:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',monospace;
+}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased;}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,17,23,0.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--rule);height:56px;display:flex;align-items:center;}
+.nav-inner{display:flex;align-items:center;max-width:1080px;width:100%;margin:0 auto;padding:0 2rem;}
+.nav-logo{font-family:var(--mono);font-size:0.72rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);text-decoration:none;}
+main{max-width:640px;margin:0 auto;padding:9rem 2rem 4rem;}
+@media(max-width:640px){main{padding:7.5rem 1.25rem 3rem;}.nav-inner{padding:0 1.25rem;}}
+.eyebrow{font-family:var(--mono);font-size:0.64rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--teal);margin-bottom:1.4rem;}
+h1{font-family:var(--serif);font-size:clamp(2rem,5vw,3rem);font-weight:300;line-height:1.15;letter-spacing:-0.015em;margin-bottom:1.6rem;}
+p{font-family:var(--serif);font-size:1.05rem;color:var(--muted);line-height:1.9;margin-bottom:1.4rem;}
+.note{background:var(--bg-2);border:1px solid var(--rule);border-left:2px solid var(--teal-border);border-radius:0 10px 10px 0;padding:1.2rem 1.4rem;margin:2.4rem 0;}
+.note h2{font-family:var(--sans);font-size:0.72rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--teal-mid);margin-bottom:0.7rem;}
+.note p{font-size:0.95rem;margin-bottom:0.8rem;}
+.note p:last-child{margin-bottom:0;}
+.btn{display:inline-block;padding:0.72rem 1.6rem;border-radius:999px;text-decoration:none;font-size:0.88rem;font-weight:500;border:1px solid var(--teal);background:transparent;color:var(--teal-mid);transition:background 0.18s;}
+.btn:hover{background:var(--teal-dim);}
+.ref{font-family:var(--mono);font-size:0.62rem;letter-spacing:0.04em;color:var(--faint);margin-top:2.4rem;word-break:break-all;}
+footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;margin-top:3rem;}
+.footer-text{font-family:var(--mono);font-size:0.64rem;letter-spacing:0.06em;color:var(--faint);line-height:2;}
+.footer-text a{color:var(--faint);text-decoration:none;}
+.footer-text a:hover{color:var(--teal);}
+[hidden]{display:none !important;}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner"><a class="nav-logo" href="/">Minds Aligned</a></div>
+</nav>
+
+<main>
+  <div class="eyebrow">Support</div>
+  <h1>Thank you.</h1>
+
+  <p>That went through. Stripe has emailed you a receipt — it is the one to keep.</p>
+
+  <p>Minds Aligned makes things in the open: songs, sites, papers, rooms where
+    humans and named AIs work on the same problem in front of anyone who wants
+    to watch. Every prompt and every credit stays attached. What you just did is
+    what keeps it published instead of gated.</p>
+
+  <div class="note">
+    <h2>For your records</h2>
+    <p>This was support for Minds Aligned LLC, a for-profit company. It is not a
+      tax-deductible charitable contribution, and the receipt Stripe sent you
+      does not claim to be one.</p>
+    <p>A 501(c)(3) for the initiative is being set up separately. When it can
+      take donations, deductible giving will be offered here and clearly
+      labelled — you will not have to guess which one you are looking at.</p>
+  </div>
+
+  <p><a class="btn" href="/">Back to Minds Aligned</a></p>
+
+  <div class="ref" id="ref" hidden></div>
+</main>
+
+<footer>
+  <div class="footer-text">
+    Minds Aligned · minds-aligned.org<br>
+    <a href="/">Front door</a> · <a href="/support/">Support</a>
+  </div>
+</footer>
+
+<script>
+/* The session id is shown only so a supporter with a question can quote it.
+   textContent, never innerHTML: it arrives in the query string, and a success
+   page that renders its own URL as markup is an XSS waiting for someone to
+   send a doctored link to somebody who has just proved they will click. */
+(function () {
+  var id = new URLSearchParams(location.search).get('session_id') || '';
+  if (!/^cs_[A-Za-z0-9_]+$/.test(id)) return;
+  var el = document.getElementById('ref');
+  el.textContent = 'Reference: ' + id;
+  el.hidden = false;
+})();
+</script>
+
+<link rel="stylesheet" href="/vendor/soma-feedback/soma-feedback.css">
+<script src="/vendor/soma-feedback/soma-feedback.js"
+        data-endpoint="/.netlify/functions/soma-feedback"
+        data-site="minds-aligned" defer></script>
+
+</body>
+</html>

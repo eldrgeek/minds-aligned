@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support · Minds Aligned</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="description" content="Support Minds Aligned — one page every property in the estate links to, carrying what you are supporting in the URL.">
+<meta property="og:title" content="Support Minds Aligned">
+<meta property="og:description" content="Monthly or one-time. Everything Minds Aligned makes stays published and open.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ─────────────────────────────────────────────────────────────────────────
+   /support/ — the one place in the estate that asks for money.
+
+   THE POINT OF A SINGLE PAGE. Every other property (the Garage Door song,
+   a-different-mind, a thinker site, whatever is next) links HERE and says
+   in the query string what it is asking on behalf of:
+
+       /support/?campaign=garage-door&ref=garage-door-song
+
+   Those sites hold no Stripe key, no price, no checkout code, and nothing
+   to re-issue when an amount changes or the money moves from the LLC to the
+   501(c)(3). They hold a link. This page and /api/checkout hold the rest.
+
+   The query string names a CAMPAIGN, never a price — see the header of
+   hub-public-functions/support-catalog.mjs. Everything drawn below comes
+   from catalog.json, which is display copy and cannot charge anyone.
+
+   Same house grammar and the same teal as the front door: Source Serif 4
+   display, Inter body, JetBrains Mono labels, receipts before adjectives.
+
+   Added 2026-09-17 (Mike Wolf's estate; Claude Opus 5, CCc).
+   ───────────────────────────────────────────────────────────────────── */
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#0d1117;--bg-2:#141a21;--bg-3:#1b232c;
+  --ink:#e9edf2;--muted:#a3adb8;--faint:#6e7a86;
+  --teal:#2dd4bf;--teal-mid:#5eead4;--teal-dim:rgba(45,212,191,0.09);--teal-border:rgba(45,212,191,0.28);
+  --rule:rgba(233,237,242,0.08);--warn:#fbbf24;
+  --serif:'Source Serif 4',Georgia,serif;--sans:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',monospace;
+}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased;}
+a{color:var(--teal-mid);}
+
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,17,23,0.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--rule);height:56px;display:flex;align-items:center;}
+.nav-inner{display:flex;align-items:center;gap:2rem;max-width:1080px;width:100%;margin:0 auto;padding:0 2rem;}
+.nav-logo{font-family:var(--mono);font-size:0.72rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);text-decoration:none;white-space:nowrap;}
+.nav-links{display:flex;gap:1.4rem;margin-left:auto;}
+.nav-links a{font-size:0.8rem;color:var(--muted);text-decoration:none;transition:color 0.2s;}
+.nav-links a:hover{color:var(--ink);}
+@media(max-width:640px){.nav-inner{padding:0 1.25rem;}}
+
+main{max-width:760px;margin:0 auto;padding:8.5rem 2rem 4rem;}
+@media(max-width:640px){main{padding:7rem 1.25rem 3rem;}}
+.eyebrow{font-family:var(--mono);font-size:0.64rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--teal);margin-bottom:1.4rem;}
+h1{font-family:var(--serif);font-size:clamp(1.9rem,4.6vw,3rem);font-weight:300;line-height:1.15;letter-spacing:-0.015em;margin-bottom:1.5rem;}
+.lead{font-family:var(--serif);font-size:clamp(1.02rem,2vw,1.18rem);color:var(--muted);line-height:1.85;margin-bottom:2.6rem;max-width:60ch;}
+
+/* ── INTENT TOGGLE ── */
+.toggle{display:inline-flex;background:var(--bg-2);border:1px solid var(--rule);border-radius:999px;padding:4px;gap:4px;margin-bottom:2rem;}
+.toggle button{font-family:var(--sans);font-size:0.85rem;font-weight:500;color:var(--muted);background:transparent;border:0;border-radius:999px;padding:0.55rem 1.35rem;cursor:pointer;transition:background 0.18s,color 0.18s;}
+.toggle button[aria-selected="true"]{background:var(--teal);color:#06231f;}
+.toggle button:not([aria-selected="true"]):hover{color:var(--ink);background:var(--teal-dim);}
+
+/* ── OPTIONS ── */
+/* Monthly tiers stack, because each carries a sentence worth reading. One-time
+   amounts sit in a row: three numbers do not need three rows, and the tab above
+   them already says "One-time" — repeating it on every card was noise. */
+.options{display:grid;gap:0.7rem;margin-bottom:1.6rem;}
+.options.row{grid-auto-flow:column;grid-auto-columns:1fr;}
+@media(max-width:520px){.options.row{grid-auto-flow:row;grid-auto-columns:auto;}}
+.options.row .opt{justify-content:center;padding:1.2rem 0.8rem;}
+.options.row .opt .amt{min-width:0;font-size:1.5rem;}
+.opt{display:flex;align-items:baseline;gap:1rem;width:100%;text-align:left;background:var(--bg-2);border:1px solid var(--rule);border-radius:12px;padding:1.1rem 1.3rem;cursor:pointer;font-family:var(--sans);color:var(--ink);transition:border-color 0.18s,background 0.18s;}
+.opt:hover{border-color:var(--teal-border);background:var(--bg-3);}
+.opt[aria-pressed="true"]{border-color:var(--teal);background:var(--teal-dim);}
+.opt .amt{font-family:var(--serif);font-size:1.35rem;font-weight:400;color:var(--teal);white-space:nowrap;min-width:4.6rem;}
+.opt .per{font-family:var(--mono);font-size:0.6rem;color:var(--faint);letter-spacing:0.08em;}
+.opt .label{font-size:0.94rem;font-weight:500;}
+.opt .blurb{font-size:0.85rem;color:var(--muted);line-height:1.6;margin-top:0.15rem;}
+
+/* ── CUSTOM AMOUNT ── */
+.custom{display:flex;align-items:center;gap:0.8rem;background:var(--bg-2);border:1px solid var(--rule);border-radius:12px;padding:1rem 1.3rem;margin-bottom:1.6rem;}
+.custom label{font-size:0.9rem;color:var(--muted);white-space:nowrap;}
+.custom .dollar{font-family:var(--serif);font-size:1.2rem;color:var(--teal);}
+.custom input{flex:1;min-width:0;background:transparent;border:0;border-bottom:1px solid var(--rule);color:var(--ink);font-family:var(--serif);font-size:1.2rem;padding:0.2rem 0;outline:none;}
+.custom input:focus{border-bottom-color:var(--teal);}
+
+.go{display:block;width:100%;padding:0.95rem 1.6rem;border-radius:999px;border:1px solid var(--teal);background:var(--teal);color:#06231f;font-family:var(--sans);font-size:0.95rem;font-weight:600;cursor:pointer;transition:background 0.18s;}
+.go:hover{background:var(--teal-mid);}
+.go[disabled]{opacity:0.45;cursor:not-allowed;}
+.secure{font-family:var(--mono);font-size:0.62rem;letter-spacing:0.05em;color:var(--faint);text-align:center;margin-top:0.9rem;}
+
+/* ── NOTES ── */
+.note{background:var(--bg-2);border:1px solid var(--rule);border-left:2px solid var(--teal-border);border-radius:0 10px 10px 0;padding:1.2rem 1.4rem;margin-top:2.6rem;}
+.note h2{font-family:var(--sans);font-size:0.72rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--teal-mid);margin-bottom:0.7rem;}
+.note p{font-family:var(--serif);font-size:0.95rem;color:var(--muted);line-height:1.8;margin-bottom:0.8rem;}
+.note p:last-child{margin-bottom:0;}
+.err{border-left-color:var(--warn);}
+.err h2{color:var(--warn);}
+.alts{margin-top:1.6rem;font-size:0.88rem;color:var(--faint);line-height:2;}
+.alts a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--rule);}
+.alts a:hover{color:var(--teal-mid);border-bottom-color:var(--teal-border);}
+
+footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;margin-top:3rem;}
+.footer-text{font-family:var(--mono);font-size:0.64rem;letter-spacing:0.06em;color:var(--faint);line-height:2;}
+.footer-text a{color:var(--faint);text-decoration:none;}
+.footer-text a:hover{color:var(--teal);}
+[hidden]{display:none !important;}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">Minds Aligned</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/soma-apps/">SOMA apps</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="eyebrow" id="eyebrow">Support</div>
+  <h1 id="title">Support Minds Aligned</h1>
+  <p class="lead" id="blurb"></p>
+
+  <!-- Every error /api/checkout can bounce back with gets a sentence. A code
+       with no sentence still renders the panel with a generic line, so a new
+       code added to the function is never a silently blank page. -->
+  <div class="note err" id="error" hidden>
+    <h2>That didn't go through</h2>
+    <p id="error-text"></p>
+  </div>
+
+  <div class="toggle" role="tablist" aria-label="How often">
+    <button type="button" role="tab" id="tab-once" aria-selected="true">One-time</button>
+    <button type="button" role="tab" id="tab-monthly" aria-selected="false">Monthly</button>
+  </div>
+
+  <div class="options" id="options"></div>
+
+  <div class="custom" id="custom">
+    <label for="custom-amount">Another amount</label>
+    <span class="dollar">$</span>
+    <input type="text" id="custom-amount" inputmode="decimal" autocomplete="off" aria-label="Amount in US dollars">
+  </div>
+
+  <button type="button" class="go" id="go">Continue</button>
+  <p class="secure">Card details are handled by Stripe. This site never sees them.</p>
+
+  <div class="note">
+    <h2>What you are supporting, and what it is not</h2>
+    <p id="entity-note"></p>
+    <p>Everything Minds Aligned makes stays published and open — the prompts, the
+      credits, the source. Support is what keeps it that way rather than putting
+      it behind something.</p>
+  </div>
+
+  <div class="alts">
+    <span id="patreon-line" hidden>Prefer Patreon? <a id="patreon-link" href="#">Minds Aligned on Patreon</a>.</span>
+    <span id="back-line" hidden><a id="back-link" href="/">← Back to where you came from</a></span>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-text">
+    Minds Aligned · minds-aligned.org<br>
+    <a href="/">Front door</a> · <a href="/soma-apps/">What are SOMA apps and SOMA sites?</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var ERRORS = {
+    'unknown-campaign': 'That link pointed at something we do not have an ask set up for. The general options below still work.',
+    'unknown-tier':     'That subscription tier is not one we offer any more. Pick one below.',
+    'bad-amount':       'That amount did not come through as a number we could charge. Try typing it again.',
+    'not-configured':   'This one is not switched on yet — the payment settings for it are still being set up. Nothing was charged.',
+    'stripe-error':     'Stripe turned the payment down before it started. Nothing was charged. Worth trying again in a minute.'
+  };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var q = new URLSearchParams(location.search);
+  var state = { campaign: 'minds-aligned', intent: 'once', tier: null, amount: null, ref: '' };
+  var catalog = null;
+
+  /* Same sanitising rule as the server's `slug`. The page is not the security
+     boundary — /api/checkout re-slugs everything it is sent — but matching the
+     rule here means the URL this page builds is the URL the server accepts,
+     instead of one it silently rewrites. */
+  function slug(v) { return String(v == null ? '' : v).toLowerCase().replace(/[^a-z0-9._-]/g, '').slice(0, 64); }
+
+  function money(n) { return '$' + (n % 1 === 0 ? n : n.toFixed(2)); }
+
+  function render() {
+    var c = catalog.campaigns[state.campaign] || catalog.campaigns['minds-aligned'];
+    var once = state.intent === 'once';
+
+    $('tab-once').setAttribute('aria-selected', String(once));
+    $('tab-monthly').setAttribute('aria-selected', String(!once));
+    $('custom').hidden = !once;
+
+    var opts = $('options');
+    opts.textContent = '';
+    opts.className = 'options' + (once ? ' row' : '');
+
+    (once ? c.amounts : c.monthly).forEach(function (entry) {
+      var isTier = !once;
+      var tier = isTier ? catalog.tiers[entry] : null;
+      if (isTier && !tier) return;
+
+      var amount = isTier ? tier.amount : entry;
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'opt';
+      b.setAttribute('aria-pressed', String(isTier ? state.tier === entry : state.amount === amount));
+
+      var amt = document.createElement('span');
+      amt.className = 'amt';
+      amt.textContent = money(amount);
+      if (isTier) {
+        var per = document.createElement('span');
+        per.className = 'per';
+        per.textContent = ' /mo';
+        amt.appendChild(per);
+      }
+
+      b.appendChild(amt);
+      if (isTier) {
+        var body = document.createElement('span');
+        var label = document.createElement('span');
+        label.className = 'label';
+        label.textContent = tier.label;
+        var blurb = document.createElement('span');
+        blurb.className = 'blurb';
+        blurb.textContent = tier.blurb;
+        body.appendChild(label);
+        body.appendChild(document.createElement('br'));
+        body.appendChild(blurb);
+        b.appendChild(body);
+      }
+      b.addEventListener('click', function () {
+        if (isTier) { state.tier = entry; }
+        else { state.amount = amount; $('custom-amount').value = ''; }
+        render();
+      });
+      opts.appendChild(b);
+    });
+
+    $('go').textContent = once
+      ? (state.amount ? 'Continue — ' + money(state.amount) : 'Continue')
+      : 'Continue — ' + (state.tier ? money(catalog.tiers[state.tier].amount) + '/month' : 'monthly');
+    $('go').disabled = once ? !state.amount : !state.tier;
+  }
+
+  function start() {
+    var c = catalog.campaigns[state.campaign];
+
+    $('title').textContent = c.title;
+    $('blurb').textContent = c.blurb;
+    document.title = c.title + ' · Minds Aligned';
+    $('eyebrow').textContent = state.ref ? 'Support · from ' + state.ref : 'Support';
+
+    /* Whether the LLC or the 501(c)(3) is collecting decides what a supporter
+       may tell their accountant, so the page says it rather than leaving them
+       to assume the friendlier answer. When a campaign moves to the nonprofit
+       account this sentence has to move with it — see SUPPORT.md. */
+    $('entity-note').textContent =
+      'Minds Aligned LLC is a for-profit company, so this is support for the work, ' +
+      'not a tax-deductible charitable contribution — nobody will send you a receipt ' +
+      'that says otherwise. A 501(c)(3) for the initiative is being set up separately; ' +
+      'when it can take donations, deductible giving will be offered here and labelled as such.';
+
+    if (catalog.patreon) {
+      $('patreon-link').href = catalog.patreon;
+      $('patreon-line').hidden = false;
+    }
+
+    var err = q.get('error');
+    if (err) {
+      $('error-text').textContent = ERRORS[slug(err)] ||
+        'Something went wrong before any money moved. Nothing was charged.';
+      $('error').hidden = false;
+    }
+
+    /* The URL may preselect an ask — a link can go straight to "$50 one-time"
+       or "the Patron tier". It is still only a preselection: the visitor sees
+       it, and the server prices it. */
+    state.intent = q.get('intent') === 'monthly' ? 'monthly'
+      : q.get('intent') === 'once' ? 'once'
+      : (c.lead === 'monthly' ? 'monthly' : 'once');
+
+    var tier = slug(q.get('tier'));
+    if (tier && catalog.tiers[tier] && c.monthly.indexOf(tier) >= 0) state.tier = tier;
+    else state.tier = c.monthly[1] || c.monthly[0];
+
+    var amount = parseFloat(String(q.get('amount') || '').replace(/[$,\s]/g, ''));
+    state.amount = isFinite(amount) && amount > 0 ? amount
+      : (c.amounts.indexOf(c.defaultAmount) >= 0 ? c.defaultAmount : c.amounts[0]);
+
+    render();
+  }
+
+  $('tab-once').addEventListener('click', function () { state.intent = 'once'; render(); });
+  $('tab-monthly').addEventListener('click', function () { state.intent = 'monthly'; render(); });
+
+  $('custom-amount').addEventListener('input', function (e) {
+    var n = parseFloat(e.target.value.replace(/[$,\s]/g, ''));
+    state.amount = isFinite(n) && n > 0 ? n : null;
+    document.querySelectorAll('.opt').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+    $('go').disabled = !state.amount;
+    $('go').textContent = state.amount ? 'Continue — ' + money(state.amount) : 'Continue';
+  });
+
+  /* A plain navigation, not fetch(). No CORS, no JSON, no spinner to get stuck
+     in: the browser leaves this page and arrives at Stripe, and the back button
+     works the way a visitor expects it to. */
+  $('go').addEventListener('click', function () {
+    var p = new URLSearchParams({ campaign: state.campaign, intent: state.intent });
+    if (state.intent === 'monthly') p.set('tier', state.tier);
+    else p.set('amount', String(state.amount));
+    if (state.ref) p.set('ref', state.ref);
+    $('go').disabled = true;
+    $('go').textContent = 'Taking you to Stripe…';
+    location.href = '/api/checkout?' + p.toString();
+  });
+
+  fetch('/support/catalog.json', { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error('catalog ' + r.status); return r.json(); })
+    .then(function (data) {
+      catalog = data;
+      var asked = slug(q.get('campaign'));
+      state.campaign = catalog.campaigns[asked] ? asked : 'minds-aligned';
+      state.ref = slug(q.get('ref'));
+
+      /* An unrecognised campaign is a stale link on somebody's site, not a dead
+         end: fall through to the general ask and say why, rather than showing
+         a visitor who arrived willing to pay an error and nothing to pay for. */
+      if (asked && !catalog.campaigns[asked] && !q.get('error')) {
+        $('error-text').textContent = ERRORS['unknown-campaign'];
+        $('error').hidden = false;
+      }
+
+      /* The destination comes from catalog.referrers — a map Mike wrote, matched
+         by exact key — and NEVER from the query string. A page that redirects
+         wherever its own URL tells it to is an open redirect, and an open
+         redirect on the domain that also runs the checkout is the exact thing a
+         phishing page wants to borrow. An unknown ref gets the front door. */
+      var home = (catalog.referrers || {})[state.ref];
+      if (state.ref) {
+        $('back-link').href = home ? home.url : '/';
+        $('back-link').textContent = home ? '\u2190 Back to ' + home.label : '\u2190 Back to Minds Aligned';
+        $('back-line').hidden = false;
+      }
+      start();
+    })
+    .catch(function (e) {
+      console.error('[support] catalog failed', e);
+      $('blurb').textContent =
+        'The support options could not be loaded just now. Please reload, or write to Mike directly.';
+      $('go').disabled = true;
+    });
+})();
+</script>
+
+<link rel="stylesheet" href="/vendor/soma-feedback/soma-feedback.css">
+<script src="/vendor/soma-feedback/soma-feedback.js"
+        data-endpoint="/.netlify/functions/soma-feedback"
+        data-site="minds-aligned" defer></script>
+
+</body>
+</html>
