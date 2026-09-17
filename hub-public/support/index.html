@@ -67,6 +67,17 @@ h1{font-family:var(--serif);font-size:clamp(1.9rem,4.6vw,3rem);font-weight:300;l
 .toggle button[aria-selected="true"]{background:var(--teal);color:#06231f;}
 .toggle button:not([aria-selected="true"]):hover{color:var(--ink);background:var(--teal-dim);}
 
+/* ── WHAT EVERY SUPPORTER GETS ── */
+/* Shown ONCE, above the prices, because it is the same at every price. A blurb
+   per tier would imply the levels differ, and the fact that they don't is the
+   decision the whole offer rests on. */
+.benefits{background:var(--bg-2);border:1px solid var(--rule);border-left:2px solid var(--teal-border);border-radius:0 10px 10px 0;padding:1.2rem 1.4rem;margin-bottom:2.2rem;}
+.benefits h2{font-family:var(--sans);font-size:0.72rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--teal-mid);margin-bottom:0.8rem;}
+.benefits ul{list-style:none;display:grid;gap:0.55rem;}
+.benefits li{font-family:var(--serif);font-size:0.97rem;color:var(--muted);line-height:1.65;padding-left:1.1rem;position:relative;}
+.benefits li::before{content:'·';position:absolute;left:0.25rem;color:var(--teal);font-weight:700;}
+.benefits .same{font-family:var(--mono);font-size:0.62rem;letter-spacing:0.05em;color:var(--faint);margin-top:0.9rem;}
+
 /* ── OPTIONS ── */
 /* Monthly tiers stack, because each carries a sentence worth reading. One-time
    amounts sit in a row: three numbers do not need three rows, and the tab above
@@ -74,6 +85,7 @@ h1{font-family:var(--serif);font-size:clamp(1.9rem,4.6vw,3rem);font-weight:300;l
 .options{display:grid;gap:0.7rem;margin-bottom:1.6rem;}
 .options.row{grid-auto-flow:column;grid-auto-columns:1fr;}
 @media(max-width:520px){.options.row{grid-auto-flow:row;grid-auto-columns:auto;}}
+@media(max-width:560px){.toggle{display:flex;width:100%;}.toggle button{flex:1;padding:0.55rem 0.5rem;font-size:0.8rem;}}
 .options.row .opt{justify-content:center;padding:1.2rem 0.8rem;}
 .options.row .opt .amt{min-width:0;font-size:1.5rem;}
 .opt{display:flex;align-items:baseline;gap:1rem;width:100%;text-align:left;background:var(--bg-2);border:1px solid var(--rule);border-radius:12px;padding:1.1rem 1.3rem;cursor:pointer;font-family:var(--sans);color:var(--ink);transition:border-color 0.18s,background 0.18s;}
@@ -83,6 +95,8 @@ h1{font-family:var(--serif);font-size:clamp(1.9rem,4.6vw,3rem);font-weight:300;l
 .opt .per{font-family:var(--mono);font-size:0.6rem;color:var(--faint);letter-spacing:0.08em;}
 .opt .label{font-size:0.94rem;font-weight:500;}
 .opt .blurb{font-size:0.85rem;color:var(--muted);line-height:1.6;margin-top:0.15rem;}
+.opt .sug{display:inline-block;font-family:var(--mono);font-size:0.55rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--teal);border:1px solid var(--teal-border);border-radius:999px;padding:0.15rem 0.5rem;margin-left:0.55rem;vertical-align:middle;}
+.ctx{font-family:var(--serif);font-size:0.95rem;color:var(--muted);line-height:1.75;margin:-0.4rem 0 1.5rem;}
 
 /* ── CUSTOM AMOUNT ── */
 .custom{display:flex;align-items:center;gap:0.8rem;background:var(--bg-2);border:1px solid var(--rule);border-radius:12px;padding:1rem 1.3rem;margin-bottom:1.6rem;}
@@ -139,11 +153,19 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;marg
     <p id="error-text"></p>
   </div>
 
-  <div class="toggle" role="tablist" aria-label="How often">
-    <button type="button" role="tab" id="tab-once" aria-selected="true">One-time</button>
-    <button type="button" role="tab" id="tab-monthly" aria-selected="false">Monthly</button>
+  <div class="benefits">
+    <h2>What every supporter gets</h2>
+    <ul id="benefits"></ul>
+    <p class="same">The same at every amount. More money supports more work — it does not buy more things.</p>
   </div>
 
+  <div class="toggle" role="tablist" aria-label="How often">
+    <button type="button" role="tab" id="tab-yearly" aria-selected="false">Yearly</button>
+    <button type="button" role="tab" id="tab-monthly" aria-selected="false">Monthly</button>
+    <button type="button" role="tab" id="tab-once" aria-selected="true">One-time</button>
+  </div>
+
+  <p class="ctx" id="ctx" hidden></p>
   <div class="options" id="options"></div>
 
   <div class="custom" id="custom">
@@ -182,11 +204,14 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;marg
 
   var ERRORS = {
     'unknown-campaign': 'That link pointed at something we do not have an ask set up for. The general options below still work.',
-    'unknown-tier':     'That subscription tier is not one we offer any more. Pick one below.',
+    'unknown-tier':     'That price is not one we offer any more. Pick one below.',
     'bad-amount':       'That amount did not come through as a number we could charge. Try typing it again.',
     'not-configured':   'This one is not switched on yet — the payment settings for it are still being set up. Nothing was charged.',
     'stripe-error':     'Stripe turned the payment down before it started. Nothing was charged. Worth trying again in a minute.'
   };
+
+  var INTENTS = ['yearly', 'monthly', 'once'];
+  var PER = { yearly: '/year', monthly: '/month', once: '' };
 
   var $ = function (id) { return document.getElementById(id); };
   var q = new URLSearchParams(location.search);
@@ -201,74 +226,111 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;marg
 
   function money(n) { return '$' + (n % 1 === 0 ? n : n.toFixed(2)); }
 
+  function campaign() {
+    return catalog.campaigns[state.campaign] || catalog.campaigns['minds-aligned'];
+  }
+
   function render() {
-    var c = catalog.campaigns[state.campaign] || catalog.campaigns['minds-aligned'];
+    var c = campaign();
     var once = state.intent === 'once';
 
-    $('tab-once').setAttribute('aria-selected', String(once));
-    $('tab-monthly').setAttribute('aria-selected', String(!once));
-    $('custom').hidden = !once;
+    INTENTS.forEach(function (i) {
+      $('tab-' + i).setAttribute('aria-selected', String(state.intent === i));
+    });
+
+    /* Garage Door's line about what a subscription actually is. A recurring
+       charge against a finished song is incoherent; against the shop that made
+       it, it is the truth. The copy carries that, not the code. */
+    var ctx = !once && c.recurringNote ? c.recurringNote : '';
+    $('ctx').textContent = ctx;
+    $('ctx').hidden = !ctx;
 
     var opts = $('options');
     opts.textContent = '';
     opts.className = 'options' + (once ? ' row' : '');
 
-    (once ? c.amounts : c.monthly).forEach(function (entry) {
-      var isTier = !once;
-      var tier = isTier ? catalog.tiers[entry] : null;
-      if (isTier && !tier) return;
+    var rows = once
+      ? (c.once.amounts || []).map(function (a) { return { amount: a }; })
+      : (catalog.tiers[state.intent] || []);
 
-      var amount = isTier ? tier.amount : entry;
+    rows.forEach(function (row) {
+      var picked = row.key ? state.tier === row.key : state.amount === row.amount;
       var b = document.createElement('button');
       b.type = 'button';
       b.className = 'opt';
-      b.setAttribute('aria-pressed', String(isTier ? state.tier === entry : state.amount === amount));
+      b.setAttribute('aria-pressed', String(picked));
 
       var amt = document.createElement('span');
       amt.className = 'amt';
-      amt.textContent = money(amount);
-      if (isTier) {
+      amt.textContent = money(row.amount);
+      if (!once) {
         var per = document.createElement('span');
         per.className = 'per';
-        per.textContent = ' /mo';
+        per.textContent = ' ' + PER[state.intent].replace('/', '/ ').trim();
         amt.appendChild(per);
       }
-
       b.appendChild(amt);
-      if (isTier) {
+
+      if (row.note) {
         var body = document.createElement('span');
         var label = document.createElement('span');
         label.className = 'label';
-        label.textContent = tier.label;
-        var blurb = document.createElement('span');
-        blurb.className = 'blurb';
-        blurb.textContent = tier.blurb;
+        label.textContent = money(row.amount) + PER[state.intent];
+        if (row.suggested) {
+          var tag = document.createElement('span');
+          tag.className = 'sug';
+          tag.textContent = 'suggested';
+          label.appendChild(tag);
+        }
+        var note = document.createElement('span');
+        note.className = 'blurb';
+        note.textContent = row.note;
         body.appendChild(label);
         body.appendChild(document.createElement('br'));
-        body.appendChild(blurb);
+        body.appendChild(note);
         b.appendChild(body);
       }
+
       b.addEventListener('click', function () {
-        if (isTier) { state.tier = entry; }
-        else { state.amount = amount; $('custom-amount').value = ''; }
+        if (row.key) { state.tier = row.key; state.amount = null; }
+        else { state.amount = row.amount; state.tier = null; }
+        $('custom-amount').value = '';
         render();
       });
       opts.appendChild(b);
     });
 
-    $('go').textContent = once
-      ? (state.amount ? 'Continue — ' + money(state.amount) : 'Continue')
-      : 'Continue — ' + (state.tier ? money(catalog.tiers[state.tier].amount) + '/month' : 'monthly');
-    $('go').disabled = once ? !state.amount : !state.tier;
+    updateGo();
+  }
+
+  /* The button always says what is about to be charged, because the moment
+     before a card form is the last honest place to say it. */
+  function updateGo() {
+    var chosen = state.tier
+      ? (catalog.tiers[state.intent] || []).filter(function (t) { return t.key === state.tier; })[0]
+      : null;
+    var amount = chosen ? chosen.amount : state.amount;
+    $('go').disabled = !amount;
+    $('go').textContent = amount
+      ? 'Continue — ' + money(amount) + PER[state.intent]
+      : 'Continue';
   }
 
   function start() {
-    var c = catalog.campaigns[state.campaign];
+    var c = campaign();
 
     $('title').textContent = c.title;
     $('blurb').textContent = c.blurb;
     document.title = c.title + ' · Minds Aligned';
     $('eyebrow').textContent = state.ref ? 'Support · from ' + state.ref : 'Support';
+
+    var list = $('benefits');
+    list.textContent = '';
+    (catalog.benefits || []).forEach(function (line) {
+      var li = document.createElement('li');
+      li.textContent = line;
+      list.appendChild(li);
+    });
 
     /* Whether the LLC or the 501(c)(3) is collecting decides what a supporter
        may tell their accountant, so the page says it rather than leaving them
@@ -293,32 +355,54 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;marg
     }
 
     /* The URL may preselect an ask — a link can go straight to "$50 one-time"
-       or "the Patron tier". It is still only a preselection: the visitor sees
-       it, and the server prices it. */
-    state.intent = q.get('intent') === 'monthly' ? 'monthly'
-      : q.get('intent') === 'once' ? 'once'
-      : (c.lead === 'monthly' ? 'monthly' : 'once');
+       or the yearly rate. It is still only a preselection: the visitor sees it,
+       and the server prices it. */
+    var asked = slug(q.get('intent'));
+    state.intent = INTENTS.indexOf(asked) >= 0 ? asked
+      : (INTENTS.indexOf(c.lead) >= 0 ? c.lead : 'once');
 
-    var tier = slug(q.get('tier'));
-    if (tier && catalog.tiers[tier] && c.monthly.indexOf(tier) >= 0) state.tier = tier;
-    else state.tier = c.monthly[1] || c.monthly[0];
-
-    var amount = parseFloat(String(q.get('amount') || '').replace(/[$,\s]/g, ''));
-    state.amount = isFinite(amount) && amount > 0 ? amount
-      : (c.amounts.indexOf(c.defaultAmount) >= 0 ? c.defaultAmount : c.amounts[0]);
-
+    pick();
     render();
   }
 
-  $('tab-once').addEventListener('click', function () { state.intent = 'once'; render(); });
-  $('tab-monthly').addEventListener('click', function () { state.intent = 'monthly'; render(); });
+  /* Pick a sensible default for whichever intent is showing: the tier marked
+     suggested, or the campaign's default amount for a one-time. */
+  function pick() {
+    state.tier = null;
+    state.amount = null;
+
+    if (state.intent === 'once') {
+      var amounts = campaign().once.amounts || [];
+      var asked = parseFloat(String(q.get('amount') || '').replace(/[$,\s]/g, ''));
+      state.amount = isFinite(asked) && asked > 0 ? asked
+        : (amounts.indexOf(campaign().once.defaultAmount) >= 0 ? campaign().once.defaultAmount : amounts[0]);
+      return;
+    }
+
+    var tiers = catalog.tiers[state.intent] || [];
+    var wanted = slug(q.get('tier'));
+    var match = tiers.filter(function (t) { return t.key === wanted; })[0]
+      || tiers.filter(function (t) { return t.suggested; })[0]
+      || tiers[0];
+    if (match) state.tier = match.key;
+  }
+
+  INTENTS.forEach(function (i) {
+    $('tab-' + i).addEventListener('click', function () {
+      if (state.intent === i) return;
+      state.intent = i;
+      $('custom-amount').value = '';
+      pick();
+      render();
+    });
+  });
 
   $('custom-amount').addEventListener('input', function (e) {
     var n = parseFloat(e.target.value.replace(/[$,\s]/g, ''));
     state.amount = isFinite(n) && n > 0 ? n : null;
+    state.tier = null;
     document.querySelectorAll('.opt').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
-    $('go').disabled = !state.amount;
-    $('go').textContent = state.amount ? 'Continue — ' + money(state.amount) : 'Continue';
+    updateGo();
   });
 
   /* A plain navigation, not fetch(). No CORS, no JSON, no spinner to get stuck
@@ -326,7 +410,7 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;marg
      works the way a visitor expects it to. */
   $('go').addEventListener('click', function () {
     var p = new URLSearchParams({ campaign: state.campaign, intent: state.intent });
-    if (state.intent === 'monthly') p.set('tier', state.tier);
+    if (state.tier) p.set('tier', state.tier);
     else p.set('amount', String(state.amount));
     if (state.ref) p.set('ref', state.ref);
     $('go').disabled = true;
@@ -358,7 +442,7 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;marg
       var home = (catalog.referrers || {})[state.ref];
       if (state.ref) {
         $('back-link').href = home ? home.url : '/';
-        $('back-link').textContent = home ? '\u2190 Back to ' + home.label : '\u2190 Back to Minds Aligned';
+        $('back-link').textContent = home ? '← Back to ' + home.label : '← Back to Minds Aligned';
         $('back-line').hidden = false;
       }
       start();

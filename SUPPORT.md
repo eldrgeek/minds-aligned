@@ -23,7 +23,7 @@ https://minds-aligned.org/support/?campaign=garage-door&ref=garage-door-song
 |---|---|---|
 | The ask | `hub-public/support/index.html` | Draws the campaign's copy, tiers and amounts |
 | Display copy | `hub-public/support/catalog.json` | Words and suggested numbers. Cannot charge anyone |
-| The prices | `hub-public-functions/support-catalog.mjs` | Maps campaign+tier → Stripe Price ID → the real amount |
+| The prices | `hub-public-functions/support-catalog.mjs` | Maps campaign+intent+tier → Stripe Price ID → the real amount |
 | Checkout | `hub-public-functions/checkout.mjs` → `/api/checkout` | Creates the Stripe Checkout Session, 303s to it |
 | Receipts back | `hub-public-functions/stripe-webhook.mjs` → `/api/stripe-webhook` | Verifies the signature, records who came from where |
 | Thank you | `hub-public/support/thanks/` | Stripe's `success_url` |
@@ -58,14 +58,15 @@ page wants to borrow. Destinations come from an allowlist Mike wrote.
 ### Switch it on
 
 1. **Stripe Dashboard → Product catalogue.** Create one Product, "Support for
-   Minds Aligned", with four recurring monthly Prices: $5, $15, $50, $150.
+   Minds Aligned", with four recurring Prices: $5/month, $10/month, $50/year,
+   $100/year.
 2. **Netlify → `minds-aligned-soma` → environment variables:**
    ```
    STRIPE_SECRET_KEY               sk_live_…
-   MA_PRICE_INITIATIVE_FRIEND      price_…      ($5/mo)
-   MA_PRICE_INITIATIVE_SUPPORTER   price_…      ($15/mo)
-   MA_PRICE_INITIATIVE_PATRON      price_…      ($50/mo)
-   MA_PRICE_INITIATIVE_BENEFACTOR  price_…      ($150/mo)
+   MA_PRICE_INITIATIVE_MONTH_5     price_…      ($5/month)
+   MA_PRICE_INITIATIVE_MONTH_10    price_…      ($10/month)
+   MA_PRICE_INITIATIVE_YEAR_50     price_…      ($50/year)
+   MA_PRICE_INITIATIVE_YEAR_100    price_…      ($100/year)
    STRIPE_WEBHOOK_SECRET           whsec_…
    ```
 3. **Stripe → Developers → Webhooks** → `https://minds-aligned.org/api/stripe-webhook`,
@@ -80,7 +81,105 @@ bounces back with "this one is not switched on yet". Nothing half-charges.
 
 ---
 
-## 2. Is a subscription different from a donation?
+## 2. The offer, and why it is this shape
+
+Decided 2026-09-17 after looking at what the estate actually produces, what small
+memberships report about what killed them, and what survives a move to charitable
+status. Three questions, and the answers all point the same way.
+
+### Two prices per interval, not four
+
+| | Monthly | Yearly |
+|---|---|---|
+| | $5 | $50 |
+| **suggested** | **$10** | **$100** |
+| Open amount | from $3, no ceiling | from $25, no ceiling |
+
+One-time stays separate and per-campaign: $10/$25/$100 on the front door,
+$5/$15/$50 on the song.
+
+People reliably pick the second-lowest of whatever is shown, so the $5 mostly
+exists to make $10 second-lowest. A third and fourth rung add decision friction
+and no revenue. Anyone who wants to give more uses the open amount — which has no
+ceiling, because a fixed top tier caps your most generous supporter at its price.
+
+Yearly is ten months' money for twelve, and the front door leads with it.
+Twelve-month retention on annual runs far ahead of monthly, and at this scale the
+cash matters more than the discount costs: ten annual supporters is a year in the
+bank in week one, against 120 separate chances to cancel arriving exactly when
+there is least momentum to survive them.
+
+### Every level gets the same three things
+
+- Your name on the supporters page, if you want it there.
+- Your mail gets read and answered by a person.
+- The occasional note from the workbench when something lands — no schedule, no
+  newsletter.
+
+**This is the load-bearing decision, not an omission.** A higher amount buys more
+support of the work, not more stuff. Two independent constraints land on it:
+
+1. **Burden.** Every retrospective from a small membership that folded names the
+   same cause — a promise whose cost scales with members, or a promise on a
+   calendar. Nothing in this estate has ever shipped monthly; work arrives in
+   multi-day bursts around events. Four tiers with four perk bundles is four
+   production lines that outlive the enthusiasm that made them.
+2. **Deductibility.** If a campaign moves to `org`, a gift stays fully deductible
+   only if benefits are worth at most the lesser of 2% of the payment or $139. At
+   $120/year that ceiling is **$2.40**. Recognition and replies have no
+   ascertainable market value and cost nothing against it.
+
+So: no early access, no Discord, no scheduled calls, no downloads, no merch. Add
+one and both tests fail at once. Early access is the tempting one and it is also
+the most wrong — it would mean selling a delay imposed on everyone else, from an
+outfit whose whole position is publishing in the open.
+
+### No Friend/Patron ladder
+
+The tier key is the amount. Among a dozen supporters who mostly know each other
+and know Mike, a status ladder makes somebody publicly the cheap one, and buys
+nothing when the benefits are identical anyway. Each price carries one plain line
+about what it covers instead.
+
+### Garage Door asks once
+
+One-time leads there and that is not a default to revisit. The song is one
+finished thing, and everything about it is already free — the mp3, the lyrics,
+the timed SRT, the narration script, all ten exact prompts. A recurring charge
+implicitly answers "what do I get next month" and that page has no answer. It is
+a tip jar, and tip jars are one-time.
+
+The subscription stays one click deeper, sharing the initiative's prices, with
+one line of copy doing the work: *a subscription isn't to this song — it's
+finished, and it's yours for nothing. It's how the next one gets made.* Backing
+the shop, not subscribing to a finished song.
+
+### One promise that had to be withdrawn
+
+An earlier draft of the tiers said *"You are on the list and you hear things
+first."* **There is no list** — no Mailchimp, no Buttondown, nothing anywhere in
+the estate. Stripe does put every supporter's email on the Customer record, which
+is a real mechanism for mailing a dozen people when something lands, and that is
+what the wording now describes. Worth stating because it is the exact failure
+mode this whole section is built to avoid: a sentence in a catalogue file is a
+promise, and nothing in the repo was going to keep that one.
+
+### What actually gets the first ten supporters
+
+Not this page. Small memberships consistently report the first supporters coming
+from direct personal asks — an email, a DM, a conversation — and the page
+existing so there is somewhere to point. Mike's audience is largely people who
+already know him. **The page took an afternoon; the ask is the work.** For the
+"found one artifact" audience, the thing that matters is a low-key support line
+on every artifact, which is what the Garage Door tip jar is.
+
+Realistic first-year outcome: tens of dollars a month. At five to fifteen
+supporters that is a success, and the offer above is designed so it stays
+sustainable at that size rather than collapsing under promises.
+
+---
+
+## 3. Is a subscription different from a donation?
 
 **Federally, for the LLC: no.** Both are gross receipts of Minds Aligned LLC and
 both are ordinary business income — Schedule C if it is a single-member
@@ -126,7 +225,7 @@ product and the answer changes.**
 
 ---
 
-## 3. What changes under a 501(c)(3)
+## 4. What changes under a 501(c)(3)
 
 Everything, and it is the reason to do it:
 
@@ -170,7 +269,7 @@ And the obligations arrive with it:
 
 ---
 
-## 4. The trap in running both
+## 5. The trap in running both
 
 An LLC and a 501(c)(3) with the same name, the same founder and the same website
 is a **private benefit** problem waiting to be found. The nonprofit's resources
@@ -194,49 +293,138 @@ It is entirely doable — it is a standard structure — but it has to be built:
 
 ---
 
-## 5. Recommendation
+## 6. Fiscal sponsorship — what it means, and who to email
 
-**Do not file Form 1023 yet. Get a fiscal sponsor.**
+A fiscal sponsor is an existing 501(c)(3) that lets your project operate under
+its exemption. You form nothing, file no 1023, recruit no board.
 
-A fiscal sponsorship agreement is executed in days. A 501(c)(3) determination
-takes three to nine months, wants financial projections and governance policies
-an early project cannot honestly produce, and costs **$600** (Form 1023) or
-**$275** (1023-EZ, if projected revenue is under $50k) before anyone's time. A
-sponsor charges **5–15%** of funds raised — 7–10% is typical — and in exchange
-you get deductibility on day one, their 990, their state registrations, their
-insurance and their board.
+### Follow a $50 donation through it
 
-The break-even against running your own compliance is somewhere around
-**$150k–$300k a year**. Below that the sponsor is cheaper than the work, and the
-work is the part that actually gets skipped.
+1. The donor pays **the sponsor** — not you, not the LLC.
+2. **The sponsor's EIN is on the receipt.** Their determination letter is what
+   makes the deduction real.
+3. They take the fee off the top — at 8%, $4 — and credit ~$46 to a restricted
+   fund for your project.
+4. You request a disbursement naming the expense. They approve it against the
+   charitable purpose and transfer, typically 2–5 business days.
 
-So, in order:
+Two things that surprise people. **The money is not yours while it sits there** —
+the sponsor holds legal title and retains variance power, the right to redirect
+funds if the project stops doing the charitable thing. That is not a formality;
+it is the feature that makes the gift deductible. And **a donor cannot earmark to
+you personally**: "for Mike" breaks the deduction, "for the Minds Aligned
+project" is fine.
 
-1. **Now.** Turn on the LLC Stripe account and take non-deductible support. The
-   machinery above is built for it; `/support/` already says plainly what it is
-   and is not. Nothing here is blocked on any of the rest.
-2. **Next.** Approach a fiscal sponsor whose mission language covers public
-   education about AI. Ask specifically: Model A or Model C, the fee, who owns
-   the IP produced under sponsorship, and what happens if you later spin out.
-   Model C leaves the project independent with a grant relationship; Model A
-   makes the project part of the sponsor. **The IP question is the one to get in
-   writing** — the whole point of Minds Aligned is publishing the work, and some
-   Model A agreements would have the sponsor own it.
-3. **When sponsored.** Add `STRIPE_SECRET_KEY_ORG` and flip a campaign's
-   `account` from `llc` to `org`. One word in `support-catalog.mjs`. No link on
-   any other site changes.
-4. **Later, if volume justifies it.** File 1023, recruit a real board, and move
-   off the sponsor.
+### Model C, not Model A
 
-Two things genuinely need a professional rather than this memo: **the entity
-structure** (an attorney, once both entities exist, for the IP licence and the
-services agreement between them) and **state charitable registration** (which
-the fiscal sponsor removes from the list entirely — a good reason to start
-there). Everything else above is operational and settled.
+|  | Model A | Model C |
+|---|---|---|
+| Who owns the essays, the site, the song, the corpus | **The sponsor** | **You** |
+| Is Minds Aligned still yours | No — a program of their org | Yes — you are a grantee |
+| Who employs anyone you pay | Sponsor, on their payroll | You do |
+| Typical fee | 9–15% | 4–10% |
+
+**The Model A trap is fatal here:** the sponsor becomes copyright owner of
+everything produced with project funds. For a project whose entire product is
+published work with the prompts and credits attached, that means *someone else
+decides the licence* — and if they merge, dissolve, or simply disagree, you are
+negotiating for your own archive. With an identically-named LLC beside it you
+would have a for-profit called Minds Aligned and a charitable program called
+Minds Aligned owned by a third party.
+
+### The shortlist (verified September 2026)
+
+**Dead ends — do not spend a week on these.** Open Collective Foundation
+dissolved 31 Dec 2024, taking ~600 projects with it. Open Source Collective is
+alive but is a **501(c)(6)**, so gifts to it are **not deductible** — it fails
+the only requirement. Propel sunset its program in March 2026. Hack Club's HCB is
+now restricted to projects led by 13–18 year olds.
+
+| Sponsor | Fee | Model | Fit |
+|---|---|---|---|
+| **[Fractured Atlas](https://www.fracturedatlas.org/fiscal-sponsorship)** | 8% + $120/yr membership | C | **Best overall.** No minimum budget — the only one here without one. Explicitly allows an **LLC as the grantee entity**, which is your exact situation. ~10 business days. Frame as interdisciplinary media/literary arts, not AI research |
+| **[Manifund](https://manifund.org/about/donor-faq)** | 5% | C | **Fastest and cheapest.** Explicitly sponsors individuals and for-profits. Funds out in <48h. Requires a public project proposal — aligned with publishing openly. Confirm scope; their centre of gravity is AI safety |
+| **[Aspiration](https://aspirationtech.org/services/fiscalsponsorship)** | sliding scale | — | Tech/digital rights, with stated emphasis on open **intellectual property** approaches. Everything negotiated; no published terms |
+| **[Social Good Fund](https://www.socialgoodfund.org/fiscal-sponsorship/)** | 5–8% + $29/mo | A/B/C | Generalist backup. ~1,000 applications a year against capacity for ~100 |
+
+Ruled out on minimums or scope: Players Philanthropy Fund ($30k minimum
+budget), NYFA ($15k minimum), Code for Science & Society (15%, and a mandatory
+advisory committee — the board recruitment you were avoiding), Software Freedom
+Conservancy (FOSS only), NumFOCUS (scientific software only).
+
+### The flag: you already own Minds Aligned LLC
+
+Raise this first rather than letting a sponsor find it. A 501(c)(3) cannot confer
+private benefit on a for-profit or its owner, and your case has two aggravating
+facts: **same name** (charitable dollars visibly build a brand you own
+commercially) and **same owner** (you are on both sides of every transaction).
+
+It is solvable and routinely solved, but have these ready:
+
+1. **A clean line between the two.** Name the charitable activity precisely —
+   publishing the essays, the corpus and the song openly and free, under open
+   licences — and name what the LLC does commercially that is *not* sponsored.
+2. **Separate bank account and books** for the sponsored side. Non-negotiable.
+3. **A written restricted-use commitment:** grant funds pay project expenses
+   only. No distributions, no subsidising commercial work.
+4. **A royalty-free trademark licence from the LLC to the project** for the name,
+   so the charity is not building equity in a mark it has no rights to — and so
+   you keep the mark when you leave. Offer this before they ask.
+5. **Lead with the open licensing.** Everything published free with prompts and
+   credits attached is unusually strong evidence of public benefit.
+
+If a sponsor balks at the LLC, the fallback is to make the grantee *you
+personally* and leave the LLC out of the sponsored side entirely.
+
+### Ask these before signing
+
+- Who owns copyright in work created with sponsored funds — in writing, before
+  signing?
+- Will you agree in the contract not to restrict open sharing or licensing of the
+  work to the public?
+- Who controls the domain names?
+- Is the fee on gross or net? On pass-through grants? Are card fees on top?
+- Can I run my own Stripe account, or must donations go through yours? (Usually
+  theirs — the receipt has to come from their EIN. Do not assume the checkout
+  built here carries over on the `org` side.)
+- What happens to the fund balance if I leave, who approves the successor, and is
+  there a claim window? (Fractured Atlas: 90 days, then it reverts to them.)
+- Do you require an advisory committee? (This is how "no board needed" quietly
+  becomes a board.)
+
+### The honest economics, which change the recommendation
+
+At $1,000 raised through Fractured Atlas: $80 fee + $120 membership = **$200, or
+20%**. Non-deductible support straight to the LLC costs about 3%. So at hundreds
+to low thousands a year, **fiscal sponsorship is not obviously worth it** — you
+would be paying roughly $200/year to buy your donors a deduction most of them
+were not going to itemise anyway.
+
+Two things push the other way, and they are what should decide it:
+
+1. **2026 is the first year in a while the deduction is worth something to small
+   donors.** Non-itemisers can now deduct up to $1,000 ($2,000 joint) of cash
+   gifts to public charities above the line. Being sponsored before December is
+   worth more than it would have been in 2024.
+2. **The real unlock is grants, not $50 gifts.** The moment you want to apply for
+   anything requiring 501(c)(3) status, sponsorship is the only door. That is
+   where the 20% stops looking expensive.
+
+**So the revised recommendation:** run the LLC checkout now — it is built, it
+costs 3%, and nothing is blocked on any of this. Apply to a sponsor **when there
+is a specific reason**: a grant you want to apply for, a donor who needs the
+deduction, or donation volume past roughly $2,000/year where the percentage
+starts buying something. If you want to move now anyway, apply to **Fractured
+Atlas and Manifund the same week** and take the first written yes that lets you
+keep the IP, accepts the LLC or you personally as grantee, and has no minimum.
+
+Do not file Form 1023 in either case. Sponsors' own guidance puts the spin-out
+point at $250k–$500k a year, and the counterparty risk is real — OCF dissolved
+with 600 projects inside it, and exits are what people report regretting.
 
 ---
 
-## 6. Patreon
+## 7. Patreon
 
 ### The numbers
 
@@ -284,7 +472,7 @@ on the nonprofit's own Stripe account where the receipts are yours to issue.
 
 ---
 
-## 7. Adding a campaign
+## 8. Adding a campaign
 
 1. Create the Product and Prices in Stripe.
 2. Add the campaign to `CAMPAIGNS` in `hub-public-functions/support-catalog.mjs`
@@ -297,9 +485,9 @@ on the nonprofit's own Stripe account where the receipts are yours to issue.
 6. `node ops/check-support-catalog.mjs && node ops/test-checkout.mjs`
 7. Link to it: `https://minds-aligned.org/support/?campaign=<key>&ref=<site>`
 
-Optional extras in the link: `&intent=monthly|once`, `&tier=<key>`, `&amount=25`.
-All of them are preselections a visitor can change, and all of them are priced by
-the server.
+Optional extras in the link: `&intent=once|monthly|yearly`, `&tier=<key>`,
+`&amount=25`. All of them are preselections a visitor can change, and all of them
+are priced by the server.
 
 ---
 
@@ -312,5 +500,8 @@ a number here.
 - [Stripe Billing pricing](https://stripe.com/billing/pricing) · [nonprofit fee discount](https://support.stripe.com/questions/fee-discount-for-nonprofit-organizations)
 - [IRS: quid pro quo contributions](https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-quid-pro-quo-contributions) · [Publication 1771](https://www.irs.gov/pub/irs-pdf/p1771.pdf) · [2026 inflation adjustments for nonprofits](https://clarknuber.com/articles/2026-tax-inflation-adjustments-relevant-to-not-for-profit-organizations/)
 - [IRS: Form 1023 user fee](https://www.irs.gov/charities-non-profits/form-1023-and-1023-ez-amount-of-user-fee)
-- [Public Counsel: fiscal sponsorship as an alternative to incorporating](https://publiccounsel.org/publications/fiscal-sponsorship-an-alternative-to-forming-a-nonprofit-501c3-corporation/)
-- [1099-K threshold after the OBBBA](https://www.anchin.com/articles/preparing-for-1099-filing-season-what-the-obbba-means-for-1099-k-and-other-reporting-thresholds/)
+- [Public Counsel: fiscal sponsorship as an alternative to incorporating](https://publiccounsel.org/publications/fiscal-sponsorship-an-alternative-to-forming-a-nonprofit-501c3-corporation/) · [the models, summarised](https://fiscalsponsorship.com/the-models-summary/)
+- Sponsors: [Fractured Atlas fees](https://fracturedatlas.zendesk.com/hc/en-us/articles/115001290913-Administrative-Fees) and [acceptable legal entities](https://fracturedatlas.zendesk.com/hc/en-us/articles/115001291953-About-Legal-Entities) · [Manifund](https://manifund.org/about/donor-faq) · [Aspiration](https://aspirationtech.org/services/fiscalsponsorship) · [Social Good Fund](https://www.socialgoodfund.org/fiscal-sponsorship/)
+- Dead ends, verified: [Open Collective Foundation dissolved](https://opencollective.com/foundation/updates/announcement-we-are-dissolving-open-collective-foundation-at-the-end-of-this-year) · [Open Source Collective is a 501(c)(6), gifts not deductible](https://docs.oscollective.org/how-it-works/tax-info) · [Propel sunset its programme](https://propelnonprofits.org/blog/programmatic-update-sunsetting-fiscal-sponsorship-at-propel/) · [HCB is now 13–18 only](https://help.hcb.hackclub.com/en/articles/15409923-who-can-apply-for-fiscal-sponsorship)
+- [Nonprofit Law Blog: six ways to get fiscal sponsorship wrong](https://nonprofitlawblog.com/fiscal-sponsorship-six-ways-to-do-it-wrong/) · [exits and transferring assets](https://nonprofitlawblog.com/fiscal-sponsorship-exit-transfer-assets/)
+- [1099-K threshold after the OBBBA](https://www.anchin.com/articles/preparing-for-1099-filing-season-what-the-obbba-means-for-1099-k-and-other-reporting-thresholds/) · [2026 above-the-line charitable deduction for non-itemisers](https://taxfoundation.org/blog/charitable-deduction-big-beautiful-bill/)

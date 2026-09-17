@@ -14,10 +14,13 @@
  *
  * WHAT THE URL IS ALLOWED TO SAY
  *   campaign  a key in support-catalog.mjs CAMPAIGNS       (default: minds-aligned)
- *   intent    `monthly` | `once`                            (default: once)
- *   tier      a key in that campaign's `monthly` block      (monthly only)
- *   amount    dollars, clamped to the campaign's range      (once only)
+ *   intent    `once` | `monthly` | `yearly`                  (default: once)
+ *   tier      a listed price for that intent, e.g. `10`      (subscriptions)
+ *   amount    dollars, clamped to that intent's range        (any intent)
  *   ref       an attribution label — NEVER a redirect target
+ *
+ * `tier` and `amount` are alternatives: a tier names a Stripe Price, an amount
+ * is the open "give what you like" path. A tier always wins if both arrive.
  *
  * Prices are resolved from the catalog and the Stripe account. See the header of
  * support-catalog.mjs for why that is the whole security model.
@@ -33,7 +36,7 @@
  */
 
 import {
-  ACCOUNTS, CAMPAIGNS, REFERRERS, DEFAULT_CAMPAIGN, SITE,
+  ACCOUNTS, CAMPAIGNS, REFERRERS, DEFAULT_CAMPAIGN, SITE, INTENTS, INTERVALS,
   slug, resolveAmount,
 } from './support-catalog.mjs';
 
@@ -110,9 +113,10 @@ export default async (request) => {
   }
   const wantsJson = request.method === 'POST';
 
+  const askedIntent = slug(input.intent);
   const params = {
     campaign: slug(input.campaign) || DEFAULT_CAMPAIGN,
-    intent: input.intent === 'monthly' ? 'monthly' : 'once',
+    intent: INTENTS.includes(askedIntent) ? askedIntent : 'once',
     tier: slug(input.tier),
     ref: slug(input.ref),
   };
@@ -133,20 +137,23 @@ export default async (request) => {
     return fail(ERR.unconfigured, `${account.env} is not set on this site.`);
   }
 
-  /* ── The line item: a catalogued Price, or a donor-chosen amount ────────── */
-  let lineItem, mode, submitType;
+  /* ── The line item: a catalogued Price, or a supporter-chosen amount ────── */
+  const offer = campaign[params.intent];
+  if (!offer) return fail(ERR.campaign, `"${params.campaign}" does not offer ${params.intent} support.`);
 
-  if (params.intent === 'monthly') {
-    const tierKey = params.tier || Object.keys(campaign.monthly || {})[1] || '';
-    const tier = campaign.monthly?.[tierKey];
-    if (!tier) return fail(ERR.tier, `No monthly tier "${tierKey}" in "${params.campaign}".`);
+  const interval = INTERVALS[params.intent];          // undefined for `once`
+  const mode = interval ? 'subscription' : 'payment';
+  let lineItem, submitType;
 
-    const price = process.env[tier.env];
-    if (!price) return fail(ERR.unconfigured, `${tier.env} is not set on this site.`);
-
-    params.tier = tierKey;
-    mode = 'subscription';
+  if (params.tier && offer.tiers?.[params.tier]) {
+    /* A listed price. The tier key is a LABEL that selects a Stripe Price ID;
+     * the dollar figure the page printed next to it is cosmetic and is never
+     * what gets charged. That is the whole point of the indirection. */
+    const price = process.env[offer.tiers[params.tier].env];
+    if (!price) return fail(ERR.unconfigured, `${offer.tiers[params.tier].env} is not set on this site.`);
     lineItem = { price, quantity: 1 };
+  } else if (params.tier) {
+    return fail(ERR.tier, `No ${params.intent} tier "${params.tier}" in "${params.campaign}".`);
   } else {
     /* No amount NAMED is not the same as a bad amount. A site can link to
      * /api/checkout?campaign=garage-door with no figure at all and mean "ask
@@ -156,19 +163,24 @@ export default async (request) => {
     const asked = String(input.amount ?? '').trim();
     if (!asked) return wantsJson ? json(400, { error: 'amount-required' }) : backToSupport(params, null);
 
-    const amount = resolveAmount(asked, campaign.donation);
+    const amount = resolveAmount(asked, offer.clamp);
     if (amount === null) return fail(ERR.amount, 'Amount must be a positive number of dollars.');
 
-    mode = 'payment';
-    submitType = 'donate';
+    /* The open path. A supporter naming their own number is the point here, and
+     * it has no ceiling short of the clamp — a fixed top tier would cap the most
+     * generous supporter at its price. It buys nothing extra either way: the
+     * benefits are identical at every level, which is what keeps this a gift
+     * rather than a purchase. */
     lineItem = {
       quantity: 1,
       price_data: {
         currency: 'usd',
         unit_amount: amount,
         product_data: { name: campaign.product },
+        ...(interval ? { recurring: { interval } } : {}),
       },
     };
+    if (!interval) submitType = 'donate';
   }
 
   /* The referring page is where an abandoned checkout goes back to — looked up

@@ -6,49 +6,76 @@
     "sends KEYS to /api/checkout and the server resolves what they cost.",
     "An `amount` below that disagrees with its Stripe Price is a display bug —",
     "a wrong label on a right charge — not a pricing hole.",
-    "Campaign and tier keys must match support-catalog.mjs.",
+    "Campaign, tier and referrer keys must match support-catalog.mjs.",
     "Run `node ops/check-support-catalog.mjs` after editing either file."
   ],
 
   "patreon": null,
 
+  "_benefits_comment": [
+    "The SAME at every price, which is why the page shows this list once above",
+    "the prices instead of a blurb per tier. A higher amount buys more support",
+    "of the work, not more stuff. Mirrors BENEFITS in support-catalog.mjs —",
+    "see the long note there for why adding a fourth line fails two tests at",
+    "once (fulfilment burden, and charitable deductibility if a campaign ever",
+    "moves to the nonprofit account)."
+  ],
+  "benefits": [
+    "Your name on the supporters page, if you want it there.",
+    "Your mail gets read and answered by a person.",
+    "The occasional note from the workbench when something lands — no schedule, no newsletter."
+  ],
+
+  "_tiers_comment": [
+    "Two displayed prices per interval, not four. People reliably pick the",
+    "second-lowest of whatever is shown, so the lower rung mostly exists to make",
+    "the suggested one second-lowest. Anyone wanting to give more uses the open",
+    "amount, which has no ceiling — a fixed top tier would cap the most generous",
+    "supporter at its price. Yearly is ten months' money for twelve.",
+    "The tier key IS the amount: no Friend/Patron ladder. Among a dozen",
+    "supporters who mostly know each other, a status ladder makes somebody",
+    "publicly the cheap one and buys nothing, since the benefits are identical."
+  ],
+  "tiers": {
+    "monthly": [
+      { "key": "5",  "amount": 5,  "note": "Keeps a domain and its hosting up for a month." },
+      { "key": "10", "amount": 10, "suggested": true, "note": "Hosting and model credits, and the time to write the work up properly instead of leaving it in a repo." }
+    ],
+    "yearly": [
+      { "key": "50",  "amount": 50,  "note": "Ten months' money for twelve. A domain and its hosting for the year." },
+      { "key": "100", "amount": 100, "suggested": true, "note": "Ten months' money for twelve. The working rate — most of what gets made is made on this." }
+    ]
+  },
+
   "_referrers_comment": [
-    "Mirrors REFERRERS in support-catalog.mjs so the 'back to where you came from'",
-    "link can name a real destination. Safe to publish — these are Mike's own",
-    "public sites. The page looks a `ref` up in THIS map and uses nothing else:",
-    "it never takes a destination from its own query string."
+    "Mirrors REFERRERS in support-catalog.mjs so the 'back to where you came",
+    "from' link can name a real destination. Safe to publish — these are Mike's",
+    "own public sites. The page looks a `ref` up in THIS map and uses nothing",
+    "else: it never takes a destination from its own query string.",
+    "/a-different-mind is deliberately absent. It is a page for people who don't",
+    "use AI and don't want to, and its host is told not to try to win. A money",
+    "ask pointed at that audience would break the only promise it makes."
   ],
   "referrers": {
     "garage-door-song": { "label": "Garage Door", "url": "https://garage-door-song.netlify.app/" },
     "minds-aligned": { "label": "Minds Aligned", "url": "https://minds-aligned.org/" },
-    "a-different-mind": { "label": "A Different Mind", "url": "https://minds-aligned.org/a-different-mind/" },
     "mike-wolf": { "label": "mike-wolf.com", "url": "https://mike-wolf.com/" }
-  },
-
-  "tiers": {
-    "friend":     { "label": "Friend",     "amount": 5,   "blurb": "You are on the list and you hear things first." },
-    "supporter":  { "label": "Supporter",  "amount": 15,  "blurb": "The working rate. Most of what gets made is made on this." },
-    "patron":     { "label": "Patron",     "amount": 50,  "blurb": "Underwrites a piece of work outright — a song, a site, a paper." },
-    "benefactor": { "label": "Benefactor", "amount": 150, "blurb": "Pays for the tools and the compute the whole thing runs on." }
   },
 
   "campaigns": {
     "minds-aligned": {
       "title": "Support Minds Aligned",
-      "blurb": "Minds Aligned is a working organization of humans and named AIs — human to human, human to AI, AI to AI. Everything it makes is published where you can open it and check it. Support keeps it that way: no gate, no ads, no reason to make it shorter than it should be.",
-      "lead": "monthly",
-      "amounts": [10, 25, 100],
-      "defaultAmount": 25,
-      "monthly": ["friend", "supporter", "patron", "benefactor"]
+      "blurb": "Minds Aligned is a working organization of humans and named AIs — human to human, human to AI, AI to AI. Everything it makes is published where you can open it and check it: the corpora, the rooms, the prompts, the failures. There is no paywall and there is not going to be one. Support is what keeps it that way.",
+      "lead": "yearly",
+      "once": { "amounts": [10, 25, 100], "defaultAmount": 25 }
     },
 
     "garage-door": {
       "title": "Support the work behind Garage Door",
       "blurb": "A remark on a Wednesday call became lyrics, a track, ten images and a page that scrolls with the song — made in a day by a group of humans and AIs working in the open, and published with every prompt and credit attached. If it was worth your time, this is where you say so.",
       "lead": "once",
-      "amounts": [5, 15, 50],
-      "defaultAmount": 15,
-      "monthly": ["friend", "supporter", "patron", "benefactor"]
+      "once": { "amounts": [5, 15, 50], "defaultAmount": 15 },
+      "recurringNote": "A subscription isn't to this song — it's finished, and it's yours for nothing. It's how the next one gets made."
     }
   }
 }
