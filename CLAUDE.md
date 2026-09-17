@@ -77,6 +77,51 @@ Until 2026-09-16 the feedback chip loaded from `vpsmikewolf.duckdns.org/feedback
 which by then answered with PlayMaker's HTML page, so the chip was dead too. The chip is
 now served from `hub-public/vendor/soma-feedback/` (SOMA/standards/soma-feedback-proxy).
 
+## Money comes in through /support/ — one page, and the price is never in the URL
+
+`minds-aligned.org/support/` is the only place in the estate that takes money.
+Every other property links to it with a query string naming what it is asking on
+behalf of: `/support/?campaign=garage-door&ref=garage-door-song`. Those sites hold
+no Stripe key, no price and no checkout code, so an amount change — or moving a
+campaign from the LLC to the 501(c)(3) — re-issues no link anywhere.
+
+**The rule: the client never supplies a price.** The URL carries KEYS; the server
+maps a key to a Stripe Price ID. If the amount came out of the query string,
+`&amount=0.01` would buy a $50 subscription. The one exception is an open-ended
+donation, clamped per campaign. Two more invariants, both covered by tests:
+`ref` is an attribution label and NEVER a redirect target (an open redirect on
+the checkout domain is what a phishing page wants to borrow), and a campaign
+whose Stripe account key is unset fails CLOSED rather than billing the wrong
+entity.
+
+| | |
+|---|---|
+| Page + display copy | `hub-public/support/index.html`, `support/catalog.json` |
+| Prices + accounts | `hub-public-functions/support-catalog.mjs` |
+| `/api/checkout` | `hub-public-functions/checkout.mjs` (Functions 2.0 `config.path`) |
+| `/api/stripe-webhook` | `hub-public-functions/stripe-webhook.mjs` |
+| Checks | `node ops/check-support-catalog.mjs && node ops/test-checkout.mjs` |
+
+`catalog.json` is display copy and cannot charge anyone; `support-catalog.mjs`
+holds the truth. They share only key names, and the check script fails if they
+drift — a page offering a tier the server cannot price turns away someone who
+was willing to pay, silently.
+
+**Zero npm dependencies, structurally.** This site deploys `hub-public/` with
+`command = ""` and no package.json in the base directory, so nothing is ever
+installed. An import here that is not a `node:` builtin or a sibling file 502s in
+production and passes every local test. The Stripe SDK would be a build step; one
+form-encoded POST is not.
+
+Env on `minds-aligned-soma`: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`,
+`MA_PRICE_INITIATIVE_{FRIEND,SUPPORTER,PATRON,BENEFACTOR}`, and later
+`STRIPE_SECRET_KEY_ORG`. `ops/check-support-catalog.mjs` prints which are unset.
+
+[SUPPORT.md](SUPPORT.md) is the companion memo: why a subscription and a
+donation are the same thing to the LLC and not to a 501(c)(3), the private-benefit
+trap in running both under one name, the Patreon arithmetic (~14.1% vs ~4.6%),
+and why the recommendation is a fiscal sponsor before Form 1023.
+
 ## AI-related work is published as a ROUTE here, not a new subdomain
 
 **Mike Wolf, 2026-08-02.** A route is cheaper to add than a subdomain, keeps everything
