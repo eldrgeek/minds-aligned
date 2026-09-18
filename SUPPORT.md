@@ -30,6 +30,7 @@ https://minds-aligned.org/support/?campaign=garage-door&ref=garage-door-song
 | Drift check | `ops/check-support-catalog.mjs` | Fails if the page offers something the server cannot price |
 | Tests | `ops/test-checkout.mjs` | 48 assertions, no network, no Stripe account needed |
 | Setup | `ops/stripe-setup.mjs` | Creates the Product, four Prices and the webhook. Idempotent |
+| Setup tests | `ops/test-stripe-setup.mjs` | 44 assertions against a fake Stripe — no network, no account |
 | Escalation | `ops/needs-mike.mjs` | Frontmost macOS alert, then foregrounds the window |
 
 **The one rule that makes it safe: the client never supplies a price.** The URL
@@ -77,7 +78,13 @@ changes to accomplish. Use Yeshie where there is no API; use the API where there
 is one. (Yeshie also runs on Mike's machine at `localhost:3333`, so an agent in a
 container cannot reach it regardless.)
 
-**The one step nobody else can do** is producing the key. It comes from Mike's
+**The cleanest path is the Stripe MCP connector** (claude.ai → Settings →
+Connectors). It authenticates through Stripe's own consent screen, is revocable
+from the Stripe dashboard, and no credential is ever handled by a person or
+pasted into a session. An agent with that connector can create all of this
+directly and set the price ids on Netlify afterwards.
+
+**Failing that, the one step nobody else can do** is producing the key. It comes from Mike's
 own Stripe account and should not be pasted into a chat or a remote session; a
 **restricted key** with write access to Products, Prices and Webhook Endpoints is
 enough and is the safer choice. If the script is run on Mike's Mac without a key
@@ -90,7 +97,17 @@ Then the split that matters:
   Checkout URL. Paste them anywhere, including back to an agent, and let it set
   them on Netlify.
 - **`STRIPE_SECRET_KEY` and `STRIPE_WEBHOOK_SECRET` are secret.** Those go
-  straight into the Netlify UI or `netlify env:set`, by Mike, from his machine.
+  straight into the Netlify UI or `netlify env:set`, by Mike, from his machine —
+  and **both must be marked "secret"** (`--secret` on the CLI, the checkbox in
+  the UI).
+
+  That last part is not a formality. Verified on this site on 2026-09-18: a
+  Netlify env var stored WITHOUT the secret flag has its full value returned by
+  the Netlify API to anything holding an API token — an agent, an integration, a
+  CI job. `GITHUB_TOKEN` on `minds-aligned-soma` was stored that way and read
+  back in plaintext. A secret-flagged variable is write-only: the API returns
+  the key but not the value. Store every credential on this site that way, and
+  treat any that was not as already disclosed.
 
 The manual path, if you would rather click:
 
