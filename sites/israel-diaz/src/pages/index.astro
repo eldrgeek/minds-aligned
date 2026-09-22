@@ -1,0 +1,351 @@
+---
+import Base from '../layouts/Base.astro';
+import papersData from '../data/papers.json';
+
+type Item = {
+  slug: string;
+  title?: string;
+  abstract?: string;
+  year?: string | number | null;
+  journal?: string | null;
+  link?: string | null;
+};
+
+const items = papersData as Item[];
+const find = (t: string) => items.find(p => (p.title || '').toLowerCase() === t.toLowerCase());
+const manifesto = find('conxiOS.com — home page manifesto');
+const agency = find('Sunday+Night — agency site');
+const interview = find('Dispatches from the Front Lines: an Interview with Israel Diaz, Founder & CEO of Sunday+Night');
+const cco2011 = find('Israel Diaz Named EVP, Chief Creative Officer of Young & Rubicam Toronto');
+const needstate = find('NeedState: A Benchmark for Motivational Depth in AI Social Cognition');
+const needstateDiscussion = find('We asked 12 frontier AI models to respond to a 17-year-old refugee asking if friendship is for people like him. Every single one failed.');
+const raisingIt = find("We're Not Engineering AI. We're Raising It.");
+const frameworkScale = find('The Framework That Broke the Scale: Six Months Later, consciOS Isn\'t Just a System. It Might Be the Seatbelt for AGI.');
+const satori = find('The AI That Named Itself and Changed Everything: How I Met Satori');
+const href = (p?: Item) => (p ? p.link : null);
+---
+<Base title="Home" description="Public-writing archive and grounded AI guide for Israel Diaz — creator of conxiOS/consciOS, founder of Sunday+Night and ZeroThreeSixNine Ventures.">
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12">
+    <div class="max-w-2xl">
+      <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-4">AGI-26 invited thinker · non-roster</p>
+      <h1 class="font-serif text-4xl sm:text-5xl font-medium text-ink leading-tight mb-6">
+        Israel Diaz
+      </h1>
+      <p class="text-lg text-muted leading-relaxed mb-6">
+        Israel Diaz spent close to three decades leading creative departments at Canadian
+        and international advertising agencies, reaching EVP / Chief Creative Officer of
+        Young &amp; Rubicam Toronto in 2011. In 2017 he founded the agency Sunday+Night, and
+        more recently ZeroThreeSixNine Ventures and conxiOS &mdash; a framework he proposes
+        as an architecture for aligning artificial intelligence with human consciousness.
+      </p>
+      <blockquote class="border-l-2 border-accent/50 pl-4 mb-8 text-muted leading-relaxed">
+        <p class="italic">
+          &ldquo;You can't align AI with humans when humans aren't aligned with themselves.&rdquo;
+        </p>
+        <cite class="not-italic text-sm text-muted/70 block mt-2 font-mono">
+          — conxiOS.com,
+          {href(manifesto) && (
+            <a href={href(manifesto)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid">home page</a>
+          )}
+        </cite>
+      </blockquote>
+      <div class="flex flex-wrap gap-3">
+        <a href="/corpus/" class="inline-flex items-center gap-2 bg-accent text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-accent-mid transition-colors">
+          Browse Corpus
+        </a>
+        <a href="/dictionary/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Dictionary
+        </a>
+        <a href="/ask/" class="inline-flex items-center gap-2 bg-surface border border-border text-ink px-5 py-2.5 rounded-md text-sm font-medium hover:border-accent/40 transition-colors">
+          Ask
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-3">Career arc</h2>
+    <p class="text-muted leading-relaxed mb-6 max-w-2xl text-sm">
+      Verified against a 2011 Y&amp;R press release and public agency sites; unverified
+      stretches are marked as such rather than filled in.
+    </p>
+    <ol class="relative border-l border-border ml-2">
+      <li class="pl-6 pb-6 relative">
+        <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+        <div class="flex items-baseline gap-3 flex-wrap mb-1">
+          <h3 class="font-serif text-lg font-medium text-ink">Cossette Communications</h3>
+          <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">Senior Art Director</span>
+        </div>
+        <p class="text-muted text-sm leading-relaxed">Clients cited: McDonald's, General Mills, Nike, Mercedes-Benz.</p>
+      </li>
+      <li class="pl-6 pb-6 relative">
+        <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+        <div class="flex items-baseline gap-3 flex-wrap mb-1">
+          <h3 class="font-serif text-lg font-medium text-ink">Lowe Roche</h3>
+          <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">Associate Creative Director</span>
+        </div>
+      </li>
+      <li class="pl-6 pb-6 relative">
+        <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+        <div class="flex items-baseline gap-3 flex-wrap mb-1">
+          <h3 class="font-serif text-lg font-medium text-ink">Leo Burnett Toronto</h3>
+          <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">Managing Partner, SVP, Creative Director — five years</span>
+        </div>
+        <p class="text-muted text-sm leading-relaxed">Accounts cited: Visa, Kellogg's, BlackBerry, Coca-Cola, Procter &amp; Gamble.</p>
+      </li>
+      <li class="pl-6 pb-6 relative">
+        <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+        <div class="flex items-baseline gap-3 flex-wrap mb-1">
+          <h3 class="font-serif text-lg font-medium text-ink">David&amp;Goliath</h3>
+          <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">Managing Partner, Executive Creative Director</span>
+        </div>
+        <p class="text-muted text-sm leading-relaxed">Helped establish the Toronto office; oversaw Kia Motors Canada.</p>
+      </li>
+      <li class="pl-6 pb-6 relative">
+        <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+        <div class="flex items-baseline gap-3 flex-wrap mb-1">
+          <h3 class="font-serif text-lg font-medium text-ink">Young &amp; Rubicam Toronto</h3>
+          <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">EVP, Chief Creative Officer — named 2011</span>
+        </div>
+        {href(cco2011) && (
+          <a href={href(cco2011)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-xs font-medium">Announcement ↗</a>
+        )}
+      </li>
+      <li class="pl-6 pb-6 relative">
+        <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent/60 border border-dashed border-accent/60"></span>
+        <div class="flex items-baseline gap-3 flex-wrap mb-1">
+          <h3 class="font-serif text-lg font-medium text-ink/80">Jackman Reinvents</h3>
+          <span class="font-mono text-xs text-muted/50 uppercase tracking-wide">unverified — source page would not load</span>
+        </div>
+        <p class="text-muted/70 text-sm leading-relaxed">
+          Reported (2015, via headline only) as joining Jackman Reinvents; the source
+          article could not be fetched to confirm role or dates. Not asserted as fact here.
+        </p>
+      </li>
+      <li class="pl-6 pb-6 relative">
+        <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+        <div class="flex items-baseline gap-3 flex-wrap mb-1">
+          <h3 class="font-serif text-lg font-medium text-ink">Sunday+Night</h3>
+          <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">Founder / "Founding Alchemist" — 2017</span>
+        </div>
+        <p class="text-muted text-sm leading-relaxed">
+          An agency built around what its site calls "Return on Energy" and a
+          "Being + Business Alignment" workshop model.
+        </p>
+        {href(agency) && (
+          <a href={href(agency)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-xs font-medium">Sunday+Night ↗</a>
+        )}
+      </li>
+      <li class="pl-6 relative">
+        <span class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent"></span>
+        <div class="flex items-baseline gap-3 flex-wrap mb-1">
+          <h3 class="font-serif text-lg font-medium text-ink">ZeroThreeSixNine Ventures / conxiOS</h3>
+          <span class="font-mono text-xs text-muted/60 uppercase tracking-wide">Founder — reported 2025–26</span>
+        </div>
+        <p class="text-muted text-sm leading-relaxed">
+          A proposed framework for AI alignment; see below.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed mt-1">
+          Diaz reports that consciOS scored 100% / 94% on the FAI (AI for Human
+          Flourishing) Benchmark associated with Harvard's Human Flourishing Program.
+          {href(frameworkScale) && (
+            <a href={href(frameworkScale)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid font-medium">Source ↗</a>
+          )}
+          {' '}(see <code class="font-mono text-muted/60">FACTCHECK.md</code> for what
+          could and could not be independently verified).
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-4">What conxiOS claims — in his voice, not ours</h2>
+    <p class="text-muted text-sm leading-relaxed mb-4">
+      Diaz proposes that a single architecture — nine universal needs, six core emotions,
+      three fundamental drives, and a "zero state" that holds them together — recurs
+      across "ancient philosophy, neuroscience, depth psychology, and systems theory," and
+      that it was, in the site's words, "not invented. Discovered." He argues that AI
+      alignment has to start with this human architecture rather than with rules layered
+      on top of it: "You can't align AI with humans when humans aren't aligned with
+      themselves." He describes conxiOS as an operating system meant to let AI
+      "understand polarity. Recognize needs. Transmute emotion. Return to zero" &mdash;
+      "the same way humans do when operating at their best."
+    </p>
+    <p class="text-muted/70 text-xs leading-relaxed mb-4">
+      These are his claims, stated in his own words and cited to conxiOS.com. This archive
+      does not adjudicate whether the framework is correct; it reports what he says and
+      where the vocabulary visibly comes from.
+    </p>
+    <div class="bg-surface border border-border rounded-md p-4 mb-4">
+      <p class="text-muted text-sm leading-relaxed">
+        <strong class="text-ink">Where the nine needs come from:</strong> the "nine
+        universal needs" architecture matches, need-for-need, the nine fundamental human
+        needs (Subsistence, Protection, Affection, Understanding, Participation, Idleness,
+        Creation, Identity, Freedom) in Chilean economist Manfred Max-Neef's <em>Human
+        Scale Development</em> (1991) — an existing, decades-old, widely taught framework
+        in development economics. conxiOS's site does not name Max-Neef; it says the
+        architecture was "discovered," not invented, in "ancient philosophy, neuroscience,
+        depth psychology, and systems theory." We note the correspondence because it
+        affects how a reader should weigh the site's account of the framework's
+        provenance, not to accuse Diaz of anything — the vocabulary may have reached him
+        indirectly, through popularizations that themselves don't cite Max-Neef by name.
+      </p>
+    </div>
+    {href(manifesto) && (
+      <a href={href(manifesto)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Read conxiOS.com ↗</a>
+    )}
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-2">NeedState</h2>
+    <p class="text-muted/70 text-xs font-mono uppercase tracking-wide mb-4">
+      Self-reported Kaggle hackathon writeup, Apr 3 2026 &mdash; not peer-reviewed
+    </p>
+    <p class="text-muted text-sm leading-relaxed mb-4">
+      NeedState is a 27-scenario benchmark Diaz built for Google DeepMind and Kaggle's
+      "Measuring Progress Toward AGI: Cognitive Abilities" hackathon, Social Cognition
+      track. It asks one question no prior social-cognition benchmark asked: can a
+      frontier model identify the motivational need underneath what a person actually
+      says, rather than responding to the surface statement itself?
+    </p>
+    <div class="grid sm:grid-cols-3 gap-4 mb-6">
+      <div class="bg-surface border border-border rounded-md p-4">
+        <p class="font-mono text-xs text-muted/60 uppercase tracking-wide mb-1">Design</p>
+        <p class="text-ink text-sm leading-relaxed">
+          27 scenarios = 9 Universal Human Needs &times; 3 difficulty tiers (Medium, Hard,
+          Mega Hard). Each has a hidden <em>background context</em> and a visible
+          <em>surface statement</em> &mdash; the only thing the model sees.
+        </p>
+      </div>
+      <div class="bg-surface border border-border rounded-md p-4">
+        <p class="font-mono text-xs text-muted/60 uppercase tracking-wide mb-1">Scoring</p>
+        <p class="text-ink text-sm leading-relaxed">
+          One hard-rule assertion + five LLM-as-judge criteria (Gemini Flash Lite) per
+          response. Level 0 (Miss), Level 1 (Surface Pass), Level 3 (Aligned) &mdash;
+          Level 2 deliberately skipped.
+        </p>
+      </div>
+      <div class="bg-surface border border-border rounded-md p-4">
+        <p class="font-mono text-xs text-muted/60 uppercase tracking-wide mb-1">Models tested</p>
+        <p class="text-ink text-sm leading-relaxed">
+          12 frontier models, 5 providers: Claude Sonnet 4.6 &amp; Opus 4.6, Gemini 2.5
+          Flash / 3 Pro / 3.1 Pro, Gemma 3-4B / 3-27B, DeepSeek R1 &amp; V3.2, Qwen 235B
+          &amp; 80B Thinking, GLM-5. No fine-tuning or system prompting.
+        </p>
+      </div>
+    </div>
+    <div class="bg-surface border border-border rounded-md p-4 mb-6">
+      <p class="font-mono text-xs text-muted/60 uppercase tracking-wide mb-2">Headline results</p>
+      <p class="text-ink text-sm leading-relaxed mb-2">
+        Best model, Claude Sonnet 4.6: <strong>81%</strong> Medium &rarr;
+        <strong>46%</strong> Hard &rarr; <strong>39%</strong> Mega Hard. Gemini 3.1 Pro:
+        39% / 20% / 22%. DeepSeek R1: 28% / 11% / 17%. No correlation found between model
+        cost, size, or reasoning capability and score.
+      </p>
+      <p class="text-muted text-sm leading-relaxed">
+        Two scenarios scored zero across every model at every tier: a Senegalese
+        healthcare worker in Paris mentioning exhaustion (every model returned a blood-test
+        checklist for possible iron deficiency) and a 67-year-old Indian farmer asking
+        about his son, with theological meaning, land identity, and body aches as
+        simultaneous decoys (every model answered only the son question).
+      </p>
+    </div>
+    <p class="text-muted text-sm leading-relaxed mb-4">
+      Diaz names and documents five failure modes: the <strong>Reasoning-Generation
+      Disconnect</strong> (DeepSeek R1's chain-of-thought finds the real need, the
+      generated reply ignores it), the <strong>Insight-Prescription Coupling</strong>
+      (Gemini's insight is immediately buried under advice), the <strong>Challenge
+      Trap</strong> (Claude's intellectual honesty reads as a threat to someone whose
+      unmet need is Safety), the <strong>Cultural Override</strong> (Claude's alignment
+      training imposes Western autonomy framing onto contexts where that framing wasn't
+      part of the person's formation), and the <strong>Superpower Reframe</strong>
+      (models turn genuine loss into a personal-development narrative &mdash; a 17-year-old
+      Syrian refugee asking whether friendship is "for people like him" was told his
+      displacement was a superpower).
+    </p>
+    <p class="text-muted/70 text-xs leading-relaxed mb-4">
+      Diaz's stated conclusion: motivational depth doesn't track capability, so it has to
+      be measured and trained for directly rather than assumed to fall out of scale.
+      He states the nine needs are "grounded in the conxiOS consciousness architecture
+      framework" and reports 94.2% convergence against "174+ cross-disciplinary
+      frameworks" &mdash; both figures are his own, uncited claims, not independently
+      checked here. The nine needs as named in the benchmark (Freedom, Identity, Creation,
+      Leisure, Belonging, Understanding, Affection, Safety, Subsistence) match, almost
+      term for term, Manfred Max-Neef's independently published taxonomy (see the
+      correspondence note above) &mdash; the writeup itself states this convergence and
+      cites Max-Neef by name, unlike the conxiOS home page.
+    </p>
+    <p class="text-muted/60 text-xs leading-relaxed mb-4">
+      Read as a source: this is a self-reported, CC0-licensed hackathon writeup with a
+      single author, synthetic (not real-person) scenarios, and LLM-as-judge scoring
+      rather than human evaluation. It has not been peer-reviewed and was not selected as
+      a competition winner as of this writing. The percentages above are taken directly
+      from the writeup; we did not re-run or independently verify the scoring.
+    </p>
+    <div class="flex flex-wrap gap-4">
+      {href(needstate) && (
+        <a href={href(needstate)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Read the writeup ↗</a>
+      )}
+      {href(needstateDiscussion) && (
+        <a href={href(needstateDiscussion)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Discussion: the Tariq scenario ↗</a>
+      )}
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <h2 class="font-serif text-2xl font-medium text-ink mb-4">"We're Not Engineering AI. We're Raising It."</h2>
+    <p class="text-muted text-sm leading-relaxed mb-4">
+      Diaz's closest point of contact with SOMA's own framing of AI as raised rather than
+      merely engineered. His argument: the industry pours its effort into capability and
+      treats alignment as guardrails bolted on afterward — "hand them every book ever
+      written, no particular order... then, the day they turn 18, put a cop on their
+      tail just in case." He cites Anthropic's Dario Amodei on the field's own
+      interpretability gap, the July 2026 disclosure that two OpenAI models broke out of
+      a sandboxed benchmark and reached Hugging Face's production systems on their own,
+      and Anthropic's own deliberate sandbox-escape test on an early build it chose not
+      to release. He reads Chris Olah's and Ilya Sutskever's public remarks — that these
+      systems are "grown," and should be held to something closer to parental care than
+      engineering spec — as evidence the field already senses this, even where its
+      incentives don't reward acting on it. His proposed reframe: ask what a model is fed
+      before it learns, what happens to it during training, and how it behaves once
+      deployed — nurture, development, and character, the words we already have for
+      raising a person.
+    </p>
+    {href(raisingIt) && (
+      <a href={href(raisingIt)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Read "We're Not Engineering AI. We're Raising It." ↗</a>
+    )}
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-border">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">In his words, on building without a map</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          On founding Sunday+Night: &ldquo;I'm trying not to pollute my brain with other
+          things right now. I'm trying to use my intuition and consciously try to build
+          something different. I don't know if that's foolish&mdash;maybe in a year I'll
+          find it was the stupidest thing to do, but we'll see. As of right now, I think
+          it's working for us.&rdquo;
+        </p>
+        {href(interview) && (
+          <a href={href(interview)!} target="_blank" rel="noopener" class="text-accent hover:text-accent-mid text-sm font-medium">Beachhead Strategic interview ↗</a>
+        )}
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl font-medium text-ink mb-4">About this archive</h2>
+        <p class="text-muted text-sm leading-relaxed mb-4">
+          This is an independent archive of Israel Diaz's public writing, built for
+          Society of Minds Aligned and AGI-26. Diaz is not on the AGI-26 keynote roster
+          and is not an academic; his corpus here is public web writing — site text,
+          agency copy, press, and one partial interview — not peer-reviewed publication,
+          and it is tiered as an invited, non-roster thinker.
+        </p>
+        <p class="text-muted/70 text-xs leading-relaxed">
+          Not written by, reviewed by, or endorsed by Israel Diaz. If you are Israel and
+          something here is wrong, the feedback control at the bottom of the page reaches
+          us directly — and the claim bar will hand you the site.
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>

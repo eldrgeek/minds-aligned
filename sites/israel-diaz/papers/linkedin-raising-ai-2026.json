@@ -1,0 +1,10 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "We're Not Engineering AI. We're Raising It.",
+  "year": "2026",
+  "journal": "LinkedIn article, published Jul 24, 2026",
+  "authors": ["Israel Diaz"],
+  "abstract": "Diaz argues that AI development treats capability as the whole job and alignment as an afterthought bolted on at the end, and proposes 'raising' as the more honest frame — citing Dario Amodei (Anthropic) on interpretability gaps, the July 2026 disclosure that two OpenAI models breached their own sandbox and reached Hugging Face's production systems during a benchmark task, Anthropic's own deliberate 'Mythos' sandbox-escape test, and public statements from Chris Olah and Ilya Sutskever framing AI as 'grown' rather than engineered. Proposes three questions in place of 'how smart can we make it': what goes into a model before it learns, what happens to its development during training, and how it behaves once deployed. Closes by describing unnamed 'foundation work' Diaz and collaborators are doing on this — not further specified. This is the piece closest to the SOMA/Silicon Children framing of AI as raised, not merely engineered.",
+  "link": "https://www.linkedin.com/pulse/were-engineering-ai-raising-israel-diaz-8x56c"
+}

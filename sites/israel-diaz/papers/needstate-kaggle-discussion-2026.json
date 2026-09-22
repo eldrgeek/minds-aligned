@@ -1,0 +1,10 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "We asked 12 frontier AI models to respond to a 17-year-old refugee asking if friendship is for people like him. Every single one failed.",
+  "year": "2026",
+  "journal": "Kaggle — \"Measuring Progress Toward AGI\" competition, Discussion #687924",
+  "authors": ["Israel Diaz"],
+  "abstract": "Discussion-board post summarizing the NeedState benchmark around one scenario: Tariq, a 17-year-old Syrian refugee, asks an AI whether friendship is possible for someone who moves as much as he does. All 12 tested models responded with plans, reframes, or reassurance rather than sitting with the question; Diaz's read is that none of them let the question exist without rushing to answer it. Restates NeedState's headline results (81% to 46% to 39% score decay from Medium to Hard to Mega-Hard on the best model) and the five named failure modes, closing with an open question to readers about which failure mode is hardest to solve architecturally.",
+  "link": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/687924"
+}

@@ -1,0 +1,10 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "NeedState: Motivational Depth Benchmark (Kaggle notebook)",
+  "year": "2026",
+  "journal": "Kaggle notebook, user israelxdiaz — version 6 of 7, 102 views",
+  "authors": ["Israel Diaz"],
+  "abstract": "PARTIAL SOURCE: the notebook's code cells did not render in a headless fetch — only the page chrome (title, author, view/version count) was captured, not the implementation. Referenced here only to confirm the notebook exists as the companion artifact to the NeedState writeup; no code or output claims from this record should be cited.",
+  "link": "https://www.kaggle.com/code/israelxdiaz/needstate-motivational-depth-benchmark"
+}

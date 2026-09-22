@@ -188,7 +188,8 @@ netlify deploy --prod \
 Build first with `npm run build` inside the subsite. Get `<SITE_UUID>` from
 `netlify api listSites` — **not** the site *name*; `listSiteDeploys` and friends 404 on a
 name. Known IDs: `agi26-hananel-hazan` = `208eaa16-daea-4268-aeef-7b273db01c4d`,
-`minds-aligned-soma` (→ minds-aligned.org) = `3dac5361-f1a6-4027-b57c-261984c1371d`.
+`minds-aligned-soma` (→ minds-aligned.org) = `3dac5361-f1a6-4027-b57c-261984c1371d`,
+`agi26-israel-diaz` = `cb7a24c9-58fe-453f-b660-504e5efa0312`.
 
 After any subsite deploy, **check the Production URL the CLI prints** before believing it
 worked. That line is the only thing that reveals a wrong-site publish.

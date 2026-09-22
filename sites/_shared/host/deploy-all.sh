@@ -50,6 +50,7 @@ SITES=(
   "neil-gershenfeld|96da8ad2-71e0-4af6-9440-ba1a8083b39f|neil-gershenfeld|$ROOT/sites/neil-gershenfeld"
   "alexander-lerchner|3df1642a-3abd-4ea8-b162-f757a87049b9|alexander-lerchner|$ROOT/sites/alexander-lerchner"
   "alex-wissner-gross|474be91d-9f2b-4e33-9981-61fc341e20e5|alex-wissner-gross|$ROOT/sites/alex-wissner-gross"
+  "israel-diaz|cb7a24c9-58fe-453f-b660-504e5efa0312|israel-diaz|$ROOT/sites/israel-diaz"
   "levinese|2ab17854-9e22-436b-b916-9f78d1335a54|-|$HOME/Projects/Levinese"
   "joschese|e8b5868e-4dc2-4993-822e-dd97a9c09ac6|-|$HOME/Projects/Joscha"
 )
