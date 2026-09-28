@@ -37,18 +37,17 @@
   - PlayMaker's hosts, AIs on call and statuses: PlayMaker How-To Draft 3
     (14 Sept 2026), the host table and "The AIs on call" table.
 
-  TWO SENTENCES HERE GO BEYOND CANON, and are on Mike's Waiting on Mike page
-  for a ruling:
-  1. "You stay the author" is stated for every SOMA app. The canon states it
-     only for PlayMaker (playmaker/CLAUDE.md:5). The brief for this page asked
-     for it as a SOMA-app property.
-  2. The definition of a SOMA site. The canon has none. This page assembles it
-     from SOMA/canon/in-place-editable-content.md:14-18 (a living surface its
-     human owner keeps shaping; every AI-managed surface has a human manager),
-     STD §8 (:270, "Every SOMA site ... carries the soma-feedback widget"), and
-     Mike on 2026-07-05 (SOMA/state/compact-20260705-1528.md:87): "first-class
-     SOMA sites. Auth would be optional, and the Guide optional for now, but I
-     like the feedback button on every page."
+  These two sentences went beyond canon and sat on Mike's Waiting on Mike page for a
+  ruling. Both are now ruled (2026-09-27, Mike Wolf, in the Accord walkthrough with the
+  lead — see the changed sections below):
+  1. Host pair for a SOMA site. Was: "a human owner" alone. Ruled: "A SOMA site has at
+     least one human and one AI host or manager." The canon for the app side still
+     applies: STD §1 (:142-146).
+  2. Authorship for a SOMA app. Was: "You stay the author," stated as a blanket SOMA-app
+     property, though the canon states it only for PlayMaker (playmaker/CLAUDE.md:5).
+     Ruled: "Some apps have AI co-authors and authors. PlayMaker lets the AI help but
+     not write the play." Who writes now varies by app; PlayMaker keeps the sole-author
+     rule the canon always gave it.
 
   The lists: each URL was opened on 2026-09-14 and returned 200, and each
   front page's served HTML carried the soma-feedback chip. Apps are the two
@@ -57,7 +56,8 @@
 
   Authorship: Mike Wolf (ruling and direction, 2026-09-14). Drafted by Claude
   (Opus 5, CCc) in a session assigned by the PlayMaker COS; canon research by
-  Mem.
+  Mem. Updated 2026-09-27 from Mike Wolf's ruling in the Accord walkthrough;
+  edited by Claude (Sonnet 5).
 
   Mike can correct the words on this page in place: SOMA §17 Live Edit loads
   for admins at the bottom of the page and publishes through a commit (see
@@ -216,8 +216,9 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;}
       <p data-soma-editable="soma-apps-part-space">You and the AIs work in the same place. You do not have to copy your work into a separate chat window to get help with it.</p>
     </div>
     <div class="part">
-      <h3>You stay the author</h3>
-      <p data-soma-editable="soma-apps-part-author">The AIs can suggest, ask you questions, look things up, read aloud and tidy. They do not write your work for you. You decide what it says.</p>
+      <h3>Authorship depends on the app</h3>
+      <p data-soma-editable="soma-apps-part-author">Who writes it depends on the app. In some SOMA apps, AIs are co-authors or authors.</p>
+      <p data-soma-editable="soma-apps-part-author-2">In PlayMaker, the AIs can suggest, ask you questions, look things up, read aloud and tidy. They never write the play. You stay the author there.</p>
     </div>
     <div class="part">
       <h3>It changes when you ask</h3>
@@ -253,8 +254,8 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;}
       <p data-soma-editable="soma-apps-site-feedback">Anyone can use it to tell the team what is wrong, or what they would like to see.</p>
     </div>
     <div class="part">
-      <h3>A human owner</h3>
-      <p data-soma-editable="soma-apps-site-owner">Every SOMA site has a named person who answers for what it says.</p>
+      <h3>A human host and an AI host</h3>
+      <p data-soma-editable="soma-apps-site-owner">Every SOMA site has at least one named person who hosts or manages it. It also has at least one named AI who hosts or manages it.</p>
     </div>
     <div class="part">
       <h3>Corrected in place</h3>
@@ -265,8 +266,8 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;}
       <p data-soma-editable="soma-apps-site-signin">Most SOMA sites can be read without an account.</p>
     </div>
     <div class="part">
-      <h3>An AI guide is optional</h3>
-      <p data-soma-editable="soma-apps-site-guide">Many SOMA sites have an AI you can talk to about what is on them. Some do not.</p>
+      <h3>Talking with an AI is optional</h3>
+      <p data-soma-editable="soma-apps-site-guide">The AI host looks after the site. That part is required, not optional. Talking with an AI about what is on the site is a different thing. Many SOMA sites let you do that. Some do not.</p>
     </div>
   </div>
 
@@ -276,7 +277,7 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;}
 <!-- ═══ HOW THEY DIFFER ═══ -->
 <section id="differ">
   <h2 data-soma-editable="soma-apps-h-differ">How they differ</h2>
-  <p class="sub" data-soma-editable="soma-apps-differ-intro">The main difference is whose work it is. In an app, the work is yours. On a site, the words are the owner's.</p>
+  <p class="sub" data-soma-editable="soma-apps-differ-intro">The main difference is whose work it is. In an app, who writes it depends on which app. In PlayMaker, it stays yours. On a site, the words are the owner's.</p>
   <div class="table-wrap">
     <table>
       <thead>
@@ -284,9 +285,9 @@ footer{border-top:1px solid var(--rule);padding:3rem 2rem;text-align:center;}
       </thead>
       <tbody>
         <tr><th scope="row">You go there to</th><td>do your own work</td><td>read, learn and ask</td></tr>
-        <tr><th scope="row">Whose work it is</th><td>yours, and you stay the author</td><td>the owner's</td></tr>
-        <tr><th scope="row">Who looks after it</th><td>a human host and an AI host, always</td><td>a human owner, sometimes with an AI host</td></tr>
-        <tr><th scope="row">Help from AIs</th><td>the AI host, plus specialists on call</td><td>sometimes an AI guide</td></tr>
+        <tr><th scope="row">Whose work it is</th><td>depends on the app; PlayMaker: yours</td><td>the owner's</td></tr>
+        <tr><th scope="row">Who looks after it</th><td>a human host and an AI host, always</td><td>a human host and an AI host, always</td></tr>
+        <tr><th scope="row">Help from AIs</th><td>the AI host, plus specialists on call</td><td>the AI host; talking with it is optional</td></tr>
         <tr><th scope="row">A shared place to work</th><td>yes</td><td>no</td></tr>
         <tr><th scope="row">Sign-in</th><td>yes, so it can keep your work</td><td>usually not needed</td></tr>
         <tr><th scope="row">Feedback button</th><td>on every page</td><td>on every page</td></tr>
