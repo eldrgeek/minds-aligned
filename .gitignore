@@ -7,3 +7,6 @@ raw/
 derive/out/
 index/store/
 *.log
+
+# Worker progress beacons (task/pct/step JSON written by dispatched workers)
+/*-progress.json

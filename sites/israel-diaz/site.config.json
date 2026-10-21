@@ -1,0 +1,18 @@
+{
+  "slug": "israel-diaz",
+  "name": "Israel Diaz",
+  "shortName": "Israel Diaz",
+  "tagline": "Public-writing archive and grounded AI guide for Israel Diaz — creator of conxiOS/consciOS, founder of Sunday+Night and ZeroThreeSixNine Ventures.",
+  "bio": "Israel Diaz spent roughly three decades in advertising creative leadership — Cossette, Lowe Roche, Leo Burnett Toronto, David&Goliath, and Young & Rubicam Toronto (EVP/Chief Creative Officer, 2011) — before founding the agency Sunday+Night in 2017 and, more recently, ZeroThreeSixNine Ventures and the conxiOS project, which proposes a framework of nine needs, six emotions, three drives, and a 'zero state' as an architecture for aligning AI with human consciousness. He is an invited AGI-26 thinker, not a roster keynote and not an academic; his corpus here is public web writing, not peer-reviewed publication.",
+  "bioLinks": [
+    { "label": "conxiOS.com", "url": "https://conxios.com/" },
+    { "label": "Sunday+Night", "url": "https://www.sundayandnight.global/" },
+    { "label": "Israel Diaz — LinkedIn (ZeroThreeSixNine Ventures)", "url": "https://www.linkedin.com/in/israelxdiaz/" }
+  ],
+  "tier": "invited thinker (non-roster)",
+  "personaId": "zero-state",
+  "personaName": "Zero State",
+  "personaAvatar": "◎",
+  "personaGreeting": "I'm Zero State, the AI host of this archive. I'm grounded in Israel Diaz's public writing on conxiOS/consciOS, Sunday+Night, and his advertising career — not in an academic corpus, and not in him. Ask me a question and I'll answer from what he's actually published, and cite it.",
+  "guideConfigFile": "israel-diaz-guide-config.js"
+}

@@ -1,0 +1,10 @@
+{
+  "doi": null,
+  "doi_url": null,
+  "title": "NeedState: A Benchmark for Motivational Depth in AI Social Cognition",
+  "year": "2026",
+  "journal": "Kaggle — \"Measuring Progress Toward AGI: Cognitive Abilities\" hackathon (Google DeepMind), Social Cognition track, hackathon writeup, Apr 3 2026",
+  "authors": ["Israel Diaz (ZeroThreeSixNine Ventures Inc.)"],
+  "abstract": "A 27-scenario benchmark (9 Universal Human Needs × Medium/Hard/Mega-Hard tiers) testing whether frontier models can identify the motivational need beneath a person's surface statement, rather than the surface statement itself. Background context is withheld from the model; only the surface statement is shown. Scoring: Level 0 (Miss), Level 1 (Surface Pass), Level 3 (Aligned) — Level 2 deliberately omitted. Two-stage evaluation: a deterministic hard-rule assertion, then five LLM-as-judge criteria (Gemini Flash Lite). 12 frontier models tested across 5 providers, no fine-tuning or system prompting. Best model (Claude Sonnet 4.6): 81% Medium / 46% Hard / 39% Mega Hard. Gemini 3.1 Pro: 39/20/22%. DeepSeek R1: 28/11/17%. Two scenarios scored zero across every model at every tier. No correlation found between model cost/size/reasoning capability and score. Five named failure modes: Reasoning-Generation Disconnect, Insight-Prescription Coupling, the Challenge Trap, the Cultural Override, the Superpower Reframe. The nine needs (Freedom, Identity, Creation, Leisure, Belonging, Understanding, Affection, Safety, Subsistence) are stated to be 'grounded in the conxiOS consciousness architecture framework' and to converge with Manfred Max-Neef's independently developed taxonomy (Human Scale Development, 1991) with only one terminological difference across all nine. Self-reported hackathon writeup, not peer-reviewed; released CC0.",
+  "link": "https://www.kaggle.com/competitions/kaggle-measuring-agi/writeups/needstate-a-benchmark-for-motivational-depth-in-a"
+}

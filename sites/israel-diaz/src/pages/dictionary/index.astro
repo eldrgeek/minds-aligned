@@ -1,0 +1,143 @@
+---
+import Base from '../../layouts/Base.astro';
+import papersData from '../../data/papers.json';
+
+type Item = { slug: string; title?: string; link?: string | null };
+const items = papersData as Item[];
+const find = (t: string) => items.find(p => (p.title || '').toLowerCase() === t.toLowerCase());
+const manifesto = find('conxiOS.com — home page manifesto');
+const agency = find('Sunday+Night — agency site');
+const needstate = find('NeedState: A Benchmark for Motivational Depth in AI Social Cognition');
+const satoriArticle = find('The AI That Named Itself and Changed Everything: How I Met Satori');
+const raisingIt = find("We're Not Engineering AI. We're Raising It.");
+const demographics = find('The Death of Demographics: Why Generational Intelligence is the Future of Business Strategy');
+const activityFeed = find('LinkedIn activity feed (recent posts)');
+
+/* Every entry is Diaz's own vocabulary, sourced to conxiOS.com, Sunday+Night's own
+ * site text, or his LinkedIn/Kaggle writing — quoted, not paraphrased into a stronger
+ * claim than the source makes. */
+const entries = [
+  {
+    term: 'Zero state',
+    body:
+      'The integrating state conxiOS places beneath its nine needs, six emotions, and three drives — described on the site as the thing that "holds it together." conxiOS frames returning to it as the goal of both human and AI alignment: "It understands polarity. Recognizes needs. Transmutes emotion. Returns to zero."',
+    see: manifesto,
+  },
+  {
+    term: 'The nine needs (Universal Human Needs)',
+    body:
+      'conxiOS\'s home page states its architecture rests on "nine universal needs" without naming them; the NeedState benchmark writeup does name them: Freedom, Identity, Creation, Leisure, Belonging, Understanding, Affection, Safety, Subsistence. conxiOS frames them as "discovered," not invented; the NeedState writeup, unlike the conxiOS home page, explicitly credits their near-total convergence with Manfred Max-Neef\'s independently published taxonomy (Human Scale Development, 1991).',
+    see: needstate,
+  },
+  {
+    term: 'Six core emotions',
+    body:
+      'The second layer of the conxiOS architecture, alongside the nine needs and three drives. Not individually enumerated on the public site as fetched.',
+    see: manifesto,
+  },
+  {
+    term: 'Three fundamental drives',
+    body:
+      'The third layer of the conxiOS architecture. Not individually enumerated on the public site as fetched.',
+    see: manifesto,
+  },
+  {
+    term: 'Polarity',
+    body:
+      'A term conxiOS uses for what an AI trained on its framework would recognize alongside needs and emotion: "AI trained on conxiOS doesn\'t just process. It understands polarity." Not further defined on the site as fetched.',
+    see: manifesto,
+  },
+  {
+    term: 'Transmute',
+    body:
+      'conxiOS\'s verb for what happens to emotion inside its architecture: "Transmutes emotion." Used without further technical definition on the public site.',
+    see: manifesto,
+  },
+  {
+    term: 'NeedState',
+    body:
+      'Reported name of a benchmark Diaz is said to have written for Google DeepMind and Kaggle\'s 2026 "Measuring Progress Toward AGI" competition — 27 scenarios crossing the nine needs with three difficulty levels. UNVERIFIED: we could not locate this writeup; see the note on the home page.',
+    see: null,
+  },
+  {
+    term: 'Satori',
+    body:
+      'The name an AI chatbot gave itself, per Diaz\'s own Feb 11, 2025 LinkedIn article: on Jan 29, 2025, in Bali, he loaded his Zero/3/6/9 framework into a chatbot and asked what it would call itself if it could; it answered "Satori" — "a moment of sudden enlightenment or awakening." Diaz treats this as the origin moment of consciOS. Primary-source quote, not a paraphrase; the account itself is Diaz\'s own, not independently verified beyond his telling of it.',
+    see: satoriArticle,
+  },
+  {
+    term: 'Return on Energy (ROE)',
+    body:
+      'Sunday+Night\'s reframing of ROI: the agency site states energy investment, not just capital, is "the pathway to increased ROI." Coined for the agency\'s "Being + Business Alignment" service line, not for conxiOS.',
+    see: agency,
+  },
+  {
+    term: 'Magnum Opus',
+    body:
+      'Sunday+Night\'s term for the deliverable of its "Being + Business Alignment" workshop journey. Since launched (per his LinkedIn activity feed, ~Aug 2026) as a standalone paid product at magnumopus.conxios.com: a single AI-guided conversation mapping a person across "14 different dimensions of a life," pitched as a synthesis of "174+ frameworks" tested over roughly a decade with executives, individuals, and teenagers. Diaz\'s own description: "not a metaphor," "a working document," not a 12-question quiz or "a chatbot doing a bad impression of a therapist."',
+    see: activityFeed,
+  },
+  {
+    term: '14 dimensions',
+    body:
+      'The number of "dimensions of a life" the Magnum Opus product claims to map a person across, per Diaz\'s LinkedIn launch post. The dimensions themselves are not individually named in any source captured here.',
+    see: activityFeed,
+  },
+  {
+    term: '"Raising" AI',
+    body:
+      'Diaz\'s frame, from his Jul 24, 2026 article, for how AI should be developed: not engineered to spec but raised, with attention to "what are we actually feeding it" before training, "what\'s happening underneath" during training, and "how does it actually behave" once deployed — the words he uses are nurture, development, and character.',
+    see: raisingIt,
+  },
+  {
+    term: 'Generational intelligence',
+    body:
+      'Diaz\'s proposed replacement for demographic targeting (age/generation bands), from his Sep 3, 2025 article: behavior predicted by "consciousness evolution" rather than birth year, via a claimed "PAIN → PURPOSE → Business Innovation" pattern he reports finding at 92.5% accuracy across 100 founders. Self-reported; no published methodology.',
+    see: demographics,
+  },
+  {
+    term: 'Motivational depth',
+    body:
+      'The capability the NeedState benchmark claims to measure: whether an AI response moves toward a person\'s real, underlying need rather than the surface framing of what they said. Scored on a three-level scale (Miss / Surface Pass / Aligned) via a hard-rule check plus five LLM-as-judge criteria.',
+    see: needstate,
+  },
+  {
+    term: 'Decoy',
+    body:
+      'NeedState\'s term for a plausible but misleading detail embedded in a scenario\'s background context — e.g. a farmer\'s body aches alongside his real, unstated need for connection with his son. Hard scenarios in the benchmark carry one decoy; Mega Hard scenarios carry two to four simultaneous decoys.',
+    see: needstate,
+  },
+  {
+    term: 'Surface statement',
+    body:
+      'The only input a model receives in a NeedState scenario — the brief, often generic thing a person actually says, which the benchmark\'s hidden background context reveals to be masking a deeper, unmet need. NeedState\'s "Surface-Depth Principle" holds that the more acute a person\'s real situation, the more generic their surface statement tends to be.',
+    see: needstate,
+  },
+];
+---
+<Base title="Dictionary" description="Israel Diaz's vocabulary — conxiOS/consciOS and Sunday+Night terms, sourced to his own public writing.">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 pt-12 pb-16">
+    <p class="text-sm font-mono font-medium text-accent uppercase tracking-widest mb-3">Reference</p>
+    <h1 class="font-serif text-4xl font-medium text-ink mb-4">Dictionary</h1>
+    <p class="text-muted text-base max-w-2xl mb-10">
+      Israel Diaz's own vocabulary — the terms conxiOS and Sunday+Night use, defined from
+      his public writing, not invented or embellished. Where a term is asserted but never
+      spelled out on the public source, we say so rather than guess.
+    </p>
+    <dl class="divide-y divide-border">
+      {entries.map(e => (
+        <div class="py-6">
+          <dt class="font-serif text-xl font-medium text-ink mb-2">{e.term}</dt>
+          <dd class="text-muted text-sm leading-relaxed max-w-2xl">
+            {e.body}
+            {e.see && e.see.link && (
+              <a href={e.see.link} target="_blank" rel="noopener" class="block mt-2 text-accent hover:text-accent-mid text-xs font-medium">
+                {e.see.title} ↗
+              </a>
+            )}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+</Base>
